@@ -1,0 +1,161 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} - Ship{% endblock %}
+
+{% block content %}
+<article class="ship-detail">
+  <header class="detail-nav">
+    <div class="breadcrumb">
+      <a href="/ships">SHIPS</a>
+      <span>/</span>
+      <a href="/ships?type={{ page.extra.ship_type }}">{{ page.extra.ship_type | upper }}</a>
+      <span>/</span>
+      <span>{% if page.extra.size == "Lgt" %}LIGHT CLASS{% elif page.extra.size == "Std" %}STANDARD CLASS{% else %}HEAVY CLASS{% endif %}</span>
+      <span>/</span>
+      <span class="current">{{ page.title | upper }}</span>
+    </div>
+    <div class="actions">
+      <button class="btn"><span>⊞</span> Compare</button>
+      <button class="btn"><span>↗</span> Share</button>
+      <button class="btn btn-primary"><span>✎</span> Suggest edit</button>
+    </div>
+  </header>
+
+  <section class="ship-hero">
+    <div class="ship-badges">
+      <span class="badge badge-{{ page.extra.ship_type }}">{{ page.extra.ship_type | upper }}</span>
+      <span class="badge">{% if page.extra.size == "Lgt" %}LIGHT CLASS{% elif page.extra.size == "Std" %}STANDARD CLASS{% else %}HEAVY CLASS{% endif %}</span>
+      <span class="badge-text">{{ page.extra.masts }} MASTS · {{ page.extra.material | upper }}</span>
+    </div>
+
+    <h1>{{ page.title }}</h1>
+
+    <p class="ship-description">{{ page.content | safe | striptags }}</p>
+
+    <div class="quick-stats">
+      <div class="quick-stat">
+        <span class="stat-label">ADVENTURE REQ.</span>
+        <span class="stat-value">Lv {{ page.extra.level_adventure }}</span>
+      </div>
+      <div class="quick-stat">
+        <span class="stat-label">TOTAL SAIL</span>
+        <span class="stat-value highlight">{{ page.extra.vertical_sail + page.extra.horizontal_sail }}</span>
+        <span class="stat-sub">V {{ page.extra.vertical_sail }} · H {{ page.extra.horizontal_sail }}</span>
+      </div>
+      <div class="quick-stat">
+        <span class="stat-label">HOLD</span>
+        <span class="stat-value">{{ page.extra.hold }}</span>
+      </div>
+      <div class="quick-stat">
+        <span class="stat-label">CABIN</span>
+        <span class="stat-value">{{ page.extra.cabin_min }} <span class="dim">—</span> {{ page.extra.cabin_max }}</span>
+        <span class="stat-sub">crew capacity</span>
+      </div>
+      <div class="quick-stat">
+        <span class="stat-label">PRICE</span>
+        <span class="stat-value">98 400</span>
+        <span class="stat-sub">ducats</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="content-grid">
+    <div class="left-column">
+      <section class="stats-panel">
+        <div class="panel-header-row">
+          <span class="panel-title">PERFORMANCE</span>
+        </div>
+        <table class="stats-table">
+          <tr><td>Durability</td><td>{{ page.extra.durability }}</td></tr>
+          <tr><td>Vertical sail</td><td>{{ page.extra.vertical_sail }}</td></tr>
+          <tr><td>Horizontal sail</td><td>{{ page.extra.horizontal_sail }}</td></tr>
+          <tr><td>Turn speed</td><td>{{ page.extra.turn_speed }}</td></tr>
+          <tr><td>Wave resistance</td><td>{{ page.extra.wave_resistance }}</td></tr>
+        </table>
+      </section>
+
+      <section class="stats-panel">
+        <div class="panel-header-row">
+          <span class="panel-title">AVAILABLE AT</span>
+          <span class="panel-meta">4 PORTS</span>
+        </div>
+        <table class="stats-table ports-table">
+          <tr><td><span class="port-dot"></span> Lisbon</td><td>98 400 đ</td></tr>
+          <tr><td><span class="port-dot"></span> Sevilla</td><td>112 200 đ</td></tr>
+          <tr><td><span class="port-dot"></span> Marseille</td><td>105 800 đ</td></tr>
+          <tr><td><span class="port-dot"></span> Genoa</td><td>108 000 đ</td></tr>
+        </table>
+      </section>
+
+      <section class="stats-panel">
+        <div class="panel-header-row">
+          <span class="panel-title">COMMUNITY NOTES</span>
+          <span class="panel-meta">0 NOTES</span>
+        </div>
+        <div class="empty-state">
+          <span class="empty-icon">📝</span>
+          <p>No notes yet. Be the first to contribute!</p>
+        </div>
+      </section>
+    </div>
+
+    <div class="stats-column">
+      <section class="stats-panel">
+        <div class="panel-header-row">
+          <span class="panel-title">REQUIREMENTS</span>
+        </div>
+        <table class="stats-table">
+          <tr><td>Adventure<br><small>level</small></td><td class="highlight">Lv {{ page.extra.level_adventure }}</td></tr>
+          <tr><td>Trade<br><small>level</small></td><td>Lv {{ page.extra.level_trade }}</td></tr>
+          <tr><td>Battle<br><small>level</small></td><td>Lv {{ page.extra.level_battle }}</td></tr>
+        </table>
+      </section>
+
+      <section class="stats-panel">
+        <div class="panel-header-row">
+          <span class="panel-title">COMBAT</span>
+        </div>
+        <table class="stats-table">
+          <tr><td>Armor</td><td>{{ page.extra.armor }}</td></tr>
+          <tr><td>Cannon<br><small>chambers</small></td><td>{{ page.extra.cannon_chambers }}</td></tr>
+        </table>
+      </section>
+
+      <section class="stats-panel">
+        <div class="panel-header-row">
+          <span class="panel-title">CAPACITY</span>
+        </div>
+        <table class="stats-table">
+          <tr><td>Hold</td><td>{{ page.extra.hold }}</td></tr>
+          <tr><td>Cabin</td><td>{{ page.extra.cabin_min }} — {{ page.extra.cabin_max }}</td></tr>
+          <tr><td>Masts</td><td>{{ page.extra.masts }}</td></tr>
+          <tr><td>Material</td><td>{{ page.extra.material }}</td></tr>
+        </table>
+      </section>
+
+      <section class="stats-panel">
+        <div class="panel-header-row">
+          <span class="panel-title">RECENT EDITS</span>
+          <a href="#" class="panel-link">VIEW ALL</a>
+        </div>
+        <div class="edits-list">
+          <div class="edit-item">
+            <span class="edit-type">+</span>
+            <div class="edit-content">
+              <span class="edit-desc">Added horizontal sail data</span>
+              <span class="edit-meta">3 days ago · Mariela_C</span>
+            </div>
+          </div>
+          <div class="edit-item">
+            <span class="edit-type edit-modify">~</span>
+            <div class="edit-content">
+              <span class="edit-desc">Fixed cabin capacity values</span>
+              <span class="edit-meta">1 week ago · Navigator42</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</article>
+{% endblock %}

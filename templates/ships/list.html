@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="page-header">
+  <h1>Ships</h1>
+  <p class="page-subtitle">{{ section.pages | length }} vessels in the database</p>
+</section>
+
+<section class="items-grid">
+  {% for page in section.pages %}
+  <a href="{{ page.permalink }}" class="item-card">
+    <h3>{{ page.title }}</h3>
+    <div class="item-meta">
+      <span class="badge badge-{{ page.extra.ship_type }}">{{ page.extra.ship_type }}</span>
+      <span class="badge">{{ page.extra.size }}</span>
+    </div>
+    <div class="item-stats">
+      <span>⚓ {{ page.extra.armor }}</span>
+      <span>🎯 {{ page.extra.cannon_chambers }}</span>
+      <span>📦 {{ page.extra.hold }}</span>
+    </div>
+  </a>
+  {% endfor %}
+</section>
+{% endblock %}

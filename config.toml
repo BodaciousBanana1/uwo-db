@@ -1,0 +1,9 @@
+base_url = "https://uwo-wiki.example.com"
+title = "Ivyro - UWO Database"
+description = "Every clue, every recipe, every plate. An open reference for Uncharted Waters Online."
+compile_sass = true
+build_search_index = false
+
+[extra]
+author = "Community"
+entry_count = 1217

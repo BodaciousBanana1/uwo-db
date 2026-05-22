@@ -1,0 +1,120 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero">
+  <div class="hero-label">COMMUNITY DATABASE · UNCHARTED WATERS ONLINE</div>
+  <h1 class="hero-title">Every clue, every recipe, every plate.</h1>
+  <p class="hero-subtitle">An open reference, edited and verified by sailors. Browse, search, suggest a correction.</p>
+  
+  <div class="hero-stats">
+    <div class="stat"><strong>1 217</strong> ENTRIES</div>
+    <div class="stat"><strong>14</strong> REGIONS</div>
+    <div class="stat">LAST BUILT <strong>·LANGUAGES</strong></div>
+  </div>
+</section>
+
+<section class="search-section">
+  <div class="search-box">
+    <span class="search-icon">🔍</span>
+    <input type="text" class="search-input" placeholder='Search 1 217 entries — try "sunken bell", "astrolabe", "Athens"...'>
+    <span class="kbd">⌘K</span>
+  </div>
+  <div class="search-tags">
+    <span class="tag-label">TRY:</span>
+    <a href="#" class="tag">Refined Astrolabe</a>
+    <a href="#" class="tag">R6 hunts</a>
+    <a href="#" class="tag">Caribbean recipes</a>
+    <a href="#" class="tag">Recognition Lv 7</a>
+    <a href="#" class="tag">Cedar Rod</a>
+  </div>
+</section>
+
+<section class="browse-section">
+  <div class="browse-header">
+    <h2>Browse the database</h2>
+    <span class="browse-meta">4 SECTIONS · 1 217 RECORDS</span>
+  </div>
+  
+  <div class="browse-cards">
+    <a href="/ships" class="card card-discoveries">
+      <span class="card-icon">◎</span>
+      <h3>Ships</h3>
+      <p class="card-sub">Battle · Trade · Adventure</p>
+      <div class="card-footer">
+        <span class="card-count">975 RECORDS</span>
+        <span class="card-arrow">→</span>
+      </div>
+    </a>
+    
+    <a href="/equipment" class="card">
+      <span class="card-icon">☐</span>
+      <h3>Equipment</h3>
+      <p class="card-sub">Sailor gear · Stats · Effects</p>
+      <div class="card-footer">
+        <span class="card-count">113 RECORDS</span>
+        <span class="card-arrow">→</span>
+      </div>
+    </a>
+    
+    <a href="/skills" class="card">
+      <span class="card-icon">▣</span>
+      <h3>Skills</h3>
+      <p class="card-sub">Adventure · Trade · Maritime</p>
+      <div class="card-footer">
+        <span class="card-count">129 RECORDS</span>
+        <span class="card-arrow">→</span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<section class="updates-section">
+  <div class="updates-header">
+    <h2>Recent updates</h2>
+    <span class="updates-meta">10 OF 42 THIS WEEK</span>
+    <a href="/updates" class="updates-link">ALL EDITS →</a>
+  </div>
+  
+  <table class="updates-table">
+    <thead>
+      <tr>
+        <th>WHEN</th>
+        <th>ENTRY</th>
+        <th>SECTION</th>
+        <th>CHANGE</th>
+        <th>EDITOR</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="time">2 h ago</td>
+        <td class="entry">Admiral Eendracht</td>
+        <td class="section">SHIPS</td>
+        <td class="change">+1 field note</td>
+        <td class="editor">Mariela_C</td>
+      </tr>
+      <tr>
+        <td class="time">3 h ago</td>
+        <td class="entry">Appraisal</td>
+        <td class="section">SKILLS</td>
+        <td class="change">Description updated</td>
+        <td class="editor">yon_hi</td>
+      </tr>
+      <tr>
+        <td class="time">5 h ago</td>
+        <td class="entry">Sailor Bandanna</td>
+        <td class="section">EQUIPMENT</td>
+        <td class="change">Stats corrected</td>
+        <td class="editor">Rikkard</td>
+      </tr>
+      <tr>
+        <td class="time">8 h ago</td>
+        <td class="entry">Navigation</td>
+        <td class="section">SKILLS</td>
+        <td class="change">Refined effect added</td>
+        <td class="editor">Eun_Sol</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+{% endblock %}
