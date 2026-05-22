@@ -1,0 +1,31 @@
+comments:
+  allowedFields: ["name", "message", "ship_slug"]
+  branch: "main"
+  commitMessage: "New comment on {options.ship_slug}"
+  filename: "{@timestamp}"
+  format: "yaml"
+  generatedFields:
+    date:
+      type: "date"
+      options:
+        format: "iso8601"
+  moderation: true
+  path: "data/comments/{options.ship_slug}"
+  requiredFields: ["name", "message"]
+  transforms:
+    message: "frontmatterContent"
+
+suggestions:
+  allowedFields: ["name", "email", "field", "current_value", "suggested_value", "reason", "ship_slug"]
+  branch: "main"
+  commitMessage: "Suggested edit for {options.ship_slug}: {options.field}"
+  filename: "{@timestamp}"
+  format: "yaml"
+  generatedFields:
+    date:
+      type: "date"
+      options:
+        format: "iso8601"
+  moderation: true
+  path: "data/suggestions/{options.ship_slug}"
+  requiredFields: ["field", "suggested_value"]

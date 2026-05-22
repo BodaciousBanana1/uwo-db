@@ -87,14 +87,48 @@
         </table>
       </section>
 
-      <section class="stats-panel">
+      <section class="stats-panel comments-section">
         <div class="panel-header-row">
           <span class="panel-title">COMMUNITY NOTES</span>
-          <span class="panel-meta">0 NOTES</span>
         </div>
-        <div class="empty-state">
-          <span class="empty-icon">📝</span>
-          <p>No notes yet. Be the first to contribute!</p>
+
+        <div class="comments-tabs">
+          <button class="comment-tab active" data-tab="giscus">GitHub Login</button>
+          <button class="comment-tab" data-tab="anon">Anonymous</button>
+        </div>
+
+        <div class="comment-panel active" id="giscus-panel">
+          <script src="https://giscus.app/client.js"
+            data-repo="BodaciousBanana1/uwo-db"
+            data-repo-id=""
+            data-category="Comments"
+            data-category-id=""
+            data-mapping="pathname"
+            data-strict="0"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="top"
+            data-theme="dark_dimmed"
+            data-lang="en"
+            crossorigin="anonymous"
+            async>
+          </script>
+        </div>
+
+        <div class="comment-panel" id="anon-panel">
+          <form class="anon-comment-form" action="https://api.staticman.net/v3/entry/github/BodaciousBanana1/uwo-db/main/comments" method="POST">
+            <input type="hidden" name="options[ship_slug]" value="{{ page.slug }}">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="fields[name]" placeholder="Anonymous" class="form-input">
+            </div>
+            <div class="form-group">
+              <label for="message">Comment</label>
+              <textarea id="message" name="fields[message]" rows="3" required class="form-input" placeholder="Share tips, corrections, or insights..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit for Review</button>
+            <p class="form-note">Anonymous comments are moderated before appearing.</p>
+          </form>
         </div>
       </section>
     </div>
