@@ -1,0 +1,29 @@
++++
+title = "Modified Jounseon"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0232"
+slug = "modified-jounseon"
+size = "Std"
+ship_type = "trade"
+level_adventure = 7
+level_trade = 12
+level_battle = 2
+durability = 480
+vertical_sail = 220
+horizontal_sail = 110
+row_power = 0
+turn_speed = 10
+wave_resistance = 54
+armor = 0
+hold = 827
+cannon_chambers = 18
+cabin_min = 25
+cabin_max = 50
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

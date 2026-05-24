@@ -1,0 +1,29 @@
++++
+title = "Custom Trading Large Clipper"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0254"
+slug = "custom-trading-large-clipper"
+size = "Hvy"
+ship_type = "trade"
+level_adventure = 36
+level_trade = 70
+level_battle = 28
+durability = 680
+vertical_sail = 215
+horizontal_sail = 300
+row_power = 0
+turn_speed = 9
+wave_resistance = 11
+armor = 0
+hold = 820
+cannon_chambers = 20
+cabin_min = 28
+cabin_max = 60
+masts = 0
+material = "Unknown"
+is_cash_ship = true
+is_steam = false
++++

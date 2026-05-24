@@ -1,0 +1,16 @@
++++
+title = "Ambush pirates at the Hebrides"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "ambush-pirates-at-the-hebrides"
+id = "99996645"
+type = "Maritime"
+city = "London"
+guild_type = "Maritime"
+discovery = ""
+skills = [{ name = "English", level = 1 }]
+variants = [{ city = "London", guild_type = "Maritime", id = "99996645", slug = "ambush-pirates-at-the-hebrides" }]
+steps = []
++++

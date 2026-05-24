@@ -1,0 +1,29 @@
++++
+title = "Custom Armoured Vaisseau"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0255"
+slug = "custom-armoured-vaisseau"
+size = "Hvy"
+ship_type = "battle"
+level_adventure = 42
+level_trade = 32
+level_battle = 68
+durability = 720
+vertical_sail = 120
+horizontal_sail = 250
+row_power = 0
+turn_speed = 9
+wave_resistance = 7
+armor = 0
+hold = 516
+cannon_chambers = 92
+cabin_min = 58
+cabin_max = 112
+masts = 0
+material = "Iron"
+is_cash_ship = true
+is_steam = false
++++

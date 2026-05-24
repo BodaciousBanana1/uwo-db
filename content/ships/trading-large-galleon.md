@@ -1,0 +1,29 @@
++++
+title = "Trading Large Galleon"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0071"
+slug = "trading-large-galleon"
+size = "Hvy"
+ship_type = "trade"
+level_adventure = 20
+level_trade = 44
+level_battle = 20
+durability = 660
+vertical_sail = 110
+horizontal_sail = 245
+row_power = 0
+turn_speed = 9
+wave_resistance = 8
+armor = 0
+hold = 675
+cannon_chambers = 60
+cabin_min = 54
+cabin_max = 95
+masts = 0
+material = "Teak"
+is_cash_ship = true
+is_steam = false
++++

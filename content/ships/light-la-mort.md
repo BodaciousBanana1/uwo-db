@@ -1,0 +1,29 @@
++++
+title = "Light La Mort"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0563"
+slug = "light-la-mort"
+size = "Hvy"
+ship_type = "battle"
+level_adventure = 24
+level_trade = 26
+level_battle = 44
+durability = 715
+vertical_sail = 210
+horizontal_sail = 105
+row_power = 100
+turn_speed = 9
+wave_resistance = 6
+armor = 0
+hold = 400
+cannon_chambers = 80
+cabin_min = 100
+cabin_max = 180
+masts = 0
+material = "Unknown"
+is_cash_ship = true
+is_steam = false
++++

@@ -1,0 +1,16 @@
++++
+title = "Missing trading ship"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "missing-trading-ship-amsterdam"
+id = "99996055"
+type = "Trade"
+city = "Amsterdam"
+guild_type = "Merchant"
+discovery = ""
+skills = [{ name = "Dutch", level = 1 }]
+variants = [{ city = "Seville", guild_type = "Merchant", id = "99995889", slug = "missing-trading-ship-seville" }, { city = "Amsterdam", guild_type = "Merchant", id = "99996055", slug = "missing-trading-ship-amsterdam" }]
+steps = []
++++

@@ -1,0 +1,29 @@
++++
+title = "Modified Indiaman"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0264"
+slug = "modified-indiaman"
+size = "Hvy"
+ship_type = "trade"
+level_adventure = 21
+level_trade = 25
+level_battle = 22
+durability = 700
+vertical_sail = 150
+horizontal_sail = 290
+row_power = 0
+turn_speed = 10
+wave_resistance = 9
+armor = 0
+hold = 714
+cannon_chambers = 56
+cabin_min = 28
+cabin_max = 60
+masts = 0
+material = "Iron"
+is_cash_ship = true
+is_steam = false
++++

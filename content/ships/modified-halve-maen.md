@@ -1,0 +1,29 @@
++++
+title = "Modified Halve Maen"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0614"
+slug = "modified-halve-maen"
+size = "Hvy"
+ship_type = "adventure"
+level_adventure = 36
+level_trade = 24
+level_battle = 16
+durability = 750
+vertical_sail = 250
+horizontal_sail = 270
+row_power = 0
+turn_speed = 10
+wave_resistance = 11
+armor = 0
+hold = 489
+cannon_chambers = 64
+cabin_min = 35
+cabin_max = 92
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

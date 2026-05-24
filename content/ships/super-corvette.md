@@ -1,0 +1,29 @@
++++
+title = "Super Corvette"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0247"
+slug = "super-corvette"
+size = "Std"
+ship_type = "battle"
+level_adventure = 30
+level_trade = 8
+level_battle = 42
+durability = 640
+vertical_sail = 140
+horizontal_sail = 310
+row_power = 0
+turn_speed = 11
+wave_resistance = 5
+armor = 0
+hold = 386
+cannon_chambers = 54
+cabin_min = 38
+cabin_max = 70
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

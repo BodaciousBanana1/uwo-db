@@ -1,0 +1,29 @@
++++
+title = "Redesigned Ghanjah Dhow"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0644"
+slug = "redesigned-ghanjah-dhow"
+size = "Hvy"
+ship_type = "trade"
+level_adventure = 12
+level_trade = 24
+level_battle = 8
+durability = 700
+vertical_sail = 340
+horizontal_sail = 100
+row_power = 0
+turn_speed = 12
+wave_resistance = 14
+armor = 0
+hold = 796
+cannon_chambers = 20
+cabin_min = 25
+cabin_max = 34
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

@@ -1,0 +1,16 @@
++++
+title = "Gathering sand"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "gathering-sand"
+id = "99997472"
+type = "Adventure"
+city = "Seville"
+guild_type = "Adventurer"
+discovery = ""
+skills = [{ name = "Portuguese", level = 1 }, { name = "Collection", level = 1 }, { name = "Spanish", level = 1 }]
+variants = [{ city = "Seville", guild_type = "Adventurer", id = "99997472", slug = "gathering-sand" }]
+steps = []
++++

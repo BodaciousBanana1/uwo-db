@@ -1,0 +1,16 @@
++++
+title = "Legendary magical sword"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "legendary-magical-sword"
+id = "99993446"
+type = "Adventure"
+city = "London"
+guild_type = "Adventurer"
+discovery = "The Isle of Man"
+skills = [{ name = "English", level = 1 }]
+variants = [{ city = "London", guild_type = "Adventurer", id = "99993446", slug = "legendary-magical-sword" }]
+steps = [{ step = 1, location = "London Tavern", action = "Tavern Barkeeper" }, { step = 2, location = "London Archives", action = "Archive Scholar" }, { step = 3, location = "Dublin Tavern", action = "Tavern Barkeeper" }, { step = 4, location = "Dublin Tavern", action = "Tavern Seafarer" }, { step = 5, location = "Dublin Church", action = "Church Priest" }]
++++

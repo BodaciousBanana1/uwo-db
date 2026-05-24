@@ -1,0 +1,16 @@
++++
+title = "Wishes from the Edge of North"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "wishes-from-the-edge-of-north"
+id = "99990636"
+type = "Adventure"
+city = "Amsterdam"
+guild_type = "Adventurer"
+discovery = "Valaam Monastery"
+skills = [{ name = "Recognition", level = 5 }, { name = "Theology", level = 7 }, { name = "Far North Languages", level = 1 }]
+variants = [{ city = "Amsterdam", guild_type = "Adventurer", id = "99990636", slug = "wishes-from-the-edge-of-north" }]
+steps = [{ step = 1, location = "St. Petersburg Tavern", action = "Barkeep" }, { step = 4, location = "St. Petersburg Cathedral", action = "Monk" }]
++++

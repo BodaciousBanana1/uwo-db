@@ -1,0 +1,16 @@
++++
+title = "Winds of a Champion"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "winds-of-a-champion"
+id = "99990456"
+type = "Adventure"
+city = "Venice"
+guild_type = "Adventurer"
+discovery = "Atlas Mountains"
+skills = [{ name = "Ecological Research", level = 13 }, { name = "Biology", level = 15 }, { name = "Arabic", level = 1 }]
+variants = [{ city = "Venice", guild_type = "Adventurer", id = "99990456", slug = "winds-of-a-champion" }]
+steps = []
++++

@@ -1,0 +1,29 @@
++++
+title = "Talette"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0073"
+slug = "talette"
+size = "Lgt"
+ship_type = "adventure"
+level_adventure = 1
+level_trade = 1
+level_battle = 0
+durability = 32
+vertical_sail = 105
+horizontal_sail = 12
+row_power = 0
+turn_speed = 13
+wave_resistance = 1
+armor = 0
+hold = 67
+cannon_chambers = 2
+cabin_min = 3
+cabin_max = 6
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

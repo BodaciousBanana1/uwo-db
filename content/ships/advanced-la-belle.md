@@ -1,0 +1,29 @@
++++
+title = "Advanced La Belle"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0786"
+slug = "advanced-la-belle"
+size = "Hvy"
+ship_type = "adventure"
+level_adventure = 45
+level_trade = 19
+level_battle = 20
+durability = 870
+vertical_sail = 300
+horizontal_sail = 300
+row_power = 0
+turn_speed = 15
+wave_resistance = 14
+armor = 0
+hold = 220
+cannon_chambers = 80
+cabin_min = 25
+cabin_max = 100
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

@@ -1,0 +1,29 @@
++++
+title = "Refitted Whydah"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0793"
+slug = "refitted-whydah"
+size = "Hvy"
+ship_type = "battle"
+level_adventure = 16
+level_trade = 19
+level_battle = 45
+durability = 830
+vertical_sail = 260
+horizontal_sail = 220
+row_power = 100
+turn_speed = 12
+wave_resistance = 12
+armor = 0
+hold = 420
+cannon_chambers = 80
+cabin_min = 80
+cabin_max = 200
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

@@ -1,0 +1,29 @@
++++
+title = "Modified Victory"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0622"
+slug = "modified-victory"
+size = "Hvy"
+ship_type = "battle"
+level_adventure = 22
+level_trade = 15
+level_battle = 39
+durability = 835
+vertical_sail = 200
+horizontal_sail = 320
+row_power = 0
+turn_speed = 8
+wave_resistance = 10
+armor = 0
+hold = 460
+cannon_chambers = 104
+cabin_min = 67
+cabin_max = 136
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

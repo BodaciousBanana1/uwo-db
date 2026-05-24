@@ -1,0 +1,29 @@
++++
+title = "Advanced Snow Squall"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0757"
+slug = "advanced-snow-squall"
+size = "Hvy"
+ship_type = "adventure"
+level_adventure = 41
+level_trade = 20
+level_battle = 20
+durability = 780
+vertical_sail = 280
+horizontal_sail = 325
+row_power = 0
+turn_speed = 15
+wave_resistance = 14
+armor = 0
+hold = 507
+cannon_chambers = 68
+cabin_min = 40
+cabin_max = 125
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

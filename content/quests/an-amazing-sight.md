@@ -1,0 +1,16 @@
++++
+title = "An amazing sight"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "an-amazing-sight"
+id = "99994663"
+type = "Adventure"
+city = "Aden"
+guild_type = "Adventurer"
+discovery = "Black Crowned Crane"
+skills = [{ name = "Ecological Research", level = 8 }, { name = "Biology", level = 10 }, { name = "Swahili", level = 1 }]
+variants = [{ city = "Aden", guild_type = "Adventurer", id = "99994663", slug = "an-amazing-sight" }]
+steps = [{ step = 1, location = "Aden", action = "Talk to City Official" }, { step = 2, location = "Aden", action = "Talk to Rest House Master" }, { step = 3, location = "Aden", action = "Talk to Merchant" }, { step = 4, location = "Mogadishu", action = "Talk to Rest House Master" }, { step = 5, location = "Zanzibar", action = "Talk to Customer on the right" }, { step = 6, location = "Zanzibar", action = "buy drink for customer on the right (x2)" }, { step = 8, location = "Mombasa", action = "Talk to Gatekeeper" }, { step = 9, location = "West Mombasa", action = "Use" }]
++++

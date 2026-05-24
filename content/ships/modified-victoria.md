@@ -1,0 +1,29 @@
++++
+title = "Modified Victoria"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0709"
+slug = "modified-victoria"
+size = "Hvy"
+ship_type = "adventure"
+level_adventure = 37
+level_trade = 22
+level_battle = 10
+durability = 600
+vertical_sail = 310
+horizontal_sail = 220
+row_power = 0
+turn_speed = 15
+wave_resistance = 14
+armor = 0
+hold = 575
+cannon_chambers = 48
+cabin_min = 34
+cabin_max = 77
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

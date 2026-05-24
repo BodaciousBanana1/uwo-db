@@ -1,0 +1,29 @@
++++
+title = "Large Galley"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0030"
+slug = "large-galley"
+size = "Std"
+ship_type = "adventure"
+level_adventure = 29
+level_trade = 6
+level_battle = 12
+durability = 420
+vertical_sail = 180
+horizontal_sail = 75
+row_power = 95
+turn_speed = 9
+wave_resistance = 2
+armor = 0
+hold = 427
+cannon_chambers = 48
+cabin_min = 68
+cabin_max = 105
+masts = 0
+material = "Cedar"
+is_cash_ship = false
+is_steam = false
++++

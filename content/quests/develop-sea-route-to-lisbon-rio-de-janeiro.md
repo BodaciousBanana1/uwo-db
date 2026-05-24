@@ -1,0 +1,16 @@
++++
+title = "Develop sea route to Lisbon"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "develop-sea-route-to-lisbon-rio-de-janeiro"
+id = "99997042"
+type = "Adventure"
+city = "Rio de Janeiro"
+guild_type = "Adventurer"
+discovery = ""
+skills = [{ name = "Portuguese", level = 1 }]
+variants = [{ city = "Portobelo", guild_type = "Adventurer", id = "99997088", slug = "develop-sea-route-to-lisbon-portobelo" }, { city = "Rio de Janeiro", guild_type = "Adventurer", id = "99997042", slug = "develop-sea-route-to-lisbon-rio-de-janeiro" }, { city = "Santo Domingo", guild_type = "Adventurer", id = "99997121", slug = "develop-sea-route-to-lisbon-santo-domingo" }]
+steps = []
++++

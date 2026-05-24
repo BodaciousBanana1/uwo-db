@@ -1,0 +1,29 @@
++++
+title = "Modified Manila Galleon"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0291"
+slug = "modified-manila-galleon"
+size = "Hvy"
+ship_type = "trade"
+level_adventure = 20
+level_trade = 28
+level_battle = 8
+durability = 630
+vertical_sail = 100
+horizontal_sail = 235
+row_power = 0
+turn_speed = 8
+wave_resistance = 8
+armor = 0
+hold = 777
+cannon_chambers = 52
+cabin_min = 40
+cabin_max = 76
+masts = 0
+material = "Unknown"
+is_cash_ship = true
+is_steam = false
++++

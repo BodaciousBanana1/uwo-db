@@ -1,0 +1,29 @@
++++
+title = "Shadow Thermopylae"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0669"
+slug = "shadow-thermopylae"
+size = "Hvy"
+ship_type = "battle"
+level_adventure = 30
+level_trade = 30
+level_battle = 36
+durability = 910
+vertical_sail = 195
+horizontal_sail = 290
+row_power = 0
+turn_speed = 11
+wave_resistance = 15
+armor = 0
+hold = 214
+cannon_chambers = 108
+cabin_min = 50
+cabin_max = 210
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

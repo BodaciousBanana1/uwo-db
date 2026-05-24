@@ -1,0 +1,29 @@
++++
+title = "Bergantin"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0074"
+slug = "bergantin"
+size = "Lgt"
+ship_type = "adventure"
+level_adventure = 5
+level_trade = 3
+level_battle = 0
+durability = 100
+vertical_sail = 145
+horizontal_sail = 20
+row_power = 0
+turn_speed = 14
+wave_resistance = 4
+armor = 0
+hold = 119
+cannon_chambers = 6
+cabin_min = 10
+cabin_max = 15
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

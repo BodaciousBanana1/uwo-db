@@ -1,0 +1,29 @@
++++
+title = "Explorer Xebec"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0088"
+slug = "explorer-xebec"
+size = "Std"
+ship_type = "adventure"
+level_adventure = 39
+level_trade = 29
+level_battle = 25
+durability = 600
+vertical_sail = 295
+horizontal_sail = 70
+row_power = 0
+turn_speed = 11
+wave_resistance = 9
+armor = 0
+hold = 479
+cannon_chambers = 28
+cabin_min = 25
+cabin_max = 38
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

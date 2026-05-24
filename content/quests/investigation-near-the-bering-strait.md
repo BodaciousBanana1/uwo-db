@@ -1,0 +1,16 @@
++++
+title = "Investigation Near the Bering Strait"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "investigation-near-the-bering-strait"
+id = "99990967"
+type = "Adventure"
+city = "Hangzhou"
+guild_type = "Adventurer"
+discovery = "Bering Strait"
+skills = [{ name = "Recognition", level = 6 }, { name = "Geography", level = 8 }, { name = "Japanese", level = 1 }]
+variants = [{ city = "Hangzhou", guild_type = "Adventurer", id = "99990967", slug = "investigation-near-the-bering-strait" }]
+steps = [{ step = 1, location = "Edo", action = "Talk to Port Official" }, { step = 2, location = "East Bering Sea", action = "Use" }]
++++

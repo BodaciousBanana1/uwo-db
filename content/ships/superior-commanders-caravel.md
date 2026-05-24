@@ -1,0 +1,29 @@
++++
+title = "Superior Commander's Caravel"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0689"
+slug = "superior-commanders-caravel"
+size = "Std"
+ship_type = "battle"
+level_adventure = 10
+level_trade = 5
+level_battle = 20
+durability = 700
+vertical_sail = 270
+horizontal_sail = 130
+row_power = 0
+turn_speed = 11
+wave_resistance = 15
+armor = 0
+hold = 300
+cannon_chambers = 72
+cabin_min = 30
+cabin_max = 90
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

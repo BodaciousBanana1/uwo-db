@@ -1,0 +1,16 @@
++++
+title = "(G.T.)About risk waters"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "gtabout-risk-waters-advanced-school"
+id = "99999865"
+type = "Adventure"
+city = "Advanced school"
+guild_type = "Adventurer"
+discovery = ""
+skills = []
+variants = [{ city = "Advanced school", guild_type = "Adventurer", id = "99999872", slug = "gtabout-risk-waters-advanced-school" }, { city = "Advanced school", guild_type = "Adventurer", id = "99999879", slug = "gtabout-risk-waters-advanced-school" }, { city = "Advanced school", guild_type = "Adventurer", id = "99999865", slug = "gtabout-risk-waters-advanced-school" }]
+steps = []
++++

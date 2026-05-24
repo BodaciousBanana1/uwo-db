@@ -1,0 +1,16 @@
++++
+title = "Poseidon's Anger"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "poseidons-anger"
+id = "99990263"
+type = "Adventure"
+city = "Treasure Hunt"
+guild_type = "Adventurer"
+discovery = ""
+skills = [{ name = "Search", level = 3 }, { name = "Archaeology", level = 5 }, { name = "Theology", level = 1 }]
+variants = [{ city = "Treasure Hunt", guild_type = "Adventurer", id = "99990263", slug = "poseidons-anger" }]
+steps = []
++++

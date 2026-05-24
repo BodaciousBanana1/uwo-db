@@ -1,0 +1,29 @@
++++
+title = "Agile La Royale"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0573"
+slug = "agile-la-royale"
+size = "Hvy"
+ship_type = "battle"
+level_adventure = 6
+level_trade = 15
+level_battle = 20
+durability = 800
+vertical_sail = 225
+horizontal_sail = 110
+row_power = 100
+turn_speed = 12
+wave_resistance = 1
+armor = 0
+hold = 618
+cannon_chambers = 76
+cabin_min = 92
+cabin_max = 156
+masts = 0
+material = "Iron"
+is_cash_ship = true
+is_steam = false
++++

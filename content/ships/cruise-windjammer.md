@@ -1,0 +1,29 @@
++++
+title = "Cruise Windjammer"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0635"
+slug = "cruise-windjammer"
+size = "Hvy"
+ship_type = "trade"
+level_adventure = 32
+level_trade = 37
+level_battle = 15
+durability = 760
+vertical_sail = 270
+horizontal_sail = 355
+row_power = 0
+turn_speed = 12
+wave_resistance = 10
+armor = 0
+hold = 818
+cannon_chambers = 22
+cabin_min = 32
+cabin_max = 75
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

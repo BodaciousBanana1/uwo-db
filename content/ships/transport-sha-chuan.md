@@ -1,0 +1,29 @@
++++
+title = "Transport Sha-chuan"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0197"
+slug = "transport-sha-chuan"
+size = "Std"
+ship_type = "trade"
+level_adventure = 25
+level_trade = 33
+level_battle = 3
+durability = 520
+vertical_sail = 290
+horizontal_sail = 120
+row_power = 0
+turn_speed = 10
+wave_resistance = 5
+armor = 0
+hold = 494
+cannon_chambers = 34
+cabin_min = 32
+cabin_max = 52
+masts = 0
+material = "Red Pine"
+is_cash_ship = false
+is_steam = false
++++

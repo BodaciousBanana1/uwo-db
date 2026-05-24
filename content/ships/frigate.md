@@ -1,0 +1,29 @@
++++
+title = "Frigate"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0017"
+slug = "frigate"
+size = "Std"
+ship_type = "battle"
+level_adventure = 12
+level_trade = 12
+level_battle = 21
+durability = 290
+vertical_sail = 110
+horizontal_sail = 220
+row_power = 0
+turn_speed = 12
+wave_resistance = 8
+armor = 0
+hold = 253
+cannon_chambers = 32
+cabin_min = 20
+cabin_max = 35
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

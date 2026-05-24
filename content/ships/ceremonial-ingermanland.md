@@ -1,0 +1,29 @@
++++
+title = "Ceremonial Ingermanland"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0597"
+slug = "ceremonial-ingermanland"
+size = "Hvy"
+ship_type = "battle"
+level_adventure = 31
+level_trade = 26
+level_battle = 49
+durability = 835
+vertical_sail = 115
+horizontal_sail = 240
+row_power = 0
+turn_speed = 8
+wave_resistance = 7
+armor = 0
+hold = 504
+cannon_chambers = 80
+cabin_min = 40
+cabin_max = 116
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

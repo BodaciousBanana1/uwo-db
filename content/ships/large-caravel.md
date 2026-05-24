@@ -1,0 +1,29 @@
++++
+title = "Large Caravel"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0007"
+slug = "large-caravel"
+size = "Std"
+ship_type = "adventure"
+level_adventure = 19
+level_trade = 5
+level_battle = 0
+durability = 330
+vertical_sail = 195
+horizontal_sail = 70
+row_power = 0
+turn_speed = 10
+wave_resistance = 6
+armor = 0
+hold = 322
+cannon_chambers = 18
+cabin_min = 33
+cabin_max = 80
+masts = 0
+material = "Cedar"
+is_cash_ship = false
+is_steam = false
++++

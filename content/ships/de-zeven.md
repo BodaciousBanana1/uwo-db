@@ -1,0 +1,29 @@
++++
+title = "De Zeven"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0333"
+slug = "de-zeven"
+size = "Hvy"
+ship_type = "battle"
+level_adventure = 36
+level_trade = 40
+level_battle = 75
+durability = 785
+vertical_sail = 140
+horizontal_sail = 265
+row_power = 0
+turn_speed = 9
+wave_resistance = 8
+armor = 0
+hold = 468
+cannon_chambers = 80
+cabin_min = 60
+cabin_max = 122
+masts = 0
+material = "Iron"
+is_cash_ship = true
+is_steam = false
++++

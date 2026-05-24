@@ -1,0 +1,29 @@
++++
+title = "Gran Fluyt"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0339"
+slug = "gran-fluyt"
+size = "Hvy"
+ship_type = "trade"
+level_adventure = 27
+level_trade = 78
+level_battle = 62
+durability = 780
+vertical_sail = 105
+horizontal_sail = 245
+row_power = 0
+turn_speed = 6
+wave_resistance = 6
+armor = 0
+hold = 900
+cannon_chambers = 74
+cabin_min = 58
+cabin_max = 116
+masts = 0
+material = "Teak"
+is_cash_ship = false
+is_steam = false
++++

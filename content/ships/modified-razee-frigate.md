@@ -1,0 +1,29 @@
++++
+title = "Modified Razee Frigate"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0590"
+slug = "modified-razee-frigate"
+size = "Hvy"
+ship_type = "battle"
+level_adventure = 31
+level_trade = 15
+level_battle = 43
+durability = 810
+vertical_sail = 185
+horizontal_sail = 295
+row_power = 0
+turn_speed = 12
+wave_resistance = 9
+armor = 0
+hold = 380
+cannon_chambers = 72
+cabin_min = 38
+cabin_max = 98
+masts = 0
+material = "Iron"
+is_cash_ship = false
+is_steam = false
++++

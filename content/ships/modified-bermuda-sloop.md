@@ -1,0 +1,29 @@
++++
+title = "Modified Bermuda Sloop"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0618"
+slug = "modified-bermuda-sloop"
+size = "Hvy"
+ship_type = "battle"
+level_adventure = 26
+level_trade = 17
+level_battle = 38
+durability = 835
+vertical_sail = 275
+horizontal_sail = 185
+row_power = 0
+turn_speed = 11
+wave_resistance = 11
+armor = 0
+hold = 470
+cannon_chambers = 80
+cabin_min = 34
+cabin_max = 120
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

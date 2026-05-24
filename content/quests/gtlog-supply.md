@@ -1,0 +1,16 @@
++++
+title = "(g.t.)Log supply"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "gtlog-supply"
+id = "99991013"
+type = "Adventure"
+city = "Immigrants"
+guild_type = "Adventurer"
+discovery = ""
+skills = [{ name = "Italian", level = 1 }]
+variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99991013", slug = "gtlog-supply" }]
+steps = []
++++

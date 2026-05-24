@@ -1,0 +1,29 @@
++++
+title = "Pirate Armed Sha-chuan  120"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0927"
+slug = "pirate-armed-sha-chuan--120"
+size = "Std"
+ship_type = "battle"
+level_adventure = 10
+level_trade = 5
+level_battle = 20
+durability = 795
+vertical_sail = 310
+horizontal_sail = 155
+row_power = 0
+turn_speed = 13
+wave_resistance = 15
+armor = 0
+hold = 290
+cannon_chambers = 90
+cabin_min = 50
+cabin_max = 120
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

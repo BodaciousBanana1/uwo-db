@@ -1,0 +1,16 @@
++++
+title = "Deliver rawhide"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "deliver-rawhide-london"
+id = "99995996"
+type = "Trade"
+city = "London"
+guild_type = "Merchant"
+discovery = ""
+skills = [{ name = "English", level = 1 }, { name = "Sewing", level = 2 }]
+variants = [{ city = "Alexandria", guild_type = "Merchant", id = "99995703", slug = "deliver-rawhide-alexandria" }, { city = "London", guild_type = "Merchant", id = "99995996", slug = "deliver-rawhide-london" }, { city = "Seville", guild_type = "Merchant", id = "99995905", slug = "deliver-rawhide-seville" }]
+steps = []
++++

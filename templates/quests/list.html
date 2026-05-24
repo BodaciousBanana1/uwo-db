@@ -1,0 +1,217 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% set all_quests = load_data(path="data/quests.json") %}
+
+<section class="page-header">
+  <h1>Quests</h1>
+  <p class="page-subtitle"><span id="visible-count">0</span> quests</p>
+</section>
+
+<div class="filter-layout">
+  <aside class="filter-panel">
+    <div class="filter-header">
+      <span class="filter-title">FILTERS</span>
+      <button class="filter-reset" id="reset-filters">Reset</button>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">SEARCH</div>
+      <input type="text" id="quest-search" class="filter-search" placeholder="Quest name...">
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">TYPE</div>
+      <div class="filter-chips">
+        <label class="chip"><input type="checkbox" name="type" value="Adventure" checked> Adventure</label>
+        <label class="chip"><input type="checkbox" name="type" value="Merchant" checked> Merchant</label>
+        <label class="chip"><input type="checkbox" name="type" value="Maritime" checked> Maritime</label>
+      </div>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">CITY</div>
+      <select id="city-filter" class="filter-select" style="width:100%">
+        <option value="">All Cities</option>
+      </select>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">SKILL REQUIRED</div>
+      <select id="skill-filter" class="filter-select" style="width:100%">
+        <option value="">Any Skill</option>
+      </select>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">MAX SKILL RANK</div>
+      <div class="range-slider" data-filter="max_rank">
+        <div class="range-values"><span class="range-min">1</span><span class="range-max">20</span></div>
+        <input type="range" class="range-input" id="max-rank-slider" min="1" max="20" value="20">
+      </div>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">HAS DISCOVERY</div>
+      <div class="filter-chips">
+        <label class="chip"><input type="radio" name="discovery" value="any" checked> Any</label>
+        <label class="chip"><input type="radio" name="discovery" value="yes"> Yes</label>
+        <label class="chip"><input type="radio" name="discovery" value="no"> No</label>
+      </div>
+    </div>
+  </aside>
+
+  <section class="quests-results">
+    <table class="data-table" id="quests-table">
+      <thead>
+        <tr>
+          <th>Quest</th>
+          <th>City</th>
+          <th>Type</th>
+          <th>Skills Required</th>
+          <th>Discovery</th>
+        </tr>
+      </thead>
+      <tbody id="quests-body"></tbody>
+    </table>
+  </section>
+</div>
+
+<script>
+const allQuests = {{ all_quests | json_encode() | safe }};
+
+const CITIES = Object.keys(allQuests).sort();
+const ALL_SKILLS = [
+  "Accounts", "Accuracy", "Alchemy", "Alcohol Trading", "Ancient Egyptian", "Appraisal",
+  "Arabic", "Archaeology", "Arms", "Art", "Assault", "Astronomy", "Ballistics", "Biology",
+  "Casting", "Caution", "Celtic", "Chinese", "Collection", "Cooking", "Dutch",
+  "Ecological Research", "English", "Evasion", "Far North Languages", "First Aid",
+  "Fishing", "French", "Frugality", "Geography", "German", "Greek", "Gunnery",
+  "Handicrafts", "Hebrew", "Indian Languages", "Italian", "Japanese", "Jewellry Trading",
+  "Korean", "Latin", "Leadership", "Livestock Trading", "Lookout", "Luxuries Trading",
+  "Malay/Tagalog", "Management Technique", "Marching", "Mayan Languages", "Medicine Trading",
+  "Merchandise Knowledge", "Metal Trading", "Mon-Khmer lang.", "Nahuatl", "Navigation",
+  "Nordic", "North American Languages", "Oceanic Languages", "Persian", "Pet Training",
+  "Plunder", "Portuguese", "Procurement", "Quechuan", "Recognition", "Repair", "Rowing",
+  "Sail Handling", "Salvage", "Search", "Sewing", "Slavic", "Sniping", "Sociability",
+  "Spanish", "Spice Trading", "Storage", "Surgery", "Survival", "Swahili", "Sword Mastery",
+  "Swordplay", "Tactics", "Thai/Burmese", "Theology", "Throwing", "Trap", "Turkish",
+  "Unlock", "West African Languages"
+];
+
+// Flatten all quests with city info
+let flatQuests = [];
+CITIES.forEach(city => {
+  (allQuests[city] || []).forEach(q => {
+    flatQuests.push({ ...q, city });
+  });
+});
+
+// Populate dropdowns
+const cityFilter = document.getElementById('city-filter');
+const skillFilter = document.getElementById('skill-filter');
+
+CITIES.forEach(c => {
+  const opt = document.createElement('option');
+  opt.value = c;
+  opt.textContent = c.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+  cityFilter.appendChild(opt);
+});
+
+ALL_SKILLS.forEach(s => {
+  const opt = document.createElement('option');
+  opt.value = s;
+  opt.textContent = s;
+  skillFilter.appendChild(opt);
+});
+
+const searchInput = document.getElementById('quest-search');
+const maxRankSlider = document.getElementById('max-rank-slider');
+const visibleCount = document.getElementById('visible-count');
+const tbody = document.getElementById('quests-body');
+
+function formatCity(slug) {
+  return slug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+}
+
+function filterQuests() {
+  const search = searchInput.value.toLowerCase();
+  const types = Array.from(document.querySelectorAll('input[name="type"]:checked')).map(c => c.value);
+  const city = cityFilter.value;
+  const skill = skillFilter.value;
+  const maxRank = parseInt(maxRankSlider.value);
+  const discovery = document.querySelector('input[name="discovery"]:checked').value;
+
+  document.querySelector('.range-max').textContent = maxRank;
+
+  let filtered = flatQuests.filter(q => {
+    // Search
+    if (search && !q.name.toLowerCase().includes(search)) return false;
+
+    // Type
+    if (!types.includes(q.type)) return false;
+
+    // City
+    if (city && q.city !== city) return false;
+
+    // Discovery
+    if (discovery === 'yes' && !q.discovery) return false;
+    if (discovery === 'no' && q.discovery) return false;
+
+    // Skill filter
+    if (skill) {
+      if (!q.skills) return false;
+      const hasSkill = q.skills.some(s => s.name === skill && s.level <= maxRank);
+      if (!hasSkill) return false;
+    } else if (q.skills && q.skills.length > 0) {
+      // If no skill filter, still apply max rank to all skills
+      const allWithinRank = q.skills.every(s => s.level <= maxRank);
+      if (!allWithinRank) return false;
+    }
+
+    return true;
+  });
+
+  // Limit display for performance
+  const displayLimit = 500;
+  const displayQuests = filtered.slice(0, displayLimit);
+
+  visibleCount.textContent = filtered.length + (filtered.length > displayLimit ? ` (showing ${displayLimit})` : '');
+
+  tbody.innerHTML = displayQuests.map(q => {
+    const skillsHtml = (q.skills || []).map(s =>
+      `<span class="skill-tag">${s.name} ${s.level}</span>`
+    ).join('');
+
+    return `<tr>
+      <td class="item-name"><a href="/quests/${q.slug}/">${q.name}</a></td>
+      <td><a href="/cities/${q.city}/">${formatCity(q.city)}</a></td>
+      <td><span class="badge badge-${q.type.toLowerCase()}">${q.type}</span></td>
+      <td class="skills-cell">${skillsHtml || '-'}</td>
+      <td class="discovery-cell">${q.discovery || '-'}</td>
+    </tr>`;
+  }).join('');
+}
+
+// Event listeners
+searchInput.addEventListener('input', filterQuests);
+cityFilter.addEventListener('change', filterQuests);
+skillFilter.addEventListener('change', filterQuests);
+maxRankSlider.addEventListener('input', filterQuests);
+document.querySelectorAll('input[name="type"]').forEach(cb => cb.addEventListener('change', filterQuests));
+document.querySelectorAll('input[name="discovery"]').forEach(cb => cb.addEventListener('change', filterQuests));
+
+document.getElementById('reset-filters').addEventListener('click', () => {
+  searchInput.value = '';
+  cityFilter.value = '';
+  skillFilter.value = '';
+  maxRankSlider.value = 20;
+  document.querySelectorAll('input[name="type"]').forEach(cb => cb.checked = true);
+  document.querySelector('input[name="discovery"][value="any"]').checked = true;
+  filterQuests();
+});
+
+// Initial load
+filterQuests();
+</script>
+{% endblock %}

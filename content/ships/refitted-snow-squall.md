@@ -1,0 +1,29 @@
++++
+title = "Refitted Snow Squall"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0758"
+slug = "refitted-snow-squall"
+size = "Hvy"
+ship_type = "adventure"
+level_adventure = 41
+level_trade = 25
+level_battle = 15
+durability = 750
+vertical_sail = 280
+horizontal_sail = 325
+row_power = 0
+turn_speed = 15
+wave_resistance = 14
+armor = 0
+hold = 590
+cannon_chambers = 50
+cabin_min = 40
+cabin_max = 110
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

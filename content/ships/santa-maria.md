@@ -1,0 +1,29 @@
++++
+title = "Santa Maria"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0324"
+slug = "santa-maria"
+size = "Std"
+ship_type = "adventure"
+level_adventure = 10
+level_trade = 8
+level_battle = 2
+durability = 440
+vertical_sail = 105
+horizontal_sail = 285
+row_power = 0
+turn_speed = 11
+wave_resistance = 8
+armor = 0
+hold = 440
+cannon_chambers = 26
+cabin_min = 30
+cabin_max = 74
+masts = 0
+material = "Unknown"
+is_cash_ship = true
+is_steam = false
++++

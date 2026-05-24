@@ -1,0 +1,29 @@
++++
+title = "Modified Armoured Vaisseau"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0214"
+slug = "modified-armoured-vaisseau"
+size = "Hvy"
+ship_type = "battle"
+level_adventure = 9
+level_trade = 6
+level_battle = 16
+durability = 720
+vertical_sail = 110
+horizontal_sail = 230
+row_power = 0
+turn_speed = 7
+wave_resistance = 7
+armor = 0
+hold = 660
+cannon_chambers = 92
+cabin_min = 58
+cabin_max = 112
+masts = 0
+material = "Iron"
+is_cash_ship = true
+is_steam = false
++++

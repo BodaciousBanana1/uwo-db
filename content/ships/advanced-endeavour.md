@@ -1,0 +1,29 @@
++++
+title = "Advanced Endeavour"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0636"
+slug = "advanced-endeavour"
+size = "Std"
+ship_type = "adventure"
+level_adventure = 35
+level_trade = 16
+level_battle = 15
+durability = 760
+vertical_sail = 260
+horizontal_sail = 310
+row_power = 0
+turn_speed = 12
+wave_resistance = 15
+armor = 0
+hold = 536
+cannon_chambers = 36
+cabin_min = 30
+cabin_max = 98
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

@@ -1,0 +1,29 @@
++++
+title = "Neapolitan Galleass"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0320"
+slug = "neapolitan-galleass"
+size = "Hvy"
+ship_type = "battle"
+level_adventure = 39
+level_trade = 52
+level_battle = 64
+durability = 835
+vertical_sail = 215
+horizontal_sail = 95
+row_power = 100
+turn_speed = 9
+wave_resistance = 4
+armor = 0
+hold = 598
+cannon_chambers = 70
+cabin_min = 96
+cabin_max = 182
+masts = 0
+material = "Iron"
+is_cash_ship = false
+is_steam = false
++++

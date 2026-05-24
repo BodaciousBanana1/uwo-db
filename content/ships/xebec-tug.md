@@ -1,0 +1,29 @@
++++
+title = "Xebec Tug"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0124"
+slug = "xebec-tug"
+size = "Std"
+ship_type = "adventure"
+level_adventure = 36
+level_trade = 16
+level_battle = 28
+durability = 575
+vertical_sail = 200
+horizontal_sail = 180
+row_power = 0
+turn_speed = 11
+wave_resistance = 8
+armor = 0
+hold = 465
+cannon_chambers = 28
+cabin_min = 24
+cabin_max = 52
+masts = 0
+material = "Iron"
+is_cash_ship = false
+is_steam = false
++++

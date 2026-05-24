@@ -1,0 +1,29 @@
++++
+title = "Pirate Nippon-Mae"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0763"
+slug = "pirate-nippon-mae"
+size = "Hvy"
+ship_type = "trade"
+level_adventure = 1
+level_trade = 5
+level_battle = 1
+durability = 900
+vertical_sail = 330
+horizontal_sail = 250
+row_power = 0
+turn_speed = 12
+wave_resistance = 12
+armor = 0
+hold = 950
+cannon_chambers = 90
+cabin_min = 50
+cabin_max = 100
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

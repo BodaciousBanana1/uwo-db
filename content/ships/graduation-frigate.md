@@ -1,0 +1,29 @@
++++
+title = "Graduation Frigate"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0310"
+slug = "graduation-frigate"
+size = "Std"
+ship_type = "battle"
+level_adventure = 0
+level_trade = 0
+level_battle = 21
+durability = 330
+vertical_sail = 110
+horizontal_sail = 219
+row_power = 0
+turn_speed = 12
+wave_resistance = 8
+armor = 0
+hold = 230
+cannon_chambers = 40
+cabin_min = 19
+cabin_max = 50
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

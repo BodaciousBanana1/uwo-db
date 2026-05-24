@@ -1,0 +1,29 @@
++++
+title = "Trading Pinnace"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0064"
+slug = "trading-pinnace"
+size = "Std"
+ship_type = "trade"
+level_adventure = 5
+level_trade = 20
+level_battle = 0
+durability = 315
+vertical_sail = 90
+horizontal_sail = 205
+row_power = 0
+turn_speed = 10
+wave_resistance = 7
+armor = 0
+hold = 342
+cannon_chambers = 28
+cabin_min = 30
+cabin_max = 50
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

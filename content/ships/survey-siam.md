@@ -1,0 +1,29 @@
++++
+title = "Survey Siam"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0206"
+slug = "survey-siam"
+size = "Hvy"
+ship_type = "adventure"
+level_adventure = 36
+level_trade = 27
+level_battle = 25
+durability = 600
+vertical_sail = 255
+horizontal_sail = 120
+row_power = 0
+turn_speed = 9
+wave_resistance = 8
+armor = 0
+hold = 586
+cannon_chambers = 48
+cabin_min = 46
+cabin_max = 76
+masts = 0
+material = "Teak"
+is_cash_ship = false
+is_steam = false
++++

@@ -1,0 +1,16 @@
++++
+title = "The arguing gang"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "the-arguing-gang"
+id = "99996257"
+type = "Maritime"
+city = "Calicut"
+guild_type = "Maritime"
+discovery = ""
+skills = [{ name = "Indian Languages", level = 1 }]
+variants = [{ city = "Calicut", guild_type = "Maritime", id = "99996257", slug = "the-arguing-gang" }]
+steps = []
++++

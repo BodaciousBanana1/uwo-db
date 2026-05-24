@@ -1,0 +1,16 @@
++++
+title = "The pirates' plot"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "the-pirates-plot"
+id = "99996118"
+type = "Maritime"
+city = "Jakarta"
+guild_type = "Maritime"
+discovery = ""
+skills = [{ name = "Malay/Tagalog", level = 1 }]
+variants = [{ city = "Jakarta", guild_type = "Maritime", id = "99996118", slug = "the-pirates-plot" }]
+steps = []
++++

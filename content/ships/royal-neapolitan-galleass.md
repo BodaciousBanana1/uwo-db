@@ -1,0 +1,29 @@
++++
+title = "Royal Neapolitan Galleass"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0697"
+slug = "royal-neapolitan-galleass"
+size = "Hvy"
+ship_type = "adventure"
+level_adventure = 30
+level_trade = 15
+level_battle = 30
+durability = 980
+vertical_sail = 255
+horizontal_sail = 115
+row_power = 100
+turn_speed = 12
+wave_resistance = 9
+armor = 0
+hold = 350
+cannon_chambers = 110
+cabin_min = 100
+cabin_max = 220
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

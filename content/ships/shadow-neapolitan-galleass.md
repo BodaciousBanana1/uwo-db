@@ -1,0 +1,29 @@
++++
+title = "Shadow Neapolitan Galleass"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0603"
+slug = "shadow-neapolitan-galleass"
+size = "Hvy"
+ship_type = "battle"
+level_adventure = 22
+level_trade = 25
+level_battle = 33
+durability = 870
+vertical_sail = 225
+horizontal_sail = 100
+row_power = 100
+turn_speed = 11
+wave_resistance = 6
+armor = 0
+hold = 588
+cannon_chambers = 72
+cabin_min = 92
+cabin_max = 190
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

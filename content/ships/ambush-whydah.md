@@ -1,0 +1,29 @@
++++
+title = "Ambush Whydah"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0864"
+slug = "ambush-whydah"
+size = "Hvy"
+ship_type = "battle"
+level_adventure = 15
+level_trade = 15
+level_battle = 30
+durability = 955
+vertical_sail = 310
+horizontal_sail = 280
+row_power = 100
+turn_speed = 14
+wave_resistance = 13
+armor = 0
+hold = 415
+cannon_chambers = 110
+cabin_min = 100
+cabin_max = 220
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

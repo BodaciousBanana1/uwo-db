@@ -1,0 +1,29 @@
++++
+title = "Custom Sovereign of the Seas"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0547"
+slug = "custom-sovereign-of-the-seas"
+size = "Hvy"
+ship_type = "battle"
+level_adventure = 25
+level_trade = 10
+level_battle = 35
+durability = 840
+vertical_sail = 125
+horizontal_sail = 265
+row_power = 0
+turn_speed = 10
+wave_resistance = 8
+armor = 0
+hold = 504
+cannon_chambers = 100
+cabin_min = 62
+cabin_max = 130
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

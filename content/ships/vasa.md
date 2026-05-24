@@ -1,0 +1,29 @@
++++
+title = "Vasa"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0335"
+slug = "vasa"
+size = "Hvy"
+ship_type = "adventure"
+level_adventure = 16
+level_trade = 16
+level_battle = 16
+durability = 640
+vertical_sail = 110
+horizontal_sail = 245
+row_power = 0
+turn_speed = 8
+wave_resistance = 4
+armor = 0
+hold = 478
+cannon_chambers = 64
+cabin_min = 44
+cabin_max = 98
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

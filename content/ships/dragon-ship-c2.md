@@ -1,0 +1,29 @@
++++
+title = "Dragon Ship C2"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0539"
+slug = "dragon-ship-c2"
+size = "Hvy"
+ship_type = "trade"
+level_adventure = 33
+level_trade = 60
+level_battle = 26
+durability = 740
+vertical_sail = 350
+horizontal_sail = 190
+row_power = 0
+turn_speed = 10
+wave_resistance = 8
+armor = 0
+hold = 750
+cannon_chambers = 40
+cabin_min = 32
+cabin_max = 72
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

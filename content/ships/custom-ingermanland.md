@@ -1,0 +1,29 @@
++++
+title = "Custom Ingermanland"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0587"
+slug = "custom-ingermanland"
+size = "Hvy"
+ship_type = "battle"
+level_adventure = 21
+level_trade = 16
+level_battle = 39
+durability = 805
+vertical_sail = 110
+horizontal_sail = 240
+row_power = 0
+turn_speed = 8
+wave_resistance = 5
+armor = 0
+hold = 510
+cannon_chambers = 74
+cabin_min = 48
+cabin_max = 116
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

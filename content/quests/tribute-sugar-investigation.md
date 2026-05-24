@@ -1,0 +1,16 @@
++++
+title = "Tribute Sugar Investigation"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "tribute-sugar-investigation"
+id = "99996868"
+type = "Adventure"
+city = "Jakarta"
+guild_type = "Adventurer"
+discovery = "Kinmen Island"
+skills = [{ name = "Recognition", level = 3 }, { name = "Geography", level = 5 }, { name = "Chinese", level = 1 }]
+variants = [{ city = "Jakarta", guild_type = "Adventurer", id = "99996868", slug = "tribute-sugar-investigation" }]
+steps = [{ step = 1, location = "Anping", action = "speak with tavern master" }, { step = 2, location = "Western East Asia", action = "Outside the port of Quanzhou use" }]
++++

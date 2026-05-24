@@ -1,0 +1,16 @@
++++
+title = "Scylla &amp; Charybdis"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "scylla-&amp;-charybdis"
+id = "99997321"
+type = "Adventure"
+city = "Athens"
+guild_type = "Adventurer"
+discovery = "Odysseia"
+skills = [{ name = "Recognition", level = 5 }, { name = "Geography", level = 7 }, { name = "Italian", level = 1 }]
+variants = [{ city = "Athens", guild_type = "Adventurer", id = "99997321", slug = "scylla-&amp;-charybdis" }]
+steps = [{ step = 1, location = "Athens Archives", action = "Talk to Scholar x5" }, { step = 2, location = "Syracuse Tavern", action = "Talk to Seafarer x2" }, { step = 3, location = "Ionian Sea", action = "East from" }]
++++

@@ -1,0 +1,16 @@
++++
+title = "Procure saury"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "procure-saury"
+id = "99997647"
+type = "Adventure"
+city = "London"
+guild_type = "Adventurer"
+discovery = ""
+skills = [{ name = "English", level = 1 }, { name = "Fishing", level = 1 }, { name = "Dutch", level = 1 }]
+variants = [{ city = "London", guild_type = "Adventurer", id = "99997647", slug = "procure-saury" }]
+steps = []
++++

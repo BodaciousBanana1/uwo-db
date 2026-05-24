@@ -1,0 +1,29 @@
++++
+title = "Refitted Large Galleon"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0537"
+slug = "refitted-large-galleon"
+size = "Hvy"
+ship_type = "adventure"
+level_adventure = 22
+level_trade = 10
+level_battle = 10
+durability = 650
+vertical_sail = 135
+horizontal_sail = 295
+row_power = 0
+turn_speed = 10
+wave_resistance = 14
+armor = 0
+hold = 764
+cannon_chambers = 36
+cabin_min = 30
+cabin_max = 60
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

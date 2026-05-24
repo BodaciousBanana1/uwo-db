@@ -1,0 +1,29 @@
++++
+title = "Modified Clipper"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0514"
+slug = "modified-clipper"
+size = "Std"
+ship_type = "adventure"
+level_adventure = 16
+level_trade = 6
+level_battle = 1
+durability = 600
+vertical_sail = 205
+horizontal_sail = 295
+row_power = 0
+turn_speed = 11
+wave_resistance = 11
+armor = 0
+hold = 506
+cannon_chambers = 18
+cabin_min = 20
+cabin_max = 36
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

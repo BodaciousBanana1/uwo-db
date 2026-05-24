@@ -1,0 +1,16 @@
++++
+title = "Crab that Looks Like a Confectionery"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "crab-that-looks-like-a-confectionery"
+id = "99991098"
+type = "Adventure"
+city = "San Francisco"
+guild_type = "Adventurer"
+discovery = "Nagasaki"
+skills = [{ name = "Ecological Research", level = 6 }, { name = "Biology", level = 8 }, { name = "Japanese", level = 1 }]
+variants = [{ city = "San Francisco", guild_type = "Adventurer", id = "99991098", slug = "crab-that-looks-like-a-confectionery" }]
+steps = [{ step = 1, location = "Nagasaki", action = "Talk to Taketsugu x2" }, { step = 3, location = "Eastern East Asia", action = "At sea, just a little south of Nagasaki" }]
++++

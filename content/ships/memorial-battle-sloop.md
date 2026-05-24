@@ -1,0 +1,29 @@
++++
+title = "Memorial Battle Sloop"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0307"
+slug = "memorial-battle-sloop"
+size = "Lgt"
+ship_type = "battle"
+level_adventure = 0
+level_trade = 0
+level_battle = 11
+durability = 300
+vertical_sail = 249
+horizontal_sail = 25
+row_power = 0
+turn_speed = 14
+wave_resistance = 6
+armor = 0
+hold = 160
+cannon_chambers = 28
+cabin_min = 13
+cabin_max = 42
+masts = 0
+material = "Unknown"
+is_cash_ship = true
+is_steam = false
++++

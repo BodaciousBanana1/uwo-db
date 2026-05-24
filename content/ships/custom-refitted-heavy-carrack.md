@@ -1,0 +1,29 @@
++++
+title = "Custom Refitted Heavy Carrack"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0501"
+slug = "custom-refitted-heavy-carrack"
+size = "Hvy"
+ship_type = "battle"
+level_adventure = 3
+level_trade = 3
+level_battle = 10
+durability = 500
+vertical_sail = 200
+horizontal_sail = 90
+row_power = 0
+turn_speed = 12
+wave_resistance = 6
+armor = 0
+hold = 536
+cannon_chambers = 62
+cabin_min = 60
+cabin_max = 122
+masts = 0
+material = "Unknown"
+is_cash_ship = true
+is_steam = false
++++

@@ -1,0 +1,29 @@
++++
+title = "Clermont"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0361"
+slug = "clermont"
+size = "Hvy"
+ship_type = "trade"
+level_adventure = 25
+level_trade = 40
+level_battle = 10
+durability = 600
+vertical_sail = 150
+horizontal_sail = 370
+row_power = 0
+turn_speed = 10
+wave_resistance = 14
+armor = 0
+hold = 1120
+cannon_chambers = 20
+cabin_min = 20
+cabin_max = 60
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = true
++++

@@ -1,0 +1,29 @@
++++
+title = "Advanced Cacafuego"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0754"
+slug = "advanced-cacafuego"
+size = "Hvy"
+ship_type = "trade"
+level_adventure = 25
+level_trade = 41
+level_battle = 25
+durability = 800
+vertical_sail = 240
+horizontal_sail = 280
+row_power = 0
+turn_speed = 10
+wave_resistance = 12
+armor = 0
+hold = 942
+cannon_chambers = 58
+cabin_min = 45
+cabin_max = 100
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

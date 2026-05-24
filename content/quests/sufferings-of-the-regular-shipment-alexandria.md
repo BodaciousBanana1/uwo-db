@@ -1,0 +1,16 @@
++++
+title = "Sufferings of the regular shipment"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "sufferings-of-the-regular-shipment-alexandria"
+id = "99995701"
+type = "Trade"
+city = "Alexandria"
+guild_type = "Merchant"
+discovery = ""
+skills = [{ name = "Arabic", level = 1 }]
+variants = [{ city = "Alexandria", guild_type = "Merchant", id = "99995701", slug = "sufferings-of-the-regular-shipment-alexandria" }, { city = "Athens", guild_type = "Merchant", id = "99995749", slug = "sufferings-of-the-regular-shipment-athens" }]
+steps = []
++++

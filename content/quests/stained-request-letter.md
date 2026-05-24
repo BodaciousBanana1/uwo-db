@@ -1,0 +1,16 @@
++++
+title = "Stained Request Letter"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "stained-request-letter"
+id = "99990890"
+type = "Adventure"
+city = "Immigrants"
+guild_type = "Adventurer"
+discovery = ""
+skills = [{ name = "Chinese", level = 1 }]
+variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99990890", slug = "stained-request-letter" }]
+steps = []
++++

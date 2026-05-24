@@ -1,0 +1,110 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} - Quests{% endblock %}
+
+{% block content %}
+<article class="detail-page">
+  <header class="detail-header">
+    <nav class="breadcrumb">
+      <a href="/quests/">Quests</a> / {{ page.extra.type | default(value="Quest") }}
+    </nav>
+    <h1>{{ page.title }}</h1>
+    <div class="detail-meta">
+      <span class="badge badge-{{ page.extra.type | default(value='adventure') | lower }}">{{ page.extra.type | default(value="Adventure") }}</span>
+      {% if page.extra.city %}
+      <span class="meta-city">{{ page.extra.city }} {{ page.extra.guild_type }} Guild</span>
+      {% endif %}
+      <a href="https://dhodb.ivyro.net/eg/main.php?id={{ page.extra.id }}" target="_blank" class="source-link">Source</a>
+    </div>
+  </header>
+
+  <div class="detail-grid">
+    <section class="detail-section">
+      <h2>Requirements</h2>
+      {% if page.extra.skills and page.extra.skills | length > 0 %}
+      <table class="detail-table">
+        <thead>
+          <tr>
+            <th>Skill</th>
+            <th class="num">Rank</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for skill in page.extra.skills %}
+          <tr>
+            <td><a href="/skills/{{ skill.name | lower | replace(from=' ', to='-') }}/">{{ skill.name }}</a></td>
+            <td class="num">{{ skill.level }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      {% else %}
+      <p class="empty-state">No skill requirements</p>
+      {% endif %}
+    </section>
+
+    {% if page.extra.discovery %}
+    <section class="detail-section">
+      <h2>Discovery</h2>
+      <p class="discovery-name">{{ page.extra.discovery }}</p>
+    </section>
+    {% endif %}
+
+    {% if page.extra.variants and page.extra.variants | length > 1 %}
+    <section class="detail-section">
+      <h2>Variants</h2>
+      <table class="detail-table variants-table">
+        <thead>
+          <tr>
+            <th>City</th>
+            <th>Guild</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for variant in page.extra.variants %}
+          <tr class="variant-row{% if variant.slug == page.extra.slug %} current{% endif %}">
+            <td><a href="/quests/{{ variant.slug }}/">{{ variant.city }}</a></td>
+            <td>{{ variant.guild_type }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </section>
+    {% elif page.extra.city %}
+    <section class="detail-section">
+      <h2>Available At</h2>
+      <ul class="learn-list">
+        <li><a href="/cities/{{ page.extra.city | lower | replace(from=' ', to='-') }}/">{{ page.extra.city }}</a></li>
+      </ul>
+    </section>
+    {% endif %}
+
+    {% if page.extra.steps and page.extra.steps | length > 0 %}
+    <section class="detail-section">
+      <h2>Quest Steps</h2>
+      <ol class="quest-steps">
+        {% for step in page.extra.steps %}
+        <li value="{{ step.step }}">
+          <span class="step-location">{{ step.location }}</span>
+          <span class="step-action">{{ step.action }}</span>
+        </li>
+        {% endfor %}
+      </ol>
+    </section>
+    {% endif %}
+
+    {% if page.content %}
+    <section class="detail-section quest-guide">
+      <h2>Guide</h2>
+      <div class="quest-content">
+        {{ page.content | safe }}
+      </div>
+    </section>
+    {% endif %}
+  </div>
+
+  <footer class="detail-footer">
+    <a href="/quests/" class="back-link">← Back to Quests</a>
+  </footer>
+</article>
+{% endblock %}

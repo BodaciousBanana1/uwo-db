@@ -1,0 +1,29 @@
++++
+title = "Superior Dragon Ship C2"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0684"
+slug = "superior-dragon-ship-c2"
+size = "Hvy"
+ship_type = "trade"
+level_adventure = 15
+level_trade = 30
+level_battle = 10
+durability = 820
+vertical_sail = 130
+horizontal_sail = 260
+row_power = 0
+turn_speed = 7
+wave_resistance = 9
+armor = 0
+hold = 1020
+cannon_chambers = 70
+cabin_min = 50
+cabin_max = 100
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

@@ -1,0 +1,29 @@
++++
+title = "Galliot"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0051"
+slug = "galliot"
+size = "Lgt"
+ship_type = "adventure"
+level_adventure = 5
+level_trade = 0
+level_battle = 0
+durability = 120
+vertical_sail = 115
+horizontal_sail = 25
+row_power = 83
+turn_speed = 11
+wave_resistance = 4
+armor = 0
+hold = 180
+cannon_chambers = 6
+cabin_min = 20
+cabin_max = 34
+masts = 0
+material = "Cedar"
+is_cash_ship = false
+is_steam = false
++++

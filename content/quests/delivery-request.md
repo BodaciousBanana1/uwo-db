@@ -1,0 +1,16 @@
++++
+title = "Delivery request"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "delivery-request"
+id = "99990158"
+type = "Trade"
+city = "Stockholm"
+guild_type = "Merchant"
+discovery = ""
+skills = [{ name = "Far North Languages", level = 1 }]
+variants = [{ city = "Stockholm", guild_type = "Merchant", id = "99990158", slug = "delivery-request" }]
+steps = []
++++

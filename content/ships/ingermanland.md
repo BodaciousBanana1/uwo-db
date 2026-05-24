@@ -1,0 +1,29 @@
++++
+title = "Ingermanland"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0337"
+slug = "ingermanland"
+size = "Hvy"
+ship_type = "battle"
+level_adventure = 42
+level_trade = 33
+level_battle = 78
+durability = 760
+vertical_sail = 110
+horizontal_sail = 240
+row_power = 0
+turn_speed = 8
+wave_resistance = 5
+armor = 0
+hold = 520
+cannon_chambers = 64
+cabin_min = 50
+cabin_max = 116
+masts = 0
+material = "Iron"
+is_cash_ship = false
+is_steam = false
++++

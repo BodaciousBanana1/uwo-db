@@ -1,0 +1,16 @@
++++
+title = "(g.t.)Geographical survey of off Teranova"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "gtgeographical-survey-of-off-teranova"
+id = "99991083"
+type = "Adventure"
+city = "Immigrants"
+guild_type = "Adventurer"
+discovery = ""
+skills = [{ name = "Recognition", level = 1 }]
+variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99991083", slug = "gtgeographical-survey-of-off-teranova" }]
+steps = []
++++

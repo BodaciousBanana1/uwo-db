@@ -1,0 +1,29 @@
++++
+title = "Modified Korean Warship"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0531"
+slug = "modified-korean-warship"
+size = "Hvy"
+ship_type = "battle"
+level_adventure = 18
+level_trade = 16
+level_battle = 20
+durability = 650
+vertical_sail = 180
+horizontal_sail = 100
+row_power = 100
+turn_speed = 9
+wave_resistance = 3
+armor = 0
+hold = 500
+cannon_chambers = 60
+cabin_min = 80
+cabin_max = 170
+masts = 0
+material = "Oak"
+is_cash_ship = true
+is_steam = false
++++

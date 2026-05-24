@@ -1,0 +1,16 @@
++++
+title = "Rites and charms"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "rites-and-charms"
+id = "99997019"
+type = "Adventure"
+city = "Lima"
+guild_type = "Adventurer"
+discovery = "Konopa"
+skills = [{ name = "Search", level = 10 }, { name = "Appraisal", level = 12 }, { name = "Unlock", level = 10 }]
+variants = [{ city = "Lima", guild_type = "Adventurer", id = "99997019", slug = "rites-and-charms" }]
+steps = [{ step = 1, location = "Lima", action = "Talk to City Official x2" }, { step = 2, location = "Tumbes", action = "Talk to City Official" }, { step = 3, location = "North Lima", action = "Near the stacked boulders, Observe and Search." }]
++++

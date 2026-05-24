@@ -1,0 +1,9127 @@
+{
+  "seville": [
+    {
+      "name": "Wheat",
+      "rating": 5,
+      "category": "Foodstuffs",
+      "price": 40,
+      "investment_required": null
+    },
+    {
+      "name": "Wine",
+      "rating": 6,
+      "category": "Alcohol",
+      "price": 376,
+      "investment_required": null
+    },
+    {
+      "name": "Mercury Ointment",
+      "rating": 9,
+      "category": "Medicine",
+      "price": 1300,
+      "investment_required": "400000"
+    },
+    {
+      "name": "Cotton Fabric",
+      "rating": 1,
+      "category": "Fabrics",
+      "price": 668,
+      "investment_required": "120000"
+    },
+    {
+      "name": "Arquebuses",
+      "rating": 1,
+      "category": "Firearms",
+      "price": 1670,
+      "investment_required": null
+    },
+    {
+      "name": "Cannon",
+      "rating": 1,
+      "category": "Firearms",
+      "price": 3250,
+      "investment_required": null
+    },
+    {
+      "name": "Shot",
+      "rating": 2,
+      "category": "Firearms",
+      "price": 736,
+      "investment_required": null
+    },
+    {
+      "name": "Muskets",
+      "rating": 4,
+      "category": "Firearms",
+      "price": 2479,
+      "investment_required": "400000"
+    }
+  ],
+  "lisbon": [
+    {
+      "name": "Chicken",
+      "rating": 9,
+      "category": "Livestock",
+      "price": 44,
+      "investment_required": null
+    },
+    {
+      "name": "Copper Ore",
+      "rating": 2,
+      "category": "Ores",
+      "price": 692,
+      "investment_required": "600000"
+    },
+    {
+      "name": "Cannon Shot",
+      "rating": 3,
+      "category": "Firearms",
+      "price": 1465,
+      "investment_required": null
+    }
+  ],
+  "porto": [
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Wheat",
+      "rating": 5,
+      "category": "Foodstuffs",
+      "price": 40,
+      "investment_required": null
+    },
+    {
+      "name": "Sausages",
+      "rating": 3,
+      "category": "Foodstuffs",
+      "price": 324,
+      "investment_required": null
+    },
+    {
+      "name": "Pork",
+      "rating": 2,
+      "category": "Foodstuffs",
+      "price": 304,
+      "investment_required": null
+    },
+    {
+      "name": "Wine",
+      "rating": 6,
+      "category": "Alcohol",
+      "price": 376,
+      "investment_required": null
+    },
+    {
+      "name": "Salt",
+      "rating": 5,
+      "category": "Seasonings",
+      "price": 208,
+      "investment_required": null
+    },
+    {
+      "name": "Leather",
+      "rating": 6,
+      "category": "Fibres",
+      "price": 372,
+      "investment_required": null
+    },
+    {
+      "name": "Tin Ore",
+      "rating": 2,
+      "category": "Ores",
+      "price": 424,
+      "investment_required": null
+    }
+  ],
+  "malaga": [
+    {
+      "name": "Cattle",
+      "rating": 6,
+      "category": "Livestock",
+      "price": 280,
+      "investment_required": null
+    },
+    {
+      "name": "Liqueur",
+      "rating": 1,
+      "category": "Alcohol",
+      "price": 476,
+      "investment_required": null
+    },
+    {
+      "name": "Sherry",
+      "rating": 6,
+      "category": "Alcohol",
+      "price": 480,
+      "investment_required": "120000"
+    },
+    {
+      "name": "Wine Vinegar",
+      "rating": 1,
+      "category": "Seasonings",
+      "price": 432,
+      "investment_required": null
+    },
+    {
+      "name": "Garlic",
+      "rating": 6,
+      "category": "Spices",
+      "price": 244,
+      "investment_required": null
+    },
+    {
+      "name": "Saffron",
+      "rating": 5,
+      "category": "Spices",
+      "price": 2052,
+      "investment_required": null
+    },
+    {
+      "name": "Cinnabar",
+      "rating": 1,
+      "category": "Ores",
+      "price": 728,
+      "investment_required": "120000"
+    },
+    {
+      "name": "Coral",
+      "rating": 2,
+      "category": "Precious Stones",
+      "price": 2724,
+      "investment_required": null
+    }
+  ],
+  "ceuta": [
+    {
+      "name": "Red Beans",
+      "rating": 4,
+      "category": "Foodstuffs",
+      "price": 68,
+      "investment_required": null
+    },
+    {
+      "name": "Barley",
+      "rating": 1,
+      "category": "Foodstuffs",
+      "price": 32,
+      "investment_required": null
+    },
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Hazelnuts",
+      "rating": 1,
+      "category": "Luxury Goods",
+      "price": 336,
+      "investment_required": null
+    },
+    {
+      "name": "Coriander",
+      "rating": 3,
+      "category": "Spices",
+      "price": 272,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Thyme",
+      "rating": 1,
+      "category": "Spices",
+      "price": 244,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Basil",
+      "rating": 4,
+      "category": "Spices",
+      "price": 104,
+      "investment_required": null
+    },
+    {
+      "name": "Lemon Balm",
+      "rating": 1,
+      "category": "Medicine",
+      "price": 256,
+      "investment_required": null
+    },
+    {
+      "name": "Jute",
+      "rating": 4,
+      "category": "Fibres",
+      "price": 124,
+      "investment_required": null
+    },
+    {
+      "name": "Coral",
+      "rating": 2,
+      "category": "Precious Stones",
+      "price": 2720,
+      "investment_required": "500000"
+    }
+  ],
+  "madeira": [
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Sugar Cane",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 192,
+      "investment_required": null
+    },
+    {
+      "name": "Liqueur",
+      "rating": 1,
+      "category": "Alcohol",
+      "price": 476,
+      "investment_required": null
+    },
+    {
+      "name": "Wine",
+      "rating": 6,
+      "category": "Alcohol",
+      "price": 376,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Sugar",
+      "rating": 3,
+      "category": "Seasonings",
+      "price": 571,
+      "investment_required": null
+    },
+    {
+      "name": "Raisins",
+      "rating": 10,
+      "category": "Luxury Goods",
+      "price": 209,
+      "investment_required": null
+    },
+    {
+      "name": "Wood Sculpture",
+      "rating": 1,
+      "category": "Artwork",
+      "price": 870,
+      "investment_required": null
+    }
+  ],
+  "las-palmas": [
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Sugar Cane",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 192,
+      "investment_required": null
+    },
+    {
+      "name": "Sugar",
+      "rating": 3,
+      "category": "Seasonings",
+      "price": 572,
+      "investment_required": null
+    },
+    {
+      "name": "Palm Oil",
+      "rating": 1,
+      "category": "Seasonings",
+      "price": 172,
+      "investment_required": "120000"
+    },
+    {
+      "name": "Coconuts",
+      "rating": 8,
+      "category": "Luxury Goods",
+      "price": 256,
+      "investment_required": null
+    },
+    {
+      "name": "Raisins",
+      "rating": 10,
+      "category": "Luxury Goods",
+      "price": 208,
+      "investment_required": null
+    },
+    {
+      "name": "Coral",
+      "rating": 2,
+      "category": "Precious Stones",
+      "price": 2721,
+      "investment_required": null
+    },
+    {
+      "name": "Logs",
+      "rating": 13,
+      "category": "Wares",
+      "price": 304,
+      "investment_required": null
+    }
+  ],
+  "faro": [
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Pigs",
+      "rating": 3,
+      "category": "Livestock",
+      "price": 56,
+      "investment_required": null
+    },
+    {
+      "name": "Eggs",
+      "rating": 5,
+      "category": "Foodstuffs",
+      "price": 24,
+      "investment_required": null
+    },
+    {
+      "name": "Sherry",
+      "rating": 6,
+      "category": "Alcohol",
+      "price": 384,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Parsley",
+      "rating": 1,
+      "category": "Spices",
+      "price": 96,
+      "investment_required": null
+    }
+  ],
+  "gijon": [
+    {
+      "name": "Pigs",
+      "rating": 3,
+      "category": "Livestock",
+      "price": 56,
+      "investment_required": null
+    },
+    {
+      "name": "Ducks",
+      "rating": 5,
+      "category": "Livestock",
+      "price": 56,
+      "investment_required": null
+    },
+    {
+      "name": "Iron Ore",
+      "rating": 5,
+      "category": "Ores",
+      "price": 568,
+      "investment_required": null
+    }
+  ],
+  "casablanca": [
+    {
+      "name": "Olives",
+      "rating": 3,
+      "category": "Foodstuffs",
+      "price": 0,
+      "investment_required": "600000"
+    },
+    {
+      "name": "Onions",
+      "rating": 4,
+      "category": "Foodstuffs",
+      "price": 72,
+      "investment_required": null
+    },
+    {
+      "name": "Ambergris",
+      "rating": 10,
+      "category": "Fragrances",
+      "price": 3213,
+      "investment_required": null
+    }
+  ],
+  "the-azores": [
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Wheat",
+      "rating": 5,
+      "category": "Foodstuffs",
+      "price": 40,
+      "investment_required": null
+    },
+    {
+      "name": "Cattle",
+      "rating": 6,
+      "category": "Livestock",
+      "price": 280,
+      "investment_required": null
+    },
+    {
+      "name": "Wine",
+      "rating": 6,
+      "category": "Alcohol",
+      "price": 376,
+      "investment_required": null
+    },
+    {
+      "name": "Logs",
+      "rating": 13,
+      "category": "Wares",
+      "price": 304,
+      "investment_required": null
+    }
+  ],
+  "marseille": [
+    {
+      "name": "Wine",
+      "rating": 6,
+      "category": "Alcohol",
+      "price": 376,
+      "investment_required": null
+    },
+    {
+      "name": "Salt",
+      "rating": 5,
+      "category": "Seasonings",
+      "price": 208,
+      "investment_required": null
+    },
+    {
+      "name": "Honey",
+      "rating": 3,
+      "category": "Seasonings",
+      "price": 768,
+      "investment_required": null
+    },
+    {
+      "name": "Walnuts",
+      "rating": 4,
+      "category": "Luxury Goods",
+      "price": 416,
+      "investment_required": null
+    },
+    {
+      "name": "Satin",
+      "rating": 3,
+      "category": "Fabrics",
+      "price": 2762,
+      "investment_required": "400000"
+    },
+    {
+      "name": "Paper",
+      "rating": 2,
+      "category": "Wares",
+      "price": 240,
+      "investment_required": "180000"
+    }
+  ],
+  "valencia": [
+    {
+      "name": "Olives",
+      "rating": 3,
+      "category": "Foodstuffs",
+      "price": 224,
+      "investment_required": null
+    },
+    {
+      "name": "Wheat",
+      "rating": 5,
+      "category": "Foodstuffs",
+      "price": 40,
+      "investment_required": null
+    },
+    {
+      "name": "Raisins",
+      "rating": 10,
+      "category": "Luxury Goods",
+      "price": 208,
+      "investment_required": "120000"
+    },
+    {
+      "name": "Wool",
+      "rating": 6,
+      "category": "Fibres",
+      "price": 324,
+      "investment_required": null
+    },
+    {
+      "name": "Cinnabar",
+      "rating": 1,
+      "category": "Ores",
+      "price": 728,
+      "investment_required": null
+    }
+  ],
+  "barcelona": [
+    {
+      "name": "Salt",
+      "rating": 5,
+      "category": "Seasonings",
+      "price": 208,
+      "investment_required": null
+    },
+    {
+      "name": "Lead Ore",
+      "rating": 4,
+      "category": "Ores",
+      "price": 392,
+      "investment_required": null
+    },
+    {
+      "name": "Single-handed Swords",
+      "rating": 2,
+      "category": "Arms",
+      "price": 888,
+      "investment_required": null
+    },
+    {
+      "name": "Gunpowder",
+      "rating": 4,
+      "category": "Firearms",
+      "price": 768,
+      "investment_required": null
+    },
+    {
+      "name": "Cannon",
+      "rating": 1,
+      "category": "Firearms",
+      "price": 3250,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Cannon Shot",
+      "rating": 3,
+      "category": "Firearms",
+      "price": 1471,
+      "investment_required": null
+    },
+    {
+      "name": "Muskets",
+      "rating": 4,
+      "category": "Firearms",
+      "price": 2720,
+      "investment_required": null
+    },
+    {
+      "name": "Brass",
+      "rating": 1,
+      "category": "Wares",
+      "price": 640,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Steel",
+      "rating": 2,
+      "category": "Wares",
+      "price": 974,
+      "investment_required": null
+    }
+  ],
+  "palma": [
+    {
+      "name": "Olives",
+      "rating": 3,
+      "category": "Foodstuffs",
+      "price": 224,
+      "investment_required": null
+    },
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Wine Vinegar",
+      "rating": 1,
+      "category": "Seasonings",
+      "price": 432,
+      "investment_required": null
+    },
+    {
+      "name": "Oregano",
+      "rating": 1,
+      "category": "Spices",
+      "price": 420,
+      "investment_required": null
+    },
+    {
+      "name": "Coriander",
+      "rating": 3,
+      "category": "Spices",
+      "price": 272,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Thyme",
+      "rating": 1,
+      "category": "Spices",
+      "price": 244,
+      "investment_required": null
+    },
+    {
+      "name": "Parsley",
+      "rating": 1,
+      "category": "Spices",
+      "price": 96,
+      "investment_required": null
+    },
+    {
+      "name": "Coral",
+      "rating": 2,
+      "category": "Precious Stones",
+      "price": 2719,
+      "investment_required": "180000"
+    }
+  ],
+  "algiers": [
+    {
+      "name": "Red Beans",
+      "rating": 4,
+      "category": "Foodstuffs",
+      "price": 68,
+      "investment_required": null
+    },
+    {
+      "name": "Onions",
+      "rating": 4,
+      "category": "Foodstuffs",
+      "price": 72,
+      "investment_required": null
+    },
+    {
+      "name": "Sesame Seeds",
+      "rating": 1,
+      "category": "Spices",
+      "price": 168,
+      "investment_required": null
+    },
+    {
+      "name": "Kenaf",
+      "rating": 3,
+      "category": "Fibres",
+      "price": 144,
+      "investment_required": null
+    },
+    {
+      "name": "Hemp Fabric",
+      "rating": 3,
+      "category": "Fabrics",
+      "price": 332,
+      "investment_required": null
+    },
+    {
+      "name": "Iron Ore",
+      "rating": 5,
+      "category": "Ores",
+      "price": 567,
+      "investment_required": null
+    },
+    {
+      "name": "Cinnabar",
+      "rating": 1,
+      "category": "Ores",
+      "price": 728,
+      "investment_required": "320000"
+    },
+    {
+      "name": "Oil",
+      "rating": 1,
+      "category": "Wares",
+      "price": 592,
+      "investment_required": "240000"
+    }
+  ],
+  "genoa": [
+    {
+      "name": "Liqueur",
+      "rating": 1,
+      "category": "Alcohol",
+      "price": 476,
+      "investment_required": null
+    },
+    {
+      "name": "Lavender",
+      "rating": 1,
+      "category": "Fragrances",
+      "price": 676,
+      "investment_required": null
+    },
+    {
+      "name": "Woollen Fabric",
+      "rating": 2,
+      "category": "Fabrics",
+      "price": 812,
+      "investment_required": null
+    },
+    {
+      "name": "Knitted Fabric",
+      "rating": 1,
+      "category": "Fabrics",
+      "price": 456,
+      "investment_required": null
+    },
+    {
+      "name": "Velvet",
+      "rating": 39,
+      "category": "Fabrics",
+      "price": 2900,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Silver",
+      "rating": 3,
+      "category": "Precious Metals",
+      "price": 2510,
+      "investment_required": null
+    },
+    {
+      "name": "Silverwork",
+      "rating": 1,
+      "category": "Crafts",
+      "price": 2680,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Fine Clothing",
+      "rating": 9,
+      "category": "Crafts",
+      "price": 3650,
+      "investment_required": null
+    },
+    {
+      "name": "Marble Sculpture",
+      "rating": 3,
+      "category": "Artwork",
+      "price": 0,
+      "investment_required": "700000"
+    }
+  ],
+  "pisa": [
+    {
+      "name": "Pickles",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 224,
+      "investment_required": null
+    },
+    {
+      "name": "Hazelnuts",
+      "rating": 1,
+      "category": "Luxury Goods",
+      "price": 336,
+      "investment_required": null
+    },
+    {
+      "name": "Rose",
+      "rating": 3,
+      "category": "Fragrances",
+      "price": 2452,
+      "investment_required": null
+    },
+    {
+      "name": "Woollen Fabric",
+      "rating": 2,
+      "category": "Fabrics",
+      "price": 810,
+      "investment_required": null
+    },
+    {
+      "name": "Velvet",
+      "rating": 39,
+      "category": "Fabrics",
+      "price": 2901,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Eye-beads",
+      "rating": 2,
+      "category": "Crafts",
+      "price": 0,
+      "investment_required": "700000"
+    },
+    {
+      "name": "Marble Sculpture",
+      "rating": 3,
+      "category": "Artwork",
+      "price": 2540,
+      "investment_required": null
+    },
+    {
+      "name": "Crossbows",
+      "rating": 5,
+      "category": "Arms",
+      "price": 819,
+      "investment_required": null
+    }
+  ],
+  "tunis": [
+    {
+      "name": "Red Beans",
+      "rating": 4,
+      "category": "Foodstuffs",
+      "price": 68,
+      "investment_required": null
+    },
+    {
+      "name": "Olives",
+      "rating": 3,
+      "category": "Foodstuffs",
+      "price": 224,
+      "investment_required": null
+    },
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Wheat",
+      "rating": 5,
+      "category": "Foodstuffs",
+      "price": 40,
+      "investment_required": null
+    },
+    {
+      "name": "Coriander",
+      "rating": 3,
+      "category": "Spices",
+      "price": 272,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Tyrian Purple",
+      "rating": 3,
+      "category": "Dyes",
+      "price": 3800,
+      "investment_required": null
+    },
+    {
+      "name": "Hemp Fabric",
+      "rating": 3,
+      "category": "Fabrics",
+      "price": 332,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Iron Ore",
+      "rating": 5,
+      "category": "Ores",
+      "price": 552,
+      "investment_required": null
+    }
+  ],
+  "tripoli": [
+    {
+      "name": "Turnips",
+      "rating": 1,
+      "category": "Foodstuffs",
+      "price": 36,
+      "investment_required": null
+    },
+    {
+      "name": "Wild Oats",
+      "rating": 5,
+      "category": "Foodstuffs",
+      "price": 32,
+      "investment_required": null
+    },
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Wheat",
+      "rating": 5,
+      "category": "Foodstuffs",
+      "price": 40,
+      "investment_required": null
+    },
+    {
+      "name": "Pickles",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 224,
+      "investment_required": null
+    },
+    {
+      "name": "Belladonna",
+      "rating": 3,
+      "category": "Medicine",
+      "price": 364,
+      "investment_required": "400000"
+    },
+    {
+      "name": "Cotton",
+      "rating": 8,
+      "category": "Fibres",
+      "price": 268,
+      "investment_required": "400000"
+    },
+    {
+      "name": "Camel Hair",
+      "rating": 1,
+      "category": "Fibres",
+      "price": 343,
+      "investment_required": null
+    },
+    {
+      "name": "Cotton Fabric",
+      "rating": 1,
+      "category": "Fabrics",
+      "price": 668,
+      "investment_required": "620000"
+    }
+  ],
+  "montpellier": [
+    {
+      "name": "Ducks",
+      "rating": 5,
+      "category": "Livestock",
+      "price": 56,
+      "investment_required": null
+    },
+    {
+      "name": "Mushrooms",
+      "rating": 6,
+      "category": "Foodstuffs",
+      "price": 32,
+      "investment_required": null
+    },
+    {
+      "name": "Carrots",
+      "rating": 5,
+      "category": "Foodstuffs",
+      "price": 80,
+      "investment_required": null
+    },
+    {
+      "name": "Raisins",
+      "rating": 10,
+      "category": "Luxury Goods",
+      "price": 208,
+      "investment_required": null
+    },
+    {
+      "name": "Parsley",
+      "rating": 1,
+      "category": "Spices",
+      "price": 96,
+      "investment_required": null
+    },
+    {
+      "name": "Peony",
+      "rating": 6,
+      "category": "Medicine",
+      "price": 313,
+      "investment_required": "500000"
+    },
+    {
+      "name": "Garnet",
+      "rating": 2,
+      "category": "Precious Stones",
+      "price": 0,
+      "investment_required": "700000"
+    }
+  ],
+  "calvi": [
+    {
+      "name": "Pork",
+      "rating": 2,
+      "category": "Foodstuffs",
+      "price": 0,
+      "investment_required": "500000"
+    },
+    {
+      "name": "Eggs",
+      "rating": 5,
+      "category": "Foodstuffs",
+      "price": 24,
+      "investment_required": null
+    },
+    {
+      "name": "Dill",
+      "rating": 1,
+      "category": "Spices",
+      "price": 160,
+      "investment_required": "400000"
+    }
+  ],
+  "cagliari": [
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Goats",
+      "rating": 6,
+      "category": "Livestock",
+      "price": 164,
+      "investment_required": null
+    },
+    {
+      "name": "Wine",
+      "rating": 6,
+      "category": "Alcohol",
+      "price": 0,
+      "investment_required": "500000"
+    },
+    {
+      "name": "Olive Oil",
+      "rating": 1,
+      "category": "Seasonings",
+      "price": 276,
+      "investment_required": null
+    },
+    {
+      "name": "Peony",
+      "rating": 6,
+      "category": "Medicine",
+      "price": 303,
+      "investment_required": "500000"
+    },
+    {
+      "name": "Crystal",
+      "rating": 11,
+      "category": "Precious Stones",
+      "price": 0,
+      "investment_required": "700000"
+    }
+  ],
+  "sassari": [
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Sheep",
+      "rating": 11,
+      "category": "Livestock",
+      "price": 108,
+      "investment_required": null
+    },
+    {
+      "name": "Digitalis",
+      "rating": 1,
+      "category": "Medicine",
+      "price": 288,
+      "investment_required": "500000"
+    },
+    {
+      "name": "Jute",
+      "rating": 4,
+      "category": "Fibres",
+      "price": 139,
+      "investment_required": null
+    },
+    {
+      "name": "Gold",
+      "rating": 11,
+      "category": "Precious Metals",
+      "price": 0,
+      "investment_required": "700000"
+    }
+  ],
+  "paris": [],
+  "florence": [],
+  "venice": [
+    {
+      "name": "Pepper",
+      "rating": 25,
+      "category": "Spices",
+      "price": 5500,
+      "investment_required": null
+    },
+    {
+      "name": "Parsley",
+      "rating": 1,
+      "category": "Spices",
+      "price": 96,
+      "investment_required": null
+    },
+    {
+      "name": "Silk Cloth",
+      "rating": 8,
+      "category": "Fabrics",
+      "price": 0,
+      "investment_required": "600000"
+    },
+    {
+      "name": "Satin",
+      "rating": 3,
+      "category": "Fabrics",
+      "price": 3040,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Georgette Fabric",
+      "rating": 1,
+      "category": "Fabrics",
+      "price": 3190,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Glasswork",
+      "rating": 6,
+      "category": "Crafts",
+      "price": 1100,
+      "investment_required": null
+    },
+    {
+      "name": "Goldwork",
+      "rating": 2,
+      "category": "Crafts",
+      "price": 3140,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Oil Paintings",
+      "rating": 4,
+      "category": "Artwork",
+      "price": 2260,
+      "investment_required": "320000"
+    }
+  ],
+  "naples": [
+    {
+      "name": "Pasta",
+      "rating": 2,
+      "category": "Foodstuffs",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Hazelnuts",
+      "rating": 1,
+      "category": "Luxury Goods",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Lavender",
+      "rating": 1,
+      "category": "Fragrances",
+      "price": 676,
+      "investment_required": null
+    },
+    {
+      "name": "Lemon Oil",
+      "rating": 2,
+      "category": "Fragrances",
+      "price": 472,
+      "investment_required": null
+    },
+    {
+      "name": "Glasswork",
+      "rating": 6,
+      "category": "Crafts",
+      "price": 1100,
+      "investment_required": null
+    },
+    {
+      "name": "Jewellery",
+      "rating": 1,
+      "category": "Crafts",
+      "price": 3760,
+      "investment_required": null
+    },
+    {
+      "name": "Copper Etchings",
+      "rating": 2,
+      "category": "Artwork",
+      "price": 564,
+      "investment_required": "500000"
+    }
+  ],
+  "ragusa": [
+    {
+      "name": "Olives",
+      "rating": 3,
+      "category": "Foodstuffs",
+      "price": 224,
+      "investment_required": null
+    },
+    {
+      "name": "Turnips",
+      "rating": 1,
+      "category": "Foodstuffs",
+      "price": 36,
+      "investment_required": null
+    },
+    {
+      "name": "Wheat",
+      "rating": 5,
+      "category": "Foodstuffs",
+      "price": 40,
+      "investment_required": null
+    },
+    {
+      "name": "Olive Oil",
+      "rating": 1,
+      "category": "Seasonings",
+      "price": 304,
+      "investment_required": null
+    },
+    {
+      "name": "Hazelnuts",
+      "rating": 1,
+      "category": "Luxury Goods",
+      "price": 478,
+      "investment_required": "150000"
+    },
+    {
+      "name": "Oregano",
+      "rating": 1,
+      "category": "Spices",
+      "price": 553,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Woad",
+      "rating": 5,
+      "category": "Dyes",
+      "price": 840,
+      "investment_required": null
+    }
+  ],
+  "syracuse": [
+    {
+      "name": "Olives",
+      "rating": 3,
+      "category": "Foodstuffs",
+      "price": 224,
+      "investment_required": null
+    },
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Wheat",
+      "rating": 5,
+      "category": "Foodstuffs",
+      "price": 40,
+      "investment_required": null
+    },
+    {
+      "name": "Salt",
+      "rating": 5,
+      "category": "Seasonings",
+      "price": 208,
+      "investment_required": null
+    },
+    {
+      "name": "Walnuts",
+      "rating": 4,
+      "category": "Luxury Goods",
+      "price": 431,
+      "investment_required": "120000"
+    },
+    {
+      "name": "Pickles",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 224,
+      "investment_required": null
+    },
+    {
+      "name": "Mandrake",
+      "rating": 10,
+      "category": "Medicine",
+      "price": 721,
+      "investment_required": "500000"
+    },
+    {
+      "name": "Lemon Oil",
+      "rating": 2,
+      "category": "Fragrances",
+      "price": 472,
+      "investment_required": null
+    }
+  ],
+  "famagusta": [
+    {
+      "name": "Olives",
+      "rating": 3,
+      "category": "Foodstuffs",
+      "price": 224,
+      "investment_required": null
+    },
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Wheat",
+      "rating": 5,
+      "category": "Foodstuffs",
+      "price": 40,
+      "investment_required": null
+    },
+    {
+      "name": "Sausages",
+      "rating": 3,
+      "category": "Foodstuffs",
+      "price": 324,
+      "investment_required": "120000"
+    },
+    {
+      "name": "Pork",
+      "rating": 2,
+      "category": "Foodstuffs",
+      "price": 304,
+      "investment_required": null
+    },
+    {
+      "name": "Wine",
+      "rating": 6,
+      "category": "Alcohol",
+      "price": 376,
+      "investment_required": null
+    },
+    {
+      "name": "Laurel",
+      "rating": 1,
+      "category": "Spices",
+      "price": 109,
+      "investment_required": null
+    },
+    {
+      "name": "Copper Ore",
+      "rating": 2,
+      "category": "Ores",
+      "price": 692,
+      "investment_required": null
+    }
+  ],
+  "beirut": [
+    {
+      "name": "Onions",
+      "rating": 4,
+      "category": "Foodstuffs",
+      "price": 72,
+      "investment_required": null
+    },
+    {
+      "name": "Lamb",
+      "rating": 2,
+      "category": "Foodstuffs",
+      "price": 316,
+      "investment_required": null
+    },
+    {
+      "name": "Safflower",
+      "rating": 9,
+      "category": "Dyes",
+      "price": 440,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Cotton Fabric",
+      "rating": 1,
+      "category": "Fabrics",
+      "price": 668,
+      "investment_required": null
+    },
+    {
+      "name": "Damascus Swords",
+      "rating": 7,
+      "category": "Arms",
+      "price": 4150,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Paper",
+      "rating": 2,
+      "category": "Wares",
+      "price": 240,
+      "investment_required": null
+    },
+    {
+      "name": "Steel",
+      "rating": 2,
+      "category": "Wares",
+      "price": 972,
+      "investment_required": null
+    },
+    {
+      "name": "Lumber",
+      "rating": 5,
+      "category": "Wares",
+      "price": 0,
+      "investment_required": "600000"
+    }
+  ],
+  "jaffa": [
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Sugar Cane",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 192,
+      "investment_required": null
+    },
+    {
+      "name": "Lamb",
+      "rating": 2,
+      "category": "Foodstuffs",
+      "price": 316,
+      "investment_required": null
+    },
+    {
+      "name": "Milk",
+      "rating": 5,
+      "category": "Foodstuffs",
+      "price": 0,
+      "investment_required": "500000"
+    },
+    {
+      "name": "Dried Figs",
+      "rating": 3,
+      "category": "Luxury Goods",
+      "price": 256,
+      "investment_required": null
+    },
+    {
+      "name": "Ginger",
+      "rating": 10,
+      "category": "Spices",
+      "price": 1911,
+      "investment_required": null
+    },
+    {
+      "name": "Daffodils",
+      "rating": 6,
+      "category": "Fragrances",
+      "price": 646,
+      "investment_required": null
+    },
+    {
+      "name": "Oil",
+      "rating": 1,
+      "category": "Wares",
+      "price": 508,
+      "investment_required": null
+    },
+    {
+      "name": "Steel",
+      "rating": 2,
+      "category": "Wares",
+      "price": 976,
+      "investment_required": "240000"
+    }
+  ],
+  "salonika": [
+    {
+      "name": "Olives",
+      "rating": 3,
+      "category": "Foodstuffs",
+      "price": 224,
+      "investment_required": null
+    },
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Honey",
+      "rating": 3,
+      "category": "Seasonings",
+      "price": 768,
+      "investment_required": null
+    },
+    {
+      "name": "Pickles",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 224,
+      "investment_required": null
+    },
+    {
+      "name": "Dried Figs",
+      "rating": 3,
+      "category": "Luxury Goods",
+      "price": 0,
+      "investment_required": "600000"
+    },
+    {
+      "name": "Oregano",
+      "rating": 1,
+      "category": "Spices",
+      "price": 420,
+      "investment_required": null
+    },
+    {
+      "name": "Oakmoss",
+      "rating": 1,
+      "category": "Fragrances",
+      "price": 602,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Marble",
+      "rating": 7,
+      "category": "Wares",
+      "price": 1110,
+      "investment_required": null
+    },
+    {
+      "name": "Wax",
+      "rating": 2,
+      "category": "Wares",
+      "price": 672,
+      "investment_required": "120000"
+    }
+  ],
+  "athens": [
+    {
+      "name": "Olives",
+      "rating": 3,
+      "category": "Foodstuffs",
+      "price": 224,
+      "investment_required": null
+    },
+    {
+      "name": "Olive Oil",
+      "rating": 1,
+      "category": "Seasonings",
+      "price": 276,
+      "investment_required": null
+    },
+    {
+      "name": "Honey",
+      "rating": 3,
+      "category": "Seasonings",
+      "price": 768,
+      "investment_required": null
+    },
+    {
+      "name": "Oakmoss",
+      "rating": 1,
+      "category": "Fragrances",
+      "price": 600,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Marble Sculpture",
+      "rating": 3,
+      "category": "Artwork",
+      "price": 2540,
+      "investment_required": null
+    },
+    {
+      "name": "Marble",
+      "rating": 7,
+      "category": "Wares",
+      "price": 1115,
+      "investment_required": null
+    },
+    {
+      "name": "Parchment",
+      "rating": 7,
+      "category": "Wares",
+      "price": 984,
+      "investment_required": null
+    },
+    {
+      "name": "Wax",
+      "rating": 2,
+      "category": "Wares",
+      "price": 672,
+      "investment_required": null
+    }
+  ],
+  "candia": [
+    {
+      "name": "Olives",
+      "rating": 3,
+      "category": "Foodstuffs",
+      "price": 224,
+      "investment_required": null
+    },
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Pork",
+      "rating": 2,
+      "category": "Foodstuffs",
+      "price": 304,
+      "investment_required": null
+    },
+    {
+      "name": "Wine",
+      "rating": 6,
+      "category": "Alcohol",
+      "price": 0,
+      "investment_required": "600000"
+    },
+    {
+      "name": "Olive Oil",
+      "rating": 1,
+      "category": "Seasonings",
+      "price": 276,
+      "investment_required": null
+    },
+    {
+      "name": "Tyrian Purple",
+      "rating": 3,
+      "category": "Dyes",
+      "price": 3800,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Marble Sculpture",
+      "rating": 3,
+      "category": "Artwork",
+      "price": 2540,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Wax",
+      "rating": 2,
+      "category": "Wares",
+      "price": 672,
+      "investment_required": "240000"
+    }
+  ],
+  "alexandria": [
+    {
+      "name": "Wheat",
+      "rating": 5,
+      "category": "Foodstuffs",
+      "price": 40,
+      "investment_required": null
+    },
+    {
+      "name": "Garlic",
+      "rating": 6,
+      "category": "Spices",
+      "price": 244,
+      "investment_required": null
+    },
+    {
+      "name": "Cummin",
+      "rating": 5,
+      "category": "Spices",
+      "price": 625,
+      "investment_required": "500000"
+    },
+    {
+      "name": "Pepper",
+      "rating": 25,
+      "category": "Spices",
+      "price": 4500,
+      "investment_required": null
+    },
+    {
+      "name": "Myrrh",
+      "rating": 1,
+      "category": "Medicine",
+      "price": 519,
+      "investment_required": null
+    },
+    {
+      "name": "Cotton",
+      "rating": 8,
+      "category": "Fibres",
+      "price": 267,
+      "investment_required": null
+    },
+    {
+      "name": "Camel Hair",
+      "rating": 1,
+      "category": "Fibres",
+      "price": 343,
+      "investment_required": null
+    },
+    {
+      "name": "Gunpowder",
+      "rating": 4,
+      "category": "Firearms",
+      "price": 727,
+      "investment_required": null
+    }
+  ],
+  "cairo": [
+    {
+      "name": "Onions",
+      "rating": 4,
+      "category": "Foodstuffs",
+      "price": 72,
+      "investment_required": null
+    },
+    {
+      "name": "Garlic",
+      "rating": 6,
+      "category": "Spices",
+      "price": 244,
+      "investment_required": null
+    },
+    {
+      "name": "Sesame Seeds",
+      "rating": 1,
+      "category": "Spices",
+      "price": 167,
+      "investment_required": null
+    },
+    {
+      "name": "Cotton",
+      "rating": 8,
+      "category": "Fibres",
+      "price": 268,
+      "investment_required": null
+    },
+    {
+      "name": "Camel Hair",
+      "rating": 1,
+      "category": "Fibres",
+      "price": 344,
+      "investment_required": "120000"
+    },
+    {
+      "name": "Knitted Fabric",
+      "rating": 1,
+      "category": "Fabrics",
+      "price": 454,
+      "investment_required": null
+    },
+    {
+      "name": "Cotton Fabric",
+      "rating": 1,
+      "category": "Fabrics",
+      "price": 668,
+      "investment_required": null
+    },
+    {
+      "name": "Alabaster",
+      "rating": 4,
+      "category": "Wares",
+      "price": 456,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Papyrus",
+      "rating": 3,
+      "category": "Wares",
+      "price": 354,
+      "investment_required": null
+    }
+  ],
+  "istanbul": [
+    {
+      "name": "Lamb",
+      "rating": 2,
+      "category": "Foodstuffs",
+      "price": 315,
+      "investment_required": null
+    },
+    {
+      "name": "Olive Oil",
+      "rating": 1,
+      "category": "Seasonings",
+      "price": 276,
+      "investment_required": null
+    },
+    {
+      "name": "Butter",
+      "rating": 1,
+      "category": "Seasonings",
+      "price": 272,
+      "investment_required": null
+    },
+    {
+      "name": "Apricot Seeds",
+      "rating": 1,
+      "category": "Medicine",
+      "price": 356,
+      "investment_required": null
+    },
+    {
+      "name": "Woollen Fabric",
+      "rating": 2,
+      "category": "Fabrics",
+      "price": 810,
+      "investment_required": null
+    },
+    {
+      "name": "Turkish Carpet",
+      "rating": 2,
+      "category": "Fabrics",
+      "price": 3638,
+      "investment_required": null
+    },
+    {
+      "name": "Goldwork",
+      "rating": 2,
+      "category": "Crafts",
+      "price": 2850,
+      "investment_required": null
+    }
+  ],
+  "trebizond": [
+    {
+      "name": "Wetland Rice",
+      "rating": 6,
+      "category": "Foodstuffs",
+      "price": 44,
+      "investment_required": null
+    },
+    {
+      "name": "Sheep",
+      "rating": 11,
+      "category": "Livestock",
+      "price": 109,
+      "investment_required": null
+    },
+    {
+      "name": "Salt",
+      "rating": 5,
+      "category": "Seasonings",
+      "price": 208,
+      "investment_required": null
+    },
+    {
+      "name": "Garlic",
+      "rating": 6,
+      "category": "Spices",
+      "price": 244,
+      "investment_required": null
+    },
+    {
+      "name": "Pomegranate",
+      "rating": 6,
+      "category": "Dyes",
+      "price": 359,
+      "investment_required": null
+    },
+    {
+      "name": "Rose",
+      "rating": 3,
+      "category": "Fragrances",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Cotton Fabric",
+      "rating": 1,
+      "category": "Fabrics",
+      "price": 670,
+      "investment_required": null
+    },
+    {
+      "name": "Lumber",
+      "rating": 5,
+      "category": "Wares",
+      "price": 591,
+      "investment_required": null
+    }
+  ],
+  "kaffa": [
+    {
+      "name": "Wheat",
+      "rating": 5,
+      "category": "Foodstuffs",
+      "price": 40,
+      "investment_required": null
+    },
+    {
+      "name": "Cotton",
+      "rating": 8,
+      "category": "Fibres",
+      "price": 268,
+      "investment_required": null
+    },
+    {
+      "name": "Turkish Carpet",
+      "rating": 2,
+      "category": "Fabrics",
+      "price": 3639,
+      "investment_required": null
+    },
+    {
+      "name": "Cotton Fabric",
+      "rating": 1,
+      "category": "Fabrics",
+      "price": 666,
+      "investment_required": null
+    },
+    {
+      "name": "Iron Ore",
+      "rating": 5,
+      "category": "Ores",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Lumber",
+      "rating": 5,
+      "category": "Wares",
+      "price": 591,
+      "investment_required": null
+    }
+  ],
+  "trieste": [
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Eggs",
+      "rating": 5,
+      "category": "Foodstuffs",
+      "price": 24,
+      "investment_required": null
+    },
+    {
+      "name": "Wine",
+      "rating": 6,
+      "category": "Alcohol",
+      "price": 376,
+      "investment_required": null
+    },
+    {
+      "name": "Coral",
+      "rating": 2,
+      "category": "Precious Stones",
+      "price": 0,
+      "investment_required": "700000"
+    }
+  ],
+  "zadar": [
+    {
+      "name": "Chicken",
+      "rating": 9,
+      "category": "Livestock",
+      "price": 44,
+      "investment_required": null
+    },
+    {
+      "name": "Goats",
+      "rating": 6,
+      "category": "Livestock",
+      "price": 164,
+      "investment_required": null
+    },
+    {
+      "name": "Honey",
+      "rating": 3,
+      "category": "Seasonings",
+      "price": 768,
+      "investment_required": null
+    },
+    {
+      "name": "Tuna",
+      "rating": 55,
+      "category": "Foodstuffs",
+      "price": 0,
+      "investment_required": "700000"
+    }
+  ],
+  "ancona": [
+    {
+      "name": "Chicken",
+      "rating": 9,
+      "category": "Livestock",
+      "price": 44,
+      "investment_required": null
+    },
+    {
+      "name": "Mushrooms",
+      "rating": 6,
+      "category": "Foodstuffs",
+      "price": 32,
+      "investment_required": null
+    },
+    {
+      "name": "Wine",
+      "rating": 6,
+      "category": "Alcohol",
+      "price": 376,
+      "investment_required": null
+    }
+  ],
+  "benghazi": [
+    {
+      "name": "Olives",
+      "rating": 3,
+      "category": "Foodstuffs",
+      "price": 224,
+      "investment_required": null
+    },
+    {
+      "name": "Berries",
+      "rating": 57,
+      "category": "Foodstuffs",
+      "price": 0,
+      "investment_required": "700000"
+    },
+    {
+      "name": "Myrrh",
+      "rating": 1,
+      "category": "Medicine",
+      "price": 520,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Wool",
+      "rating": 6,
+      "category": "Fibres",
+      "price": 324,
+      "investment_required": null
+    },
+    {
+      "name": "Oil",
+      "rating": 1,
+      "category": "Wares",
+      "price": 508,
+      "investment_required": null
+    }
+  ],
+  "odessa": [
+    {
+      "name": "Barley",
+      "rating": 1,
+      "category": "Foodstuffs",
+      "price": 32,
+      "investment_required": null
+    },
+    {
+      "name": "Wheat",
+      "rating": 5,
+      "category": "Foodstuffs",
+      "price": 40,
+      "investment_required": null
+    },
+    {
+      "name": "Aniseed",
+      "rating": 5,
+      "category": "Medicine",
+      "price": 188,
+      "investment_required": "320000"
+    },
+    {
+      "name": "Iron Ore",
+      "rating": 5,
+      "category": "Ores",
+      "price": 0,
+      "investment_required": "700000"
+    },
+    {
+      "name": "Coal",
+      "rating": 3,
+      "category": "Wares",
+      "price": 416,
+      "investment_required": null
+    }
+  ],
+  "sevastopol": [
+    {
+      "name": "Barley",
+      "rating": 1,
+      "category": "Foodstuffs",
+      "price": 32,
+      "investment_required": null
+    },
+    {
+      "name": "Wheat",
+      "rating": 5,
+      "category": "Foodstuffs",
+      "price": 40,
+      "investment_required": null
+    },
+    {
+      "name": "Cattle",
+      "rating": 6,
+      "category": "Livestock",
+      "price": 280,
+      "investment_required": null
+    },
+    {
+      "name": "Autumn Crocus",
+      "rating": 9,
+      "category": "Medicine",
+      "price": 336,
+      "investment_required": "500000"
+    },
+    {
+      "name": "Iron Ore",
+      "rating": 5,
+      "category": "Ores",
+      "price": 568,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Steel",
+      "rating": 2,
+      "category": "Wares",
+      "price": 0,
+      "investment_required": "700000"
+    }
+  ],
+  "rome": [],
+  "amsterdam": [
+    {
+      "name": "Gin",
+      "rating": 1,
+      "category": "Alcohol",
+      "price": 516,
+      "investment_required": null
+    },
+    {
+      "name": "Chamomile",
+      "rating": 13,
+      "category": "Medicine",
+      "price": 288,
+      "investment_required": null
+    },
+    {
+      "name": "Hemp Fabric",
+      "rating": 3,
+      "category": "Fabrics",
+      "price": 332,
+      "investment_required": null
+    },
+    {
+      "name": "Woollen Fabric",
+      "rating": 2,
+      "category": "Fabrics",
+      "price": 812,
+      "investment_required": null
+    },
+    {
+      "name": "Crystal",
+      "rating": 11,
+      "category": "Precious Stones",
+      "price": 1180,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Eye-beads",
+      "rating": 2,
+      "category": "Crafts",
+      "price": 984,
+      "investment_required": null
+    },
+    {
+      "name": "Iron",
+      "rating": 3,
+      "category": "Wares",
+      "price": 704,
+      "investment_required": null
+    }
+  ],
+  "london": [
+    {
+      "name": "Whiskey",
+      "rating": 4,
+      "category": "Alcohol",
+      "price": 552,
+      "investment_required": null
+    },
+    {
+      "name": "Butter",
+      "rating": 1,
+      "category": "Seasonings",
+      "price": 272,
+      "investment_required": null
+    },
+    {
+      "name": "Wool",
+      "rating": 6,
+      "category": "Fibres",
+      "price": 324,
+      "investment_required": null
+    },
+    {
+      "name": "European Armour",
+      "rating": 15,
+      "category": "Arms",
+      "price": 2246,
+      "investment_required": null
+    },
+    {
+      "name": "Cannon",
+      "rating": 1,
+      "category": "Firearms",
+      "price": 3250,
+      "investment_required": null
+    },
+    {
+      "name": "Paper",
+      "rating": 2,
+      "category": "Wares",
+      "price": 264,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Brass",
+      "rating": 1,
+      "category": "Wares",
+      "price": 672,
+      "investment_required": "320000"
+    },
+    {
+      "name": "Iron",
+      "rating": 3,
+      "category": "Wares",
+      "price": 738,
+      "investment_required": "180000"
+    }
+  ],
+  "bordeaux": [
+    {
+      "name": "Lamb",
+      "rating": 2,
+      "category": "Foodstuffs",
+      "price": 315,
+      "investment_required": null
+    },
+    {
+      "name": "Wine",
+      "rating": 6,
+      "category": "Alcohol",
+      "price": 376,
+      "investment_required": null
+    },
+    {
+      "name": "Raisins",
+      "rating": 10,
+      "category": "Luxury Goods",
+      "price": 209,
+      "investment_required": null
+    },
+    {
+      "name": "Bergamot",
+      "rating": 10,
+      "category": "Spices",
+      "price": 472,
+      "investment_required": "320000"
+    },
+    {
+      "name": "Elder",
+      "rating": 1,
+      "category": "Medicine",
+      "price": 168,
+      "investment_required": null
+    },
+    {
+      "name": "Georgette Fabric",
+      "rating": 1,
+      "category": "Fabrics",
+      "price": 2899,
+      "investment_required": "500000"
+    }
+  ],
+  "nantes": [
+    {
+      "name": "Wheat",
+      "rating": 5,
+      "category": "Foodstuffs",
+      "price": 40,
+      "investment_required": null
+    },
+    {
+      "name": "Sausages",
+      "rating": 3,
+      "category": "Foodstuffs",
+      "price": 324,
+      "investment_required": null
+    },
+    {
+      "name": "Onions",
+      "rating": 4,
+      "category": "Foodstuffs",
+      "price": 72,
+      "investment_required": null
+    },
+    {
+      "name": "Fruit Brandy",
+      "rating": 8,
+      "category": "Alcohol",
+      "price": 502,
+      "investment_required": null
+    },
+    {
+      "name": "Butter",
+      "rating": 1,
+      "category": "Seasonings",
+      "price": 272,
+      "investment_required": null
+    },
+    {
+      "name": "Fennel",
+      "rating": 6,
+      "category": "Spices",
+      "price": 192,
+      "investment_required": "120000"
+    },
+    {
+      "name": "Lilac",
+      "rating": 1,
+      "category": "Fragrances",
+      "price": 583,
+      "investment_required": null
+    },
+    {
+      "name": "Tweed",
+      "rating": 3,
+      "category": "Fabrics",
+      "price": 1119,
+      "investment_required": null
+    }
+  ],
+  "antwerp": [
+    {
+      "name": "Wheat",
+      "rating": 5,
+      "category": "Foodstuffs",
+      "price": 40,
+      "investment_required": null
+    },
+    {
+      "name": "Sausages",
+      "rating": 3,
+      "category": "Foodstuffs",
+      "price": 324,
+      "investment_required": null
+    },
+    {
+      "name": "Pork",
+      "rating": 2,
+      "category": "Foodstuffs",
+      "price": 304,
+      "investment_required": null
+    },
+    {
+      "name": "Fine Clothing",
+      "rating": 9,
+      "category": "Crafts",
+      "price": 3650,
+      "investment_required": null
+    },
+    {
+      "name": "Fine Furniture",
+      "rating": 12,
+      "category": "Crafts",
+      "price": 2458,
+      "investment_required": "400000"
+    },
+    {
+      "name": "Oil Paintings",
+      "rating": 4,
+      "category": "Artwork",
+      "price": 2260,
+      "investment_required": "500000"
+    }
+  ],
+  "hamburg": [
+    {
+      "name": "Corduroy",
+      "rating": 3,
+      "category": "Fabrics",
+      "price": 0,
+      "investment_required": "400000"
+    },
+    {
+      "name": "Lead Ore",
+      "rating": 4,
+      "category": "Ores",
+      "price": 392,
+      "investment_required": null
+    },
+    {
+      "name": "Iron Ore",
+      "rating": 5,
+      "category": "Ores",
+      "price": 568,
+      "investment_required": null
+    },
+    {
+      "name": "Copper Ore",
+      "rating": 2,
+      "category": "Ores",
+      "price": 692,
+      "investment_required": null
+    },
+    {
+      "name": "Tin Ore",
+      "rating": 2,
+      "category": "Ores",
+      "price": 424,
+      "investment_required": null
+    },
+    {
+      "name": "Malachite",
+      "rating": 1,
+      "category": "Precious Stones",
+      "price": 1650,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Jewellery",
+      "rating": 1,
+      "category": "Crafts",
+      "price": 3760,
+      "investment_required": "600000"
+    },
+    {
+      "name": "Coal",
+      "rating": 3,
+      "category": "Wares",
+      "price": 416,
+      "investment_required": null
+    }
+  ],
+  "calais": [
+    {
+      "name": "Sausages",
+      "rating": 3,
+      "category": "Foodstuffs",
+      "price": 324,
+      "investment_required": null
+    },
+    {
+      "name": "Cattle",
+      "rating": 6,
+      "category": "Livestock",
+      "price": 280,
+      "investment_required": null
+    },
+    {
+      "name": "Liqueur",
+      "rating": 1,
+      "category": "Alcohol",
+      "price": 476,
+      "investment_required": null
+    },
+    {
+      "name": "Apple Vinegar",
+      "rating": 2,
+      "category": "Seasonings",
+      "price": 312,
+      "investment_required": null
+    },
+    {
+      "name": "Dried Apples",
+      "rating": 1,
+      "category": "Luxury Goods",
+      "price": 276,
+      "investment_required": null
+    },
+    {
+      "name": "Rosehip",
+      "rating": 2,
+      "category": "Medicine",
+      "price": 336,
+      "investment_required": null
+    },
+    {
+      "name": "Rose",
+      "rating": 3,
+      "category": "Fragrances",
+      "price": 2455,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Gobelin Tapestry",
+      "rating": 11,
+      "category": "Fabrics",
+      "price": 3120,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Fine Clothing",
+      "rating": 9,
+      "category": "Crafts",
+      "price": 0,
+      "investment_required": null
+    }
+  ],
+  "oslo": [
+    {
+      "name": "Turnips",
+      "rating": 1,
+      "category": "Foodstuffs",
+      "price": 36,
+      "investment_required": null
+    },
+    {
+      "name": "Wild Oats",
+      "rating": 5,
+      "category": "Foodstuffs",
+      "price": 32,
+      "investment_required": null
+    },
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Salt",
+      "rating": 5,
+      "category": "Seasonings",
+      "price": 208,
+      "investment_required": null
+    },
+    {
+      "name": "Flax",
+      "rating": 9,
+      "category": "Fibres",
+      "price": 168,
+      "investment_required": null
+    },
+    {
+      "name": "Leather",
+      "rating": 6,
+      "category": "Fibres",
+      "price": 372,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Wool",
+      "rating": 6,
+      "category": "Fibres",
+      "price": 324,
+      "investment_required": null
+    },
+    {
+      "name": "Stone",
+      "rating": 6,
+      "category": "Wares",
+      "price": 572,
+      "investment_required": null
+    },
+    {
+      "name": "Lumber",
+      "rating": 5,
+      "category": "Wares",
+      "price": 592,
+      "investment_required": null
+    }
+  ],
+  "bergen": [
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Rye",
+      "rating": 3,
+      "category": "Foodstuffs",
+      "price": 31,
+      "investment_required": null
+    },
+    {
+      "name": "Sheep",
+      "rating": 11,
+      "category": "Livestock",
+      "price": 0,
+      "investment_required": "600000"
+    },
+    {
+      "name": "Akvavit",
+      "rating": 3,
+      "category": "Alcohol",
+      "price": 504,
+      "investment_required": null
+    },
+    {
+      "name": "Salt",
+      "rating": 5,
+      "category": "Seasonings",
+      "price": 208,
+      "investment_required": null
+    },
+    {
+      "name": "Stone",
+      "rating": 6,
+      "category": "Wares",
+      "price": 560,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Lumber",
+      "rating": 5,
+      "category": "Wares",
+      "price": 591,
+      "investment_required": null
+    }
+  ],
+  "dublin": [
+    {
+      "name": "Sausages",
+      "rating": 3,
+      "category": "Foodstuffs",
+      "price": 324,
+      "investment_required": null
+    },
+    {
+      "name": "Pork",
+      "rating": 2,
+      "category": "Foodstuffs",
+      "price": 304,
+      "investment_required": null
+    },
+    {
+      "name": "Whiskey",
+      "rating": 4,
+      "category": "Alcohol",
+      "price": 552,
+      "investment_required": null
+    },
+    {
+      "name": "Knitted Fabric",
+      "rating": 1,
+      "category": "Fabrics",
+      "price": 456,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Glasswork",
+      "rating": 6,
+      "category": "Crafts",
+      "price": 0,
+      "investment_required": "700000"
+    },
+    {
+      "name": "Coal",
+      "rating": 3,
+      "category": "Wares",
+      "price": 416,
+      "investment_required": null
+    },
+    {
+      "name": "Graphite",
+      "rating": 7,
+      "category": "Wares",
+      "price": 777,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Iron",
+      "rating": 3,
+      "category": "Wares",
+      "price": 704,
+      "investment_required": "400000"
+    }
+  ],
+  "plymouth": [
+    {
+      "name": "Lavender",
+      "rating": 1,
+      "category": "Fragrances",
+      "price": 676,
+      "investment_required": "120000"
+    },
+    {
+      "name": "Lead Ore",
+      "rating": 4,
+      "category": "Ores",
+      "price": 392,
+      "investment_required": null
+    },
+    {
+      "name": "Copper Ore",
+      "rating": 2,
+      "category": "Ores",
+      "price": 692,
+      "investment_required": null
+    },
+    {
+      "name": "Tin Ore",
+      "rating": 2,
+      "category": "Ores",
+      "price": 424,
+      "investment_required": null
+    },
+    {
+      "name": "Malachite",
+      "rating": 1,
+      "category": "Precious Stones",
+      "price": 1646,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Two-handed Swords",
+      "rating": 1,
+      "category": "Arms",
+      "price": 1247,
+      "investment_required": null
+    },
+    {
+      "name": "Graphite",
+      "rating": 7,
+      "category": "Wares",
+      "price": 776,
+      "investment_required": null
+    }
+  ],
+  "riga": [
+    {
+      "name": "Rye",
+      "rating": 3,
+      "category": "Foodstuffs",
+      "price": 31,
+      "investment_required": null
+    },
+    {
+      "name": "Vodka",
+      "rating": 1,
+      "category": "Alcohol",
+      "price": 495,
+      "investment_required": null
+    },
+    {
+      "name": "Feathers",
+      "rating": 4,
+      "category": "Fibres",
+      "price": 487,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Cinnabar",
+      "rating": 1,
+      "category": "Ores",
+      "price": 728,
+      "investment_required": null
+    },
+    {
+      "name": "Amber",
+      "rating": 4,
+      "category": "Precious Stones",
+      "price": 1985,
+      "investment_required": "240000"
+    }
+  ],
+  "lubeck": [
+    {
+      "name": "Wheat",
+      "rating": 5,
+      "category": "Foodstuffs",
+      "price": 40,
+      "investment_required": null
+    },
+    {
+      "name": "Salt",
+      "rating": 5,
+      "category": "Seasonings",
+      "price": 208,
+      "investment_required": null
+    },
+    {
+      "name": "Feathers",
+      "rating": 4,
+      "category": "Fibres",
+      "price": 496,
+      "investment_required": null
+    },
+    {
+      "name": "Silver",
+      "rating": 3,
+      "category": "Precious Metals",
+      "price": 2510,
+      "investment_required": null
+    },
+    {
+      "name": "Lead Ore",
+      "rating": 4,
+      "category": "Ores",
+      "price": 392,
+      "investment_required": null
+    },
+    {
+      "name": "Iron Ore",
+      "rating": 5,
+      "category": "Ores",
+      "price": 567,
+      "investment_required": null
+    },
+    {
+      "name": "Copper Ore",
+      "rating": 2,
+      "category": "Ores",
+      "price": 611,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Zinc Ore",
+      "rating": 1,
+      "category": "Ores",
+      "price": 336,
+      "investment_required": null
+    },
+    {
+      "name": "Silverwork",
+      "rating": 1,
+      "category": "Crafts",
+      "price": 2680,
+      "investment_required": "500000"
+    },
+    {
+      "name": "Stone",
+      "rating": 6,
+      "category": "Wares",
+      "price": 571,
+      "investment_required": null
+    }
+  ],
+  "stockholm": [
+    {
+      "name": "Rye",
+      "rating": 3,
+      "category": "Foodstuffs",
+      "price": 32,
+      "investment_required": null
+    },
+    {
+      "name": "Wormwood",
+      "rating": 1,
+      "category": "Medicine",
+      "price": 292,
+      "investment_required": null
+    },
+    {
+      "name": "Flax",
+      "rating": 9,
+      "category": "Fibres",
+      "price": 168,
+      "investment_required": null
+    },
+    {
+      "name": "Leather",
+      "rating": 6,
+      "category": "Fibres",
+      "price": 372,
+      "investment_required": null
+    },
+    {
+      "name": "Copper Ore",
+      "rating": 2,
+      "category": "Ores",
+      "price": 692,
+      "investment_required": null
+    },
+    {
+      "name": "Fine Furniture",
+      "rating": 12,
+      "category": "Crafts",
+      "price": 2461,
+      "investment_required": "400000"
+    }
+  ],
+  "copenhagen": [
+    {
+      "name": "Barley",
+      "rating": 1,
+      "category": "Foodstuffs",
+      "price": 30,
+      "investment_required": null
+    },
+    {
+      "name": "Sausages",
+      "rating": 3,
+      "category": "Foodstuffs",
+      "price": 324,
+      "investment_required": null
+    },
+    {
+      "name": "Cotton",
+      "rating": 8,
+      "category": "Fibres",
+      "price": 0,
+      "investment_required": "700000"
+    },
+    {
+      "name": "Amber",
+      "rating": 4,
+      "category": "Precious Stones",
+      "price": 1899,
+      "investment_required": null
+    },
+    {
+      "name": "Silverwork",
+      "rating": 1,
+      "category": "Crafts",
+      "price": 2680,
+      "investment_required": null
+    },
+    {
+      "name": "Fine Furniture",
+      "rating": 12,
+      "category": "Crafts",
+      "price": 2415,
+      "investment_required": "180000"
+    }
+  ],
+  "edinburgh": [
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Cattle",
+      "rating": 6,
+      "category": "Livestock",
+      "price": 280,
+      "investment_required": null
+    },
+    {
+      "name": "Sheep",
+      "rating": 11,
+      "category": "Livestock",
+      "price": 108,
+      "investment_required": null
+    },
+    {
+      "name": "Whiskey",
+      "rating": 4,
+      "category": "Alcohol",
+      "price": 552,
+      "investment_required": null
+    },
+    {
+      "name": "Wool",
+      "rating": 6,
+      "category": "Fibres",
+      "price": 324,
+      "investment_required": null
+    },
+    {
+      "name": "Woollen Fabric",
+      "rating": 2,
+      "category": "Fabrics",
+      "price": 812,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Flannel",
+      "rating": 18,
+      "category": "Fabrics",
+      "price": 984,
+      "investment_required": "320000"
+    }
+  ],
+  "helder": [
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Chicken",
+      "rating": 9,
+      "category": "Livestock",
+      "price": 44,
+      "investment_required": null
+    },
+    {
+      "name": "Eggs",
+      "rating": 5,
+      "category": "Foodstuffs",
+      "price": 24,
+      "investment_required": null
+    },
+    {
+      "name": "Sheep",
+      "rating": 11,
+      "category": "Livestock",
+      "price": 108,
+      "investment_required": null
+    },
+    {
+      "name": "Carrots",
+      "rating": 5,
+      "category": "Foodstuffs",
+      "price": 80,
+      "investment_required": null
+    },
+    {
+      "name": "Salt",
+      "rating": 5,
+      "category": "Seasonings",
+      "price": 208,
+      "investment_required": null
+    },
+    {
+      "name": "Parsley",
+      "rating": 1,
+      "category": "Spices",
+      "price": 0,
+      "investment_required": "600000"
+    }
+  ],
+  "dover": [
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    }
+  ],
+  "bremen": [
+    {
+      "name": "Wheat",
+      "rating": 5,
+      "category": "Foodstuffs",
+      "price": 40,
+      "investment_required": null
+    },
+    {
+      "name": "Salt",
+      "rating": 5,
+      "category": "Seasonings",
+      "price": 208,
+      "investment_required": null
+    },
+    {
+      "name": "Cotton Fabric",
+      "rating": 1,
+      "category": "Fabrics",
+      "price": 0,
+      "investment_required": "600000"
+    }
+  ],
+  "groningen": [
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Gin",
+      "rating": 1,
+      "category": "Alcohol",
+      "price": 516,
+      "investment_required": null
+    },
+    {
+      "name": "Honey",
+      "rating": 3,
+      "category": "Seasonings",
+      "price": 768,
+      "investment_required": null
+    },
+    {
+      "name": "Cannon Shot",
+      "rating": 3,
+      "category": "Firearms",
+      "price": 0,
+      "investment_required": "700000"
+    }
+  ],
+  "danzig": [
+    {
+      "name": "Rye",
+      "rating": 3,
+      "category": "Foodstuffs",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Sugar Beet",
+      "rating": 5,
+      "category": "Foodstuffs",
+      "price": 161,
+      "investment_required": "500000"
+    },
+    {
+      "name": "Iron Ore",
+      "rating": 5,
+      "category": "Ores",
+      "price": 559,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Amber",
+      "rating": 4,
+      "category": "Precious Stones",
+      "price": 2024,
+      "investment_required": "320000"
+    },
+    {
+      "name": "Coal",
+      "rating": 3,
+      "category": "Wares",
+      "price": 0,
+      "investment_required": "600000"
+    },
+    {
+      "name": "Lumber",
+      "rating": 5,
+      "category": "Wares",
+      "price": 592,
+      "investment_required": null
+    }
+  ],
+  "visby": [
+    {
+      "name": "Sheep",
+      "rating": 11,
+      "category": "Livestock",
+      "price": 108,
+      "investment_required": null
+    },
+    {
+      "name": "Akvavit",
+      "rating": 3,
+      "category": "Alcohol",
+      "price": 504,
+      "investment_required": null
+    },
+    {
+      "name": "Flax",
+      "rating": 9,
+      "category": "Fibres",
+      "price": 168,
+      "investment_required": null
+    },
+    {
+      "name": "Lumber",
+      "rating": 5,
+      "category": "Wares",
+      "price": 592,
+      "investment_required": null
+    },
+    {
+      "name": "Logs",
+      "rating": 13,
+      "category": "Wares",
+      "price": 0,
+      "investment_required": "500000"
+    }
+  ],
+  "oxford": [],
+  "frankfurt": [],
+  "avalon": [],
+  "san-juan": [
+    {
+      "name": "Sugar Cane",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 192,
+      "investment_required": "120000"
+    },
+    {
+      "name": "Corn",
+      "rating": 4,
+      "category": "Foodstuffs",
+      "price": 48,
+      "investment_required": null
+    },
+    {
+      "name": "Rum",
+      "rating": 1,
+      "category": "Alcohol",
+      "price": 416,
+      "investment_required": null
+    },
+    {
+      "name": "Cacao",
+      "rating": 3,
+      "category": "Luxury Goods",
+      "price": 496,
+      "investment_required": null
+    },
+    {
+      "name": "Peanuts",
+      "rating": 1,
+      "category": "Luxury Goods",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Gold Dust",
+      "rating": 8,
+      "category": "Precious Metals",
+      "price": 2762,
+      "investment_required": null
+    },
+    {
+      "name": "Coral",
+      "rating": 2,
+      "category": "Precious Stones",
+      "price": 2716,
+      "investment_required": null
+    },
+    {
+      "name": "Coral Work",
+      "rating": 2,
+      "category": "Crafts",
+      "price": 2322,
+      "investment_required": null
+    }
+  ],
+  "santo-domingo": [
+    {
+      "name": "Sugar Cane",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 192,
+      "investment_required": null
+    },
+    {
+      "name": "Potatoes",
+      "rating": 7,
+      "category": "Foodstuffs",
+      "price": 116,
+      "investment_required": null
+    },
+    {
+      "name": "Rum",
+      "rating": 1,
+      "category": "Alcohol",
+      "price": 416,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Sugar",
+      "rating": 3,
+      "category": "Seasonings",
+      "price": 572,
+      "investment_required": null
+    },
+    {
+      "name": "Peanut Oil",
+      "rating": 2,
+      "category": "Seasonings",
+      "price": 236,
+      "investment_required": null
+    },
+    {
+      "name": "Peanuts",
+      "rating": 1,
+      "category": "Luxury Goods",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Hemp Fabric",
+      "rating": 3,
+      "category": "Fabrics",
+      "price": 332,
+      "investment_required": null
+    },
+    {
+      "name": "Silver",
+      "rating": 3,
+      "category": "Precious Metals",
+      "price": 1004,
+      "investment_required": null
+    },
+    {
+      "name": "Wood Sculpture",
+      "rating": 1,
+      "category": "Artwork",
+      "price": 871,
+      "investment_required": null
+    }
+  ],
+  "santiago": [
+    {
+      "name": "Sugar Cane",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 192,
+      "investment_required": null
+    },
+    {
+      "name": "Corn",
+      "rating": 4,
+      "category": "Foodstuffs",
+      "price": 48,
+      "investment_required": null
+    },
+    {
+      "name": "Cacao",
+      "rating": 3,
+      "category": "Luxury Goods",
+      "price": 496,
+      "investment_required": null
+    },
+    {
+      "name": "Pineapples",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 776,
+      "investment_required": null
+    },
+    {
+      "name": "Peanuts",
+      "rating": 1,
+      "category": "Luxury Goods",
+      "price": 127,
+      "investment_required": null
+    },
+    {
+      "name": "Gold Dust",
+      "rating": 8,
+      "category": "Precious Metals",
+      "price": 3688,
+      "investment_required": "120000"
+    }
+  ],
+  "jamaica": [
+    {
+      "name": "Sugar Cane",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 192,
+      "investment_required": null
+    },
+    {
+      "name": "Potatoes",
+      "rating": 7,
+      "category": "Foodstuffs",
+      "price": 116,
+      "investment_required": null
+    },
+    {
+      "name": "Tequila",
+      "rating": 2,
+      "category": "Alcohol",
+      "price": 990,
+      "investment_required": null
+    },
+    {
+      "name": "Rum",
+      "rating": 1,
+      "category": "Alcohol",
+      "price": 416,
+      "investment_required": "120000"
+    },
+    {
+      "name": "Coffee",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 376,
+      "investment_required": null
+    },
+    {
+      "name": "Tobacco",
+      "rating": 9,
+      "category": "Luxury Goods",
+      "price": 448,
+      "investment_required": null
+    },
+    {
+      "name": "Ginger",
+      "rating": 10,
+      "category": "Spices",
+      "price": 228,
+      "investment_required": null
+    },
+    {
+      "name": "Tyrian Purple",
+      "rating": 3,
+      "category": "Dyes",
+      "price": 3800,
+      "investment_required": null
+    },
+    {
+      "name": "Gold Dust",
+      "rating": 8,
+      "category": "Precious Metals",
+      "price": 2768,
+      "investment_required": null
+    },
+    {
+      "name": "Agate",
+      "rating": 1,
+      "category": "Precious Stones",
+      "price": 1746,
+      "investment_required": null
+    }
+  ],
+  "havana": [
+    {
+      "name": "Tequila",
+      "rating": 2,
+      "category": "Alcohol",
+      "price": 994,
+      "investment_required": null
+    },
+    {
+      "name": "Rum",
+      "rating": 1,
+      "category": "Alcohol",
+      "price": 416,
+      "investment_required": null
+    },
+    {
+      "name": "Sugar",
+      "rating": 3,
+      "category": "Seasonings",
+      "price": 571,
+      "investment_required": null
+    },
+    {
+      "name": "Cacao",
+      "rating": 3,
+      "category": "Luxury Goods",
+      "price": 496,
+      "investment_required": null
+    },
+    {
+      "name": "Coffee",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 375,
+      "investment_required": null
+    },
+    {
+      "name": "Tobacco",
+      "rating": 9,
+      "category": "Luxury Goods",
+      "price": 448,
+      "investment_required": null
+    },
+    {
+      "name": "Kenaf",
+      "rating": 3,
+      "category": "Fibres",
+      "price": 144,
+      "investment_required": "600000"
+    },
+    {
+      "name": "Silver",
+      "rating": 3,
+      "category": "Precious Metals",
+      "price": 1130,
+      "investment_required": "120000"
+    },
+    {
+      "name": "Copper Ore",
+      "rating": 2,
+      "category": "Ores",
+      "price": 692,
+      "investment_required": null
+    },
+    {
+      "name": "Coral",
+      "rating": 2,
+      "category": "Precious Stones",
+      "price": 2717,
+      "investment_required": "600000"
+    }
+  ],
+  "nassau": [],
+  "great-plains": [],
+  "arguin": [
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Lamb",
+      "rating": 2,
+      "category": "Foodstuffs",
+      "price": 315,
+      "investment_required": null
+    },
+    {
+      "name": "Toddy",
+      "rating": 1,
+      "category": "Alcohol",
+      "price": 256,
+      "investment_required": null
+    },
+    {
+      "name": "Coffee",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 306,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Sesame Seeds",
+      "rating": 1,
+      "category": "Spices",
+      "price": 168,
+      "investment_required": null
+    },
+    {
+      "name": "Wool",
+      "rating": 6,
+      "category": "Fibres",
+      "price": 324,
+      "investment_required": null
+    },
+    {
+      "name": "Iron Ore",
+      "rating": 5,
+      "category": "Ores",
+      "price": 568,
+      "investment_required": null
+    },
+    {
+      "name": "Copper Ore",
+      "rating": 2,
+      "category": "Ores",
+      "price": 691,
+      "investment_required": null
+    },
+    {
+      "name": "Ivory",
+      "rating": 5,
+      "category": "Precious Stones",
+      "price": 1564,
+      "investment_required": "240000"
+    }
+  ],
+  "cabo-verde": [
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Sugar Cane",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 192,
+      "investment_required": "120000"
+    },
+    {
+      "name": "Salt",
+      "rating": 5,
+      "category": "Seasonings",
+      "price": 208,
+      "investment_required": null
+    },
+    {
+      "name": "Cotton",
+      "rating": 8,
+      "category": "Fibres",
+      "price": 268,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Copper Ore",
+      "rating": 2,
+      "category": "Ores",
+      "price": 690,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Coral",
+      "rating": 2,
+      "category": "Precious Stones",
+      "price": 2722,
+      "investment_required": null
+    }
+  ],
+  "sierra-leone": [
+    {
+      "name": "Red Beans",
+      "rating": 4,
+      "category": "Foodstuffs",
+      "price": 68,
+      "investment_required": null
+    },
+    {
+      "name": "Wheat",
+      "rating": 5,
+      "category": "Foodstuffs",
+      "price": 40,
+      "investment_required": null
+    },
+    {
+      "name": "Salt",
+      "rating": 5,
+      "category": "Seasonings",
+      "price": 208,
+      "investment_required": null
+    },
+    {
+      "name": "Palm Oil",
+      "rating": 1,
+      "category": "Seasonings",
+      "price": 183,
+      "investment_required": null
+    },
+    {
+      "name": "Coffee",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 376,
+      "investment_required": null
+    },
+    {
+      "name": "Incense",
+      "rating": 1,
+      "category": "Fragrances",
+      "price": 695,
+      "investment_required": null
+    },
+    {
+      "name": "Diamond",
+      "rating": 1,
+      "category": "Precious Stones",
+      "price": 4020,
+      "investment_required": "180000"
+    }
+  ],
+  "abidjan": [
+    {
+      "name": "Palm Oil",
+      "rating": 1,
+      "category": "Seasonings",
+      "price": 184,
+      "investment_required": null
+    },
+    {
+      "name": "Coffee",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 375,
+      "investment_required": null
+    },
+    {
+      "name": "Cotton",
+      "rating": 8,
+      "category": "Fibres",
+      "price": 268,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Gold",
+      "rating": 11,
+      "category": "Precious Metals",
+      "price": 3929,
+      "investment_required": null
+    },
+    {
+      "name": "Ivory",
+      "rating": 5,
+      "category": "Precious Stones",
+      "price": 1680,
+      "investment_required": null
+    },
+    {
+      "name": "Diamond",
+      "rating": 1,
+      "category": "Precious Stones",
+      "price": 3378,
+      "investment_required": "400000"
+    },
+    {
+      "name": "Oil",
+      "rating": 1,
+      "category": "Wares",
+      "price": 508,
+      "investment_required": "120000"
+    },
+    {
+      "name": "Lumber",
+      "rating": 5,
+      "category": "Wares",
+      "price": 591,
+      "investment_required": null
+    }
+  ],
+  "saint-georges": [
+    {
+      "name": "Coconuts",
+      "rating": 8,
+      "category": "Luxury Goods",
+      "price": 256,
+      "investment_required": null
+    },
+    {
+      "name": "Cotton",
+      "rating": 8,
+      "category": "Fibres",
+      "price": 268,
+      "investment_required": "320000"
+    },
+    {
+      "name": "Coconut Fibres",
+      "rating": 6,
+      "category": "Fibres",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Gold",
+      "rating": 11,
+      "category": "Precious Metals",
+      "price": 3929,
+      "investment_required": null
+    },
+    {
+      "name": "Ivory",
+      "rating": 5,
+      "category": "Precious Stones",
+      "price": 1680,
+      "investment_required": null
+    },
+    {
+      "name": "Diamond",
+      "rating": 1,
+      "category": "Precious Stones",
+      "price": 3148,
+      "investment_required": "500000"
+    },
+    {
+      "name": "Wood Sculpture",
+      "rating": 1,
+      "category": "Artwork",
+      "price": 870,
+      "investment_required": null
+    },
+    {
+      "name": "Oil",
+      "rating": 1,
+      "category": "Wares",
+      "price": 508,
+      "investment_required": null
+    },
+    {
+      "name": "Lumber",
+      "rating": 5,
+      "category": "Wares",
+      "price": 591,
+      "investment_required": null
+    }
+  ],
+  "sao-tome": [
+    {
+      "name": "Sugar Cane",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 192,
+      "investment_required": null
+    },
+    {
+      "name": "Toddy",
+      "rating": 1,
+      "category": "Alcohol",
+      "price": 256,
+      "investment_required": null
+    },
+    {
+      "name": "Sugar",
+      "rating": 3,
+      "category": "Seasonings",
+      "price": 541,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Coconuts",
+      "rating": 8,
+      "category": "Luxury Goods",
+      "price": 256,
+      "investment_required": null
+    },
+    {
+      "name": "Coconut Fibres",
+      "rating": 6,
+      "category": "Fibres",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Coral",
+      "rating": 2,
+      "category": "Precious Stones",
+      "price": 2713,
+      "investment_required": null
+    },
+    {
+      "name": "Pearl",
+      "rating": 5,
+      "category": "Precious Stones",
+      "price": 4235,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Stone",
+      "rating": 6,
+      "category": "Wares",
+      "price": 571,
+      "investment_required": null
+    }
+  ],
+  "douala": [
+    {
+      "name": "Corn",
+      "rating": 4,
+      "category": "Foodstuffs",
+      "price": 49,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Coffee",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 376,
+      "investment_required": null
+    },
+    {
+      "name": "Cotton",
+      "rating": 8,
+      "category": "Fibres",
+      "price": 268,
+      "investment_required": null
+    },
+    {
+      "name": "Tin Ore",
+      "rating": 2,
+      "category": "Ores",
+      "price": 423,
+      "investment_required": null
+    },
+    {
+      "name": "Coal",
+      "rating": 3,
+      "category": "Wares",
+      "price": 416,
+      "investment_required": "120000"
+    }
+  ],
+  "benin": [
+    {
+      "name": "Coconuts",
+      "rating": 8,
+      "category": "Luxury Goods",
+      "price": 256,
+      "investment_required": null
+    },
+    {
+      "name": "Ivory",
+      "rating": 5,
+      "category": "Precious Stones",
+      "price": 1680,
+      "investment_required": null
+    },
+    {
+      "name": "Oil",
+      "rating": 1,
+      "category": "Wares",
+      "price": 508,
+      "investment_required": null
+    },
+    {
+      "name": "Lumber",
+      "rating": 5,
+      "category": "Wares",
+      "price": 590,
+      "investment_required": null
+    }
+  ],
+  "================": [
+    {
+      "name": "Sugar Cane",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 192,
+      "investment_required": null
+    },
+    {
+      "name": "Palm Oil",
+      "rating": 1,
+      "category": "Seasonings",
+      "price": 184,
+      "investment_required": null
+    },
+    {
+      "name": "Coffee",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 376,
+      "investment_required": null
+    },
+    {
+      "name": "Malachite",
+      "rating": 1,
+      "category": "Precious Stones",
+      "price": 1540,
+      "investment_required": null
+    },
+    {
+      "name": "Coral",
+      "rating": 2,
+      "category": "Precious Stones",
+      "price": 2715,
+      "investment_required": null
+    },
+    {
+      "name": "Diamond",
+      "rating": 1,
+      "category": "Precious Stones",
+      "price": 2770,
+      "investment_required": "120000"
+    },
+    {
+      "name": "Wood Sculpture",
+      "rating": 1,
+      "category": "Artwork",
+      "price": 869,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Oil",
+      "rating": 1,
+      "category": "Wares",
+      "price": 508,
+      "investment_required": null
+    },
+    {
+      "name": "Lumber",
+      "rating": 5,
+      "category": "Wares",
+      "price": 591,
+      "investment_required": null
+    }
+  ],
+  "karibib": [
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Lamb",
+      "rating": 2,
+      "category": "Foodstuffs",
+      "price": 315,
+      "investment_required": null
+    },
+    {
+      "name": "Leather",
+      "rating": 6,
+      "category": "Fibres",
+      "price": 371,
+      "investment_required": null
+    },
+    {
+      "name": "Wool",
+      "rating": 6,
+      "category": "Fibres",
+      "price": 323,
+      "investment_required": null
+    },
+    {
+      "name": "Geranium",
+      "rating": 1,
+      "category": "Fragrances",
+      "price": 496,
+      "investment_required": null
+    },
+    {
+      "name": "Copper Ore",
+      "rating": 2,
+      "category": "Ores",
+      "price": 691,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Zinc Ore",
+      "rating": 1,
+      "category": "Ores",
+      "price": 336,
+      "investment_required": "120000"
+    },
+    {
+      "name": "Diamond",
+      "rating": 1,
+      "category": "Precious Stones",
+      "price": 2775,
+      "investment_required": null
+    }
+  ],
+  "cape-town": [
+    {
+      "name": "Wheat",
+      "rating": 5,
+      "category": "Foodstuffs",
+      "price": 40,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Wool",
+      "rating": 6,
+      "category": "Fibres",
+      "price": 324,
+      "investment_required": null
+    },
+    {
+      "name": "Geranium",
+      "rating": 1,
+      "category": "Fragrances",
+      "price": 496,
+      "investment_required": null
+    },
+    {
+      "name": "Gold Dust",
+      "rating": 8,
+      "category": "Precious Metals",
+      "price": 3678,
+      "investment_required": null
+    },
+    {
+      "name": "Iron Ore",
+      "rating": 5,
+      "category": "Ores",
+      "price": 567,
+      "investment_required": null
+    },
+    {
+      "name": "Copper Ore",
+      "rating": 2,
+      "category": "Ores",
+      "price": 690,
+      "investment_required": null
+    },
+    {
+      "name": "Tin Ore",
+      "rating": 2,
+      "category": "Ores",
+      "price": 423,
+      "investment_required": null
+    },
+    {
+      "name": "Diamond",
+      "rating": 1,
+      "category": "Precious Stones",
+      "price": 2771,
+      "investment_required": null
+    }
+  ],
+  "benguela": [
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Silver",
+      "rating": 3,
+      "category": "Precious Metals",
+      "price": 2510,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Copper Ore",
+      "rating": 2,
+      "category": "Ores",
+      "price": 688,
+      "investment_required": null
+    },
+    {
+      "name": "Wax",
+      "rating": 2,
+      "category": "Wares",
+      "price": 764,
+      "investment_required": null
+    }
+  ],
+  "sofala": [
+    {
+      "name": "Barley",
+      "rating": 1,
+      "category": "Foodstuffs",
+      "price": 32,
+      "investment_required": null
+    },
+    {
+      "name": "Wheat",
+      "rating": 5,
+      "category": "Foodstuffs",
+      "price": 40,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Sugar Cane",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 192,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Cotton",
+      "rating": 8,
+      "category": "Fibres",
+      "price": 268,
+      "investment_required": null
+    },
+    {
+      "name": "Gold",
+      "rating": 11,
+      "category": "Precious Metals",
+      "price": 3924,
+      "investment_required": null
+    },
+    {
+      "name": "Ivory",
+      "rating": 5,
+      "category": "Precious Stones",
+      "price": 1680,
+      "investment_required": null
+    },
+    {
+      "name": "Lumber",
+      "rating": 5,
+      "category": "Wares",
+      "price": 591,
+      "investment_required": null
+    }
+  ],
+  "mozambique": [
+    {
+      "name": "Barley",
+      "rating": 1,
+      "category": "Foodstuffs",
+      "price": 32,
+      "investment_required": null
+    },
+    {
+      "name": "Sugar Cane",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 192,
+      "investment_required": null
+    },
+    {
+      "name": "Wetland Rice",
+      "rating": 6,
+      "category": "Foodstuffs",
+      "price": 44,
+      "investment_required": null
+    },
+    {
+      "name": "Black Tea",
+      "rating": 16,
+      "category": "Luxury Goods",
+      "price": 603,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Coffee",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 375,
+      "investment_required": null
+    },
+    {
+      "name": "Cotton",
+      "rating": 8,
+      "category": "Fibres",
+      "price": 268,
+      "investment_required": null
+    },
+    {
+      "name": "Silver",
+      "rating": 3,
+      "category": "Precious Metals",
+      "price": 2510,
+      "investment_required": null
+    },
+    {
+      "name": "Emerald",
+      "rating": 1,
+      "category": "Precious Stones",
+      "price": 2834,
+      "investment_required": "600000"
+    },
+    {
+      "name": "Coral",
+      "rating": 2,
+      "category": "Precious Stones",
+      "price": 2716,
+      "investment_required": null
+    },
+    {
+      "name": "Coal",
+      "rating": 3,
+      "category": "Wares",
+      "price": 415,
+      "investment_required": null
+    }
+  ],
+  "tamatave": [
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Sugar Cane",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 192,
+      "investment_required": null
+    },
+    {
+      "name": "Coffee",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 376,
+      "investment_required": null
+    },
+    {
+      "name": "Hemp Fabric",
+      "rating": 3,
+      "category": "Fabrics",
+      "price": 332,
+      "investment_required": null
+    },
+    {
+      "name": "Emerald",
+      "rating": 1,
+      "category": "Precious Stones",
+      "price": 2834,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Lumber",
+      "rating": 5,
+      "category": "Wares",
+      "price": 591,
+      "investment_required": null
+    }
+  ],
+  "natal": [
+    {
+      "name": "Sugar Cane",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 192,
+      "investment_required": null
+    },
+    {
+      "name": "Corn",
+      "rating": 4,
+      "category": "Foodstuffs",
+      "price": 51,
+      "investment_required": null
+    },
+    {
+      "name": "Goats",
+      "rating": 6,
+      "category": "Livestock",
+      "price": 164,
+      "investment_required": null
+    },
+    {
+      "name": "Gold",
+      "rating": 11,
+      "category": "Precious Metals",
+      "price": 3929,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Platinum",
+      "rating": 8,
+      "category": "Precious Metals",
+      "price": 3990,
+      "investment_required": "620000"
+    },
+    {
+      "name": "Coal",
+      "rating": 3,
+      "category": "Wares",
+      "price": 416,
+      "investment_required": null
+    }
+  ],
+  "zanzibar": [
+    {
+      "name": "Wheat",
+      "rating": 5,
+      "category": "Foodstuffs",
+      "price": 40,
+      "investment_required": null
+    },
+    {
+      "name": "Toddy",
+      "rating": 1,
+      "category": "Alcohol",
+      "price": 256,
+      "investment_required": null
+    },
+    {
+      "name": "Coffee",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 376,
+      "investment_required": null
+    },
+    {
+      "name": "Cotton",
+      "rating": 8,
+      "category": "Fibres",
+      "price": 268,
+      "investment_required": null
+    },
+    {
+      "name": "African Shell Perfume",
+      "rating": 1,
+      "category": "Fragrances",
+      "price": 854,
+      "investment_required": null
+    },
+    {
+      "name": "Gold",
+      "rating": 11,
+      "category": "Precious Metals",
+      "price": 3924,
+      "investment_required": "320000"
+    },
+    {
+      "name": "Emerald",
+      "rating": 1,
+      "category": "Precious Stones",
+      "price": 3019,
+      "investment_required": null
+    },
+    {
+      "name": "Malachite",
+      "rating": 1,
+      "category": "Precious Stones",
+      "price": 3021,
+      "investment_required": "180000"
+    }
+  ],
+  "mombasa": [
+    {
+      "name": "Coffee",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 376,
+      "investment_required": null
+    },
+    {
+      "name": "Cotton",
+      "rating": 8,
+      "category": "Fibres",
+      "price": 268,
+      "investment_required": null
+    },
+    {
+      "name": "Camel Hair",
+      "rating": 1,
+      "category": "Fibres",
+      "price": 343,
+      "investment_required": null
+    },
+    {
+      "name": "African Shell Perfume",
+      "rating": 1,
+      "category": "Fragrances",
+      "price": 885,
+      "investment_required": null
+    },
+    {
+      "name": "Coral",
+      "rating": 2,
+      "category": "Precious Stones",
+      "price": 2709,
+      "investment_required": null
+    }
+  ],
+  "mogadishu": [
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Lamb",
+      "rating": 2,
+      "category": "Foodstuffs",
+      "price": 315,
+      "investment_required": null
+    },
+    {
+      "name": "Salt",
+      "rating": 5,
+      "category": "Seasonings",
+      "price": 208,
+      "investment_required": null
+    },
+    {
+      "name": "Leather",
+      "rating": 6,
+      "category": "Fibres",
+      "price": 371,
+      "investment_required": null
+    },
+    {
+      "name": "Wool",
+      "rating": 6,
+      "category": "Fibres",
+      "price": 324,
+      "investment_required": null
+    },
+    {
+      "name": "Gold",
+      "rating": 11,
+      "category": "Precious Metals",
+      "price": 3928,
+      "investment_required": null
+    },
+    {
+      "name": "Copper Ore",
+      "rating": 2,
+      "category": "Ores",
+      "price": 691,
+      "investment_required": null
+    }
+  ],
+  "aden": [
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Coffee",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 376,
+      "investment_required": null
+    },
+    {
+      "name": "Leather",
+      "rating": 6,
+      "category": "Fibres",
+      "price": 372,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Cotton",
+      "rating": 8,
+      "category": "Fibres",
+      "price": 268,
+      "investment_required": null
+    },
+    {
+      "name": "Frankincense",
+      "rating": 1,
+      "category": "Fragrances",
+      "price": 1310,
+      "investment_required": null
+    },
+    {
+      "name": "Ambergris",
+      "rating": 10,
+      "category": "Fragrances",
+      "price": 2465,
+      "investment_required": null
+    },
+    {
+      "name": "Stone",
+      "rating": 6,
+      "category": "Wares",
+      "price": 571,
+      "investment_required": null
+    },
+    {
+      "name": "Oil",
+      "rating": 1,
+      "category": "Wares",
+      "price": 508,
+      "investment_required": "180000"
+    }
+  ],
+  "massawa": [
+    {
+      "name": "Red Beans",
+      "rating": 4,
+      "category": "Foodstuffs",
+      "price": 68,
+      "investment_required": null
+    },
+    {
+      "name": "Barley",
+      "rating": 1,
+      "category": "Foodstuffs",
+      "price": 32,
+      "investment_required": null
+    },
+    {
+      "name": "Wheat",
+      "rating": 5,
+      "category": "Foodstuffs",
+      "price": 40,
+      "investment_required": null
+    },
+    {
+      "name": "Coffee",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 376,
+      "investment_required": null
+    },
+    {
+      "name": "Frankincense",
+      "rating": 1,
+      "category": "Fragrances",
+      "price": 1312,
+      "investment_required": null
+    },
+    {
+      "name": "Gold",
+      "rating": 11,
+      "category": "Precious Metals",
+      "price": 3937,
+      "investment_required": "600000"
+    },
+    {
+      "name": "Silver",
+      "rating": 3,
+      "category": "Precious Metals",
+      "price": 2510,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Stone",
+      "rating": 6,
+      "category": "Wares",
+      "price": 572,
+      "investment_required": null
+    },
+    {
+      "name": "Oil",
+      "rating": 1,
+      "category": "Wares",
+      "price": 508,
+      "investment_required": null
+    }
+  ],
+  "suez": [
+    {
+      "name": "Cotton",
+      "rating": 8,
+      "category": "Fibres",
+      "price": 268,
+      "investment_required": null
+    },
+    {
+      "name": "Camel Hair",
+      "rating": 1,
+      "category": "Fibres",
+      "price": 343,
+      "investment_required": null
+    },
+    {
+      "name": "Tyrian Purple",
+      "rating": 3,
+      "category": "Dyes",
+      "price": 3800,
+      "investment_required": null
+    },
+    {
+      "name": "Frankincense",
+      "rating": 1,
+      "category": "Fragrances",
+      "price": 1309,
+      "investment_required": null
+    },
+    {
+      "name": "Cotton Fabric",
+      "rating": 1,
+      "category": "Fabrics",
+      "price": 668,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Oil",
+      "rating": 1,
+      "category": "Wares",
+      "price": 508,
+      "investment_required": null
+    }
+  ],
+  "muscat": [
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 131,
+      "investment_required": null
+    },
+    {
+      "name": "Sesame Seeds",
+      "rating": 1,
+      "category": "Spices",
+      "price": 192,
+      "investment_required": null
+    },
+    {
+      "name": "Camel Hair",
+      "rating": 1,
+      "category": "Fibres",
+      "price": 343,
+      "investment_required": null
+    },
+    {
+      "name": "Frankincense",
+      "rating": 1,
+      "category": "Fragrances",
+      "price": 1310,
+      "investment_required": null
+    },
+    {
+      "name": "Lemon Oil",
+      "rating": 2,
+      "category": "Fragrances",
+      "price": 471,
+      "investment_required": null
+    },
+    {
+      "name": "Copper Ore",
+      "rating": 2,
+      "category": "Ores",
+      "price": 691,
+      "investment_required": null
+    },
+    {
+      "name": "Zinc Ore",
+      "rating": 1,
+      "category": "Ores",
+      "price": 336,
+      "investment_required": null
+    },
+    {
+      "name": "Malachite",
+      "rating": 1,
+      "category": "Precious Stones",
+      "price": 1647,
+      "investment_required": null
+    }
+  ],
+  "hormuz": [
+    {
+      "name": "Lamb",
+      "rating": 2,
+      "category": "Foodstuffs",
+      "price": 315,
+      "investment_required": null
+    },
+    {
+      "name": "Olive Oil",
+      "rating": 1,
+      "category": "Seasonings",
+      "price": 275,
+      "investment_required": null
+    },
+    {
+      "name": "Sugar",
+      "rating": 3,
+      "category": "Seasonings",
+      "price": 571,
+      "investment_required": null
+    },
+    {
+      "name": "Ginger",
+      "rating": 10,
+      "category": "Spices",
+      "price": 228,
+      "investment_required": null
+    },
+    {
+      "name": "Basil",
+      "rating": 4,
+      "category": "Spices",
+      "price": 105,
+      "investment_required": null
+    },
+    {
+      "name": "Mint",
+      "rating": 1,
+      "category": "Spices",
+      "price": 84,
+      "investment_required": null
+    },
+    {
+      "name": "Wool",
+      "rating": 6,
+      "category": "Fibres",
+      "price": 323,
+      "investment_required": null
+    },
+    {
+      "name": "Persian Carpet",
+      "rating": 11,
+      "category": "Fabrics",
+      "price": 4154,
+      "investment_required": null
+    },
+    {
+      "name": "Lapis Lazuli",
+      "rating": 2,
+      "category": "Precious Stones",
+      "price": 1952,
+      "investment_required": "180000"
+    }
+  ],
+  "basra": [
+    {
+      "name": "Senna",
+      "rating": 3,
+      "category": "Medicine",
+      "price": 244,
+      "investment_required": null
+    },
+    {
+      "name": "Leather",
+      "rating": 6,
+      "category": "Fibres",
+      "price": 371,
+      "investment_required": null
+    },
+    {
+      "name": "Wool",
+      "rating": 6,
+      "category": "Fibres",
+      "price": 323,
+      "investment_required": null
+    },
+    {
+      "name": "Lemon Oil",
+      "rating": 2,
+      "category": "Fragrances",
+      "price": 472,
+      "investment_required": null
+    },
+    {
+      "name": "Persian Carpet",
+      "rating": 11,
+      "category": "Fabrics",
+      "price": 4156,
+      "investment_required": null
+    },
+    {
+      "name": "Oil",
+      "rating": 1,
+      "category": "Wares",
+      "price": 508,
+      "investment_required": null
+    }
+  ],
+  "kilwa": [
+    {
+      "name": "Coconuts",
+      "rating": 8,
+      "category": "Luxury Goods",
+      "price": 256,
+      "investment_required": null
+    },
+    {
+      "name": "Gold",
+      "rating": 11,
+      "category": "Precious Metals",
+      "price": 3929,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Iron Ore",
+      "rating": 5,
+      "category": "Ores",
+      "price": 567,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Ivory",
+      "rating": 5,
+      "category": "Precious Stones",
+      "price": 1681,
+      "investment_required": null
+    }
+  ],
+  "malindi": [
+    {
+      "name": "Rhinoceros Horn",
+      "rating": 1,
+      "category": "Medicine",
+      "price": 1920,
+      "investment_required": "600000"
+    },
+    {
+      "name": "Ambergris",
+      "rating": 10,
+      "category": "Fragrances",
+      "price": 2466,
+      "investment_required": null
+    },
+    {
+      "name": "Iron Ore",
+      "rating": 5,
+      "category": "Ores",
+      "price": 567,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Ivory",
+      "rating": 5,
+      "category": "Precious Stones",
+      "price": 1673,
+      "investment_required": null
+    },
+    {
+      "name": "Lumber",
+      "rating": 5,
+      "category": "Wares",
+      "price": 591,
+      "investment_required": null
+    }
+  ],
+  "socotra": [
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Cotton",
+      "rating": 8,
+      "category": "Fibres",
+      "price": 268,
+      "investment_required": null
+    },
+    {
+      "name": "Frankincense",
+      "rating": 1,
+      "category": "Fragrances",
+      "price": 1242,
+      "investment_required": "120000"
+    },
+    {
+      "name": "Ambergris",
+      "rating": 10,
+      "category": "Fragrances",
+      "price": 2339,
+      "investment_required": null
+    }
+  ],
+  "jofra": [
+    {
+      "name": "Cattle",
+      "rating": 6,
+      "category": "Livestock",
+      "price": 280,
+      "investment_required": null
+    },
+    {
+      "name": "Honey",
+      "rating": 3,
+      "category": "Seasonings",
+      "price": 768,
+      "investment_required": null
+    },
+    {
+      "name": "Pistachio Nuts",
+      "rating": 11,
+      "category": "Luxury Goods",
+      "price": 343,
+      "investment_required": "500000"
+    },
+    {
+      "name": "Coconut Fibres",
+      "rating": 6,
+      "category": "Fibres",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Frankincense",
+      "rating": 1,
+      "category": "Fragrances",
+      "price": 1308,
+      "investment_required": null
+    },
+    {
+      "name": "Copper Ore",
+      "rating": 2,
+      "category": "Ores",
+      "price": 654,
+      "investment_required": "180000"
+    }
+  ],
+  "saylac": [
+    {
+      "name": "Coffee",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 376,
+      "investment_required": null
+    },
+    {
+      "name": "Gold",
+      "rating": 11,
+      "category": "Precious Metals",
+      "price": 3923,
+      "investment_required": "240000"
+    }
+  ],
+  "jeddah": [
+    {
+      "name": "Wheat",
+      "rating": 5,
+      "category": "Foodstuffs",
+      "price": 40,
+      "investment_required": null
+    },
+    {
+      "name": "Lamb",
+      "rating": 2,
+      "category": "Foodstuffs",
+      "price": 316,
+      "investment_required": null
+    },
+    {
+      "name": "Sheep",
+      "rating": 11,
+      "category": "Livestock",
+      "price": 108,
+      "investment_required": null
+    },
+    {
+      "name": "Coffee",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 376,
+      "investment_required": null
+    },
+    {
+      "name": "Iron Ore",
+      "rating": 5,
+      "category": "Ores",
+      "price": 568,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Oil",
+      "rating": 1,
+      "category": "Wares",
+      "price": 508,
+      "investment_required": null
+    }
+  ],
+  "diu": [
+    {
+      "name": "Sugar Cane",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 192,
+      "investment_required": null
+    },
+    {
+      "name": "Wetland Rice",
+      "rating": 6,
+      "category": "Foodstuffs",
+      "price": 44,
+      "investment_required": null
+    },
+    {
+      "name": "Black Tea",
+      "rating": 16,
+      "category": "Luxury Goods",
+      "price": 643,
+      "investment_required": null
+    },
+    {
+      "name": "Silk Thread",
+      "rating": 28,
+      "category": "Fibres",
+      "price": 1665,
+      "investment_required": null
+    },
+    {
+      "name": "Cotton",
+      "rating": 8,
+      "category": "Fibres",
+      "price": 268,
+      "investment_required": null
+    },
+    {
+      "name": "Ambergris",
+      "rating": 10,
+      "category": "Fragrances",
+      "price": 2469,
+      "investment_required": null
+    },
+    {
+      "name": "Emerald",
+      "rating": 1,
+      "category": "Precious Stones",
+      "price": 3017,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Wood Sculpture",
+      "rating": 1,
+      "category": "Artwork",
+      "price": 870,
+      "investment_required": "240000"
+    }
+  ],
+  "goa": [
+    {
+      "name": "Ginger",
+      "rating": 10,
+      "category": "Spices",
+      "price": 228,
+      "investment_required": null
+    },
+    {
+      "name": "Jute",
+      "rating": 4,
+      "category": "Fibres",
+      "price": 125,
+      "investment_required": null
+    },
+    {
+      "name": "Cotton",
+      "rating": 8,
+      "category": "Fibres",
+      "price": 268,
+      "investment_required": null
+    },
+    {
+      "name": "Tyrian Purple",
+      "rating": 3,
+      "category": "Dyes",
+      "price": 3800,
+      "investment_required": null
+    },
+    {
+      "name": "Jasmine",
+      "rating": 1,
+      "category": "Fragrances",
+      "price": 2585,
+      "investment_required": null
+    },
+    {
+      "name": "Sandalwood",
+      "rating": 5,
+      "category": "Fragrances",
+      "price": 1808,
+      "investment_required": null
+    },
+    {
+      "name": "Iron Ore",
+      "rating": 5,
+      "category": "Ores",
+      "price": 568,
+      "investment_required": "180000"
+    }
+  ],
+  "calicut": [
+    {
+      "name": "Black Tea",
+      "rating": 16,
+      "category": "Luxury Goods",
+      "price": 644,
+      "investment_required": "120000"
+    },
+    {
+      "name": "Cummin",
+      "rating": 5,
+      "category": "Spices",
+      "price": 512,
+      "investment_required": null
+    },
+    {
+      "name": "Pepper",
+      "rating": 25,
+      "category": "Spices",
+      "price": 256,
+      "investment_required": null
+    },
+    {
+      "name": "Ginger",
+      "rating": 10,
+      "category": "Spices",
+      "price": 228,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Senna",
+      "rating": 3,
+      "category": "Medicine",
+      "price": 244,
+      "investment_required": null
+    },
+    {
+      "name": "Musk",
+      "rating": 5,
+      "category": "Fragrances",
+      "price": 2989,
+      "investment_required": null
+    },
+    {
+      "name": "Sandalwood",
+      "rating": 5,
+      "category": "Fragrances",
+      "price": 2050,
+      "investment_required": "400000"
+    },
+    {
+      "name": "Sapphire",
+      "rating": 11,
+      "category": "Precious Stones",
+      "price": 3239,
+      "investment_required": "180000"
+    }
+  ],
+  "cochin": [
+    {
+      "name": "Wheat",
+      "rating": 5,
+      "category": "Foodstuffs",
+      "price": 40,
+      "investment_required": null
+    },
+    {
+      "name": "Cardamom",
+      "rating": 2,
+      "category": "Spices",
+      "price": 832,
+      "investment_required": null
+    },
+    {
+      "name": "Indian Madder",
+      "rating": 1,
+      "category": "Dyes",
+      "price": 332,
+      "investment_required": null
+    },
+    {
+      "name": "Musk",
+      "rating": 5,
+      "category": "Fragrances",
+      "price": 2985,
+      "investment_required": null
+    },
+    {
+      "name": "Emerald",
+      "rating": 1,
+      "category": "Precious Stones",
+      "price": 3029,
+      "investment_required": "120000"
+    }
+  ],
+  "pondicherry": [
+    {
+      "name": "Sheep",
+      "rating": 11,
+      "category": "Livestock",
+      "price": 108,
+      "investment_required": null
+    },
+    {
+      "name": "Cinnamon",
+      "rating": 1,
+      "category": "Spices",
+      "price": 416,
+      "investment_required": null
+    },
+    {
+      "name": "Dill",
+      "rating": 1,
+      "category": "Spices",
+      "price": 161,
+      "investment_required": "500000"
+    },
+    {
+      "name": "Cotton",
+      "rating": 8,
+      "category": "Fibres",
+      "price": 268,
+      "investment_required": null
+    },
+    {
+      "name": "Cat's Eye",
+      "rating": 1,
+      "category": "Precious Stones",
+      "price": 2565,
+      "investment_required": null
+    }
+  ],
+  "ceylon": [
+    {
+      "name": "Black Tea",
+      "rating": 16,
+      "category": "Luxury Goods",
+      "price": 645,
+      "investment_required": null
+    },
+    {
+      "name": "Coconuts",
+      "rating": 8,
+      "category": "Luxury Goods",
+      "price": 256,
+      "investment_required": null
+    },
+    {
+      "name": "Cinnamon",
+      "rating": 1,
+      "category": "Spices",
+      "price": 416,
+      "investment_required": null
+    },
+    {
+      "name": "Sapphire",
+      "rating": 11,
+      "category": "Precious Stones",
+      "price": 3242,
+      "investment_required": "120000"
+    },
+    {
+      "name": "Graphite",
+      "rating": 7,
+      "category": "Wares",
+      "price": 775,
+      "investment_required": null
+    }
+  ],
+  "machilipatnam": [
+    {
+      "name": "Silk Thread",
+      "rating": 28,
+      "category": "Fibres",
+      "price": 1667,
+      "investment_required": null
+    },
+    {
+      "name": "Cotton",
+      "rating": 8,
+      "category": "Fibres",
+      "price": 268,
+      "investment_required": null
+    },
+    {
+      "name": "Saltpetre",
+      "rating": 9,
+      "category": "Ores",
+      "price": 1448,
+      "investment_required": null
+    },
+    {
+      "name": "Cat's Eye",
+      "rating": 1,
+      "category": "Precious Stones",
+      "price": 2561,
+      "investment_required": null
+    },
+    {
+      "name": "Coal",
+      "rating": 3,
+      "category": "Wares",
+      "price": 416,
+      "investment_required": null
+    }
+  ],
+  "calcutta": [
+    {
+      "name": "Wetland Rice",
+      "rating": 6,
+      "category": "Foodstuffs",
+      "price": 44,
+      "investment_required": null
+    },
+    {
+      "name": "Jute",
+      "rating": 4,
+      "category": "Fibres",
+      "price": 124,
+      "investment_required": null
+    },
+    {
+      "name": "Silk Thread",
+      "rating": 28,
+      "category": "Fibres",
+      "price": 1666,
+      "investment_required": null
+    },
+    {
+      "name": "Silk Cloth",
+      "rating": 8,
+      "category": "Fabrics",
+      "price": 2193,
+      "investment_required": null
+    },
+    {
+      "name": "Iron Ore",
+      "rating": 5,
+      "category": "Ores",
+      "price": 567,
+      "investment_required": null
+    }
+  ],
+  "portobelo": [
+    {
+      "name": "Potatoes",
+      "rating": 7,
+      "category": "Foodstuffs",
+      "price": 116,
+      "investment_required": null
+    },
+    {
+      "name": "Corn",
+      "rating": 4,
+      "category": "Foodstuffs",
+      "price": 48,
+      "investment_required": null
+    },
+    {
+      "name": "Silver",
+      "rating": 3,
+      "category": "Precious Metals",
+      "price": 953,
+      "investment_required": "400000"
+    }
+  ],
+  "cayenne": [
+    {
+      "name": "Sugar Cane",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 192,
+      "investment_required": null
+    },
+    {
+      "name": "Rum",
+      "rating": 1,
+      "category": "Alcohol",
+      "price": 416,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Coffee",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 376,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Peanuts",
+      "rating": 1,
+      "category": "Luxury Goods",
+      "price": 160,
+      "investment_required": "320000"
+    },
+    {
+      "name": "Gobelin Tapestry",
+      "rating": 11,
+      "category": "Fabrics",
+      "price": 8286,
+      "investment_required": "400000"
+    },
+    {
+      "name": "Topaz",
+      "rating": 2,
+      "category": "Precious Stones",
+      "price": 1680,
+      "investment_required": "400000"
+    }
+  ],
+  "pernambuco": [
+    {
+      "name": "Sugar Cane",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 192,
+      "investment_required": null
+    },
+    {
+      "name": "Corn",
+      "rating": 4,
+      "category": "Foodstuffs",
+      "price": 48,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Pigs",
+      "rating": 3,
+      "category": "Livestock",
+      "price": 56,
+      "investment_required": "120000"
+    },
+    {
+      "name": "Sherry",
+      "rating": 6,
+      "category": "Alcohol",
+      "price": 1017,
+      "investment_required": "400000"
+    },
+    {
+      "name": "Mate Tea",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 232,
+      "investment_required": null
+    },
+    {
+      "name": "Leather",
+      "rating": 6,
+      "category": "Fibres",
+      "price": 372,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Cotton",
+      "rating": 8,
+      "category": "Fibres",
+      "price": 268,
+      "investment_required": null
+    },
+    {
+      "name": "Logs",
+      "rating": 13,
+      "category": "Wares",
+      "price": 228,
+      "investment_required": null
+    }
+  ],
+  "grand-cayman": [
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Cattle",
+      "rating": 6,
+      "category": "Livestock",
+      "price": 280,
+      "investment_required": null
+    },
+    {
+      "name": "Tequila",
+      "rating": 2,
+      "category": "Alcohol",
+      "price": 991,
+      "investment_required": null
+    },
+    {
+      "name": "Coffee",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 376,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Pineapples",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 777,
+      "investment_required": null
+    },
+    {
+      "name": "Peanuts",
+      "rating": 1,
+      "category": "Luxury Goods",
+      "price": 128,
+      "investment_required": "120000"
+    },
+    {
+      "name": "Flannel",
+      "rating": 18,
+      "category": "Fabrics",
+      "price": 2352,
+      "investment_required": "400000"
+    },
+    {
+      "name": "Silver",
+      "rating": 3,
+      "category": "Precious Metals",
+      "price": 1132,
+      "investment_required": "320000"
+    }
+  ],
+  "willemstad": [
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Sweet Potatoes",
+      "rating": 2,
+      "category": "Foodstuffs",
+      "price": 77,
+      "investment_required": null
+    },
+    {
+      "name": "Sugar Cane",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 192,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Tobacco",
+      "rating": 9,
+      "category": "Luxury Goods",
+      "price": 448,
+      "investment_required": "120000"
+    },
+    {
+      "name": "Allspice",
+      "rating": 5,
+      "category": "Spices",
+      "price": 336,
+      "investment_required": null
+    },
+    {
+      "name": "Sisal",
+      "rating": 10,
+      "category": "Fibres",
+      "price": 204,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Gold",
+      "rating": 11,
+      "category": "Precious Metals",
+      "price": 3344,
+      "investment_required": "400000"
+    },
+    {
+      "name": "Logs",
+      "rating": 13,
+      "category": "Wares",
+      "price": 228,
+      "investment_required": "180000"
+    }
+  ],
+  "veracruz": [
+    {
+      "name": "Potatoes",
+      "rating": 7,
+      "category": "Foodstuffs",
+      "price": 116,
+      "investment_required": null
+    },
+    {
+      "name": "Corn",
+      "rating": 4,
+      "category": "Foodstuffs",
+      "price": 48,
+      "investment_required": null
+    },
+    {
+      "name": "Coffee",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 376,
+      "investment_required": null
+    },
+    {
+      "name": "Basil",
+      "rating": 4,
+      "category": "Spices",
+      "price": 104,
+      "investment_required": null
+    },
+    {
+      "name": "Gold",
+      "rating": 11,
+      "category": "Precious Metals",
+      "price": 3938,
+      "investment_required": "550000"
+    },
+    {
+      "name": "Silver",
+      "rating": 3,
+      "category": "Precious Metals",
+      "price": 2010,
+      "investment_required": "320000"
+    }
+  ],
+  "merida": [
+    {
+      "name": "Potatoes",
+      "rating": 7,
+      "category": "Foodstuffs",
+      "price": 116,
+      "investment_required": null
+    },
+    {
+      "name": "Corn",
+      "rating": 4,
+      "category": "Foodstuffs",
+      "price": 48,
+      "investment_required": null
+    },
+    {
+      "name": "Chicken",
+      "rating": 9,
+      "category": "Livestock",
+      "price": 44,
+      "investment_required": null
+    },
+    {
+      "name": "Tomatoes",
+      "rating": 3,
+      "category": "Foodstuffs",
+      "price": 88,
+      "investment_required": null
+    },
+    {
+      "name": "Silver",
+      "rating": 3,
+      "category": "Precious Metals",
+      "price": 956,
+      "investment_required": "400000"
+    },
+    {
+      "name": "Opal",
+      "rating": 6,
+      "category": "Precious Stones",
+      "price": 2388,
+      "investment_required": "500000"
+    }
+  ],
+  "trujillo": [
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Corn",
+      "rating": 4,
+      "category": "Foodstuffs",
+      "price": 48,
+      "investment_required": null
+    },
+    {
+      "name": "Pigs",
+      "rating": 3,
+      "category": "Livestock",
+      "price": 56,
+      "investment_required": null
+    },
+    {
+      "name": "Coffee",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 329,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Allspice",
+      "rating": 5,
+      "category": "Spices",
+      "price": 294,
+      "investment_required": null
+    },
+    {
+      "name": "Silver",
+      "rating": 3,
+      "category": "Precious Metals",
+      "price": 2510,
+      "investment_required": "320000"
+    },
+    {
+      "name": "Muskets",
+      "rating": 4,
+      "category": "Firearms",
+      "price": 6063,
+      "investment_required": "400000"
+    }
+  ],
+  "maracaibo": [
+    {
+      "name": "Coconuts",
+      "rating": 8,
+      "category": "Luxury Goods",
+      "price": 256,
+      "investment_required": null
+    },
+    {
+      "name": "Cotton",
+      "rating": 8,
+      "category": "Fibres",
+      "price": 268,
+      "investment_required": null
+    },
+    {
+      "name": "Gold",
+      "rating": 11,
+      "category": "Precious Metals",
+      "price": 4489,
+      "investment_required": "400000"
+    },
+    {
+      "name": "Iron Ore",
+      "rating": 5,
+      "category": "Ores",
+      "price": 568,
+      "investment_required": null
+    },
+    {
+      "name": "Oil",
+      "rating": 1,
+      "category": "Wares",
+      "price": 508,
+      "investment_required": "240000"
+    }
+  ],
+  "bahia": [
+    {
+      "name": "Sugar Cane",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 192,
+      "investment_required": null
+    },
+    {
+      "name": "Coffee",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 376,
+      "investment_required": null
+    },
+    {
+      "name": "Cotton",
+      "rating": 8,
+      "category": "Fibres",
+      "price": 268,
+      "investment_required": null
+    },
+    {
+      "name": "Lumber",
+      "rating": 5,
+      "category": "Wares",
+      "price": 591,
+      "investment_required": "240000"
+    }
+  ],
+  "rio-de-janeiro": [
+    {
+      "name": "Sugar Cane",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 192,
+      "investment_required": null
+    },
+    {
+      "name": "Coffee",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 375,
+      "investment_required": null
+    },
+    {
+      "name": "Cotton",
+      "rating": 8,
+      "category": "Fibres",
+      "price": 268,
+      "investment_required": null
+    },
+    {
+      "name": "Gold",
+      "rating": 11,
+      "category": "Precious Metals",
+      "price": 2944,
+      "investment_required": "400000"
+    },
+    {
+      "name": "Topaz",
+      "rating": 2,
+      "category": "Precious Stones",
+      "price": 1684,
+      "investment_required": "600000"
+    }
+  ],
+  "buenos-aires": [
+    {
+      "name": "Onions",
+      "rating": 4,
+      "category": "Foodstuffs",
+      "price": 72,
+      "investment_required": null
+    },
+    {
+      "name": "Cattle",
+      "rating": 6,
+      "category": "Livestock",
+      "price": 280,
+      "investment_required": null
+    },
+    {
+      "name": "Sheep",
+      "rating": 11,
+      "category": "Livestock",
+      "price": 108,
+      "investment_required": null
+    },
+    {
+      "name": "Garlic",
+      "rating": 6,
+      "category": "Spices",
+      "price": 244,
+      "investment_required": null
+    },
+    {
+      "name": "Silver",
+      "rating": 3,
+      "category": "Precious Metals",
+      "price": 875,
+      "investment_required": "400000"
+    }
+  ],
+  "san-antonio": [
+    {
+      "name": "Corn",
+      "rating": 4,
+      "category": "Foodstuffs",
+      "price": 48,
+      "investment_required": null
+    },
+    {
+      "name": "Cattle",
+      "rating": 6,
+      "category": "Livestock",
+      "price": 280,
+      "investment_required": null
+    },
+    {
+      "name": "Mate Tea",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 232,
+      "investment_required": null
+    },
+    {
+      "name": "Silver",
+      "rating": 3,
+      "category": "Precious Metals",
+      "price": 875,
+      "investment_required": "400000"
+    }
+  ],
+  "caracas": [
+    {
+      "name": "Chicken",
+      "rating": 9,
+      "category": "Livestock",
+      "price": 44,
+      "investment_required": "120000"
+    },
+    {
+      "name": "Cacao",
+      "rating": 3,
+      "category": "Luxury Goods",
+      "price": 546,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Coffee",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 376,
+      "investment_required": null
+    },
+    {
+      "name": "Sisal",
+      "rating": 10,
+      "category": "Fibres",
+      "price": 208,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Iron Ore",
+      "rating": 5,
+      "category": "Ores",
+      "price": 568,
+      "investment_required": null
+    },
+    {
+      "name": "Emerald",
+      "rating": 1,
+      "category": "Precious Stones",
+      "price": 3024,
+      "investment_required": "320000"
+    },
+    {
+      "name": "Opal",
+      "rating": 6,
+      "category": "Precious Stones",
+      "price": 2388,
+      "investment_required": "320000"
+    },
+    {
+      "name": "Glasswork",
+      "rating": 6,
+      "category": "Crafts",
+      "price": 2980,
+      "investment_required": "400000"
+    },
+    {
+      "name": "Oil",
+      "rating": 1,
+      "category": "Wares",
+      "price": 508,
+      "investment_required": "180000"
+    }
+  ],
+  "tenochtitlan": [],
+  "valparaiso": [
+    {
+      "name": "Toddy",
+      "rating": 1,
+      "category": "Alcohol",
+      "price": 256,
+      "investment_required": null
+    },
+    {
+      "name": "Mate Tea",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 232,
+      "investment_required": null
+    },
+    {
+      "name": "Rosehip",
+      "rating": 2,
+      "category": "Medicine",
+      "price": 476,
+      "investment_required": null
+    },
+    {
+      "name": "Coconut Fibres",
+      "rating": 6,
+      "category": "Fibres",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Gold",
+      "rating": 11,
+      "category": "Precious Metals",
+      "price": 3033,
+      "investment_required": "400000"
+    }
+  ],
+  "copiapo": [
+    {
+      "name": "Quinoa",
+      "rating": 1,
+      "category": "Foodstuffs",
+      "price": 164,
+      "investment_required": null
+    },
+    {
+      "name": "Alpacas",
+      "rating": 3,
+      "category": "Livestock",
+      "price": 595,
+      "investment_required": null
+    },
+    {
+      "name": "Salt",
+      "rating": 5,
+      "category": "Seasonings",
+      "price": 208,
+      "investment_required": null
+    },
+    {
+      "name": "Mate Tea",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 231,
+      "investment_required": null
+    },
+    {
+      "name": "Silver",
+      "rating": 3,
+      "category": "Precious Metals",
+      "price": 1210,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Copper Ore",
+      "rating": 2,
+      "category": "Ores",
+      "price": 691,
+      "investment_required": null
+    }
+  ],
+  "lima": [
+    {
+      "name": "Potatoes",
+      "rating": 7,
+      "category": "Foodstuffs",
+      "price": 116,
+      "investment_required": null
+    },
+    {
+      "name": "Corn",
+      "rating": 4,
+      "category": "Foodstuffs",
+      "price": 48,
+      "investment_required": null
+    },
+    {
+      "name": "Alpacas",
+      "rating": 3,
+      "category": "Livestock",
+      "price": 596,
+      "investment_required": null
+    },
+    {
+      "name": "Salt",
+      "rating": 5,
+      "category": "Seasonings",
+      "price": 208,
+      "investment_required": null
+    },
+    {
+      "name": "Maca",
+      "rating": 7,
+      "category": "Medicine",
+      "price": 328,
+      "investment_required": null
+    },
+    {
+      "name": "Awayo",
+      "rating": 3,
+      "category": "Fabrics",
+      "price": 1550,
+      "investment_required": null
+    },
+    {
+      "name": "Gold",
+      "rating": 11,
+      "category": "Precious Metals",
+      "price": 3139,
+      "investment_required": "320000"
+    },
+    {
+      "name": "Tumbaga",
+      "rating": 25,
+      "category": "Crafts",
+      "price": 4994,
+      "investment_required": "400000"
+    }
+  ],
+  "lambayeque": [
+    {
+      "name": "Corn",
+      "rating": 4,
+      "category": "Foodstuffs",
+      "price": 48,
+      "investment_required": null
+    },
+    {
+      "name": "Alpacas",
+      "rating": 3,
+      "category": "Livestock",
+      "price": 596,
+      "investment_required": null
+    },
+    {
+      "name": "Salt",
+      "rating": 5,
+      "category": "Seasonings",
+      "price": 208,
+      "investment_required": null
+    },
+    {
+      "name": "Awayo",
+      "rating": 3,
+      "category": "Fabrics",
+      "price": 1550,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Iron Ore",
+      "rating": 5,
+      "category": "Ores",
+      "price": 820,
+      "investment_required": "400000"
+    },
+    {
+      "name": "Copper Ore",
+      "rating": 2,
+      "category": "Ores",
+      "price": 692,
+      "investment_required": null
+    }
+  ],
+  "tumbes": [
+    {
+      "name": "Sugar Cane",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 192,
+      "investment_required": null
+    },
+    {
+      "name": "Corn",
+      "rating": 4,
+      "category": "Foodstuffs",
+      "price": 49,
+      "investment_required": null
+    },
+    {
+      "name": "Cacao",
+      "rating": 3,
+      "category": "Luxury Goods",
+      "price": 495,
+      "investment_required": null
+    },
+    {
+      "name": "Coffee",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 376,
+      "investment_required": null
+    },
+    {
+      "name": "Tyrian Purple",
+      "rating": 3,
+      "category": "Dyes",
+      "price": 4171,
+      "investment_required": null
+    },
+    {
+      "name": "Emerald",
+      "rating": 1,
+      "category": "Precious Stones",
+      "price": 2112,
+      "investment_required": "180000"
+    },
+    {
+      "name": "Inca Rose",
+      "rating": 9,
+      "category": "Precious Stones",
+      "price": 4016,
+      "investment_required": "320000"
+    }
+  ],
+  "panama": [
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Pineapples",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 776,
+      "investment_required": null
+    },
+    {
+      "name": "Cashew Nuts",
+      "rating": 3,
+      "category": "Luxury Goods",
+      "price": 324,
+      "investment_required": null
+    },
+    {
+      "name": "Chillies",
+      "rating": 2,
+      "category": "Spices",
+      "price": 224,
+      "investment_required": null
+    },
+    {
+      "name": "Goldwork",
+      "rating": 2,
+      "category": "Crafts",
+      "price": 2850,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Rubber",
+      "rating": 2,
+      "category": "Wares",
+      "price": 616,
+      "investment_required": null
+    }
+  ],
+  "cusco": [],
+  "guatemala": [
+    {
+      "name": "Corn",
+      "rating": 4,
+      "category": "Foodstuffs",
+      "price": 48,
+      "investment_required": null
+    },
+    {
+      "name": "Tomatoes",
+      "rating": 3,
+      "category": "Foodstuffs",
+      "price": 88,
+      "investment_required": null
+    },
+    {
+      "name": "Coffee",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 376,
+      "investment_required": null
+    },
+    {
+      "name": "Cashew Nuts",
+      "rating": 3,
+      "category": "Luxury Goods",
+      "price": 324,
+      "investment_required": null
+    },
+    {
+      "name": "Opal",
+      "rating": 6,
+      "category": "Precious Stones",
+      "price": 2478,
+      "investment_required": "320000"
+    },
+    {
+      "name": "Goldwork",
+      "rating": 2,
+      "category": "Crafts",
+      "price": 2570,
+      "investment_required": "320000"
+    },
+    {
+      "name": "Brass",
+      "rating": 1,
+      "category": "Wares",
+      "price": 640,
+      "investment_required": null
+    },
+    {
+      "name": "Lumber",
+      "rating": 5,
+      "category": "Wares",
+      "price": 592,
+      "investment_required": null
+    }
+  ],
+  "acapulco": [
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 124,
+      "investment_required": null
+    },
+    {
+      "name": "Chillies",
+      "rating": 2,
+      "category": "Spices",
+      "price": 224,
+      "investment_required": "120000"
+    },
+    {
+      "name": "Silver",
+      "rating": 3,
+      "category": "Precious Metals",
+      "price": 1256,
+      "investment_required": null
+    },
+    {
+      "name": "Lead Ore",
+      "rating": 4,
+      "category": "Ores",
+      "price": 392,
+      "investment_required": null
+    },
+    {
+      "name": "Iron Ore",
+      "rating": 5,
+      "category": "Ores",
+      "price": 568,
+      "investment_required": null
+    },
+    {
+      "name": "Zinc Ore",
+      "rating": 1,
+      "category": "Ores",
+      "price": 336,
+      "investment_required": null
+    },
+    {
+      "name": "Stone",
+      "rating": 6,
+      "category": "Wares",
+      "price": 572,
+      "investment_required": null
+    }
+  ],
+  "machu-picchu": [],
+  "el-dorado": [],
+  "banda-aceh": [
+    {
+      "name": "Pepper",
+      "rating": 25,
+      "category": "Spices",
+      "price": 256,
+      "investment_required": null
+    },
+    {
+      "name": "Rhinoceros Horn",
+      "rating": 1,
+      "category": "Medicine",
+      "price": 1441,
+      "investment_required": null
+    },
+    {
+      "name": "Camphor",
+      "rating": 8,
+      "category": "Fragrances",
+      "price": 1085,
+      "investment_required": null
+    },
+    {
+      "name": "Ivory",
+      "rating": 5,
+      "category": "Precious Stones",
+      "price": 1684,
+      "investment_required": null
+    }
+  ],
+  "malacca": [
+    {
+      "name": "Taro",
+      "rating": 4,
+      "category": "Foodstuffs",
+      "price": 69,
+      "investment_required": null
+    },
+    {
+      "name": "Chicken",
+      "rating": 9,
+      "category": "Livestock",
+      "price": 44,
+      "investment_required": null
+    },
+    {
+      "name": "Coriander",
+      "rating": 3,
+      "category": "Spices",
+      "price": 272,
+      "investment_required": null
+    },
+    {
+      "name": "Tin Ore",
+      "rating": 2,
+      "category": "Ores",
+      "price": 423,
+      "investment_required": null
+    }
+  ],
+  "palembang": [
+    {
+      "name": "Onions",
+      "rating": 4,
+      "category": "Foodstuffs",
+      "price": 72,
+      "investment_required": null
+    },
+    {
+      "name": "Cinnamon",
+      "rating": 1,
+      "category": "Spices",
+      "price": 415,
+      "investment_required": null
+    },
+    {
+      "name": "Rhinoceros Horn",
+      "rating": 1,
+      "category": "Medicine",
+      "price": 1910,
+      "investment_required": null
+    },
+    {
+      "name": "Gold",
+      "rating": 11,
+      "category": "Precious Metals",
+      "price": 6496,
+      "investment_required": null
+    },
+    {
+      "name": "Pearl",
+      "rating": 5,
+      "category": "Precious Stones",
+      "price": 4253,
+      "investment_required": null
+    },
+    {
+      "name": "Lumber",
+      "rating": 5,
+      "category": "Wares",
+      "price": 590,
+      "investment_required": null
+    }
+  ],
+  "jakarta": [
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Wetland Rice",
+      "rating": 6,
+      "category": "Foodstuffs",
+      "price": 44,
+      "investment_required": null
+    },
+    {
+      "name": "Ducks",
+      "rating": 5,
+      "category": "Livestock",
+      "price": 56,
+      "investment_required": null
+    },
+    {
+      "name": "Oil",
+      "rating": 1,
+      "category": "Wares",
+      "price": 508,
+      "investment_required": "240000"
+    }
+  ],
+  "surabaya": [
+    {
+      "name": "Taro",
+      "rating": 4,
+      "category": "Foodstuffs",
+      "price": 68,
+      "investment_required": null
+    },
+    {
+      "name": "Bananas",
+      "rating": 16,
+      "category": "Luxury Goods",
+      "price": 132,
+      "investment_required": null
+    },
+    {
+      "name": "Cotton",
+      "rating": 8,
+      "category": "Fibres",
+      "price": 268,
+      "investment_required": null
+    },
+    {
+      "name": "Javanese Batik",
+      "rating": 8,
+      "category": "Fabrics",
+      "price": 576,
+      "investment_required": null
+    },
+    {
+      "name": "Goldwork",
+      "rating": 2,
+      "category": "Crafts",
+      "price": 2847,
+      "investment_required": "320000"
+    }
+  ],
+  "pattani": [
+    {
+      "name": "Nam Pla",
+      "rating": 35,
+      "category": "Seasonings",
+      "price": 239,
+      "investment_required": null
+    },
+    {
+      "name": "Coconuts",
+      "rating": 8,
+      "category": "Luxury Goods",
+      "price": 256,
+      "investment_required": null
+    },
+    {
+      "name": "Durian",
+      "rating": 12,
+      "category": "Luxury Goods",
+      "price": 455,
+      "investment_required": null
+    },
+    {
+      "name": "Papayas",
+      "rating": 3,
+      "category": "Luxury Goods",
+      "price": 303,
+      "investment_required": null
+    },
+    {
+      "name": "Mangosteen",
+      "rating": 3,
+      "category": "Dyes",
+      "price": 658,
+      "investment_required": null
+    },
+    {
+      "name": "Pearl",
+      "rating": 5,
+      "category": "Precious Stones",
+      "price": 3610,
+      "investment_required": "180000"
+    }
+  ],
+  "lop-buri": [
+    {
+      "name": "Wetland Rice",
+      "rating": 6,
+      "category": "Foodstuffs",
+      "price": 44,
+      "investment_required": null
+    },
+    {
+      "name": "Mangoes",
+      "rating": 10,
+      "category": "Luxury Goods",
+      "price": 316,
+      "investment_required": null
+    },
+    {
+      "name": "Leather",
+      "rating": 6,
+      "category": "Fibres",
+      "price": 372,
+      "investment_required": null
+    },
+    {
+      "name": "Silk Cloth",
+      "rating": 8,
+      "category": "Fabrics",
+      "price": 2199,
+      "investment_required": null
+    },
+    {
+      "name": "Tin Ore",
+      "rating": 2,
+      "category": "Ores",
+      "price": 424,
+      "investment_required": null
+    }
+  ],
+  "gia-dinh": [
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Wetland Rice",
+      "rating": 6,
+      "category": "Foodstuffs",
+      "price": 44,
+      "investment_required": null
+    },
+    {
+      "name": "Pigs",
+      "rating": 3,
+      "category": "Livestock",
+      "price": 216,
+      "investment_required": null
+    },
+    {
+      "name": "Garlic",
+      "rating": 6,
+      "category": "Spices",
+      "price": 244,
+      "investment_required": null
+    },
+    {
+      "name": "Silk Thread",
+      "rating": 28,
+      "category": "Fibres",
+      "price": 1660,
+      "investment_required": null
+    }
+  ],
+  "kuching": [
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Honey",
+      "rating": 3,
+      "category": "Seasonings",
+      "price": 768,
+      "investment_required": null
+    },
+    {
+      "name": "Coal",
+      "rating": 3,
+      "category": "Wares",
+      "price": 415,
+      "investment_required": null
+    }
+  ],
+  "banjarmasin": [
+    {
+      "name": "Sweet Potatoes",
+      "rating": 2,
+      "category": "Foodstuffs",
+      "price": 76,
+      "investment_required": null
+    },
+    {
+      "name": "Durian",
+      "rating": 12,
+      "category": "Luxury Goods",
+      "price": 455,
+      "investment_required": null
+    },
+    {
+      "name": "Cinnamon",
+      "rating": 1,
+      "category": "Spices",
+      "price": 416,
+      "investment_required": null
+    },
+    {
+      "name": "Gold",
+      "rating": 11,
+      "category": "Precious Metals",
+      "price": 6481,
+      "investment_required": "400000"
+    }
+  ],
+  "makassar": [
+    {
+      "name": "Salt",
+      "rating": 5,
+      "category": "Seasonings",
+      "price": 208,
+      "investment_required": null
+    },
+    {
+      "name": "Bananas",
+      "rating": 16,
+      "category": "Luxury Goods",
+      "price": 132,
+      "investment_required": null
+    },
+    {
+      "name": "Cloves",
+      "rating": 4,
+      "category": "Spices",
+      "price": 336,
+      "investment_required": null
+    },
+    {
+      "name": "Iron Ore",
+      "rating": 5,
+      "category": "Ores",
+      "price": 567,
+      "investment_required": null
+    }
+  ],
+  "run": [
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Soya Beans",
+      "rating": 3,
+      "category": "Foodstuffs",
+      "price": 64,
+      "investment_required": null
+    },
+    {
+      "name": "Nutmeg",
+      "rating": 14,
+      "category": "Spices",
+      "price": 356,
+      "investment_required": null
+    },
+    {
+      "name": "Mint",
+      "rating": 1,
+      "category": "Spices",
+      "price": 84,
+      "investment_required": null
+    },
+    {
+      "name": "Sandalwood",
+      "rating": 5,
+      "category": "Fragrances",
+      "price": 1805,
+      "investment_required": null
+    }
+  ],
+  "davao-city": [
+    {
+      "name": "Palm Oil",
+      "rating": 1,
+      "category": "Seasonings",
+      "price": 184,
+      "investment_required": null
+    },
+    {
+      "name": "Coconuts",
+      "rating": 8,
+      "category": "Luxury Goods",
+      "price": 256,
+      "investment_required": null
+    },
+    {
+      "name": "Bananas",
+      "rating": 16,
+      "category": "Luxury Goods",
+      "price": 132,
+      "investment_required": null
+    },
+    {
+      "name": "Graphite",
+      "rating": 7,
+      "category": "Wares",
+      "price": 779,
+      "investment_required": "200000"
+    },
+    {
+      "name": "Lumber",
+      "rating": 5,
+      "category": "Wares",
+      "price": 592,
+      "investment_required": null
+    }
+  ],
+  "manila": [
+    {
+      "name": "Sugar",
+      "rating": 3,
+      "category": "Seasonings",
+      "price": 572,
+      "investment_required": null
+    },
+    {
+      "name": "Bananas",
+      "rating": 16,
+      "category": "Luxury Goods",
+      "price": 132,
+      "investment_required": null
+    },
+    {
+      "name": "Copper Ore",
+      "rating": 2,
+      "category": "Ores",
+      "price": 692,
+      "investment_required": null
+    },
+    {
+      "name": "Pearl",
+      "rating": 5,
+      "category": "Precious Stones",
+      "price": 4250,
+      "investment_required": null
+    }
+  ],
+  "brunei": [
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Copper Ore",
+      "rating": 2,
+      "category": "Ores",
+      "price": 691,
+      "investment_required": null
+    },
+    {
+      "name": "Lumber",
+      "rating": 5,
+      "category": "Wares",
+      "price": 591,
+      "investment_required": null
+    },
+    {
+      "name": "Ebony",
+      "rating": 2,
+      "category": "Wares",
+      "price": 1050,
+      "investment_required": null
+    }
+  ],
+  "pegu": [
+    {
+      "name": "Soya Beans",
+      "rating": 3,
+      "category": "Foodstuffs",
+      "price": 64,
+      "investment_required": null
+    },
+    {
+      "name": "Silk Cloth",
+      "rating": 8,
+      "category": "Fabrics",
+      "price": 2200,
+      "investment_required": null
+    },
+    {
+      "name": "Pearl",
+      "rating": 5,
+      "category": "Precious Stones",
+      "price": 3396,
+      "investment_required": "320000"
+    },
+    {
+      "name": "Lumber",
+      "rating": 5,
+      "category": "Wares",
+      "price": 592,
+      "investment_required": null
+    }
+  ],
+  "dili": [
+    {
+      "name": "Taro",
+      "rating": 4,
+      "category": "Foodstuffs",
+      "price": 68,
+      "investment_required": null
+    },
+    {
+      "name": "Coffee",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 376,
+      "investment_required": null
+    },
+    {
+      "name": "Coconuts",
+      "rating": 8,
+      "category": "Luxury Goods",
+      "price": 256,
+      "investment_required": null
+    },
+    {
+      "name": "Sandalwood",
+      "rating": 5,
+      "category": "Fragrances",
+      "price": 1818,
+      "investment_required": null
+    },
+    {
+      "name": "Stone",
+      "rating": 6,
+      "category": "Wares",
+      "price": 572,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Oil",
+      "rating": 1,
+      "category": "Wares",
+      "price": 508,
+      "investment_required": "500000"
+    }
+  ],
+  "jambi": [
+    {
+      "name": "Coffee",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 375,
+      "investment_required": null
+    },
+    {
+      "name": "Camphor",
+      "rating": 8,
+      "category": "Fragrances",
+      "price": 1084,
+      "investment_required": null
+    },
+    {
+      "name": "Pearl",
+      "rating": 5,
+      "category": "Precious Stones",
+      "price": 3903,
+      "investment_required": "320000"
+    },
+    {
+      "name": "Stone Sculpture",
+      "rating": 2,
+      "category": "Artwork",
+      "price": 1394,
+      "investment_required": null
+    },
+    {
+      "name": "Lumber",
+      "rating": 5,
+      "category": "Wares",
+      "price": 590,
+      "investment_required": null
+    }
+  ],
+  "ambon": [
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Durian",
+      "rating": 12,
+      "category": "Luxury Goods",
+      "price": 455,
+      "investment_required": "240000"
+    },
+    {
+      "name": "Mangoes",
+      "rating": 10,
+      "category": "Luxury Goods",
+      "price": 315,
+      "investment_required": null
+    },
+    {
+      "name": "Nutmeg",
+      "rating": 14,
+      "category": "Spices",
+      "price": 356,
+      "investment_required": null
+    },
+    {
+      "name": "Mace",
+      "rating": 8,
+      "category": "Spices",
+      "price": 523,
+      "investment_required": null
+    },
+    {
+      "name": "Javanese Batik",
+      "rating": 8,
+      "category": "Fabrics",
+      "price": 576,
+      "investment_required": "500000"
+    },
+    {
+      "name": "Cannon Shot",
+      "rating": 3,
+      "category": "Firearms",
+      "price": 1465,
+      "investment_required": "500000"
+    },
+    {
+      "name": "Coal",
+      "rating": 3,
+      "category": "Wares",
+      "price": 415,
+      "investment_required": null
+    }
+  ],
+  "ternate": [
+    {
+      "name": "Corn",
+      "rating": 4,
+      "category": "Foodstuffs",
+      "price": 48,
+      "investment_required": null
+    },
+    {
+      "name": "Bananas",
+      "rating": 16,
+      "category": "Luxury Goods",
+      "price": 132,
+      "investment_required": null
+    },
+    {
+      "name": "Cloves",
+      "rating": 4,
+      "category": "Spices",
+      "price": 336,
+      "investment_required": null
+    },
+    {
+      "name": "Iron Ore",
+      "rating": 5,
+      "category": "Ores",
+      "price": 568,
+      "investment_required": null
+    },
+    {
+      "name": "Cannon",
+      "rating": 1,
+      "category": "Firearms",
+      "price": 4419,
+      "investment_required": "500000"
+    },
+    {
+      "name": "Iron",
+      "rating": 3,
+      "category": "Wares",
+      "price": 568,
+      "investment_required": "180000"
+    }
+  ],
+  "jolo": [],
+  "samarai": [
+    {
+      "name": "Palm Oil",
+      "rating": 1,
+      "category": "Seasonings",
+      "price": 174,
+      "investment_required": null
+    },
+    {
+      "name": "Coffee",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 352,
+      "investment_required": null
+    },
+    {
+      "name": "Coconuts",
+      "rating": 8,
+      "category": "Luxury Goods",
+      "price": 242,
+      "investment_required": null
+    },
+    {
+      "name": "Gold",
+      "rating": 11,
+      "category": "Precious Metals",
+      "price": 6481,
+      "investment_required": "320000"
+    }
+  ],
+  "guam": [
+    {
+      "name": "Palm Oil",
+      "rating": 1,
+      "category": "Seasonings",
+      "price": 174,
+      "investment_required": null
+    },
+    {
+      "name": "Coconuts",
+      "rating": 8,
+      "category": "Luxury Goods",
+      "price": 242,
+      "investment_required": null
+    },
+    {
+      "name": "Coral",
+      "rating": 2,
+      "category": "Precious Stones",
+      "price": 2712,
+      "investment_required": "180000"
+    }
+  ],
+  "kakadu": [
+    {
+      "name": "Crocodile Meat",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 427,
+      "investment_required": null
+    },
+    {
+      "name": "Macadamia Nuts",
+      "rating": 1,
+      "category": "Luxury Goods",
+      "price": 332,
+      "investment_required": null
+    },
+    {
+      "name": "Leather",
+      "rating": 6,
+      "category": "Fibres",
+      "price": 371,
+      "investment_required": null
+    },
+    {
+      "name": "Peridot",
+      "rating": 3,
+      "category": "Precious Stones",
+      "price": 1258,
+      "investment_required": "180000"
+    }
+  ],
+  "hobart": [
+    {
+      "name": "Kangaroo Meat",
+      "rating": 1,
+      "category": "Foodstuffs",
+      "price": 312,
+      "investment_required": null
+    },
+    {
+      "name": "Honey",
+      "rating": 3,
+      "category": "Seasonings",
+      "price": 768,
+      "investment_required": null
+    },
+    {
+      "name": "Leather",
+      "rating": 6,
+      "category": "Fibres",
+      "price": 372,
+      "investment_required": null
+    },
+    {
+      "name": "Silver",
+      "rating": 3,
+      "category": "Precious Metals",
+      "price": 2510,
+      "investment_required": "400000"
+    },
+    {
+      "name": "Copper Ore",
+      "rating": 2,
+      "category": "Ores",
+      "price": 692,
+      "investment_required": null
+    },
+    {
+      "name": "Lumber",
+      "rating": 5,
+      "category": "Wares",
+      "price": 592,
+      "investment_required": null
+    }
+  ],
+  "wanganui": [
+    {
+      "name": "Sweet Potatoes",
+      "rating": 2,
+      "category": "Foodstuffs",
+      "price": 67,
+      "investment_required": null
+    },
+    {
+      "name": "Taro",
+      "rating": 4,
+      "category": "Foodstuffs",
+      "price": 68,
+      "investment_required": null
+    },
+    {
+      "name": "Honey",
+      "rating": 3,
+      "category": "Seasonings",
+      "price": 768,
+      "investment_required": null
+    },
+    {
+      "name": "Nephrite",
+      "rating": 3,
+      "category": "Precious Stones",
+      "price": 976,
+      "investment_required": "320000"
+    },
+    {
+      "name": "Lumber",
+      "rating": 5,
+      "category": "Wares",
+      "price": 591,
+      "investment_required": null
+    }
+  ],
+  "kgari": [
+    {
+      "name": "Macadamia Nuts",
+      "rating": 1,
+      "category": "Luxury Goods",
+      "price": 332,
+      "investment_required": null
+    },
+    {
+      "name": "Coral",
+      "rating": 2,
+      "category": "Precious Stones",
+      "price": 2711,
+      "investment_required": null
+    },
+    {
+      "name": "Coal",
+      "rating": 3,
+      "category": "Wares",
+      "price": 416,
+      "investment_required": null
+    },
+    {
+      "name": "Lumber",
+      "rating": 5,
+      "category": "Wares",
+      "price": 591,
+      "investment_required": null
+    }
+  ],
+  "pinjarra": [
+    {
+      "name": "Kangaroo Meat",
+      "rating": 1,
+      "category": "Foodstuffs",
+      "price": 312,
+      "investment_required": null
+    },
+    {
+      "name": "Salt",
+      "rating": 5,
+      "category": "Seasonings",
+      "price": 208,
+      "investment_required": null
+    },
+    {
+      "name": "Gold",
+      "rating": 11,
+      "category": "Precious Metals",
+      "price": 4317,
+      "investment_required": null
+    },
+    {
+      "name": "Iron Ore",
+      "rating": 5,
+      "category": "Ores",
+      "price": 567,
+      "investment_required": null
+    },
+    {
+      "name": "Pink Diamonds",
+      "rating": 29,
+      "category": "Precious Stones",
+      "price": 2965,
+      "investment_required": "600000"
+    },
+    {
+      "name": "Oil",
+      "rating": 1,
+      "category": "Wares",
+      "price": 508,
+      "investment_required": null
+    }
+  ],
+  "additional-trade-goods:": [
+    {
+      "name": "Fish",
+      "rating": 8,
+      "category": "Foodstuffs",
+      "price": 128,
+      "investment_required": null
+    },
+    {
+      "name": "Taro",
+      "rating": 4,
+      "category": "Foodstuffs",
+      "price": 68,
+      "investment_required": null
+    },
+    {
+      "name": "Coconuts",
+      "rating": 8,
+      "category": "Luxury Goods",
+      "price": 256,
+      "investment_required": null
+    },
+    {
+      "name": "Papayas",
+      "rating": 3,
+      "category": "Luxury Goods",
+      "price": 304,
+      "investment_required": "180000"
+    }
+  ],
+  "edo": [
+    {
+      "name": "Sake",
+      "rating": 4,
+      "category": "Alcohol",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Soba",
+      "rating": 1,
+      "category": "Foodstuffs",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Wild Boar",
+      "rating": 5,
+      "category": "Livestock",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Soya Sauce",
+      "rating": 1,
+      "category": "Seasonings",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Aubergine",
+      "rating": 7,
+      "category": "Luxury Goods",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Cape Jasmine",
+      "rating": 1,
+      "category": "Fragrances",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Calamus",
+      "rating": 1,
+      "category": "Medicine",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Ramie",
+      "rating": 2,
+      "category": "Fibres",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Nut Galls",
+      "rating": 1,
+      "category": "Dyes",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Yuzu",
+      "rating": 1,
+      "category": "Spices",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Nishijin Fabric",
+      "rating": 2,
+      "category": "Fabrics",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Iwami Silver",
+      "rating": 1,
+      "category": "Precious Metals",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "White Porcelain Ore",
+      "rating": 1,
+      "category": "Ores",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Amethyst",
+      "rating": 1,
+      "category": "Precious Stones",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Lacquerware",
+      "rating": 2,
+      "category": "Crafts",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Japanese-style Painting",
+      "rating": 9,
+      "category": "Artwork",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Japanese Books",
+      "rating": 2,
+      "category": "Sundries",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Paper lantern",
+      "rating": 29,
+      "category": "Sundries",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Japanese Katana",
+      "rating": 8,
+      "category": "Arms",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Tanegashima Rifle",
+      "rating": 8,
+      "category": "Firearms",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Japanese Paper",
+      "rating": 2,
+      "category": "Wares",
+      "price": 0,
+      "investment_required": null
+    }
+  ],
+  "sakai": [
+    {
+      "name": "Sake",
+      "rating": 4,
+      "category": "Alcohol",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Soba",
+      "rating": 1,
+      "category": "Foodstuffs",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Wild Boar",
+      "rating": 5,
+      "category": "Livestock",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Soya Sauce",
+      "rating": 1,
+      "category": "Seasonings",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Aubergine",
+      "rating": 7,
+      "category": "Luxury Goods",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Cape Jasmine",
+      "rating": 1,
+      "category": "Fragrances",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Calamus",
+      "rating": 1,
+      "category": "Medicine",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Ramie",
+      "rating": 2,
+      "category": "Fibres",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Nut Galls",
+      "rating": 1,
+      "category": "Dyes",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Yuzu",
+      "rating": 1,
+      "category": "Spices",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Nishijin Fabric",
+      "rating": 2,
+      "category": "Fabrics",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Iwami Silver",
+      "rating": 1,
+      "category": "Precious Metals",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "White Porcelain Ore",
+      "rating": 1,
+      "category": "Ores",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Amethyst",
+      "rating": 1,
+      "category": "Precious Stones",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Lacquerware",
+      "rating": 2,
+      "category": "Crafts",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Saori",
+      "rating": 24,
+      "category": "Crafts",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Japanese-style Painting",
+      "rating": 9,
+      "category": "Artwork",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Japanese Books",
+      "rating": 2,
+      "category": "Sundries",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Japanese Katana",
+      "rating": 8,
+      "category": "Arms",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Tanegashima Rifle",
+      "rating": 8,
+      "category": "Firearms",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Japanese Paper",
+      "rating": 2,
+      "category": "Wares",
+      "price": 0,
+      "investment_required": null
+    }
+  ],
+  "nagasaki": [
+    {
+      "name": "Sake",
+      "rating": 4,
+      "category": "Alcohol",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Soba",
+      "rating": 1,
+      "category": "Foodstuffs",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Wild Boar",
+      "rating": 5,
+      "category": "Livestock",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Soya Sauce",
+      "rating": 1,
+      "category": "Seasonings",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Aubergine",
+      "rating": 7,
+      "category": "Luxury Goods",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Cape Jasmine",
+      "rating": 1,
+      "category": "Fragrances",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Calamus",
+      "rating": 1,
+      "category": "Medicine",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Ramie",
+      "rating": 2,
+      "category": "Fibres",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Soft Rush",
+      "rating": 7,
+      "category": "Fibres",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Nut Galls",
+      "rating": 1,
+      "category": "Dyes",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Yuzu",
+      "rating": 1,
+      "category": "Spices",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Nishijin Fabric",
+      "rating": 2,
+      "category": "Fabrics",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Iwami Silver",
+      "rating": 1,
+      "category": "Precious Metals",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "White Porcelain Ore",
+      "rating": 1,
+      "category": "Ores",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Amethyst",
+      "rating": 1,
+      "category": "Precious Stones",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Lacquerware",
+      "rating": 2,
+      "category": "Crafts",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Japanese-style Painting",
+      "rating": 9,
+      "category": "Artwork",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Japanese Books",
+      "rating": 2,
+      "category": "Sundries",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Japanese Katana",
+      "rating": 8,
+      "category": "Arms",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Tanegashima Rifle",
+      "rating": 8,
+      "category": "Firearms",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Japanese Paper",
+      "rating": 2,
+      "category": "Wares",
+      "price": 0,
+      "investment_required": null
+    }
+  ],
+  "hanyang": [
+    {
+      "name": "Korean Beef",
+      "rating": 4,
+      "category": "Livestock",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Andong Soju",
+      "rating": 4,
+      "category": "Alcohol",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Yangju Chestnut",
+      "rating": 1,
+      "category": "Foodstuffs",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Korean Tea",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Tigerskin",
+      "rating": 2,
+      "category": "Fibres",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Myonju",
+      "rating": 1,
+      "category": "Fabrics",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Daitoh",
+      "rating": 3,
+      "category": "Arms",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Throwing Bomb",
+      "rating": 2,
+      "category": "Firearms",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Korean Paper",
+      "rating": 1,
+      "category": "Wares",
+      "price": 0,
+      "investment_required": null
+    }
+  ],
+  "busan": [
+    {
+      "name": "Korean Beef",
+      "rating": 4,
+      "category": "Livestock",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Andong Soju",
+      "rating": 4,
+      "category": "Alcohol",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Korean Tea",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Korean Cactus",
+      "rating": 3,
+      "category": "Medicine",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Tigerskin",
+      "rating": 2,
+      "category": "Fibres",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Myonju",
+      "rating": 1,
+      "category": "Fabrics",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Daitoh",
+      "rating": 3,
+      "category": "Arms",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Throwing Bomb",
+      "rating": 2,
+      "category": "Firearms",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Korean Paper",
+      "rating": 1,
+      "category": "Wares",
+      "price": 0,
+      "investment_required": null
+    }
+  ],
+  "pohang": [
+    {
+      "name": "Korean Beef",
+      "rating": 4,
+      "category": "Livestock",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Andong Soju",
+      "rating": 4,
+      "category": "Alcohol",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Korean Tea",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Korean Black Raspberry",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Tigerskin",
+      "rating": 2,
+      "category": "Fibres",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Myonju",
+      "rating": 1,
+      "category": "Fabrics",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Daitoh",
+      "rating": 3,
+      "category": "Arms",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Throwing Bomb",
+      "rating": 2,
+      "category": "Firearms",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Korean Paper",
+      "rating": 1,
+      "category": "Wares",
+      "price": 0,
+      "investment_required": null
+    }
+  ],
+  "anping": [
+    {
+      "name": "Dried Mullet Roe",
+      "rating": 1,
+      "category": "Foodstuffs",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Water Buffalo",
+      "rating": 4,
+      "category": "Livestock",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Taiwan Mijiu",
+      "rating": 2,
+      "category": "Alcohol",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Water Caltrop",
+      "rating": 11,
+      "category": "Foodstuffs",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Shacha Sauce",
+      "rating": 1,
+      "category": "Seasonings",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Awkeotsang",
+      "rating": 4,
+      "category": "Luxury Goods",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Thai Galangal",
+      "rating": 1,
+      "category": "Spices",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Oyster Shell",
+      "rating": 3,
+      "category": "Medicine",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Deerskin",
+      "rating": 11,
+      "category": "Fibres",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Dyeing Yam",
+      "rating": 1,
+      "category": "Dyes",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Rosa Rugosa",
+      "rating": 3,
+      "category": "Fragrances",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Woven Hemp",
+      "rating": 3,
+      "category": "Fabrics",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Jinguashih Gold",
+      "rating": 1,
+      "category": "Precious Metals",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Hokutolite",
+      "rating": 1,
+      "category": "Ores",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Taiwan Sapphire",
+      "rating": 1,
+      "category": "Precious Stones",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Antlerwork",
+      "rating": 1,
+      "category": "Crafts",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Taiwanese Woodcarving",
+      "rating": 3,
+      "category": "Artwork",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Rattan work",
+      "rating": 1,
+      "category": "Sundries",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Rattan Armor",
+      "rating": 2,
+      "category": "Arms",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Bronze Hand Cannon",
+      "rating": 2,
+      "category": "Firearms",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Rattan",
+      "rating": 1,
+      "category": "Wares",
+      "price": 0,
+      "investment_required": null
+    }
+  ],
+  "tamsui": [
+    {
+      "name": "Dried Mullet Roe",
+      "rating": 1,
+      "category": "Foodstuffs",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Water Buffalo",
+      "rating": 4,
+      "category": "Livestock",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Taiwan Mijiu",
+      "rating": 2,
+      "category": "Alcohol",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Shacha Sauce",
+      "rating": 1,
+      "category": "Seasonings",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Awkeotsang",
+      "rating": 4,
+      "category": "Luxury Goods",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Orange Daylily",
+      "rating": 2,
+      "category": "Luxury Goods",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Thai Galangal",
+      "rating": 1,
+      "category": "Spices",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Oyster Shell",
+      "rating": 3,
+      "category": "Medicine",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Deerskin",
+      "rating": 11,
+      "category": "Fibres",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Dyeing Yam",
+      "rating": 1,
+      "category": "Dyes",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Rosa Rugosa",
+      "rating": 3,
+      "category": "Fragrances",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Woven Hemp",
+      "rating": 3,
+      "category": "Fabrics",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Jinguashih Gold",
+      "rating": 1,
+      "category": "Precious Metals",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Hokutolite",
+      "rating": 1,
+      "category": "Ores",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Taiwan Sapphire",
+      "rating": 1,
+      "category": "Precious Stones",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Antlerwork",
+      "rating": 1,
+      "category": "Crafts",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Taiwanese Woodcarving",
+      "rating": 3,
+      "category": "Artwork",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Rattan work",
+      "rating": 1,
+      "category": "Sundries",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Rattan Armor",
+      "rating": 2,
+      "category": "Arms",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Bronze Hand Cannon",
+      "rating": 2,
+      "category": "Firearms",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Rattan",
+      "rating": 1,
+      "category": "Wares",
+      "price": 0,
+      "investment_required": null
+    }
+  ],
+  "macau": [
+    {
+      "name": "Shaoxing wine",
+      "rating": 2,
+      "category": "Alcohol",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Chinese Noodles",
+      "rating": 1,
+      "category": "Foodstuffs",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Donkey",
+      "rating": 4,
+      "category": "Livestock",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Doubanjiang",
+      "rating": 5,
+      "category": "Seasonings",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Luo Han Guo",
+      "rating": 1,
+      "category": "Seasonings",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Chinese Tea",
+      "rating": 3,
+      "category": "Luxury Goods",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Star Anise",
+      "rating": 4,
+      "category": "Spices",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Caterpillar Fungus",
+      "rating": 1,
+      "category": "Medicine",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Basjoo",
+      "rating": 3,
+      "category": "Fibres",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Lokao",
+      "rating": 4,
+      "category": "Dyes",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Sweet Osmanthus",
+      "rating": 1,
+      "category": "Fragrances",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Chinese Brocade",
+      "rating": 4,
+      "category": "Fabrics",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Yunnan Silver",
+      "rating": 1,
+      "category": "Precious Metals",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Cuprite",
+      "rating": 1,
+      "category": "Ores",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "White Nephrite",
+      "rating": 1,
+      "category": "Precious Stones",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Song Porcelain",
+      "rating": 3,
+      "category": "Crafts",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Chinese Calligraphywork",
+      "rating": 1,
+      "category": "Artwork",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Chinese Books",
+      "rating": 1,
+      "category": "Sundries",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Blue Dragon Blade",
+      "rating": 1,
+      "category": "Arms",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Fire Lance",
+      "rating": 2,
+      "category": "Firearms",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Bamboo",
+      "rating": 16,
+      "category": "Wares",
+      "price": 0,
+      "investment_required": null
+    }
+  ],
+  "hangzhou": [
+    {
+      "name": "Shaoxing wine",
+      "rating": 2,
+      "category": "Alcohol",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Chinese Noodles",
+      "rating": 1,
+      "category": "Foodstuffs",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Donkey",
+      "rating": 4,
+      "category": "Livestock",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Doubanjiang",
+      "rating": 5,
+      "category": "Seasonings",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Chinese Tea",
+      "rating": 3,
+      "category": "Luxury Goods",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Star Anise",
+      "rating": 4,
+      "category": "Spices",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Caterpillar Fungus",
+      "rating": 1,
+      "category": "Medicine",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Basjoo",
+      "rating": 3,
+      "category": "Fibres",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Lokao",
+      "rating": 4,
+      "category": "Dyes",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Sweet Osmanthus",
+      "rating": 1,
+      "category": "Fragrances",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Chinese Brocade",
+      "rating": 4,
+      "category": "Fabrics",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Yunnan Silver",
+      "rating": 1,
+      "category": "Precious Metals",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Cuprite",
+      "rating": 1,
+      "category": "Ores",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "White Nephrite",
+      "rating": 1,
+      "category": "Precious Stones",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Song Porcelain",
+      "rating": 3,
+      "category": "Crafts",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Wuxu Porcelain",
+      "rating": 3,
+      "category": "Crafts",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Chinese Calligraphywork",
+      "rating": 1,
+      "category": "Artwork",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Chinese Books",
+      "rating": 1,
+      "category": "Sundries",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Blue Dragon Blade",
+      "rating": 1,
+      "category": "Arms",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Fire Lance",
+      "rating": 2,
+      "category": "Firearms",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Bamboo",
+      "rating": 16,
+      "category": "Wares",
+      "price": 0,
+      "investment_required": null
+    }
+  ],
+  "yuntaishan": [
+    {
+      "name": "Shaoxing wine",
+      "rating": 2,
+      "category": "Alcohol",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Chinese Noodles",
+      "rating": 1,
+      "category": "Foodstuffs",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Donkey",
+      "rating": 4,
+      "category": "Livestock",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Doubanjiang",
+      "rating": 5,
+      "category": "Seasonings",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Chinese Tea",
+      "rating": 3,
+      "category": "Luxury Goods",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Star Anise",
+      "rating": 4,
+      "category": "Spices",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Caterpillar Fungus",
+      "rating": 1,
+      "category": "Medicine",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Basjoo",
+      "rating": 3,
+      "category": "Fibres",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Lokao",
+      "rating": 4,
+      "category": "Dyes",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Sweet Osmanthus",
+      "rating": 1,
+      "category": "Fragrances",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Chinese Brocade",
+      "rating": 4,
+      "category": "Fabrics",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Yunnan Silver",
+      "rating": 1,
+      "category": "Precious Metals",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Cuprite",
+      "rating": 1,
+      "category": "Ores",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "White Nephrite",
+      "rating": 1,
+      "category": "Precious Stones",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Song Porcelain",
+      "rating": 3,
+      "category": "Crafts",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Chinese Calligraphywork",
+      "rating": 1,
+      "category": "Artwork",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Chinese Books",
+      "rating": 1,
+      "category": "Sundries",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Gumo Ink",
+      "rating": 5,
+      "category": "Sundries",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Blue Dragon Blade",
+      "rating": 1,
+      "category": "Arms",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Fire Lance",
+      "rating": 2,
+      "category": "Firearms",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Bamboo",
+      "rating": 16,
+      "category": "Wares",
+      "price": 0,
+      "investment_required": null
+    }
+  ],
+  "quanzhou": [
+    {
+      "name": "Shaoxing wine",
+      "rating": 2,
+      "category": "Alcohol",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Chinese Noodles",
+      "rating": 1,
+      "category": "Foodstuffs",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Donkey",
+      "rating": 4,
+      "category": "Livestock",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Doubanjiang",
+      "rating": 5,
+      "category": "Seasonings",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Chinese Tea",
+      "rating": 3,
+      "category": "Luxury Goods",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Star Anise",
+      "rating": 4,
+      "category": "Spices",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Caterpillar Fungus",
+      "rating": 1,
+      "category": "Medicine",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Basjoo",
+      "rating": 3,
+      "category": "Fibres",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Lokao",
+      "rating": 4,
+      "category": "Dyes",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Sweet Osmanthus",
+      "rating": 1,
+      "category": "Fragrances",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Chinese Brocade",
+      "rating": 4,
+      "category": "Fabrics",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Yunnan Silver",
+      "rating": 1,
+      "category": "Precious Metals",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Cuprite",
+      "rating": 1,
+      "category": "Ores",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "White Nephrite",
+      "rating": 1,
+      "category": "Precious Stones",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Song Porcelain",
+      "rating": 3,
+      "category": "Crafts",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Huzhou Brush",
+      "rating": 17,
+      "category": "Crafts",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Chinese Calligraphywork",
+      "rating": 1,
+      "category": "Artwork",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Chinese Books",
+      "rating": 1,
+      "category": "Sundries",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Blue Dragon Blade",
+      "rating": 1,
+      "category": "Arms",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Fire Lance",
+      "rating": 2,
+      "category": "Firearms",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Bamboo",
+      "rating": 16,
+      "category": "Wares",
+      "price": 0,
+      "investment_required": null
+    }
+  ],
+  "chongqing": [
+    {
+      "name": "Shaoxing wine",
+      "rating": 2,
+      "category": "Alcohol",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Chinese Noodles",
+      "rating": 1,
+      "category": "Foodstuffs",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Donkey",
+      "rating": 4,
+      "category": "Livestock",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Doubanjiang",
+      "rating": 5,
+      "category": "Seasonings",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Chinese Tea",
+      "rating": 3,
+      "category": "Luxury Goods",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Star Anise",
+      "rating": 4,
+      "category": "Spices",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Caterpillar Fungus",
+      "rating": 1,
+      "category": "Medicine",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Basjoo",
+      "rating": 3,
+      "category": "Fibres",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Lokao",
+      "rating": 4,
+      "category": "Dyes",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Sweet Osmanthus",
+      "rating": 1,
+      "category": "Fragrances",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Chinese Brocade",
+      "rating": 4,
+      "category": "Fabrics",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Yunnan Silver",
+      "rating": 1,
+      "category": "Precious Metals",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Cuprite",
+      "rating": 1,
+      "category": "Ores",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "White Nephrite",
+      "rating": 1,
+      "category": "Precious Stones",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Song Porcelain",
+      "rating": 3,
+      "category": "Crafts",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Chinese Calligraphywork",
+      "rating": 1,
+      "category": "Artwork",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Mianzhu nian hua",
+      "rating": 2,
+      "category": "Artwork",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Chinese Books",
+      "rating": 1,
+      "category": "Sundries",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Blue Dragon Blade",
+      "rating": 1,
+      "category": "Arms",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Fire Lance",
+      "rating": 2,
+      "category": "Firearms",
+      "price": 0,
+      "investment_required": null
+    },
+    {
+      "name": "Bamboo",
+      "rating": 16,
+      "category": "Wares",
+      "price": 0,
+      "investment_required": null
+    }
+  ]
+}

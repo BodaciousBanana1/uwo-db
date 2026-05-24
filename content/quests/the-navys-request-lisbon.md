@@ -1,0 +1,16 @@
++++
+title = "The navy's request"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "the-navys-request-lisbon"
+id = "99995952"
+type = "Trade"
+city = "Lisbon"
+guild_type = "Merchant"
+discovery = ""
+skills = [{ name = "Sail Handling", level = 1 }, { name = "Accounts", level = 1 }, { name = "Gunnery", level = 1 }]
+variants = [{ city = "Lisbon", guild_type = "Merchant", id = "99995952", slug = "the-navys-request-lisbon" }, { city = "Seville", guild_type = "Merchant", id = "99995904", slug = "the-navys-request-seville" }, { city = "London", guild_type = "Merchant", id = "99995995", slug = "the-navys-request-london" }]
+steps = []
++++

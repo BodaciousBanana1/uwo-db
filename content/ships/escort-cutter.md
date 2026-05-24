@@ -1,0 +1,29 @@
++++
+title = "Escort Cutter"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0201"
+slug = "escort-cutter"
+size = "Lgt"
+ship_type = "adventure"
+level_adventure = 18
+level_trade = 5
+level_battle = 15
+durability = 250
+vertical_sail = 255
+horizontal_sail = 50
+row_power = 0
+turn_speed = 14
+wave_resistance = 11
+armor = 0
+hold = 194
+cannon_chambers = 14
+cabin_min = 18
+cabin_max = 32
+masts = 0
+material = "Iron"
+is_cash_ship = false
+is_steam = false
++++

@@ -1,0 +1,29 @@
++++
+title = "Victory"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0345"
+slug = "victory"
+size = "Hvy"
+ship_type = "battle"
+level_adventure = 44
+level_trade = 31
+level_battle = 69
+durability = 810
+vertical_sail = 195
+horizontal_sail = 280
+row_power = 0
+turn_speed = 7
+wave_resistance = 8
+armor = 0
+hold = 460
+cannon_chambers = 104
+cabin_min = 67
+cabin_max = 136
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

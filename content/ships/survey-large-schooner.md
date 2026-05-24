@@ -1,0 +1,29 @@
++++
+title = "Survey Large Schooner"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0149"
+slug = "survey-large-schooner"
+size = "Std"
+ship_type = "trade"
+level_adventure = 24
+level_trade = 45
+level_battle = 16
+durability = 530
+vertical_sail = 260
+horizontal_sail = 105
+row_power = 0
+turn_speed = 12
+wave_resistance = 9
+armor = 0
+hold = 588
+cannon_chambers = 16
+cabin_min = 20
+cabin_max = 36
+masts = 0
+material = "Cedar"
+is_cash_ship = true
+is_steam = false
++++

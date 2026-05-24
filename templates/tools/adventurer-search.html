@@ -1,0 +1,244 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% set all_quests = load_data(path="data/quests.json") %}
+{% set all_maps = load_data(path="data/archive_maps.json") %}
+
+<section class="page-header">
+  <h1>Adventurer Search</h1>
+  <p class="page-subtitle">Find cities with quests and maps for your skill level</p>
+</section>
+
+<div class="search-bar-full">
+  <div class="search-controls">
+    <div class="search-field">
+      <label class="search-label">Skill</label>
+      <select id="skill-select" class="filter-select search-select">
+        <option value="">Select a skill...</option>
+      </select>
+    </div>
+    <div class="search-field">
+      <label class="search-label">Max Rank</label>
+      <input type="number" id="max-rank" class="filter-input search-number" min="1" max="20" value="5" placeholder="5">
+    </div>
+    <div class="search-field">
+      <label class="search-label">Show</label>
+      <select id="content-type" class="filter-select">
+        <option value="all">All</option>
+        <option value="quests">Quests Only</option>
+        <option value="maps">Maps Only</option>
+      </select>
+    </div>
+    <button class="btn-search" id="search-btn">Search</button>
+  </div>
+</div>
+
+<div class="results-toolbar" id="results-toolbar" style="display:none">
+  <div class="results-summary">
+    <span id="results-count">0 cities</span> with matching content
+  </div>
+  <div class="city-filters" id="city-filters"></div>
+</div>
+
+<div id="results-container">
+  <div class="placeholder-content">
+    <p class="placeholder-text">Select a skill and rank to search</p>
+    <p class="placeholder-hint">We'll find all cities with quests and archive maps matching your criteria</p>
+  </div>
+</div>
+
+<script>
+const allQuests = {{ all_quests | json_encode() | safe }};
+const allMaps = {{ all_maps | json_encode() | safe }};
+
+const ALL_SKILLS = [
+  "Accounts", "Accuracy", "Alchemy", "Alcohol Trading", "Ancient Egyptian", "Appraisal",
+  "Arabic", "Archaeology", "Arms", "Art", "Assault", "Ballistics", "Biology", "Burmese",
+  "Casting", "Caution", "Celtic", "Chinese", "Collection", "Cooking", "Dutch",
+  "Ecological Research", "English", "Evasion", "Far North Languages", "First Aid",
+  "Fishing", "French", "Frugality", "Geography", "German", "Greek", "Gunnery",
+  "Handicrafts", "Hebrew", "Indian Languages", "Italian", "Japanese", "Jewellry Trading",
+  "Korean", "Latin", "Leadership", "Livestock Trading", "Lookout", "Luxuries Trading",
+  "Management Technique", "Mayan Languages", "Medicine Trading", "Merchandise Knowledge",
+  "Metal Trading", "Nahuatl", "Navigation", "Nordic", "North American Languages",
+  "Oceanic Languages", "Penetration", "Persian", "Pet Training", "Plunder", "Portuguese",
+  "Procurement", "Quechuan", "Recognition", "Repair", "Rowing", "Sail Handling", "Salvage",
+  "Search", "Sewing", "Slavic", "Sniping", "Sociability", "Spanish", "Spice Trading",
+  "Storage", "Surgery", "Survival", "Swahili", "Sword Mastery", "Swordplay", "Tactics",
+  "Tagalog", "Theology", "Throwing", "Turkish", "West African Languages"
+];
+
+const skillSelect = document.getElementById('skill-select');
+const maxRankInput = document.getElementById('max-rank');
+const searchBtn = document.getElementById('search-btn');
+const resultsContainer = document.getElementById('results-container');
+const resultsToolbar = document.getElementById('results-toolbar');
+const resultsCount = document.getElementById('results-count');
+const cityFilters = document.getElementById('city-filters');
+
+let hiddenCities = new Set();
+
+// Populate skill dropdown
+ALL_SKILLS.forEach(s => {
+  const opt = document.createElement('option');
+  opt.value = s;
+  opt.textContent = s;
+  skillSelect.appendChild(opt);
+});
+
+function formatCity(slug) {
+  return slug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+}
+
+function questMatchesSkill(quest, skill, maxRank) {
+  if (!quest.skills) return false;
+  return quest.skills.some(s => s.name === skill && s.level <= maxRank);
+}
+
+function mapMatchesSkill(map, skill, maxRank) {
+  // Try new skills array format first
+  if (map.skills && map.skills.length > 0) {
+    return map.skills.some(s => s.name === skill && s.rank <= maxRank);
+  }
+  // Fallback to skills_required string
+  const skillsText = map.skills_required || '';
+  if (!skillsText || skillsText === '-') return false;
+  const regex = new RegExp(skill + '\\s+(\\d+)', 'i');
+  const match = skillsText.match(regex);
+  if (match) {
+    return parseInt(match[1]) <= maxRank;
+  }
+  return false;
+}
+
+function doSearch() {
+  const skill = skillSelect.value;
+  const maxRank = parseInt(maxRankInput.value) || 5;
+  const contentType = document.getElementById('content-type').value;
+
+  if (!skill) {
+    resultsContainer.innerHTML = `
+      <div class="placeholder-content">
+        <p class="placeholder-text">Please select a skill</p>
+      </div>`;
+    resultsToolbar.style.display = 'none';
+    return;
+  }
+
+  // Find matching content per city
+  const cityResults = {};
+  const allCities = new Set([...Object.keys(allQuests), ...Object.keys(allMaps)]);
+
+  allCities.forEach(city => {
+    const quests = (contentType === 'maps') ? [] : (allQuests[city] || []).filter(q => questMatchesSkill(q, skill, maxRank));
+    const maps = (contentType === 'quests') ? [] : (allMaps[city] || []).filter(m => mapMatchesSkill(m, skill, maxRank));
+
+    if (quests.length > 0 || maps.length > 0) {
+      cityResults[city] = { quests, maps };
+    }
+  });
+
+  const cities = Object.keys(cityResults).sort();
+
+  if (cities.length === 0) {
+    resultsContainer.innerHTML = `
+      <div class="placeholder-content">
+        <p class="placeholder-text">No results found</p>
+        <p class="placeholder-hint">No cities have ${skill} content at rank ${maxRank} or below</p>
+      </div>`;
+    resultsToolbar.style.display = 'none';
+    return;
+  }
+
+  // Build city filter chips
+  cityFilters.innerHTML = cities.map(city => `
+    <label class="chip city-chip">
+      <input type="checkbox" name="city" value="${city}" checked>
+      ${formatCity(city)} <span class="chip-count">${cityResults[city].quests.length + cityResults[city].maps.length}</span>
+    </label>
+  `).join('');
+
+  cityFilters.querySelectorAll('input').forEach(cb => {
+    cb.addEventListener('change', renderResults);
+  });
+
+  resultsToolbar.style.display = '';
+  resultsCount.textContent = cities.length + ' cities';
+
+  renderResults();
+
+  function renderResults() {
+    const visibleCities = Array.from(cityFilters.querySelectorAll('input:checked')).map(cb => cb.value);
+
+    let html = '';
+
+    visibleCities.forEach(city => {
+      const data = cityResults[city];
+      if (!data) return;
+
+      html += `
+        <div class="city-result-block">
+          <div class="city-result-header">
+            <h3><a href="/cities/${city}/">${formatCity(city)}</a></h3>
+            <span class="city-result-counts">${data.quests.length} quests, ${data.maps.length} maps</span>
+          </div>`;
+
+      if (data.quests.length > 0) {
+        html += `
+          <div class="result-section">
+            <h4>Quests</h4>
+            <table class="data-table compact">
+              <thead><tr><th>Quest</th><th>Type</th><th>Skills</th><th>Discovery</th></tr></thead>
+              <tbody>`;
+        data.quests.forEach(q => {
+          const skillsHtml = (q.skills || []).map(s =>
+            `<span class="skill-tag ${s.name === skill ? 'skill-match' : ''}">${s.name} ${s.level}</span>`
+          ).join('');
+          html += `<tr>
+            <td class="item-name">${q.name}</td>
+            <td><span class="badge badge-${q.type.toLowerCase()}">${q.type}</span></td>
+            <td class="skills-cell">${skillsHtml}</td>
+            <td class="discovery-cell">${q.discovery || '-'}</td>
+          </tr>`;
+        });
+        html += `</tbody></table></div>`;
+      }
+
+      if (data.maps.length > 0) {
+        html += `
+          <div class="result-section">
+            <h4>Archive Maps</h4>
+            <table class="data-table compact">
+              <thead><tr><th>Map</th><th>Skills</th><th>Location</th><th>Discovery</th></tr></thead>
+              <tbody>`;
+        data.maps.forEach(m => {
+          html += `<tr>
+            <td class="item-name">${m.name}</td>
+            <td class="skills-cell">${m.skills_required || '-'}</td>
+            <td>${m.location || '-'}</td>
+            <td class="discovery-cell">${m.discovery || '-'}</td>
+          </tr>`;
+        });
+        html += `</tbody></table></div>`;
+      }
+
+      html += `</div>`;
+    });
+
+    resultsContainer.innerHTML = html || `
+      <div class="placeholder-content">
+        <p class="placeholder-text">All cities hidden</p>
+        <p class="placeholder-hint">Enable some cities to see results</p>
+      </div>`;
+  }
+}
+
+searchBtn.addEventListener('click', doSearch);
+skillSelect.addEventListener('change', () => {
+  if (skillSelect.value) doSearch();
+});
+maxRankInput.addEventListener('change', () => {
+  if (skillSelect.value) doSearch();
+});
+</script>
+{% endblock %}

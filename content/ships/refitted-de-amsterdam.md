@@ -1,0 +1,29 @@
++++
+title = "Refitted De Amsterdam"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0790"
+slug = "refitted-de-amsterdam"
+size = "Hvy"
+ship_type = "trade"
+level_adventure = 20
+level_trade = 45
+level_battle = 20
+durability = 750
+vertical_sail = 270
+horizontal_sail = 290
+row_power = 0
+turn_speed = 12
+wave_resistance = 14
+armor = 0
+hold = 998
+cannon_chambers = 72
+cabin_min = 25
+cabin_max = 80
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

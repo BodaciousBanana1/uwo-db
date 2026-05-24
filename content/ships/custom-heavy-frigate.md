@@ -1,0 +1,29 @@
++++
+title = "Custom Heavy Frigate"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0510"
+slug = "custom-heavy-frigate"
+size = "Std"
+ship_type = "battle"
+level_adventure = 3
+level_trade = 2
+level_battle = 9
+durability = 460
+vertical_sail = 110
+horizontal_sail = 220
+row_power = 0
+turn_speed = 11
+wave_resistance = 8
+armor = 0
+hold = 259
+cannon_chambers = 42
+cabin_min = 22
+cabin_max = 64
+masts = 0
+material = "Iron"
+is_cash_ship = true
+is_steam = false
++++

@@ -1,0 +1,29 @@
++++
+title = "Assault Armoured Turtle Ship"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0250"
+slug = "assault-armoured-turtle-ship"
+size = "Hvy"
+ship_type = "battle"
+level_adventure = 19
+level_trade = 18
+level_battle = 61
+durability = 700
+vertical_sail = 165
+horizontal_sail = 50
+row_power = 100
+turn_speed = 11
+wave_resistance = 1
+armor = 0
+hold = 500
+cannon_chambers = 80
+cabin_min = 80
+cabin_max = 130
+masts = 0
+material = "Oak"
+is_cash_ship = false
+is_steam = false
++++

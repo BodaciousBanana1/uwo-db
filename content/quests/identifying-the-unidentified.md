@@ -1,0 +1,16 @@
++++
+title = "Identifying the Unidentified"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "identifying-the-unidentified"
+id = "99997104"
+type = "Adventure"
+city = "Portobelo"
+guild_type = "Adventurer"
+discovery = "Lima"
+skills = [{ name = "Quechuan", level = 1 }]
+variants = [{ city = "Portobelo", guild_type = "Adventurer", id = "99997104", slug = "identifying-the-unidentified" }]
+steps = []
++++

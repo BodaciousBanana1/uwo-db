@@ -1,0 +1,29 @@
++++
+title = "Ambush Wide Ship"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0195"
+slug = "ambush-wide-ship"
+size = "Hvy"
+ship_type = "battle"
+level_adventure = 27
+level_trade = 28
+level_battle = 42
+durability = 670
+vertical_sail = 240
+horizontal_sail = 80
+row_power = 0
+turn_speed = 9
+wave_resistance = 11
+armor = 0
+hold = 610
+cannon_chambers = 48
+cabin_min = 52
+cabin_max = 82
+masts = 0
+material = "Oak"
+is_cash_ship = false
+is_steam = false
++++

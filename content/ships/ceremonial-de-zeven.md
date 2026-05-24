@@ -1,0 +1,29 @@
++++
+title = "Ceremonial De Zeven"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0596"
+slug = "ceremonial-de-zeven"
+size = "Hvy"
+ship_type = "battle"
+level_adventure = 21
+level_trade = 23
+level_battle = 40
+durability = 845
+vertical_sail = 120
+horizontal_sail = 255
+row_power = 0
+turn_speed = 10
+wave_resistance = 9
+armor = 0
+hold = 460
+cannon_chambers = 80
+cabin_min = 56
+cabin_max = 130
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

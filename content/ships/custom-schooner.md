@@ -1,0 +1,29 @@
++++
+title = "Custom Schooner"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0233"
+slug = "custom-schooner"
+size = "Std"
+ship_type = "trade"
+level_adventure = 6
+level_trade = 30
+level_battle = 0
+durability = 275
+vertical_sail = 270
+horizontal_sail = 55
+row_power = 0
+turn_speed = 15
+wave_resistance = 9
+armor = 0
+hold = 256
+cannon_chambers = 14
+cabin_min = 16
+cabin_max = 30
+masts = 0
+material = "Unknown"
+is_cash_ship = true
+is_steam = false
++++

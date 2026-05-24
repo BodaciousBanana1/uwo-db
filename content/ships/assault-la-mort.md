@@ -1,0 +1,29 @@
++++
+title = "Assault La Mort"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0568"
+slug = "assault-la-mort"
+size = "Hvy"
+ship_type = "battle"
+level_adventure = 10
+level_trade = 20
+level_battle = 30
+durability = 815
+vertical_sail = 195
+horizontal_sail = 90
+row_power = 100
+turn_speed = 10
+wave_resistance = 2
+armor = 0
+hold = 610
+cannon_chambers = 80
+cabin_min = 98
+cabin_max = 180
+masts = 0
+material = "Unknown"
+is_cash_ship = true
+is_steam = false
++++

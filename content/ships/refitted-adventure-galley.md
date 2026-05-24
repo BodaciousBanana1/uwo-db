@@ -1,0 +1,29 @@
++++
+title = "Refitted Adventure Galley"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0734"
+slug = "refitted-adventure-galley"
+size = "Hvy"
+ship_type = "battle"
+level_adventure = 25
+level_trade = 30
+level_battle = 45
+durability = 830
+vertical_sail = 265
+horizontal_sail = 215
+row_power = 0
+turn_speed = 11
+wave_resistance = 12
+armor = 0
+hold = 357
+cannon_chambers = 108
+cabin_min = 60
+cabin_max = 135
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

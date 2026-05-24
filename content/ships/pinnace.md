@@ -1,0 +1,29 @@
++++
+title = "Pinnace"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0013"
+slug = "pinnace"
+size = "Std"
+ship_type = "adventure"
+level_adventure = 20
+level_trade = 5
+level_battle = 0
+durability = 310
+vertical_sail = 100
+horizontal_sail = 210
+row_power = 0
+turn_speed = 11
+wave_resistance = 7
+armor = 0
+hold = 302
+cannon_chambers = 32
+cabin_min = 28
+cabin_max = 46
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

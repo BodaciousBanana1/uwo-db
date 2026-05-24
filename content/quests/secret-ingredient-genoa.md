@@ -1,0 +1,16 @@
++++
+title = "Secret Ingredient"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "secret-ingredient-genoa"
+id = "99995217"
+type = "Trade"
+city = "Genoa"
+guild_type = "Merchant"
+discovery = ""
+skills = [{ name = "French", level = 1 }]
+variants = [{ city = "Genoa", guild_type = "Merchant", id = "99995217", slug = "secret-ingredient-genoa" }, { city = "Marseille", guild_type = "Merchant", id = "99995214", slug = "secret-ingredient-marseille" }]
+steps = []
++++

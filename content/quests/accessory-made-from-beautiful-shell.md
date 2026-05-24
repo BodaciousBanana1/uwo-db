@@ -1,0 +1,16 @@
++++
+title = "Accessory made from beautiful shell"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "accessory-made-from-beautiful-shell"
+id = "99994798"
+type = "Adventure"
+city = "Santo Domingo"
+guild_type = "Adventurer"
+discovery = "Shell Ornament"
+skills = [{ name = "Search", level = 3 }, { name = "Archaeology", level = 5 }, { name = "Unlock", level = 3 }]
+variants = [{ city = "Santo Domingo", guild_type = "Adventurer", id = "99994798", slug = "accessory-made-from-beautiful-shell" }]
+steps = [{ step = 1, location = "Portobelo", action = "Maiden: talk to(on beach)" }, { step = 2, location = "South America North Coast Plateau", action = "Observe, search + unlock r3..around south east from pointed boulder" }]
++++

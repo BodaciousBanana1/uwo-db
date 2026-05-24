@@ -1,0 +1,29 @@
++++
+title = "Custom Ottoman Galleass"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0570"
+slug = "custom-ottoman-galleass"
+size = "Hvy"
+ship_type = "battle"
+level_adventure = 14
+level_trade = 7
+level_battle = 35
+durability = 400
+vertical_sail = 110
+horizontal_sail = 235
+row_power = 90
+turn_speed = 11
+wave_resistance = 6
+armor = 0
+hold = 560
+cannon_chambers = 80
+cabin_min = 78
+cabin_max = 170
+masts = 0
+material = "Iron"
+is_cash_ship = false
+is_steam = false
++++

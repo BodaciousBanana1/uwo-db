@@ -1,0 +1,16 @@
++++
+title = "(g.t.)Fire extinguisher storage"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "gtfire-extinguisher-storage"
+id = "99991023"
+type = "Adventure"
+city = "Immigrants"
+guild_type = "Adventurer"
+discovery = ""
+skills = [{ name = "North American Languages", level = 1 }]
+variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99991023", slug = "gtfire-extinguisher-storage" }]
+steps = []
++++

@@ -1,0 +1,29 @@
++++
+title = "Superior Neapolitan Galleass"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0683"
+slug = "superior-neapolitan-galleass"
+size = "Hvy"
+ship_type = "battle"
+level_adventure = 15
+level_trade = 10
+level_battle = 30
+durability = 955
+vertical_sail = 245
+horizontal_sail = 110
+row_power = 100
+turn_speed = 12
+wave_resistance = 8
+armor = 0
+hold = 530
+cannon_chambers = 75
+cabin_min = 95
+cabin_max = 210
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

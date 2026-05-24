@@ -1,0 +1,29 @@
++++
+title = "San Gabriel"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0325"
+slug = "san-gabriel"
+size = "Std"
+ship_type = "adventure"
+level_adventure = 34
+level_trade = 9
+level_battle = 16
+durability = 450
+vertical_sail = 110
+horizontal_sail = 250
+row_power = 0
+turn_speed = 11
+wave_resistance = 8
+armor = 0
+hold = 514
+cannon_chambers = 32
+cabin_min = 32
+cabin_max = 74
+masts = 0
+material = "Red Pine"
+is_cash_ship = false
+is_steam = false
++++

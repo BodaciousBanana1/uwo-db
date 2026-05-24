@@ -3,23 +3,151 @@
 {% block content %}
 <section class="page-header">
   <h1>Ships</h1>
-  <p class="page-subtitle">{{ section.pages | length }} vessels in the database</p>
+  <p class="page-subtitle"><span id="visible-count">{{ section.pages | length }}</span> of {{ section.pages | length }} vessels</p>
 </section>
 
-<section class="items-grid">
-  {% for page in section.pages %}
-  <a href="{{ page.permalink }}" class="item-card">
-    <h3>{{ page.title }}</h3>
-    <div class="item-meta">
-      <span class="badge badge-{{ page.extra.ship_type }}">{{ page.extra.ship_type }}</span>
-      <span class="badge">{{ page.extra.size }}</span>
+<div class="filter-layout">
+  <aside class="filter-panel">
+    <div class="filter-header">
+      <span class="filter-title">FILTERS</span>
+      <button class="filter-reset" id="reset-filters">Reset</button>
     </div>
-    <div class="item-stats">
-      <span>⚓ {{ page.extra.armor }}</span>
-      <span>🎯 {{ page.extra.cannon_chambers }}</span>
-      <span>📦 {{ page.extra.hold }}</span>
+
+    <div class="filter-section">
+      <div class="filter-section-header">SEARCH</div>
+      <input type="text" id="ship-search" class="filter-search" placeholder="Ship name...">
     </div>
-  </a>
-  {% endfor %}
-</section>
+
+    <div class="filter-section">
+      <div class="filter-section-header">TYPE</div>
+      <div class="filter-chips">
+        <label class="chip"><input type="checkbox" name="type" value="adventure" checked> Adventure</label>
+        <label class="chip"><input type="checkbox" name="type" value="trade" checked> Trade</label>
+        <label class="chip"><input type="checkbox" name="type" value="battle" checked> Battle</label>
+      </div>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">SIZE</div>
+      <div class="filter-chips">
+        <label class="chip"><input type="checkbox" name="size" value="Lgt" checked> Light</label>
+        <label class="chip"><input type="checkbox" name="size" value="Std" checked> Standard</label>
+        <label class="chip"><input type="checkbox" name="size" value="Hvy" checked> Heavy</label>
+      </div>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">ADVENTURE LEVEL</div>
+      <div class="range-slider" data-filter="level_adventure">
+        <div class="range-values"><span class="range-min">0</span><span class="range-max">95</span></div>
+        <input type="range" class="range-input range-lower" min="0" max="95" value="0">
+        <input type="range" class="range-input range-upper" min="0" max="95" value="95">
+      </div>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">TRADE LEVEL</div>
+      <div class="range-slider" data-filter="level_trade">
+        <div class="range-values"><span class="range-min">0</span><span class="range-max">95</span></div>
+        <input type="range" class="range-input range-lower" min="0" max="95" value="0">
+        <input type="range" class="range-input range-upper" min="0" max="95" value="95">
+      </div>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">BATTLE LEVEL</div>
+      <div class="range-slider" data-filter="level_battle">
+        <div class="range-values"><span class="range-min">0</span><span class="range-max">95</span></div>
+        <input type="range" class="range-input range-lower" min="0" max="95" value="0">
+        <input type="range" class="range-input range-upper" min="0" max="95" value="95">
+      </div>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">HOLD CAPACITY</div>
+      <div class="range-slider" data-filter="hold">
+        <div class="range-values"><span class="range-min">0</span><span class="range-max">2000</span></div>
+        <input type="range" class="range-input range-lower" min="0" max="2000" value="0">
+        <input type="range" class="range-input range-upper" min="0" max="2000" value="2000">
+      </div>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">CREW (CABIN)</div>
+      <div class="range-slider" data-filter="cabin_max">
+        <div class="range-values"><span class="range-min">0</span><span class="range-max">330</span></div>
+        <input type="range" class="range-input range-lower" min="0" max="330" value="0">
+        <input type="range" class="range-input range-upper" min="0" max="330" value="330">
+      </div>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">VERTICAL SAIL</div>
+      <div class="range-slider" data-filter="vertical_sail">
+        <div class="range-values"><span class="range-min">0</span><span class="range-max">1000</span></div>
+        <input type="range" class="range-input range-lower" min="0" max="1000" value="0">
+        <input type="range" class="range-input range-upper" min="0" max="1000" value="1000">
+      </div>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">HORIZONTAL SAIL</div>
+      <div class="range-slider" data-filter="horizontal_sail">
+        <div class="range-values"><span class="range-min">0</span><span class="range-max">1000</span></div>
+        <input type="range" class="range-input range-lower" min="0" max="1000" value="0">
+        <input type="range" class="range-input range-upper" min="0" max="1000" value="1000">
+      </div>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">CANNON CHAMBERS</div>
+      <div class="range-slider" data-filter="cannon_chambers">
+        <div class="range-values"><span class="range-min">0</span><span class="range-max">130</span></div>
+        <input type="range" class="range-input range-lower" min="0" max="130" value="0">
+        <input type="range" class="range-input range-upper" min="0" max="130" value="130">
+      </div>
+    </div>
+  </aside>
+
+  <section class="ships-grid" id="ships-grid">
+    {% for page in section.pages %}
+    <a href="{{ page.path }}" class="ship-card"
+       data-type="{{ page.extra.ship_type }}"
+       data-size="{{ page.extra.size }}"
+       data-level_adventure="{{ page.extra.level_adventure }}"
+       data-level_trade="{{ page.extra.level_trade }}"
+       data-level_battle="{{ page.extra.level_battle }}"
+       data-hold="{{ page.extra.hold }}"
+       data-cabin_max="{{ page.extra.cabin_max }}"
+       data-vertical_sail="{{ page.extra.vertical_sail }}"
+       data-horizontal_sail="{{ page.extra.horizontal_sail }}"
+       data-cannon_chambers="{{ page.extra.cannon_chambers }}">
+      <div class="ship-card-header">
+        <span class="badge badge-{{ page.extra.ship_type }}">{{ page.extra.ship_type | upper }}</span>
+        <span class="ship-size">{{ page.extra.size }}</span>
+      </div>
+      <h3 class="ship-name">{{ page.title }}</h3>
+      <div class="ship-quick-stats">
+        <div class="quick-stat-row">
+          <span class="qs-label">Sail</span>
+          <span class="qs-value">{{ page.extra.vertical_sail + page.extra.horizontal_sail }}</span>
+        </div>
+        <div class="quick-stat-row">
+          <span class="qs-label">Hold</span>
+          <span class="qs-value">{{ page.extra.hold }}</span>
+        </div>
+        <div class="quick-stat-row">
+          <span class="qs-label">Crew</span>
+          <span class="qs-value">{{ page.extra.cabin_min }}–{{ page.extra.cabin_max }}</span>
+        </div>
+      </div>
+      <div class="ship-levels">
+        <span class="level level-adv" title="Adventure">A{{ page.extra.level_adventure }}</span>
+        <span class="level level-trade" title="Trade">T{{ page.extra.level_trade }}</span>
+        <span class="level level-battle" title="Battle">B{{ page.extra.level_battle }}</span>
+      </div>
+    </a>
+    {% endfor %}
+  </section>
+</div>
 {% endblock %}

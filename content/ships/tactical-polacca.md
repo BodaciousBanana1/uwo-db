@@ -1,0 +1,29 @@
++++
+title = "Tactical Polacca"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0155"
+slug = "tactical-polacca"
+size = "Std"
+ship_type = "battle"
+level_adventure = 10
+level_trade = 15
+level_battle = 25
+durability = 325
+vertical_sail = 90
+horizontal_sail = 205
+row_power = 0
+turn_speed = 14
+wave_resistance = 6
+armor = 0
+hold = 318
+cannon_chambers = 20
+cabin_min = 22
+cabin_max = 42
+masts = 0
+material = "Cedar"
+is_cash_ship = false
+is_steam = false
++++

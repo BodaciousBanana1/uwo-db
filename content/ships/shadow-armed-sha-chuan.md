@@ -1,0 +1,29 @@
++++
+title = "Shadow Armed Sha-chuan"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0672"
+slug = "shadow-armed-sha-chuan"
+size = "Std"
+ship_type = "battle"
+level_adventure = 8
+level_trade = 13
+level_battle = 40
+durability = 650
+vertical_sail = 330
+horizontal_sail = 140
+row_power = 0
+turn_speed = 10
+wave_resistance = 13
+armor = 0
+hold = 358
+cannon_chambers = 72
+cabin_min = 30
+cabin_max = 90
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

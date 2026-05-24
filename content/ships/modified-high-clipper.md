@@ -1,0 +1,29 @@
++++
+title = "Modified High Clipper"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0581"
+slug = "modified-high-clipper"
+size = "Hvy"
+ship_type = "trade"
+level_adventure = 33
+level_trade = 37
+level_battle = 13
+durability = 760
+vertical_sail = 240
+horizontal_sail = 355
+row_power = 0
+turn_speed = 9
+wave_resistance = 10
+armor = 0
+hold = 904
+cannon_chambers = 22
+cabin_min = 25
+cabin_max = 74
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

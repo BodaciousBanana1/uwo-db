@@ -1,0 +1,29 @@
++++
+title = "Advanced San Juan"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0698"
+slug = "advanced-san-juan"
+size = "Hvy"
+ship_type = "adventure"
+level_adventure = 35
+level_trade = 21
+level_battle = 15
+durability = 800
+vertical_sail = 255
+horizontal_sail = 350
+row_power = 0
+turn_speed = 13
+wave_resistance = 12
+armor = 0
+hold = 602
+cannon_chambers = 58
+cabin_min = 35
+cabin_max = 90
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

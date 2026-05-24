@@ -1,0 +1,16 @@
++++
+title = "Hunting trading ships"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "hunting-trading-ships-marseille"
+id = "99996523"
+type = "Maritime"
+city = "Marseille"
+guild_type = "Maritime"
+discovery = ""
+skills = []
+variants = [{ city = "Naples", guild_type = "Maritime", id = "99999946", slug = "hunting-trading-ships-naples" }, { city = "Genoa", guild_type = "Maritime", id = "99999937", slug = "hunting-trading-ships-genoa" }, { city = "Marseille", guild_type = "Maritime", id = "99996523", slug = "hunting-trading-ships-marseille" }]
+steps = []
++++

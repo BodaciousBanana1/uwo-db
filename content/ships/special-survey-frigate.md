@@ -1,0 +1,29 @@
++++
+title = "Special Survey Frigate"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0606"
+slug = "special-survey-frigate"
+size = "Hvy"
+ship_type = "adventure"
+level_adventure = 36
+level_trade = 20
+level_battle = 30
+durability = 760
+vertical_sail = 180
+horizontal_sail = 290
+row_power = 0
+turn_speed = 12
+wave_resistance = 10
+armor = 0
+hold = 437
+cannon_chambers = 78
+cabin_min = 35
+cabin_max = 95
+masts = 0
+material = "Iron"
+is_cash_ship = false
+is_steam = false
++++

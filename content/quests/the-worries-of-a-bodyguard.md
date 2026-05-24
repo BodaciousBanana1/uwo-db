@@ -1,0 +1,16 @@
++++
+title = "The worries of a bodyguard"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "the-worries-of-a-bodyguard"
+id = "99990159"
+type = "Trade"
+city = "Stockholm"
+guild_type = "Merchant"
+discovery = ""
+skills = [{ name = "Far North Languages", level = 1 }, { name = "German", level = 1 }]
+variants = [{ city = "Stockholm", guild_type = "Merchant", id = "99990159", slug = "the-worries-of-a-bodyguard" }]
+steps = []
++++

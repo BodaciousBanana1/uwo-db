@@ -1,0 +1,29 @@
++++
+title = "Trading Dhow"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0054"
+slug = "trading-dhow"
+size = "Lgt"
+ship_type = "trade"
+level_adventure = 7
+level_trade = 10
+level_battle = 7
+durability = 175
+vertical_sail = 233
+horizontal_sail = 25
+row_power = 0
+turn_speed = 12
+wave_resistance = 6
+armor = 0
+hold = 178
+cannon_chambers = 6
+cabin_min = 16
+cabin_max = 26
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

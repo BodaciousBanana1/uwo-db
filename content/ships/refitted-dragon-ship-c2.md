@@ -1,0 +1,29 @@
++++
+title = "Refitted Dragon Ship C2"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0611"
+slug = "refitted-dragon-ship-c2"
+size = "Hvy"
+ship_type = "trade"
+level_adventure = 20
+level_trade = 32
+level_battle = 15
+durability = 720
+vertical_sail = 350
+horizontal_sail = 190
+row_power = 0
+turn_speed = 6
+wave_resistance = 9
+armor = 0
+hold = 836
+cannon_chambers = 40
+cabin_min = 38
+cabin_max = 72
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

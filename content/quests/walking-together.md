@@ -1,0 +1,16 @@
++++
+title = "Walking Together"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "walking-together"
+id = "99990880"
+type = "Adventure"
+city = "Marseille"
+guild_type = "Adventurer"
+discovery = ""
+skills = [{ name = "Biology", level = 5 }, { name = "Pet Training", level = 5 }]
+variants = [{ city = "Marseille", guild_type = "Adventurer", id = "99990880", slug = "walking-together" }]
+steps = []
++++

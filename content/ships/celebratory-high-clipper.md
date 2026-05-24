@@ -1,0 +1,29 @@
++++
+title = "Celebratory High Clipper"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0578"
+slug = "celebratory-high-clipper"
+size = "Hvy"
+ship_type = "adventure"
+level_adventure = 30
+level_trade = 15
+level_battle = 12
+durability = 730
+vertical_sail = 270
+horizontal_sail = 375
+row_power = 0
+turn_speed = 8
+wave_resistance = 10
+armor = 0
+hold = 708
+cannon_chambers = 16
+cabin_min = 28
+cabin_max = 66
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

@@ -1,0 +1,29 @@
++++
+title = "Large Galleon"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0070"
+slug = "large-galleon"
+size = "Hvy"
+ship_type = "adventure"
+level_adventure = 44
+level_trade = 20
+level_battle = 20
+durability = 650
+vertical_sail = 115
+horizontal_sail = 255
+row_power = 0
+turn_speed = 9
+wave_resistance = 9
+armor = 0
+hold = 614
+cannon_chambers = 66
+cabin_min = 50
+cabin_max = 90
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

@@ -1,0 +1,122 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="page-header">
+  <h1>Cities</h1>
+  <p class="page-subtitle"><span id="visible-count">{{ section.pages | length }}</span> of {{ section.pages | length }} ports</p>
+</section>
+
+<div class="filter-layout">
+  <aside class="filter-panel">
+    <div class="filter-header">
+      <span class="filter-title">FILTERS</span>
+      <button class="filter-reset" id="reset-filters">Reset</button>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">SEARCH</div>
+      <input type="text" id="city-search" class="filter-search" placeholder="City name...">
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">REGION</div>
+      <div class="filter-chips region-chips">
+        <label class="chip"><input type="checkbox" name="region" value="North Atlantic Ocean" checked> North Atlantic</label>
+        <label class="chip"><input type="checkbox" name="region" value="West Mediterranean Sea" checked> West Mediterranean</label>
+        <label class="chip"><input type="checkbox" name="region" value="East Mediterranean Sea" checked> East Mediterranean</label>
+        <label class="chip"><input type="checkbox" name="region" value="North Sea" checked> North Sea</label>
+        <label class="chip"><input type="checkbox" name="region" value="Caribbean Sea" checked> Caribbean</label>
+        <label class="chip"><input type="checkbox" name="region" value="Africa West Coast" checked> Africa West</label>
+        <label class="chip"><input type="checkbox" name="region" value="South Atlantic Ocean" checked> South Atlantic</label>
+        <label class="chip"><input type="checkbox" name="region" value="Africa East Coast" checked> Africa East</label>
+        <label class="chip"><input type="checkbox" name="region" value="The Red Sea" checked> Red Sea</label>
+        <label class="chip"><input type="checkbox" name="region" value="The Indian Ocean" checked> Indian Ocean</label>
+        <label class="chip"><input type="checkbox" name="region" value="E Coast of Latin America" checked> E Latin America</label>
+        <label class="chip"><input type="checkbox" name="region" value="W Coast of Latin America" checked> W Latin America</label>
+        <label class="chip"><input type="checkbox" name="region" value="Southeast Asia" checked> Southeast Asia</label>
+        <label class="chip"><input type="checkbox" name="region" value="South Pacific Ocean" checked> South Pacific</label>
+        <label class="chip"><input type="checkbox" name="region" value="East Asia" checked> East Asia</label>
+      </div>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">LANGUAGE</div>
+      <div class="filter-chips language-chips">
+        <label class="chip"><input type="checkbox" name="language" value="English" checked> English</label>
+        <label class="chip"><input type="checkbox" name="language" value="Spanish" checked> Spanish</label>
+        <label class="chip"><input type="checkbox" name="language" value="Portuguese" checked> Portuguese</label>
+        <label class="chip"><input type="checkbox" name="language" value="French" checked> French</label>
+        <label class="chip"><input type="checkbox" name="language" value="Italian" checked> Italian</label>
+        <label class="chip"><input type="checkbox" name="language" value="Dutch" checked> Dutch</label>
+        <label class="chip"><input type="checkbox" name="language" value="German" checked> German</label>
+        <label class="chip"><input type="checkbox" name="language" value="Greek" checked> Greek</label>
+        <label class="chip"><input type="checkbox" name="language" value="Turkish" checked> Turkish</label>
+        <label class="chip"><input type="checkbox" name="language" value="Arabic" checked> Arabic</label>
+        <label class="chip"><input type="checkbox" name="language" value="Swahili" checked> Swahili</label>
+        <label class="chip"><input type="checkbox" name="language" value="Persian" checked> Persian</label>
+        <label class="chip"><input type="checkbox" name="language" value="Hindi" checked> Hindi</label>
+        <label class="chip"><input type="checkbox" name="language" value="Malay" checked> Malay</label>
+        <label class="chip"><input type="checkbox" name="language" value="Chinese" checked> Chinese</label>
+        <label class="chip"><input type="checkbox" name="language" value="Korean" checked> Korean</label>
+        <label class="chip"><input type="checkbox" name="language" value="Japanese" checked> Japanese</label>
+        <label class="chip"><input type="checkbox" name="language" value="Other" checked> Other</label>
+      </div>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">SELLS TRADE GOOD</div>
+      <input type="text" id="trade-good-search" class="filter-search" placeholder="Silk, Pepper, Gold...">
+      <div class="filter-hint">Shows cities that sell this item</div>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">TRADE GOODS COUNT</div>
+      <div class="range-slider" data-filter="trade_goods_count">
+        <div class="range-values"><span class="range-min">0</span><span class="range-max">20</span></div>
+        <input type="range" class="range-input range-lower" min="0" max="20" value="0">
+        <input type="range" class="range-input range-upper" min="0" max="20" value="20">
+      </div>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">DISGUISE LEVEL</div>
+      <div class="range-slider" data-filter="disguise">
+        <div class="range-values"><span class="range-min">0</span><span class="range-max">100</span></div>
+        <input type="range" class="range-input range-lower" min="0" max="100" value="0">
+        <input type="range" class="range-input range-upper" min="0" max="100" value="100">
+      </div>
+    </div>
+  </aside>
+
+  <section class="cities-grid" id="cities-grid">
+    {% for page in section.pages %}
+    <a href="{{ page.path }}" class="city-card"
+       data-region="{{ page.extra.region }}"
+       data-culture="{{ page.extra.culture_area }}"
+       data-language="{{ page.extra.language }}"
+       data-trade_goods_count="{{ page.extra.trade_goods_count }}"
+       data-trade_goods="{{ page.extra.trade_goods | join(sep=',') | lower }}"
+       data-disguise="0">
+      <div class="city-card-header">
+        <span class="badge badge-region">{{ page.extra.region | replace(from="Ocean", to="") | replace(from="Sea", to="") | truncate(length=18) }}</span>
+      </div>
+      <h3 class="city-name">{{ page.title }}</h3>
+      <div class="city-quick-stats">
+        <div class="quick-stat-row">
+          <span class="qs-label">Culture</span>
+          <span class="qs-value">{{ page.extra.culture_area }}</span>
+        </div>
+        <div class="quick-stat-row">
+          <span class="qs-label">Language</span>
+          <span class="qs-value">{{ page.extra.language }}</span>
+        </div>
+        <div class="quick-stat-row">
+          <span class="qs-label">Trade Goods</span>
+          <span class="qs-value">{{ page.extra.trade_goods_count }}</span>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </section>
+</div>
+{% endblock %}

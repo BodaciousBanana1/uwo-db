@@ -1,0 +1,16 @@
++++
+title = "Where is Peach Blossom Spring?"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "where-is-peach-blossom-spring"
+id = "99999404"
+type = "Adventure"
+city = "Treasure Hunt"
+guild_type = "Adventurer"
+discovery = ""
+skills = [{ name = "Search", level = 12 }, { name = "Appraisal", level = 14 }, { name = "Chinese", level = 1 }]
+variants = [{ city = "Treasure Hunt", guild_type = "Adventurer", id = "99999404", slug = "where-is-peach-blossom-spring" }]
+steps = []
++++

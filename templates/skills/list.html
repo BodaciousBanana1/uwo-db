@@ -1,0 +1,218 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% set all_skills = load_data(path="data/skills.json") %}
+
+<section class="page-header">
+  <h1>Skills</h1>
+  <p class="page-subtitle"><span id="visible-count">0</span> skills</p>
+</section>
+
+<div class="filter-layout">
+  <aside class="filter-panel">
+    <div class="filter-header">
+      <span class="filter-title">FILTERS</span>
+      <button class="filter-reset" id="reset-filters">Reset</button>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">SEARCH</div>
+      <input type="text" id="skill-search" class="filter-search" placeholder="Skill name...">
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">CATEGORY</div>
+      <div class="filter-chips">
+        <label class="chip"><input type="radio" name="category" value="" checked> All</label>
+        <label class="chip"><input type="radio" name="category" value="Adventure"> Adventure</label>
+        <label class="chip"><input type="radio" name="category" value="Trade"> Trade</label>
+        <label class="chip"><input type="radio" name="category" value="Battle"> Battle</label>
+        <label class="chip"><input type="radio" name="category" value="Common"> Common</label>
+      </div>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">TYPE</div>
+      <select id="type-filter" class="filter-select" style="width:100%">
+        <option value="">All Types</option>
+        <option value="Vigour">Vigour</option>
+        <option value="Duties">Duties</option>
+      </select>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">MAX ADVENTURE LEVEL</div>
+      <div class="range-slider">
+        <div class="range-values"><span class="range-min">0</span><span id="adv-value">75</span></div>
+        <input type="range" class="range-input" id="adv-slider" min="0" max="75" value="75">
+      </div>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">MAX TRADE LEVEL</div>
+      <div class="range-slider">
+        <div class="range-values"><span class="range-min">0</span><span id="trade-value">75</span></div>
+        <input type="range" class="range-input" id="trade-slider" min="0" max="75" value="75">
+      </div>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">MAX BATTLE LEVEL</div>
+      <div class="range-slider">
+        <div class="range-values"><span class="range-min">0</span><span id="battle-value">75</span></div>
+        <input type="range" class="range-input" id="battle-slider" min="0" max="75" value="75">
+      </div>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">MAX COST</div>
+      <div class="range-slider">
+        <div class="range-values"><span class="range-min">0</span><span id="cost-value">∞</span></div>
+        <input type="range" class="range-input" id="cost-slider" min="0" max="100" value="100">
+      </div>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">LEARN AT</div>
+      <input type="text" id="location-search" class="filter-search" placeholder="Guild or city...">
+    </div>
+  </aside>
+
+  <section class="skills-results">
+    <table class="data-table" id="skills-table">
+      <thead>
+        <tr>
+          <th>Skill</th>
+          <th>Type</th>
+          <th>Category</th>
+          <th class="num">Adv</th>
+          <th class="num">Trade</th>
+          <th class="num">Battle</th>
+          <th class="num">Cost</th>
+          <th>Learn At</th>
+        </tr>
+      </thead>
+      <tbody id="skills-body"></tbody>
+    </table>
+  </section>
+</div>
+
+<script>
+const allSkills = {{ all_skills | json_encode() | safe }};
+
+const searchInput = document.getElementById('skill-search');
+const typeFilter = document.getElementById('type-filter');
+const advSlider = document.getElementById('adv-slider');
+const tradeSlider = document.getElementById('trade-slider');
+const battleSlider = document.getElementById('battle-slider');
+const costSlider = document.getElementById('cost-slider');
+const locationSearch = document.getElementById('location-search');
+const visibleCount = document.getElementById('visible-count');
+const tbody = document.getElementById('skills-body');
+
+function getSelectedCategory() {
+  const checked = document.querySelector('input[name="category"]:checked');
+  return checked ? checked.value : '';
+}
+
+const COST_STEPS = [0, 1000, 2000, 5000, 10000, 20000, 50000, 100000, 200000, 500000, 1000000, Infinity];
+
+function getCostFromSlider(val) {
+  const idx = Math.round(val / 100 * (COST_STEPS.length - 1));
+  return COST_STEPS[idx];
+}
+
+function formatCost(cost) {
+  if (cost === Infinity) return '∞';
+  if (cost >= 1000000) return (cost / 1000000).toFixed(1) + 'M';
+  if (cost >= 1000) return (cost / 1000).toFixed(0) + 'K';
+  return cost.toString();
+}
+
+function slugify(name) {
+  return name.toLowerCase()
+    .replace(/\//g, '-').replace(/\\/g, '-')
+    .replace(/ /g, '-').replace(/'/g, '').replace(/\./g, '').replace(/,/g, '')
+    .replace(/\(/g, '').replace(/\)/g, '').replace(/:/g, '').replace(/\+/g, 'plus')
+    .replace(/-+/g, '-').replace(/^-|-$/g, '');
+}
+
+function filterSkills() {
+  const search = searchInput.value.toLowerCase();
+  const type = typeFilter.value;
+  const category = getSelectedCategory();
+  const maxAdv = parseInt(advSlider.value);
+  const maxTrade = parseInt(tradeSlider.value);
+  const maxBattle = parseInt(battleSlider.value);
+  const maxCost = getCostFromSlider(parseInt(costSlider.value));
+  const location = locationSearch.value.toLowerCase();
+
+  document.getElementById('adv-value').textContent = maxAdv;
+  document.getElementById('trade-value').textContent = maxTrade;
+  document.getElementById('battle-value').textContent = maxBattle;
+  document.getElementById('cost-value').textContent = formatCost(maxCost);
+
+  let filtered = allSkills.filter(s => {
+    if (search && !(s.name || '').toLowerCase().includes(search)) return false;
+    if (category && s.category !== category) return false;
+    if (type && s.type !== type) return false;
+    if (s.level_adventure > maxAdv) return false;
+    if (s.level_trade > maxTrade) return false;
+    if (s.level_battle > maxBattle) return false;
+    if (maxCost !== Infinity && s.cost > maxCost) return false;
+    if (location) {
+      const locations = (s.learn_at || []).join(' ').toLowerCase();
+      if (!locations.includes(location)) return false;
+    }
+    return true;
+  });
+
+  filtered.sort((a, b) => (a.name || '').localeCompare(b.name || ''));
+
+  const displayLimit = 500;
+  const displaySkills = filtered.slice(0, displayLimit);
+
+  visibleCount.textContent = filtered.length + (filtered.length > displayLimit ? ` (showing ${displayLimit})` : '');
+
+  tbody.innerHTML = displaySkills.map(s => {
+    const learnAt = (s.learn_at || []).slice(0, 3).join(', ') || '-';
+    const hasMore = (s.learn_at || []).length > 3 ? ` +${s.learn_at.length - 3}` : '';
+    const slug = slugify(s.name || '');
+
+    return `<tr>
+      <td class="item-name"><a href="/skills/${slug}/">${s.name || '-'}</a></td>
+      <td>${s.type || '-'}</td>
+      <td><span class="category-tag category-${(s.category || 'common').toLowerCase()}">${s.category || '-'}</span></td>
+      <td class="num">${s.level_adventure || '-'}</td>
+      <td class="num">${s.level_trade || '-'}</td>
+      <td class="num">${s.level_battle || '-'}</td>
+      <td class="num">${s.cost ? s.cost.toLocaleString() : '-'}</td>
+      <td class="location-cell">${learnAt}${hasMore ? `<span class="more-tag">${hasMore}</span>` : ''}</td>
+    </tr>`;
+  }).join('');
+}
+
+searchInput.addEventListener('input', filterSkills);
+typeFilter.addEventListener('change', filterSkills);
+advSlider.addEventListener('input', filterSkills);
+tradeSlider.addEventListener('input', filterSkills);
+battleSlider.addEventListener('input', filterSkills);
+costSlider.addEventListener('input', filterSkills);
+locationSearch.addEventListener('input', filterSkills);
+document.querySelectorAll('input[name="category"]').forEach(r => r.addEventListener('change', filterSkills));
+
+document.getElementById('reset-filters').addEventListener('click', () => {
+  searchInput.value = '';
+  typeFilter.value = '';
+  advSlider.value = 75;
+  tradeSlider.value = 75;
+  battleSlider.value = 75;
+  costSlider.value = 100;
+  locationSearch.value = '';
+  document.querySelector('input[name="category"][value=""]').checked = true;
+  filterSkills();
+});
+
+filterSkills();
+</script>
+{% endblock %}

@@ -1,0 +1,29 @@
++++
+title = "Augmented Research Frigate"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0544"
+slug = "augmented-research-frigate"
+size = "Hvy"
+ship_type = "adventure"
+level_adventure = 37
+level_trade = 16
+level_battle = 22
+durability = 740
+vertical_sail = 170
+horizontal_sail = 280
+row_power = 0
+turn_speed = 10
+wave_resistance = 8
+armor = 0
+hold = 452
+cannon_chambers = 70
+cabin_min = 43
+cabin_max = 88
+masts = 0
+material = "Iron"
+is_cash_ship = true
+is_steam = false
++++

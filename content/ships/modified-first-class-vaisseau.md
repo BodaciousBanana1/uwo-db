@@ -1,0 +1,29 @@
++++
+title = "Modified First Class Vaisseau"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0220"
+slug = "modified-first-class-vaisseau"
+size = "Hvy"
+ship_type = "battle"
+level_adventure = 10
+level_trade = 7
+level_battle = 17
+durability = 785
+vertical_sail = 115
+horizontal_sail = 250
+row_power = 0
+turn_speed = 6
+wave_resistance = 7
+armor = 0
+hold = 668
+cannon_chambers = 100
+cabin_min = 65
+cabin_max = 135
+masts = 0
+material = "Teak"
+is_cash_ship = true
+is_steam = false
++++

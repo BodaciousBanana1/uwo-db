@@ -1,0 +1,16 @@
++++
+title = "(g.t.)Beast attack exercise"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "gtbeast-attack-exercise-east-asia"
+id = "99990633"
+type = "Adventure"
+city = "East Asia"
+guild_type = "Adventurer"
+discovery = ""
+skills = [{ name = "Swordplay", level = 14 }, { name = "Sword Mastery", level = 11 }]
+variants = [{ city = "East Asia", guild_type = "Adventurer", id = "99990573", slug = "gtbeast-attack-exercise-east-asia" }, { city = "East Asia", guild_type = "Adventurer", id = "99990633", slug = "gtbeast-attack-exercise-east-asia" }]
+steps = []
++++

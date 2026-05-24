@@ -1,0 +1,16 @@
++++
+title = "Fisheries survey near Oslo"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "fisheries-survey-near-oslo"
+id = "99997649"
+type = "Adventure"
+city = "Amsterdam"
+guild_type = "Adventurer"
+discovery = ""
+skills = [{ name = "Nordic", level = 1 }]
+variants = [{ city = "Amsterdam", guild_type = "Adventurer", id = "99997649", slug = "fisheries-survey-near-oslo" }]
+steps = []
++++

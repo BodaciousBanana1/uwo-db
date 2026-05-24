@@ -1,0 +1,29 @@
++++
+title = "Modified Special Corvette"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0266"
+slug = "modified-special-corvette"
+size = "Std"
+ship_type = "battle"
+level_adventure = 15
+level_trade = 4
+level_battle = 21
+durability = 680
+vertical_sail = 140
+horizontal_sail = 310
+row_power = 0
+turn_speed = 11
+wave_resistance = 5
+armor = 0
+hold = 386
+cannon_chambers = 54
+cabin_min = 38
+cabin_max = 70
+masts = 0
+material = "Unknown"
+is_cash_ship = true
+is_steam = false
++++

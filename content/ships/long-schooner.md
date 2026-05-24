@@ -1,0 +1,29 @@
++++
+title = "Long Schooner"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0260"
+slug = "long-schooner"
+size = "Hvy"
+ship_type = "adventure"
+level_adventure = 65
+level_trade = 28
+level_battle = 18
+durability = 590
+vertical_sail = 395
+horizontal_sail = 110
+row_power = 0
+turn_speed = 5
+wave_resistance = 9
+armor = 0
+hold = 592
+cannon_chambers = 22
+cabin_min = 28
+cabin_max = 46
+masts = 0
+material = "Teak"
+is_cash_ship = true
+is_steam = false
++++

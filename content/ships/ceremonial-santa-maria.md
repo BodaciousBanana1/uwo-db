@@ -1,0 +1,29 @@
++++
+title = "Ceremonial Santa Maria"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0560"
+slug = "ceremonial-santa-maria"
+size = "Std"
+ship_type = "adventure"
+level_adventure = 18
+level_trade = 8
+level_battle = 2
+durability = 500
+vertical_sail = 165
+horizontal_sail = 325
+row_power = 0
+turn_speed = 12
+wave_resistance = 10
+armor = 0
+hold = 480
+cannon_chambers = 20
+cabin_min = 25
+cabin_max = 45
+masts = 0
+material = "Unknown"
+is_cash_ship = true
+is_steam = false
++++

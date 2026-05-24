@@ -1,0 +1,29 @@
++++
+title = "Prins Willem"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0347"
+slug = "prins-willem"
+size = "Hvy"
+ship_type = "trade"
+level_adventure = 28
+level_trade = 70
+level_battle = 51
+durability = 780
+vertical_sail = 195
+horizontal_sail = 265
+row_power = 0
+turn_speed = 9
+wave_resistance = 10
+armor = 0
+hold = 711
+cannon_chambers = 64
+cabin_min = 40
+cabin_max = 65
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

@@ -1,0 +1,16 @@
++++
+title = "Explorer searching for Fort San Domingo"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "explorer-searching-for-fort-san-domingo"
+id = "99997219"
+type = "Adventure"
+city = "Calicut"
+guild_type = "Adventurer"
+discovery = "Fort San Domingo"
+skills = [{ name = "Chinese", level = 1 }]
+variants = [{ city = "Calicut", guild_type = "Adventurer", id = "99997219", slug = "explorer-searching-for-fort-san-domingo" }]
+steps = [{ step = 1, location = "Tamsui", action = "Talk to Nanban Trade Merchant x2" }, { step = 2, location = "Tamsui", action = "Talk to City Official" }, { step = 3, location = "Tamsui", action = "Talk to Barkeep" }, { step = 4, location = "Tamsui", action = "Talk to Famous Explorer x2" }]
++++

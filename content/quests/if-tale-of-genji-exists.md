@@ -1,0 +1,16 @@
++++
+title = "If Tale of Genji Exists"
+date = 2026-05-22
+template = "quests/page.html"
+
+[extra]
+slug = "if-tale-of-genji-exists"
+id = "99990779"
+type = "Adventure"
+city = "Venice"
+guild_type = "Adventurer"
+discovery = "Tale of Genji"
+skills = [{ name = "Search", level = 15 }, { name = "Appraisal", level = 17 }, { name = "Japanese", level = 1 }]
+variants = [{ city = "Venice", guild_type = "Adventurer", id = "99990779", slug = "if-tale-of-genji-exists" }]
+steps = [{ step = 1, location = "Sakai", action = "Tavern Yuki" }, { step = 2, location = "Sakai", action = "Library Scholar" }, { step = 3, location = "Sakai", action = "Library Search in the left back" }]
++++

@@ -1,0 +1,29 @@
++++
+title = "Custom Heavy Explorer Carrack"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0509"
+slug = "custom-heavy-explorer-carrack"
+size = "Std"
+ship_type = "adventure"
+level_adventure = 8
+level_trade = 1
+level_battle = 0
+durability = 430
+vertical_sail = 210
+horizontal_sail = 110
+row_power = 0
+turn_speed = 10
+wave_resistance = 8
+armor = 0
+hold = 456
+cannon_chambers = 36
+cabin_min = 38
+cabin_max = 68
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

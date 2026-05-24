@@ -1,0 +1,29 @@
++++
+title = "Advanced Whydah"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0792"
+slug = "advanced-whydah"
+size = "Hvy"
+ship_type = "battle"
+level_adventure = 16
+level_trade = 19
+level_battle = 45
+durability = 960
+vertical_sail = 250
+horizontal_sail = 210
+row_power = 100
+turn_speed = 11
+wave_resistance = 11
+armor = 0
+hold = 370
+cannon_chambers = 110
+cabin_min = 60
+cabin_max = 220
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

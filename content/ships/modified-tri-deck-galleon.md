@@ -1,0 +1,29 @@
++++
+title = "Modified Tri-Deck Galleon"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0506"
+slug = "modified-tri-deck-galleon"
+size = "Hvy"
+ship_type = "battle"
+level_adventure = 8
+level_trade = 12
+level_battle = 25
+durability = 710
+vertical_sail = 130
+horizontal_sail = 260
+row_power = 0
+turn_speed = 10
+wave_resistance = 9
+armor = 0
+hold = 576
+cannon_chambers = 72
+cabin_min = 52
+cabin_max = 92
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

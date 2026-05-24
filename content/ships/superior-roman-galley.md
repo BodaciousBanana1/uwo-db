@@ -1,0 +1,29 @@
++++
+title = "Superior Roman Galley"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0688"
+slug = "superior-roman-galley"
+size = "Lgt"
+ship_type = "battle"
+level_adventure = 0
+level_trade = 0
+level_battle = 10
+durability = 250
+vertical_sail = 30
+horizontal_sail = 135
+row_power = 100
+turn_speed = 6
+wave_resistance = 3
+armor = 0
+hold = 140
+cannon_chambers = 30
+cabin_min = 40
+cabin_max = 80
+masts = 0
+material = "Unknown"
+is_cash_ship = false
+is_steam = false
++++

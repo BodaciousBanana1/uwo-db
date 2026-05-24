@@ -1,0 +1,216 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% set all_maps = load_data(path="data/archive_maps.json") %}
+
+<section class="page-header">
+  <h1>Archive Maps</h1>
+  <p class="page-subtitle"><span id="visible-count">0</span> maps</p>
+</section>
+
+<div class="filter-layout">
+  <aside class="filter-panel">
+    <div class="filter-header">
+      <span class="filter-title">FILTERS</span>
+      <button class="filter-reset" id="reset-filters">Reset</button>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">SEARCH</div>
+      <input type="text" id="map-search" class="filter-search" placeholder="Map name or discovery...">
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">SOLD AT</div>
+      <select id="city-filter" class="filter-select" style="width:100%">
+        <option value="">All Cities</option>
+      </select>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">SKILL REQUIRED</div>
+      <select id="skill-filter" class="filter-select" style="width:100%">
+        <option value="">Any Skill</option>
+      </select>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">MAX SKILL RANK</div>
+      <div class="range-slider" data-filter="max_rank">
+        <div class="range-values"><span class="range-min">1</span><span class="range-max">20</span></div>
+        <input type="range" class="range-input" id="max-rank-slider" min="1" max="20" value="20">
+      </div>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">CATEGORY</div>
+      <select id="category-filter" class="filter-select" style="width:100%">
+        <option value="">All Categories</option>
+      </select>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">MIN EXP</div>
+      <div class="range-slider" data-filter="min_exp">
+        <div class="range-values"><span class="range-min">0</span><span class="range-max" id="exp-value">0</span></div>
+        <input type="range" class="range-input" id="min-exp-slider" min="0" max="1000" value="0" step="10">
+      </div>
+    </div>
+  </aside>
+
+  <section class="maps-results">
+    <table class="data-table" id="maps-table">
+      <thead>
+        <tr>
+          <th>Map</th>
+          <th>City</th>
+          <th>Skills</th>
+          <th>Category</th>
+          <th>Location</th>
+          <th>Discovery</th>
+          <th class="num">Exp</th>
+        </tr>
+      </thead>
+      <tbody id="maps-body"></tbody>
+    </table>
+  </section>
+</div>
+
+<script>
+const allMaps = {{ all_maps | json_encode() | safe }};
+
+const CITIES = Object.keys(allMaps).sort();
+const ALL_SKILLS = ["Appraisal", "Archaeology", "Art", "Astronomy", "Biology", "Ecological Research", "Geography", "Recognition", "Search", "Theology", "Unlock"];
+const CATEGORIES = ["Bird", "Fossil", "Geography", "Historical legacy", "Insect or worm", "Large creature", "Marine creature", "Medium-sized creature", "Plant", "Religious legacy", "Small creature", "Treasure", "Work of art"];
+
+// Flatten all maps with city info
+let flatMaps = [];
+CITIES.forEach(city => {
+  (allMaps[city] || []).forEach(m => {
+    flatMaps.push({ ...m, city });
+  });
+});
+
+// Populate dropdowns
+const cityFilter = document.getElementById('city-filter');
+const skillFilter = document.getElementById('skill-filter');
+const categoryFilter = document.getElementById('category-filter');
+
+CITIES.forEach(c => {
+  const opt = document.createElement('option');
+  opt.value = c;
+  opt.textContent = c.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+  cityFilter.appendChild(opt);
+});
+
+ALL_SKILLS.forEach(s => {
+  const opt = document.createElement('option');
+  opt.value = s;
+  opt.textContent = s;
+  skillFilter.appendChild(opt);
+});
+
+CATEGORIES.forEach(c => {
+  const opt = document.createElement('option');
+  opt.value = c;
+  opt.textContent = c;
+  categoryFilter.appendChild(opt);
+});
+
+const searchInput = document.getElementById('map-search');
+const maxRankSlider = document.getElementById('max-rank-slider');
+const minExpSlider = document.getElementById('min-exp-slider');
+const visibleCount = document.getElementById('visible-count');
+const tbody = document.getElementById('maps-body');
+
+function formatCity(slug) {
+  return slug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+}
+
+function filterMaps() {
+  const search = searchInput.value.toLowerCase();
+  const city = cityFilter.value;
+  const skill = skillFilter.value;
+  const maxRank = parseInt(maxRankSlider.value);
+  const category = categoryFilter.value;
+  const minExp = parseInt(minExpSlider.value);
+
+  document.querySelector('.range-max').textContent = maxRank;
+  document.getElementById('exp-value').textContent = minExp;
+
+  let filtered = flatMaps.filter(m => {
+    // Search
+    if (search) {
+      const nameMatch = (m.name || '').toLowerCase().includes(search);
+      const discMatch = (m.discovery || '').toLowerCase().includes(search);
+      const descMatch = (m.description || '').toLowerCase().includes(search);
+      if (!nameMatch && !discMatch && !descMatch) return false;
+    }
+
+    // City
+    if (city && m.city !== city) return false;
+
+    // Category
+    if (category && m.category !== category) return false;
+
+    // Min exp
+    if (minExp > 0 && (m.exp || 0) < minExp) return false;
+
+    // Skill filter
+    if (skill) {
+      if (!m.skills || m.skills.length === 0) return false;
+      const hasSkill = m.skills.some(s => s.name === skill && s.rank <= maxRank);
+      if (!hasSkill) return false;
+    } else if (m.skills && m.skills.length > 0) {
+      const allWithinRank = m.skills.every(s => s.rank <= maxRank);
+      if (!allWithinRank) return false;
+    }
+
+    return true;
+  });
+
+  // Limit display for performance
+  const displayLimit = 500;
+  const displayMaps = filtered.slice(0, displayLimit);
+
+  visibleCount.textContent = filtered.length + (filtered.length > displayLimit ? ` (showing ${displayLimit})` : '');
+
+  tbody.innerHTML = displayMaps.map(m => {
+    const skillsHtml = (m.skills || []).map(s =>
+      `<span class="skill-tag">${s.name} ${s.rank}</span>`
+    ).join('') || m.skills_required || '-';
+
+    return `<tr>
+      <td class="item-name">${m.name || 'Map'}</td>
+      <td><a href="/cities/${m.city}/">${formatCity(m.city)}</a></td>
+      <td class="skills-cell">${skillsHtml}</td>
+      <td>${m.category || '-'}</td>
+      <td>${m.location || '-'}</td>
+      <td class="discovery-cell">${m.discovery || '-'}</td>
+      <td class="num">${m.exp || 0}</td>
+    </tr>`;
+  }).join('');
+}
+
+// Event listeners
+searchInput.addEventListener('input', filterMaps);
+cityFilter.addEventListener('change', filterMaps);
+skillFilter.addEventListener('change', filterMaps);
+categoryFilter.addEventListener('change', filterMaps);
+maxRankSlider.addEventListener('input', filterMaps);
+minExpSlider.addEventListener('input', filterMaps);
+
+document.getElementById('reset-filters').addEventListener('click', () => {
+  searchInput.value = '';
+  cityFilter.value = '';
+  skillFilter.value = '';
+  categoryFilter.value = '';
+  maxRankSlider.value = 20;
+  minExpSlider.value = 0;
+  filterMaps();
+});
+
+// Initial load
+filterMaps();
+</script>
+{% endblock %}

@@ -1,0 +1,29 @@
++++
+title = "Indiaman"
+date = 2026-05-22
+template = "ships/page.html"
+
+[extra]
+id = "ship_0245"
+slug = "indiaman"
+size = "Hvy"
+ship_type = "trade"
+level_adventure = 44
+level_trade = 49
+level_battle = 32
+durability = 700
+vertical_sail = 150
+horizontal_sail = 290
+row_power = 0
+turn_speed = 9
+wave_resistance = 9
+armor = 0
+hold = 614
+cannon_chambers = 56
+cabin_min = 33
+cabin_max = 60
+masts = 0
+material = "Iron"
+is_cash_ship = true
+is_steam = false
++++
