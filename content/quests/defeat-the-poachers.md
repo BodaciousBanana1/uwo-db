@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Aden"
 guild_type = "Maritime"
 discovery = ""
+reward = 61000
+advance = 12200
+difficulty = 5
 skills = [{ name = "Arabic", level = 1 }]
 variants = [{ city = "Aden", guild_type = "Maritime", id = "99996294", slug = "defeat-the-poachers" }]
 steps = []

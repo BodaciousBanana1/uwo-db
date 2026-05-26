@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Further Research"
 guild_type = "Adventurer"
 discovery = "Statue of Narasimha"
+reward = 0
+advance = 0
+difficulty = 3
 skills = [{ name = "Search", level = 8 }, { name = "Theology", level = 10 }, { name = "Thai/Burmese", level = 1 }]
 variants = [{ city = "Further Research", guild_type = "Adventurer", id = "99991411", slug = "further-research-into-narasimha" }]
 steps = []

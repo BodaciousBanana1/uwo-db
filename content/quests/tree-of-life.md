@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Seville"
 guild_type = "Adventurer"
 discovery = "Prosopis Cineraria"
+reward = 0
+advance = 0
+difficulty = 6
 skills = [{ name = "Ecological Research", level = 5 }, { name = "Biology", level = 7 }, { name = "Arabic", level = 1 }]
 variants = [{ city = "Seville", guild_type = "Adventurer", id = "99991389", slug = "tree-of-life" }]
 steps = []

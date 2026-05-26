@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Treasure Hunt"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 7
 skills = [{ name = "Recognition", level = 11 }, { name = "Archaeology", level = 13 }, { name = "Greek", level = 1 }]
 variants = [{ city = "Treasure Hunt", guild_type = "Adventurer", id = "99991223", slug = "folklore-regarding-the-colossus-of-rhode" }]
 steps = []

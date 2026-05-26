@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Tunis"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 6
 skills = [{ name = "Arabic", level = 1 }]
 variants = [{ city = "Tunis", guild_type = "Maritime", id = "99996375", slug = "the-escort-ship-from-tunis" }]
 steps = []

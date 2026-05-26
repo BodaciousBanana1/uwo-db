@@ -10,7 +10,11 @@ type = "Adventure"
 city = "Seville"
 guild_type = "Adventurer"
 discovery = "Belem Tower"
+reward = 400000
+advance = 40000
+difficulty = 8
 skills = [{ name = "Recognition", level = 10 }, { name = "Archaeology", level = 12 }, { name = "Portuguese", level = 1 }]
 variants = [{ city = "Seville", guild_type = "Adventurer", id = "99991530", slug = "revelations-of-the-lady" }]
 steps = []
+prerequisites = [{ id = "99991529", name = "The noblewoman of Rio Tejo", slug = "the-noblewoman-of-rio-tejo" }]
 +++

@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Aden"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "Arabic", level = 1 }]
 variants = [{ city = "Aden", guild_type = "Maritime", id = "99996292", slug = "gtinternal-circumstances-of-the-request-relief-ship-transport-old-grudge" }]
 steps = []

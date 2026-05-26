@@ -10,6 +10,9 @@ type = "Trade"
 city = "Marseille"
 guild_type = "Merchant"
 discovery = ""
+reward = 80000
+advance = 20000
+difficulty = 6
 skills = [{ name = "French", level = 1 }, { name = "Cooking", level = 12 }]
 variants = [{ city = "Marseille", guild_type = "Merchant", id = "99994499", slug = "procure-food-for-the-navy" }]
 steps = []

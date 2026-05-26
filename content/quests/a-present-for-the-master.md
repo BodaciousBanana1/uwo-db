@@ -10,6 +10,9 @@ type = "Trade"
 city = "Cape Town"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 8
 skills = [{ name = "Spanish", level = 1 }, { name = "Mayan Languages", level = 1 }]
 variants = [{ city = "Cape Town", guild_type = "Merchant", id = "99995655", slug = "a-present-for-the-master" }]
 steps = []

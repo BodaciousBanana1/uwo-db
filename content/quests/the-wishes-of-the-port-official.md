@@ -10,6 +10,9 @@ type = "Trade"
 city = "Istanbul"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 9
 skills = [{ name = "North American Languages", level = 1 }]
 variants = [{ city = "Istanbul", guild_type = "Merchant", id = "99990320", slug = "the-wishes-of-the-port-official" }]
 steps = []

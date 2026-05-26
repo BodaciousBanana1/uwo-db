@@ -10,6 +10,9 @@ type = "Trade"
 city = "Tunis"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 5
 skills = [{ name = "Arabic", level = 1 }, { name = "Accounts", level = 1 }]
 variants = [{ city = "Tunis", guild_type = "Merchant", id = "99995692", slug = "the-merchant-guilds-predicament" }]
 steps = []

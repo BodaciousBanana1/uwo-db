@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Rio de Janeiro"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "Spanish", level = 1 }]
 variants = [{ city = "Rio de Janeiro", guild_type = "Adventurer", id = "99997037", slug = "develop-sea-route-south-of-new-land" }]
 steps = []

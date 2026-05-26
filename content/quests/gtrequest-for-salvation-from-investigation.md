@@ -10,6 +10,9 @@ type = "Maritime"
 city = "St. Petersburg"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 7
 skills = []
 variants = [{ city = "St. Petersburg", guild_type = "Maritime", id = "99990913", slug = "gtrequest-for-salvation-from-investigation" }]
 steps = []

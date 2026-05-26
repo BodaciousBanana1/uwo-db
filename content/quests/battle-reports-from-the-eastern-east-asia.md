@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Hangzhou"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 8
 skills = []
 variants = [{ city = "Hangzhou", guild_type = "Maritime", id = "99990335", slug = "battle-reports-from-the-eastern-east-asia" }]
 steps = []

@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Manila Imperial Contract"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 4
 skills = []
 variants = [{ city = "Manila Imperial Contract", guild_type = "Adventurer", id = "99997907", slug = "an-award-for-the-fleet" }]
 steps = []

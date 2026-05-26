@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Cape Town"
 guild_type = "Maritime"
 discovery = ""
+reward = 409000
+advance = 30000
+difficulty = 10
 skills = []
 variants = [{ city = "Cape Town", guild_type = "Maritime", id = "99999964", slug = "blockade-of-natal" }]
 steps = []

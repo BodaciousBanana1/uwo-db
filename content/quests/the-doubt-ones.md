@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Amsterdam"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 5
 skills = [{ name = "Dutch", level = 1 }]
 variants = [{ city = "Amsterdam", guild_type = "Maritime", id = "99996730", slug = "the-doubt-ones" }]
 steps = []

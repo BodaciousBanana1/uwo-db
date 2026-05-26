@@ -10,6 +10,9 @@ type = "Trade"
 city = "Rio de Janeiro"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 6
 skills = [{ name = "Greek", level = 1 }]
 variants = [{ city = "Rio de Janeiro", guild_type = "Merchant", id = "99990217", slug = "a-delivery-of-cassava" }]
 steps = []

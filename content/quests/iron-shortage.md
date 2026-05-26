@@ -10,6 +10,9 @@ type = "Trade"
 city = "London"
 guild_type = "Merchant"
 discovery = ""
+reward = 144000
+advance = 28160
+difficulty = 7
 skills = [{ name = "Spanish", level = 1 }]
 variants = [{ city = "London", guild_type = "Merchant", id = "99995280", slug = "iron-shortage" }]
 steps = []

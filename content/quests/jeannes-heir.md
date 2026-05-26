@@ -10,7 +10,11 @@ type = "Adventure"
 city = "Treasure Hunt"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 7
 skills = [{ name = "Search", level = 7 }, { name = "Archaeology", level = 12 }, { name = "French", level = 1 }]
 variants = [{ city = "Treasure Hunt", guild_type = "Adventurer", id = "99999302", slug = "jeannes-heir" }]
 steps = []
+equipment_rewards = [{ id = "00416100", name = "Earl of Richemont's Warhammer", slug = "earl-of-richemonts-warhammer" }]
 +++

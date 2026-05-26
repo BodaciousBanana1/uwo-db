@@ -10,7 +10,13 @@ type = "Adventure"
 city = "Rio de Janeiro"
 guild_type = "Adventurer"
 discovery = "Puma"
+reward = 0
+advance = 0
+difficulty = 6
 skills = [{ name = "Ecological Research", level = 4 }, { name = "Biology", level = 6 }, { name = "Mayan Languages", level = 1 }]
 variants = [{ city = "Rio de Janeiro", guild_type = "Adventurer", id = "99992345", slug = "preparation-for-peril" }]
 steps = [{ step = 1, location = "Rio de Janeiro", action = "Talk to Merchant" }, { step = 2, location = "Rio de Janeiro", action = "Talk to Seafarer" }, { step = 3, location = "Rio de Janeiro", action = "Talk to Gisele" }, { step = 4, location = "Rio de Janeiro", action = "Talk to Barkeep" }, { step = 5, location = "Bahia", action = "Talk to Seafarer" }, { step = 6, location = "South America Northeast Coast", action = "Use" }]
+discovery_description = "One characteristic of this creature is the crest growing from its head to its shoulders. It is an excellent swimmer and can easily slip away when attacked under water. It eats tree leaves and fruit, and water weeds."
+exp_reward = 380
+fame_reward = 190
 +++

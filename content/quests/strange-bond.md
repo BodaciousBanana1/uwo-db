@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Genoa"
 guild_type = "Adventurer"
 discovery = "Rosario of Francis Borgia"
+reward = 0
+advance = 0
+difficulty = 5
 skills = [{ name = "Search", level = 4 }, { name = "Theology", level = 6 }, { name = "Spanish", level = 1 }]
 variants = [{ city = "Genoa", guild_type = "Adventurer", id = "99990523", slug = "strange-bond" }]
 steps = []

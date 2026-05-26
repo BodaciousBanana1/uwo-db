@@ -10,6 +10,9 @@ type = "Trade"
 city = "San Francisco"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 8
 skills = [{ name = "Indian Languages", level = 1 }]
 variants = [{ city = "San Francisco", guild_type = "Merchant", id = "99990419", slug = "delivering-sandalwood" }]
 steps = []

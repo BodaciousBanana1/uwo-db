@@ -10,6 +10,9 @@ type = "Trade"
 city = "Sagres"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 2
 skills = []
 variants = [{ city = "Sagres", guild_type = "Merchant", id = "99990660", slug = "intermediate-merchant-course-final-exam-sagres" }, { city = "Sagres", guild_type = "Merchant", id = "99990667", slug = "intermediate-merchant-course-final-exam-sagres" }, { city = "Sagres", guild_type = "Merchant", id = "99990549", slug = "intermediate-merchant-course-final-exam-sagres" }, { city = "Sagres", guild_type = "Merchant", id = "99990548", slug = "intermediate-merchant-course-final-exam-sagres" }]
 steps = []

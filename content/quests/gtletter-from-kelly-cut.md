@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Saint-Georges"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 5
 skills = [{ name = "Portuguese", level = 1 }]
 variants = [{ city = "Saint-Georges", guild_type = "Maritime", id = "99996347", slug = "gtletter-from-kelly-cut" }]
 steps = []

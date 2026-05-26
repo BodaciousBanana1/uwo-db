@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Naples"
 guild_type = "Adventurer"
 discovery = "Nereid Monument"
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "Search", level = 3 }, { name = "Archaeology", level = 5 }, { name = "Greek", level = 1 }]
 variants = [{ city = "Naples", guild_type = "Adventurer", id = "99991208", slug = "legacy-th2-treasure-sleeping-in-ancient-city" }]
 steps = []

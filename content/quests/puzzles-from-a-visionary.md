@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Amsterdam"
 guild_type = "Adventurer"
 discovery = "Codex Buranas"
+reward = 0
+advance = 0
+difficulty = 6
 skills = [{ name = "Search", level = 6 }, { name = "Theology", level = 8 }, { name = "German", level = 1 }]
 variants = [{ city = "Amsterdam", guild_type = "Adventurer", id = "99990536", slug = "puzzles-from-a-visionary" }]
 steps = [{ step = 1, location = "London", action = "Talk to Scholar" }]

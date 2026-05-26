@@ -10,7 +10,11 @@ type = "Adventure"
 city = "Marseille"
 guild_type = "Adventurer"
 discovery = "White Clover"
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "Ecological Research", level = 3 }, { name = "Biology", level = 5 }, { name = "Theology", level = 1 }]
 variants = [{ city = "Marseille", guild_type = "Adventurer", id = "99990108", slug = "a-gardeners-worry" }]
 steps = []
+discovery_description = "A flowering plant native to Europe. The flowers are dark pink with a paler base. Commonly used to make an herbal tea. Helps increase soil fertility as well."
 +++

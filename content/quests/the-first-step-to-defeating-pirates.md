@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Seville"
 guild_type = "Maritime"
 discovery = ""
+reward = 200000
+advance = 50000
+difficulty = 10
 skills = [{ name = "Spanish", level = 1 }, { name = "Evasion", level = 14 }]
 variants = [{ city = "Seville", guild_type = "Maritime", id = "99993062", slug = "the-first-step-to-defeating-pirates" }]
 steps = []

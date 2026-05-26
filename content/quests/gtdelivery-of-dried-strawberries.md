@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Advanced school"
 guild_type = "Adventurer"
 discovery = ""
+reward = 3000
+advance = 0
+difficulty = 2
 skills = []
 variants = [{ city = "Advanced school", guild_type = "Adventurer", id = "99999896", slug = "gtdelivery-of-dried-strawberries" }]
 steps = []

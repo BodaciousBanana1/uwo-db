@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Calicut Imperial Contract"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 2
 skills = []
 variants = [{ city = "Calicut Imperial Contract", guild_type = "Adventurer", id = "99997157", slug = "shortening-the-survey-period" }]
 steps = []

@@ -10,7 +10,11 @@ type = "Maritime"
 city = "Tunis"
 guild_type = "Maritime"
 discovery = ""
+reward = 71100
+advance = 14220
+difficulty = 4
 skills = [{ name = "Arabic", level = 1 }]
 variants = [{ city = "Tunis", guild_type = "Maritime", id = "99996366", slug = "pirates-coming-to-land" }]
 steps = []
+equipment_rewards = [{ id = "00402101", name = "Snaplock Rifle", slug = "snaplock-rifle" }]
 +++

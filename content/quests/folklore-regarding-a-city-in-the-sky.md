@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Folklores"
 guild_type = "Adventurer"
 discovery = "Floating City"
+reward = 0
+advance = 0
+difficulty = 8
 skills = [{ name = "Geography", level = 12 }]
 variants = [{ city = "Folklores", guild_type = "Adventurer", id = "99991272", slug = "folklore-regarding-a-city-in-the-sky" }]
 steps = []

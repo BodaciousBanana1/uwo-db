@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Naples"
 guild_type = "Adventurer"
 discovery = ""
+reward = 20000
+advance = 0
+difficulty = 8
 skills = [{ name = "French", level = 1 }]
 variants = [{ city = "Naples", guild_type = "Adventurer", id = "99997378", slug = "delivery-of-pyramid-amulet" }]
 steps = []

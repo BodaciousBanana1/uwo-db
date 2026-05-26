@@ -10,7 +10,11 @@ type = "Adventure"
 city = "Treasure Hunt"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 8
 skills = [{ name = "Search", level = 12 }, { name = "Archaeology", level = 14 }, { name = "French", level = 1 }]
 variants = [{ city = "Treasure Hunt", guild_type = "Adventurer", id = "99999303", slug = "another-jeanne" }]
 steps = []
+equipment_rewards = [{ id = "00416200", name = "Jeanne Hachette's Axe", slug = "jeanne-hachettes-axe" }]
 +++

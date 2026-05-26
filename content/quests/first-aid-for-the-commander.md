@@ -10,6 +10,9 @@ type = "Adventure"
 city = "London Imperial Contract"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 6
 skills = []
 variants = [{ city = "London Imperial Contract", guild_type = "Adventurer", id = "99996088", slug = "first-aid-for-the-commander" }]
 steps = []

@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Zanzibar"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 6
 skills = []
 variants = [{ city = "Zanzibar", guild_type = "Maritime", id = "99996279", slug = "gtcriminal-phenomenon-of-arabic" }]
 steps = []

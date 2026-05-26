@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Amsterdam"
 guild_type = "Adventurer"
 discovery = "Cylinder Music Box"
+reward = 0
+advance = 0
+difficulty = 1
 skills = [{ name = "Dutch", level = 1 }]
 variants = [{ city = "Amsterdam", guild_type = "Adventurer", id = "99991314", slug = "further-research-on-the-hero-of-india" }]
 steps = []

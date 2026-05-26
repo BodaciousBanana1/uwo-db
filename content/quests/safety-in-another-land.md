@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Venice"
 guild_type = "Maritime"
 discovery = ""
+reward = 80000
+advance = 16000
+difficulty = 5
 skills = [{ name = "Arabic", level = 1 }]
 variants = [{ city = "Venice", guild_type = "Maritime", id = "99996452", slug = "safety-in-another-land" }]
 steps = []

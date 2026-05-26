@@ -10,6 +10,9 @@ type = "Trade"
 city = "Rio de Janeiro"
 guild_type = "Merchant"
 discovery = ""
+reward = 172000
+advance = 8040
+difficulty = 7
 skills = [{ name = "Dutch", level = 1 }, { name = "Portuguese", level = 1 }]
 variants = [{ city = "Rio de Janeiro", guild_type = "Merchant", id = "99993718", slug = "bulk-delivery-of-raw-cotton" }]
 steps = []

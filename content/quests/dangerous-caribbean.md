@@ -10,7 +10,11 @@ type = "Maritime"
 city = "Seville"
 guild_type = "Maritime"
 discovery = "Knossos Palace"
+reward = 0
+advance = 0
+difficulty = 7
 skills = [{ name = "Spanish", level = 1 }]
 variants = [{ city = "Seville", guild_type = "Maritime", id = "99990100", slug = "dangerous-caribbean" }]
 steps = [{ step = 1, location = "San Juan", action = "Talk to Barkeeper" }, { step = 2, location = "Antilles, Open Sea", action = "Talk to Baltazar near Santo Domingo. Battle commences; it is still possible to advance the quest if lose/withdraw." }, { step = 3, location = "Santo Domingo", action = "Talk to Wallenstein (near Tavern)" }, { step = 4, location = "Santo Domingo", action = "Talk to Baltazar (near Tavern)" }]
+followups = [{ id = "99994420", name = "Legend of the Labyrinthos", slug = "legend-of-the-labyrinthos" }, { id = "99990272", name = "Land of the Legendary King", slug = "land-of-the-legendary-king" }]
 +++

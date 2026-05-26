@@ -10,6 +10,9 @@ type = "Adventure"
 city = "London"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "English", level = 1 }, { name = "Fishing", level = 1 }, { name = "Dutch", level = 1 }]
 variants = [{ city = "London", guild_type = "Adventurer", id = "99997647", slug = "procure-saury" }]
 steps = []

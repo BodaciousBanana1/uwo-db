@@ -10,6 +10,9 @@ type = "Maritime"
 city = "San Francisco"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 7
 skills = []
 variants = [{ city = "San Francisco", guild_type = "Maritime", id = "99990427", slug = "pirates-going-after-anothers-profits" }]
 steps = []

@@ -10,6 +10,9 @@ type = "Adventure"
 city = "SecretEdict"
 guild_type = "Adventurer"
 discovery = "Beirut"
+reward = 0
+advance = 0
+difficulty = 5
 skills = [{ name = "Arabic", level = 1 }]
 variants = [{ city = "SecretEdict", guild_type = "Adventurer", id = "99990079", slug = "deliver-a-generals-orb" }]
 steps = []

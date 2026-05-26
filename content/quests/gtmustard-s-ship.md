@@ -4,13 +4,16 @@ date = 2026-05-22
 template = "quests/page.html"
 
 [extra]
-slug = "gtmustard-s-ship"
+slug = "gtmustards-ship"
 id = "99999901"
 type = "Adventure"
 city = "Advanced school"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 2
 skills = []
-variants = [{ city = "Advanced school", guild_type = "Adventurer", id = "99999901", slug = "gtmustard-s-ship" }]
+variants = [{ city = "Advanced school", guild_type = "Adventurer", id = "99999901", slug = "gtmustards-ship" }]
 steps = []
 +++

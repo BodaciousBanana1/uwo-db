@@ -10,6 +10,9 @@ type = "Maritime"
 city = "London"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 1
 skills = []
 variants = [{ city = "London", guild_type = "Maritime", id = "99996631", slug = "gtnavy-practice-england" }]
 steps = []

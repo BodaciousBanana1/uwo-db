@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Alexandria"
 guild_type = "Adventurer"
 discovery = "The Inscription of Sostratus"
+reward = 0
+advance = 0
+difficulty = 6
 skills = [{ name = "Search", level = 6 }, { name = "Archaeology", level = 8 }, { name = "Arabic", level = 1 }]
 variants = [{ city = "Alexandria", guild_type = "Adventurer", id = "99991468", slug = "inscription-in-a-foundation-stone" }]
 steps = []

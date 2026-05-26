@@ -10,6 +10,9 @@ type = "Trade"
 city = "Calicut"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 8
 skills = [{ name = "Portuguese", level = 1 }, { name = "Spice Trading", level = 5 }]
 variants = [{ city = "Calicut", guild_type = "Merchant", id = "99993763", slug = "spices-to-europe" }]
 steps = []

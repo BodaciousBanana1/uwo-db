@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Lisbon"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 3
 skills = [{ name = "French", level = 1 }]
 variants = [{ city = "Lisbon", guild_type = "Maritime", id = "99996612", slug = "gthunter-hunting" }]
 steps = []

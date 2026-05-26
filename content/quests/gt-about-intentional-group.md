@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Naples"
 guild_type = "Adventurer"
 discovery = "Avvakum's Letter"
+reward = 0
+advance = 0
+difficulty = 6
 skills = [{ name = "Theology", level = 8 }, { name = "Far North Languages", level = 1 }]
 variants = [{ city = "Naples", guild_type = "Adventurer", id = "99991201", slug = "gt-about-intentional-group" }]
 steps = []

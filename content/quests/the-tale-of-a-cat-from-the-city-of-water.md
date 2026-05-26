@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Venice"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 3
 skills = [{ name = "Procurement", level = 1 }, { name = "Portuguese", level = 1 }, { name = "Italian", level = 1 }]
 variants = [{ city = "Venice", guild_type = "Adventurer", id = "99995122", slug = "the-tale-of-a-cat-from-the-city-of-water" }]
 steps = []

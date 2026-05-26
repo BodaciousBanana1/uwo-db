@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Rio de Janeiro"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 10
 skills = []
 variants = [{ city = "Rio de Janeiro", guild_type = "Maritime", id = "99999992", slug = "blockade-of-bahia" }]
 steps = []

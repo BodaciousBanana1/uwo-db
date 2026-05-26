@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Amsterdam"
 guild_type = "Maritime"
 discovery = ""
+reward = 400
+advance = 0
+difficulty = 1
 skills = [{ name = "Dutch", level = 1 }]
 variants = [{ city = "Amsterdam", guild_type = "Maritime", id = "99996694", slug = "the-golden-knights" }]
 steps = []

@@ -10,7 +10,11 @@ type = "Adventure"
 city = "Santo Domingo"
 guild_type = "Adventurer"
 discovery = "Custos Messium"
+reward = 0
+advance = 0
+difficulty = 3
 skills = [{ name = "Recognition", level = 3 }, { name = "Astronomy", level = 5 }, { name = "French", level = 1 }]
 variants = [{ city = "Santo Domingo", guild_type = "Adventurer", id = "99991117", slug = "observation-equipment-in-the-night-sky" }]
 steps = []
+discovery_description = "A constellation created by the French astronomer Lalande. It was named after the telescope he used. In January, a meteor shower can be seen near this constellation."
 +++

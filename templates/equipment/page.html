@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} - Equipment{% endblock %}
+
+{% block content %}
+<article class="detail-page">
+  <header class="detail-header">
+    <nav class="breadcrumb">
+      <a href="/equipment/">Equipment</a> / {{ page.extra.category }}
+    </nav>
+    <h1>{{ page.title }}</h1>
+    <div class="detail-meta">
+      <span class="badge badge-{{ page.extra.category | lower }}">{{ page.extra.category }}</span>
+    </div>
+  </header>
+
+  <div class="detail-grid">
+    {% if page.extra.description %}
+    <section class="detail-section">
+      <h2>Description</h2>
+      <p>{{ page.extra.description }}</p>
+    </section>
+    {% endif %}
+
+    <section class="detail-section">
+      <h2>Stats</h2>
+      <table class="detail-table">
+        <tbody>
+          <tr>
+            <th>Formality</th>
+            <td>{{ page.extra.formality | default(value=0) }}</td>
+          </tr>
+          <tr>
+            <th>Disguise</th>
+            <td>{{ page.extra.disguise | default(value=0) }}</td>
+          </tr>
+          <tr>
+            <th>Attack</th>
+            <td>{{ page.extra.attack | default(value=0) }}</td>
+          </tr>
+          <tr>
+            <th>Defense</th>
+            <td>{{ page.extra.defense | default(value=0) }}</td>
+          </tr>
+          <tr>
+            <th>Durability</th>
+            <td>{{ page.extra.durability | default(value=0) }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    {% if page.extra.skills and page.extra.skills | length > 0 %}
+    <section class="detail-section">
+      <h2>Skills</h2>
+      <table class="detail-table">
+        <thead>
+          <tr>
+            <th>Skill</th>
+            <th class="num">Bonus</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for skill in page.extra.skills %}
+          <tr>
+            <td><a href="/skills/{{ skill.name | lower | replace(from=' ', to='-') }}/">{{ skill.name }}</a></td>
+            <td class="num">+{{ skill.bonus }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </section>
+    {% endif %}
+
+    {% if page.extra.quest_sources and page.extra.quest_sources | length > 0 %}
+    <section class="detail-section">
+      <h2>How to Obtain</h2>
+      <p class="source-label">Quest Rewards:</p>
+      <ul class="source-list">
+        {% for quest in page.extra.quest_sources %}
+        <li><a href="/quests/{{ quest.slug }}/">{{ quest.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+  </div>
+
+  <footer class="detail-footer">
+    <a href="/equipment/" class="back-link">&larr; Back to Equipment</a>
+  </footer>
+</article>
+{% endblock %}

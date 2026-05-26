@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Alexandria"
 guild_type = "Adventurer"
 discovery = "Cartouche"
+reward = 0
+advance = 0
+difficulty = 8
 skills = [{ name = "Arabic", level = 1 }]
 variants = [{ city = "Alexandria", guild_type = "Adventurer", id = "99997292", slug = "amulet-gift" }]
 steps = []

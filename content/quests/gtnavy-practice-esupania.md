@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Seville"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 1
 skills = []
 variants = [{ city = "Seville", guild_type = "Maritime", id = "99997703", slug = "gtnavy-practice-esupania" }]
 steps = []

@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Istanbul"
 guild_type = "Maritime"
 discovery = ""
+reward = 80000
+advance = 16000
+difficulty = 6
 skills = [{ name = "Arabic", level = 1 }]
 variants = [{ city = "Istanbul", guild_type = "Maritime", id = "99994737", slug = "the-depths-of-cruelty" }]
 steps = []

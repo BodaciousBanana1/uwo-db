@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Jakarta"
 guild_type = "Maritime"
 discovery = ""
+reward = 185000
+advance = 37000
+difficulty = 7
 skills = [{ name = "Malay/Tagalog", level = 1 }]
 variants = [{ city = "Jakarta", guild_type = "Maritime", id = "99996116", slug = "what-the-demon-saw" }]
 steps = []

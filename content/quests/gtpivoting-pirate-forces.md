@@ -10,6 +10,9 @@ type = "Adventure"
 city = "SecretEdict"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 6
 skills = []
 variants = [{ city = "SecretEdict", guild_type = "Adventurer", id = "99990052", slug = "gtpivoting-pirate-forces" }]
 steps = []

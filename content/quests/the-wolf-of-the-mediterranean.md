@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Lisbon"
 guild_type = "Maritime"
 discovery = ""
+reward = 1000000
+advance = 1000000
+difficulty = 3
 skills = [{ name = "Spanish", level = 1 }]
 variants = [{ city = "Lisbon", guild_type = "Maritime", id = "99996615", slug = "the-wolf-of-the-mediterranean" }]
 steps = []

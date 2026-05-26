@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Calicut"
 guild_type = "Maritime"
 discovery = ""
+reward = 85000
+advance = 17000
+difficulty = 6
 skills = [{ name = "Indian Languages", level = 1 }]
 variants = [{ city = "Calicut", guild_type = "Maritime", id = "99996243", slug = "valuable-statue" }]
 steps = [{ step = 1, location = "Calicut", action = "Costumer" }, { step = 2, location = "Calicut", action = "Port official" }, { step = 3, location = "Waters west of Goa", action = "4 ships." }]

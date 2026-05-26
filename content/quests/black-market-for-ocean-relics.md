@@ -10,7 +10,11 @@ type = "Maritime"
 city = "Athens"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 3
 skills = [{ name = "Arabic", level = 1 }]
 variants = [{ city = "Athens", guild_type = "Maritime", id = "99996416", slug = "black-market-for-ocean-relics" }]
 steps = [{ step = 1, location = "Alexandria Archives", action = "Talk to Scholar" }, { step = 2, location = "Egypt North Coast", action = "Defeat Ottoman Thief Lv10 x1 which stands near Oasis(Center)" }]
+equipment_rewards = [{ id = "00003814", name = "Silk Burundjuk", slug = "silk-burundjuk" }]
 +++

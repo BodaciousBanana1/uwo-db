@@ -10,6 +10,9 @@ type = "Maritime"
 city = "London"
 guild_type = "Maritime"
 discovery = ""
+reward = 8900
+advance = 1780
+difficulty = 2
 skills = []
 variants = [{ city = "Lisbon", guild_type = "Maritime", id = "99996606", slug = "blockade-lisbon" }, { city = "London", guild_type = "Maritime", id = "99996713", slug = "blockade-london" }]
 steps = []

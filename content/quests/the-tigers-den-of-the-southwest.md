@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Santo Domingo"
 guild_type = "Maritime"
 discovery = ""
+reward = 180000
+advance = 36000
+difficulty = 7
 skills = [{ name = "Spanish", level = 1 }]
 variants = [{ city = "Santo Domingo", guild_type = "Maritime", id = "99990231", slug = "the-tigers-den-of-the-southwest" }]
 steps = []

@@ -10,6 +10,9 @@ type = "Maritime"
 city = "London"
 guild_type = "Maritime"
 discovery = ""
+reward = 140000
+advance = 28000
+difficulty = 9
 skills = [{ name = "Nordic", level = 1 }, { name = "Gunnery", level = 10 }, { name = "Ballistics", level = 5 }]
 variants = [{ city = "London", guild_type = "Maritime", id = "99995075", slug = "counterattack-on-the-baltic-pirates" }]
 steps = []

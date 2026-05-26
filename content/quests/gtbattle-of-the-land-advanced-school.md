@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Advanced school"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 1
 skills = []
 variants = [{ city = "Advanced school", guild_type = "Adventurer", id = "99999882", slug = "gtbattle-of-the-land-advanced-school" }, { city = "Advanced school", guild_type = "Adventurer", id = "99999875", slug = "gtbattle-of-the-land-advanced-school" }, { city = "Advanced school", guild_type = "Adventurer", id = "99999868", slug = "gtbattle-of-the-land-advanced-school" }]
 steps = []

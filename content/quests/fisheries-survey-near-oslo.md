@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Amsterdam"
 guild_type = "Adventurer"
 discovery = ""
+reward = 27000
+advance = 0
+difficulty = 4
 skills = [{ name = "Nordic", level = 1 }]
 variants = [{ city = "Amsterdam", guild_type = "Adventurer", id = "99997649", slug = "fisheries-survey-near-oslo" }]
 steps = []

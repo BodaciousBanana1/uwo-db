@@ -10,7 +10,11 @@ type = "Adventure"
 city = "Stockholm"
 guild_type = "Adventurer"
 discovery = "Statue of Pope Joan"
+reward = 0
+advance = 0
+difficulty = 10
 skills = [{ name = "Search", level = 15 }, { name = "Theology", level = 17 }, { name = "Italian", level = 1 }]
 variants = [{ city = "Stockholm", guild_type = "Adventurer", id = "99990767", slug = "legend-of-the-female-pope" }]
 steps = []
+discovery_description = "A statue of Pope Joan. However, as there is no hard evidence of the existence of Pope Joan, it is unknown whether this statue was truly modeled after her."
 +++

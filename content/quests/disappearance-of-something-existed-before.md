@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Marseille"
 guild_type = "Adventurer"
 discovery = "Fork with Two Tines"
+reward = 0
+advance = 0
+difficulty = 7
 skills = [{ name = "Search", level = 3 }, { name = "Appraisal", level = 5 }, { name = "Italian", level = 1 }]
 variants = [{ city = "Marseille", guild_type = "Adventurer", id = "99990501", slug = "disappearance-of-something-existed-before" }]
 steps = [{ step = 1, location = "Venice Archives", action = "Talk to Scholar" }, { step = 3, location = "Orseolo Estate", action = "Use" }]

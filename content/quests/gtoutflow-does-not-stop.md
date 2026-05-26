@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Portobelo"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 7
 skills = []
 variants = [{ city = "Portobelo", guild_type = "Maritime", id = "99996186", slug = "gtoutflow-does-not-stop" }]
 steps = []

@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Venice"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 2
 skills = []
 variants = [{ city = "Venice", guild_type = "Maritime", id = "99996422", slug = "pirates-driven-into-a-corner" }]
 steps = []

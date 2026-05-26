@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Lisbon"
 guild_type = "Adventurer"
 discovery = "Ancona Cathedral"
+reward = 0
+advance = 0
+difficulty = 8
 skills = [{ name = "Recognition", level = 10 }, { name = "Theology", level = 12 }, { name = "Italian", level = 1 }]
 variants = [{ city = "Lisbon", guild_type = "Adventurer", id = "99991504", slug = "temple-watching-over-the-port-town" }]
 steps = []

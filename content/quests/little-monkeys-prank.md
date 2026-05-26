@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Amsterdam"
 guild_type = "Adventurer"
 discovery = "Pygmy Marmoset"
+reward = 80000
+advance = 0
+difficulty = 3
 skills = [{ name = "Nordic", level = 1 }]
 variants = [{ city = "Amsterdam", guild_type = "Adventurer", id = "99997644", slug = "little-monkeys-prank" }]
 steps = []

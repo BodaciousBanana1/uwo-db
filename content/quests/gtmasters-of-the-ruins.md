@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Jakarta"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 8
 skills = [{ name = "Mon-Khmer lang.", level = 1 }]
 variants = [{ city = "Jakarta", guild_type = "Maritime", id = "99996122", slug = "gtmasters-of-the-ruins" }]
 steps = []

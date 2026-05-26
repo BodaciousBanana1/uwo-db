@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Marseille"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 1
 skills = []
 variants = [{ city = "Marseille", guild_type = "Maritime", id = "99996493", slug = "gtpractice-the-french-navy" }]
 steps = []

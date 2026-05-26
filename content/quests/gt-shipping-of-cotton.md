@@ -10,6 +10,9 @@ type = "Trade"
 city = "Calicut"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 5
 skills = [{ name = "Arabic", level = 1 }]
 variants = [{ city = "Calicut", guild_type = "Merchant", id = "99991184", slug = "gt-shipping-of-cotton" }]
 steps = []

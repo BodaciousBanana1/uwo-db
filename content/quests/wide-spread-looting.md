@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Santo Domingo"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 7
 skills = []
 variants = [{ city = "Santo Domingo", guild_type = "Maritime", id = "99996185", slug = "wide-spread-looting" }]
 steps = []

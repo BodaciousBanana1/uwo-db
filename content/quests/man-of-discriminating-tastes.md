@@ -10,6 +10,9 @@ type = "Trade"
 city = "Istanbul"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 2
 skills = [{ name = "Greek", level = 1 }]
 variants = [{ city = "Istanbul", guild_type = "Merchant", id = "99995718", slug = "man-of-discriminating-tastes" }]
 steps = []

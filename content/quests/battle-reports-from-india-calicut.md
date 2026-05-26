@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Calicut"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 6
 skills = []
 variants = [{ city = "Calicut", guild_type = "Maritime", id = "99990336", slug = "battle-reports-from-india-calicut" }, { city = "Calicut", guild_type = "Maritime", id = "99990337", slug = "battle-reports-from-india-calicut" }]
 steps = []

@@ -10,6 +10,9 @@ type = "Trade"
 city = "Calicut"
 guild_type = "Merchant"
 discovery = ""
+reward = 68000
+advance = 768
+difficulty = 4
 skills = [{ name = "Malay/Tagalog", level = 1 }]
 variants = [{ city = "Calicut", guild_type = "Merchant", id = "99993759", slug = "calico-from-a-foreign-land" }]
 steps = []

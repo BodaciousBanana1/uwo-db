@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Hangzhou"
 guild_type = "Adventurer"
 discovery = "Five Flower Lake"
+reward = 0
+advance = 0
+difficulty = 9
 skills = [{ name = "Recognition", level = 11 }, { name = "Geography", level = 13 }, { name = "Chinese", level = 1 }]
 variants = [{ city = "Hangzhou", guild_type = "Adventurer", id = "99991449", slug = "a-colorful-lake" }]
 steps = []

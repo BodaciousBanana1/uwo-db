@@ -10,6 +10,9 @@ type = "Adventure"
 city = "SecretEdict"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 5
 skills = []
 variants = [{ city = "SecretEdict", guild_type = "Adventurer", id = "99999984", slug = "subdue-the-caribbean-bandits" }]
 steps = [{ step = 1, location = "North America Southeast Coast", action = "-" }]

@@ -10,6 +10,9 @@ type = "Trade"
 city = "Lima"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 372
+difficulty = 8
 skills = [{ name = "Storage", level = 7 }, { name = "Portuguese", level = 1 }]
 variants = [{ city = "Lima", guild_type = "Merchant", id = "99995550", slug = "deliver-anchovies" }]
 steps = []

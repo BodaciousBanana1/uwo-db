@@ -10,6 +10,9 @@ type = "Trade"
 city = "Zanzibar"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 3
 skills = [{ name = "Swahili", level = 1 }, { name = "West African Languages", level = 1 }]
 variants = [{ city = "Zanzibar", guild_type = "Merchant", id = "99995634", slug = "latest-market-rates-in-sofala" }]
 steps = []

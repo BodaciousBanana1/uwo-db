@@ -10,6 +10,9 @@ type = "Trade"
 city = "London"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 7
 skills = [{ name = "English", level = 1 }]
 variants = [{ city = "St. Petersburg", guild_type = "Merchant", id = "99990574", slug = "gti-want-to-swallow-the-world-st-petersburg" }, { city = "Hangzhou", guild_type = "Merchant", id = "99991124", slug = "gti-want-to-swallow-the-world-hangzhou" }, { city = "Lisbon", guild_type = "Merchant", id = "99990004", slug = "gti-want-to-swallow-the-world-lisbon" }, { city = "London", guild_type = "Merchant", id = "99991125", slug = "gti-want-to-swallow-the-world-london" }, { city = "Amsterdam", guild_type = "Merchant", id = "99991126", slug = "gti-want-to-swallow-the-world-amsterdam" }]
 steps = []

@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Immigrants"
 guild_type = "Adventurer"
 discovery = "Xanadu"
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "English", level = 1 }]
 variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99990888", slug = "gtnomads-handwriting" }]
 steps = []

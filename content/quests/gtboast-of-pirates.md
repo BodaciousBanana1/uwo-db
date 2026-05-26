@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Stockholm"
 guild_type = "Maritime"
 discovery = ""
+reward = 60000
+advance = 8000
+difficulty = 5
 skills = [{ name = "Nordic", level = 1 }]
 variants = [{ city = "Stockholm", guild_type = "Maritime", id = "99996688", slug = "gtboast-of-pirates" }]
 steps = []

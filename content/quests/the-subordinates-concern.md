@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Santo Domingo"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 9
 skills = []
 variants = [{ city = "Santo Domingo", guild_type = "Maritime", id = "99990386", slug = "the-subordinates-concern" }]
 steps = []

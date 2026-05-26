@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Santiago Imperial Contract"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 1
 skills = [{ name = "Spanish", level = 1 }]
 variants = [{ city = "Santiago Imperial Contract", guild_type = "Adventurer", id = "99997801", slug = "the-will-of-the-people-in-portobelo" }]
 steps = []

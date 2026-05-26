@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Venice"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 3
 skills = [{ name = "Arabic", level = 1 }]
 variants = [{ city = "Tunis", guild_type = "Maritime", id = "99996359", slug = "contact-with-guild-in-alexandria-tunis" }, { city = "Venice", guild_type = "Maritime", id = "99996443", slug = "contact-with-guild-in-alexandria-venice" }]
 steps = []

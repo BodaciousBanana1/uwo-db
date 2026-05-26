@@ -10,7 +10,13 @@ type = "Adventure"
 city = "Calicut"
 guild_type = "Adventurer"
 discovery = "Ahn Gyeon Ink Painting"
+reward = 0
+advance = 0
+difficulty = 2
 skills = [{ name = "Search", level = 2 }, { name = "Art", level = 4 }, { name = "Korean", level = 1 }]
 variants = [{ city = "Calicut", guild_type = "Adventurer", id = "99997158", slug = "offshoot-artist" }]
 steps = [{ step = 1, location = "Hanyang", action = "Talk to Scholar" }, { step = 2, location = "Hanyang", action = "Talk to Sin Siamdang ( around southwest part of town)" }, { step = 3, location = "Hanyang", action = "Use" }]
+discovery_description = "Drawing by the Korean artist, Sin Saimdang. The eye is drawn to its vibrant colours and its delicate styles. Pictures of plants and insects like this must have been a joy for Korean artists to draw."
+exp_reward = 280
+fame_reward = 140
 +++

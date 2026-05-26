@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Lisbon"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 3
 skills = [{ name = "Spanish", level = 1 }]
 variants = [{ city = "Lisbon", guild_type = "Maritime", id = "99996608", slug = "the-unidentified-privateering-boats" }]
 steps = []

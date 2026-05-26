@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Naples"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 2
 skills = [{ name = "Arabic", level = 1 }]
 variants = [{ city = "Naples", guild_type = "Adventurer", id = "99997358", slug = "fisheries-survey-near-tripoli" }]
 steps = []

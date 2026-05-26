@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Tunis"
 guild_type = "Adventurer"
 discovery = ""
+reward = 12000
+advance = 0
+difficulty = 2
 skills = [{ name = "Portuguese", level = 1 }, { name = "Arabic", level = 1 }, { name = "Archaeology", level = 1 }]
 variants = [{ city = "Tunis", guild_type = "Adventurer", id = "99994655", slug = "man-pretending-as-royalty" }]
 steps = []

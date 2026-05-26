@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Further Research"
 guild_type = "Adventurer"
 discovery = "Albino Sea Cucumber"
+reward = 0
+advance = 0
+difficulty = 8
 skills = [{ name = "Ecological Research", level = 10 }, { name = "Biology", level = 12 }, { name = "French", level = 1 }]
 variants = [{ city = "Further Research", guild_type = "Adventurer", id = "99991532", slug = "further-research-on-japanese-sea-cucumber" }]
 steps = []

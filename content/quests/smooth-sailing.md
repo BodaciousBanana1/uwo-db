@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Lisbon"
 guild_type = "Adventurer"
 discovery = "Threatening Letter Addressed to Jose's Father"
+reward = 0
+advance = 0
+difficulty = 6
 skills = [{ name = "Portuguese", level = 1 }]
 variants = [{ city = "Lisbon", guild_type = "Adventurer", id = "99990590", slug = "smooth-sailing" }]
 steps = [{ step = 4, location = "Saint", action = "Georges" }, { step = 14, location = "Mist", action = "Shatterig Light" }]

@@ -10,6 +10,9 @@ type = "Maritime"
 city = "London"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 7
 skills = [{ name = "Spanish", level = 1 }]
 variants = [{ city = "London", guild_type = "Maritime", id = "99996732", slug = "gtfor-the-siege-of" }]
 steps = []

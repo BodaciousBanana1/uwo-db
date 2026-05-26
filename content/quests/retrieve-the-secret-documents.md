@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Saint-Georges"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 7
 skills = []
 variants = [{ city = "Saint-Georges", guild_type = "Maritime", id = "99996353", slug = "retrieve-the-secret-documents" }]
 steps = []

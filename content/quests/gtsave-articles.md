@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Immigrants"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 1
 skills = [{ name = "Dutch", level = 1 }]
 variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99991078", slug = "gtsave-articles" }]
 steps = []

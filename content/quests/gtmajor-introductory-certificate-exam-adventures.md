@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Beginners school"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 1
 skills = [{ name = "Ecological Research", level = 1 }]
 variants = [{ city = "Beginners school", guild_type = "Adventurer", id = "99999808", slug = "gtmajor-introductory-certificate-exam-adventures" }]
 steps = []

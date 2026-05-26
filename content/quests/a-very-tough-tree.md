@@ -10,6 +10,9 @@ type = "Trade"
 city = "Jakarta"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 5
 skills = [{ name = "West African Languages", level = 1 }]
 variants = [{ city = "Jakarta", guild_type = "Merchant", id = "99995524", slug = "a-very-tough-tree" }]
 steps = []

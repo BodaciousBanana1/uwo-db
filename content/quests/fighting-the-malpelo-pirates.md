@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Lima"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 7
 skills = []
 variants = [{ city = "Lima", guild_type = "Maritime", id = "99998113", slug = "fighting-the-malpelo-pirates" }]
 steps = []

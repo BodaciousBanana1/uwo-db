@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Lisbon"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 3
 skills = [{ name = "Procurement", level = 2 }, { name = "Spanish", level = 1 }, { name = "French", level = 1 }]
 variants = [{ city = "Lisbon", guild_type = "Adventurer", id = "99997535", slug = "gtprocurement-of-deer" }]
 steps = []

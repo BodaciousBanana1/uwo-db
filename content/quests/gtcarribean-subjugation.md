@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Portobelo"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 5
 skills = []
 variants = [{ city = "Portobelo", guild_type = "Maritime", id = "99990626", slug = "gtcarribean-subjugation" }]
 steps = []

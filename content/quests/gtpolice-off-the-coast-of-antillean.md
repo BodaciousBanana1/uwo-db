@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Immigrants"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 8
 skills = []
 variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99990981", slug = "gtpolice-off-the-coast-of-antillean" }]
 steps = []

@@ -1,0 +1,115 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} - Jobs{% endblock %}
+
+{% block content %}
+<article class="detail-page">
+  <header class="detail-header">
+    <nav class="breadcrumb">
+      <a href="/jobs/">Jobs</a> / {{ page.extra.type }}
+    </nav>
+    <h1>{{ page.title }}</h1>
+    <div class="detail-meta">
+      <span class="badge badge-{{ page.extra.type | lower }}">{{ page.extra.type }}</span>
+    </div>
+  </header>
+
+  <div class="detail-grid">
+    {% if page.extra.description %}
+    <section class="detail-section">
+      <h2>Description</h2>
+      <p class="job-description">{{ page.extra.description }}</p>
+    </section>
+    {% endif %}
+
+    <section class="detail-section">
+      <h2>Requirements</h2>
+      <table class="detail-table">
+        <tbody>
+          {% if page.extra.adventure_level %}
+          <tr>
+            <th>Adventure Level</th>
+            <td>{{ page.extra.adventure_level }}</td>
+          </tr>
+          {% endif %}
+          {% if page.extra.trade_level %}
+          <tr>
+            <th>Trade Level</th>
+            <td>{{ page.extra.trade_level }}</td>
+          </tr>
+          {% endif %}
+          {% if page.extra.battle_level %}
+          <tr>
+            <th>Battle Level</th>
+            <td>{{ page.extra.battle_level }}</td>
+          </tr>
+          {% endif %}
+          {% if page.extra.total_level %}
+          <tr>
+            <th>Total Level</th>
+            <td>{{ page.extra.total_level }}</td>
+          </tr>
+          {% endif %}
+          {% if page.extra.cost %}
+          <tr>
+            <th>Cost</th>
+            <td>{{ page.extra.cost }} Ducats</td>
+          </tr>
+          {% endif %}
+        </tbody>
+      </table>
+    </section>
+
+    {% if page.extra.skills and page.extra.skills | length > 0 %}
+    <section class="detail-section">
+      <h2>Skills</h2>
+      <table class="detail-table skills-table">
+        <thead>
+          <tr>
+            <th>Skill</th>
+            <th>Type</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for skill in page.extra.skills %}
+          <tr class="skill-row {{ skill.type }}">
+            <td>
+              <a href="/skills/{{ skill.name | lower | replace(from=' ', to='-') }}/">{{ skill.name }}</a>
+            </td>
+            <td>
+              {% if skill.type == "expert" %}
+              <span class="skill-type-badge expert">Expert (+1)</span>
+              {% else %}
+              <span class="skill-type-badge favoured">Favoured</span>
+              {% endif %}
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </section>
+    {% endif %}
+
+    {% if page.extra.quests and page.extra.quests | length > 0 %}
+    <section class="detail-section">
+      <h2>Related Quests</h2>
+      <ul class="quest-list">
+        {% for quest in page.extra.quests %}
+        <li>
+          {% if quest.slug %}
+          <a href="/quests/{{ quest.slug }}/">{{ quest.name }}</a>
+          {% else %}
+          {{ quest.name }}
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+  </div>
+
+  <footer class="detail-footer">
+    <a href="/jobs/" class="back-link">← Back to Jobs</a>
+  </footer>
+</article>
+{% endblock %}

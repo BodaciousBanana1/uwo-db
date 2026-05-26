@@ -10,6 +10,9 @@ type = "Trade"
 city = "Amsterdam"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 3
 skills = [{ name = "Dutch", level = 1 }, { name = "Nordic", level = 1 }]
 variants = [{ city = "Amsterdam", guild_type = "Merchant", id = "99996075", slug = "the-dangerous-north-sea" }]
 steps = []

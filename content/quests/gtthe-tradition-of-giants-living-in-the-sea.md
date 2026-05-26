@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Folklores"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 7
 skills = [{ name = "Biology", level = 9 }]
 variants = [{ city = "Folklores", guild_type = "Adventurer", id = "99990517", slug = "gtthe-tradition-of-giants-living-in-the-sea" }]
 steps = []

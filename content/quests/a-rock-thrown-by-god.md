@@ -10,7 +10,13 @@ type = "Adventure"
 city = "Jakarta"
 guild_type = "Adventurer"
 discovery = "Tahiti"
+reward = 0
+advance = 0
+difficulty = 6
 skills = [{ name = "Recognition", level = 5 }, { name = "Geography", level = 7 }, { name = "Dutch", level = 1 }]
 variants = [{ city = "Jakarta", guild_type = "Adventurer", id = "99995166", slug = "a-rock-thrown-by-god" }]
 steps = [{ step = 1, location = "Ambon", action = "speak with City Official 6x" }, { step = 2, location = "Samoan Sea Basin", action = "use" }]
+discovery_description = "The island chain located northeast of the Fiji Islands. There are two main islands; Savai'i and Upolo. Both islands are volcanic with beautiful coral reefs lining the coasts."
+exp_reward = 484
+fame_reward = 220
 +++

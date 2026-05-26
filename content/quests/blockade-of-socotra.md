@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Aden"
 guild_type = "Maritime"
 discovery = ""
+reward = 310000
+advance = 20000
+difficulty = 10
 skills = []
 variants = [{ city = "Aden", guild_type = "Maritime", id = "99999975", slug = "blockade-of-socotra" }]
 steps = []

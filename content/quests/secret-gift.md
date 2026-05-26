@@ -10,6 +10,9 @@ type = "Trade"
 city = "Seville"
 guild_type = "Merchant"
 discovery = ""
+reward = 23
+advance = 0
+difficulty = 3
 skills = [{ name = "Italian", level = 1 }]
 variants = [{ city = "Seville", guild_type = "Merchant", id = "99995133", slug = "secret-gift" }]
 steps = []

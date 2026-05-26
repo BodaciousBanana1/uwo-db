@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Cape Town"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 7
 skills = [{ name = "Swahili", level = 1 }]
 variants = [{ city = "Cape Town", guild_type = "Maritime", id = "99996330", slug = "blockade-at-the-straits" }]
 steps = []

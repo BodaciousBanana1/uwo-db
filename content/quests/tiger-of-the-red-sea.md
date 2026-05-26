@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Zanzibar"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 7
 skills = [{ name = "Arabic", level = 1 }]
 variants = [{ city = "Zanzibar", guild_type = "Maritime", id = "99996289", slug = "tiger-of-the-red-sea" }]
 steps = []

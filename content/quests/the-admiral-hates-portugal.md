@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Seville"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 2
 skills = [{ name = "Spanish", level = 1 }, { name = "Portuguese", level = 1 }]
 variants = [{ city = "Seville", guild_type = "Maritime", id = "99991464", slug = "the-admiral-hates-portugal" }]
 steps = [{ step = 1, location = "Seville", action = "Talk to Port Official" }, { step = 2, location = "Lisbon", action = "Talk to Port Official" }, { step = 3, location = "Lisbon", action = "Talk to Guard (outside Palace)" }]

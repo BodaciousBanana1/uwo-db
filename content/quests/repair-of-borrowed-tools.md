@@ -10,6 +10,9 @@ type = "Trade"
 city = "Lisbon"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 2
 skills = [{ name = "Spanish", level = 1 }, { name = "Portuguese", level = 1 }]
 variants = [{ city = "Lisbon", guild_type = "Merchant", id = "99995941", slug = "repair-of-borrowed-tools" }]
 steps = []

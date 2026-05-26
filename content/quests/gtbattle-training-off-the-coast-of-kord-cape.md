@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Immigrants"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 3
 skills = []
 variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99991063", slug = "gtbattle-training-off-the-coast-of-kord-cape" }]
 steps = []

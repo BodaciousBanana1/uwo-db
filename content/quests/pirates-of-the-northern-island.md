@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Cape Town"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 5
 skills = [{ name = "West African Languages", level = 1 }]
 variants = [{ city = "Cape Town", guild_type = "Maritime", id = "99996317", slug = "pirates-of-the-northern-island" }]
 steps = []

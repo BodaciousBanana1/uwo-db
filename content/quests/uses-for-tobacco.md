@@ -10,6 +10,9 @@ type = "Trade"
 city = "Portobelo"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 6
 skills = [{ name = "Greek", level = 1 }]
 variants = [{ city = "Portobelo", guild_type = "Merchant", id = "99990252", slug = "uses-for-tobacco" }]
 steps = []

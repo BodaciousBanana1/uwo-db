@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Aden"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 8
 skills = [{ name = "Indian Languages", level = 1 }]
 variants = [{ city = "Aden", guild_type = "Maritime", id = "99996309", slug = "pirates-of-kutch-bay" }]
 steps = []

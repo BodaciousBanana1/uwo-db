@@ -10,6 +10,9 @@ type = "Trade"
 city = "Amsterdam"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "Dutch", level = 1 }]
 variants = [{ city = "Amsterdam", guild_type = "Merchant", id = "99996082", slug = "purchase-arquebuses" }]
 steps = []

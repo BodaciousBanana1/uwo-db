@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Zanzibar"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 6
 skills = [{ name = "Swahili", level = 1 }]
 variants = [{ city = "Zanzibar", guild_type = "Maritime", id = "99996281", slug = "rescue-the-prisoners" }]
 steps = []

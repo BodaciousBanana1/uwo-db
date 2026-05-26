@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Treasure Hunt"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "Search", level = 5 }, { name = "Theology", level = 7 }, { name = "Ancient Egyptian", level = 1 }]
 variants = [{ city = "Treasure Hunt", guild_type = "Adventurer", id = "99991146", slug = "gt-sun-god-atten" }]
 steps = []

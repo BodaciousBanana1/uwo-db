@@ -10,6 +10,9 @@ type = "Maritime"
 city = "London"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 5
 skills = [{ name = "French", level = 1 }]
 variants = [{ city = "London", guild_type = "Maritime", id = "99996727", slug = "privateer-ships-of-brittany" }]
 steps = []

@@ -10,6 +10,9 @@ type = "Trade"
 city = "Amsterdam"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 9
 skills = [{ name = "Italian", level = 1 }, { name = "Alchemy", level = 13 }]
 variants = [{ city = "Amsterdam", guild_type = "Merchant", id = "99990131", slug = "gta-sword-made-of-a-ring-of-metal" }]
 steps = []

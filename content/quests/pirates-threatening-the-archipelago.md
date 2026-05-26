@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Jakarta"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 7
 skills = []
 variants = [{ city = "Jakarta", guild_type = "Maritime", id = "99996117", slug = "pirates-threatening-the-archipelago" }]
 steps = []

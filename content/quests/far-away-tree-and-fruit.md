@@ -10,6 +10,9 @@ type = "Trade"
 city = "Athens"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "Greek", level = 1 }]
 variants = [{ city = "Athens", guild_type = "Merchant", id = "99995754", slug = "far-away-tree-and-fruit" }]
 steps = []

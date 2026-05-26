@@ -10,6 +10,9 @@ type = "Trade"
 city = "Calicut"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 8
 skills = [{ name = "Italian", level = 1 }]
 variants = [{ city = "Calicut", guild_type = "Merchant", id = "99995609", slug = "deliver-indigo" }]
 steps = []

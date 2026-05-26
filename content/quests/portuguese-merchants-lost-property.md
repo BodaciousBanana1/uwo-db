@@ -10,6 +10,9 @@ type = "Trade"
 city = "Istanbul"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "Portuguese", level = 1 }, { name = "Arabic", level = 1 }]
 variants = [{ city = "Istanbul", guild_type = "Merchant", id = "99995735", slug = "portuguese-merchants-lost-property" }]
 steps = []

@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Aden"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 5
 skills = [{ name = "Arabic", level = 1 }]
 variants = [{ city = "Aden", guild_type = "Maritime", id = "99996295", slug = "destroy-the-privateer-ship" }]
 steps = []

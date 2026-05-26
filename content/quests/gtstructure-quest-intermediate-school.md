@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Intermediate school"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 1
 skills = []
 variants = [{ city = "Intermediate school", guild_type = "Adventurer", id = "99999830", slug = "gtstructure-quest-intermediate-school" }, { city = "Intermediate school", guild_type = "Adventurer", id = "99999848", slug = "gtstructure-quest-intermediate-school" }, { city = "Intermediate school", guild_type = "Adventurer", id = "99999839", slug = "gtstructure-quest-intermediate-school" }]
 steps = []

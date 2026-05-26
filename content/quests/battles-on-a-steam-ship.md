@@ -10,6 +10,9 @@ type = "Maritime"
 city = "London"
 guild_type = "Maritime"
 discovery = ""
+reward = 16000
+advance = 3200
+difficulty = 7
 skills = []
 variants = [{ city = "London", guild_type = "Maritime", id = "99990849", slug = "battles-on-a-steam-ship" }]
 steps = []

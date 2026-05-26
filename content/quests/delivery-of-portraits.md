@@ -10,6 +10,9 @@ type = "Trade"
 city = "Seville"
 guild_type = "Merchant"
 discovery = ""
+reward = 6200
+advance = 0
+difficulty = 2
 skills = [{ name = "Spanish", level = 1 }]
 variants = [{ city = "Seville", guild_type = "Merchant", id = "99995903", slug = "delivery-of-portraits" }]
 steps = []

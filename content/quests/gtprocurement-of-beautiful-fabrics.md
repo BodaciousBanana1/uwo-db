@@ -10,6 +10,9 @@ type = "Trade"
 city = "Istanbul"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "Arabic", level = 1 }]
 variants = [{ city = "Istanbul", guild_type = "Merchant", id = "99995731", slug = "gtprocurement-of-beautiful-fabrics" }]
 steps = []

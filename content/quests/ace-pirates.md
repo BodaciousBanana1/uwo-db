@@ -10,7 +10,11 @@ type = "Maritime"
 city = "Cape Town"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 6
 skills = [{ name = "West African Languages", level = 1 }]
 variants = [{ city = "Cape Town", guild_type = "Maritime", id = "99996324", slug = "ace-pirates" }]
 steps = []
+equipment_rewards = [{ id = "00900310", name = "Extra Sprit", slug = "extra-sprit" }]
 +++

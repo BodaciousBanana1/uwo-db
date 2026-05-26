@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Calicut"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 7
 skills = [{ name = "Dutch", level = 1 }, { name = "Gunnery", level = 3 }]
 variants = [{ city = "Calicut", guild_type = "Maritime", id = "99996255", slug = "regular-communication-with-amsterdam" }]
 steps = []

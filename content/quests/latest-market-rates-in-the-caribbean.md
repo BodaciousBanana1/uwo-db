@@ -10,6 +10,9 @@ type = "Trade"
 city = "Santo Domingo"
 guild_type = "Merchant"
 discovery = ""
+reward = 55000
+advance = 0
+difficulty = 5
 skills = [{ name = "Spanish", level = 1 }]
 variants = [{ city = "Santo Domingo", guild_type = "Merchant", id = "99993710", slug = "latest-market-rates-in-the-caribbean" }]
 steps = []

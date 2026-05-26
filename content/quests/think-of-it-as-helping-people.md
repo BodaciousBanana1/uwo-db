@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Alexandria"
 guild_type = "Adventurer"
 discovery = "Feiyufu"
+reward = 0
+advance = 0
+difficulty = 1
 skills = [{ name = "Search", level = 8 }, { name = "Appraisal", level = 10 }, { name = "Arabic", level = 1 }]
 variants = [{ city = "Alexandria", guild_type = "Adventurer", id = "99991509", slug = "think-of-it-as-helping-people" }]
 steps = []

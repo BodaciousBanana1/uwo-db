@@ -10,6 +10,9 @@ type = "Adventure"
 city = "London Imperial Contract"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 10
 skills = []
 variants = [{ city = "London Imperial Contract", guild_type = "Adventurer", id = "99996741", slug = "caution-against-base-assaults" }]
 steps = []

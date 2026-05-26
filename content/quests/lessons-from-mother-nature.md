@@ -10,6 +10,9 @@ type = "Trade"
 city = "Santo Domingo"
 guild_type = "Merchant"
 discovery = "Armadillo"
+reward = 320
+advance = 0
+difficulty = 4
 skills = [{ name = "Procurement", level = 4 }, { name = "Spanish", level = 1 }]
 variants = [{ city = "Santo Domingo", guild_type = "Merchant", id = "99995574", slug = "lessons-from-mother-nature" }]
 steps = []

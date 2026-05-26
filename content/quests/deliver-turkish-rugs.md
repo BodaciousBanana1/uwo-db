@@ -10,6 +10,9 @@ type = "Trade"
 city = "Istanbul"
 guild_type = "Merchant"
 discovery = ""
+reward = 58000
+advance = 3648
+difficulty = 5
 skills = [{ name = "Turkish", level = 1 }]
 variants = [{ city = "Istanbul", guild_type = "Merchant", id = "99993778", slug = "deliver-turkish-rugs" }]
 steps = []

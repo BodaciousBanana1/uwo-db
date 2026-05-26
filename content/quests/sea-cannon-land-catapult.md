@@ -10,6 +10,9 @@ type = "Maritime"
 city = "London"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 3
 skills = [{ name = "English", level = 1 }, { name = "Spanish", level = 1 }]
 variants = [{ city = "London", guild_type = "Maritime", id = "99996648", slug = "sea-cannon-land-catapult" }]
 steps = []

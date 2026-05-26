@@ -10,6 +10,9 @@ type = "Trade"
 city = "Marseille"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 7
 skills = [{ name = "Spanish", level = 1 }]
 variants = [{ city = "Marseille", guild_type = "Merchant", id = "99995886", slug = "gtdelivery-of-velvet" }]
 steps = []

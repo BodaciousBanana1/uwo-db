@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Jakarta"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 5
 skills = [{ name = "Oceanic Languages", level = 1 }]
 variants = [{ city = "Jakarta", guild_type = "Adventurer", id = "99999993", slug = "gtgreat-event-of-the-background-check" }]
 steps = []

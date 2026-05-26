@@ -10,6 +10,9 @@ type = "Trade"
 city = "Sagres"
 guild_type = "Merchant"
 discovery = ""
+reward = 28000
+advance = 23040
+difficulty = 2
 skills = []
 variants = [{ city = "Sagres", guild_type = "Merchant", id = "99990465", slug = "delivering-honey" }]
 steps = []

@@ -10,6 +10,9 @@ type = "Trade"
 city = "Rio de Janeiro"
 guild_type = "Merchant"
 discovery = ""
+reward = 83200
+advance = 0
+difficulty = 4
 skills = [{ name = "Portuguese", level = 1 }]
 variants = [{ city = "Rio de Janeiro", guild_type = "Merchant", id = "99993714", slug = "information-on-bahia-speciality-items" }]
 steps = []

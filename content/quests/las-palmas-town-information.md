@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Saint-Georges"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "Spanish", level = 1 }]
 variants = [{ city = "Saint-Georges", guild_type = "Adventurer", id = "99997252", slug = "las-palmas-town-information" }]
 steps = []

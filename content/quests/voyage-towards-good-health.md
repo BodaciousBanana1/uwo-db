@@ -10,6 +10,9 @@ type = "Adventure"
 city = "San Francisco"
 guild_type = "Adventurer"
 discovery = "Seaberry"
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "Ecological Research", level = 3 }, { name = "Biology", level = 5 }, { name = "Japanese", level = 1 }]
 variants = [{ city = "San Francisco", guild_type = "Adventurer", id = "99991214", slug = "voyage-towards-good-health" }]
 steps = [{ step = 1, location = "Edo", action = "Talk to Maiden (Square)" }, { step = 2, location = "Hangzhou", action = "Talk to Merchant (Tavern)" }, { step = 3, location = "China Southeast Coast", action = "Use" }]

@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Amsterdam"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 1
 skills = []
 variants = [{ city = "Amsterdam", guild_type = "Maritime", id = "99996695", slug = "dutch-navy-drill" }]
 steps = []

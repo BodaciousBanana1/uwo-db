@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Cape Town"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 4
 skills = []
 variants = [{ city = "Cape Town", guild_type = "Maritime", id = "99996314", slug = "gtfri-attack-transport-ship-plan" }]
 steps = []

@@ -10,6 +10,9 @@ type = "Adventure"
 city = "East Asia"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 10
 skills = [{ name = "Swordplay", level = 14 }, { name = "Sword Mastery", level = 11 }]
 variants = [{ city = "East Asia", guild_type = "Adventurer", id = "99990573", slug = "gtbeast-attack-exercise-east-asia" }, { city = "East Asia", guild_type = "Adventurer", id = "99990633", slug = "gtbeast-attack-exercise-east-asia" }]
 steps = []

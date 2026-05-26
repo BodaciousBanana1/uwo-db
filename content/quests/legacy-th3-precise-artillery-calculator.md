@@ -10,6 +10,9 @@ type = "Adventure"
 city = "London"
 guild_type = "Adventurer"
 discovery = "Inca Yupana"
+reward = 0
+advance = 0
+difficulty = 2
 skills = [{ name = "Search", level = 1 }, { name = "Archaeology", level = 3 }, { name = "Italian", level = 0 }]
 variants = [{ city = "London", guild_type = "Adventurer", id = "99991207", slug = "legacy-th3-precise-artillery-calculator" }]
 steps = []

@@ -10,6 +10,9 @@ type = "Maritime"
 city = "London"
 guild_type = "Maritime"
 discovery = ""
+reward = 300
+advance = 0
+difficulty = 1
 skills = [{ name = "English", level = 1 }]
 variants = [{ city = "London", guild_type = "Maritime", id = "99996632", slug = "the-basics-of-navel-battle" }]
 steps = []

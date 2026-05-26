@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Marseille"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 5
 skills = []
 variants = [{ city = "Marseille", guild_type = "Maritime", id = "99996520", slug = "a-great-incoming-fleet" }]
 steps = []

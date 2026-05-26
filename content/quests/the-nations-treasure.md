@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Venice"
 guild_type = "Adventurer"
 discovery = "The Ruins of Pompeii"
+reward = 0
+advance = 0
+difficulty = 6
 skills = [{ name = "Italian", level = 1 }, { name = "Throwing", level = 8 }]
 variants = [{ city = "Venice", guild_type = "Adventurer", id = "99994401", slug = "the-nations-treasure" }]
 steps = [{ step = 1, location = "Venice", action = "Senator (infront of church) ×4" }, { step = 5, location = "Campagna", action = "Upturned boulder located most southeast" }]

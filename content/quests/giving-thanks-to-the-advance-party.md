@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Rio de Janeiro Imperial Contract"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 1
 skills = []
 variants = [{ city = "Rio de Janeiro Imperial Contract", guild_type = "Adventurer", id = "99995556", slug = "giving-thanks-to-the-advance-party" }]
 steps = []

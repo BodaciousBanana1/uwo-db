@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Hangzhou"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 3
 skills = []
 variants = [{ city = "Hangzhou", guild_type = "Maritime", id = "99996094", slug = "communication-to-jakarta-hangzhou" }, { city = "Lima", guild_type = "Maritime", id = "99996216", slug = "communication-to-jakarta-lima" }]
 steps = []

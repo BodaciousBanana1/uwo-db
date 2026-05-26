@@ -10,6 +10,9 @@ type = "Trade"
 city = "Lisbon"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 6
 skills = [{ name = "West African Languages", level = 1 }]
 variants = [{ city = "Lisbon", guild_type = "Merchant", id = "99990494", slug = "gtrequesting-royal-food-delivery" }]
 steps = []

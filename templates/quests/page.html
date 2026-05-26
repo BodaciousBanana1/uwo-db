@@ -20,6 +20,26 @@
 
   <div class="detail-grid">
     <section class="detail-section">
+      <h2>Quest Info</h2>
+      <table class="detail-table">
+        <tbody>
+          <tr>
+            <th>Reward</th>
+            <td>{{ page.extra.reward | default(value=0) }} Ducats</td>
+          </tr>
+          <tr>
+            <th>Advance</th>
+            <td>{{ page.extra.advance | default(value=0) }} Ducats</td>
+          </tr>
+          <tr>
+            <th>Difficulty</th>
+            <td class="difficulty">{% for i in range(end=page.extra.difficulty | default(value=1)) %}★{% endfor %}{% for i in range(end=10 - page.extra.difficulty | default(value=1)) %}☆{% endfor %}</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="detail-section">
       <h2>Requirements</h2>
       {% if page.extra.skills and page.extra.skills | length > 0 %}
       <table class="detail-table">
@@ -47,6 +67,72 @@
     <section class="detail-section">
       <h2>Discovery</h2>
       <p class="discovery-name">{{ page.extra.discovery }}</p>
+      {% if page.extra.discovery_description %}
+      <p class="discovery-description">{{ page.extra.discovery_description }}</p>
+      {% endif %}
+      {% if page.extra.exp_reward or page.extra.fame_reward %}
+      <div class="discovery-rewards">
+        {% if page.extra.exp_reward %}<span class="reward-exp">+{{ page.extra.exp_reward }} Exp</span>{% endif %}
+        {% if page.extra.fame_reward %}<span class="reward-fame">+{{ page.extra.fame_reward }} Fame</span>{% endif %}
+      </div>
+      {% endif %}
+    </section>
+    {% endif %}
+
+    {% if page.extra.equipment_rewards and page.extra.equipment_rewards | length > 0 %}
+    <section class="detail-section">
+      <h2>Equipment Rewards</h2>
+      <ul class="equipment-rewards-list">
+        {% for equip in page.extra.equipment_rewards %}
+        <li><a href="/equipment/{{ equip.slug }}/">{{ equip.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    {% if page.extra.prerequisites and page.extra.prerequisites | length > 0 %}
+    <section class="detail-section quest-chain">
+      <h2>Quest Chain</h2>
+      <div class="chain-section">
+        <h3>Prerequisites</h3>
+        <ol class="chain-list prerequisites">
+          {% for prereq in page.extra.prerequisites %}
+          <li><a href="/quests/{{ prereq.slug }}/">{{ prereq.name }}</a></li>
+          {% endfor %}
+        </ol>
+      </div>
+      <div class="chain-current">
+        <span class="chain-marker">▶</span>
+        <span class="chain-current-name">{{ page.title }}</span>
+        <span class="chain-marker-label">(Current)</span>
+      </div>
+      {% if page.extra.followups and page.extra.followups | length > 0 %}
+      <div class="chain-section">
+        <h3>Next in Chain</h3>
+        <ol class="chain-list followups">
+          {% for followup in page.extra.followups %}
+          <li><a href="/quests/{{ followup.slug }}/">{{ followup.name }}</a></li>
+          {% endfor %}
+        </ol>
+      </div>
+      {% endif %}
+    </section>
+    {% elif page.extra.followups and page.extra.followups | length > 0 %}
+    <section class="detail-section quest-chain">
+      <h2>Quest Chain</h2>
+      <div class="chain-current chain-first">
+        <span class="chain-marker">▶</span>
+        <span class="chain-current-name">{{ page.title }}</span>
+        <span class="chain-marker-label">(Start of chain)</span>
+      </div>
+      <div class="chain-section">
+        <h3>Next in Chain</h3>
+        <ol class="chain-list followups">
+          {% for followup in page.extra.followups %}
+          <li><a href="/quests/{{ followup.slug }}/">{{ followup.name }}</a></li>
+          {% endfor %}
+        </ol>
+      </div>
     </section>
     {% endif %}
 

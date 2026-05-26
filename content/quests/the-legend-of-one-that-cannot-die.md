@@ -10,7 +10,11 @@ type = "Adventure"
 city = "Athens"
 guild_type = "Adventurer"
 discovery = "Odysseia"
+reward = 0
+advance = 0
+difficulty = 5
 skills = [{ name = "Search", level = 4 }, { name = "Archaeology", level = 6 }, { name = "Unlock", level = 4 }]
 variants = [{ city = "Athens", guild_type = "Adventurer", id = "99990169", slug = "the-legend-of-one-that-cannot-die" }]
 steps = [{ step = 1, location = "Athens", action = "Talk to L'isle Adam (Grand maitre de l'Ordre) inside" }, { step = 1, location = "In Athens talk to L'Isle", action = "Adam (Grand maitre de l'Ordre)" }, { step = 2, location = "Athens", action = "Talk to Scholar (2x)" }, { step = 3, location = "Athens", action = "Talk to L'isle Adam (Grand maitre de l'Ordre) inside" }, { step = 3, location = "In Athens talk to L'Isle", action = "Adam (Grand maitre de l'Ordre) twice" }, { step = 4, location = "Riga", action = "Talk to Barkeep" }, { step = 5, location = "St. Petersburg", action = "Talk to Scholar (2x)" }, { step = 6, location = "St. Petersburg", action = "Inside" }]
+discovery_description = "A literary work that compiles the many legends in Europe of a monster that thrives on human blood. At night, buried corpses are said to crawl forth from their graves and prey on humans. They seem to be based on Slavic folklore."
 +++

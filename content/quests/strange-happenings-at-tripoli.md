@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Tunis"
 guild_type = "Maritime"
 discovery = ""
+reward = 9000
+advance = 0
+difficulty = 2
 skills = [{ name = "Arabic", level = 1 }, { name = "Swordplay", level = 2 }]
 variants = [{ city = "Tunis", guild_type = "Maritime", id = "99996361", slug = "strange-happenings-at-tripoli" }]
 steps = []

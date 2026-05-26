@@ -10,6 +10,9 @@ type = "Trade"
 city = "Genoa"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 2
 skills = [{ name = "Spanish", level = 1 }, { name = "French", level = 1 }]
 variants = [{ city = "Genoa", guild_type = "Merchant", id = "99995839", slug = "info-on-west-med-region-trade-plan" }]
 steps = []

@@ -10,6 +10,9 @@ type = "Maritime"
 city = "London"
 guild_type = "Maritime"
 discovery = ""
+reward = 48000
+advance = 0
+difficulty = 2
 skills = [{ name = "English", level = 1 }]
 variants = [{ city = "London", guild_type = "Maritime", id = "99996703", slug = "brigands-of-ireland" }]
 steps = []

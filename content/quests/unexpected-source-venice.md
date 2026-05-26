@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Venice"
 guild_type = "Adventurer"
 discovery = "Knossos Palace"
+reward = 0
+advance = 0
+difficulty = 1
 skills = [{ name = "Search", level = 1 }, { name = "Archaeology", level = 3 }, { name = "German", level = 1 }]
 variants = [{ city = "Venice", guild_type = "Adventurer", id = "99991310", slug = "unexpected-source-venice" }, { city = "Marseille", guild_type = "Adventurer", id = "99990477", slug = "unexpected-source-marseille" }]
 steps = []

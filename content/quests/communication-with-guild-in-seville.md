@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Lisbon"
 guild_type = "Maritime"
 discovery = ""
+reward = 2000
+advance = 0
+difficulty = 2
 skills = [{ name = "Spanish", level = 1 }]
 variants = [{ city = "Lisbon", guild_type = "Maritime", id = "99996593", slug = "communication-with-guild-in-seville" }]
 steps = []

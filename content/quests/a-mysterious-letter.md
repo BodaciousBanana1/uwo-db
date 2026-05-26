@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Amsterdam"
 guild_type = "Adventurer"
 discovery = ""
+reward = 500
+advance = 0
+difficulty = 3
 skills = []
 variants = [{ city = "Amsterdam", guild_type = "Adventurer", id = "99993683", slug = "a-mysterious-letter" }]
 steps = []

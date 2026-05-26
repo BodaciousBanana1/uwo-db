@@ -10,6 +10,9 @@ type = "Maritime"
 city = "London"
 guild_type = "Maritime"
 discovery = ""
+reward = 41000
+advance = 8200
+difficulty = 4
 skills = [{ name = "Nordic", level = 1 }]
 variants = [{ city = "London", guild_type = "Maritime", id = "99996726", slug = "starving-fjord-wolves" }]
 steps = []

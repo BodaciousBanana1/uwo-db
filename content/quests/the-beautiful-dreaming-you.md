@@ -10,7 +10,11 @@ type = "Adventure"
 city = "London"
 guild_type = "Adventurer"
 discovery = "The Book of the Love-Smitten Heart"
+reward = 0
+advance = 0
+difficulty = 3
 skills = [{ name = "Search", level = 1 }, { name = "Art", level = 3 }, { name = "French", level = 1 }]
 variants = [{ city = "London", guild_type = "Adventurer", id = "99990648", slug = "the-beautiful-dreaming-you" }]
 steps = [{ step = 1, location = "Paris", action = "Talk to Attendant (between Carriage and Bank)" }, { step = 2, location = "Paris", action = "Noble Girl (x5)" }, { step = 3, location = "Marseilles", action = "Scholar (x3)" }]
+discovery_description = "A picture book of a chivalrous story written by royalty from 15th century France, Rene d'Anjou. The story is about a 'heart' possessed by 'love' and sets out on a journey to rescue the captured woman it loves. The book is quite popular with ladies due to the poetry and beautiful drawings."
 +++

@@ -10,7 +10,11 @@ type = "Adventure"
 city = "Lima"
 guild_type = "Adventurer"
 discovery = "Anasazi Flute"
+reward = 0
+advance = 0
+difficulty = 5
 skills = [{ name = "Recognition", level = 4 }, { name = "Archaeology", level = 6 }, { name = "North American Languages", level = 1 }]
 variants = [{ city = "Lima", guild_type = "Adventurer", id = "99990436", slug = "house-of-piled-up-bricks" }]
 steps = [{ step = 1, location = "San Francisco", action = "San Francisco scholar x 1" }, { step = 2, location = "Colorado Plateau", action = "Use" }]
+discovery_description = "A village founded by the indigenous people of Pueblo in North America. The buildings are made with  red-brown bricks and have multiple floors."
 +++

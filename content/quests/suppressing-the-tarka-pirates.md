@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Lima"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 10
 skills = []
 variants = [{ city = "Lima", guild_type = "Maritime", id = "99998116", slug = "suppressing-the-tarka-pirates" }]
 steps = []

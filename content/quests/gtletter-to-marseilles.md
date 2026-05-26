@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Immigrants"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 5
 skills = [{ name = "French", level = 1 }]
 variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99991058", slug = "gtletter-to-marseilles" }]
 steps = []

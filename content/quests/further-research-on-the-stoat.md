@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Further Research"
 guild_type = "Adventurer"
 discovery = "Stoat in Winter"
+reward = 0
+advance = 0
+difficulty = 3
 skills = [{ name = "Ecological Research", level = 8 }, { name = "Biology", level = 10 }, { name = "English", level = 1 }]
 variants = [{ city = "Further Research", guild_type = "Adventurer", id = "99991266", slug = "further-research-on-the-stoat" }]
 steps = []

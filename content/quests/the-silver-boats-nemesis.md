@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Santo Domingo"
 guild_type = "Maritime"
 discovery = ""
+reward = 240000
+advance = 48000
+difficulty = 8
 skills = [{ name = "Spanish", level = 1 }]
 variants = [{ city = "Santo Domingo", guild_type = "Maritime", id = "99996160", slug = "the-silver-boats-nemesis" }]
 steps = []

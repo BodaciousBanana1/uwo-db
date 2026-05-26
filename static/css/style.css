@@ -1598,6 +1598,36 @@ button { font-family: inherit; }
   color: #f85149;
 }
 
+/* Equipment category badges */
+.badge-body {
+  background: rgba(88, 166, 255, 0.15);
+  color: #58a6ff;
+}
+.badge-head {
+  background: rgba(210, 153, 235, 0.15);
+  color: #d299eb;
+}
+.badge-hand {
+  background: rgba(255, 166, 87, 0.15);
+  color: #ffa657;
+}
+.badge-foot {
+  background: rgba(121, 192, 255, 0.15);
+  color: #79c0ff;
+}
+.badge-weapon {
+  background: rgba(248, 81, 73, 0.15);
+  color: #f85149;
+}
+.badge-accessory {
+  background: rgba(63, 185, 80, 0.15);
+  color: #3fb950;
+}
+.badge-other {
+  background: rgba(139, 148, 158, 0.15);
+  color: #8b949e;
+}
+
 /* Category tags */
 .category-tag {
   display: inline-block;
@@ -2312,4 +2342,227 @@ button { font-family: inherit; }
 .meta-city {
   color: var(--text-dim);
   font-size: 0.9rem;
+}
+
+/* Difficulty stars */
+.difficulty {
+  color: var(--accent);
+  letter-spacing: 0.1em;
+}
+
+/* === Jobs Page === */
+.job-description {
+  color: var(--text-dim);
+  line-height: 1.7;
+  font-style: italic;
+}
+
+.skill-row.expert td:first-child a {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.skill-type-badge {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.skill-type-badge.expert {
+  background: var(--accent);
+  color: var(--bg-dark);
+}
+
+.skill-type-badge.favoured {
+  background: var(--bg-card);
+  color: var(--text-dim);
+  border: 1px solid var(--border);
+}
+
+.skill-tag.expert {
+  background: var(--accent);
+  color: var(--bg-dark);
+}
+
+.skill-tag.favoured {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+}
+
+.skills-cell .skill-tag {
+  margin: 0.15rem;
+}
+
+.quest-list {
+  list-style: none;
+  padding: 0;
+}
+
+.quest-list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.quest-list li:last-child {
+  border-bottom: none;
+}
+
+.quest-list a {
+  color: var(--accent);
+}
+
+.quest-list a:hover {
+  color: var(--accent-light);
+}
+
+/* Truncation notice */
+.truncation-notice {
+  text-align: center;
+  padding: 0.75rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
+/* Source lists */
+.source-label {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
+.source-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.source-list li {
+  padding: 0.4rem 0;
+  border-bottom: 1px solid var(--border-subtle);
+}
+.source-list li:last-child {
+  border-bottom: none;
+}
+.source-list a {
+  color: var(--accent);
+}
+.source-list a:hover {
+  color: var(--accent-light);
+}
+
+/* Quest chain display */
+.quest-chain h3 {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
+.chain-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+  counter-reset: chain-counter;
+}
+.chain-list li {
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  border-left: 2px solid var(--border);
+}
+.chain-list li::before {
+  content: counter(chain-counter);
+  counter-increment: chain-counter;
+  position: absolute;
+  left: -0.75rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  background: var(--bg-card);
+  border: 2px solid var(--border);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.65rem;
+  font-family: var(--font-mono);
+  color: var(--text-muted);
+}
+.chain-list li:last-child {
+  border-left-color: transparent;
+}
+.chain-list a {
+  color: var(--accent);
+}
+.chain-list a:hover {
+  color: var(--accent-light);
+}
+.chain-current {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem;
+  background: var(--bg-card);
+  border: 1px solid var(--accent);
+  border-radius: 6px;
+  margin: 0.5rem 0 1rem 0;
+}
+.chain-marker {
+  color: var(--accent);
+}
+.chain-current-name {
+  font-weight: 500;
+  color: var(--text);
+}
+.chain-marker-label {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* Quest discovery and rewards */
+.discovery-name {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--text);
+  margin-bottom: 0.5rem;
+}
+.discovery-description {
+  color: var(--text-dim);
+  line-height: 1.6;
+  font-style: italic;
+  margin-bottom: 0.75rem;
+}
+.discovery-rewards {
+  display: flex;
+  gap: 1rem;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+}
+.reward-exp {
+  color: var(--accent);
+}
+.reward-fame {
+  color: var(--green);
+}
+.equipment-rewards-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.equipment-rewards-list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border-subtle);
+}
+.equipment-rewards-list li:last-child {
+  border-bottom: none;
+}
+.equipment-rewards-list a {
+  color: var(--accent);
+  font-weight: 500;
+}
+.equipment-rewards-list a:hover {
+  color: var(--accent-light);
 }

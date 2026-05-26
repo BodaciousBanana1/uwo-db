@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Jakarta"
 guild_type = "Adventurer"
 discovery = "Corpse Lily"
+reward = 0
+advance = 0
+difficulty = 8
 skills = [{ name = "Ecological Research", level = 10 }, { name = "Biology", level = 12 }, { name = "Malay/Tagalog", level = 1 }]
 variants = [{ city = "Jakarta", guild_type = "Adventurer", id = "99990524", slug = "putting-ones-courage-to-the-test" }]
 steps = [{ step = 2, location = "Malacca", action = "Young Man (between the Shipyard and the Gatekeeper)" }, { step = 3, location = "Northwest Malacca", action = "Use" }]

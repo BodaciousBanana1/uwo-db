@@ -10,6 +10,9 @@ type = "Trade"
 city = "Jakarta"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 9
 skills = [{ name = "Portuguese", level = 1 }]
 variants = [{ city = "Jakarta", guild_type = "Merchant", id = "99991108", slug = "gtrequest-for-bauxite-delivery" }]
 steps = []

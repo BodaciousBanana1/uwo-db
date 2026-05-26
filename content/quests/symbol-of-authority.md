@@ -10,7 +10,14 @@ type = "Adventure"
 city = "London"
 guild_type = "Adventurer"
 discovery = "King Otto's Crown"
+reward = 2000
+advance = 0
+difficulty = 5
 skills = [{ name = "Search", level = 3 }, { name = "Appraisal", level = 5 }, { name = "Unlock", level = 3 }]
 variants = [{ city = "London", guild_type = "Adventurer", id = "99993409", slug = "symbol-of-authority" }]
 steps = [{ step = 1, location = "Antwerp", action = "Talk to City Official" }, { step = 1, location = "Antwerp", action = "Town Official" }, { step = 2, location = "Antwerp Tavern", action = "Talk to Barkeep" }, { step = 2, location = "Antwerp", action = "Tavern - Barkeep" }, { step = 3, location = "Antwerp", action = "Queen Maria Estate - Queen Consort Maria" }, { step = 4, location = "Antwerp Church", action = "Click the Bookstand" }, { step = 4, location = "Antwerp Church", action = "Click the Bookstand" }, { step = 5, location = "Nantes", action = "Talk to City Official" }, { step = 5, location = "Nantes", action = "Town Official" }, { step = 6, location = "Nantes", action = "Talk to Shopkeeper" }, { step = 6, location = "Nantes", action = "Shopkeeper (Item Shop)" }, { step = 7, location = "South Nantes", action = "Southeast near the \"Ruins\" use" }, { step = 7, location = "South Nantes", action = "Use Observe/Search near the S-E Ruins" }]
+equipment_rewards = [{ id = "00106400", name = "King Otto's Crown", slug = "king-ottos-crown" }]
+discovery_description = "Crown said to have been used by Otto I when he was crowned the first Emperor of the Holy Roman Empire. Gorgeously made with lavish use of gold and jewels."
+exp_reward = 290
+fame_reward = 130
 +++

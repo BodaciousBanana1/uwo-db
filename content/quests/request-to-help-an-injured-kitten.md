@@ -10,6 +10,9 @@ type = "Adventure"
 city = "St. Petersburg"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 5
 skills = [{ name = "Pet Training", level = 7 }, { name = "Cooking", level = 12 }, { name = "Dutch", level = 1 }]
 variants = [{ city = "St. Petersburg", guild_type = "Adventurer", id = "99991473", slug = "request-to-help-an-injured-kitten" }]
 steps = []

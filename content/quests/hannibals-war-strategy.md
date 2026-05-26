@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Marseille"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 2
 skills = [{ name = "Arabic", level = 1 }, { name = "Archaeology", level = 6 }]
 variants = [{ city = "Marseille", guild_type = "Adventurer", id = "99995171", slug = "hannibals-war-strategy" }]
 steps = [{ step = 1, location = "Tunis Archives", action = "Talk to Scholar" }, { step = 2, location = "Tunis Archives", action = "Read Archaeology Book X2" }]

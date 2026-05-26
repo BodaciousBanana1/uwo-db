@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Istanbul"
 guild_type = "Maritime"
 discovery = ""
+reward = 40000
+advance = 8000
+difficulty = 4
 skills = []
 variants = [{ city = "Istanbul", guild_type = "Maritime", id = "99990273", slug = "incoming-salamander-pirates" }]
 steps = []

@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Immigrants"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 1
 skills = []
 variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99990995", slug = "battle-reports-from-the-ionian-sea" }]
 steps = []

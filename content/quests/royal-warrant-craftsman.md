@@ -10,7 +10,11 @@ type = "Trade"
 city = "Marseille"
 guild_type = "Merchant"
 discovery = ""
+reward = 150000
+advance = 50000
+difficulty = 7
 skills = [{ name = "French", level = 1 }, { name = "Sewing", level = 13 }]
 variants = [{ city = "Marseille", guild_type = "Merchant", id = "99993859", slug = "royal-warrant-craftsman" }]
 steps = []
+followups = [{ id = "99993862", name = "Dream of the noblewomen", slug = "dream-of-the-noblewomen" }]
 +++

@@ -10,6 +10,9 @@ type = "Trade"
 city = "Athens"
 guild_type = "Merchant"
 discovery = ""
+reward = 14000
+advance = 0
+difficulty = 2
 skills = [{ name = "Italian", level = 1 }]
 variants = [{ city = "Athens", guild_type = "Merchant", id = "99995739", slug = "gift-to-pass-to-the-ereonora" }]
 steps = []

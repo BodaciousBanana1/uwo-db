@@ -10,6 +10,9 @@ type = "Trade"
 city = "Jakarta"
 guild_type = "Merchant"
 discovery = ""
+reward = 68000
+advance = 6800
+difficulty = 4
 skills = [{ name = "Indian Languages", level = 1 }]
 variants = [{ city = "Jakarta", guild_type = "Merchant", id = "99993751", slug = "bulk-delivery-of-taros" }]
 steps = []

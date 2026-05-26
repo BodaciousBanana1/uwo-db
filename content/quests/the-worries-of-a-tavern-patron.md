@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Alexandria"
 guild_type = "Maritime"
 discovery = "Pyramids of Giza"
+reward = 0
+advance = 200
+difficulty = 5
 skills = [{ name = "Arabic", level = 1 }]
 variants = [{ city = "Alexandria", guild_type = "Maritime", id = "99992445", slug = "the-worries-of-a-tavern-patron" }]
 steps = []

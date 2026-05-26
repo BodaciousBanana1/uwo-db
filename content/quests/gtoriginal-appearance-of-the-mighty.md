@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Lisbon"
 guild_type = "Maritime"
 discovery = ""
+reward = 600
+advance = 0
+difficulty = 1
 skills = [{ name = "Portuguese", level = 1 }]
 variants = [{ city = "Lisbon", guild_type = "Maritime", id = "99994726", slug = "gtoriginal-appearance-of-the-mighty" }]
 steps = []

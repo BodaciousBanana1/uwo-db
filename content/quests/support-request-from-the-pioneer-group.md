@@ -10,6 +10,9 @@ type = "Maritime"
 city = "San Francisco"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 5
 skills = []
 variants = [{ city = "San Francisco", guild_type = "Maritime", id = "99990429", slug = "support-request-from-the-pioneer-group" }]
 steps = []

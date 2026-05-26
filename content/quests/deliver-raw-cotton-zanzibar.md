@@ -10,6 +10,9 @@ type = "Trade"
 city = "Zanzibar"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 6
 skills = [{ name = "Indian Languages", level = 1 }]
 variants = [{ city = "Calicut", guild_type = "Merchant", id = "99995598", slug = "deliver-raw-cotton-calicut" }, { city = "Zanzibar", guild_type = "Merchant", id = "99995638", slug = "deliver-raw-cotton-zanzibar" }]
 steps = []

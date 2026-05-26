@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Lisbon"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 5
 skills = [{ name = "Portuguese", level = 1 }, { name = "Fishing", level = 10 }, { name = "Spanish", level = 1 }]
 variants = [{ city = "Lisbon", guild_type = "Adventurer", id = "99997557", slug = "procure-tuna" }]
 steps = []

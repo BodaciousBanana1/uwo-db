@@ -10,6 +10,9 @@ type = "Adventure"
 city = "SecretEdict"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 6
 skills = []
 variants = [{ city = "SecretEdict", guild_type = "Adventurer", id = "99991109", slug = "subdue-the-nassau-pirates" }]
 steps = []

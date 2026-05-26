@@ -10,6 +10,9 @@ type = "Trade"
 city = "Venice"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 3
 skills = [{ name = "French", level = 1 }, { name = "Italian", level = 1 }]
 variants = [{ city = "Venice", guild_type = "Merchant", id = "99995781", slug = "deliver-woad" }]
 steps = []

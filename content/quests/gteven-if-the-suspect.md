@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Marseille"
 guild_type = "Maritime"
 discovery = ""
+reward = 130000
+advance = 26000
+difficulty = 7
 skills = [{ name = "French", level = 1 }]
 variants = [{ city = "Marseille", guild_type = "Maritime", id = "99995313", slug = "gteven-if-the-suspect" }]
 steps = []

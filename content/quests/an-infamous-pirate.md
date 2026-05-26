@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Santo Domingo"
 guild_type = "Maritime"
 discovery = ""
+reward = 220000
+advance = 44000
+difficulty = 8
 skills = []
 variants = [{ city = "Santo Domingo", guild_type = "Maritime", id = "99991784", slug = "an-infamous-pirate" }]
 steps = []

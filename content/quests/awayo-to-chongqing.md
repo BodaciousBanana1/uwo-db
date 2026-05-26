@@ -10,6 +10,9 @@ type = "Trade"
 city = "Lima"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 10
 skills = [{ name = "Chinese", level = 1 }]
 variants = [{ city = "Lima", guild_type = "Merchant", id = "99998110", slug = "awayo-to-chongqing" }]
 steps = []

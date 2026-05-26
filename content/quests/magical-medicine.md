@@ -10,6 +10,9 @@ type = "Trade"
 city = "Athens"
 guild_type = "Merchant"
 discovery = ""
+reward = 500
+advance = 0
+difficulty = 5
 skills = [{ name = "Greek", level = 1 }]
 variants = [{ city = "Athens", guild_type = "Merchant", id = "99993777", slug = "magical-medicine" }]
 steps = []

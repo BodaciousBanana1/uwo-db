@@ -10,6 +10,9 @@ type = "Trade"
 city = "Jakarta"
 guild_type = "Merchant"
 discovery = ""
+reward = 72000
+advance = 660
+difficulty = 5
 skills = [{ name = "Oceanic Languages", level = 1 }]
 variants = [{ city = "Jakarta", guild_type = "Merchant", id = "99993748", slug = "the-lure-of-the-banana" }]
 steps = []

@@ -10,6 +10,9 @@ type = "Trade"
 city = "Santo Domingo"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 6
 skills = [{ name = "English", level = 1 }]
 variants = [{ city = "Santo Domingo", guild_type = "Merchant", id = "99995586", slug = "deliver-potatoes" }]
 steps = []

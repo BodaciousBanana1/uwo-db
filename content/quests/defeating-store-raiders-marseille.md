@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Marseille"
 guild_type = "Maritime"
 discovery = ""
+reward = 6900
+advance = 1380
+difficulty = 2
 skills = [{ name = "French", level = 1 }]
 variants = [{ city = "Marseille", guild_type = "Maritime", id = "99994853", slug = "defeating-store-raiders-marseille" }, { city = "Lisbon", guild_type = "Maritime", id = "99996603", slug = "defeating-store-raiders-lisbon" }]
 steps = []

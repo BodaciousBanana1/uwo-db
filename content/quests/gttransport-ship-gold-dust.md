@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Saint-Georges"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 6
 skills = []
 variants = [{ city = "Saint-Georges", guild_type = "Maritime", id = "99996349", slug = "gttransport-ship-gold-dust" }]
 steps = []

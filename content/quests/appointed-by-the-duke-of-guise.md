@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Marseille"
 guild_type = "Maritime"
 discovery = ""
+reward = 25000
+advance = 0
+difficulty = 3
 skills = [{ name = "English", level = 1 }, { name = "French", level = 1 }]
 variants = [{ city = "Marseille", guild_type = "Maritime", id = "99995300", slug = "appointed-by-the-duke-of-guise" }]
 steps = []

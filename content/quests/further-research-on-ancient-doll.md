@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Further Research"
 guild_type = "Adventurer"
 discovery = "Animal-shaped Earthenware"
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "Search", level = 12 }, { name = "Archaeology", level = 14 }, { name = "Portuguese", level = 1 }]
 variants = [{ city = "Further Research", guild_type = "Adventurer", id = "99991398", slug = "further-research-on-ancient-doll" }]
 steps = []

@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Folklores"
 guild_type = "Adventurer"
 discovery = "Cerberus"
+reward = 0
+advance = 0
+difficulty = 8
 skills = [{ name = "Theology", level = 12 }]
 variants = [{ city = "Folklores", guild_type = "Adventurer", id = "99991458", slug = "folklore-of-hells-guard-dog" }]
 steps = []

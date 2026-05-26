@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Seville"
 guild_type = "Maritime"
 discovery = ""
+reward = 500
+advance = 0
+difficulty = 2
 skills = [{ name = "Spanish", level = 1 }, { name = "Sociability", level = 1 }]
 variants = [{ city = "Seville", guild_type = "Maritime", id = "99996535", slug = "the-facts-behind-the-loud-sound" }]
 steps = []

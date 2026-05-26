@@ -10,6 +10,9 @@ type = "Trade"
 city = "Naples"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "Portuguese", level = 1 }]
 variants = [{ city = "Naples", guild_type = "Merchant", id = "99995827", slug = "deliver-crossbows" }]
 steps = []

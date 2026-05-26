@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Istanbul"
 guild_type = "Adventurer"
 discovery = "Pyramids of Giza"
+reward = 0
+advance = 0
+difficulty = 8
 skills = [{ name = "Arabic", level = 1 }]
 variants = [{ city = "Istanbul", guild_type = "Adventurer", id = "99997304", slug = "study-of-the-pyramid-structure" }]
 steps = [{ step = 2, location = "Thoth Statue", action = "Run upper floor once" }, { step = 4, location = "Cartouche", action = "Run middle floor" }]

@@ -10,7 +10,13 @@ type = "Adventure"
 city = "London"
 guild_type = "Adventurer"
 discovery = "Commerson's Dolphin"
+reward = 0
+advance = 0
+difficulty = 5
 skills = [{ name = "Ecological Research", level = 2 }, { name = "Biology", level = 4 }, { name = "English", level = 1 }]
 variants = [{ city = "London", guild_type = "Adventurer", id = "99993521", slug = "large-and-violent-dolphin" }]
 steps = [{ step = 1, location = "Edinburgh", action = "Talk to Port Official" }, { step = 2, location = "Northern Britain Island", action = "Use" }]
+discovery_description = "A member of the whale family that's almost 10m in length. It has a characteristic design and a dorsal fin that stands taller than a man. It can sometimes be seen in large groups. Apparently they are able to call to one another."
+exp_reward = 200
+fame_reward = 100
 +++

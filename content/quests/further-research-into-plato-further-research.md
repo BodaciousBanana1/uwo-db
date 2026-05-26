@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Further Research"
 guild_type = "Adventurer"
 discovery = "Plato's Original Handbook"
+reward = 0
+advance = 0
+difficulty = 3
 skills = [{ name = "Search", level = 8 }, { name = "Appraisal", level = 10 }, { name = "Unlock", level = 8 }]
 variants = [{ city = "Further Research", guild_type = "Adventurer", id = "99991419", slug = "further-research-into-plato-further-research" }, { city = "Further Research", guild_type = "Adventurer", id = "99991417", slug = "further-research-into-plato-further-research" }]
 steps = []

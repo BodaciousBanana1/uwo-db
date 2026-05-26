@@ -10,7 +10,13 @@ type = "Adventure"
 city = "Manila Imperial Contract"
 guild_type = "Adventurer"
 discovery = "Beinan River"
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "Recognition", level = 3 }, { name = "Geography", level = 5 }]
 variants = [{ city = "Manila Imperial Contract", guild_type = "Adventurer", id = "99997905", slug = "the-securing-of-a-water-source" }]
 steps = [{ step = 1, location = "Manila", action = "Talk to Barkeep" }, { step = 2, location = "Eastern East Asia", action = "Right outside Anping (5661.3900)" }]
+discovery_description = "A river that runs along the eastern part of Taiwan. Named after the native Beinan people. It's complex landscape has been compared to China's Mount Huang."
+exp_reward = 340
+fame_reward = 170
 +++

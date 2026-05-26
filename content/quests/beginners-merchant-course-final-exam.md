@@ -10,6 +10,9 @@ type = "Trade"
 city = "Sagres"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 1
 skills = []
 variants = [{ city = "Sagres", guild_type = "Merchant", id = "99990671", slug = "beginners-merchant-course-final-exam" }]
 steps = []

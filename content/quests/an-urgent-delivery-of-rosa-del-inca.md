@@ -10,6 +10,9 @@ type = "Trade"
 city = "Lima"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "Spanish", level = 1 }]
 variants = [{ city = "Lima", guild_type = "Merchant", id = "99995538", slug = "an-urgent-delivery-of-rosa-del-inca" }]
 steps = []

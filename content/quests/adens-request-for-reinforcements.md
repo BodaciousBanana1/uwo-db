@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Zanzibar"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 7
 skills = []
 variants = [{ city = "Zanzibar", guild_type = "Maritime", id = "99996287", slug = "adens-request-for-reinforcements" }]
 steps = []

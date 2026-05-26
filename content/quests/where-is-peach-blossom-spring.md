@@ -10,7 +10,11 @@ type = "Adventure"
 city = "Treasure Hunt"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 8
 skills = [{ name = "Search", level = 12 }, { name = "Appraisal", level = 14 }, { name = "Chinese", level = 1 }]
 variants = [{ city = "Treasure Hunt", guild_type = "Adventurer", id = "99999404", slug = "where-is-peach-blossom-spring" }]
 steps = []
+equipment_rewards = [{ id = "00532200", name = "Utopian Peach", slug = "utopian-peach" }]
 +++

@@ -10,6 +10,9 @@ type = "Adventure"
 city = "London Imperial Contract"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 5
 skills = []
 variants = [{ city = "London Imperial Contract", guild_type = "Adventurer", id = "99997657", slug = "infiltrating-suez" }]
 steps = []

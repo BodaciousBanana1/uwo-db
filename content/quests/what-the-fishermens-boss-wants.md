@@ -10,6 +10,9 @@ type = "Trade"
 city = "Venice"
 guild_type = "Merchant"
 discovery = ""
+reward = 184
+advance = 0
+difficulty = 7
 skills = [{ name = "Spanish", level = 1 }]
 variants = [{ city = "Venice", guild_type = "Merchant", id = "99995115", slug = "what-the-fishermens-boss-wants" }]
 steps = []

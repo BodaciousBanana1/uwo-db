@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Genoa"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "Spanish", level = 1 }]
 variants = [{ city = "Genoa", guild_type = "Maritime", id = "99996488", slug = "maintaining-peace-in-the-balearic-island" }]
 steps = []

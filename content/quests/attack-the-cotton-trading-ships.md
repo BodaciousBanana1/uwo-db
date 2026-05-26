@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Stockholm"
 guild_type = "Maritime"
 discovery = ""
+reward = 270000
+advance = 40000
+difficulty = 5
 skills = []
 variants = [{ city = "Stockholm", guild_type = "Maritime", id = "99994718", slug = "attack-the-cotton-trading-ships" }]
 steps = []

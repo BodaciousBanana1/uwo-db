@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Saint-Georges"
 guild_type = "Adventurer"
 discovery = "Threatening Letter Addressed to Jose's Father"
+reward = 0
+advance = 0
+difficulty = 6
 skills = [{ name = "Portuguese", level = 1 }]
 variants = [{ city = "Saint-Georges", guild_type = "Adventurer", id = "99990586", slug = "against-the-wind" }]
 steps = [{ step = 14, location = "Mist", action = "Shatterig Light" }]

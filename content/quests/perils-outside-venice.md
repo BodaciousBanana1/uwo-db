@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Venice"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "Italian", level = 1 }]
 variants = [{ city = "Venice", guild_type = "Maritime", id = "99996446", slug = "perils-outside-venice" }]
 steps = []

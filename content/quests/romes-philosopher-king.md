@@ -10,7 +10,11 @@ type = "Adventure"
 city = "Treasure Hunt"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "Search", level = 6 }, { name = "Theology", level = 8 }, { name = "Latin", level = 1 }]
 variants = [{ city = "Treasure Hunt", guild_type = "Adventurer", id = "99999203", slug = "romes-philosopher-king" }]
 steps = []
+equipment_rewards = [{ id = "00530700", name = "Numa's Memorandum", slug = "numas-memorandum" }]
 +++

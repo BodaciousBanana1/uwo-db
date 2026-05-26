@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Santiago Imperial Contract"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "Mayan Languages", level = 1 }]
 variants = [{ city = "Santiago Imperial Contract", guild_type = "Adventurer", id = "99997808", slug = "the-will-of-the-people-in-panama" }]
 steps = []

@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Jakarta"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 7
 skills = [{ name = "Malay/Tagalog", level = 1 }]
 variants = [{ city = "Jakarta", guild_type = "Maritime", id = "99996118", slug = "the-pirates-plot" }]
 steps = []

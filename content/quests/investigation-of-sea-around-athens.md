@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Advanced school"
 guild_type = "Adventurer"
 discovery = ""
+reward = 6000
+advance = 0
+difficulty = 2
 skills = [{ name = "Recognition", level = 1 }, { name = "Geography", level = 2 }, { name = "Greek", level = 1 }]
 variants = [{ city = "Advanced school", guild_type = "Adventurer", id = "99999887", slug = "investigation-of-sea-around-athens" }]
 steps = []

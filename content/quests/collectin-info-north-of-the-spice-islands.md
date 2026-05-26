@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Manila Imperial Contract"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 1
 skills = []
 variants = [{ city = "Manila Imperial Contract", guild_type = "Adventurer", id = "99997900", slug = "collectin-info-north-of-the-spice-islands" }]
 steps = []

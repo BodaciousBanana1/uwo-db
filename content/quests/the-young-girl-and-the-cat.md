@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Aden"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 5
 skills = [{ name = "Persian", level = 1 }]
 variants = [{ city = "Aden", guild_type = "Adventurer", id = "99998204", slug = "the-young-girl-and-the-cat" }]
 steps = []

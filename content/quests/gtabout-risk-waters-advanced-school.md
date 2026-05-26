@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Advanced school"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 1
 skills = []
 variants = [{ city = "Advanced school", guild_type = "Adventurer", id = "99999872", slug = "gtabout-risk-waters-advanced-school" }, { city = "Advanced school", guild_type = "Adventurer", id = "99999879", slug = "gtabout-risk-waters-advanced-school" }, { city = "Advanced school", guild_type = "Adventurer", id = "99999865", slug = "gtabout-risk-waters-advanced-school" }]
 steps = []

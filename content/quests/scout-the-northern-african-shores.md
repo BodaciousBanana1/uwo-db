@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Tunis"
 guild_type = "Maritime"
 discovery = ""
+reward = 60000
+advance = 12000
+difficulty = 4
 skills = []
 variants = [{ city = "Tunis", guild_type = "Maritime", id = "99996365", slug = "scout-the-northern-african-shores" }]
 steps = []

@@ -10,7 +10,11 @@ type = "Adventure"
 city = "Aden"
 guild_type = "Adventurer"
 discovery = "Tai Gongwang's Fishing Rod"
+reward = 368000
+advance = 30000
+difficulty = 10
 skills = [{ name = "Search", level = 15 }, { name = "Appraisal", level = 17 }, { name = "Chinese", level = 1 }]
 variants = [{ city = "Aden", guild_type = "Adventurer", id = "99990778", slug = "literature-about-the-hopeful-grand-duke" }]
 steps = [{ step = 1, location = "Hangzhou", action = "Talk to Adventure Mediator" }, { step = 2, location = "Hangzhou", action = "Talk to Scholar" }, { step = 3, location = "Hangzhou", action = "Use" }]
+discovery_description = "A piece of literature written during the Ming dynasty. A story featuring many gods, set during the decline of the Shang dynasty and the rise of the Zhou dynasty. It greatly influenced the religions of mankind."
 +++

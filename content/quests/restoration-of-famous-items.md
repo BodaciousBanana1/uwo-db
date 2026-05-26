@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Naples"
 guild_type = "Adventurer"
 discovery = "Laocoon"
+reward = 100000
+advance = 20000
+difficulty = 9
 skills = [{ name = "Italian", level = 1 }, { name = "Handicrafts", level = 8 }]
 variants = [{ city = "Naples", guild_type = "Adventurer", id = "99994389", slug = "restoration-of-famous-items" }]
 steps = []

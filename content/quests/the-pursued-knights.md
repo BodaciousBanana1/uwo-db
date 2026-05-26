@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Rio de Janeiro"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 7
 skills = []
 variants = [{ city = "Rio de Janeiro", guild_type = "Maritime", id = "99992545", slug = "the-pursued-knights" }]
 steps = []

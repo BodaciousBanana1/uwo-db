@@ -1,0 +1,122 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% set all_jobs = load_data(path="data/jobs.json") %}
+
+<section class="page-header">
+  <h1>Jobs</h1>
+  <p class="page-subtitle"><span id="visible-count">0</span> jobs</p>
+</section>
+
+<div class="filter-layout">
+  <aside class="filter-panel">
+    <div class="filter-header">
+      <span class="filter-title">FILTERS</span>
+      <button class="filter-reset" id="reset-filters">Reset</button>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">SEARCH</div>
+      <input type="text" id="job-search" class="filter-search" placeholder="Job name...">
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">TYPE</div>
+      <div class="filter-chips">
+        <label class="chip"><input type="checkbox" name="type" value="Adventure" checked> Adventure</label>
+        <label class="chip"><input type="checkbox" name="type" value="Merchant" checked> Merchant</label>
+        <label class="chip"><input type="checkbox" name="type" value="Battle" checked> Battle</label>
+      </div>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">HAS EXPERT SKILLS</div>
+      <div class="filter-chips">
+        <label class="chip"><input type="radio" name="expert" value="any" checked> Any</label>
+        <label class="chip"><input type="radio" name="expert" value="yes"> Yes</label>
+        <label class="chip"><input type="radio" name="expert" value="no"> No</label>
+      </div>
+    </div>
+  </aside>
+
+  <section class="jobs-results">
+    <table class="data-table" id="jobs-table">
+      <thead>
+        <tr>
+          <th>Job</th>
+          <th>Type</th>
+          <th>Expert Skills</th>
+          <th>Favoured Skills</th>
+          <th>Requirements</th>
+        </tr>
+      </thead>
+      <tbody id="jobs-body"></tbody>
+    </table>
+  </section>
+</div>
+
+<script>
+const allJobs = {{ all_jobs | json_encode() | safe }};
+
+const searchInput = document.getElementById('job-search');
+const visibleCount = document.getElementById('visible-count');
+const tbody = document.getElementById('jobs-body');
+
+function formatSkills(skills, type) {
+  if (!skills || skills.length === 0) return '-';
+  return skills.map(s =>
+    `<span class="skill-tag ${type}">${s.name}</span>`
+  ).join('');
+}
+
+function formatRequirements(job) {
+  const parts = [];
+  if (job.adventure_level) parts.push(`Adv ${job.adventure_level}`);
+  if (job.trade_level) parts.push(`Trade ${job.trade_level}`);
+  if (job.battle_level) parts.push(`Battle ${job.battle_level}`);
+  if (parts.length === 0 && job.total_level) parts.push(`Total ${job.total_level}`);
+  return parts.join(', ') || '-';
+}
+
+function filterJobs() {
+  const search = searchInput.value.toLowerCase();
+  const types = Array.from(document.querySelectorAll('input[name="type"]:checked')).map(c => c.value);
+  const expertFilter = document.querySelector('input[name="expert"]:checked').value;
+
+  let filtered = allJobs.filter(job => {
+    if (search && !job.name.toLowerCase().includes(search)) return false;
+    if (!types.includes(job.type)) return false;
+
+    if (expertFilter === 'yes' && (!job.expert_skills || job.expert_skills.length === 0)) return false;
+    if (expertFilter === 'no' && job.expert_skills && job.expert_skills.length > 0) return false;
+
+    return true;
+  });
+
+  visibleCount.textContent = filtered.length;
+
+  tbody.innerHTML = filtered.map(job => {
+    return `<tr>
+      <td class="item-name"><a href="/jobs/${job.slug}/">${job.name}</a></td>
+      <td><span class="badge badge-${job.type.toLowerCase()}">${job.type}</span></td>
+      <td class="skills-cell">${formatSkills(job.expert_skills, 'expert')}</td>
+      <td class="skills-cell">${formatSkills(job.favoured_skills, 'favoured')}</td>
+      <td>${formatRequirements(job)}</td>
+    </tr>`;
+  }).join('');
+}
+
+searchInput.addEventListener('input', filterJobs);
+document.querySelectorAll('input[name="type"]').forEach(cb => cb.addEventListener('change', filterJobs));
+document.querySelectorAll('input[name="expert"]').forEach(cb => cb.addEventListener('change', filterJobs));
+
+document.getElementById('reset-filters').addEventListener('click', () => {
+  searchInput.value = '';
+  document.querySelectorAll('input[name="type"]').forEach(cb => cb.checked = true);
+  document.querySelector('input[name="expert"][value="any"]').checked = true;
+  filterJobs();
+});
+
+filterJobs();
+</script>
+{% endblock %}

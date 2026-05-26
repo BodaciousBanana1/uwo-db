@@ -10,6 +10,9 @@ type = "Trade"
 city = "Zanzibar"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 6
 skills = [{ name = "Portuguese", level = 1 }]
 variants = [{ city = "Zanzibar", guild_type = "Merchant", id = "99995639", slug = "gtst-georges-support-of-union" }]
 steps = []

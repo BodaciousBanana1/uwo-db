@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Beginners school"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 1
 skills = []
 variants = [{ city = "Beginners school", guild_type = "Adventurer", id = "99999817", slug = "gtabout-spare-parts-beginners-school" }, { city = "Beginners school", guild_type = "Adventurer", id = "99999804", slug = "gtabout-spare-parts-beginners-school" }, { city = "Beginners school", guild_type = "Adventurer", id = "99999824", slug = "gtabout-spare-parts-beginners-school" }]
 steps = []

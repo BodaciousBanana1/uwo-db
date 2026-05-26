@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Santo Domingo"
 guild_type = "Adventurer"
 discovery = "Spectacled Owl"
+reward = 0
+advance = 0
+difficulty = 6
 skills = [{ name = "Spanish", level = 1 }]
 variants = [{ city = "Santo Domingo", guild_type = "Adventurer", id = "99995132", slug = "the-sage-of-the-forest" }]
 steps = []

@@ -10,7 +10,11 @@ type = "Adventure"
 city = "Athens"
 guild_type = "Adventurer"
 discovery = "Candia"
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "Search", level = 4 }, { name = "Archaeology", level = 6 }, { name = "Arabic", level = 1 }]
 variants = [{ city = "Athens", guild_type = "Adventurer", id = "99990289", slug = "the-trick-to-attracting-customers" }]
 steps = [{ step = 1, location = "Athens Tavern", action = "Barkeep" }, { step = 2, location = "Salonika Tavern", action = "Barkeep" }, { step = 3, location = "Famagusta Tavern", action = "Barkeep" }, { step = 4, location = "Alexandria", action = "Rest House Master" }, { step = 6, location = "Candia", action = "Archaeology Student" }]
+discovery_description = "A type of ancient vessels mainly used in rituals. There is a hole in the bottom to allow to distribute the wine drawn with this vessel among other containers. It's said that wine poured from this vessel contains a sacred power."
 +++

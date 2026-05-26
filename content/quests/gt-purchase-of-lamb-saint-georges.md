@@ -10,6 +10,9 @@ type = "Trade"
 city = "Saint-Georges"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 5
 skills = [{ name = "West African Languages", level = 1 }]
 variants = [{ city = "Saint-Georges", guild_type = "Merchant", id = "99991156", slug = "gt-purchase-of-lamb-saint-georges" }, { city = "Cape Town", guild_type = "Merchant", id = "99991157", slug = "gt-purchase-of-lamb-cape-town" }]
 steps = []

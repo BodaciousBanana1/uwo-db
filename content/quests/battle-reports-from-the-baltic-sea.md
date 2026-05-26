@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Stockholm"
 guild_type = "Maritime"
 discovery = ""
+reward = 30000
+advance = 6000
+difficulty = 3
 skills = []
 variants = [{ city = "Stockholm", guild_type = "Maritime", id = "99990248", slug = "battle-reports-from-the-baltic-sea" }]
 steps = []

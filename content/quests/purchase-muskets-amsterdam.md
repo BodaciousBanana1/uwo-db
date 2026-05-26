@@ -10,6 +10,9 @@ type = "Trade"
 city = "Amsterdam"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "Dutch", level = 1 }]
 variants = [{ city = "Marseille", guild_type = "Merchant", id = "99995866", slug = "purchase-muskets-marseille" }, { city = "Amsterdam", guild_type = "Merchant", id = "99996078", slug = "purchase-muskets-amsterdam" }]
 steps = []

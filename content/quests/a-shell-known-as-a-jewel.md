@@ -10,6 +10,9 @@ type = "Trade"
 city = "Jakarta"
 guild_type = "Merchant"
 discovery = ""
+reward = 320000
+advance = 3960
+difficulty = 8
 skills = [{ name = "Thai/Burmese", level = 1 }, { name = "Spanish", level = 1 }]
 variants = [{ city = "Jakarta", guild_type = "Merchant", id = "99993745", slug = "a-shell-known-as-a-jewel" }]
 steps = []

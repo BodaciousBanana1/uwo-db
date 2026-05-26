@@ -10,6 +10,9 @@ type = "Trade"
 city = "Lisbon"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 3
 skills = [{ name = "English", level = 1 }]
 variants = [{ city = "Lisbon", guild_type = "Merchant", id = "99990909", slug = "deliver-cast-iron" }]
 steps = []

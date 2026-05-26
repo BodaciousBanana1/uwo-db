@@ -10,7 +10,11 @@ type = "Adventure"
 city = "Hangzhou"
 guild_type = "Adventurer"
 discovery = "Sun Bear"
+reward = 0
+advance = 0
+difficulty = 5
 skills = [{ name = "Chinese", level = 1 }]
 variants = [{ city = "Hangzhou", guild_type = "Adventurer", id = "99996808", slug = "bamboo-eater" }]
 steps = []
+followups = [{ id = "99994743", name = "Bear as small as a child", slug = "bear-as-small-as-a-child" }, { id = "99997207", name = "Barkeep's Worries", slug = "barkeeps-worries" }]
 +++

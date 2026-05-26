@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Treasure Hunt"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 7
 skills = [{ name = "Search", level = 11 }, { name = "Theology", level = 13 }, { name = "Archaeology", level = 9 }]
 variants = [{ city = "Treasure Hunt", guild_type = "Adventurer", id = "99990089", slug = "gtbarracuda-of-hercules" }]
 steps = []

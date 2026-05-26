@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Hangzhou"
 guild_type = "Maritime"
 discovery = ""
+reward = 600000
+advance = 60000
+difficulty = 8
 skills = []
 variants = [{ city = "Hangzhou", guild_type = "Maritime", id = "99996106", slug = "blocked-channel" }]
 steps = []

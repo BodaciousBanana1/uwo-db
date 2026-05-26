@@ -1,0 +1,17 @@
++++
+title = "Corinthian Helmet"
+template = "equipment/page.html"
+
+[extra]
+id = "00143302"
+slug = "corinthian-helmet-3"
+category = "Head"
+description = "A helmet worn by ancient Roman militia. The fan like decoration on top was considered to be a sign of bravery."
+formality = 0
+disguise = 0
+attack = 0
+defense = 20
+durability = 80
+skills = []
+quest_sources = []
++++

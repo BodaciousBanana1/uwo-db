@@ -3,6 +3,7 @@
 {% block title %}{{ page.title }} - Skills{% endblock %}
 
 {% block content %}
+{% set all_equipment = load_data(path="data/equipment.json") %}
 <article class="detail-page">
   <header class="detail-header">
     <nav class="breadcrumb">
@@ -78,12 +79,48 @@
         <tbody>
           {% for job in page.extra.jobs %}
           <tr>
-            <td>{{ job.name }}</td>
+            <td><a href="/jobs/{{ job.name | lower | replace(from=' ', to='-') }}/">{{ job.name }}</a></td>
             <td class="num">{{ job.level }}</td>
           </tr>
           {% endfor %}
         </tbody>
       </table>
+    </section>
+    {% endif %}
+
+    {% set skill_name = page.title %}
+    {% set matching_equipment = [] %}
+    {% for equip in all_equipment %}
+      {% for skill in equip.skills %}
+        {% if skill.name == skill_name %}
+          {% set_global matching_equipment = matching_equipment | concat(with=[equip]) %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+    {% if matching_equipment | length > 0 %}
+    <section class="detail-section">
+      <h2>Equipment with This Skill</h2>
+      <table class="detail-table">
+        <thead>
+          <tr>
+            <th>Equipment</th>
+            <th>Category</th>
+            <th class="num">Bonus</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for equip in matching_equipment | slice(end=50) %}
+          <tr>
+            <td><a href="/equipment/{{ equip.slug }}/">{{ equip.name }}</a></td>
+            <td><span class="badge badge-{{ equip.category | lower }}">{{ equip.category }}</span></td>
+            <td class="num">{% for skill in equip.skills %}{% if skill.name == skill_name %}+{{ skill.bonus }}{% endif %}{% endfor %}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      {% if matching_equipment | length > 50 %}
+      <p class="truncation-notice">Showing first 50 of {{ matching_equipment | length }} items.</p>
+      {% endif %}
     </section>
     {% endif %}
   </div>

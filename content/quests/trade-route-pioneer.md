@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Genoa"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 3
 skills = [{ name = "Spanish", level = 1 }, { name = "Italian", level = 1 }]
 variants = [{ city = "Genoa", guild_type = "Maritime", id = "99996483", slug = "trade-route-pioneer" }]
 steps = []

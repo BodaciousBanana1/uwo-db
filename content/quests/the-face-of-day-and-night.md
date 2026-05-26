@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Jakarta"
 guild_type = "Maritime"
 discovery = ""
+reward = 175000
+advance = 35000
+difficulty = 7
 skills = [{ name = "Malay/Tagalog", level = 1 }]
 variants = [{ city = "Jakarta", guild_type = "Maritime", id = "99991061", slug = "the-face-of-day-and-night" }]
 steps = []

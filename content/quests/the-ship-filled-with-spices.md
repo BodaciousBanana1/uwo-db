@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Cape Town"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 5
 skills = []
 variants = [{ city = "Cape Town", guild_type = "Maritime", id = "99996323", slug = "the-ship-filled-with-spices" }]
 steps = []

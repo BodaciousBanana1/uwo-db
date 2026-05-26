@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Lisbon"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 5
 skills = []
 variants = [{ city = "Lisbon", guild_type = "Maritime", id = "99999924", slug = "gtsubjugation-of-soldiers-mangguk" }]
 steps = []

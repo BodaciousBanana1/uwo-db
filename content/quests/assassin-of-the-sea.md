@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Calicut"
 guild_type = "Adventurer"
 discovery = "Australian Box Jelly"
+reward = 0
+advance = 0
+difficulty = 6
 skills = [{ name = "Ecological Research", level = 6 }, { name = "Biology", level = 8 }, { name = "Malay/Tagalog", level = 1 }]
 variants = [{ city = "Calicut", guild_type = "Adventurer", id = "99991484", slug = "assassin-of-the-sea" }]
 steps = []

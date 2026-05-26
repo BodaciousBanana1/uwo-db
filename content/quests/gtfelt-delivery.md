@@ -10,6 +10,9 @@ type = "Trade"
 city = "St. Petersburg"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 5
 skills = [{ name = "Far North Languages", level = 1 }, { name = "Nordic", level = 1 }]
 variants = [{ city = "St. Petersburg", guild_type = "Merchant", id = "99991105", slug = "gtfelt-delivery" }]
 steps = []

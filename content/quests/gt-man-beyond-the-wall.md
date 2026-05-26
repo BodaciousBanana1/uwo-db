@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Stockholm"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 3
 skills = [{ name = "Archaeology", level = 2 }, { name = "Nordic", level = 1 }]
 variants = [{ city = "Stockholm", guild_type = "Adventurer", id = "99991175", slug = "gt-man-beyond-the-wall" }]
 steps = []

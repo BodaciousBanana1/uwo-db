@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Naples"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 3
 skills = [{ name = "Italian", level = 1 }]
 variants = [{ city = "Naples", guild_type = "Adventurer", id = "99997360", slug = "develop-sea-lane-to-venice" }]
 steps = []

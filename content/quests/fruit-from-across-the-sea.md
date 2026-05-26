@@ -10,6 +10,9 @@ type = "Trade"
 city = "Jakarta"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "Swahili", level = 1 }]
 variants = [{ city = "Jakarta", guild_type = "Merchant", id = "99995519", slug = "fruit-from-across-the-sea" }]
 steps = []

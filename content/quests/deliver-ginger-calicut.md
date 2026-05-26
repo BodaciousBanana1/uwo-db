@@ -10,6 +10,9 @@ type = "Trade"
 city = "Calicut"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 3
 skills = [{ name = "Indian Languages", level = 1 }]
 variants = [{ city = "Lima", guild_type = "Merchant", id = "99995548", slug = "deliver-ginger-lima" }, { city = "Calicut", guild_type = "Merchant", id = "99995593", slug = "deliver-ginger-calicut" }]
 steps = []

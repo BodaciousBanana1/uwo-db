@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Hangzhou"
 guild_type = "Adventurer"
 discovery = "Water Margin"
+reward = 0
+advance = 0
+difficulty = 7
 skills = [{ name = "Ecological Research", level = 8 }, { name = "Biology", level = 10 }, { name = "Chinese", level = 1 }]
 variants = [{ city = "Hangzhou", guild_type = "Adventurer", id = "99991386", slug = "beast-from-a-story" }]
 steps = []

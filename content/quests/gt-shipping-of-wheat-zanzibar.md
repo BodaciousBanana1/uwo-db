@@ -10,6 +10,9 @@ type = "Trade"
 city = "Zanzibar"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "Arabic", level = 1 }]
 variants = [{ city = "Zanzibar", guild_type = "Merchant", id = "99991180", slug = "gt-shipping-of-wheat-zanzibar" }, { city = "Saint-Georges", guild_type = "Merchant", id = "99991179", slug = "gt-shipping-of-wheat-saint-georges" }]
 steps = []

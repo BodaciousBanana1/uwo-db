@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Venice"
 guild_type = "Maritime"
 discovery = ""
+reward = 66400
+advance = 13280
+difficulty = 2
 skills = []
 variants = [{ city = "Venice", guild_type = "Maritime", id = "99996430", slug = "defeating-fish-poachers" }]
 steps = []

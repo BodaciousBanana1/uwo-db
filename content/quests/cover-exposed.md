@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Hangzhou"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 7
 skills = []
 variants = [{ city = "Hangzhou", guild_type = "Maritime", id = "99996104", slug = "cover-exposed" }]
 steps = []

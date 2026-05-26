@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Zanzibar"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 3
 skills = [{ name = "Swahili", level = 1 }, { name = "West African Languages", level = 1 }]
 variants = [{ city = "Zanzibar", guild_type = "Adventurer", id = "99997241", slug = "gtcape-town-route-development" }]
 steps = []

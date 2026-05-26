@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Athens"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "Greek", level = 1 }]
 variants = [{ city = "Athens", guild_type = "Maritime", id = "99996418", slug = "cannon-research" }]
 steps = []

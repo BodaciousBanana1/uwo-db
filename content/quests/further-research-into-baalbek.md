@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Further Research"
 guild_type = "Adventurer"
 discovery = "The Great Sandy Desert"
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "Recognition", level = 12 }, { name = "Geography", level = 14 }, { name = "Oceanic Languages", level = 1 }]
 variants = [{ city = "Further Research", guild_type = "Adventurer", id = "99991312", slug = "further-research-into-baalbek" }]
 steps = []

@@ -10,6 +10,9 @@ type = "Trade"
 city = "Calicut"
 guild_type = "Merchant"
 discovery = ""
+reward = 304000
+advance = 33600
+difficulty = 8
 skills = [{ name = "French", level = 1 }, { name = "Swahili", level = 1 }]
 variants = [{ city = "Saint-Georges", guild_type = "Merchant", id = "99993768", slug = "deliver-ivory-saint-georges" }, { city = "Zanzibar", guild_type = "Merchant", id = "99993767", slug = "deliver-ivory-zanzibar" }, { city = "Calicut", guild_type = "Merchant", id = "99995607", slug = "deliver-ivory-calicut" }]
 steps = []

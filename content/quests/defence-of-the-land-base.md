@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Santiago Imperial Contract"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 9
 skills = []
 variants = [{ city = "Santiago Imperial Contract", guild_type = "Adventurer", id = "99997812", slug = "defence-of-the-land-base" }]
 steps = []

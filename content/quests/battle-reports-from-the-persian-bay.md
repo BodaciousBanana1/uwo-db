@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Aden"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 5
 skills = []
 variants = [{ city = "Aden", guild_type = "Maritime", id = "99990128", slug = "battle-reports-from-the-persian-bay" }]
 steps = []

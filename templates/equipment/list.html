@@ -1,0 +1,125 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% set all_equipment = load_data(path="data/equipment.json") %}
+
+<section class="page-header">
+  <h1>Equipment</h1>
+  <p class="page-subtitle"><span id="visible-count">0</span> items</p>
+</section>
+
+<div class="filter-layout">
+  <aside class="filter-panel">
+    <div class="filter-header">
+      <span class="filter-title">FILTERS</span>
+      <button class="filter-reset" id="reset-filters">Reset</button>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">SEARCH</div>
+      <input type="text" id="equip-search" class="filter-search" placeholder="Equipment name...">
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">CATEGORY</div>
+      <div class="filter-chips">
+        <label class="chip"><input type="checkbox" name="category" value="Body" checked> Body</label>
+        <label class="chip"><input type="checkbox" name="category" value="Head" checked> Head</label>
+        <label class="chip"><input type="checkbox" name="category" value="Hand" checked> Hand</label>
+        <label class="chip"><input type="checkbox" name="category" value="Foot" checked> Foot</label>
+        <label class="chip"><input type="checkbox" name="category" value="Weapon" checked> Weapon</label>
+        <label class="chip"><input type="checkbox" name="category" value="Accessory" checked> Accessory</label>
+        <label class="chip"><input type="checkbox" name="category" value="Other" checked> Other</label>
+      </div>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-section-header">HAS SKILLS</div>
+      <div class="filter-chips">
+        <label class="chip"><input type="radio" name="hasSkills" value="any" checked> Any</label>
+        <label class="chip"><input type="radio" name="hasSkills" value="yes"> Yes</label>
+        <label class="chip"><input type="radio" name="hasSkills" value="no"> No</label>
+      </div>
+    </div>
+  </aside>
+
+  <section class="equipment-results">
+    <table class="data-table" id="equipment-table">
+      <thead>
+        <tr>
+          <th>Equipment</th>
+          <th>Category</th>
+          <th class="num">Form</th>
+          <th class="num">Atk</th>
+          <th class="num">Def</th>
+          <th class="num">Dur</th>
+          <th>Skills</th>
+        </tr>
+      </thead>
+      <tbody id="equipment-body"></tbody>
+    </table>
+  </section>
+</div>
+
+<script>
+const allEquipment = {{ all_equipment | json_encode() | safe }};
+
+const searchInput = document.getElementById('equip-search');
+const visibleCount = document.getElementById('visible-count');
+const tbody = document.getElementById('equipment-body');
+
+function formatSkills(skills) {
+  if (!skills || skills.length === 0) return '-';
+  return skills.map(s =>
+    `<span class="skill-tag">${s.name} +${s.bonus}</span>`
+  ).join('');
+}
+
+function filterEquipment() {
+  const search = searchInput.value.toLowerCase();
+  const categories = Array.from(document.querySelectorAll('input[name="category"]:checked')).map(c => c.value);
+  const hasSkillsFilter = document.querySelector('input[name="hasSkills"]:checked').value;
+
+  let filtered = allEquipment.filter(equip => {
+    if (search && !equip.name.toLowerCase().includes(search)) return false;
+    if (!categories.includes(equip.category)) return false;
+
+    if (hasSkillsFilter === 'yes' && (!equip.skills || equip.skills.length === 0)) return false;
+    if (hasSkillsFilter === 'no' && equip.skills && equip.skills.length > 0) return false;
+
+    return true;
+  });
+
+  visibleCount.textContent = filtered.length;
+
+  tbody.innerHTML = filtered.slice(0, 500).map(equip => {
+    return `<tr>
+      <td class="item-name"><a href="/equipment/${equip.slug}/">${equip.name}</a></td>
+      <td><span class="badge badge-${equip.category.toLowerCase()}">${equip.category}</span></td>
+      <td class="num">${equip.formality || '-'}</td>
+      <td class="num">${equip.attack || '-'}</td>
+      <td class="num">${equip.defense || '-'}</td>
+      <td class="num">${equip.durability || '-'}</td>
+      <td class="skills-cell">${formatSkills(equip.skills)}</td>
+    </tr>`;
+  }).join('');
+
+  if (filtered.length > 500) {
+    tbody.innerHTML += `<tr><td colspan="7" class="truncation-notice">Showing first 500 of ${filtered.length} results. Use filters to narrow down.</td></tr>`;
+  }
+}
+
+searchInput.addEventListener('input', filterEquipment);
+document.querySelectorAll('input[name="category"]').forEach(cb => cb.addEventListener('change', filterEquipment));
+document.querySelectorAll('input[name="hasSkills"]').forEach(cb => cb.addEventListener('change', filterEquipment));
+
+document.getElementById('reset-filters').addEventListener('click', () => {
+  searchInput.value = '';
+  document.querySelectorAll('input[name="category"]').forEach(cb => cb.checked = true);
+  document.querySelector('input[name="hasSkills"][value="any"]').checked = true;
+  filterEquipment();
+});
+
+filterEquipment();
+</script>
+{% endblock %}

@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Naples"
 guild_type = "Maritime"
 discovery = ""
+reward = 59800
+advance = 11960
+difficulty = 6
 skills = [{ name = "Italian", level = 1 }]
 variants = [{ city = "Naples", guild_type = "Maritime", id = "99994774", slug = "rescue-the-merchant-ship" }]
 steps = []

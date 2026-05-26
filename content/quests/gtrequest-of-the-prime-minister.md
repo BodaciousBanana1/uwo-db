@@ -10,6 +10,9 @@ type = "Trade"
 city = "Jakarta"
 guild_type = "Merchant"
 discovery = ""
+reward = 83200
+advance = 0
+difficulty = 3
 skills = [{ name = "Indian Languages", level = 1 }]
 variants = [{ city = "Jakarta", guild_type = "Merchant", id = "99994602", slug = "gtrequest-of-the-prime-minister" }]
 steps = []

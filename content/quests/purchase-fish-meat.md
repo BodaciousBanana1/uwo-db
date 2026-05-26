@@ -10,6 +10,9 @@ type = "Trade"
 city = "Cape Town"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "West African Languages", level = 1 }]
 variants = [{ city = "Cape Town", guild_type = "Merchant", id = "99995649", slug = "purchase-fish-meat" }]
 steps = []

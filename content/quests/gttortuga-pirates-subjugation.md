@@ -10,6 +10,9 @@ type = "Adventure"
 city = "SecretEdict"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 5
 skills = []
 variants = [{ city = "SecretEdict", guild_type = "Adventurer", id = "99990006", slug = "gttortuga-pirates-subjugation" }]
 steps = []

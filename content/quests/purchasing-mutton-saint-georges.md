@@ -10,6 +10,9 @@ type = "Trade"
 city = "Saint-Georges"
 guild_type = "Merchant"
 discovery = ""
+reward = 51000
+advance = 3610
+difficulty = 5
 skills = [{ name = "West African Languages", level = 1 }]
 variants = [{ city = "Alexandria", guild_type = "Merchant", id = "99995697", slug = "purchasing-mutton-alexandria" }, { city = "Saint-Georges", guild_type = "Merchant", id = "99995678", slug = "purchasing-mutton-saint-georges" }, { city = "Cape Town", guild_type = "Merchant", id = "99995648", slug = "purchasing-mutton-cape-town" }, { city = "Cape Town", guild_type = "Merchant", id = "99990739", slug = "purchasing-mutton-cape-town" }]
 steps = []

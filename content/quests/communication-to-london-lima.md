@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Lima"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "English", level = 1 }]
 variants = [{ city = "Portobelo", guild_type = "Maritime", id = "99996172", slug = "communication-to-london-portobelo" }, { city = "Rio de Janeiro", guild_type = "Maritime", id = "99996200", slug = "communication-to-london-rio-de-janeiro" }, { city = "Lima", guild_type = "Maritime", id = "99996208", slug = "communication-to-london-lima" }]
 steps = []

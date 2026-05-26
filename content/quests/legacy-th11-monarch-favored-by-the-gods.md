@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Calicut"
 guild_type = "Adventurer"
 discovery = "Pschent"
+reward = 0
+advance = 0
+difficulty = 6
 skills = [{ name = "Search", level = 5 }, { name = "Archaeology", level = 7 }, { name = "Persian", level = 1 }]
 variants = [{ city = "Calicut", guild_type = "Adventurer", id = "99991418", slug = "legacy-th11-monarch-favored-by-the-gods" }]
 steps = []

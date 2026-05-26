@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Immigrants"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 6
 skills = [{ name = "North American Languages", level = 1 }]
 variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99991023", slug = "gtfire-extinguisher-storage" }]
 steps = []

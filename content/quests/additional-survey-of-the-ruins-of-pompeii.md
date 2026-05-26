@@ -10,7 +10,11 @@ type = "Adventure"
 city = "Istanbul"
 guild_type = "Adventurer"
 discovery = "The Ruins of Pompeii"
+reward = 0
+advance = 0
+difficulty = 1
 skills = [{ name = "Recognition", level = 1 }, { name = "Archaeology", level = 2 }, { name = "Greek", level = 1 }]
 variants = [{ city = "Istanbul", guild_type = "Adventurer", id = "99990236", slug = "additional-survey-of-the-ruins-of-pompeii" }]
 steps = [{ step = 1, location = "Athens", action = "Adventurer (right next to" }, { step = 2, location = "Naples", action = "Archaeology Student (between the tavern and the gatekeeper)" }]
+discovery_description = "A public bathhouse built in Pompeii, one of the ancient Roman cities. It has several bathrooms with different water temperatures as well as changing rooms."
 +++

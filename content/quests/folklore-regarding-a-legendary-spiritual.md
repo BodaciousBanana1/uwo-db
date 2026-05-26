@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Folklores"
 guild_type = "Adventurer"
 discovery = "Luan"
+reward = 0
+advance = 0
+difficulty = 9
 skills = [{ name = "Biology", level = 13 }]
 variants = [{ city = "Folklores", guild_type = "Adventurer", id = "99991215", slug = "folklore-regarding-a-legendary-spiritual" }]
 steps = []

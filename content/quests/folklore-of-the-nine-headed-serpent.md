@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Folklores"
 guild_type = "Adventurer"
 discovery = "Xiangliu"
+reward = 0
+advance = 0
+difficulty = 1
 skills = [{ name = "Biology", level = 15 }]
 variants = [{ city = "Folklores", guild_type = "Adventurer", id = "99991510", slug = "folklore-of-the-nine-headed-serpent" }]
 steps = []

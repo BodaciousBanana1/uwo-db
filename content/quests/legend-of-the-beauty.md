@@ -10,7 +10,11 @@ type = "Adventure"
 city = "Stockholm"
 guild_type = "Adventurer"
 discovery = "Iliad"
+reward = 0
+advance = 0
+difficulty = 2
 skills = [{ name = "Recognition", level = 1 }, { name = "Astronomy", level = 3 }, { name = "Italian", level = 1 }]
 variants = [{ city = "Stockholm", guild_type = "Adventurer", id = "99990400", slug = "legend-of-the-beauty" }]
 steps = [{ step = 1, location = "Genoa", action = "Talk to Scholar x3" }, { step = 2, location = "Ionian Sea", action = "Recognition" }]
+discovery_description = "The form of a swan Zeus transformed into in order to see the Spartan Queen Leda, which later rose to the heavens. The cross-shaped center part is also referred to as the Northern Cross."
 +++

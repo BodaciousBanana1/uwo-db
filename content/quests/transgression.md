@@ -10,6 +10,9 @@ type = "Trade"
 city = "Athens"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 2
 skills = [{ name = "Arabic", level = 1 }]
 variants = [{ city = "Athens", guild_type = "Merchant", id = "99995741", slug = "transgression" }]
 steps = []

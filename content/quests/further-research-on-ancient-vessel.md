@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Seville"
 guild_type = "Maritime"
 discovery = "Drinking Horn"
+reward = 2300
+advance = 0
+difficulty = 3
 skills = [{ name = "Spanish", level = 1 }, { name = "Portuguese", level = 1 }, { name = "Search", level = 8 }, { name = "Archaeology", level = 10 }]
 variants = [{ city = "Seville", guild_type = "Maritime", id = "99991350", slug = "further-research-on-ancient-vessel" }]
 steps = []

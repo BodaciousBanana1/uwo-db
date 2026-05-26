@@ -10,7 +10,11 @@ type = "Adventure"
 city = "Santo Domingo"
 guild_type = "Adventurer"
 discovery = "Aeolian Islands"
+reward = 0
+advance = 0
+difficulty = 10
 skills = [{ name = "Recognition", level = 15 }, { name = "Geography", level = 17 }, { name = "French", level = 1 }]
 variants = [{ city = "Santo Domingo", guild_type = "Adventurer", id = "99990862", slug = "land-of-volcano-research" }]
 steps = []
+discovery_description = "Islands located north of Sicily; an archipelago made from volcanic activity, of which Stromboli has been erupting more actively."
 +++

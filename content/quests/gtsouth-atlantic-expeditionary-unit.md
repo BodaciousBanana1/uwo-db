@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Zanzibar"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 9
 skills = [{ name = "Gunnery", level = 7 }, { name = "Penetration", level = 5 }]
 variants = [{ city = "Zanzibar", guild_type = "Maritime", id = "99990706", slug = "gtsouth-atlantic-expeditionary-unit" }]
 steps = []

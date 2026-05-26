@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Zanzibar"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 5
 skills = [{ name = "Swahili", level = 1 }]
 variants = [{ city = "Zanzibar", guild_type = "Maritime", id = "99996273", slug = "reconnaissance-on-east-africa-coast" }]
 steps = []

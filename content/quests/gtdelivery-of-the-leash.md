@@ -10,6 +10,9 @@ type = "Trade"
 city = "Athens"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 3
 skills = [{ name = "Greek", level = 1 }, { name = "Sewing", level = 2 }]
 variants = [{ city = "Athens", guild_type = "Merchant", id = "99999951", slug = "gtdelivery-of-the-leash" }]
 steps = []

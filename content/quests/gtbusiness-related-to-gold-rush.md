@@ -10,6 +10,9 @@ type = "Trade"
 city = "Marseille"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "North American Languages", level = 1 }]
 variants = [{ city = "Marseille", guild_type = "Merchant", id = "99990305", slug = "gtbusiness-related-to-gold-rush" }]
 steps = []

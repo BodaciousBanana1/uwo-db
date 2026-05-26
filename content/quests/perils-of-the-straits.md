@@ -10,7 +10,11 @@ type = "Maritime"
 city = "Aden"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 6
 skills = []
 variants = [{ city = "Aden", guild_type = "Maritime", id = "99996299", slug = "perils-of-the-straits" }]
 steps = []
+equipment_rewards = [{ id = "00900310", name = "Extra Sprit", slug = "extra-sprit" }]
 +++

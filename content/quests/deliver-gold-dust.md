@@ -10,6 +10,9 @@ type = "Trade"
 city = "Santo Domingo"
 guild_type = "Merchant"
 discovery = ""
+reward = 4100
+advance = 36880
+difficulty = 2
 skills = [{ name = "Spanish", level = 1 }]
 variants = [{ city = "Santo Domingo", guild_type = "Merchant", id = "99993871", slug = "deliver-gold-dust" }]
 steps = []

@@ -10,6 +10,9 @@ type = "Trade"
 city = "Calicut"
 guild_type = "Merchant"
 discovery = ""
+reward = 56000
+advance = 16920
+difficulty = 5
 skills = [{ name = "Arabic", level = 1 }]
 variants = [{ city = "Calicut", guild_type = "Merchant", id = "99993754", slug = "deliver-rubies" }]
 steps = []

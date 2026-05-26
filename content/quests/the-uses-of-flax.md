@@ -10,6 +10,9 @@ type = "Trade"
 city = "Stockholm"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "Dutch", level = 1 }]
 variants = [{ city = "Stockholm", guild_type = "Merchant", id = "99996046", slug = "the-uses-of-flax" }]
 steps = []

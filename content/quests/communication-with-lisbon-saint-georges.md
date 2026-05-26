@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Saint-Georges"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "Portuguese", level = 1 }]
 variants = [{ city = "Saint-Georges", guild_type = "Maritime", id = "99996340", slug = "communication-with-lisbon-saint-georges" }, { city = "Santo Domingo", guild_type = "Maritime", id = "99996125", slug = "communication-with-lisbon-santo-domingo" }]
 steps = []

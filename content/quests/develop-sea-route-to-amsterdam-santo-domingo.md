@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Santo Domingo"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 5
 skills = [{ name = "Dutch", level = 1 }]
 variants = [{ city = "Rio de Janeiro", guild_type = "Adventurer", id = "99997048", slug = "develop-sea-route-to-amsterdam-rio-de-janeiro" }, { city = "Portobelo", guild_type = "Adventurer", id = "99997092", slug = "develop-sea-route-to-amsterdam-portobelo" }, { city = "Santo Domingo", guild_type = "Adventurer", id = "99997136", slug = "develop-sea-route-to-amsterdam-santo-domingo" }]
 steps = []

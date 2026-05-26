@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Sagres"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 3
 skills = []
 variants = [{ city = "Sagres", guild_type = "Maritime", id = "99990668", slug = "advanced-maritime-course-final-exam" }]
 steps = []

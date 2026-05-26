@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Portobelo"
 guild_type = "Maritime"
 discovery = ""
+reward = 80000
+advance = 16000
+difficulty = 7
 skills = []
 variants = [{ city = "Portobelo", guild_type = "Maritime", id = "99996192", slug = "looters-of-pirates-island" }]
 steps = []

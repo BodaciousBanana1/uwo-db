@@ -10,6 +10,9 @@ type = "Adventure"
 city = "London"
 guild_type = "Adventurer"
 discovery = ""
+reward = 18000
+advance = 0
+difficulty = 3
 skills = [{ name = "English", level = 1 }, { name = "Collection", level = 1 }, { name = "Dutch", level = 1 }, { name = "Portuguese", level = 1 }, { name = "Spanish", level = 1 }, { name = "French", level = 1 }, { name = "Italian", level = 1 }]
 variants = [{ city = "London", guild_type = "Adventurer", id = "99995196", slug = "procure-logs" }]
 steps = []

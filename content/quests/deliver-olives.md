@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Immigrants"
 guild_type = "Adventurer"
 discovery = ""
+reward = 12000
+advance = 2240
+difficulty = 2
 skills = [{ name = "Spanish", level = 1 }]
 variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99995901", slug = "deliver-olives" }]
 steps = []

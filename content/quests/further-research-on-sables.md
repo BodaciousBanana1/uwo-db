@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Further Research"
 guild_type = "Adventurer"
 discovery = "Sable with Winter Coat"
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "Ecological Research", level = 12 }, { name = "Biology", level = 14 }, { name = "Dutch", level = 1 }]
 variants = [{ city = "Further Research", guild_type = "Adventurer", id = "99991360", slug = "further-research-on-sables" }]
 steps = []

@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Further Research"
 guild_type = "Adventurer"
 discovery = "Molted Chilean Rose Tarantula"
+reward = 0
+advance = 0
+difficulty = 5
 skills = [{ name = "Ecological Research", level = 12 }, { name = "Biology", level = 14 }, { name = "Italian", level = 1 }]
 variants = [{ city = "Further Research", guild_type = "Adventurer", id = "99991237", slug = "further-research-on-poisonous-spider" }]
 steps = []

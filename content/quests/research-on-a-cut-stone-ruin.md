@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Santo Domingo"
 guild_type = "Adventurer"
 discovery = "Cliff Palace"
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "Recognition", level = 3 }, { name = "Theology", level = 5 }, { name = "Indian Languages", level = 1 }]
 variants = [{ city = "Santo Domingo", guild_type = "Adventurer", id = "99991395", slug = "research-on-a-cut-stone-ruin" }]
 steps = []

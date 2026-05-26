@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Naples"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 4
 skills = []
 variants = [{ city = "Naples", guild_type = "Maritime", id = "99995110", slug = "blank-waters" }]
 steps = []

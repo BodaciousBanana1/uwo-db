@@ -10,6 +10,9 @@ type = "Adventure"
 city = "SecretEdict"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 3
 skills = [{ name = "Arabic", level = 1 }]
 variants = [{ city = "SecretEdict", guild_type = "Adventurer", id = "99990095", slug = "deliver-an-amulet-of-a-greek-god" }]
 steps = []

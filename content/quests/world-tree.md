@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Amsterdam"
 guild_type = "Adventurer"
 discovery = ""
+reward = 13000
+advance = 0
+difficulty = 2
 skills = [{ name = "English", level = 1 }, { name = "Nordic", level = 1 }, { name = "Theology", level = 6 }]
 variants = [{ city = "Amsterdam", guild_type = "Adventurer", id = "99995193", slug = "world-tree" }]
 steps = []

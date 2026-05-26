@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Seville"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 3
 skills = [{ name = "Spanish", level = 1 }]
 variants = [{ city = "Lisbon", guild_type = "Adventurer", id = "99997534", slug = "develop-sea-lane-to-las-palmas-lisbon" }, { city = "Seville", guild_type = "Adventurer", id = "99997471", slug = "develop-sea-lane-to-las-palmas-seville" }]
 steps = [{ step = 1, location = "Las Palmas", action = "Port Official ; Talk to" }]

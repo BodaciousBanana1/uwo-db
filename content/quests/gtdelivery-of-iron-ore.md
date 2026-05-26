@@ -10,6 +10,9 @@ type = "Trade"
 city = "Company Colony"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 6
 skills = [{ name = "Spanish", level = 1 }]
 variants = [{ city = "Company Colony", guild_type = "Merchant", id = "99991076", slug = "gtdelivery-of-iron-ore" }]
 steps = []

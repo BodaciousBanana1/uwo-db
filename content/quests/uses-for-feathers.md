@@ -10,6 +10,9 @@ type = "Trade"
 city = "St. Petersburg"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 6
 skills = [{ name = "Greek", level = 1 }]
 variants = [{ city = "St. Petersburg", guild_type = "Merchant", id = "99990251", slug = "uses-for-feathers" }]
 steps = []

@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Venice"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 3
 skills = [{ name = "Arabic", level = 1 }, { name = "Appraisal", level = 4 }]
 variants = [{ city = "Venice", guild_type = "Adventurer", id = "99997329", slug = "precepts-from-old-times" }]
 steps = []

@@ -10,6 +10,9 @@ type = "Adventure"
 city = "SecretEdict"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 8
 skills = []
 variants = [{ city = "SecretEdict", guild_type = "Adventurer", id = "99990075", slug = "deliver-a-sanctus" }]
 steps = []

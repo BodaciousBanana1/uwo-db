@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Santiago Imperial Contract"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 4
 skills = []
 variants = [{ city = "Santiago Imperial Contract", guild_type = "Adventurer", id = "99997809", slug = "measures-to-control-pirate-damage" }]
 steps = []

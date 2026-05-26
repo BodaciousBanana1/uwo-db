@@ -10,6 +10,9 @@ type = "Trade"
 city = "Athens"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 3
 skills = [{ name = "Arabic", level = 1 }, { name = "Italian", level = 1 }]
 variants = [{ city = "Naples", guild_type = "Merchant", id = "99995250", slug = "deliver-celery-naples" }, { city = "Marseille", guild_type = "Merchant", id = "99995868", slug = "deliver-celery-marseille" }, { city = "Athens", guild_type = "Merchant", id = "99995747", slug = "deliver-celery-athens" }]
 steps = []

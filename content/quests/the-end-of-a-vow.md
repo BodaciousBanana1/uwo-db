@@ -10,6 +10,9 @@ type = "Adventure"
 city = "London"
 guild_type = "Adventurer"
 discovery = "Incomplete Chapel"
+reward = 0
+advance = 0
+difficulty = 8
 skills = [{ name = "Search", level = 10 }, { name = "Archaeology", level = 12 }, { name = "Portuguese", level = 1 }]
 variants = [{ city = "London", guild_type = "Adventurer", id = "99990513", slug = "the-end-of-a-vow" }]
 steps = []

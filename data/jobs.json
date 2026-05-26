@@ -1,0 +1,6175 @@
+[
+  {
+    "id": "20000001",
+    "name": "Adventure Learner",
+    "description": "A student training to become an explorer, scholar, and other adventure-related jobs. Reports new discoveries to the guild and receives awards.",
+    "type": "Adventure",
+    "expert_skills": [],
+    "favoured_skills": [
+      {
+        "name": "Sail Handling",
+        "id": "30000001"
+      },
+      {
+        "name": "Surveying",
+        "id": "30000005"
+      },
+      {
+        "name": "Search",
+        "id": "30000020"
+      }
+    ],
+    "adventure_level": 1,
+    "trade_level": null,
+    "battle_level": null,
+    "total_level": 1,
+    "cost": null,
+    "quests": [
+      {
+        "id": "99993610",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99993397",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99993635",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99993609",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99993846",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99993611",
+        "name": "(G.T.)The first thing that the union",
+        "slug": "gtthe-first-thing-that-the-union-marseille"
+      },
+      {
+        "id": "99994009",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99994245",
+        "name": "(G.T.)The first thing that the union",
+        "slug": "gtthe-first-thing-that-the-union-marseille"
+      },
+      {
+        "id": "99994229",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99993616",
+        "name": "(G.T.)The first thing that the union",
+        "slug": "gtthe-first-thing-that-the-union-marseille"
+      },
+      {
+        "id": "99992940",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99992951",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99992945",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      }
+    ],
+    "slug": "adventure-learner"
+  },
+  {
+    "id": "20000002",
+    "name": "Trade Learner",
+    "description": "A student training to become a merchant, account, and other trade-related jobs. Earns large amounts of wealth by delivering goods from one place to another.",
+    "type": "Merchant",
+    "expert_skills": [],
+    "favoured_skills": [
+      {
+        "name": "Accounts",
+        "id": "30000050"
+      },
+      {
+        "name": "Storage",
+        "id": "30000078"
+      },
+      {
+        "name": "Escape",
+        "id": "30000080"
+      }
+    ],
+    "adventure_level": null,
+    "trade_level": 1,
+    "battle_level": null,
+    "total_level": 1,
+    "cost": null,
+    "quests": [
+      {
+        "id": "99995979",
+        "name": "First task from the guild",
+        "slug": "first-task-from-the-guild"
+      },
+      {
+        "id": "99994327",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99996056",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99994252",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995936",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99994058",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995891",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99993909",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995852",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99995878",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995848",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995761",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99995791",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995736",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995692",
+        "name": "The Merchant Guild's predicament",
+        "slug": "the-merchant-guilds-predicament"
+      }
+    ],
+    "slug": "trade-learner"
+  },
+  {
+    "id": "20000003",
+    "name": "Military Learner",
+    "description": "A student training to become an admiral, pirate, and other battle-related jobs. Earns prize money and booty by defeating enemy ships.",
+    "type": "Battle",
+    "expert_skills": [],
+    "favoured_skills": [
+      {
+        "name": "Swordplay",
+        "id": "30000104"
+      },
+      {
+        "name": "Gunnery",
+        "id": "30000111"
+      },
+      {
+        "name": "Repair",
+        "id": "30000120"
+      }
+    ],
+    "adventure_level": null,
+    "trade_level": null,
+    "battle_level": 1,
+    "total_level": 1,
+    "cost": null,
+    "quests": [
+      {
+        "id": "99996631",
+        "name": "(G.T.)Navy practice England",
+        "slug": "gtnavy-practice-england"
+      },
+      {
+        "id": "99992894",
+        "name": "Intercept the privateer fleet",
+        "slug": "intercept-the-privateer-fleet"
+      },
+      {
+        "id": "99996735",
+        "name": "Regular Communication with Calicut",
+        "slug": "regular-communication-with-calicut"
+      },
+      {
+        "id": "99996695",
+        "name": "Dutch navy drill",
+        "slug": "dutch-navy-drill"
+      },
+      {
+        "id": "99994497",
+        "name": "Portuguese navy drill",
+        "slug": "portuguese-navy-drill"
+      },
+      {
+        "id": "99997703",
+        "name": "(G.T.)Navy practice Esupania",
+        "slug": "gtnavy-practice-esupania"
+      },
+      {
+        "id": "99996493",
+        "name": "(G.T.)Practice the French Navy",
+        "slug": "gtpractice-the-french-navy"
+      },
+      {
+        "id": "99997704",
+        "name": "(G.T.)Navy practice Venice",
+        "slug": "gtnavy-practice-venice"
+      },
+      {
+        "id": "99996249",
+        "name": "Regular communication with London",
+        "slug": "regular-communication-with-london"
+      },
+      {
+        "id": "99996250",
+        "name": "Regular communication with Lisbon",
+        "slug": "regular-communication-with-lisbon"
+      },
+      {
+        "id": "99996251",
+        "name": "Regular communication with Marseilles",
+        "slug": "regular-communication-with-marseilles"
+      },
+      {
+        "id": "99996254",
+        "name": "Regular communication with Seville",
+        "slug": "regular-communication-with-seville"
+      },
+      {
+        "id": "99996255",
+        "name": "Regular communication with Amsterdam",
+        "slug": "regular-communication-with-amsterdam"
+      }
+    ],
+    "slug": "military-learner"
+  },
+  {
+    "id": "20000007",
+    "name": "Explorer",
+    "description": "Job class that excels at sailing long distances. Good at responding to danger.",
+    "type": "Adventure",
+    "expert_skills": [],
+    "favoured_skills": [
+      {
+        "name": "Fishing",
+        "id": "30000012"
+      },
+      {
+        "name": "Recognition",
+        "id": "30000016"
+      },
+      {
+        "name": "Collection",
+        "id": "30000017"
+      },
+      {
+        "name": "Rescue",
+        "id": "30000018"
+      },
+      {
+        "name": "Eradication",
+        "id": "30000019"
+      },
+      {
+        "name": "Archaeology",
+        "id": "30000025"
+      }
+    ],
+    "adventure_level": 2,
+    "trade_level": null,
+    "battle_level": null,
+    "total_level": 2,
+    "cost": 500,
+    "quests": [
+      {
+        "id": "99993610",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99993397",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99993635",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99993609",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99993846",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99993611",
+        "name": "(G.T.)The first thing that the union",
+        "slug": "gtthe-first-thing-that-the-union-marseille"
+      },
+      {
+        "id": "99994009",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99994245",
+        "name": "(G.T.)The first thing that the union",
+        "slug": "gtthe-first-thing-that-the-union-marseille"
+      },
+      {
+        "id": "99994229",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99993616",
+        "name": "(G.T.)The first thing that the union",
+        "slug": "gtthe-first-thing-that-the-union-marseille"
+      },
+      {
+        "id": "99992940",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99992951",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99992945",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      }
+    ],
+    "slug": "explorer"
+  },
+  {
+    "id": "20000008",
+    "name": "Accountant",
+    "description": "Good at handling goods that are subject to high price fluctuations.",
+    "type": "Merchant",
+    "expert_skills": [],
+    "favoured_skills": [
+      {
+        "name": "Accounts",
+        "id": "30000050"
+      },
+      {
+        "name": "Alcohol Trading",
+        "id": "30000053"
+      },
+      {
+        "name": "Luxuries Trading",
+        "id": "30000054"
+      },
+      {
+        "name": "Metal Trading",
+        "id": "30000060"
+      },
+      {
+        "name": "Sewing",
+        "id": "30000073"
+      },
+      {
+        "name": "Frugality",
+        "id": "30000077"
+      }
+    ],
+    "adventure_level": null,
+    "trade_level": 3,
+    "battle_level": null,
+    "total_level": 4,
+    "cost": 700,
+    "quests": [
+      {
+        "id": "99995979",
+        "name": "First task from the guild",
+        "slug": "first-task-from-the-guild"
+      },
+      {
+        "id": "99994327",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99996056",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99994252",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995936",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99994058",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995891",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99993909",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995852",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99995878",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995848",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995761",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99995791",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995736",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995692",
+        "name": "The Merchant Guild's predicament",
+        "slug": "the-merchant-guilds-predicament"
+      }
+    ],
+    "slug": "accountant"
+  },
+  {
+    "id": "20000009",
+    "name": "Mercenary",
+    "description": "Soldiers who take on requests from various nations. Good at short distance cannon firing and Melee battle.",
+    "type": "Battle",
+    "expert_skills": [],
+    "favoured_skills": [
+      {
+        "name": "Swordplay",
+        "id": "30000104"
+      },
+      {
+        "name": "Assault",
+        "id": "30000109"
+      },
+      {
+        "name": "Accuracy",
+        "id": "30000115"
+      },
+      {
+        "name": "Gunfire",
+        "id": "30000118"
+      },
+      {
+        "name": "Repair",
+        "id": "30000120"
+      },
+      {
+        "name": "Aboardage",
+        "id": "30000134"
+      }
+    ],
+    "adventure_level": null,
+    "trade_level": null,
+    "battle_level": 2,
+    "total_level": 2,
+    "cost": 500,
+    "quests": [
+      {
+        "id": "99996631",
+        "name": "(G.T.)Navy practice England",
+        "slug": "gtnavy-practice-england"
+      },
+      {
+        "id": "99992894",
+        "name": "Intercept the privateer fleet",
+        "slug": "intercept-the-privateer-fleet"
+      },
+      {
+        "id": "99996735",
+        "name": "Regular Communication with Calicut",
+        "slug": "regular-communication-with-calicut"
+      },
+      {
+        "id": "99996695",
+        "name": "Dutch navy drill",
+        "slug": "dutch-navy-drill"
+      },
+      {
+        "id": "99994497",
+        "name": "Portuguese navy drill",
+        "slug": "portuguese-navy-drill"
+      },
+      {
+        "id": "99997703",
+        "name": "(G.T.)Navy practice Esupania",
+        "slug": "gtnavy-practice-esupania"
+      },
+      {
+        "id": "99996493",
+        "name": "(G.T.)Practice the French Navy",
+        "slug": "gtpractice-the-french-navy"
+      },
+      {
+        "id": "99997704",
+        "name": "(G.T.)Navy practice Venice",
+        "slug": "gtnavy-practice-venice"
+      },
+      {
+        "id": "99996249",
+        "name": "Regular communication with London",
+        "slug": "regular-communication-with-london"
+      },
+      {
+        "id": "99996250",
+        "name": "Regular communication with Lisbon",
+        "slug": "regular-communication-with-lisbon"
+      },
+      {
+        "id": "99996251",
+        "name": "Regular communication with Marseilles",
+        "slug": "regular-communication-with-marseilles"
+      },
+      {
+        "id": "99996254",
+        "name": "Regular communication with Seville",
+        "slug": "regular-communication-with-seville"
+      },
+      {
+        "id": "99996255",
+        "name": "Regular communication with Amsterdam",
+        "slug": "regular-communication-with-amsterdam"
+      }
+    ],
+    "slug": "mercenary"
+  },
+  {
+    "id": "20000010",
+    "name": "Excavator",
+    "description": "Excavates the land to unearth ancient relics and other buried treasure.",
+    "type": "Adventure",
+    "expert_skills": [],
+    "favoured_skills": [
+      {
+        "name": "Surveying",
+        "id": "30000005"
+      },
+      {
+        "name": "Marching",
+        "id": "30000014"
+      },
+      {
+        "name": "Search",
+        "id": "30000020"
+      },
+      {
+        "name": "Unlock",
+        "id": "30000022"
+      },
+      {
+        "name": "Archaeology",
+        "id": "30000025"
+      },
+      {
+        "name": "Observe",
+        "id": "30000035"
+      }
+    ],
+    "adventure_level": 4,
+    "trade_level": null,
+    "battle_level": null,
+    "total_level": 7,
+    "cost": 2000,
+    "quests": [
+      {
+        "id": "99993610",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99993397",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99993635",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99993609",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99993846",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99993611",
+        "name": "(G.T.)The first thing that the union",
+        "slug": "gtthe-first-thing-that-the-union-marseille"
+      },
+      {
+        "id": "99994009",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99994245",
+        "name": "(G.T.)The first thing that the union",
+        "slug": "gtthe-first-thing-that-the-union-marseille"
+      },
+      {
+        "id": "99994229",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99993616",
+        "name": "(G.T.)The first thing that the union",
+        "slug": "gtthe-first-thing-that-the-union-marseille"
+      },
+      {
+        "id": "99992940",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99992951",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99992945",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      }
+    ],
+    "slug": "excavator"
+  },
+  {
+    "id": "20000011",
+    "name": "Surveyor",
+    "description": "Travels the land and sea to make geographic discoveries.",
+    "type": "Adventure",
+    "expert_skills": [],
+    "favoured_skills": [
+      {
+        "name": "Surveying",
+        "id": "30000005"
+      },
+      {
+        "name": "Geography",
+        "id": "30000006"
+      },
+      {
+        "name": "Procurement",
+        "id": "30000011"
+      },
+      {
+        "name": "Provisions",
+        "id": "30000013"
+      },
+      {
+        "name": "Recognition",
+        "id": "30000016"
+      },
+      {
+        "name": "Rescue",
+        "id": "30000018"
+      }
+    ],
+    "adventure_level": 2,
+    "trade_level": null,
+    "battle_level": null,
+    "total_level": 2,
+    "cost": 500,
+    "quests": [
+      {
+        "id": "99993610",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99993397",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99993635",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99993609",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99993846",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99993611",
+        "name": "(G.T.)The first thing that the union",
+        "slug": "gtthe-first-thing-that-the-union-marseille"
+      },
+      {
+        "id": "99994009",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99994245",
+        "name": "(G.T.)The first thing that the union",
+        "slug": "gtthe-first-thing-that-the-union-marseille"
+      },
+      {
+        "id": "99994229",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99993616",
+        "name": "(G.T.)The first thing that the union",
+        "slug": "gtthe-first-thing-that-the-union-marseille"
+      },
+      {
+        "id": "99992940",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99992951",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99992945",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      }
+    ],
+    "slug": "surveyor"
+  },
+  {
+    "id": "20000013",
+    "name": "Chef",
+    "description": "A skilled cook who gathers and processes all ingredients.",
+    "type": "Merchant",
+    "expert_skills": [
+      {
+        "name": "Cooking",
+        "id": "30000072"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Procurement",
+        "id": "30000011"
+      },
+      {
+        "name": "Fishing",
+        "id": "30000012"
+      },
+      {
+        "name": "Provisions",
+        "id": "30000013"
+      },
+      {
+        "name": "Collection",
+        "id": "30000017"
+      },
+      {
+        "name": "Observe",
+        "id": "30000035"
+      },
+      {
+        "name": "Food Trading",
+        "id": "30000051"
+      },
+      {
+        "name": "Seasoning Trading",
+        "id": "30000052"
+      },
+      {
+        "name": "Storage",
+        "id": "30000078"
+      }
+    ],
+    "adventure_level": 10,
+    "trade_level": 20,
+    "battle_level": null,
+    "total_level": 36,
+    "cost": 70000,
+    "quests": [
+      {
+        "id": "99994500",
+        "name": "Procure food for soldiers",
+        "slug": "procure-food-for-soldiers"
+      }
+    ],
+    "slug": "chef"
+  },
+  {
+    "id": "20000014",
+    "name": "Trade Merchant",
+    "description": "A merchant who makes a comfortable living buying and selling daily goods.",
+    "type": "Merchant",
+    "expert_skills": [
+      {
+        "name": "Food Trading",
+        "id": "30000051"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Accounts",
+        "id": "30000050"
+      },
+      {
+        "name": "Seasoning Trading",
+        "id": "30000052"
+      },
+      {
+        "name": "Alcohol Trading",
+        "id": "30000053"
+      },
+      {
+        "name": "Textile Trading",
+        "id": "30000057"
+      },
+      {
+        "name": "Fabric Trading",
+        "id": "30000058"
+      },
+      {
+        "name": "Cooking",
+        "id": "30000072"
+      },
+      {
+        "name": "Caution",
+        "id": "30000075"
+      },
+      {
+        "name": "Frugality",
+        "id": "30000077"
+      }
+    ],
+    "adventure_level": null,
+    "trade_level": 20,
+    "battle_level": null,
+    "total_level": 36,
+    "cost": 75000,
+    "quests": [
+      {
+        "id": "99994499",
+        "name": "Procure food for the navy",
+        "slug": "procure-food-for-the-navy"
+      }
+    ],
+    "slug": "trade-merchant"
+  },
+  {
+    "id": "20000017",
+    "name": "Bodyguard",
+    "description": "Earns a living protecting people. They have very high Defence Power and Recovery.",
+    "type": "Battle",
+    "expert_skills": [],
+    "favoured_skills": [
+      {
+        "name": "Rescue",
+        "id": "30000018"
+      },
+      {
+        "name": "Evasion",
+        "id": "30000103"
+      },
+      {
+        "name": "Guard",
+        "id": "30000107"
+      },
+      {
+        "name": "Gunnery",
+        "id": "30000111"
+      },
+      {
+        "name": "Repair",
+        "id": "30000120"
+      },
+      {
+        "name": "First Aid",
+        "id": "30000127"
+      }
+    ],
+    "adventure_level": null,
+    "trade_level": null,
+    "battle_level": 2,
+    "total_level": 2,
+    "cost": 700,
+    "quests": [
+      {
+        "id": "99996631",
+        "name": "(G.T.)Navy practice England",
+        "slug": "gtnavy-practice-england"
+      },
+      {
+        "id": "99992894",
+        "name": "Intercept the privateer fleet",
+        "slug": "intercept-the-privateer-fleet"
+      },
+      {
+        "id": "99996735",
+        "name": "Regular Communication with Calicut",
+        "slug": "regular-communication-with-calicut"
+      },
+      {
+        "id": "99996695",
+        "name": "Dutch navy drill",
+        "slug": "dutch-navy-drill"
+      },
+      {
+        "id": "99994497",
+        "name": "Portuguese navy drill",
+        "slug": "portuguese-navy-drill"
+      },
+      {
+        "id": "99997703",
+        "name": "(G.T.)Navy practice Esupania",
+        "slug": "gtnavy-practice-esupania"
+      },
+      {
+        "id": "99996493",
+        "name": "(G.T.)Practice the French Navy",
+        "slug": "gtpractice-the-french-navy"
+      },
+      {
+        "id": "99997704",
+        "name": "(G.T.)Navy practice Venice",
+        "slug": "gtnavy-practice-venice"
+      },
+      {
+        "id": "99996249",
+        "name": "Regular communication with London",
+        "slug": "regular-communication-with-london"
+      },
+      {
+        "id": "99996250",
+        "name": "Regular communication with Lisbon",
+        "slug": "regular-communication-with-lisbon"
+      },
+      {
+        "id": "99996251",
+        "name": "Regular communication with Marseilles",
+        "slug": "regular-communication-with-marseilles"
+      },
+      {
+        "id": "99996254",
+        "name": "Regular communication with Seville",
+        "slug": "regular-communication-with-seville"
+      },
+      {
+        "id": "99996255",
+        "name": "Regular communication with Amsterdam",
+        "slug": "regular-communication-with-amsterdam"
+      }
+    ],
+    "slug": "bodyguard"
+  },
+  {
+    "id": "20000018",
+    "name": "Brigand",
+    "description": "Attacks and steals booty from ships belonging to various nations. Good at handling galley-type ships.",
+    "type": "Battle",
+    "expert_skills": [],
+    "favoured_skills": [
+      {
+        "name": "Steering",
+        "id": "30000100"
+      },
+      {
+        "name": "Rowing",
+        "id": "30000102"
+      },
+      {
+        "name": "Swordplay",
+        "id": "30000104"
+      },
+      {
+        "name": "Plunder",
+        "id": "30000108"
+      },
+      {
+        "name": "Gunnery",
+        "id": "30000111"
+      },
+      {
+        "name": "Aboardage",
+        "id": "30000134"
+      }
+    ],
+    "adventure_level": null,
+    "trade_level": null,
+    "battle_level": 3,
+    "total_level": 4,
+    "cost": 800,
+    "quests": [
+      {
+        "id": "99996631",
+        "name": "(G.T.)Navy practice England",
+        "slug": "gtnavy-practice-england"
+      },
+      {
+        "id": "99992894",
+        "name": "Intercept the privateer fleet",
+        "slug": "intercept-the-privateer-fleet"
+      },
+      {
+        "id": "99996735",
+        "name": "Regular Communication with Calicut",
+        "slug": "regular-communication-with-calicut"
+      },
+      {
+        "id": "99996695",
+        "name": "Dutch navy drill",
+        "slug": "dutch-navy-drill"
+      },
+      {
+        "id": "99994497",
+        "name": "Portuguese navy drill",
+        "slug": "portuguese-navy-drill"
+      },
+      {
+        "id": "99997703",
+        "name": "(G.T.)Navy practice Esupania",
+        "slug": "gtnavy-practice-esupania"
+      },
+      {
+        "id": "99996493",
+        "name": "(G.T.)Practice the French Navy",
+        "slug": "gtpractice-the-french-navy"
+      },
+      {
+        "id": "99997704",
+        "name": "(G.T.)Navy practice Venice",
+        "slug": "gtnavy-practice-venice"
+      },
+      {
+        "id": "99996249",
+        "name": "Regular communication with London",
+        "slug": "regular-communication-with-london"
+      },
+      {
+        "id": "99996250",
+        "name": "Regular communication with Lisbon",
+        "slug": "regular-communication-with-lisbon"
+      },
+      {
+        "id": "99996251",
+        "name": "Regular communication with Marseilles",
+        "slug": "regular-communication-with-marseilles"
+      },
+      {
+        "id": "99996254",
+        "name": "Regular communication with Seville",
+        "slug": "regular-communication-with-seville"
+      },
+      {
+        "id": "99996255",
+        "name": "Regular communication with Amsterdam",
+        "slug": "regular-communication-with-amsterdam"
+      }
+    ],
+    "slug": "brigand"
+  },
+  {
+    "id": "20000019",
+    "name": "Cartographer",
+    "description": "A specialist who has very good knowledge of the world and the oceans.",
+    "type": "Adventure",
+    "expert_skills": [
+      {
+        "name": "Geography",
+        "id": "30000006"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Sail Handling",
+        "id": "30000001"
+      },
+      {
+        "name": "Surveying",
+        "id": "30000005"
+      },
+      {
+        "name": "Procurement",
+        "id": "30000011"
+      },
+      {
+        "name": "Provisions",
+        "id": "30000013"
+      },
+      {
+        "name": "Recognition",
+        "id": "30000016"
+      },
+      {
+        "name": "Rescue",
+        "id": "30000018"
+      },
+      {
+        "name": "Salvage",
+        "id": "30000043"
+      },
+      {
+        "name": "Steering",
+        "id": "30000100"
+      },
+      {
+        "name": "Repair",
+        "id": "30000120"
+      }
+    ],
+    "adventure_level": 20,
+    "trade_level": null,
+    "battle_level": null,
+    "total_level": 36,
+    "cost": 70000,
+    "quests": [
+      {
+        "id": "99994754",
+        "name": "Investigation of Mercator",
+        "slug": "investigation-of-mercator"
+      }
+    ],
+    "slug": "cartographer"
+  },
+  {
+    "id": "20000020",
+    "name": "Historian",
+    "description": "Specialises in discovering/researching historical ruins and ancient relics.",
+    "type": "Adventure",
+    "expert_skills": [],
+    "favoured_skills": [
+      {
+        "name": "Marching",
+        "id": "30000014"
+      },
+      {
+        "name": "Recognition",
+        "id": "30000016"
+      },
+      {
+        "name": "Search",
+        "id": "30000020"
+      },
+      {
+        "name": "Unlock",
+        "id": "30000022"
+      },
+      {
+        "name": "Archaeology",
+        "id": "30000025"
+      },
+      {
+        "name": "Theology",
+        "id": "30000026"
+      },
+      {
+        "name": "Latin",
+        "id": "30000158"
+      }
+    ],
+    "adventure_level": 15,
+    "trade_level": null,
+    "battle_level": null,
+    "total_level": 24,
+    "cost": 20000,
+    "quests": [
+      {
+        "id": "99999917",
+        "name": "Grand Admiral of the Caribbean",
+        "slug": "grand-admiral-of-the-caribbean"
+      },
+      {
+        "id": "99994363",
+        "name": "Treasure of Ilkhanate",
+        "slug": "treasure-of-ilkhanate"
+      }
+    ],
+    "slug": "historian"
+  },
+  {
+    "id": "20000022",
+    "name": "Chandler",
+    "description": "A sailor who makes a living by transporting weapons and ammunition.",
+    "type": "Merchant",
+    "expert_skills": [],
+    "favoured_skills": [
+      {
+        "name": "Accounts",
+        "id": "30000050"
+      },
+      {
+        "name": "Weapons Trading",
+        "id": "30000065"
+      },
+      {
+        "name": "Firearms Trading",
+        "id": "30000066"
+      },
+      {
+        "name": "Casting",
+        "id": "30000074"
+      },
+      {
+        "name": "Caution",
+        "id": "30000075"
+      },
+      {
+        "name": "Storage",
+        "id": "30000078"
+      }
+    ],
+    "adventure_level": null,
+    "trade_level": 3,
+    "battle_level": null,
+    "total_level": 3,
+    "cost": 700,
+    "quests": [
+      {
+        "id": "99995979",
+        "name": "First task from the guild",
+        "slug": "first-task-from-the-guild"
+      },
+      {
+        "id": "99994327",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99996056",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99994252",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995936",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99994058",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995891",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99993909",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995852",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99995878",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995848",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995761",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99995791",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995736",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995692",
+        "name": "The Merchant Guild's predicament",
+        "slug": "the-merchant-guilds-predicament"
+      }
+    ],
+    "slug": "chandler"
+  },
+  {
+    "id": "20000023",
+    "name": "Treasure Hunter",
+    "description": "Travels the globe in search for valuable artistic pieces and treasures.",
+    "type": "Adventure",
+    "expert_skills": [
+      {
+        "name": "Appraisal",
+        "id": "30000029"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Surveying",
+        "id": "30000005"
+      },
+      {
+        "name": "Procurement",
+        "id": "30000011"
+      },
+      {
+        "name": "Marching",
+        "id": "30000014"
+      },
+      {
+        "name": "Unlock",
+        "id": "30000022"
+      },
+      {
+        "name": "Archaeology",
+        "id": "30000025"
+      },
+      {
+        "name": "Art",
+        "id": "30000028"
+      },
+      {
+        "name": "Observe",
+        "id": "30000035"
+      },
+      {
+        "name": "Crafts Trading",
+        "id": "30000068"
+      }
+    ],
+    "adventure_level": 20,
+    "trade_level": 8,
+    "battle_level": null,
+    "total_level": 42,
+    "cost": 80000,
+    "quests": [
+      {
+        "id": "99999917",
+        "name": "Grand Admiral of the Caribbean",
+        "slug": "grand-admiral-of-the-caribbean"
+      },
+      {
+        "id": "99994363",
+        "name": "Treasure of Ilkhanate",
+        "slug": "treasure-of-ilkhanate"
+      }
+    ],
+    "slug": "treasure-hunter"
+  },
+  {
+    "id": "20000024",
+    "name": "Foods Dealer",
+    "description": "A merchant who deals in food. Also good at producing and processing food.",
+    "type": "Merchant",
+    "expert_skills": [],
+    "favoured_skills": [
+      {
+        "name": "Accounts",
+        "id": "30000050"
+      },
+      {
+        "name": "Food Trading",
+        "id": "30000051"
+      },
+      {
+        "name": "Cooking",
+        "id": "30000072"
+      },
+      {
+        "name": "Frugality",
+        "id": "30000077"
+      },
+      {
+        "name": "Storage",
+        "id": "30000078"
+      },
+      {
+        "name": "Escape",
+        "id": "30000080"
+      }
+    ],
+    "adventure_level": null,
+    "trade_level": 2,
+    "battle_level": null,
+    "total_level": 2,
+    "cost": 1000,
+    "quests": [
+      {
+        "id": "99995979",
+        "name": "First task from the guild",
+        "slug": "first-task-from-the-guild"
+      },
+      {
+        "id": "99994327",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99996056",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99994252",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995936",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99994058",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995891",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99993909",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995852",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99995878",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995848",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995761",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99995791",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995736",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995692",
+        "name": "The Merchant Guild's predicament",
+        "slug": "the-merchant-guilds-predicament"
+      }
+    ],
+    "slug": "foods-dealer"
+  },
+  {
+    "id": "20000025",
+    "name": "Yarn Dealer",
+    "description": "A merchant who deals yarn-related goods. Also good at producing and processing clothing.",
+    "type": "Merchant",
+    "expert_skills": [],
+    "favoured_skills": [
+      {
+        "name": "Accounts",
+        "id": "30000050"
+      },
+      {
+        "name": "Textile Trading",
+        "id": "30000057"
+      },
+      {
+        "name": "Fabric Trading",
+        "id": "30000058"
+      },
+      {
+        "name": "Dye Trading",
+        "id": "30000059"
+      },
+      {
+        "name": "Sewing",
+        "id": "30000073"
+      },
+      {
+        "name": "Caution",
+        "id": "30000075"
+      }
+    ],
+    "adventure_level": null,
+    "trade_level": 2,
+    "battle_level": null,
+    "total_level": 2,
+    "cost": 600,
+    "quests": [
+      {
+        "id": "99995979",
+        "name": "First task from the guild",
+        "slug": "first-task-from-the-guild"
+      },
+      {
+        "id": "99994327",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99996056",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99994252",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995936",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99994058",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995891",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99993909",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995852",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99995878",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995848",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995761",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99995791",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995736",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995692",
+        "name": "The Merchant Guild's predicament",
+        "slug": "the-merchant-guilds-predicament"
+      }
+    ],
+    "slug": "yarn-dealer"
+  },
+  {
+    "id": "20000026",
+    "name": "Mineral Trader",
+    "description": "A merchant who deals in things that are mined. Also good at producing and processing gold.",
+    "type": "Merchant",
+    "expert_skills": [],
+    "favoured_skills": [
+      {
+        "name": "Accounts",
+        "id": "30000050"
+      },
+      {
+        "name": "Mineral Trading",
+        "id": "30000061"
+      },
+      {
+        "name": "Wares Trading",
+        "id": "30000069"
+      },
+      {
+        "name": "Sundries Trading",
+        "id": "30000070"
+      },
+      {
+        "name": "Casting",
+        "id": "30000074"
+      },
+      {
+        "name": "Caution",
+        "id": "30000075"
+      }
+    ],
+    "adventure_level": null,
+    "trade_level": 3,
+    "battle_level": null,
+    "total_level": 4,
+    "cost": 800,
+    "quests": [
+      {
+        "id": "99995979",
+        "name": "First task from the guild",
+        "slug": "first-task-from-the-guild"
+      },
+      {
+        "id": "99994327",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99996056",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99994252",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995936",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99994058",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995891",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99993909",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995852",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99995878",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995848",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995761",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99995791",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995736",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995692",
+        "name": "The Merchant Guild's predicament",
+        "slug": "the-merchant-guilds-predicament"
+      }
+    ],
+    "slug": "mineral-trader"
+  },
+  {
+    "id": "20000027",
+    "name": "Priest",
+    "description": "A high-ranking clergyman who travels the earth in search of religious relics.",
+    "type": "Adventure",
+    "expert_skills": [
+      {
+        "name": "Theology",
+        "id": "30000026"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Search",
+        "id": "30000020"
+      },
+      {
+        "name": "Archaeology",
+        "id": "30000025"
+      },
+      {
+        "name": "Art",
+        "id": "30000028"
+      },
+      {
+        "name": "Caution",
+        "id": "30000075"
+      },
+      {
+        "name": "Storage",
+        "id": "30000078"
+      },
+      {
+        "name": "Sociability",
+        "id": "30000079"
+      },
+      {
+        "name": "Leadership",
+        "id": "30000123"
+      },
+      {
+        "name": "Latin",
+        "id": "30000158"
+      }
+    ],
+    "adventure_level": 28,
+    "trade_level": null,
+    "battle_level": null,
+    "total_level": 50,
+    "cost": 80000,
+    "quests": [
+      {
+        "id": "99994427",
+        "name": "Statue of Madonna and child",
+        "slug": "statue-of-madonna-and-child"
+      }
+    ],
+    "slug": "priest"
+  },
+  {
+    "id": "20000029",
+    "name": "Privateer",
+    "description": "A pirate employed under private contracts with various nations. Relentlessly attacks ships belonging to other countries.",
+    "type": "Battle",
+    "expert_skills": [
+      {
+        "name": "Plunder",
+        "id": "30000108"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Steering",
+        "id": "30000100"
+      },
+      {
+        "name": "Rowing",
+        "id": "30000102"
+      },
+      {
+        "name": "Swordplay",
+        "id": "30000104"
+      },
+      {
+        "name": "Assault",
+        "id": "30000109"
+      },
+      {
+        "name": "Gunnery",
+        "id": "30000111"
+      },
+      {
+        "name": "Aboardage",
+        "id": "30000134"
+      }
+    ],
+    "adventure_level": null,
+    "trade_level": null,
+    "battle_level": 15,
+    "total_level": 24,
+    "cost": 20000,
+    "quests": [],
+    "slug": "privateer"
+  },
+  {
+    "id": "20000030",
+    "name": "Bounty Hunter",
+    "description": "Hunts down pirates for rewards. Excels in naval and combat skills.",
+    "type": "Battle",
+    "expert_skills": [
+      {
+        "name": "Penetration",
+        "id": "30000117"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Sail Handling",
+        "id": "30000001"
+      },
+      {
+        "name": "Steering",
+        "id": "30000100"
+      },
+      {
+        "name": "Evasion",
+        "id": "30000103"
+      },
+      {
+        "name": "Swordplay",
+        "id": "30000104"
+      },
+      {
+        "name": "Gunnery",
+        "id": "30000111"
+      },
+      {
+        "name": "Ballistics",
+        "id": "30000114"
+      },
+      {
+        "name": "Repair",
+        "id": "30000120"
+      },
+      {
+        "name": "Lookout",
+        "id": "30000132"
+      }
+    ],
+    "adventure_level": 10,
+    "trade_level": null,
+    "battle_level": 20,
+    "total_level": 36,
+    "cost": 75000,
+    "quests": [
+      {
+        "id": "99990036",
+        "name": "The golden stag",
+        "slug": "the-golden-stag"
+      },
+      {
+        "id": "99992911",
+        "name": "Summons from musketeers",
+        "slug": "summons-from-musketeers"
+      }
+    ],
+    "slug": "bounty-hunter"
+  },
+  {
+    "id": "20000032",
+    "name": "Ocean Explorer",
+    "description": "An explorer who fulfils all the requirements for long distance ocean travel.",
+    "type": "Adventure",
+    "expert_skills": [
+      {
+        "name": "Recognition",
+        "id": "30000016"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Sail Handling",
+        "id": "30000001"
+      },
+      {
+        "name": "Geography",
+        "id": "30000006"
+      },
+      {
+        "name": "Survival",
+        "id": "30000008"
+      },
+      {
+        "name": "Fishing",
+        "id": "30000012"
+      },
+      {
+        "name": "Rescue",
+        "id": "30000018"
+      },
+      {
+        "name": "Eradication",
+        "id": "30000019"
+      },
+      {
+        "name": "Frugality",
+        "id": "30000077"
+      },
+      {
+        "name": "Leadership",
+        "id": "30000123"
+      },
+      {
+        "name": "Pathology",
+        "id": "30000128"
+      },
+      {
+        "name": "Fire Fighting",
+        "id": "30000131"
+      }
+    ],
+    "adventure_level": 25,
+    "trade_level": null,
+    "battle_level": null,
+    "total_level": 45,
+    "cost": 75000,
+    "quests": [
+      {
+        "id": "99994069",
+        "name": "Speed challenge",
+        "slug": "speed-challenge"
+      }
+    ],
+    "slug": "ocean-explorer"
+  },
+  {
+    "id": "20000033",
+    "name": "Biologist",
+    "description": "Searches for unknown life forms and ancient fossils.",
+    "type": "Adventure",
+    "expert_skills": [],
+    "favoured_skills": [
+      {
+        "name": "Ecological Research",
+        "id": "30000010"
+      },
+      {
+        "name": "Procurement",
+        "id": "30000011"
+      },
+      {
+        "name": "Marching",
+        "id": "30000014"
+      },
+      {
+        "name": "Collection",
+        "id": "30000017"
+      },
+      {
+        "name": "Biology",
+        "id": "30000027"
+      },
+      {
+        "name": "Observe",
+        "id": "30000035"
+      }
+    ],
+    "adventure_level": 2,
+    "trade_level": null,
+    "battle_level": null,
+    "total_level": 2,
+    "cost": 700,
+    "quests": [
+      {
+        "id": "99993610",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99993397",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99993635",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99993609",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99993846",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99993611",
+        "name": "(G.T.)The first thing that the union",
+        "slug": "gtthe-first-thing-that-the-union-marseille"
+      },
+      {
+        "id": "99994009",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99994245",
+        "name": "(G.T.)The first thing that the union",
+        "slug": "gtthe-first-thing-that-the-union-marseille"
+      },
+      {
+        "id": "99994229",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99993616",
+        "name": "(G.T.)The first thing that the union",
+        "slug": "gtthe-first-thing-that-the-union-marseille"
+      },
+      {
+        "id": "99992940",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99992951",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99992945",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      }
+    ],
+    "slug": "biologist"
+  },
+  {
+    "id": "20000034",
+    "name": "Archaeologist",
+    "description": "Travels the globe in search of ancient relics.",
+    "type": "Adventure",
+    "expert_skills": [
+      {
+        "name": "Archaeology",
+        "id": "30000025"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Marching",
+        "id": "30000014"
+      },
+      {
+        "name": "Recognition",
+        "id": "30000016"
+      },
+      {
+        "name": "Search",
+        "id": "30000020"
+      },
+      {
+        "name": "Unlock",
+        "id": "30000022"
+      },
+      {
+        "name": "Theology",
+        "id": "30000026"
+      },
+      {
+        "name": "Biology",
+        "id": "30000027"
+      },
+      {
+        "name": "Art",
+        "id": "30000028"
+      },
+      {
+        "name": "Observe",
+        "id": "30000035"
+      }
+    ],
+    "adventure_level": 25,
+    "trade_level": null,
+    "battle_level": null,
+    "total_level": 45,
+    "cost": 75000,
+    "quests": [
+      {
+        "id": "99994468",
+        "name": "Treasure of the kings of Troy",
+        "slug": "treasure-of-the-kings-of-troy"
+      }
+    ],
+    "slug": "archaeologist"
+  },
+  {
+    "id": "20000035",
+    "name": "Fisher",
+    "description": "A sailor who travels the oceans in search of fishing spots.",
+    "type": "Adventure",
+    "expert_skills": [
+      {
+        "name": "Fishing",
+        "id": "30000012"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Sail Handling",
+        "id": "30000001"
+      },
+      {
+        "name": "Procurement",
+        "id": "30000011"
+      },
+      {
+        "name": "Collection",
+        "id": "30000017"
+      },
+      {
+        "name": "Biology",
+        "id": "30000027"
+      },
+      {
+        "name": "Storage",
+        "id": "30000078"
+      }
+    ],
+    "adventure_level": 2,
+    "trade_level": null,
+    "battle_level": null,
+    "total_level": 2,
+    "cost": 600,
+    "quests": [
+      {
+        "id": "99993610",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99993397",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99993635",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99993609",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99993846",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99993611",
+        "name": "(G.T.)The first thing that the union",
+        "slug": "gtthe-first-thing-that-the-union-marseille"
+      },
+      {
+        "id": "99994009",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99994245",
+        "name": "(G.T.)The first thing that the union",
+        "slug": "gtthe-first-thing-that-the-union-marseille"
+      },
+      {
+        "id": "99994229",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99993616",
+        "name": "(G.T.)The first thing that the union",
+        "slug": "gtthe-first-thing-that-the-union-marseille"
+      },
+      {
+        "id": "99992940",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99992951",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99992945",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      }
+    ],
+    "slug": "fisher"
+  },
+  {
+    "id": "20000036",
+    "name": "Surgeon",
+    "description": "Job class that specialises in healing crew members.",
+    "type": "Battle",
+    "expert_skills": [
+      {
+        "name": "Surgery",
+        "id": "30000130"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Survival",
+        "id": "30000008"
+      },
+      {
+        "name": "Provisions",
+        "id": "30000013"
+      },
+      {
+        "name": "Rescue",
+        "id": "30000018"
+      },
+      {
+        "name": "Eradication",
+        "id": "30000019"
+      },
+      {
+        "name": "Medicine Trading",
+        "id": "30000056"
+      },
+      {
+        "name": "Repair",
+        "id": "30000120"
+      },
+      {
+        "name": "First Aid",
+        "id": "30000127"
+      },
+      {
+        "name": "Pathology",
+        "id": "30000128"
+      },
+      {
+        "name": "Fire Fighting",
+        "id": "30000131"
+      }
+    ],
+    "adventure_level": null,
+    "trade_level": 10,
+    "battle_level": 20,
+    "total_level": 36,
+    "cost": 70000,
+    "quests": [
+      {
+        "id": "99994739",
+        "name": "The medical theory",
+        "slug": "the-medical-theory"
+      }
+    ],
+    "slug": "surgeon"
+  },
+  {
+    "id": "20000037",
+    "name": "Money Trader",
+    "description": "A merchant who deals in precious metals. Their knowledge can play a role in production.",
+    "type": "Merchant",
+    "expert_skills": [
+      {
+        "name": "Accounts",
+        "id": "30000050"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Luxuries Trading",
+        "id": "30000054"
+      },
+      {
+        "name": "Metal Trading",
+        "id": "30000060"
+      },
+      {
+        "name": "Wares Trading",
+        "id": "30000069"
+      },
+      {
+        "name": "Sundries Trading",
+        "id": "30000070"
+      },
+      {
+        "name": "Casting",
+        "id": "30000074"
+      },
+      {
+        "name": "Caution",
+        "id": "30000075"
+      },
+      {
+        "name": "Storage",
+        "id": "30000078"
+      },
+      {
+        "name": "Handicrafts",
+        "id": "30000081"
+      }
+    ],
+    "adventure_level": null,
+    "trade_level": 28,
+    "battle_level": null,
+    "total_level": 50,
+    "cost": 75000,
+    "quests": [
+      {
+        "id": "99993700",
+        "name": "Silver from the New World",
+        "slug": "silver-from-the-new-world"
+      }
+    ],
+    "slug": "money-trader"
+  },
+  {
+    "id": "20000038",
+    "name": "Jeweller",
+    "description": "A merchant who deals in precious stones. Their knowledge can play a role in production.",
+    "type": "Merchant",
+    "expert_skills": [
+      {
+        "name": "Jewellry Trading",
+        "id": "30000063"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Appraisal",
+        "id": "30000029"
+      },
+      {
+        "name": "Accounts",
+        "id": "30000050"
+      },
+      {
+        "name": "Mineral Trading",
+        "id": "30000061"
+      },
+      {
+        "name": "Crafts Trading",
+        "id": "30000068"
+      },
+      {
+        "name": "Wares Trading",
+        "id": "30000069"
+      },
+      {
+        "name": "Sewing",
+        "id": "30000073"
+      },
+      {
+        "name": "Sociability",
+        "id": "30000079"
+      },
+      {
+        "name": "Handicrafts",
+        "id": "30000081"
+      }
+    ],
+    "adventure_level": null,
+    "trade_level": 28,
+    "battle_level": null,
+    "total_level": 50,
+    "cost": 80000,
+    "quests": [
+      {
+        "id": "99993755",
+        "name": "Sapphires to Europe",
+        "slug": "sapphires-to-europe"
+      }
+    ],
+    "slug": "jeweller"
+  },
+  {
+    "id": "20000039",
+    "name": "Art Dealer",
+    "description": "A merchant who deals in art. Their knowledge can play a role in production.",
+    "type": "Merchant",
+    "expert_skills": [
+      {
+        "name": "Art Trading",
+        "id": "30000067"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Art",
+        "id": "30000028"
+      },
+      {
+        "name": "Accounts",
+        "id": "30000050"
+      },
+      {
+        "name": "Fabric Trading",
+        "id": "30000058"
+      },
+      {
+        "name": "Dye Trading",
+        "id": "30000059"
+      },
+      {
+        "name": "Crafts Trading",
+        "id": "30000068"
+      },
+      {
+        "name": "Sewing",
+        "id": "30000073"
+      },
+      {
+        "name": "Sociability",
+        "id": "30000079"
+      },
+      {
+        "name": "Handicrafts",
+        "id": "30000081"
+      }
+    ],
+    "adventure_level": null,
+    "trade_level": 25,
+    "battle_level": null,
+    "total_level": 45,
+    "cost": 75000,
+    "quests": [
+      {
+        "id": "99993698",
+        "name": "Crafts from the New World",
+        "slug": "crafts-from-the-new-world"
+      }
+    ],
+    "slug": "art-dealer"
+  },
+  {
+    "id": "20000040",
+    "name": "Medicine Trader",
+    "description": "A merchant who deals in medicines. They possess vast knowledge in medicine.",
+    "type": "Merchant",
+    "expert_skills": [],
+    "favoured_skills": [
+      {
+        "name": "Accounts",
+        "id": "30000050"
+      },
+      {
+        "name": "Seasoning Trading",
+        "id": "30000052"
+      },
+      {
+        "name": "Luxuries Trading",
+        "id": "30000054"
+      },
+      {
+        "name": "Medicine Trading",
+        "id": "30000056"
+      },
+      {
+        "name": "Handicrafts",
+        "id": "30000081"
+      },
+      {
+        "name": "First Aid",
+        "id": "30000127"
+      },
+      {
+        "name": "Pathology",
+        "id": "30000128"
+      }
+    ],
+    "adventure_level": null,
+    "trade_level": 3,
+    "battle_level": null,
+    "total_level": 4,
+    "cost": 800,
+    "quests": [
+      {
+        "id": "99995979",
+        "name": "First task from the guild",
+        "slug": "first-task-from-the-guild"
+      },
+      {
+        "id": "99994327",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99996056",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99994252",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995936",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99994058",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995891",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99993909",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995852",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99995878",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995848",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995761",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99995791",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995736",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995692",
+        "name": "The Merchant Guild's predicament",
+        "slug": "the-merchant-guilds-predicament"
+      }
+    ],
+    "slug": "medicine-trader"
+  },
+  {
+    "id": "20000041",
+    "name": "Alchemist",
+    "description": "Their experiments in trying to change base metals into gold make them search for various mystical solutions.",
+    "type": "Merchant",
+    "expert_skills": [
+      {
+        "name": "Handicrafts",
+        "id": "30000081"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Theology",
+        "id": "30000026"
+      },
+      {
+        "name": "Medicine Trading",
+        "id": "30000056"
+      },
+      {
+        "name": "Metal Trading",
+        "id": "30000060"
+      },
+      {
+        "name": "Mineral Trading",
+        "id": "30000061"
+      },
+      {
+        "name": "Wares Trading",
+        "id": "30000069"
+      },
+      {
+        "name": "Casting",
+        "id": "30000074"
+      },
+      {
+        "name": "Storage",
+        "id": "30000078"
+      },
+      {
+        "name": "Alchemy",
+        "id": "30000082"
+      }
+    ],
+    "adventure_level": 32,
+    "trade_level": 46,
+    "battle_level": null,
+    "total_level": 116,
+    "cost": 3000000,
+    "quests": [
+      {
+        "id": "99993824",
+        "name": "Learning from Paracelsus",
+        "slug": "learning-from-paracelsus"
+      },
+      {
+        "id": "99993826",
+        "name": "Fostering the art of alchemy",
+        "slug": "fostering-the-art-of-alchemy"
+      }
+    ],
+    "slug": "alchemist"
+  },
+  {
+    "id": "20000042",
+    "name": "Interpreter",
+    "description": "An expert in communication and negotiation who studies various foreign languages.",
+    "type": "Adventure",
+    "expert_skills": [
+      {
+        "name": "Linguistics",
+        "id": "30000042"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Archaeology",
+        "id": "30000025"
+      },
+      {
+        "name": "Theology",
+        "id": "30000026"
+      },
+      {
+        "name": "Wining and Dining",
+        "id": "30000031"
+      },
+      {
+        "name": "Persuasion",
+        "id": "30000032"
+      },
+      {
+        "name": "Accounts",
+        "id": "30000050"
+      },
+      {
+        "name": "Body Language",
+        "id": "30000076"
+      },
+      {
+        "name": "Frugality",
+        "id": "30000077"
+      },
+      {
+        "name": "Sociability",
+        "id": "30000079"
+      },
+      {
+        "name": "Handicrafts",
+        "id": "30000081"
+      }
+    ],
+    "adventure_level": 28,
+    "trade_level": 20,
+    "battle_level": null,
+    "total_level": 65,
+    "cost": 600000,
+    "quests": [
+      {
+        "id": "99993655",
+        "name": "To relay the will of the forefathers",
+        "slug": "to-relay-the-will-of-the-forefathers"
+      }
+    ],
+    "slug": "interpreter"
+  },
+  {
+    "id": "20000043",
+    "name": "Arms Dealer",
+    "description": "A merchant who deals in weapons. Their knowledge can play a role in production.",
+    "type": "Merchant",
+    "expert_skills": [
+      {
+        "name": "Firearms Trading",
+        "id": "30000066"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Procurement",
+        "id": "30000011"
+      },
+      {
+        "name": "Provisions",
+        "id": "30000013"
+      },
+      {
+        "name": "Accounts",
+        "id": "30000050"
+      },
+      {
+        "name": "Weapons Trading",
+        "id": "30000065"
+      },
+      {
+        "name": "Wares Trading",
+        "id": "30000069"
+      },
+      {
+        "name": "Casting",
+        "id": "30000074"
+      },
+      {
+        "name": "Caution",
+        "id": "30000075"
+      },
+      {
+        "name": "Shipbuilding",
+        "id": "30000121"
+      }
+    ],
+    "adventure_level": null,
+    "trade_level": 28,
+    "battle_level": 16,
+    "total_level": 50,
+    "cost": 75000,
+    "quests": [
+      {
+        "id": "99992931",
+        "name": "Da Vinci's research",
+        "slug": "da-vincis-research"
+      }
+    ],
+    "slug": "arms-dealer"
+  },
+  {
+    "id": "20000044",
+    "name": "Senior Officer",
+    "description": "An experienced ship captain who travels the world's oceans to fight pirates and enemies.",
+    "type": "Battle",
+    "expert_skills": [
+      {
+        "name": "Accuracy",
+        "id": "30000115"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Evasion",
+        "id": "30000103"
+      },
+      {
+        "name": "Swordplay",
+        "id": "30000104"
+      },
+      {
+        "name": "Assault",
+        "id": "30000109"
+      },
+      {
+        "name": "Gunnery",
+        "id": "30000111"
+      },
+      {
+        "name": "Ballistics",
+        "id": "30000114"
+      },
+      {
+        "name": "Gunfire",
+        "id": "30000118"
+      },
+      {
+        "name": "Repair",
+        "id": "30000120"
+      },
+      {
+        "name": "Leadership",
+        "id": "30000123"
+      },
+      {
+        "name": "Tactics",
+        "id": "30000125"
+      }
+    ],
+    "adventure_level": null,
+    "trade_level": null,
+    "battle_level": 28,
+    "total_level": 50,
+    "cost": 80000,
+    "quests": [
+      {
+        "id": "99995075",
+        "name": "Counterattack on the Baltic pirates",
+        "slug": "counterattack-on-the-baltic-pirates"
+      },
+      {
+        "id": "99992903",
+        "name": "Bacilius",
+        "slug": "bacilius"
+      }
+    ],
+    "slug": "senior-officer"
+  },
+  {
+    "id": "20000045",
+    "name": "Tactician",
+    "description": "A professional that has great knowledge of naval tactics. Can also produce weapons and ships.",
+    "type": "Battle",
+    "expert_skills": [
+      {
+        "name": "Mine Laying",
+        "id": "30000126"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Mine Detection",
+        "id": "30000034"
+      },
+      {
+        "name": "Casting",
+        "id": "30000074"
+      },
+      {
+        "name": "Gunfire",
+        "id": "30000118"
+      },
+      {
+        "name": "Repair",
+        "id": "30000120"
+      },
+      {
+        "name": "Shipbuilding",
+        "id": "30000121"
+      },
+      {
+        "name": "Leadership",
+        "id": "30000123"
+      },
+      {
+        "name": "Tactics",
+        "id": "30000125"
+      },
+      {
+        "name": "Request Reinforce",
+        "id": "30000133"
+      }
+    ],
+    "adventure_level": null,
+    "trade_level": null,
+    "battle_level": 28,
+    "total_level": 50,
+    "cost": 70000,
+    "quests": [
+      {
+        "id": "99992902",
+        "name": "Latest tactics",
+        "slug": "latest-tactics"
+      }
+    ],
+    "slug": "tactician"
+  },
+  {
+    "id": "20000046",
+    "name": "Cannoneer",
+    "description": "A specialist who possesses great knowledge about cannons.",
+    "type": "Battle",
+    "expert_skills": [
+      {
+        "name": "Gunnery",
+        "id": "30000111"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Provisions",
+        "id": "30000013"
+      },
+      {
+        "name": "Steering",
+        "id": "30000100"
+      },
+      {
+        "name": "Ballistics",
+        "id": "30000114"
+      },
+      {
+        "name": "Accuracy",
+        "id": "30000115"
+      },
+      {
+        "name": "Reloading",
+        "id": "30000116"
+      },
+      {
+        "name": "Penetration",
+        "id": "30000117"
+      },
+      {
+        "name": "Repair",
+        "id": "30000120"
+      },
+      {
+        "name": "Fire Fighting",
+        "id": "30000131"
+      }
+    ],
+    "adventure_level": null,
+    "trade_level": null,
+    "battle_level": 28,
+    "total_level": 50,
+    "cost": 75000,
+    "quests": [
+      {
+        "id": "99990197",
+        "name": "Co-writing with the technician",
+        "slug": "co-writing-with-the-technician"
+      }
+    ],
+    "slug": "cannoneer"
+  },
+  {
+    "id": "20000047",
+    "name": "Pirate",
+    "description": "A great pirate that travels across oceans to terrorize its prey.",
+    "type": "Battle",
+    "expert_skills": [
+      {
+        "name": "Assault",
+        "id": "30000109"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Rowing",
+        "id": "30000102"
+      },
+      {
+        "name": "Evasion",
+        "id": "30000103"
+      },
+      {
+        "name": "Swordplay",
+        "id": "30000104"
+      },
+      {
+        "name": "Plunder",
+        "id": "30000108"
+      },
+      {
+        "name": "Gunnery",
+        "id": "30000111"
+      },
+      {
+        "name": "Gunfire",
+        "id": "30000118"
+      },
+      {
+        "name": "Repair",
+        "id": "30000120"
+      },
+      {
+        "name": "Aboardage",
+        "id": "30000134"
+      }
+    ],
+    "adventure_level": null,
+    "trade_level": null,
+    "battle_level": 28,
+    "total_level": 50,
+    "cost": 80000,
+    "quests": [
+      {
+        "id": "99995210",
+        "name": "The councillor's request",
+        "slug": "the-councillors-request"
+      }
+    ],
+    "slug": "pirate"
+  },
+  {
+    "id": "20000048",
+    "name": "Swordfighter",
+    "description": "A swordfighter who specialises in boarding ships and in Melee battle.",
+    "type": "Battle",
+    "expert_skills": [
+      {
+        "name": "Swordplay",
+        "id": "30000104"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Evasion",
+        "id": "30000103"
+      },
+      {
+        "name": "Sword Mastery",
+        "id": "30000105"
+      },
+      {
+        "name": "Guard",
+        "id": "30000107"
+      },
+      {
+        "name": "Plunder",
+        "id": "30000108"
+      },
+      {
+        "name": "Assault",
+        "id": "30000109"
+      },
+      {
+        "name": "Gunfire",
+        "id": "30000118"
+      },
+      {
+        "name": "Tactics",
+        "id": "30000125"
+      },
+      {
+        "name": "First Aid",
+        "id": "30000127"
+      },
+      {
+        "name": "Aboardage",
+        "id": "30000134"
+      }
+    ],
+    "adventure_level": null,
+    "trade_level": null,
+    "battle_level": 28,
+    "total_level": 50,
+    "cost": 75000,
+    "quests": [
+      {
+        "id": "99991710",
+        "name": "Fierce warriors of Mohenjo-Daro",
+        "slug": "fierce-warriors-of-mohenjo-daro"
+      }
+    ],
+    "slug": "swordfighter"
+  },
+  {
+    "id": "20000049",
+    "name": "Naturalist",
+    "description": "One who seeks to learn everything that exists in the world.",
+    "type": "Adventure",
+    "expert_skills": [
+      {
+        "name": "Search",
+        "id": "30000020"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Geography",
+        "id": "30000006"
+      },
+      {
+        "name": "Eradication",
+        "id": "30000019"
+      },
+      {
+        "name": "Archaeology",
+        "id": "30000025"
+      },
+      {
+        "name": "Theology",
+        "id": "30000026"
+      },
+      {
+        "name": "Biology",
+        "id": "30000027"
+      },
+      {
+        "name": "Art",
+        "id": "30000028"
+      },
+      {
+        "name": "Appraisal",
+        "id": "30000029"
+      },
+      {
+        "name": "Observe",
+        "id": "30000035"
+      },
+      {
+        "name": "Pathology",
+        "id": "30000128"
+      }
+    ],
+    "adventure_level": 28,
+    "trade_level": null,
+    "battle_level": null,
+    "total_level": 50,
+    "cost": 80000,
+    "quests": [
+      {
+        "id": "99994423",
+        "name": "Natural history treatise",
+        "slug": "natural-history-treatise"
+      }
+    ],
+    "slug": "naturalist"
+  },
+  {
+    "id": "20000050",
+    "name": "Great Adventurer",
+    "description": "An explorer that directs his ship dreaming of reaching the farthest corners of the world.",
+    "type": "Adventure",
+    "expert_skills": [
+      {
+        "name": "Geography",
+        "id": "30000006"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Trap",
+        "id": "30000045"
+      },
+      {
+        "name": "Recognition",
+        "id": "30000016"
+      },
+      {
+        "name": "Search",
+        "id": "30000020"
+      },
+      {
+        "name": "Archaeology",
+        "id": "30000025"
+      },
+      {
+        "name": "Theology",
+        "id": "30000026"
+      },
+      {
+        "name": "Biology",
+        "id": "30000027"
+      },
+      {
+        "name": "Art",
+        "id": "30000028"
+      },
+      {
+        "name": "Appraisal",
+        "id": "30000029"
+      },
+      {
+        "name": "Unlock",
+        "id": "30000022"
+      },
+      {
+        "name": "Navigation",
+        "id": "30000041"
+      }
+    ],
+    "adventure_level": 76,
+    "trade_level": 36,
+    "battle_level": 40,
+    "total_level": 180,
+    "cost": 2000000,
+    "quests": [
+      {
+        "id": "99990154",
+        "name": "The promised future ",
+        "slug": "the-promised-future"
+      },
+      {
+        "id": "99994610",
+        "name": "Carried by bird's wings",
+        "slug": "carried-by-birds-wings"
+      },
+      {
+        "id": "99994548",
+        "name": "A bird like an over-fat goose",
+        "slug": "a-bird-like-an-over-fat-goose"
+      },
+      {
+        "id": "99997621",
+        "name": "Proof from a Historical Novel",
+        "slug": "proof-from-a-historical-novel"
+      }
+    ],
+    "slug": "great-adventurer"
+  },
+  {
+    "id": "20000051",
+    "name": "Millionaire",
+    "description": "A master trader in luxury goods and a heavyweight of the financial world that deals with a wide range of businesses.",
+    "type": "Merchant",
+    "expert_skills": [
+      {
+        "name": "Metal Trading",
+        "id": "30000060"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Accounts",
+        "id": "30000050"
+      },
+      {
+        "name": "Spice Trading",
+        "id": "30000055"
+      },
+      {
+        "name": "Management Technique",
+        "id": "30000083"
+      },
+      {
+        "name": "Jewellry Trading",
+        "id": "30000063"
+      },
+      {
+        "name": "Art Trading",
+        "id": "30000067"
+      },
+      {
+        "name": "Luxuries Trading",
+        "id": "30000054"
+      },
+      {
+        "name": "Fabric Trading",
+        "id": "30000058"
+      },
+      {
+        "name": "Storage",
+        "id": "30000078"
+      },
+      {
+        "name": "Sociability",
+        "id": "30000079"
+      },
+      {
+        "name": "Crafts Trading",
+        "id": "30000068"
+      }
+    ],
+    "adventure_level": 40,
+    "trade_level": 76,
+    "battle_level": 36,
+    "total_level": 180,
+    "cost": 5000000,
+    "quests": [
+      {
+        "id": "99990132",
+        "name": "Trade expansion plan",
+        "slug": "trade-expansion-plan"
+      }
+    ],
+    "slug": "millionaire"
+  },
+  {
+    "id": "20000052",
+    "name": "Spice Trader",
+    "description": "A merchant who deals in spices. Their knowledge can play a role in production.",
+    "type": "Merchant",
+    "expert_skills": [
+      {
+        "name": "Spice Trading",
+        "id": "30000055"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Accounts",
+        "id": "30000050"
+      },
+      {
+        "name": "Seasoning Trading",
+        "id": "30000052"
+      },
+      {
+        "name": "Medicine Trading",
+        "id": "30000056"
+      },
+      {
+        "name": "Dye Trading",
+        "id": "30000059"
+      },
+      {
+        "name": "Perfume Trading",
+        "id": "30000062"
+      },
+      {
+        "name": "Cooking",
+        "id": "30000072"
+      },
+      {
+        "name": "Storage",
+        "id": "30000078"
+      },
+      {
+        "name": "Sociability",
+        "id": "30000079"
+      }
+    ],
+    "adventure_level": null,
+    "trade_level": 28,
+    "battle_level": null,
+    "total_level": 50,
+    "cost": 80000,
+    "quests": [
+      {
+        "id": "99993763",
+        "name": "Spices to Europe",
+        "slug": "spices-to-europe"
+      }
+    ],
+    "slug": "spice-trader"
+  },
+  {
+    "id": "20000053",
+    "name": "Grand Admiral",
+    "description": "A demon as an enemy, a guardian deity as an ally. A stalwart power of the nation.",
+    "type": "Battle",
+    "expert_skills": [
+      {
+        "name": "Ballistics",
+        "id": "30000114"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Steering",
+        "id": "30000100"
+      },
+      {
+        "name": "Swordplay",
+        "id": "30000104"
+      },
+      {
+        "name": "Assault",
+        "id": "30000109"
+      },
+      {
+        "name": "Leadership",
+        "id": "30000123"
+      },
+      {
+        "name": "Accuracy",
+        "id": "30000115"
+      },
+      {
+        "name": "Gunfire",
+        "id": "30000118"
+      },
+      {
+        "name": "Arms",
+        "id": "30000136"
+      },
+      {
+        "name": "Gunnery",
+        "id": "30000111"
+      },
+      {
+        "name": "Tactics",
+        "id": "30000125"
+      },
+      {
+        "name": "Penetration",
+        "id": "30000117"
+      }
+    ],
+    "adventure_level": 36,
+    "trade_level": 40,
+    "battle_level": 76,
+    "total_level": 180,
+    "cost": 5000000,
+    "quests": [],
+    "slug": "grand-admiral"
+  },
+  {
+    "id": "20000055",
+    "name": "Ranger",
+    "description": "A specialist who explores lands no man has traversed before. They research unknown life forms and habitats.",
+    "type": "Adventure",
+    "expert_skills": [
+      {
+        "name": "Biology",
+        "id": "30000027"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Geography",
+        "id": "30000006"
+      },
+      {
+        "name": "Survival",
+        "id": "30000008"
+      },
+      {
+        "name": "Ecological Research",
+        "id": "30000010"
+      },
+      {
+        "name": "Procurement",
+        "id": "30000011"
+      },
+      {
+        "name": "Fishing",
+        "id": "30000012"
+      },
+      {
+        "name": "Recognition",
+        "id": "30000016"
+      },
+      {
+        "name": "Collection",
+        "id": "30000017"
+      },
+      {
+        "name": "Rescue",
+        "id": "30000018"
+      },
+      {
+        "name": "Swordplay",
+        "id": "30000104"
+      },
+      {
+        "name": "First Aid",
+        "id": "30000127"
+      }
+    ],
+    "adventure_level": 52,
+    "trade_level": null,
+    "battle_level": 22,
+    "total_level": 108,
+    "cost": 180000,
+    "quests": [
+      {
+        "id": "99994664",
+        "name": "A long journey to link dreams",
+        "slug": "a-long-journey-to-link-dreams"
+      },
+      {
+        "id": "99994705",
+        "name": "Honour of an adventurer",
+        "slug": "honour-of-an-adventurer"
+      }
+    ],
+    "slug": "ranger"
+  },
+  {
+    "id": "20000056",
+    "name": "Artist",
+    "description": "One who pursues the true meaning of beauty and studies cultural activities. Excels in art, handicrafts, and music.",
+    "type": "Adventure",
+    "expert_skills": [
+      {
+        "name": "Art",
+        "id": "30000028"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Theology",
+        "id": "30000026"
+      },
+      {
+        "name": "Appraisal",
+        "id": "30000029"
+      },
+      {
+        "name": "Wining and Dining",
+        "id": "30000031"
+      },
+      {
+        "name": "Persuasion",
+        "id": "30000032"
+      },
+      {
+        "name": "Violin Performance",
+        "id": "30000039"
+      },
+      {
+        "name": "Art Trading",
+        "id": "30000067"
+      },
+      {
+        "name": "Crafts Trading",
+        "id": "30000068"
+      },
+      {
+        "name": "Sociability",
+        "id": "30000079"
+      },
+      {
+        "name": "Handicrafts",
+        "id": "30000081"
+      }
+    ],
+    "adventure_level": 48,
+    "trade_level": null,
+    "battle_level": null,
+    "total_level": 116,
+    "cost": 240000,
+    "quests": [
+      {
+        "id": "99994388",
+        "name": "Revival of the Trojan war",
+        "slug": "revival-of-the-trojan-war"
+      },
+      {
+        "id": "99994389",
+        "name": "Restoration of famous items",
+        "slug": "restoration-of-famous-items"
+      }
+    ],
+    "slug": "artist"
+  },
+  {
+    "id": "20000057",
+    "name": "Patissier",
+    "description": "A craftsman of confectionaries. Can also make flavourings and liquor.",
+    "type": "Merchant",
+    "expert_skills": [
+      {
+        "name": "Cooking",
+        "id": "30000072"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Procurement",
+        "id": "30000011"
+      },
+      {
+        "name": "Collection",
+        "id": "30000017"
+      },
+      {
+        "name": "Food Trading",
+        "id": "30000051"
+      },
+      {
+        "name": "Seasoning Trading",
+        "id": "30000052"
+      },
+      {
+        "name": "Alcohol Trading",
+        "id": "30000053"
+      },
+      {
+        "name": "Luxuries Trading",
+        "id": "30000054"
+      },
+      {
+        "name": "Handicrafts",
+        "id": "30000081"
+      }
+    ],
+    "adventure_level": null,
+    "trade_level": 48,
+    "battle_level": null,
+    "total_level": 116,
+    "cost": 240000,
+    "quests": [
+      {
+        "id": "99994142",
+        "name": "Carlotta makes up her mind",
+        "slug": "carlotta-makes-up-her-mind"
+      },
+      {
+        "id": "99994145",
+        "name": "The famous patissier",
+        "slug": "the-famous-patissier"
+      }
+    ],
+    "slug": "patissier"
+  },
+  {
+    "id": "20000058",
+    "name": "Tailor",
+    "description": "An expert in tailoring. Can make traditional and modern style clothing.",
+    "type": "Merchant",
+    "expert_skills": [
+      {
+        "name": "Sewing",
+        "id": "30000073"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Accounts",
+        "id": "30000050"
+      },
+      {
+        "name": "Textile Trading",
+        "id": "30000057"
+      },
+      {
+        "name": "Fabric Trading",
+        "id": "30000058"
+      },
+      {
+        "name": "Dye Trading",
+        "id": "30000059"
+      },
+      {
+        "name": "Weapons Trading",
+        "id": "30000065"
+      },
+      {
+        "name": "Storage",
+        "id": "30000078"
+      },
+      {
+        "name": "Sociability",
+        "id": "30000079"
+      }
+    ],
+    "adventure_level": null,
+    "trade_level": 48,
+    "battle_level": null,
+    "total_level": 100,
+    "cost": 160000,
+    "quests": [
+      {
+        "id": "99993859",
+        "name": "Royal Warrant Craftsman",
+        "slug": "royal-warrant-craftsman"
+      },
+      {
+        "id": "99993862",
+        "name": "Dream of the noblewomen",
+        "slug": "dream-of-the-noblewomen"
+      }
+    ],
+    "slug": "tailor"
+  },
+  {
+    "id": "20000059",
+    "name": "Blacksmith",
+    "description": "An expert in creating armour and firearms.",
+    "type": "Merchant",
+    "expert_skills": [
+      {
+        "name": "Casting",
+        "id": "30000074"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Collection",
+        "id": "30000017"
+      },
+      {
+        "name": "Mineral Trading",
+        "id": "30000061"
+      },
+      {
+        "name": "Weapons Trading",
+        "id": "30000065"
+      },
+      {
+        "name": "Firearms Trading",
+        "id": "30000066"
+      },
+      {
+        "name": "Wares Trading",
+        "id": "30000069"
+      },
+      {
+        "name": "Swordplay",
+        "id": "30000104"
+      },
+      {
+        "name": "Gunnery",
+        "id": "30000111"
+      }
+    ],
+    "adventure_level": null,
+    "trade_level": 48,
+    "battle_level": null,
+    "total_level": 100,
+    "cost": 160000,
+    "quests": [
+      {
+        "id": "99994808",
+        "name": "A message",
+        "slug": "a-message"
+      }
+    ],
+    "slug": "blacksmith"
+  },
+  {
+    "id": "20000060",
+    "name": "Artisan",
+    "description": "A craftsman capable of creating various handicrafts based on various cultures of the world.",
+    "type": "Merchant",
+    "expert_skills": [
+      {
+        "name": "Handicrafts",
+        "id": "30000081"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Collection",
+        "id": "30000017"
+      },
+      {
+        "name": "Food Trading",
+        "id": "30000051"
+      },
+      {
+        "name": "Seasoning Trading",
+        "id": "30000052"
+      },
+      {
+        "name": "Alcohol Trading",
+        "id": "30000053"
+      },
+      {
+        "name": "Jewellry Trading",
+        "id": "30000063"
+      },
+      {
+        "name": "Crafts Trading",
+        "id": "30000068"
+      },
+      {
+        "name": "Wares Trading",
+        "id": "30000069"
+      }
+    ],
+    "adventure_level": null,
+    "trade_level": 48,
+    "battle_level": null,
+    "total_level": 100,
+    "cost": 160000,
+    "quests": [
+      {
+        "id": "99993829",
+        "name": "Founding ceremony",
+        "slug": "founding-ceremony"
+      }
+    ],
+    "slug": "artisan"
+  },
+  {
+    "id": "20000061",
+    "name": "Scout",
+    "description": "Being nimble, a scout delivers messages from various frontlines to their friends and allies.",
+    "type": "Battle",
+    "expert_skills": [
+      {
+        "name": "Evasion",
+        "id": "30000103"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Caution",
+        "id": "30000075"
+      },
+      {
+        "name": "Escape",
+        "id": "30000080"
+      },
+      {
+        "name": "Steering",
+        "id": "30000100"
+      },
+      {
+        "name": "Guard",
+        "id": "30000107"
+      },
+      {
+        "name": "Ballistics",
+        "id": "30000114"
+      },
+      {
+        "name": "Tactics",
+        "id": "30000125"
+      },
+      {
+        "name": "Mine Laying",
+        "id": "30000126"
+      },
+      {
+        "name": "Lookout",
+        "id": "30000132"
+      },
+      {
+        "name": "Request Reinforce",
+        "id": "30000133"
+      },
+      {
+        "name": "Request Convoy",
+        "id": "30000135"
+      }
+    ],
+    "adventure_level": 22,
+    "trade_level": null,
+    "battle_level": 48,
+    "total_level": 116,
+    "cost": 240000,
+    "quests": [
+      {
+        "id": "99993062",
+        "name": "The first step to defeating pirates",
+        "slug": "the-first-step-to-defeating-pirates"
+      }
+    ],
+    "slug": "scout"
+  },
+  {
+    "id": "20000062",
+    "name": "Supply Corps",
+    "description": "A team dedicated to quickly replenishing the battle capabilities of the main ship.",
+    "type": "Battle",
+    "expert_skills": [
+      {
+        "name": "Repair",
+        "id": "30000120"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Provisions",
+        "id": "30000013"
+      },
+      {
+        "name": "Rescue",
+        "id": "30000018"
+      },
+      {
+        "name": "Caution",
+        "id": "30000075"
+      },
+      {
+        "name": "Evasion",
+        "id": "30000103"
+      },
+      {
+        "name": "Ballistics",
+        "id": "30000114"
+      },
+      {
+        "name": "Leadership",
+        "id": "30000123"
+      },
+      {
+        "name": "First Aid",
+        "id": "30000127"
+      },
+      {
+        "name": "Surgery",
+        "id": "30000130"
+      },
+      {
+        "name": "Fire Fighting",
+        "id": "30000131"
+      },
+      {
+        "name": "Request Reinforce",
+        "id": "30000133"
+      }
+    ],
+    "adventure_level": null,
+    "trade_level": 16,
+    "battle_level": 36,
+    "total_level": 80,
+    "cost": 120000,
+    "quests": [
+      {
+        "id": "99992907",
+        "name": "Procure cannonballs",
+        "slug": "procure-cannonballs"
+      }
+    ],
+    "slug": "supply-corps"
+  },
+  {
+    "id": "20000063",
+    "name": "Sword Master",
+    "description": "A fighter who is a master of spears and swords.",
+    "type": "Battle",
+    "expert_skills": [
+      {
+        "name": "Swordplay",
+        "id": "30000104"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Marching",
+        "id": "30000014"
+      },
+      {
+        "name": "Weapons Trading",
+        "id": "30000065"
+      },
+      {
+        "name": "Evasion",
+        "id": "30000103"
+      },
+      {
+        "name": "Sword Mastery",
+        "id": "30000105"
+      },
+      {
+        "name": "Guard",
+        "id": "30000107"
+      },
+      {
+        "name": "Plunder",
+        "id": "30000108"
+      },
+      {
+        "name": "Assault",
+        "id": "30000109"
+      },
+      {
+        "name": "Tactics",
+        "id": "30000125"
+      },
+      {
+        "name": "First Aid",
+        "id": "30000127"
+      }
+    ],
+    "adventure_level": null,
+    "trade_level": null,
+    "battle_level": 36,
+    "total_level": 65,
+    "cost": 800000,
+    "quests": [
+      {
+        "id": "99992912",
+        "name": "The pride of the swordfighter",
+        "slug": "the-pride-of-the-swordfighter"
+      }
+    ],
+    "slug": "sword-master"
+  },
+  {
+    "id": "20000064",
+    "name": "Guerilla",
+    "description": "A specialist in guerrilla warfare. Able to use throwing weapons.",
+    "type": "Adventure",
+    "expert_skills": [
+      {
+        "name": "Marching",
+        "id": "30000014"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Procurement",
+        "id": "30000011"
+      },
+      {
+        "name": "Collection",
+        "id": "30000017"
+      },
+      {
+        "name": "Search",
+        "id": "30000020"
+      },
+      {
+        "name": "Throwing",
+        "id": "30000040"
+      },
+      {
+        "name": "Trap",
+        "id": "30000045"
+      },
+      {
+        "name": "Evasion",
+        "id": "30000103"
+      },
+      {
+        "name": "Swordplay",
+        "id": "30000104"
+      },
+      {
+        "name": "Gunfire",
+        "id": "30000118"
+      },
+      {
+        "name": "Mine Laying",
+        "id": "30000126"
+      },
+      {
+        "name": "First Aid",
+        "id": "30000127"
+      }
+    ],
+    "adventure_level": 28,
+    "trade_level": null,
+    "battle_level": 24,
+    "total_level": 65,
+    "cost": 2500000,
+    "quests": [
+      {
+        "id": "99994401",
+        "name": "The nation's treasure",
+        "slug": "the-nations-treasure"
+      },
+      {
+        "id": "99994231",
+        "name": "Buried ruins of Rome",
+        "slug": "buried-ruins-of-rome"
+      }
+    ],
+    "slug": "guerilla"
+  },
+  {
+    "id": "20000065",
+    "name": "Musketeer",
+    "description": "A professional marksman who can shoot targets standing afar. Good with various firearms.",
+    "type": "Battle",
+    "expert_skills": [
+      {
+        "name": "Gunfire",
+        "id": "30000118"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Marching",
+        "id": "30000014"
+      },
+      {
+        "name": "Firearms Trading",
+        "id": "30000066"
+      },
+      {
+        "name": "Casting",
+        "id": "30000074"
+      },
+      {
+        "name": "Ballistics",
+        "id": "30000114"
+      },
+      {
+        "name": "Accuracy",
+        "id": "30000115"
+      },
+      {
+        "name": "Reloading",
+        "id": "30000116"
+      },
+      {
+        "name": "Sniping",
+        "id": "30000119"
+      },
+      {
+        "name": "Tactics",
+        "id": "30000125"
+      },
+      {
+        "name": "First Aid",
+        "id": "30000127"
+      }
+    ],
+    "adventure_level": null,
+    "trade_level": 25,
+    "battle_level": 27,
+    "total_level": 65,
+    "cost": 1200000,
+    "quests": [
+      {
+        "id": "99992911",
+        "name": "Summons from musketeers",
+        "slug": "summons-from-musketeers"
+      }
+    ],
+    "slug": "musketeer"
+  },
+  {
+    "id": "20000066",
+    "name": "Filibuster",
+    "description": "A dangerous pirate that preys on sailors. The name itself is enough to strike fear into anyone travelling the seas.",
+    "type": "Battle",
+    "expert_skills": [
+      {
+        "name": "Steering",
+        "id": "30000100"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Cooking",
+        "id": "30000072"
+      },
+      {
+        "name": "Rowing",
+        "id": "30000102"
+      },
+      {
+        "name": "Evasion",
+        "id": "30000103"
+      },
+      {
+        "name": "Swordplay",
+        "id": "30000104"
+      },
+      {
+        "name": "Plunder",
+        "id": "30000108"
+      },
+      {
+        "name": "Assault",
+        "id": "30000109"
+      },
+      {
+        "name": "Gunnery",
+        "id": "30000111"
+      },
+      {
+        "name": "Accuracy",
+        "id": "30000115"
+      },
+      {
+        "name": "Repair",
+        "id": "30000120"
+      },
+      {
+        "name": "First Aid",
+        "id": "30000127"
+      }
+    ],
+    "adventure_level": 25,
+    "trade_level": 25,
+    "battle_level": 54,
+    "total_level": null,
+    "cost": null,
+    "quests": [
+      {
+        "id": "99992878",
+        "name": "Devil's progeny",
+        "slug": "devils-progeny"
+      },
+      {
+        "id": "99992880",
+        "name": "Fear's call",
+        "slug": "fears-call"
+      }
+    ],
+    "slug": "filibuster"
+  },
+  {
+    "id": "20000067",
+    "name": "Salvager",
+    "description": "Adventurers who search and explore sunken ships. They have very strong adventure and exploration skills.",
+    "type": "Adventure",
+    "expert_skills": [
+      {
+        "name": "Salvage",
+        "id": "30000043"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Sail Handling",
+        "id": "30000001"
+      },
+      {
+        "name": "Surveying",
+        "id": "30000005"
+      },
+      {
+        "name": "Geography",
+        "id": "30000006"
+      },
+      {
+        "name": "Survival",
+        "id": "30000008"
+      },
+      {
+        "name": "Provisions",
+        "id": "30000013"
+      },
+      {
+        "name": "Rescue",
+        "id": "30000018"
+      },
+      {
+        "name": "Unlock",
+        "id": "30000022"
+      },
+      {
+        "name": "Haul",
+        "id": "30000044"
+      },
+      {
+        "name": "Repair",
+        "id": "30000120"
+      }
+    ],
+    "adventure_level": 38,
+    "trade_level": 10,
+    "battle_level": 10,
+    "total_level": 80,
+    "cost": 800000,
+    "quests": [
+      {
+        "id": "99993356",
+        "name": "Daily-advancing technologies",
+        "slug": "daily-advancing-technologies"
+      }
+    ],
+    "slug": "salvager"
+  },
+  {
+    "id": "20000068",
+    "name": "Sommelier",
+    "description": "A craftsman who handles and makes various liquors.",
+    "type": "Merchant",
+    "expert_skills": [
+      {
+        "name": "Alcohol Trading",
+        "id": "30000053"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Wining and Dining",
+        "id": "30000031"
+      },
+      {
+        "name": "Accounts",
+        "id": "30000050"
+      },
+      {
+        "name": "Food Trading",
+        "id": "30000051"
+      },
+      {
+        "name": "Luxuries Trading",
+        "id": "30000054"
+      },
+      {
+        "name": "Perfume Trading",
+        "id": "30000062"
+      },
+      {
+        "name": "Caution",
+        "id": "30000075"
+      },
+      {
+        "name": "Storage",
+        "id": "30000078"
+      },
+      {
+        "name": "Sociability",
+        "id": "30000079"
+      },
+      {
+        "name": "Handicrafts",
+        "id": "30000081"
+      }
+    ],
+    "adventure_level": 10,
+    "trade_level": 41,
+    "battle_level": null,
+    "total_level": 80,
+    "cost": 800000,
+    "quests": [
+      {
+        "id": "99994253",
+        "name": "Only the finest satisfy the noble",
+        "slug": "only-the-finest-satisfy-the-noble"
+      },
+      {
+        "id": "99994051",
+        "name": "The depths of the wines of the world",
+        "slug": "the-depths-of-the-wines-of-the-world"
+      }
+    ],
+    "slug": "sommelier"
+  },
+  {
+    "id": "20000070",
+    "name": "Adventurer Mentor",
+    "description": "A job class that enables one to teach adventure courses.",
+    "type": "Adventure",
+    "expert_skills": [
+      {
+        "name": "Survival",
+        "id": "30000008"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Geography",
+        "id": "30000006"
+      },
+      {
+        "name": "Archaeology",
+        "id": "30000025"
+      },
+      {
+        "name": "Theology",
+        "id": "30000026"
+      },
+      {
+        "name": "Biology",
+        "id": "30000027"
+      },
+      {
+        "name": "Art",
+        "id": "30000028"
+      },
+      {
+        "name": "Appraisal",
+        "id": "30000029"
+      },
+      {
+        "name": "Linguistics",
+        "id": "30000042"
+      },
+      {
+        "name": "Caution",
+        "id": "30000075"
+      },
+      {
+        "name": "Sociability",
+        "id": "30000079"
+      }
+    ],
+    "adventure_level": 32,
+    "trade_level": 5,
+    "battle_level": 5,
+    "total_level": 60,
+    "cost": 500000,
+    "quests": [
+      {
+        "id": "99997407",
+        "name": "Outline of adventure course teaching",
+        "slug": "outline-of-adventure-course-teaching"
+      }
+    ],
+    "slug": "adventurer-mentor"
+  },
+  {
+    "id": "20000071",
+    "name": "Merchant Mentor",
+    "description": "A job class that enables one to teach merchant courses.",
+    "type": "Merchant",
+    "expert_skills": [
+      {
+        "name": "Frugality",
+        "id": "30000077"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Accounts",
+        "id": "30000050"
+      },
+      {
+        "name": "Food Trading",
+        "id": "30000051"
+      },
+      {
+        "name": "Medicine Trading",
+        "id": "30000056"
+      },
+      {
+        "name": "Textile Trading",
+        "id": "30000057"
+      },
+      {
+        "name": "Art Trading",
+        "id": "30000067"
+      },
+      {
+        "name": "Crafts Trading",
+        "id": "30000068"
+      },
+      {
+        "name": "Caution",
+        "id": "30000075"
+      },
+      {
+        "name": "Body Language",
+        "id": "30000076"
+      },
+      {
+        "name": "Sociability",
+        "id": "30000079"
+      }
+    ],
+    "adventure_level": 5,
+    "trade_level": 32,
+    "battle_level": 5,
+    "total_level": 60,
+    "cost": 500000,
+    "quests": [
+      {
+        "id": "99995849",
+        "name": "Outline of trade course teaching",
+        "slug": "outline-of-trade-course-teaching"
+      }
+    ],
+    "slug": "merchant-mentor"
+  },
+  {
+    "id": "20000072",
+    "name": "Maritime Mentor",
+    "description": "A job class that enables one to teach maritime courses.",
+    "type": "Battle",
+    "expert_skills": [
+      {
+        "name": "Leadership",
+        "id": "30000123"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Caution",
+        "id": "30000075"
+      },
+      {
+        "name": "Sociability",
+        "id": "30000079"
+      },
+      {
+        "name": "Steering",
+        "id": "30000100"
+      },
+      {
+        "name": "Swordplay",
+        "id": "30000104"
+      },
+      {
+        "name": "Gunnery",
+        "id": "30000111"
+      },
+      {
+        "name": "Ballistics",
+        "id": "30000114"
+      },
+      {
+        "name": "Request Reinforce",
+        "id": "30000133"
+      },
+      {
+        "name": "Pathology",
+        "id": "30000128"
+      },
+      {
+        "name": "Fire Fighting",
+        "id": "30000131"
+      },
+      {
+        "name": "Detonics",
+        "id": "30000138"
+      }
+    ],
+    "adventure_level": 5,
+    "trade_level": 5,
+    "battle_level": 32,
+    "total_level": 60,
+    "cost": 500000,
+    "quests": [
+      {
+        "id": "99996492",
+        "name": "Outline of maritime course teaching",
+        "slug": "outline-of-maritime-course-teaching"
+      }
+    ],
+    "slug": "maritime-mentor"
+  },
+  {
+    "id": "20000073",
+    "name": "Animal Trader",
+    "description": "A merchant that deals in farm animals. Also good at producing and processing foods.",
+    "type": "Merchant",
+    "expert_skills": [],
+    "favoured_skills": [
+      {
+        "name": "Accounts",
+        "id": "30000050"
+      },
+      {
+        "name": "Food Trading",
+        "id": "30000051"
+      },
+      {
+        "name": "Livestock Trading",
+        "id": "30000064"
+      },
+      {
+        "name": "Cooking",
+        "id": "30000072"
+      },
+      {
+        "name": "Caution",
+        "id": "30000075"
+      },
+      {
+        "name": "Storage",
+        "id": "30000078"
+      }
+    ],
+    "adventure_level": null,
+    "trade_level": 3,
+    "battle_level": null,
+    "total_level": 4,
+    "cost": 800,
+    "quests": [
+      {
+        "id": "99995979",
+        "name": "First task from the guild",
+        "slug": "first-task-from-the-guild"
+      },
+      {
+        "id": "99994327",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99996056",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99994252",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995936",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99994058",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995891",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99993909",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995852",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99995878",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995848",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995761",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99995791",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995736",
+        "name": "The Merchant Guild's predicame",
+        "slug": "the-merchant-guilds-predicame-genoa"
+      },
+      {
+        "id": "99995692",
+        "name": "The Merchant Guild's predicament",
+        "slug": "the-merchant-guilds-predicament"
+      }
+    ],
+    "slug": "animal-trader"
+  },
+  {
+    "id": "20000074",
+    "name": "Helmsperson",
+    "description": "With vast knowledge of navigation, they excel at handling ships.",
+    "type": "Adventure",
+    "expert_skills": [],
+    "favoured_skills": [
+      {
+        "name": "Sail Handling",
+        "id": "30000001"
+      },
+      {
+        "name": "Surveying",
+        "id": "30000005"
+      },
+      {
+        "name": "Geography",
+        "id": "30000006"
+      },
+      {
+        "name": "Recognition",
+        "id": "30000016"
+      },
+      {
+        "name": "Steering",
+        "id": "30000100"
+      },
+      {
+        "name": "Repair",
+        "id": "30000120"
+      },
+      {
+        "name": "Fire Fighting",
+        "id": "30000131"
+      }
+    ],
+    "adventure_level": 4,
+    "trade_level": null,
+    "battle_level": null,
+    "total_level": 5,
+    "cost": 1000,
+    "quests": [
+      {
+        "id": "99993610",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99993397",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99993635",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99993609",
+        "name": "First job for the Guild",
+        "slug": "first-job-for-the-guild-marseille"
+      },
+      {
+        "id": "99993846",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99993611",
+        "name": "(G.T.)The first thing that the union",
+        "slug": "gtthe-first-thing-that-the-union-marseille"
+      },
+      {
+        "id": "99994009",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99994245",
+        "name": "(G.T.)The first thing that the union",
+        "slug": "gtthe-first-thing-that-the-union-marseille"
+      },
+      {
+        "id": "99994229",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99993616",
+        "name": "(G.T.)The first thing that the union",
+        "slug": "gtthe-first-thing-that-the-union-marseille"
+      },
+      {
+        "id": "99992940",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99992951",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      },
+      {
+        "id": "99992945",
+        "name": "Adventurer guild's plight",
+        "slug": "adventurer-guilds-plight-marseille"
+      }
+    ],
+    "slug": "helmsperson"
+  },
+  {
+    "id": "20000075",
+    "name": "Folklorist",
+    "description": "One who studies customs and traditions of various cultures for a living.",
+    "type": "Adventure",
+    "expert_skills": [
+      {
+        "name": "Surveying",
+        "id": "30000005"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Geography",
+        "id": "30000006"
+      },
+      {
+        "name": "Recognition",
+        "id": "30000016"
+      },
+      {
+        "name": "Search",
+        "id": "30000020"
+      },
+      {
+        "name": "Unlock",
+        "id": "30000022"
+      },
+      {
+        "name": "Archaeology",
+        "id": "30000025"
+      },
+      {
+        "name": "Linguistics",
+        "id": "30000042"
+      },
+      {
+        "name": "Throwing",
+        "id": "30000040"
+      },
+      {
+        "name": "Body Language",
+        "id": "30000076"
+      },
+      {
+        "name": "Swordplay",
+        "id": "30000104"
+      }
+    ],
+    "adventure_level": 35,
+    "trade_level": null,
+    "battle_level": 20,
+    "total_level": 65,
+    "cost": 600000,
+    "quests": [
+      {
+        "id": "99997322",
+        "name": "The new research of the scholar",
+        "slug": "the-new-research-of-the-scholar"
+      }
+    ],
+    "slug": "folklorist"
+  },
+  {
+    "id": "20000076",
+    "name": "Artificer",
+    "description": "A job class that relies entirely on self-sufficiency. Able to make items used for daily use as well as military items.",
+    "type": "Merchant",
+    "expert_skills": [
+      {
+        "name": "Storage",
+        "id": "30000078"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Procurement",
+        "id": "30000011"
+      },
+      {
+        "name": "Fishing",
+        "id": "30000012"
+      },
+      {
+        "name": "Collection",
+        "id": "30000017"
+      },
+      {
+        "name": "Search",
+        "id": "30000020"
+      },
+      {
+        "name": "Sewing",
+        "id": "30000073"
+      },
+      {
+        "name": "Casting",
+        "id": "30000074"
+      },
+      {
+        "name": "Handicrafts",
+        "id": "30000081"
+      }
+    ],
+    "adventure_level": 32,
+    "trade_level": 54,
+    "battle_level": null,
+    "total_level": 116,
+    "cost": 720000,
+    "quests": [
+      {
+        "id": "99995799",
+        "name": "The chance to show the skill",
+        "slug": "the-chance-to-show-the-skill"
+      }
+    ],
+    "slug": "artificer"
+  },
+  {
+    "id": "20000077",
+    "name": "Political Merchant",
+    "description": "A merchant who uses their wealth to influence politics.",
+    "type": "Merchant",
+    "expert_skills": [
+      {
+        "name": "Sociability",
+        "id": "30000079"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Appraisal",
+        "id": "30000029"
+      },
+      {
+        "name": "Accounts",
+        "id": "30000050"
+      },
+      {
+        "name": "Metal Trading",
+        "id": "30000060"
+      },
+      {
+        "name": "Firearms Trading",
+        "id": "30000066"
+      },
+      {
+        "name": "Wares Trading",
+        "id": "30000069"
+      },
+      {
+        "name": "Casting",
+        "id": "30000074"
+      },
+      {
+        "name": "Sniping",
+        "id": "30000119"
+      },
+      {
+        "name": "Leadership",
+        "id": "30000123"
+      },
+      {
+        "name": "Tactics",
+        "id": "30000125"
+      }
+    ],
+    "adventure_level": 10,
+    "trade_level": 35,
+    "battle_level": 18,
+    "total_level": 80,
+    "cost": 720000,
+    "quests": [
+      {
+        "id": "99995934",
+        "name": "Bargain and trade",
+        "slug": "bargain-and-trade"
+      }
+    ],
+    "slug": "political-merchant"
+  },
+  {
+    "id": "20000078",
+    "name": "Caravanner",
+    "description": "A merchant who carries many goods by camel. Used in raids, they are capable land fighters.",
+    "type": "Merchant",
+    "expert_skills": [
+      {
+        "name": "Livestock Trading",
+        "id": "30000064"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Procurement",
+        "id": "30000011"
+      },
+      {
+        "name": "Marching",
+        "id": "30000014"
+      },
+      {
+        "name": "Collection",
+        "id": "30000017"
+      },
+      {
+        "name": "Food Trading",
+        "id": "30000051"
+      },
+      {
+        "name": "Luxuries Trading",
+        "id": "30000054"
+      },
+      {
+        "name": "Spice Trading",
+        "id": "30000055"
+      },
+      {
+        "name": "Perfume Trading",
+        "id": "30000062"
+      },
+      {
+        "name": "Merchandise Knowledge",
+        "id": "30000084"
+      },
+      {
+        "name": "Swordplay",
+        "id": "30000104"
+      },
+      {
+        "name": "Sniping",
+        "id": "30000119"
+      }
+    ],
+    "adventure_level": 32,
+    "trade_level": 38,
+    "battle_level": 32,
+    "total_level": 116,
+    "cost": 960000,
+    "quests": [
+      {
+        "id": "99995715",
+        "name": "Caravan's instinct",
+        "slug": "caravans-instinct"
+      }
+    ],
+    "slug": "caravanner"
+  },
+  {
+    "id": "20000079",
+    "name": "Master Alchemist",
+    "description": "A scholar that has given up worldly customs to study alchemy. Possesses vast knowledge and able to utilize high technologies.",
+    "type": "Merchant",
+    "expert_skills": [
+      {
+        "name": "Alchemy",
+        "id": "30000082"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Theology",
+        "id": "30000026"
+      },
+      {
+        "name": "Linguistics",
+        "id": "30000042"
+      },
+      {
+        "name": "Sewing",
+        "id": "30000073"
+      },
+      {
+        "name": "Casting",
+        "id": "30000074"
+      },
+      {
+        "name": "Frugality",
+        "id": "30000077"
+      },
+      {
+        "name": "Storage",
+        "id": "30000078"
+      },
+      {
+        "name": "Handicrafts",
+        "id": "30000081"
+      },
+      {
+        "name": "First Aid",
+        "id": "30000127"
+      },
+      {
+        "name": "Pathology",
+        "id": "30000128"
+      },
+      {
+        "name": "Surgery",
+        "id": "30000130"
+      }
+    ],
+    "adventure_level": 36,
+    "trade_level": 50,
+    "battle_level": null,
+    "total_level": 120,
+    "cost": 5000000,
+    "quests": [
+      {
+        "id": "99995800",
+        "name": "Letter from the alchemist",
+        "slug": "letter-from-the-alchemist"
+      }
+    ],
+    "slug": "master-alchemist"
+  },
+  {
+    "id": "20000080",
+    "name": "Ruin Explorer",
+    "description": "Specialist who searches the interior of ruins. Well-versed in exploration knowledge and trap use.",
+    "type": "Adventure",
+    "expert_skills": [
+      {
+        "name": "Archaeology",
+        "id": "30000025"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Survival",
+        "id": "30000008"
+      },
+      {
+        "name": "Marching",
+        "id": "30000014"
+      },
+      {
+        "name": "Search",
+        "id": "30000020"
+      },
+      {
+        "name": "Unlock",
+        "id": "30000022"
+      },
+      {
+        "name": "Theology",
+        "id": "30000026"
+      },
+      {
+        "name": "Appraisal",
+        "id": "30000029"
+      },
+      {
+        "name": "Throwing",
+        "id": "30000040"
+      },
+      {
+        "name": "Trap",
+        "id": "30000045"
+      }
+    ],
+    "adventure_level": 32,
+    "trade_level": null,
+    "battle_level": 20,
+    "total_level": 76,
+    "cost": 800000,
+    "quests": [
+      {
+        "id": "99997273",
+        "name": "An obstruction in the way",
+        "slug": "an-obstruction-in-the-way"
+      }
+    ],
+    "slug": "ruin-explorer"
+  },
+  {
+    "id": "20000081",
+    "name": "Pharmacist",
+    "description": "Merchant who also possesses a specialization in medicines. Familiar with and skilled in the effective use of various tools.",
+    "type": "Merchant",
+    "expert_skills": [
+      {
+        "name": "Medicine Trading",
+        "id": "30000056"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Procurement",
+        "id": "30000011"
+      },
+      {
+        "name": "Collection",
+        "id": "30000017"
+      },
+      {
+        "name": "Alcohol Trading",
+        "id": "30000053"
+      },
+      {
+        "name": "Mineral Trading",
+        "id": "30000061"
+      },
+      {
+        "name": "Cooking",
+        "id": "30000072"
+      },
+      {
+        "name": "Frugality",
+        "id": "30000077"
+      },
+      {
+        "name": "Storage",
+        "id": "30000078"
+      },
+      {
+        "name": "Handicrafts",
+        "id": "30000081"
+      },
+      {
+        "name": "Merchandise Knowledge",
+        "id": "30000084"
+      }
+    ],
+    "adventure_level": 22,
+    "trade_level": 48,
+    "battle_level": null,
+    "total_level": 96,
+    "cost": 760000,
+    "quests": [
+      {
+        "id": "99995515",
+        "name": "Delivery Requiring Knowledge and Experience",
+        "slug": "delivery-requiring-knowledge-and-experience"
+      }
+    ],
+    "slug": "pharmacist"
+  },
+  {
+    "id": "20000082",
+    "name": "Light Soldier",
+    "description": "Lightly-armed soldier that nimbly moves around and trifles with opponent. Excels in both the use of swords and throwing weapons.",
+    "type": "Battle",
+    "expert_skills": [
+      {
+        "name": "Swordplay",
+        "id": "30000104"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Marching",
+        "id": "30000014"
+      },
+      {
+        "name": "Rescue",
+        "id": "30000018"
+      },
+      {
+        "name": "Throwing",
+        "id": "30000040"
+      },
+      {
+        "name": "Caution",
+        "id": "30000075"
+      },
+      {
+        "name": "Evasion",
+        "id": "30000103"
+      },
+      {
+        "name": "Plunder",
+        "id": "30000108"
+      },
+      {
+        "name": "Leadership",
+        "id": "30000123"
+      },
+      {
+        "name": "First Aid",
+        "id": "30000127"
+      },
+      {
+        "name": "Aboardage",
+        "id": "30000134"
+      }
+    ],
+    "adventure_level": 15,
+    "trade_level": null,
+    "battle_level": 30,
+    "total_level": 65,
+    "cost": 800000,
+    "quests": [
+      {
+        "id": "99992912",
+        "name": "The pride of the swordfighter",
+        "slug": "the-pride-of-the-swordfighter"
+      }
+    ],
+    "slug": "light-soldier"
+  },
+  {
+    "id": "20000083",
+    "name": "Court Gardener",
+    "description": "Adventurer that collects the world's plants. Has a wealth of knowledge in botany and exploration. Also known as the 'Plant hunter'",
+    "type": "Adventure",
+    "expert_skills": [
+      {
+        "name": "Ecological Research",
+        "id": "30000010"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Biology",
+        "id": "30000027"
+      },
+      {
+        "name": "Trap",
+        "id": "30000045"
+      },
+      {
+        "name": "Collection",
+        "id": "30000017"
+      },
+      {
+        "name": "Sniping",
+        "id": "30000119"
+      },
+      {
+        "name": "Gunfire",
+        "id": "30000118"
+      },
+      {
+        "name": "Storage",
+        "id": "30000078"
+      },
+      {
+        "name": "Marching",
+        "id": "30000014"
+      },
+      {
+        "name": "Procurement",
+        "id": "30000011"
+      },
+      {
+        "name": "Geography",
+        "id": "30000006"
+      }
+    ],
+    "adventure_level": 30,
+    "trade_level": null,
+    "battle_level": null,
+    "total_level": 60,
+    "cost": 90000,
+    "quests": [],
+    "slug": "court-gardener"
+  },
+  {
+    "id": "20000084",
+    "name": "Tea Merchant",
+    "description": "Merchant that specializes in the handling of tea. Has a wealth of knowledge in all luxuries. Skilled in processing and preservation.",
+    "type": "Merchant",
+    "expert_skills": [
+      {
+        "name": "Luxuries Trading",
+        "id": "30000054"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Merchandise Knowledge",
+        "id": "30000084"
+      },
+      {
+        "name": "Accounts",
+        "id": "30000050"
+      },
+      {
+        "name": "Storage",
+        "id": "30000078"
+      },
+      {
+        "name": "Frugality",
+        "id": "30000077"
+      },
+      {
+        "name": "Sociability",
+        "id": "30000079"
+      },
+      {
+        "name": "Procurement",
+        "id": "30000011"
+      },
+      {
+        "name": "Collection",
+        "id": "30000017"
+      },
+      {
+        "name": "Cooking",
+        "id": "30000072"
+      }
+    ],
+    "adventure_level": null,
+    "trade_level": 30,
+    "battle_level": null,
+    "total_level": 60,
+    "cost": 90000,
+    "quests": [
+      {
+        "id": "99990007",
+        "name": "The tavern's new product",
+        "slug": "the-tavern-s-new-product"
+      }
+    ],
+    "slug": "tea-merchant"
+  },
+  {
+    "id": "20000085",
+    "name": "Marine Corps",
+    "description": "Occupation that carries out melee battles with high level of organization. Has high level of leadership and battle skills",
+    "type": "Battle",
+    "expert_skills": [
+      {
+        "name": "Gunfire",
+        "id": "30000118"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Sniping",
+        "id": "30000119"
+      },
+      {
+        "name": "Swordplay",
+        "id": "30000104"
+      },
+      {
+        "name": "Gunnery",
+        "id": "30000111"
+      },
+      {
+        "name": "Tactics",
+        "id": "30000125"
+      },
+      {
+        "name": "Assault",
+        "id": "30000109"
+      },
+      {
+        "name": "Guard",
+        "id": "30000107"
+      },
+      {
+        "name": "Aboardage",
+        "id": "30000134"
+      },
+      {
+        "name": "Leadership",
+        "id": "30000123"
+      },
+      {
+        "name": "First Aid",
+        "id": "30000127"
+      }
+    ],
+    "adventure_level": null,
+    "trade_level": null,
+    "battle_level": 30,
+    "total_level": 60,
+    "cost": 90000,
+    "quests": [
+      {
+        "id": "99990025",
+        "name": "The marine corps",
+        "slug": "the-marine-corps"
+      }
+    ],
+    "slug": "marine-corps"
+  },
+  {
+    "id": "20000086",
+    "name": "Astronomer",
+    "description": "Profession that specializes in the study of stars and astronomical phenomenon.",
+    "type": "Adventure",
+    "expert_skills": [
+      {
+        "name": "Astronomy",
+        "id": "30000030"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Surveying",
+        "id": "30000005"
+      },
+      {
+        "name": "Geography",
+        "id": "30000006"
+      },
+      {
+        "name": "Survival",
+        "id": "30000008"
+      },
+      {
+        "name": "Procurement",
+        "id": "30000011"
+      },
+      {
+        "name": "Marching",
+        "id": "30000014"
+      },
+      {
+        "name": "Recognition",
+        "id": "30000016"
+      },
+      {
+        "name": "Archaeology",
+        "id": "30000025"
+      },
+      {
+        "name": "Theology",
+        "id": "30000026"
+      },
+      {
+        "name": "Observe",
+        "id": "30000035"
+      }
+    ],
+    "adventure_level": 52,
+    "trade_level": null,
+    "battle_level": null,
+    "total_level": 108,
+    "cost": 800000,
+    "quests": [
+      {
+        "id": "99994828",
+        "name": "At the end of the Caribbean",
+        "slug": "at-the-end-of-the-caribbean"
+      },
+      {
+        "id": "99993587",
+        "name": "A culture without water",
+        "slug": "a-culture-without-water"
+      },
+      {
+        "id": "99990954",
+        "name": "Introduction to Astronomy",
+        "slug": "introduction-to-astronomy"
+      }
+    ],
+    "slug": "astronomer"
+  },
+  {
+    "id": "20000087",
+    "name": "Steam Engineer",
+    "description": "An engineer which applies the state of the art, steam engine technology for various uses.",
+    "type": "Merchant",
+    "expert_skills": [
+      {
+        "name": "Management Technique",
+        "id": "30000083"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Navigation",
+        "id": "30000041"
+      },
+      {
+        "name": "Arms",
+        "id": "30000136"
+      },
+      {
+        "name": "Casting",
+        "id": "30000074"
+      },
+      {
+        "name": "Weapons Trading",
+        "id": "30000065"
+      },
+      {
+        "name": "Wares Trading",
+        "id": "30000069"
+      },
+      {
+        "name": "Mineral Trading",
+        "id": "30000061"
+      },
+      {
+        "name": "Merchandise Knowledge",
+        "id": "30000084"
+      },
+      {
+        "name": "Trap",
+        "id": "30000045"
+      },
+      {
+        "name": "Repair",
+        "id": "30000120"
+      }
+    ],
+    "adventure_level": 10,
+    "trade_level": 40,
+    "battle_level": 10,
+    "total_level": 80,
+    "cost": 500000,
+    "quests": [
+      {
+        "id": "99990874",
+        "name": "Troubled Casting Workshop Supervisor",
+        "slug": "troubled-casting-workshop-supervisor"
+      }
+    ],
+    "slug": "steam-engineer"
+  },
+  {
+    "id": "20000088",
+    "name": "Breeder",
+    "description": "A Job specializing in taking care of animals and pets. Those who have this job also have a wide variety of knowledge in regards to animals, food, and nature.",
+    "type": "Adventure",
+    "expert_skills": [
+      {
+        "name": "Pet Training",
+        "id": "30000046"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Cooking",
+        "id": "30000072"
+      },
+      {
+        "name": "Storage",
+        "id": "30000078"
+      },
+      {
+        "name": "Livestock Trading",
+        "id": "30000064"
+      },
+      {
+        "name": "Fishing",
+        "id": "30000012"
+      },
+      {
+        "name": "Procurement",
+        "id": "30000011"
+      },
+      {
+        "name": "Collection",
+        "id": "30000017"
+      },
+      {
+        "name": "Biology",
+        "id": "30000027"
+      },
+      {
+        "name": "Ecological Research",
+        "id": "30000010"
+      }
+    ],
+    "adventure_level": 30,
+    "trade_level": 10,
+    "battle_level": null,
+    "total_level": 50,
+    "cost": 80000,
+    "quests": [
+      {
+        "id": "99990880",
+        "name": "Walking Together",
+        "slug": "walking-together"
+      }
+    ],
+    "slug": "breeder"
+  },
+  {
+    "id": "20000089",
+    "name": "High Seeker",
+    "description": "An experienced great adventurer sailing around in hopes of traveling to every corner of the world.",
+    "type": "Adventure",
+    "expert_skills": [
+      {
+        "name": "Geography",
+        "id": "30000006"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Trap",
+        "id": "30000045"
+      },
+      {
+        "name": "Recognition",
+        "id": "30000016"
+      },
+      {
+        "name": "Search",
+        "id": "30000020"
+      },
+      {
+        "name": "Archaeology",
+        "id": "30000025"
+      },
+      {
+        "name": "Theology",
+        "id": "30000026"
+      },
+      {
+        "name": "Pet Training",
+        "id": "30000046"
+      },
+      {
+        "name": "Astronomy",
+        "id": "30000030"
+      },
+      {
+        "name": "Appraisal",
+        "id": "30000029"
+      },
+      {
+        "name": "Unlock",
+        "id": "30000022"
+      },
+      {
+        "name": "Navigation",
+        "id": "30000041"
+      }
+    ],
+    "adventure_level": 86,
+    "trade_level": 36,
+    "battle_level": 40,
+    "total_level": 180,
+    "cost": 2000000,
+    "quests": [
+      {
+        "id": "99990467",
+        "name": "Uncharted Area Investigation",
+        "slug": "uncharted-area-investigation"
+      }
+    ],
+    "slug": "high-seeker"
+  },
+  {
+    "id": "20000090",
+    "name": "Business Tycoon",
+    "description": "A business person who is widely successful in trading, especially regarding Luxury Goods.",
+    "type": "Merchant",
+    "expert_skills": [
+      {
+        "name": "Metal Trading",
+        "id": "30000060"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Accounts",
+        "id": "30000050"
+      },
+      {
+        "name": "Spice Trading",
+        "id": "30000055"
+      },
+      {
+        "name": "Management Technique",
+        "id": "30000083"
+      },
+      {
+        "name": "Jewellry Trading",
+        "id": "30000063"
+      },
+      {
+        "name": "Art Trading",
+        "id": "30000067"
+      },
+      {
+        "name": "Luxuries Trading",
+        "id": "30000054"
+      },
+      {
+        "name": "Fabric Trading",
+        "id": "30000058"
+      },
+      {
+        "name": "Storage",
+        "id": "30000078"
+      },
+      {
+        "name": "Merchandise Knowledge",
+        "id": "30000084"
+      },
+      {
+        "name": "Alchemy",
+        "id": "30000082"
+      }
+    ],
+    "adventure_level": 40,
+    "trade_level": 86,
+    "battle_level": 36,
+    "total_level": 180,
+    "cost": 1000000,
+    "quests": [
+      {
+        "id": "99991307",
+        "name": "A use for something big",
+        "slug": "a-use-for-something-big"
+      },
+      {
+        "id": "99990479",
+        "name": "Trade Route Expansion Project",
+        "slug": "trade-route-expansion-project"
+      }
+    ],
+    "slug": "business-tycoon"
+  },
+  {
+    "id": "20000091",
+    "name": "High Commander",
+    "description": "A national hero who is described as the 'fierce god' as well as the 'guardian of the sea.'",
+    "type": "Battle",
+    "expert_skills": [
+      {
+        "name": "Ballistics",
+        "id": "30000114"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Steering",
+        "id": "30000100"
+      },
+      {
+        "name": "Sword Mastery",
+        "id": "30000105"
+      },
+      {
+        "name": "Swordplay",
+        "id": "30000104"
+      },
+      {
+        "name": "Evasion",
+        "id": "30000103"
+      },
+      {
+        "name": "Accuracy",
+        "id": "30000115"
+      },
+      {
+        "name": "Gunnery",
+        "id": "30000111"
+      },
+      {
+        "name": "Penetration",
+        "id": "30000117"
+      },
+      {
+        "name": "Gunfire",
+        "id": "30000118"
+      },
+      {
+        "name": "Reloading",
+        "id": "30000116"
+      },
+      {
+        "name": "Arms",
+        "id": "30000136"
+      }
+    ],
+    "adventure_level": 36,
+    "trade_level": 40,
+    "battle_level": 86,
+    "total_level": 180,
+    "cost": 5000000,
+    "quests": [
+      {
+        "id": "99990471",
+        "name": "Subduing Wanderers",
+        "slug": "subduing-wanderers"
+      }
+    ],
+    "slug": "high-commander"
+  },
+  {
+    "id": "20000092",
+    "name": "Capitano",
+    "description": "Merchant who commands the galley trade ship fleet. Mainly handles light-weight expensive goods.",
+    "type": "Merchant",
+    "expert_skills": [
+      {
+        "name": "Rowing",
+        "id": "30000102"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Accounts",
+        "id": "30000050"
+      },
+      {
+        "name": "Alcohol Trading",
+        "id": "30000053"
+      },
+      {
+        "name": "Luxuries Trading",
+        "id": "30000054"
+      },
+      {
+        "name": "Spice Trading",
+        "id": "30000055"
+      },
+      {
+        "name": "Textile Trading",
+        "id": "30000057"
+      },
+      {
+        "name": "Fabric Trading",
+        "id": "30000058"
+      },
+      {
+        "name": "Dye Trading",
+        "id": "30000059"
+      },
+      {
+        "name": "Perfume Trading",
+        "id": "30000062"
+      },
+      {
+        "name": "Management Technique",
+        "id": "30000083"
+      },
+      {
+        "name": "Steering",
+        "id": "30000100"
+      }
+    ],
+    "adventure_level": 20,
+    "trade_level": 35,
+    "battle_level": null,
+    "total_level": 80,
+    "cost": 1200000,
+    "quests": [
+      {
+        "id": "99991348",
+        "name": "Folklore Regarding a Golden Color",
+        "slug": "folklore-regarding-a-golden-color"
+      }
+    ],
+    "slug": "capitano"
+  },
+  {
+    "id": "20000093",
+    "name": "Viking",
+    "description": "Name for the armed group mainly active in Northern Europe. Making effective use of their environment, they excel in both battle and trade.",
+    "type": "Adventure",
+    "expert_skills": [
+      {
+        "name": "Swordplay",
+        "id": "30000104"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Ecological Research",
+        "id": "30000010"
+      },
+      {
+        "name": "Procurement",
+        "id": "30000011"
+      },
+      {
+        "name": "Fishing",
+        "id": "30000012"
+      },
+      {
+        "name": "Collection",
+        "id": "30000017"
+      },
+      {
+        "name": "Biology",
+        "id": "30000027"
+      },
+      {
+        "name": "Trap",
+        "id": "30000045"
+      },
+      {
+        "name": "Accounts",
+        "id": "30000050"
+      },
+      {
+        "name": "Rowing",
+        "id": "30000102"
+      },
+      {
+        "name": "Sword Mastery",
+        "id": "30000105"
+      },
+      {
+        "name": "Plunder",
+        "id": "30000108"
+      }
+    ],
+    "adventure_level": 45,
+    "trade_level": 30,
+    "battle_level": 40,
+    "total_level": 135,
+    "cost": 1000000,
+    "quests": [
+      {
+        "id": "99991349",
+        "name": "Interaction for Further Research",
+        "slug": "interaction-for-further-research"
+      }
+    ],
+    "slug": "viking"
+  },
+  {
+    "id": "20000094",
+    "name": "Gladiator",
+    "description": "Warriors who fight to the death for the audience. They can adapt to many different fighting styles.",
+    "type": "Battle",
+    "expert_skills": [
+      {
+        "name": "Sword Mastery",
+        "id": "30000105"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Throwing",
+        "id": "30000040"
+      },
+      {
+        "name": "Trap",
+        "id": "30000045"
+      },
+      {
+        "name": "Merchandise Knowledge",
+        "id": "30000084"
+      },
+      {
+        "name": "Evasion",
+        "id": "30000103"
+      },
+      {
+        "name": "Swordplay",
+        "id": "30000104"
+      },
+      {
+        "name": "Guard",
+        "id": "30000107"
+      },
+      {
+        "name": "Assault",
+        "id": "30000109"
+      },
+      {
+        "name": "Sniping",
+        "id": "30000119"
+      },
+      {
+        "name": "First Aid",
+        "id": "30000127"
+      },
+      {
+        "name": "Bow Attack",
+        "id": "30000137"
+      }
+    ],
+    "adventure_level": 20,
+    "trade_level": null,
+    "battle_level": 60,
+    "total_level": 120,
+    "cost": 1000000,
+    "quests": [
+      {
+        "id": "99991357",
+        "name": "Monster Hunting Request",
+        "slug": "monster-hunting-request"
+      }
+    ],
+    "slug": "gladiator"
+  },
+  {
+    "id": "20000095",
+    "name": "Military Scientist",
+    "description": "Scholars who conduct studies on military science such as tactics and weapons.",
+    "type": "Battle",
+    "expert_skills": [
+      {
+        "name": "Ballistics",
+        "id": "30000114"
+      }
+    ],
+    "favoured_skills": [
+      {
+        "name": "Gunnery",
+        "id": "30000111"
+      },
+      {
+        "name": "Accuracy",
+        "id": "30000115"
+      },
+      {
+        "name": "Tactics",
+        "id": "30000125"
+      },
+      {
+        "name": "First Aid",
+        "id": "30000127"
+      },
+      {
+        "name": "Surgery",
+        "id": "30000130"
+      },
+      {
+        "name": "Fire Fighting",
+        "id": "30000131"
+      },
+      {
+        "name": "Arms",
+        "id": "30000136"
+      },
+      {
+        "name": "Detonics",
+        "id": "30000138"
+      },
+      {
+        "name": "Firearms Trading",
+        "id": "30000066"
+      },
+      {
+        "name": "Casting",
+        "id": "30000074"
+      }
+    ],
+    "adventure_level": 15,
+    "trade_level": 15,
+    "battle_level": 35,
+    "total_level": 100,
+    "cost": 600000,
+    "quests": [
+      {
+        "id": "99991356",
+        "name": "The Rise of Bizarre Pirates",
+        "slug": "the-rise-of-bizarre-pirates"
+      }
+    ],
+    "slug": "military-scientist"
+  }
+]

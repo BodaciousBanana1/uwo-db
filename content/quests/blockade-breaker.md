@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Seville"
 guild_type = "Maritime"
 discovery = ""
+reward = 63200
+advance = 12640
+difficulty = 2
 skills = [{ name = "Spanish", level = 1 }]
 variants = [{ city = "Seville", guild_type = "Maritime", id = "99996541", slug = "blockade-breaker" }]
 steps = []

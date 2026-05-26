@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Aden"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 7
 skills = []
 variants = [{ city = "Aden", guild_type = "Maritime", id = "99996307", slug = "gtphenomenon-of-persian-prisoners" }]
 steps = []

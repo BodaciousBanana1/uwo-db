@@ -10,7 +10,11 @@ type = "Adventure"
 city = "Amsterdam"
 guild_type = "Adventurer"
 discovery = "Taiga"
+reward = 0
+advance = 0
+difficulty = 5
 skills = [{ name = "Recognition", level = 3 }, { name = "Geography", level = 5 }]
 variants = [{ city = "Amsterdam", guild_type = "Adventurer", id = "99990195", slug = "the-world-of-frozen-seas" }]
 steps = []
+followups = [{ id = "99990185", name = "A forest in the tundra", slug = "a-forest-in-the-tundra" }, { id = "99990170", name = "Mark of the northeast passage", slug = "mark-of-the-northeast-passage" }]
 +++

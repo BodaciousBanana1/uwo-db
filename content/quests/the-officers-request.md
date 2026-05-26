@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Tunis"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 7
 skills = [{ name = "Arabic", level = 1 }, { name = "Gunnery", level = 5 }]
 variants = [{ city = "Tunis", guild_type = "Maritime", id = "99996376", slug = "the-officers-request" }]
 steps = []

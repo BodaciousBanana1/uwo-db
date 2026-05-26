@@ -10,6 +10,9 @@ type = "Adventure"
 city = "SecretEdict"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 3
 skills = []
 variants = [{ city = "SecretEdict", guild_type = "Adventurer", id = "99990064", slug = "deliver-a-great-rulers-orb" }]
 steps = []

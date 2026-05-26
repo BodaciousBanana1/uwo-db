@@ -10,6 +10,9 @@ type = "Trade"
 city = "Seville"
 guild_type = "Merchant"
 discovery = "Site of Carthage"
+reward = 0
+advance = 0
+difficulty = 8
 skills = [{ name = "Metal Trading", level = 7 }, { name = "Sociability", level = 7 }, { name = "Arabic", level = 1 }]
 variants = [{ city = "Seville", guild_type = "Merchant", id = "99995934", slug = "bargain-and-trade" }]
 steps = []

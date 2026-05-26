@@ -10,6 +10,9 @@ type = "Trade"
 city = "Stockholm"
 guild_type = "Merchant"
 discovery = ""
+reward = 47000
+advance = 1340
+difficulty = 4
 skills = [{ name = "English", level = 1 }, { name = "Nordic", level = 1 }]
 variants = [{ city = "Stockholm", guild_type = "Merchant", id = "99996048", slug = "procure-duck-meat" }]
 steps = []

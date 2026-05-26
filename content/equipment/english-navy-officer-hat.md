@@ -1,0 +1,17 @@
++++
+title = "English Navy Officer Hat"
+template = "equipment/page.html"
+
+[extra]
+id = "00142305"
+slug = "english-navy-officer-hat"
+category = "Head"
+description = "A hat worn by members of the English Navy."
+formality = 0
+disguise = 0
+attack = 0
+defense = 8
+durability = 50
+skills = [{ name = "Handicrafts", bonus = 1 }]
+quest_sources = []
++++

@@ -10,6 +10,9 @@ type = "Trade"
 city = "Jakarta"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 5
 skills = [{ name = "Arabic", level = 1 }]
 variants = [{ city = "Jakarta", guild_type = "Merchant", id = "99999997", slug = "delivering-benzoin-resin" }]
 steps = []

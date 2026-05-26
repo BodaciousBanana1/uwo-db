@@ -10,6 +10,9 @@ type = "Trade"
 city = "San Francisco"
 guild_type = "Merchant"
 discovery = "Hiva Oa"
+reward = 0
+advance = 0
+difficulty = 5
 skills = [{ name = "Oceanic Languages", level = 1 }]
 variants = [{ city = "San Francisco", guild_type = "Merchant", id = "99990371", slug = "lots-of-coconuts" }]
 steps = []

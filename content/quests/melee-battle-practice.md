@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Sagres"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 2
 skills = []
 variants = [{ city = "Sagres", guild_type = "Maritime", id = "99990674", slug = "melee-battle-practice" }]
 steps = []

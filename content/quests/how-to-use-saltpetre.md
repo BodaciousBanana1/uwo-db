@@ -10,6 +10,9 @@ type = "Trade"
 city = "Calicut"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 6
 skills = [{ name = "Italian", level = 1 }]
 variants = [{ city = "Calicut", guild_type = "Merchant", id = "99995604", slug = "how-to-use-saltpetre" }]
 steps = []

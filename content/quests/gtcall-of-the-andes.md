@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Lima"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 10
 skills = [{ name = "Quechuan", level = 1 }]
 variants = [{ city = "Lima", guild_type = "Maritime", id = "99996236", slug = "gtcall-of-the-andes" }]
 steps = []

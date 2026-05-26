@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Seville"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 5
 skills = []
 variants = [{ city = "Seville", guild_type = "Maritime", id = "99999931", slug = "campaign-against-the-soldiers-of-a-dead-land" }]
 steps = []

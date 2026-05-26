@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Genoa"
 guild_type = "Adventurer"
 discovery = "Bordeaux"
+reward = 6400
+advance = 0
+difficulty = 5
 skills = [{ name = "French", level = 1 }]
 variants = [{ city = "Genoa", guild_type = "Adventurer", id = "99997398", slug = "explorer-in-a-maze" }]
 steps = []

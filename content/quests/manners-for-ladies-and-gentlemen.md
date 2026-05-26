@@ -10,7 +10,11 @@ type = "Adventure"
 city = "Marseille"
 guild_type = "Adventurer"
 discovery = "The Jewel of Astaroth"
+reward = 3300
+advance = 0
+difficulty = 2
 skills = [{ name = "French", level = 1 }, { name = "Italian", level = 1 }]
 variants = [{ city = "Marseille", guild_type = "Adventurer", id = "99994129", slug = "manners-for-ladies-and-gentlemen" }]
 steps = []
+followups = [{ id = "99994458", name = "Treasure of Astaroth", slug = "treasure-of-astaroth" }]
 +++

@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Seville"
 guild_type = "Adventurer"
 discovery = ""
+reward = 400
+advance = 0
+difficulty = 1
 skills = [{ name = "Spanish", level = 1 }]
 variants = [{ city = "Seville", guild_type = "Adventurer", id = "99994002", slug = "rosario" }]
 steps = [{ step = 1, location = "Seville Tavern", action = "speak with Rosario" }, { step = 2, location = "Seville Tavern", action = "buy Rosario a drink" }, { step = 3, location = "Seville Tavern", action = "speak with Barkeep" }]

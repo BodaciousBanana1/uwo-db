@@ -10,6 +10,9 @@ type = "Trade"
 city = "Zanzibar"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 8
 skills = [{ name = "Greek", level = 1 }]
 variants = [{ city = "Zanzibar", guild_type = "Merchant", id = "99995644", slug = "deliver-african-shell-perfume" }]
 steps = []

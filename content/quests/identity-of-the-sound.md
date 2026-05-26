@@ -10,7 +10,12 @@ type = "Adventure"
 city = "St. Petersburg"
 guild_type = "Adventurer"
 discovery = "Green Dragon"
+reward = 0
+advance = 0
+difficulty = 6
 skills = [{ name = "Ecological Research", level = 6 }, { name = "Biology", level = 8 }, { name = "Spanish", level = 1 }]
 variants = [{ city = "St. Petersburg", guild_type = "Adventurer", id = "99990622", slug = "identity-of-the-sound" }]
 steps = [{ step = 1, location = "St. Petersburg Tavern", action = "Talk to Barkeep" }, { step = 2, location = "San Juan", action = "Talk to Maiden, south of town" }, { step = 3, location = "San Juan", action = "Use" }]
+followups = [{ id = "99993550", name = "Green dragon", slug = "green-dragon" }, { id = "99990211", name = "The sound of water in the darkness of night", slug = "the-sound-of-water-in-the-darkness-of-night" }, { id = "99990622", name = "Identity of the sound", slug = "identity-of-the-sound" }]
+discovery_description = "A small type of frog native of the island where San Juan is located. Their main characteristic is their high pitched voice which carries far."
 +++

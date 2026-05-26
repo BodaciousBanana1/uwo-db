@@ -10,7 +10,11 @@ type = "Maritime"
 city = "Marseille"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 7
 skills = [{ name = "Swahili", level = 1 }]
 variants = [{ city = "Marseille", guild_type = "Maritime", id = "99996525", slug = "the-money-wont-come" }]
 steps = [{ step = 1, location = "Marseille", action = "Talk to the Market Keeper" }, { step = 2, location = "Sofala", action = "Talk to the Market Keeper" }, { step = 3, location = "Africa Southeast Coast", action = "Defeat a Zambezi Thief Lv21 NPC (190 HP)" }]
+equipment_rewards = [{ id = "00405300", name = "Tshirovha", slug = "tshirovha" }]
 +++

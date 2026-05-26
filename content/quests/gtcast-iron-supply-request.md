@@ -10,6 +10,9 @@ type = "Trade"
 city = "Seville"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 3
 skills = [{ name = "English", level = 1 }]
 variants = [{ city = "Seville", guild_type = "Merchant", id = "99990887", slug = "gtcast-iron-supply-request" }]
 steps = []

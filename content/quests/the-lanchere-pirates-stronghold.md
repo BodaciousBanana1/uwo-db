@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Genoa"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 5
 skills = []
 variants = [{ city = "Genoa", guild_type = "Maritime", id = "99996490", slug = "the-lanchere-pirates-stronghold" }]
 steps = []

@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Calicut"
 guild_type = "Maritime"
 discovery = "Black Crowned Crane"
+reward = 280000
+advance = 56000
+difficulty = 7
 skills = [{ name = "Indian Languages", level = 1 }]
 variants = [{ city = "Seville", guild_type = "Maritime", id = "99996545", slug = "kidnapping-seville" }, { city = "Calicut", guild_type = "Maritime", id = "99991916", slug = "kidnapping-calicut" }]
 steps = [{ step = 1, location = "Ceylon", action = "Talk to City Official (x2)" }, { step = 2, location = "Ceylon", action = "Talk to Girl (x2)" }, { step = 3, location = "Ceylon", action = "Talk to City Official (x2)" }, { step = 4, location = "Southeast Brunei", action = "Kill 10 lv42 Rajang River Pirates (290 stamina)" }]

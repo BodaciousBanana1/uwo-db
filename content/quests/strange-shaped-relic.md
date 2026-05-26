@@ -10,7 +10,13 @@ type = "Adventure"
 city = "Hangzhou"
 guild_type = "Adventurer"
 discovery = "Jade Cicada"
+reward = 66000
+advance = 0
+difficulty = 4
 skills = [{ name = "Search", level = 3 }, { name = "Theology", level = 5 }, { name = "Unlock", level = 3 }]
 variants = [{ city = "Hangzhou", guild_type = "Adventurer", id = "99996796", slug = "strange-shaped-relic" }]
 steps = []
+discovery_description = "Burial Jade from the Yin dynasty shaped like a cicada.In ancient times, it was believed to prevent decay when placed in the holes where dead bodies lay."
+exp_reward = 340
+fame_reward = 170
 +++

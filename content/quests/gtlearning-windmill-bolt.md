@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Marseille"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 10
 skills = [{ name = "Sniping", level = 12 }]
 variants = [{ city = "Marseille", guild_type = "Maritime", id = "99991030", slug = "gtlearning-windmill-bolt" }]
 steps = []

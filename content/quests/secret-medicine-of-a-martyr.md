@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Lisbon"
 guild_type = "Adventurer"
 discovery = "Becket Water"
+reward = 0
+advance = 0
+difficulty = 1
 skills = [{ name = "Search", level = 1 }, { name = "Theology", level = 2 }, { name = "English", level = 1 }]
 variants = [{ city = "Lisbon", guild_type = "Adventurer", id = "99991231", slug = "secret-medicine-of-a-martyr" }]
 steps = []

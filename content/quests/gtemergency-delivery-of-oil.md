@@ -10,6 +10,9 @@ type = "Trade"
 city = "Saint-Georges"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 2
 skills = [{ name = "Portuguese", level = 1 }]
 variants = [{ city = "Saint-Georges", guild_type = "Merchant", id = "99990744", slug = "gtemergency-delivery-of-oil" }]
 steps = []

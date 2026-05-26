@@ -10,6 +10,9 @@ type = "Trade"
 city = "London"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "English", level = 1 }, { name = "Casting", level = 5 }]
 variants = [{ city = "London", guild_type = "Merchant", id = "99996010", slug = "weapons-that-cuts-both-ways" }]
 steps = []

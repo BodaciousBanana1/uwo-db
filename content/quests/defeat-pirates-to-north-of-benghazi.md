@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Advanced school"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 2
 skills = []
 variants = [{ city = "Advanced school", guild_type = "Adventurer", id = "99999904", slug = "defeat-pirates-to-north-of-benghazi" }]
 steps = []

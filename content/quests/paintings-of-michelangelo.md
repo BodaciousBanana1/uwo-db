@@ -10,7 +10,14 @@ type = "Adventure"
 city = "Stockholm"
 guild_type = "Adventurer"
 discovery = "The Holy Family"
+reward = 0
+advance = 0
+difficulty = 8
 skills = [{ name = "Search", level = 5 }, { name = "Art", level = 7 }, { name = "Italian", level = 1 }]
 variants = [{ city = "Stockholm", guild_type = "Adventurer", id = "99993780", slug = "paintings-of-michelangelo" }]
 steps = [{ step = 1, location = "Naples", action = "Talk to Sculptor" }, { step = 3, location = "Venice Church", action = "Venice Church" }]
+equipment_rewards = [{ id = "00515300", name = "Art Appraisal Skill", slug = "art-appraisal-skill" }]
+discovery_description = "A painting by Michelangelo. Compared to the works of other artists, the flesh and clothes seem three dimensional, possibly due to his expertise as a sculptor. The less than sacred appearance of Mary is thought to be the influence of the religious group Michelangelo was affiliated with at the time."
+exp_reward = 495
+fame_reward = 210
 +++

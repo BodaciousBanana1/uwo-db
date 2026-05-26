@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Genoa"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 6
 skills = []
 variants = [{ city = "Naples", guild_type = "Maritime", id = "99999946", slug = "hunting-trading-ships-naples" }, { city = "Genoa", guild_type = "Maritime", id = "99999937", slug = "hunting-trading-ships-genoa" }, { city = "Marseille", guild_type = "Maritime", id = "99996523", slug = "hunting-trading-ships-marseille" }]
 steps = []

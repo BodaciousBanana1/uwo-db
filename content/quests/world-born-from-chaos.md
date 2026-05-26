@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Lisbon"
 guild_type = "Adventurer"
 discovery = "Bald Eagle"
+reward = 0
+advance = 0
+difficulty = 7
 skills = [{ name = "Ecological Research", level = 8 }, { name = "Biology", level = 10 }, { name = "Theology", level = 10 }]
 variants = [{ city = "Lisbon", guild_type = "Adventurer", id = "99990466", slug = "world-born-from-chaos" }]
 steps = [{ step = 1, location = "Valencia", action = "talk to travelling Scholar" }, { step = 2, location = "Merida", action = "talk to travelling Scholar (2x)" }, { step = 3, location = "Niagara River Basin", action = "Use" }]

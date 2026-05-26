@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Rio de Janeiro"
 guild_type = "Maritime"
 discovery = ""
+reward = 165000
+advance = 33000
+difficulty = 7
 skills = [{ name = "Mayan Languages", level = 1 }]
 variants = [{ city = "Rio de Janeiro", guild_type = "Maritime", id = "99992544", slug = "peace-in-the-amazon-river-region" }]
 steps = []

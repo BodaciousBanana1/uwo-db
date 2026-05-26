@@ -10,6 +10,9 @@ type = "Adventure"
 city = "East Asia"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 10
 skills = [{ name = "Sniping", level = 12 }]
 variants = [{ city = "East Asia", guild_type = "Adventurer", id = "99990662", slug = "gtacquire-white-hair" }]
 steps = []

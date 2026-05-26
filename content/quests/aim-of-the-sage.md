@@ -10,7 +10,11 @@ type = "Adventure"
 city = "Treasure Hunt"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "Search", level = 5 }, { name = "Theology", level = 7 }, { name = "Art", level = 3 }]
 variants = [{ city = "Treasure Hunt", guild_type = "Adventurer", id = "99999199", slug = "aim-of-the-sage" }]
 steps = []
+equipment_rewards = [{ id = "00530200", name = "Picatrix", slug = "picatrix" }]
 +++

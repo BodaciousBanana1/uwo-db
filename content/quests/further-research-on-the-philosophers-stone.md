@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Further Research"
 guild_type = "Adventurer"
 discovery = "Azoth Sword"
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "Search", level = 11 }, { name = "Appraisal", level = 13 }, { name = "Italian", level = 1 }]
 variants = [{ city = "Further Research", guild_type = "Adventurer", id = "99991259", slug = "further-research-on-the-philosophers-stone" }]
 steps = []

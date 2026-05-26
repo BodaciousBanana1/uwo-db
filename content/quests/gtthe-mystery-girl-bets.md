@@ -10,6 +10,9 @@ type = "Trade"
 city = "Lisbon"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 1
 skills = [{ name = "Portuguese", level = 1 }]
 variants = [{ city = "Lisbon", guild_type = "Merchant", id = "99999921", slug = "gtthe-mystery-girl-bets" }]
 steps = []

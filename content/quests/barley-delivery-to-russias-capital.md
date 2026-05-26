@@ -10,6 +10,9 @@ type = "Trade"
 city = "Lisbon"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 7
 skills = [{ name = "Far North Languages", level = 1 }]
 variants = [{ city = "Lisbon", guild_type = "Merchant", id = "99990164", slug = "barley-delivery-to-russias-capital" }]
 steps = []

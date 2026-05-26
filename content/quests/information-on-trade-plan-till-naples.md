@@ -10,6 +10,9 @@ type = "Trade"
 city = "Seville"
 guild_type = "Merchant"
 discovery = ""
+reward = 15000
+advance = 0
+difficulty = 3
 skills = [{ name = "Spanish", level = 1 }, { name = "French", level = 1 }, { name = "Italian", level = 1 }]
 variants = [{ city = "Seville", guild_type = "Merchant", id = "99995101", slug = "information-on-trade-plan-till-naples" }]
 steps = []

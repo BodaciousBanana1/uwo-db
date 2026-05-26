@@ -10,6 +10,9 @@ type = "Trade"
 city = "Rio de Janeiro"
 guild_type = "Merchant"
 discovery = ""
+reward = 124000
+advance = 2240
+difficulty = 6
 skills = [{ name = "Portuguese", level = 1 }]
 variants = [{ city = "Rio de Janeiro", guild_type = "Merchant", id = "99993717", slug = "a-new-sensation" }]
 steps = []

@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Stockholm"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 8
 skills = []
 variants = [{ city = "Stockholm", guild_type = "Maritime", id = "99990551", slug = "defeating-pirates-in-the-island-in-the-north" }]
 steps = []

@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Intermediate school"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 1
 skills = []
 variants = [{ city = "Intermediate school", guild_type = "Adventurer", id = "99999834", slug = "gtrelationships-with-other-navigators-intermediate-school" }, { city = "Intermediate school", guild_type = "Adventurer", id = "99999853", slug = "gtrelationships-with-other-navigators-intermediate-school" }, { city = "Intermediate school", guild_type = "Adventurer", id = "99999844", slug = "gtrelationships-with-other-navigators-intermediate-school" }]
 steps = []

@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Santiago Imperial Contract"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 9
 skills = []
 variants = [{ city = "Santiago Imperial Contract", guild_type = "Adventurer", id = "99997813", slug = "wipe-out-the-caribbean-pirates" }]
 steps = []

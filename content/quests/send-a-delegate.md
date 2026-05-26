@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Venice"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 6
 skills = []
 variants = [{ city = "Venice", guild_type = "Maritime", id = "99996455", slug = "send-a-delegate" }]
 steps = []

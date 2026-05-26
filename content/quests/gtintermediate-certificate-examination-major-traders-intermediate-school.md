@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Intermediate school"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 2
 skills = []
 variants = [{ city = "Intermediate school", guild_type = "Adventurer", id = "99999861", slug = "gtintermediate-certificate-examination-major-traders-intermediate-school" }, { city = "Intermediate school", guild_type = "Adventurer", id = "99999860", slug = "gtintermediate-certificate-examination-major-traders-intermediate-school" }, { city = "Intermediate school", guild_type = "Adventurer", id = "99999863", slug = "gtintermediate-certificate-examination-major-traders-intermediate-school" }, { city = "Intermediate school", guild_type = "Adventurer", id = "99999862", slug = "gtintermediate-certificate-examination-major-traders-intermediate-school" }]
 steps = []

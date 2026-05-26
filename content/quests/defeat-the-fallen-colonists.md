@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Jakarta"
 guild_type = "Maritime"
 discovery = ""
+reward = 421000
+advance = 29300
+difficulty = 5
 skills = []
 variants = [{ city = "Jakarta", guild_type = "Maritime", id = "99996110", slug = "defeat-the-fallen-colonists" }]
 steps = []

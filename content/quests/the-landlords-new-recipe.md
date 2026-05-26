@@ -10,6 +10,9 @@ type = "Trade"
 city = "London"
 guild_type = "Merchant"
 discovery = ""
+reward = 7000
+advance = 0
+difficulty = 3
 skills = [{ name = "English", level = 1 }, { name = "Cooking", level = 1 }, { name = "Dutch", level = 1 }, { name = "Cooking", level = 2 }, { name = "Portuguese", level = 1 }, { name = "Spanish", level = 1 }, { name = "French", level = 1 }, { name = "Italian", level = 1 }]
 variants = [{ city = "London", guild_type = "Merchant", id = "99996076", slug = "the-landlords-new-recipe" }]
 steps = []

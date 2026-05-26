@@ -1,0 +1,17 @@
++++
+title = "Marechal Cuirass"
+template = "equipment/page.html"
+
+[extra]
+id = "00033705"
+slug = "marechal-cuirass-3"
+category = "Body"
+description = "Beautiful armour that may only be worn by soldiers with combat experience at sea."
+formality = 35
+disguise = 0
+attack = 0
+defense = 80
+durability = 50
+skills = []
+quest_sources = []
++++

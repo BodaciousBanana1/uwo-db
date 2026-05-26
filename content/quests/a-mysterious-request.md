@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Naples"
 guild_type = "Maritime"
 discovery = ""
+reward = 35000
+advance = 7000
+difficulty = 4
 skills = [{ name = "Italian", level = 1 }]
 variants = [{ city = "Naples", guild_type = "Maritime", id = "99994840", slug = "a-mysterious-request" }]
 steps = []

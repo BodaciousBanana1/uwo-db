@@ -10,6 +10,9 @@ type = "Trade"
 city = "Marseille"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "French", level = 1 }, { name = "Casting", level = 3 }]
 variants = [{ city = "London", guild_type = "Merchant", id = "99995131", slug = "safety-measures-london" }, { city = "Marseille", guild_type = "Merchant", id = "99991209", slug = "safety-measures-marseille" }]
 steps = []

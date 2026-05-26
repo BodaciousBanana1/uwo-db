@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Santo Domingo"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 8
 skills = [{ name = "Spanish", level = 1 }]
 variants = [{ city = "Santo Domingo", guild_type = "Maritime", id = "99996157", slug = "take-back-the-fishery" }]
 steps = [{ step = 1, location = "Santo Domingo", action = "Talk to Fisherman Boss near Gatekeeper" }]

@@ -10,6 +10,9 @@ type = "Trade"
 city = "Lisbon"
 guild_type = "Merchant"
 discovery = ""
+reward = 28000
+advance = 8480
+difficulty = 3
 skills = [{ name = "Dutch", level = 1 }]
 variants = [{ city = "Hangzhou", guild_type = "Merchant", id = "99995511", slug = "deliver-tin-ore-hangzhou" }, { city = "Lisbon", guild_type = "Merchant", id = "99994140", slug = "deliver-tin-ore-lisbon" }]
 steps = []

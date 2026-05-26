@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Immigrants"
 guild_type = "Adventurer"
 discovery = ""
+reward = 210000
+advance = 42000
+difficulty = 5
 skills = [{ name = "Spanish", level = 1 }]
 variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99991075", slug = "gtforwarding-in-seville" }]
 steps = []

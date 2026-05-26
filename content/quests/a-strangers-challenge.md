@@ -10,7 +10,11 @@ type = "Adventure"
 city = "London"
 guild_type = "Adventurer"
 discovery = "The Jewel of Baal"
+reward = 0
+advance = 0
+difficulty = 10
 skills = []
 variants = [{ city = "London", guild_type = "Adventurer", id = "99993489", slug = "a-strangers-challenge" }]
 steps = [{ step = 1, location = "West Caribbean Sea", action = "Trigger Battle North of" }]
+followups = [{ id = "99993572", name = "After the fighting has finished...", slug = "after-the-fighting-has-finished" }]
 +++

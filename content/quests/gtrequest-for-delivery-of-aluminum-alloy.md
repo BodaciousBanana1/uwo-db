@@ -10,6 +10,9 @@ type = "Trade"
 city = "Marseille"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 4
 skills = [{ name = "English", level = 1 }]
 variants = [{ city = "Marseille", guild_type = "Merchant", id = "99991110", slug = "gtrequest-for-delivery-of-aluminum-alloy" }]
 steps = []

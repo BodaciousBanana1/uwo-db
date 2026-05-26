@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Immigrants"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 1
 skills = []
 variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99991051", slug = "gtletter-to-arden" }]
 steps = []

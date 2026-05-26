@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Marseille"
 guild_type = "Adventurer"
 discovery = ""
+reward = 3500
+advance = 0
+difficulty = 2
 skills = [{ name = "French", level = 1 }, { name = "Italian", level = 1 }]
 variants = [{ city = "Marseille", guild_type = "Adventurer", id = "99997419", slug = "bizarre-weapon" }]
 steps = []

@@ -10,6 +10,9 @@ type = "Trade"
 city = "Lisbon"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 5
 skills = [{ name = "Arabic", level = 1 }]
 variants = [{ city = "Lisbon", guild_type = "Merchant", id = "99995970", slug = "gtdeliver-peace-offerings" }]
 steps = []

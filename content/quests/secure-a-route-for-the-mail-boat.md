@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Aden"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 6
 skills = [{ name = "Arabic", level = 1 }]
 variants = [{ city = "Aden", guild_type = "Maritime", id = "99996298", slug = "secure-a-route-for-the-mail-boat" }]
 steps = []

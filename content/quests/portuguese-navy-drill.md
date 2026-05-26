@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Lisbon"
 guild_type = "Adventurer"
 discovery = ""
+reward = 2000
+advance = 400
+difficulty = 1
 skills = []
 variants = [{ city = "Lisbon", guild_type = "Adventurer", id = "99994497", slug = "portuguese-navy-drill" }]
 steps = []

@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Calicut"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 7
 skills = []
 variants = [{ city = "Calicut", guild_type = "Maritime", id = "99996247", slug = "gtcriminal-phenomenon-of-nankai" }]
 steps = []

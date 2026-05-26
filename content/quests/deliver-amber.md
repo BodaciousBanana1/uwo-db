@@ -10,6 +10,9 @@ type = "Trade"
 city = "Amsterdam"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 8
 skills = [{ name = "Mayan Languages", level = 1 }]
 variants = [{ city = "Amsterdam", guild_type = "Merchant", id = "99996093", slug = "deliver-amber" }]
 steps = []

@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Rio de Janeiro"
 guild_type = "Maritime"
 discovery = ""
+reward = 160000
+advance = 32000
+difficulty = 8
 skills = [{ name = "Spanish", level = 1 }]
 variants = [{ city = "Rio de Janeiro", guild_type = "Maritime", id = "99992549", slug = "gtin-the-pirate-is-elusive" }]
 steps = []

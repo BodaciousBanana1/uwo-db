@@ -10,6 +10,9 @@ type = "Adventure"
 city = "London"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 3
 skills = [{ name = "Collection", level = 1 }, { name = "French", level = 1 }]
 variants = [{ city = "London", guild_type = "Adventurer", id = "99991193", slug = "gt-procurement-of-stone" }]
 steps = []

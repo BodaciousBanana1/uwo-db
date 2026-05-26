@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Hangzhou"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 7
 skills = [{ name = "Korean", level = 1 }]
 variants = [{ city = "Hangzhou", guild_type = "Maritime", id = "99996103", slug = "stop-the-ambush" }]
 steps = []

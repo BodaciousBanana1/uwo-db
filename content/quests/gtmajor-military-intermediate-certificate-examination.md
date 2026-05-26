@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Intermediate school"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 2
 skills = []
 variants = [{ city = "Intermediate school", guild_type = "Adventurer", id = "99999864", slug = "gtmajor-military-intermediate-certificate-examination" }]
 steps = []

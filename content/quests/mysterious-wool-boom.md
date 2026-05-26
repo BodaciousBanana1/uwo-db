@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Amsterdam"
 guild_type = "Adventurer"
 discovery = ""
+reward = 2400
+advance = 0
+difficulty = 2
 skills = [{ name = "English", level = 1 }, { name = "Dutch", level = 1 }]
 variants = [{ city = "Amsterdam", guild_type = "Adventurer", id = "99997637", slug = "mysterious-wool-boom" }]
 steps = []

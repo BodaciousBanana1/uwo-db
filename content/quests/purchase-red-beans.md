@@ -10,6 +10,9 @@ type = "Trade"
 city = "Lisbon"
 guild_type = "Merchant"
 discovery = ""
+reward = 4500
+advance = 204
+difficulty = 2
 skills = [{ name = "Portuguese", level = 1 }]
 variants = [{ city = "Lisbon", guild_type = "Merchant", id = "99994147", slug = "purchase-red-beans" }]
 steps = []

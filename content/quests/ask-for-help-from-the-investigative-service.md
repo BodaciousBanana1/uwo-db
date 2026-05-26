@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Stockholm"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 7
 skills = []
 variants = [{ city = "Stockholm", guild_type = "Maritime", id = "99990825", slug = "ask-for-help-from-the-investigative-service" }]
 steps = []

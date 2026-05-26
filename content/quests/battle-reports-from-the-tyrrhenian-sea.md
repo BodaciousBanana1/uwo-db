@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Genoa"
 guild_type = "Maritime"
 discovery = ""
+reward = 30000
+advance = 6000
+difficulty = 3
 skills = []
 variants = [{ city = "Genoa", guild_type = "Maritime", id = "99990322", slug = "battle-reports-from-the-tyrrhenian-sea" }]
 steps = []

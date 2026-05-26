@@ -10,7 +10,11 @@ type = "Adventure"
 city = "Jakarta"
 guild_type = "Adventurer"
 discovery = "The Statue of King Naresuan"
+reward = 0
+advance = 0
+difficulty = 6
 skills = [{ name = "Thai/Burmese", level = 1 }]
 variants = [{ city = "Jakarta", guild_type = "Adventurer", id = "99998203", slug = "the-cat-a-testimony-of-appreciation" }]
 steps = [{ step = 1, location = "Lop Buri", action = "Talk to Town Official x3" }, { step = 2, location = "The Gulf of Thailand", action = "Head South from" }]
+followups = [{ id = "99992774", name = "A legend that lived", slug = "a-legend-that-lived" }, { id = "99998203", name = "The Cat, a Testimony of Appreciation", slug = "the-cat-a-testimony-of-appreciation" }]
 +++

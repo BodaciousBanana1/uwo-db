@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Advanced school"
 guild_type = "Adventurer"
 discovery = ""
+reward = 80000
+advance = 0
+difficulty = 3
 skills = [{ name = "Ecological Research", level = 2 }, { name = "Biology", level = 4 }, { name = "English", level = 1 }]
 variants = [{ city = "Advanced school", guild_type = "Adventurer", id = "99999911", slug = "gtadventure-maritime-academy-graduation-test-advanced-school" }, { city = "Advanced school", guild_type = "Adventurer", id = "99999912", slug = "gtadventure-maritime-academy-graduation-test-advanced-school" }, { city = "Advanced school", guild_type = "Adventurer", id = "99999910", slug = "gtadventure-maritime-academy-graduation-test-advanced-school" }]
 steps = []

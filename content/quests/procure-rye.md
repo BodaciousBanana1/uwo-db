@@ -10,6 +10,9 @@ type = "Trade"
 city = "Stockholm"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 2
 skills = [{ name = "Nordic", level = 1 }]
 variants = [{ city = "Stockholm", guild_type = "Merchant", id = "99996031", slug = "procure-rye" }]
 steps = []

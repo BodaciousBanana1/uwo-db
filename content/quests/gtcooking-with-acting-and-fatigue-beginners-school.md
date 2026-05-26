@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Beginners school"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 1
 skills = []
 variants = [{ city = "Beginners school", guild_type = "Adventurer", id = "99999802", slug = "gtcooking-with-acting-and-fatigue-beginners-school" }, { city = "Beginners school", guild_type = "Adventurer", id = "99999822", slug = "gtcooking-with-acting-and-fatigue-beginners-school" }, { city = "Beginners school", guild_type = "Adventurer", id = "99999815", slug = "gtcooking-with-acting-and-fatigue-beginners-school" }]
 steps = []

@@ -10,7 +10,13 @@ type = "Adventure"
 city = "London"
 guild_type = "Adventurer"
 discovery = "The Island of Jamaica"
+reward = 99000
+advance = 0
+difficulty = 6
 skills = [{ name = "Recognition", level = 4 }, { name = "Geography", level = 6 }, { name = "Spanish", level = 1 }]
 variants = [{ city = "London", guild_type = "Adventurer", id = "99993455", slug = "country-of-forests-and-water" }]
 steps = [{ step = 1, location = "Jamaica", action = "Port Official; talk to" }, { step = 2, location = "Antilles, Open Sea", action = "outside" }]
+discovery_description = "A big island located to the south of Cuba in the Caribbean Sea. Mainly mountainous, the highlands are remarkably cool. Its complex coastline and deep waters make it suitable for harbours."
+exp_reward = 360
+fame_reward = 180
 +++

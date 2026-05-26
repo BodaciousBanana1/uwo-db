@@ -10,7 +10,11 @@ type = "Adventure"
 city = "St. Petersburg"
 guild_type = "Adventurer"
 discovery = "Brown Bear"
+reward = 0
+advance = 0
+difficulty = 6
 skills = [{ name = "Ecological Research", level = 6 }, { name = "Biology", level = 8 }, { name = "Far North Languages", level = 1 }]
 variants = [{ city = "St. Petersburg", guild_type = "Adventurer", id = "99990014", slug = "biological-survey-of-the-wrangel-island" }]
 steps = [{ step = 1, location = "St. Petersburg Archives", action = "Talk to Scholar" }, { step = 2, location = "St. Petersburg Archives", action = "Browse" }, { step = 3, location = "Chukchi Sea", action = "Use" }]
+followups = [{ id = "99993654", name = "Investigation of brown bear's habitat", slug = "investigation-of-brown-bears-habitat" }, { id = "99990208", name = "The bear of the frozen land", slug = "the-bear-of-the-frozen-land" }, { id = "99990023", name = "Biological survey of the Extreme North", slug = "biological-survey-of-the-extreme-north" }]
 +++

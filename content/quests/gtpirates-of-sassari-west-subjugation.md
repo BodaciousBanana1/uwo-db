@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Advanced school"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 2
 skills = []
 variants = [{ city = "Advanced school", guild_type = "Adventurer", id = "99999906", slug = "gtpirates-of-sassari-west-subjugation" }]
 steps = []

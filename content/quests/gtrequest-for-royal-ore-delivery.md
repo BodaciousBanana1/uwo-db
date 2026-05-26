@@ -10,6 +10,9 @@ type = "Trade"
 city = "Lisbon"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 8
 skills = [{ name = "Indian Languages", level = 1 }]
 variants = [{ city = "Lisbon", guild_type = "Merchant", id = "99990493", slug = "gtrequest-for-royal-ore-delivery" }]
 steps = []

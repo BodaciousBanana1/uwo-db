@@ -10,6 +10,9 @@ type = "Trade"
 city = "Venice"
 guild_type = "Merchant"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 6
 skills = [{ name = "Rowing", level = 3 }, { name = "Arabic", level = 1 }, { name = "Italian", level = 1 }]
 variants = [{ city = "Venice", guild_type = "Merchant", id = "99991348", slug = "folklore-regarding-a-golden-color" }]
 steps = []

@@ -10,6 +10,9 @@ type = "Adventure"
 city = "East Asia"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 10
 skills = [{ name = "Swordplay", level = 15 }, { name = "Sword Mastery", level = 13 }]
 variants = [{ city = "East Asia", guild_type = "Adventurer", id = "99990490", slug = "gtlearn-to-pitch-east-asia" }, { city = "East Asia", guild_type = "Adventurer", id = "99990628", slug = "gtlearn-to-pitch-east-asia" }]
 steps = []

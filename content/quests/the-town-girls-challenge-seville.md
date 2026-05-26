@@ -10,6 +10,9 @@ type = "Trade"
 city = "Seville"
 guild_type = "Merchant"
 discovery = ""
+reward = 6000
+advance = 0
+difficulty = 3
 skills = [{ name = "Spanish", level = 1 }, { name = "Cooking", level = 2 }]
 variants = [{ city = "London", guild_type = "Merchant", id = "99995998", slug = "the-town-girls-challenge-london" }, { city = "Amsterdam", guild_type = "Merchant", id = "99996067", slug = "the-town-girls-challenge-amsterdam" }, { city = "Seville", guild_type = "Merchant", id = "99995907", slug = "the-town-girls-challenge-seville" }]
 steps = []

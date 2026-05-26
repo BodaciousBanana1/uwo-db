@@ -10,6 +10,9 @@ type = "Trade"
 city = "London"
 guild_type = "Merchant"
 discovery = ""
+reward = 21600
+advance = 0
+difficulty = 4
 skills = [{ name = "English", level = 1 }, { name = "Casting", level = 3 }, { name = "Dutch", level = 1 }, { name = "Portuguese", level = 1 }, { name = "Spanish", level = 1 }, { name = "French", level = 1 }, { name = "Italian", level = 1 }]
 variants = [{ city = "London", guild_type = "Merchant", id = "99995131", slug = "safety-measures-london" }, { city = "Marseille", guild_type = "Merchant", id = "99991209", slug = "safety-measures-marseille" }]
 steps = []

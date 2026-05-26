@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Santo Domingo"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 9
 skills = []
 variants = [{ city = "Santo Domingo", guild_type = "Maritime", id = "99991104", slug = "gtcommissioned-by-henry-morgan" }]
 steps = [{ step = 1, location = "West Caribbean Sea", action = "near Trujillo (12687, 3977)" }]

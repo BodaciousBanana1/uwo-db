@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Marseille"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 2
 skills = [{ name = "French", level = 1 }]
 variants = [{ city = "Marseille", guild_type = "Maritime", id = "99995284", slug = "unequalled-with-a-sword" }]
 steps = []

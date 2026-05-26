@@ -10,6 +10,9 @@ type = "Trade"
 city = "Calicut"
 guild_type = "Merchant"
 discovery = ""
+reward = 55400
+advance = 0
+difficulty = 3
 skills = []
 variants = [{ city = "Calicut", guild_type = "Merchant", id = "99994592", slug = "gtthe-scent-of-shikyo" }]
 steps = []

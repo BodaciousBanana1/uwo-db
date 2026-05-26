@@ -10,6 +10,9 @@ type = "Maritime"
 city = "Istanbul"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 3
 skills = [{ name = "Arabic", level = 1 }]
 variants = [{ city = "Istanbul", guild_type = "Maritime", id = "99996400", slug = "gtcorrespondence-with-the-union-tunis" }]
 steps = []

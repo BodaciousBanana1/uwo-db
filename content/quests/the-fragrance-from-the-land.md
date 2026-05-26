@@ -10,6 +10,9 @@ type = "Trade"
 city = "Jakarta"
 guild_type = "Merchant"
 discovery = ""
+reward = 68000
+advance = 8580
+difficulty = 7
 skills = [{ name = "Indian Languages", level = 1 }]
 variants = [{ city = "Jakarta", guild_type = "Merchant", id = "99993746", slug = "the-fragrance-from-the-land" }]
 steps = []

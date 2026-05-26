@@ -10,6 +10,9 @@ type = "Trade"
 city = "Seville"
 guild_type = "Merchant"
 discovery = ""
+reward = 26000
+advance = 0
+difficulty = 3
 skills = [{ name = "Dutch", level = 1 }, { name = "Spanish", level = 1 }, { name = "Geography", level = 1 }]
 variants = [{ city = "Seville", guild_type = "Merchant", id = "99995917", slug = "obtaining-the-latest-map" }]
 steps = [{ step = 1, location = "Seville Royal Castle", action = "speak with Cardinal Tabera" }, { step = 2, location = "Mercator Estate", action = "speak with Mercator" }, { step = 3, location = "Amsterdam", action = "speak with Shopkeeper" }, { step = 4, location = "Mercator Estate", action = "speak with Mercator x2" }, { step = 5, location = "Seville Royal Castle", action = "speak with Cardinal Tabera" }]

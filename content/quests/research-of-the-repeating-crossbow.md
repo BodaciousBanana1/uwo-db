@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Jakarta"
 guild_type = "Adventurer"
 discovery = "Zhuge Liang Crossbow"
+reward = 0
+advance = 0
+difficulty = 9
 skills = [{ name = "Chinese", level = 1 }]
 variants = [{ city = "Jakarta", guild_type = "Adventurer", id = "99991121", slug = "research-of-the-repeating-crossbow" }]
 steps = []

@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Genoa"
 guild_type = "Adventurer"
 discovery = ""
+reward = 12000
+advance = 0
+difficulty = 2
 skills = [{ name = "Spanish", level = 1 }, { name = "Italian", level = 1 }]
 variants = [{ city = "Genoa", guild_type = "Adventurer", id = "99997387", slug = "traditional-dance" }]
 steps = []

@@ -1,0 +1,17 @@
++++
+title = "King Lanling Costume"
+template = "equipment/page.html"
+
+[extra]
+id = "00042900"
+slug = "king-lanling-costume"
+category = "Body"
+description = "Performance costume worn when acting out the part of the ancient Chinese king."
+formality = 0
+disguise = 10
+attack = 20
+defense = 45
+durability = 250
+skills = [{ name = "Swordplay", bonus = 1 }, { name = "Evasion", bonus = 1 }]
+quest_sources = []
++++

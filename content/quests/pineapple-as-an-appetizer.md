@@ -10,6 +10,9 @@ type = "Trade"
 city = "Amsterdam"
 guild_type = "Merchant"
 discovery = ""
+reward = 316000
+advance = 3880
+difficulty = 8
 skills = [{ name = "Spanish", level = 1 }, { name = "Mayan Languages", level = 1 }]
 variants = [{ city = "Amsterdam", guild_type = "Merchant", id = "99996092", slug = "pineapple-as-an-appetizer" }]
 steps = []

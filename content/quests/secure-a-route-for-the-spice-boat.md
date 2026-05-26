@@ -10,7 +10,11 @@ type = "Maritime"
 city = "Calicut"
 guild_type = "Maritime"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 9
 skills = [{ name = "Indian Languages", level = 1 }]
 variants = [{ city = "Calicut", guild_type = "Maritime", id = "99996269", slug = "secure-a-route-for-the-spice-boat" }]
 steps = [{ step = 1, location = "Goa", action = "Port Office" }, { step = 2, location = "India West Coast", action = "Coordinates 3240_4061" }]
+equipment_rewards = [{ id = "00400803", name = "Fan of Ostrich Feathers", slug = "fan-of-ostrich-feathers" }]
 +++

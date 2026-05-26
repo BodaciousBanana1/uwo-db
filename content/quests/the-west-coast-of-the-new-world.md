@@ -10,6 +10,9 @@ type = "Adventure"
 city = "Rio de Janeiro Imperial Contract"
 guild_type = "Adventurer"
 discovery = ""
+reward = 0
+advance = 0
+difficulty = 1
 skills = [{ name = "Spanish", level = 1 }]
 variants = [{ city = "Rio de Janeiro Imperial Contract", guild_type = "Adventurer", id = "99997028", slug = "the-west-coast-of-the-new-world" }]
 steps = []
