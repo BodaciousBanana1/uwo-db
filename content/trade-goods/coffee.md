@@ -1,0 +1,11 @@
++++
+title = "Coffee"
+template = "trade-goods/page.html"
+
+[extra]
+slug = "coffee"
+category = "Luxury Goods"
+item_id = "01600155"
+ports = [{ name = "Jamaica", slug = "jamaica", rating = 2, price = 376 }, { name = "Havana", slug = "havana", rating = 2, price = 375 }, { name = "Arguin", slug = "arguin", rating = 2, price = 306, investment = "180000" }, { name = "Sierra Leone", slug = "sierra-leone", rating = 2, price = 376 }, { name = "Abidjan", slug = "abidjan", rating = 2, price = 375 }, { name = "Douala", slug = "douala", rating = 2, price = 376 }, { name = "================", slug = "================", rating = 2, price = 376 }, { name = "Mozambique", slug = "mozambique", rating = 2, price = 375 }, { name = "Tamatave", slug = "tamatave", rating = 2, price = 376 }, { name = "Zanzibar", slug = "zanzibar", rating = 2, price = 376 }, { name = "Mombasa", slug = "mombasa", rating = 2, price = 376 }, { name = "Aden", slug = "aden", rating = 2, price = 376 }, { name = "Massawa", slug = "massawa", rating = 2, price = 376 }, { name = "Saylac", slug = "saylac", rating = 2, price = 376 }, { name = "Jeddah", slug = "jeddah", rating = 2, price = 376 }, { name = "Cayenne", slug = "cayenne", rating = 2, price = 376, investment = "240000" }, { name = "Grand Cayman", slug = "grand-cayman", rating = 2, price = 376, investment = "240000" }, { name = "Veracruz", slug = "veracruz", rating = 2, price = 376 }, { name = "Trujillo", slug = "trujillo", rating = 2, price = 329, investment = "180000" }, { name = "Bahia", slug = "bahia", rating = 2, price = 376 }, { name = "Rio De Janeiro", slug = "rio-de-janeiro", rating = 2, price = 375 }, { name = "Caracas", slug = "caracas", rating = 2, price = 376 }, { name = "Tumbes", slug = "tumbes", rating = 2, price = 376 }, { name = "Guatemala", slug = "guatemala", rating = 2, price = 376 }, { name = "Dili", slug = "dili", rating = 2, price = 376 }, { name = "Jambi", slug = "jambi", rating = 2, price = 375 }, { name = "Samarai", slug = "samarai", rating = 2, price = 352 }]
+collection_sources = [{ name = "East Havana", slug = "east-havana" }, { name = "North Luanda", slug = "north-luanda" }, { name = "Red Sea West Coast", slug = "red-sea-west-coast" }, { name = "South America North Coast Plateau", slug = "south-america-north-coast-plateau" }, { name = "Southwest Massawa", slug = "southwest-massawa" }]
++++

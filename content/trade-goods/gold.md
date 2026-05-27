@@ -1,0 +1,9 @@
++++
+title = "Gold"
+template = "trade-goods/page.html"
+
+[extra]
+slug = "gold"
+category = "Precious Metals"
+ports = [{ name = "Sassari", slug = "sassari", rating = 11, price = 0, investment = "700000" }, { name = "Abidjan", slug = "abidjan", rating = 11, price = 3929 }, { name = "Saint Georges", slug = "saint-georges", rating = 11, price = 3929 }, { name = "Sofala", slug = "sofala", rating = 11, price = 3924 }, { name = "Natal", slug = "natal", rating = 11, price = 3929, investment = "240000" }, { name = "Zanzibar", slug = "zanzibar", rating = 11, price = 3924, investment = "320000" }, { name = "Mogadishu", slug = "mogadishu", rating = 11, price = 3928 }, { name = "Massawa", slug = "massawa", rating = 11, price = 3937, investment = "600000" }, { name = "Kilwa", slug = "kilwa", rating = 11, price = 3929, investment = "240000" }, { name = "Saylac", slug = "saylac", rating = 11, price = 3923, investment = "240000" }, { name = "Willemstad", slug = "willemstad", rating = 11, price = 3344, investment = "400000" }, { name = "Veracruz", slug = "veracruz", rating = 11, price = 3938, investment = "550000" }, { name = "Maracaibo", slug = "maracaibo", rating = 11, price = 4489, investment = "400000" }, { name = "Rio De Janeiro", slug = "rio-de-janeiro", rating = 11, price = 2944, investment = "400000" }, { name = "Valparaiso", slug = "valparaiso", rating = 11, price = 3033, investment = "400000" }, { name = "Lima", slug = "lima", rating = 11, price = 3139, investment = "320000" }, { name = "Palembang", slug = "palembang", rating = 11, price = 6496 }, { name = "Banjarmasin", slug = "banjarmasin", rating = 11, price = 6481, investment = "400000" }, { name = "Samarai", slug = "samarai", rating = 11, price = 6481, investment = "320000" }, { name = "Pinjarra", slug = "pinjarra", rating = 11, price = 4317 }]
++++

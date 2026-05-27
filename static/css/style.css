@@ -129,6 +129,30 @@ button { font-family: inherit; }
 .stats-mini { font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); }
 .stats-mini::before { content: '●'; color: var(--green); margin-right: 0.5rem; }
 
+/* Beta notice */
+.beta-notice {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.beta-badge {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  background: rgba(201, 162, 39, 0.2);
+  border: 1px solid rgba(201, 162, 39, 0.4);
+  color: var(--accent-light);
+}
+
+.beta-text {
+  font-size: 0.85rem;
+  color: var(--text-dim);
+}
+
 /* === Ship Detail Page === */
 .ship-detail { padding: 0; }
 
@@ -2565,4 +2589,301 @@ button { font-family: inherit; }
 }
 .equipment-rewards-list a:hover {
   color: var(--accent-light);
+}
+
+/* === Landing Points === */
+.list-page {
+  padding: 2rem;
+}
+
+.list-header {
+  margin-bottom: 2rem;
+}
+
+.list-header h1 {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.list-description {
+  color: var(--text-dim);
+  font-size: 0.95rem;
+}
+
+.list-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.list-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 8px;
+  padding: 1.25rem;
+  transition: all 0.15s;
+  display: block;
+}
+
+.list-card:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border);
+  transform: translateY(-2px);
+}
+
+.list-card h3 {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-weight: 400;
+  margin-bottom: 0.75rem;
+  color: var(--text);
+}
+
+.card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.badge-quest {
+  background: rgba(201, 162, 39, 0.15);
+  border-color: rgba(201, 162, 39, 0.3);
+  color: var(--accent-light);
+}
+
+/* Landing point detail page */
+.item-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 0.75rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item-card {
+  background: var(--bg-input);
+  border: 1px solid var(--border-subtle);
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+  transition: all 0.15s;
+}
+
+.item-card:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border);
+}
+
+.item-name {
+  font-size: 0.9rem;
+  color: var(--text);
+}
+
+.skill-note {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.skill-note a {
+  color: var(--accent);
+}
+
+.skill-note a:hover {
+  color: var(--accent-light);
+}
+
+.link-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link-list li {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--border-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.link-list li:last-child {
+  border-bottom: none;
+}
+
+.link-list a {
+  color: var(--accent);
+  font-size: 0.9rem;
+}
+
+.link-list a:hover {
+  color: var(--accent-light);
+}
+
+.discovery-hint {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-style: italic;
+  white-space: nowrap;
+}
+
+/* === Trade Goods === */
+.goods-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.goods-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 8px;
+  padding: 1.25rem;
+  transition: all 0.15s;
+  display: block;
+}
+
+.goods-card:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border);
+  transform: translateY(-2px);
+}
+
+.goods-card-header {
+  margin-bottom: 0.5rem;
+}
+
+.goods-category {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.goods-card h3 {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 0.75rem;
+  color: var(--text);
+}
+
+.badge-collection {
+  background: rgba(63, 185, 80, 0.15);
+  border-color: rgba(63, 185, 80, 0.3);
+  color: var(--green);
+}
+
+.badge-procurement {
+  background: rgba(88, 166, 255, 0.15);
+  border-color: rgba(88, 166, 255, 0.3);
+  color: #58a6ff;
+}
+
+/* Ports table in trade goods */
+.ports-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.ports-table th {
+  text-align: left;
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+}
+
+.ports-table th.num {
+  text-align: right;
+}
+
+.ports-table td {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.ports-table td.num {
+  text-align: right;
+  font-family: var(--font-mono);
+}
+
+.ports-table td.rating {
+  color: var(--accent);
+}
+
+.ports-table td.price {
+  color: var(--text);
+}
+
+.ports-table td.invest {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.ports-table a {
+  color: var(--accent);
+}
+
+.ports-table a:hover {
+  color: var(--accent-light);
+}
+
+/* Source grid for landing points */
+.source-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.source-grid li {
+  background: var(--bg-input);
+  border: 1px solid var(--border-subtle);
+  border-radius: 4px;
+  padding: 0.5rem 0.75rem;
+}
+
+.source-grid li:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border);
+}
+
+.source-grid a {
+  color: var(--accent);
+  font-size: 0.85rem;
+}
+
+.source-grid a:hover {
+  color: var(--accent-light);
+}
+
+/* Item links in landing points */
+.item-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.item-link:hover {
+  color: var(--accent-light);
+}
+
+/* Filter bar for goods */
+.filter-bar {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
 }

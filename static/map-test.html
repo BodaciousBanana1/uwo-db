@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Map Test</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <style>
+    #map { width: 100%; height: 600px; background: #1a1f2e; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <div id="debug"></div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const mapWidth = 4101;
+    const mapHeight = 2048;
+    const maxZoom = 5;
+
+    // CRS with top-left origin (Y increases downward)
+    L.CRS.TopLeft = L.extend({}, L.CRS.Simple, {
+      transformation: new L.Transformation(1, 0, 1, 0)
+    });
+
+    const map = L.map('map', {
+      crs: L.CRS.TopLeft,
+      minZoom: 0,
+      maxZoom: maxZoom
+    });
+
+    // Debug tile layer
+    L.TileLayer.Debug = L.TileLayer.extend({
+      getTileUrl: function(coords) {
+        const z = coords.z;
+        const x = coords.x;
+        const y = coords.y;
+        const maxTiles = Math.pow(2, z);
+        
+        document.getElementById('debug').innerHTML += 
+          `z=${z} x=${x} y=${y}<br>`;
+
+        if (x >= 0 && x < maxTiles && y >= 0 && y < maxTiles) {
+          return `/map-tiles/${z}/${x}/${y}.png`;
+        }
+        return '';
+      }
+    });
+
+    new L.TileLayer.Debug('', {
+      minZoom: 0,
+      maxZoom: maxZoom,
+      tileSize: 256,
+      noWrap: true
+    }).addTo(map);
+
+    // Show tile 0/0/0
+    map.setView([128, 128], 0);
+  </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}Landing Points{% endblock %}
+
+{% block content %}
+<article class="list-page">
+  <header class="list-header">
+    <h1>Landing Points</h1>
+    <p class="list-description">Explorable areas where you can gather resources using Collection and Procurement skills.</p>
+  </header>
+
+  <div class="list-grid">
+    {% for page in section.pages %}
+    <a href="{{ page.permalink }}" class="list-card">
+      <h3>{{ page.title }}</h3>
+      <div class="card-meta">
+        {% if page.extra.collection_items %}
+        <span class="badge">{{ page.extra.collection_items | length }} Collection</span>
+        {% endif %}
+        {% if page.extra.procurement_items %}
+        <span class="badge">{{ page.extra.procurement_items | length }} Procurement</span>
+        {% endif %}
+        {% if page.extra.quests %}
+        <span class="badge badge-quest">{{ page.extra.quests | length }} Quests</span>
+        {% endif %}
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</article>
+{% endblock %}

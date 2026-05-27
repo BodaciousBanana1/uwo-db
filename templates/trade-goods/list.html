@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+
+{% block title %}Trade Goods{% endblock %}
+
+{% block content %}
+<article class="list-page">
+  <header class="list-header">
+    <h1>Trade Goods</h1>
+    <p class="list-description">Items that can be bought at ports or gathered from landing points.</p>
+  </header>
+
+  <div class="filter-bar">
+    <input type="text" class="filter-input" id="goods-search" placeholder="Search goods...">
+    <select class="filter-select" id="category-filter">
+      <option value="">All Categories</option>
+    </select>
+    <select class="filter-select" id="source-filter">
+      <option value="">All Sources</option>
+      <option value="port">Available at Ports</option>
+      <option value="collection">Collection</option>
+      <option value="procurement">Procurement</option>
+    </select>
+  </div>
+
+  <div class="goods-grid" id="goods-grid">
+    {% for page in section.pages %}
+    <a href="{{ page.permalink }}" class="goods-card"
+       data-name="{{ page.title | lower }}"
+       data-category="{{ page.extra.category | default(value='') | lower }}"
+       data-has-ports="{{ page.extra.ports | default(value=[]) | length > 0 }}"
+       data-has-collection="{{ page.extra.collection_sources | default(value=[]) | length > 0 }}"
+       data-has-procurement="{{ page.extra.procurement_sources | default(value=[]) | length > 0 }}">
+      <div class="goods-card-header">
+        <span class="goods-category">{{ page.extra.category | default(value="Gathered") }}</span>
+      </div>
+      <h3>{{ page.title }}</h3>
+      <div class="card-meta">
+        {% if page.extra.ports and page.extra.ports | length > 0 %}
+        <span class="badge">{{ page.extra.ports | length }} Ports</span>
+        {% endif %}
+        {% if page.extra.collection_sources and page.extra.collection_sources | length > 0 %}
+        <span class="badge badge-collection">{{ page.extra.collection_sources | length }} Collection</span>
+        {% endif %}
+        {% if page.extra.procurement_sources and page.extra.procurement_sources | length > 0 %}
+        <span class="badge badge-procurement">{{ page.extra.procurement_sources | length }} Procurement</span>
+        {% endif %}
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</article>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const searchInput = document.getElementById('goods-search');
+  const categoryFilter = document.getElementById('category-filter');
+  const sourceFilter = document.getElementById('source-filter');
+  const grid = document.getElementById('goods-grid');
+  const cards = grid.querySelectorAll('.goods-card');
+
+  // Build category list
+  const categories = new Set();
+  cards.forEach(card => {
+    const cat = card.dataset.category;
+    if (cat) categories.add(cat);
+  });
+  Array.from(categories).sort().forEach(cat => {
+    const opt = document.createElement('option');
+    opt.value = cat;
+    opt.textContent = cat.charAt(0).toUpperCase() + cat.slice(1);
+    categoryFilter.appendChild(opt);
+  });
+
+  function filterCards() {
+    const search = searchInput.value.toLowerCase();
+    const category = categoryFilter.value.toLowerCase();
+    const source = sourceFilter.value;
+
+    cards.forEach(card => {
+      const name = card.dataset.name;
+      const cat = card.dataset.category;
+      const hasPorts = card.dataset.hasPorts === 'true';
+      const hasCollection = card.dataset.hasCollection === 'true';
+      const hasProcurement = card.dataset.hasProcurement === 'true';
+
+      let show = true;
+
+      if (search && !name.includes(search)) show = false;
+      if (category && cat !== category) show = false;
+      if (source === 'port' && !hasPorts) show = false;
+      if (source === 'collection' && !hasCollection) show = false;
+      if (source === 'procurement' && !hasProcurement) show = false;
+
+      card.style.display = show ? '' : 'none';
+    });
+  }
+
+  searchInput.addEventListener('input', filterCards);
+  categoryFilter.addEventListener('change', filterCards);
+  sourceFilter.addEventListener('change', filterCards);
+});
+</script>
+{% endblock %}

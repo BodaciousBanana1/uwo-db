@@ -1,0 +1,13 @@
++++
+title = "Southeast Brunei"
+template = "landing-points/page.html"
+
+[extra]
+slug = "southeast-brunei"
+zone_id = "90001080"
+collection_items = [{ name = "Rocks", id = "01600926" }, { name = "Sand", id = "01600565" }, { name = "Common Grass", id = "01600369" }, { name = "Red Flowers", id = "01600176" }, { name = "Black-mud", id = "01600563" }, { name = "Vegetable Oil", id = "01600924" }, { name = "Logs", id = "01600925" }, { name = "Blue Ore", id = "01600559" }, { name = "Yellow Ore", id = "01600561" }]
+procurement_items = [{ name = "Rocks", id = "01600926" }, { name = "Sand", id = "01600565" }, { name = "Common Grass", id = "01600369" }, { name = "Berries", id = "01600040" }, { name = "Sweet Potatoes", id = "01600012" }, { name = "Exotic Fruit", id = "01601062" }, { name = "Wetland Rice", id = "01600015" }]
+quests = [{ name = "Carried by bird's wings", slug = "carried-by-birds-wings", id = "99994610" }, { name = "Master of the roar", slug = "master-of-the-roar", id = "99992291" }, { name = "Plant that catches insects", slug = "plant-that-catches-insects", id = "99997210" }, { name = "Kidnapping", slug = "kidnapping", id = "99991916" }, { name = " island dwelling Apes", slug = "island-dwelling-apes", id = "99992272" }, { name = "Flower that feels love", slug = "flower-that-feels-love", id = "99992284" }, { name = "What the demon saw ", slug = "what-the-demon-saw", id = "99996116" }, { name = "Frog of Ryukyu", slug = "frog-of-ryukyu", id = "99996812" }, { name = "Special Provisions to the Supply Ship", slug = "special-provisions-to-the-supply-ship", id = "99997901" }, { name = "Supply's Ship's Anti-pirate Measures", slug = "supplys-ships-anti-pirate-measures", id = "99997902" }, { name = "Special Provisions to the Fleet", slug = "special-provisions-to-the-fleet", id = "99997906" }, { name = "An Award for the Fleet", slug = "an-award-for-the-fleet", id = "99997907" }, { name = "Repair Goods for the Supply Ship", slug = "repair-goods-for-the-supply-ship", id = "99997912" }, { name = "Cutting Off Supply Routes", slug = "cutting-off-supply-routes", id = "99997910" }]
+discoveries = [{ name = "Idea Lynceus", id = "70001114" }, { name = "Common Green Birdwing", id = "70001116" }, { name = "Orangutan", id = "70001135" }, { name = "Great Hornbill", id = "70001122" }, { name = "Nepenthes", id = "70000399" }, { name = "Proboscis Monkey", id = "70001130" }, { name = "Cymbidiums", id = "70001107" }, { name = "Ishikawa Frog", id = "70001776" }]
+archive_maps = [{ name = "Spotted Butterfly Map", slug = "spotted-butterfly-map-spotted-butterfly-map", discovery = "Idea Lynceus" }, { name = "Large Butterfly Map", slug = "large-butterfly-map-outside-the-gates-of-brunei", discovery = "Common Green Birdwing" }]
++++

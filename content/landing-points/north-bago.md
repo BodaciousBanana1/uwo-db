@@ -1,0 +1,13 @@
++++
+title = "North Bago"
+template = "landing-points/page.html"
+
+[extra]
+slug = "north-bago"
+zone_id = "90001074"
+collection_items = [{ name = "Rocks", id = "01600926" }, { name = "Sand", id = "01600565" }, { name = "Common Grass", id = "01600369" }, { name = "Red Flowers", id = "01600176" }, { name = "Black-mud", id = "01600563" }, { name = "Vegetable Oil", id = "01600924" }, { name = "Logs", id = "01600925" }]
+procurement_items = [{ name = "Rocks", id = "01600926" }, { name = "Sand", id = "01600565" }, { name = "Common Grass", id = "01600369" }, { name = "Mushrooms", id = "01600046" }, { name = "Berries", id = "01600040" }, { name = "Sweet Potatoes", id = "01600012" }, { name = "Soya Beans", id = "01600028" }, { name = "Exotic Fruit", id = "01601062" }, { name = "Wetland Rice", id = "01600015" }]
+quests = [{ name = "Treasure that chooses people", slug = "treasure-that-chooses-people", id = "99994333" }, { name = "The final king", slug = "the-final-king", id = "99992781" }, { name = "A mysterious pattern", slug = "a-mysterious-pattern", id = "99992462" }, { name = "Beauty to which Vishnu lends a hand", slug = "beauty-to-which-vishnu-lends-a-hand", id = "99993425" }, { name = "Grave of a great king", slug = "grave-of-a-great-king", id = "99994749" }, { name = "Drink-loving brigands", slug = "drink-loving-brigands", id = "99996240" }, { name = "A stone in relief", slug = "a-stone-in-relief", id = "99994949" }]
+discoveries = [{ name = "Giant Cicada", id = "70001113" }, { name = "Tokay Gecko", id = "70001125" }, { name = "Wagaru Dhammath", id = "70001092" }, { name = "The Flower Adornment Sutra", id = "70001070" }, { name = "Dhole", id = "70001132" }, { name = "The Glittering Star", id = "70001101" }, { name = "Narathihapate's Sword", id = "70001055" }, { name = "Bhutan Glory", id = "70001117" }, { name = "The Phra Buddha Chinnarat", id = "70001073" }, { name = "King Anawrahta's Sword", id = "70001053" }, { name = "Earthenware Stamps", id = "70001067" }]
+archive_maps = [{ name = "Old Codes Map", slug = "old-codes-map-outside-the-gates-of-pegu", discovery = "The Flower Adornment Sutra" }, { name = "Large-winged Insect Map", slug = "large-winged-insect-map-outside-the-gates-of-pegu", discovery = "Giant Cicada" }, { name = "Strange Lizard Map", slug = "strange-lizard-map-outside-the-gates-of-pegu", discovery = "Tokay Gecko" }, { name = "Ancient Codes Map", slug = "ancient-codes-map-outside-the-gates-of-pegu", discovery = "Wagaru Dhammath" }, { name = "Nobleman's Hat Map", slug = "noblemans-hat-map-outside-the-gates-of-pegu" }, { name = "Wild Dogs Map", slug = "wild-dogs-map-outside-the-gates-of-pegu", discovery = "Dhole" }]
++++

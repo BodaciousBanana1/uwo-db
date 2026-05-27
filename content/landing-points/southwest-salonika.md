@@ -1,0 +1,13 @@
++++
+title = "Southwest Salonika"
+template = "landing-points/page.html"
+
+[extra]
+slug = "southwest-salonika"
+zone_id = "90001009"
+collection_items = [{ name = "Rocks", id = "01600926" }, { name = "Common Grass", id = "01600369" }, { name = "Vegetable Oil", id = "01600924" }, { name = "Beehives", id = "01600041" }]
+procurement_items = [{ name = "Rocks", id = "01600926" }, { name = "Common Grass", id = "01600369" }, { name = "Eggs", id = "01600034" }, { name = "Berries", id = "01600040" }, { name = "Barley", id = "01600003" }]
+quests = [{ name = "Brionac", slug = "brionac", id = "99993557" }, { name = "Statue of an ancient Greek god", slug = "statue-of-an-ancient-greek-god", id = "99993813" }, { name = "King of the underworld", slug = "king-of-the-underworld", id = "99993844" }, { name = "Statue of the greatest Greek God", slug = "statue-of-the-greatest-greek-god", id = "99994161" }, { name = "Greek fire", slug = "greek-fire", id = "99994298" }, { name = "Collecting beehives", slug = "collecting-beehives", id = "99997335" }, { name = "(G.T.)Statue of Liberty Olympus investigation", slug = "g-t-statue-of-liberty-olympus-investigation", id = "99999890" }, { name = "Finding a Subject for a Play", slug = "finding-a-subject-for-a-play", id = "99990096" }, { name = "Hunting in Mythology ", slug = "hunting-in-mythology", id = "99990101" }, { name = "A State of Prayer and Meditation ", slug = "a-state-of-prayer-and-meditation", id = "99990267" }, { name = "Legacy TH6. Praise Our Great Goddess", slug = "legacy-th6-praise-our-great-goddess", id = "99991253" }, { name = "Further Research into the Treasures of Vergina", slug = "further-research-into-the-treasures-of-vergina", id = "99991400" }]
+discoveries = [{ name = "Irises", id = "70000408" }, { name = "European Ground Squirrel", id = "70002591" }, { name = "Head of a Cyclops Statue", id = "70002746" }, { name = "Daisy", id = "70000403" }, { name = "Brionac", id = "70000162" }, { name = "The Statue of Hera", id = "70000249" }, { name = "The Statue of Hades", id = "70000239" }, { name = "The Statue of Zeus", id = "70000232" }, { name = "The Greek Fire", id = "70000777" }, { name = "Mulberry", id = "70002755" }, { name = "Tusks of a Giant Boar", id = "70002744" }, { name = "Meteora", id = "70002583" }, { name = "Silver Figurine of Artemis", id = "70003525" }, { name = "Golden Burial Accessory of Vergina", id = "70003454" }]
+archive_maps = [{ name = "Plants Habitat Map", slug = "plants-habitat-map-map-compiling-plant-life" }, { name = "White Flower Map", slug = "white-flower-map-outside-the-gates-of-salonika", discovery = "Irises" }, { name = "White Flower Map", slug = "white-flower-map-outside-the-gates-of-salonika", discovery = "Daisy" }]
++++

@@ -1,0 +1,2890 @@
+[
+  {
+    "name": "African Shell Perfume",
+    "slug": "african-shell-perfume",
+    "category": "Fragrances",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Agate",
+    "slug": "agate",
+    "category": "Precious Stones",
+    "port_count": 1,
+    "collection_count": 1,
+    "procurement_count": 0
+  },
+  {
+    "name": "Akvavit",
+    "slug": "akvavit",
+    "category": "Alcohol",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Alabaster",
+    "slug": "alabaster",
+    "category": "Wares",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Allspice",
+    "slug": "allspice",
+    "category": "Spices",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Almonds",
+    "slug": "almonds",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 2,
+    "procurement_count": 0
+  },
+  {
+    "name": "Alpacas",
+    "slug": "alpacas",
+    "category": "Livestock",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Amber",
+    "slug": "amber",
+    "category": "Precious Stones",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Ambergris",
+    "slug": "ambergris",
+    "category": "Fragrances",
+    "port_count": 5,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Amethyst",
+    "slug": "amethyst",
+    "category": "Precious Stones",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Andong Soju",
+    "slug": "andong-soju",
+    "category": "Alcohol",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Aniseed",
+    "slug": "aniseed",
+    "category": "Medicine",
+    "port_count": 1,
+    "collection_count": 1,
+    "procurement_count": 0
+  },
+  {
+    "name": "Antlerwork",
+    "slug": "antlerwork",
+    "category": "Crafts",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Ants",
+    "slug": "ants",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 0,
+    "procurement_count": 2
+  },
+  {
+    "name": "Apple Vinegar",
+    "slug": "apple-vinegar",
+    "category": "Seasonings",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Apricot Seeds",
+    "slug": "apricot-seeds",
+    "category": "Medicine",
+    "port_count": 1,
+    "collection_count": 2,
+    "procurement_count": 0
+  },
+  {
+    "name": "Arquebuses",
+    "slug": "arquebuses",
+    "category": "Firearms",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Aubergine",
+    "slug": "aubergine",
+    "category": "Luxury Goods",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Autumn Crocus",
+    "slug": "autumn-crocus",
+    "category": "Medicine",
+    "port_count": 1,
+    "collection_count": 1,
+    "procurement_count": 0
+  },
+  {
+    "name": "Awayo",
+    "slug": "awayo",
+    "category": "Fabrics",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Awkeotsang",
+    "slug": "awkeotsang",
+    "category": "Luxury Goods",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Bamboo",
+    "slug": "bamboo",
+    "category": "Wares",
+    "port_count": 5,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Bananas",
+    "slug": "bananas",
+    "category": "Luxury Goods",
+    "port_count": 5,
+    "collection_count": 3,
+    "procurement_count": 0
+  },
+  {
+    "name": "Bark",
+    "slug": "bark",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 9,
+    "procurement_count": 0
+  },
+  {
+    "name": "Barley",
+    "slug": "barley",
+    "category": "Foodstuffs",
+    "port_count": 7,
+    "collection_count": 0,
+    "procurement_count": 12
+  },
+  {
+    "name": "Basil",
+    "slug": "basil",
+    "category": "Spices",
+    "port_count": 3,
+    "collection_count": 1,
+    "procurement_count": 0
+  },
+  {
+    "name": "Basjoo",
+    "slug": "basjoo",
+    "category": "Fibres",
+    "port_count": 5,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Beehives",
+    "slug": "beehives",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 7,
+    "procurement_count": 0
+  },
+  {
+    "name": "Belladonna",
+    "slug": "belladonna",
+    "category": "Medicine",
+    "port_count": 1,
+    "collection_count": 1,
+    "procurement_count": 0
+  },
+  {
+    "name": "Bergamot",
+    "slug": "bergamot",
+    "category": "Spices",
+    "port_count": 1,
+    "collection_count": 1,
+    "procurement_count": 0
+  },
+  {
+    "name": "Berries",
+    "slug": "berries",
+    "category": "Foodstuffs",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 34
+  },
+  {
+    "name": "Black Ore",
+    "slug": "black-ore",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 11,
+    "procurement_count": 0
+  },
+  {
+    "name": "Black Tea",
+    "slug": "black-tea",
+    "category": "Luxury Goods",
+    "port_count": 4,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Black-mud",
+    "slug": "black-mud",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 22,
+    "procurement_count": 0
+  },
+  {
+    "name": "Blue Dragon Blade",
+    "slug": "blue-dragon-blade",
+    "category": "Arms",
+    "port_count": 5,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Blue Ore",
+    "slug": "blue-ore",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 12,
+    "procurement_count": 0
+  },
+  {
+    "name": "Boulders",
+    "slug": "boulders",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 7,
+    "procurement_count": 0
+  },
+  {
+    "name": "Brass",
+    "slug": "brass",
+    "category": "Wares",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Broad Beans",
+    "slug": "broad-beans",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 0,
+    "procurement_count": 4
+  },
+  {
+    "name": "Bronze Hand Cannon",
+    "slug": "bronze-hand-cannon",
+    "category": "Firearms",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Butter",
+    "slug": "butter",
+    "category": "Seasonings",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Cacao",
+    "slug": "cacao",
+    "category": "Luxury Goods",
+    "port_count": 5,
+    "collection_count": 4,
+    "procurement_count": 0
+  },
+  {
+    "name": "Cactuses",
+    "slug": "cactuses",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 0,
+    "procurement_count": 1
+  },
+  {
+    "name": "Calamus",
+    "slug": "calamus",
+    "category": "Medicine",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Camel Hair",
+    "slug": "camel-hair",
+    "category": "Fibres",
+    "port_count": 6,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Camphor",
+    "slug": "camphor",
+    "category": "Fragrances",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Cannon",
+    "slug": "cannon",
+    "category": "Firearms",
+    "port_count": 4,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Cannon Shot",
+    "slug": "cannon-shot",
+    "category": "Firearms",
+    "port_count": 4,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Cape Jasmine",
+    "slug": "cape-jasmine",
+    "category": "Fragrances",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Cardamom",
+    "slug": "cardamom",
+    "category": "Spices",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Carrots",
+    "slug": "carrots",
+    "category": "Foodstuffs",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Cashew Nuts",
+    "slug": "cashew-nuts",
+    "category": "Luxury Goods",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Cassava",
+    "slug": "cassava",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 0,
+    "procurement_count": 2
+  },
+  {
+    "name": "Cat's Eye",
+    "slug": "cats-eye",
+    "category": "Precious Stones",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Caterpillar Fungus",
+    "slug": "caterpillar-fungus",
+    "category": "Medicine",
+    "port_count": 5,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Cattle",
+    "slug": "cattle",
+    "category": "Livestock",
+    "port_count": 9,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Cedar",
+    "slug": "cedar",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 1,
+    "procurement_count": 0
+  },
+  {
+    "name": "Chamomile",
+    "slug": "chamomile",
+    "category": "Medicine",
+    "port_count": 1,
+    "collection_count": 1,
+    "procurement_count": 0
+  },
+  {
+    "name": "Chicken",
+    "slug": "chicken",
+    "category": "Livestock",
+    "port_count": 7,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Chillies",
+    "slug": "chillies",
+    "category": "Spices",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Chinese Books",
+    "slug": "chinese-books",
+    "category": "Sundries",
+    "port_count": 5,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Chinese Brocade",
+    "slug": "chinese-brocade",
+    "category": "Fabrics",
+    "port_count": 5,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Chinese Calligraphywork",
+    "slug": "chinese-calligraphywork",
+    "category": "Artwork",
+    "port_count": 5,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Chinese Noodles",
+    "slug": "chinese-noodles",
+    "category": "Foodstuffs",
+    "port_count": 5,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Chinese Tea",
+    "slug": "chinese-tea",
+    "category": "Luxury Goods",
+    "port_count": 5,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Cinnabar",
+    "slug": "cinnabar",
+    "category": "Ores",
+    "port_count": 4,
+    "collection_count": 3,
+    "procurement_count": 0
+  },
+  {
+    "name": "Cinnamon",
+    "slug": "cinnamon",
+    "category": "Spices",
+    "port_count": 4,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Cloves",
+    "slug": "cloves",
+    "category": "Spices",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Coal",
+    "slug": "coal",
+    "category": "Wares",
+    "port_count": 11,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Coconut Fibres",
+    "slug": "coconut-fibres",
+    "category": "Fibres",
+    "port_count": 4,
+    "collection_count": 2,
+    "procurement_count": 0
+  },
+  {
+    "name": "Coconuts",
+    "slug": "coconuts",
+    "category": "Luxury Goods",
+    "port_count": 13,
+    "collection_count": 2,
+    "procurement_count": 0
+  },
+  {
+    "name": "Coffee",
+    "slug": "coffee",
+    "category": "Luxury Goods",
+    "port_count": 27,
+    "collection_count": 5,
+    "procurement_count": 0
+  },
+  {
+    "name": "Common Grass",
+    "slug": "common-grass",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 78,
+    "procurement_count": 77
+  },
+  {
+    "name": "Copper Etchings",
+    "slug": "copper-etchings",
+    "category": "Artwork",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Copper Ore",
+    "slug": "copper-ore",
+    "category": "Ores",
+    "port_count": 20,
+    "collection_count": 3,
+    "procurement_count": 0
+  },
+  {
+    "name": "Coral",
+    "slug": "coral",
+    "category": "Precious Stones",
+    "port_count": 14,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Coral Work",
+    "slug": "coral-work",
+    "category": "Crafts",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Corduroy",
+    "slug": "corduroy",
+    "category": "Fabrics",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Coriander",
+    "slug": "coriander",
+    "category": "Spices",
+    "port_count": 4,
+    "collection_count": 6,
+    "procurement_count": 0
+  },
+  {
+    "name": "Corn",
+    "slug": "corn",
+    "category": "Foodstuffs",
+    "port_count": 15,
+    "collection_count": 0,
+    "procurement_count": 6
+  },
+  {
+    "name": "Cotton",
+    "slug": "cotton",
+    "category": "Fibres",
+    "port_count": 25,
+    "collection_count": 4,
+    "procurement_count": 0
+  },
+  {
+    "name": "Cotton Fabric",
+    "slug": "cotton-fabric",
+    "category": "Fabrics",
+    "port_count": 8,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Crickets",
+    "slug": "crickets",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 0,
+    "procurement_count": 1
+  },
+  {
+    "name": "Crocodile Meat",
+    "slug": "crocodile-meat",
+    "category": "Foodstuffs",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Crossbows",
+    "slug": "crossbows",
+    "category": "Arms",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Crystal",
+    "slug": "crystal",
+    "category": "Precious Stones",
+    "port_count": 2,
+    "collection_count": 1,
+    "procurement_count": 0
+  },
+  {
+    "name": "Cummin",
+    "slug": "cummin",
+    "category": "Spices",
+    "port_count": 2,
+    "collection_count": 2,
+    "procurement_count": 0
+  },
+  {
+    "name": "Cuprite",
+    "slug": "cuprite",
+    "category": "Ores",
+    "port_count": 5,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Daffodils",
+    "slug": "daffodils",
+    "category": "Fragrances",
+    "port_count": 1,
+    "collection_count": 2,
+    "procurement_count": 0
+  },
+  {
+    "name": "Daitoh",
+    "slug": "daitoh",
+    "category": "Arms",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Damascus Swords",
+    "slug": "damascus-swords",
+    "category": "Arms",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Deerskin",
+    "slug": "deerskin",
+    "category": "Fibres",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Diamond",
+    "slug": "diamond",
+    "category": "Precious Stones",
+    "port_count": 6,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Digitalis",
+    "slug": "digitalis",
+    "category": "Medicine",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Dill",
+    "slug": "dill",
+    "category": "Spices",
+    "port_count": 2,
+    "collection_count": 1,
+    "procurement_count": 0
+  },
+  {
+    "name": "Donkey",
+    "slug": "donkey",
+    "category": "Livestock",
+    "port_count": 5,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Doubanjiang",
+    "slug": "doubanjiang",
+    "category": "Seasonings",
+    "port_count": 5,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Dried Apples",
+    "slug": "dried-apples",
+    "category": "Luxury Goods",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Dried Figs",
+    "slug": "dried-figs",
+    "category": "Luxury Goods",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Dried Mullet Roe",
+    "slug": "dried-mullet-roe",
+    "category": "Foodstuffs",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Ducks",
+    "slug": "ducks",
+    "category": "Livestock",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Durian",
+    "slug": "durian",
+    "category": "Luxury Goods",
+    "port_count": 3,
+    "collection_count": 3,
+    "procurement_count": 0
+  },
+  {
+    "name": "Dyeing Yam",
+    "slug": "dyeing-yam",
+    "category": "Dyes",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Earthworms",
+    "slug": "earthworms",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 0,
+    "procurement_count": 2
+  },
+  {
+    "name": "Ebony",
+    "slug": "ebony",
+    "category": "Wares",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Eggs",
+    "slug": "eggs",
+    "category": "Foodstuffs",
+    "port_count": 4,
+    "collection_count": 0,
+    "procurement_count": 17
+  },
+  {
+    "name": "Elder",
+    "slug": "elder",
+    "category": "Medicine",
+    "port_count": 1,
+    "collection_count": 1,
+    "procurement_count": 0
+  },
+  {
+    "name": "Emerald",
+    "slug": "emerald",
+    "category": "Precious Stones",
+    "port_count": 7,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "European Armour",
+    "slug": "european-armour",
+    "category": "Arms",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Exotic Fruit",
+    "slug": "exotic-fruit",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 0,
+    "procurement_count": 18
+  },
+  {
+    "name": "Eye-beads",
+    "slug": "eye-beads",
+    "category": "Crafts",
+    "port_count": 2,
+    "collection_count": 1,
+    "procurement_count": 0
+  },
+  {
+    "name": "Feathers",
+    "slug": "feathers",
+    "category": "Fibres",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Fennel",
+    "slug": "fennel",
+    "category": "Spices",
+    "port_count": 1,
+    "collection_count": 4,
+    "procurement_count": 0
+  },
+  {
+    "name": "Fine Clothing",
+    "slug": "fine-clothing",
+    "category": "Crafts",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Fine Furniture",
+    "slug": "fine-furniture",
+    "category": "Crafts",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Fire Lance",
+    "slug": "fire-lance",
+    "category": "Firearms",
+    "port_count": 5,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Fish",
+    "slug": "fish",
+    "category": "Foodstuffs",
+    "port_count": 44,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Flannel",
+    "slug": "flannel",
+    "category": "Fabrics",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Flax",
+    "slug": "flax",
+    "category": "Fibres",
+    "port_count": 3,
+    "collection_count": 2,
+    "procurement_count": 0
+  },
+  {
+    "name": "Fragrant Wood",
+    "slug": "fragrant-wood",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 2,
+    "procurement_count": 0
+  },
+  {
+    "name": "Frankincense",
+    "slug": "frankincense",
+    "category": "Fragrances",
+    "port_count": 6,
+    "collection_count": 3,
+    "procurement_count": 0
+  },
+  {
+    "name": "Fruit Brandy",
+    "slug": "fruit-brandy",
+    "category": "Alcohol",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Garlic",
+    "slug": "garlic",
+    "category": "Spices",
+    "port_count": 6,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Garnet",
+    "slug": "garnet",
+    "category": "Precious Stones",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Georgette Fabric",
+    "slug": "georgette-fabric",
+    "category": "Fabrics",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Geranium",
+    "slug": "geranium",
+    "category": "Fragrances",
+    "port_count": 2,
+    "collection_count": 1,
+    "procurement_count": 0
+  },
+  {
+    "name": "Gin",
+    "slug": "gin",
+    "category": "Alcohol",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Ginger",
+    "slug": "ginger",
+    "category": "Spices",
+    "port_count": 5,
+    "collection_count": 2,
+    "procurement_count": 0
+  },
+  {
+    "name": "Glasswork",
+    "slug": "glasswork",
+    "category": "Crafts",
+    "port_count": 4,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Goats",
+    "slug": "goats",
+    "category": "Livestock",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Gobelin Tapestry",
+    "slug": "gobelin-tapestry",
+    "category": "Fabrics",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Gold",
+    "slug": "gold",
+    "category": "Precious Metals",
+    "port_count": 20,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Gold Dust",
+    "slug": "gold-dust",
+    "category": "Precious Metals",
+    "port_count": 4,
+    "collection_count": 3,
+    "procurement_count": 0
+  },
+  {
+    "name": "Goldwork",
+    "slug": "goldwork",
+    "category": "Crafts",
+    "port_count": 5,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Graphite",
+    "slug": "graphite",
+    "category": "Wares",
+    "port_count": 4,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Green Ore",
+    "slug": "green-ore",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 5,
+    "procurement_count": 0
+  },
+  {
+    "name": "Gumo Ink",
+    "slug": "gumo-ink",
+    "category": "Sundries",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Gunpowder",
+    "slug": "gunpowder",
+    "category": "Firearms",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Hazelnuts",
+    "slug": "hazelnuts",
+    "category": "Luxury Goods",
+    "port_count": 4,
+    "collection_count": 2,
+    "procurement_count": 0
+  },
+  {
+    "name": "Hemp",
+    "slug": "hemp",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 11,
+    "procurement_count": 0
+  },
+  {
+    "name": "Hemp Fabric",
+    "slug": "hemp-fabric",
+    "category": "Fabrics",
+    "port_count": 5,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Hokutolite",
+    "slug": "hokutolite",
+    "category": "Ores",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Honey",
+    "slug": "honey",
+    "category": "Seasonings",
+    "port_count": 9,
+    "collection_count": 4,
+    "procurement_count": 0
+  },
+  {
+    "name": "Hornworms",
+    "slug": "hornworms",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 0,
+    "procurement_count": 1
+  },
+  {
+    "name": "Horses",
+    "slug": "horses",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 0,
+    "procurement_count": 3
+  },
+  {
+    "name": "Huzhou Brush",
+    "slug": "huzhou-brush",
+    "category": "Crafts",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Inca Rose",
+    "slug": "inca-rose",
+    "category": "Precious Stones",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Incense",
+    "slug": "incense",
+    "category": "Fragrances",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Indian Madder",
+    "slug": "indian-madder",
+    "category": "Dyes",
+    "port_count": 1,
+    "collection_count": 2,
+    "procurement_count": 0
+  },
+  {
+    "name": "Iron",
+    "slug": "iron",
+    "category": "Wares",
+    "port_count": 4,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Iron Ore",
+    "slug": "iron-ore",
+    "category": "Ores",
+    "port_count": 23,
+    "collection_count": 3,
+    "procurement_count": 0
+  },
+  {
+    "name": "Ivory",
+    "slug": "ivory",
+    "category": "Precious Stones",
+    "port_count": 8,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Iwami Silver",
+    "slug": "iwami-silver",
+    "category": "Precious Metals",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Jambu",
+    "slug": "jambu",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 0,
+    "procurement_count": 2
+  },
+  {
+    "name": "Japanese Books",
+    "slug": "japanese-books",
+    "category": "Sundries",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Japanese Katana",
+    "slug": "japanese-katana",
+    "category": "Arms",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Japanese Paper",
+    "slug": "japanese-paper",
+    "category": "Wares",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Japanese-style Painting",
+    "slug": "japanese-style-painting",
+    "category": "Artwork",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Jasmine",
+    "slug": "jasmine",
+    "category": "Fragrances",
+    "port_count": 1,
+    "collection_count": 1,
+    "procurement_count": 0
+  },
+  {
+    "name": "Javanese Batik",
+    "slug": "javanese-batik",
+    "category": "Fabrics",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Jewellery",
+    "slug": "jewellery",
+    "category": "Crafts",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Jinguashih Gold",
+    "slug": "jinguashih-gold",
+    "category": "Precious Metals",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Jute",
+    "slug": "jute",
+    "category": "Fibres",
+    "port_count": 4,
+    "collection_count": 1,
+    "procurement_count": 0
+  },
+  {
+    "name": "Kangaroo Meat",
+    "slug": "kangaroo-meat",
+    "category": "Foodstuffs",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Kenaf",
+    "slug": "kenaf",
+    "category": "Fibres",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Knitted Fabric",
+    "slug": "knitted-fabric",
+    "category": "Fabrics",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Korean Beef",
+    "slug": "korean-beef",
+    "category": "Livestock",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Korean Black Raspberry",
+    "slug": "korean-black-raspberry",
+    "category": "Luxury Goods",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Korean Cactus",
+    "slug": "korean-cactus",
+    "category": "Medicine",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Korean Paper",
+    "slug": "korean-paper",
+    "category": "Wares",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Korean Tea",
+    "slug": "korean-tea",
+    "category": "Luxury Goods",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Lacquerware",
+    "slug": "lacquerware",
+    "category": "Crafts",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Lamb",
+    "slug": "lamb",
+    "category": "Foodstuffs",
+    "port_count": 9,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Lapis Lazuli",
+    "slug": "lapis-lazuli",
+    "category": "Precious Stones",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Large Leaves",
+    "slug": "large-leaves",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 11,
+    "procurement_count": 0
+  },
+  {
+    "name": "Laurel",
+    "slug": "laurel",
+    "category": "Spices",
+    "port_count": 1,
+    "collection_count": 3,
+    "procurement_count": 0
+  },
+  {
+    "name": "Lavender",
+    "slug": "lavender",
+    "category": "Fragrances",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Lead Ore",
+    "slug": "lead-ore",
+    "category": "Ores",
+    "port_count": 5,
+    "collection_count": 4,
+    "procurement_count": 0
+  },
+  {
+    "name": "Leather",
+    "slug": "leather",
+    "category": "Fibres",
+    "port_count": 11,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Lemon Balm",
+    "slug": "lemon-balm",
+    "category": "Medicine",
+    "port_count": 1,
+    "collection_count": 1,
+    "procurement_count": 0
+  },
+  {
+    "name": "Lemon Oil",
+    "slug": "lemon-oil",
+    "category": "Fragrances",
+    "port_count": 4,
+    "collection_count": 2,
+    "procurement_count": 0
+  },
+  {
+    "name": "Lilac",
+    "slug": "lilac",
+    "category": "Fragrances",
+    "port_count": 1,
+    "collection_count": 3,
+    "procurement_count": 0
+  },
+  {
+    "name": "Liqueur",
+    "slug": "liqueur",
+    "category": "Alcohol",
+    "port_count": 4,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Logs",
+    "slug": "logs",
+    "category": "Wares",
+    "port_count": 5,
+    "collection_count": 44,
+    "procurement_count": 0
+  },
+  {
+    "name": "Lokao",
+    "slug": "lokao",
+    "category": "Dyes",
+    "port_count": 5,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Lumber",
+    "slug": "lumber",
+    "category": "Wares",
+    "port_count": 24,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Luo Han Guo",
+    "slug": "luo-han-guo",
+    "category": "Seasonings",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Maca",
+    "slug": "maca",
+    "category": "Medicine",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Macadamia Nuts",
+    "slug": "macadamia-nuts",
+    "category": "Luxury Goods",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Mace",
+    "slug": "mace",
+    "category": "Spices",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Malachite",
+    "slug": "malachite",
+    "category": "Precious Stones",
+    "port_count": 5,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Mandrake",
+    "slug": "mandrake",
+    "category": "Medicine",
+    "port_count": 1,
+    "collection_count": 2,
+    "procurement_count": 0
+  },
+  {
+    "name": "Mangoes",
+    "slug": "mangoes",
+    "category": "Luxury Goods",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Mangosteen",
+    "slug": "mangosteen",
+    "category": "Dyes",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Marble",
+    "slug": "marble",
+    "category": "Wares",
+    "port_count": 2,
+    "collection_count": 1,
+    "procurement_count": 0
+  },
+  {
+    "name": "Marble Sculpture",
+    "slug": "marble-sculpture",
+    "category": "Artwork",
+    "port_count": 4,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Mate Tea",
+    "slug": "mate-tea",
+    "category": "Luxury Goods",
+    "port_count": 4,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Maya Blue",
+    "slug": "maya-blue",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 2,
+    "procurement_count": 0
+  },
+  {
+    "name": "Mercury Ointment",
+    "slug": "mercury-ointment",
+    "category": "Medicine",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Mianzhu nian hua",
+    "slug": "mianzhu-nian-hua",
+    "category": "Artwork",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Milk",
+    "slug": "milk",
+    "category": "Foodstuffs",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Mint",
+    "slug": "mint",
+    "category": "Spices",
+    "port_count": 2,
+    "collection_count": 1,
+    "procurement_count": 0
+  },
+  {
+    "name": "Mushrooms",
+    "slug": "mushrooms",
+    "category": "Foodstuffs",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 42
+  },
+  {
+    "name": "Musk",
+    "slug": "musk",
+    "category": "Fragrances",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Muskets",
+    "slug": "muskets",
+    "category": "Firearms",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Myonju",
+    "slug": "myonju",
+    "category": "Fabrics",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Myrrh",
+    "slug": "myrrh",
+    "category": "Medicine",
+    "port_count": 2,
+    "collection_count": 2,
+    "procurement_count": 0
+  },
+  {
+    "name": "Nam Pla",
+    "slug": "nam-pla",
+    "category": "Seasonings",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Nephrite",
+    "slug": "nephrite",
+    "category": "Precious Stones",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Nishijin Fabric",
+    "slug": "nishijin-fabric",
+    "category": "Fabrics",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Nut Galls",
+    "slug": "nut-galls",
+    "category": "Dyes",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Nutmeg",
+    "slug": "nutmeg",
+    "category": "Spices",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Oakmoss",
+    "slug": "oakmoss",
+    "category": "Fragrances",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Oil",
+    "slug": "oil",
+    "category": "Wares",
+    "port_count": 17,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Oil Paintings",
+    "slug": "oil-paintings",
+    "category": "Artwork",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Olive Oil",
+    "slug": "olive-oil",
+    "category": "Seasonings",
+    "port_count": 6,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Olives",
+    "slug": "olives",
+    "category": "Foodstuffs",
+    "port_count": 11,
+    "collection_count": 0,
+    "procurement_count": 4
+  },
+  {
+    "name": "Onions",
+    "slug": "onions",
+    "category": "Foodstuffs",
+    "port_count": 7,
+    "collection_count": 0,
+    "procurement_count": 3
+  },
+  {
+    "name": "Opal",
+    "slug": "opal",
+    "category": "Precious Stones",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Orange Daylily",
+    "slug": "orange-daylily",
+    "category": "Luxury Goods",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Orange Oil",
+    "slug": "orange-oil",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 1,
+    "procurement_count": 0
+  },
+  {
+    "name": "Oregano",
+    "slug": "oregano",
+    "category": "Spices",
+    "port_count": 3,
+    "collection_count": 3,
+    "procurement_count": 0
+  },
+  {
+    "name": "Oyster Shell",
+    "slug": "oyster-shell",
+    "category": "Medicine",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Palm Oil",
+    "slug": "palm-oil",
+    "category": "Seasonings",
+    "port_count": 7,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Papayas",
+    "slug": "papayas",
+    "category": "Luxury Goods",
+    "port_count": 2,
+    "collection_count": 3,
+    "procurement_count": 0
+  },
+  {
+    "name": "Paper",
+    "slug": "paper",
+    "category": "Wares",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Paper lantern",
+    "slug": "paper-lantern",
+    "category": "Sundries",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Papyrus",
+    "slug": "papyrus",
+    "category": "Wares",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Parchment",
+    "slug": "parchment",
+    "category": "Wares",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Parsley",
+    "slug": "parsley",
+    "category": "Spices",
+    "port_count": 5,
+    "collection_count": 2,
+    "procurement_count": 0
+  },
+  {
+    "name": "Pasta",
+    "slug": "pasta",
+    "category": "Foodstuffs",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Peacock Feathers",
+    "slug": "peacock-feathers",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 1,
+    "procurement_count": 0
+  },
+  {
+    "name": "Peanut Oil",
+    "slug": "peanut-oil",
+    "category": "Seasonings",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Peanuts",
+    "slug": "peanuts",
+    "category": "Luxury Goods",
+    "port_count": 5,
+    "collection_count": 2,
+    "procurement_count": 0
+  },
+  {
+    "name": "Pearl",
+    "slug": "pearl",
+    "category": "Precious Stones",
+    "port_count": 6,
+    "collection_count": 1,
+    "procurement_count": 0
+  },
+  {
+    "name": "Peony",
+    "slug": "peony",
+    "category": "Medicine",
+    "port_count": 2,
+    "collection_count": 1,
+    "procurement_count": 0
+  },
+  {
+    "name": "Pepper",
+    "slug": "pepper",
+    "category": "Spices",
+    "port_count": 4,
+    "collection_count": 2,
+    "procurement_count": 0
+  },
+  {
+    "name": "Peridot",
+    "slug": "peridot",
+    "category": "Precious Stones",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Persian Berry",
+    "slug": "persian-berry",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 2,
+    "procurement_count": 0
+  },
+  {
+    "name": "Persian Carpet",
+    "slug": "persian-carpet",
+    "category": "Fabrics",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Pickles",
+    "slug": "pickles",
+    "category": "Luxury Goods",
+    "port_count": 4,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Pigs",
+    "slug": "pigs",
+    "category": "Livestock",
+    "port_count": 5,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Pineapples",
+    "slug": "pineapples",
+    "category": "Luxury Goods",
+    "port_count": 3,
+    "collection_count": 2,
+    "procurement_count": 0
+  },
+  {
+    "name": "Pink Diamonds",
+    "slug": "pink-diamonds",
+    "category": "Precious Stones",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Pistachio Nuts",
+    "slug": "pistachio-nuts",
+    "category": "Luxury Goods",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Platinum",
+    "slug": "platinum",
+    "category": "Precious Metals",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Pomegranate",
+    "slug": "pomegranate",
+    "category": "Dyes",
+    "port_count": 1,
+    "collection_count": 2,
+    "procurement_count": 0
+  },
+  {
+    "name": "Pork",
+    "slug": "pork",
+    "category": "Foodstuffs",
+    "port_count": 6,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Potatoes",
+    "slug": "potatoes",
+    "category": "Foodstuffs",
+    "port_count": 6,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Quinoa",
+    "slug": "quinoa",
+    "category": "Foodstuffs",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Raisins",
+    "slug": "raisins",
+    "category": "Luxury Goods",
+    "port_count": 5,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Ramie",
+    "slug": "ramie",
+    "category": "Fibres",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Rattan",
+    "slug": "rattan",
+    "category": "Wares",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Rattan Armor",
+    "slug": "rattan-armor",
+    "category": "Arms",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Rattan work",
+    "slug": "rattan-work",
+    "category": "Sundries",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Red Beans",
+    "slug": "red-beans",
+    "category": "Foodstuffs",
+    "port_count": 5,
+    "collection_count": 0,
+    "procurement_count": 10
+  },
+  {
+    "name": "Red Flowers",
+    "slug": "red-flowers",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 20,
+    "procurement_count": 0
+  },
+  {
+    "name": "Red Ore",
+    "slug": "red-ore",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 15,
+    "procurement_count": 0
+  },
+  {
+    "name": "Rhinoceros Horn",
+    "slug": "rhinoceros-horn",
+    "category": "Medicine",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Rocks",
+    "slug": "rocks",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 68,
+    "procurement_count": 66
+  },
+  {
+    "name": "Rosa Rugosa",
+    "slug": "rosa-rugosa",
+    "category": "Fragrances",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Rose",
+    "slug": "rose",
+    "category": "Fragrances",
+    "port_count": 3,
+    "collection_count": 2,
+    "procurement_count": 0
+  },
+  {
+    "name": "Rosehip",
+    "slug": "rosehip",
+    "category": "Medicine",
+    "port_count": 2,
+    "collection_count": 2,
+    "procurement_count": 0
+  },
+  {
+    "name": "Rosemary",
+    "slug": "rosemary",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 1,
+    "procurement_count": 0
+  },
+  {
+    "name": "Rubber",
+    "slug": "rubber",
+    "category": "Wares",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Rum",
+    "slug": "rum",
+    "category": "Alcohol",
+    "port_count": 5,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Rye",
+    "slug": "rye",
+    "category": "Foodstuffs",
+    "port_count": 4,
+    "collection_count": 0,
+    "procurement_count": 5
+  },
+  {
+    "name": "Safflower",
+    "slug": "safflower",
+    "category": "Dyes",
+    "port_count": 1,
+    "collection_count": 1,
+    "procurement_count": 0
+  },
+  {
+    "name": "Saffron",
+    "slug": "saffron",
+    "category": "Spices",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Sake",
+    "slug": "sake",
+    "category": "Alcohol",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Salt",
+    "slug": "salt",
+    "category": "Seasonings",
+    "port_count": 18,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Saltpetre",
+    "slug": "saltpetre",
+    "category": "Ores",
+    "port_count": 1,
+    "collection_count": 3,
+    "procurement_count": 0
+  },
+  {
+    "name": "Sand",
+    "slug": "sand",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 47,
+    "procurement_count": 44
+  },
+  {
+    "name": "Sandalwood",
+    "slug": "sandalwood",
+    "category": "Fragrances",
+    "port_count": 4,
+    "collection_count": 1,
+    "procurement_count": 0
+  },
+  {
+    "name": "Saori",
+    "slug": "saori",
+    "category": "Crafts",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Sapphire",
+    "slug": "sapphire",
+    "category": "Precious Stones",
+    "port_count": 2,
+    "collection_count": 1,
+    "procurement_count": 0
+  },
+  {
+    "name": "Satin",
+    "slug": "satin",
+    "category": "Fabrics",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Sausages",
+    "slug": "sausages",
+    "category": "Foodstuffs",
+    "port_count": 7,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Senna",
+    "slug": "senna",
+    "category": "Medicine",
+    "port_count": 2,
+    "collection_count": 1,
+    "procurement_count": 0
+  },
+  {
+    "name": "Sesame Seeds",
+    "slug": "sesame-seeds",
+    "category": "Spices",
+    "port_count": 4,
+    "collection_count": 2,
+    "procurement_count": 0
+  },
+  {
+    "name": "Shacha Sauce",
+    "slug": "shacha-sauce",
+    "category": "Seasonings",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Shaoxing wine",
+    "slug": "shaoxing-wine",
+    "category": "Alcohol",
+    "port_count": 5,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Sheep",
+    "slug": "sheep",
+    "category": "Livestock",
+    "port_count": 9,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Sherry",
+    "slug": "sherry",
+    "category": "Alcohol",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Shot",
+    "slug": "shot",
+    "category": "Firearms",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Silk Cloth",
+    "slug": "silk-cloth",
+    "category": "Fabrics",
+    "port_count": 4,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Silk Thread",
+    "slug": "silk-thread",
+    "category": "Fibres",
+    "port_count": 4,
+    "collection_count": 6,
+    "procurement_count": 0
+  },
+  {
+    "name": "Silver",
+    "slug": "silver",
+    "category": "Precious Metals",
+    "port_count": 17,
+    "collection_count": 2,
+    "procurement_count": 0
+  },
+  {
+    "name": "Silverwork",
+    "slug": "silverwork",
+    "category": "Crafts",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Single-handed Swords",
+    "slug": "single-handed-swords",
+    "category": "Arms",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Sisal",
+    "slug": "sisal",
+    "category": "Fibres",
+    "port_count": 2,
+    "collection_count": 4,
+    "procurement_count": 0
+  },
+  {
+    "name": "Soba",
+    "slug": "soba",
+    "category": "Foodstuffs",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Soft Rush",
+    "slug": "soft-rush",
+    "category": "Fibres",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Song Porcelain",
+    "slug": "song-porcelain",
+    "category": "Crafts",
+    "port_count": 5,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Soya Beans",
+    "slug": "soya-beans",
+    "category": "Foodstuffs",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 2
+  },
+  {
+    "name": "Soya Sauce",
+    "slug": "soya-sauce",
+    "category": "Seasonings",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Star Anise",
+    "slug": "star-anise",
+    "category": "Spices",
+    "port_count": 5,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Steel",
+    "slug": "steel",
+    "category": "Wares",
+    "port_count": 4,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Stone",
+    "slug": "stone",
+    "category": "Wares",
+    "port_count": 8,
+    "collection_count": 35,
+    "procurement_count": 0
+  },
+  {
+    "name": "Stone Sculpture",
+    "slug": "stone-sculpture",
+    "category": "Artwork",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Sugar",
+    "slug": "sugar",
+    "category": "Seasonings",
+    "port_count": 7,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Sugar Beet",
+    "slug": "sugar-beet",
+    "category": "Foodstuffs",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Sugar Cane",
+    "slug": "sugar-cane",
+    "category": "Foodstuffs",
+    "port_count": 21,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Sweet Osmanthus",
+    "slug": "sweet-osmanthus",
+    "category": "Fragrances",
+    "port_count": 5,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Sweet Potatoes",
+    "slug": "sweet-potatoes",
+    "category": "Foodstuffs",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 11
+  },
+  {
+    "name": "Taiwan Mijiu",
+    "slug": "taiwan-mijiu",
+    "category": "Alcohol",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Taiwan Sapphire",
+    "slug": "taiwan-sapphire",
+    "category": "Precious Stones",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Taiwanese Woodcarving",
+    "slug": "taiwanese-woodcarving",
+    "category": "Artwork",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Tanegashima Rifle",
+    "slug": "tanegashima-rifle",
+    "category": "Firearms",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Taro",
+    "slug": "taro",
+    "category": "Foodstuffs",
+    "port_count": 5,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Tequila",
+    "slug": "tequila",
+    "category": "Alcohol",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Thai Galangal",
+    "slug": "thai-galangal",
+    "category": "Spices",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Throwing Bomb",
+    "slug": "throwing-bomb",
+    "category": "Firearms",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Thyme",
+    "slug": "thyme",
+    "category": "Spices",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Tigerskin",
+    "slug": "tigerskin",
+    "category": "Fibres",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Tin Ore",
+    "slug": "tin-ore",
+    "category": "Ores",
+    "port_count": 7,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Tobacco",
+    "slug": "tobacco",
+    "category": "Luxury Goods",
+    "port_count": 3,
+    "collection_count": 5,
+    "procurement_count": 0
+  },
+  {
+    "name": "Toddy",
+    "slug": "toddy",
+    "category": "Alcohol",
+    "port_count": 4,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Tomatoes",
+    "slug": "tomatoes",
+    "category": "Foodstuffs",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 2
+  },
+  {
+    "name": "Topaz",
+    "slug": "topaz",
+    "category": "Precious Stones",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Tuberose",
+    "slug": "tuberose",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 1,
+    "procurement_count": 0
+  },
+  {
+    "name": "Tumbaga",
+    "slug": "tumbaga",
+    "category": "Crafts",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Tuna",
+    "slug": "tuna",
+    "category": "Foodstuffs",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Turkish Carpet",
+    "slug": "turkish-carpet",
+    "category": "Fabrics",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Turnips",
+    "slug": "turnips",
+    "category": "Foodstuffs",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 13
+  },
+  {
+    "name": "Tweed",
+    "slug": "tweed",
+    "category": "Fabrics",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Two-handed Swords",
+    "slug": "two-handed-swords",
+    "category": "Arms",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Tyrian Purple",
+    "slug": "tyrian-purple",
+    "category": "Dyes",
+    "port_count": 6,
+    "collection_count": 1,
+    "procurement_count": 0
+  },
+  {
+    "name": "Upland Rice",
+    "slug": "upland-rice",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 0,
+    "procurement_count": 3
+  },
+  {
+    "name": "Vegetable Oil",
+    "slug": "vegetable-oil",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 35,
+    "procurement_count": 0
+  },
+  {
+    "name": "Velvet",
+    "slug": "velvet",
+    "category": "Fabrics",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Venison",
+    "slug": "venison",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 0,
+    "procurement_count": 1
+  },
+  {
+    "name": "Vodka",
+    "slug": "vodka",
+    "category": "Alcohol",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Walnuts",
+    "slug": "walnuts",
+    "category": "Luxury Goods",
+    "port_count": 2,
+    "collection_count": 1,
+    "procurement_count": 0
+  },
+  {
+    "name": "Water Buffalo",
+    "slug": "water-buffalo",
+    "category": "Livestock",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Water Caltrop",
+    "slug": "water-caltrop",
+    "category": "Foodstuffs",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Wax",
+    "slug": "wax",
+    "category": "Wares",
+    "port_count": 4,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Wetland Rice",
+    "slug": "wetland-rice",
+    "category": "Foodstuffs",
+    "port_count": 7,
+    "collection_count": 0,
+    "procurement_count": 8
+  },
+  {
+    "name": "Wheat",
+    "slug": "wheat",
+    "category": "Foodstuffs",
+    "port_count": 24,
+    "collection_count": 0,
+    "procurement_count": 11
+  },
+  {
+    "name": "Whiskey",
+    "slug": "whiskey",
+    "category": "Alcohol",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "White Flowers",
+    "slug": "white-flowers",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 13,
+    "procurement_count": 0
+  },
+  {
+    "name": "White Nephrite",
+    "slug": "white-nephrite",
+    "category": "Precious Stones",
+    "port_count": 5,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "White Ore",
+    "slug": "white-ore",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 7,
+    "procurement_count": 0
+  },
+  {
+    "name": "White Porcelain Ore",
+    "slug": "white-porcelain-ore",
+    "category": "Ores",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Wild Boar",
+    "slug": "wild-boar",
+    "category": "Livestock",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Wild Oats",
+    "slug": "wild-oats",
+    "category": "Foodstuffs",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 4
+  },
+  {
+    "name": "Wild Rabbits",
+    "slug": "wild-rabbits",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 0,
+    "procurement_count": 1
+  },
+  {
+    "name": "Wine",
+    "slug": "wine",
+    "category": "Alcohol",
+    "port_count": 11,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Wine Vinegar",
+    "slug": "wine-vinegar",
+    "category": "Seasonings",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Woad",
+    "slug": "woad",
+    "category": "Dyes",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Wood Sculpture",
+    "slug": "wood-sculpture",
+    "category": "Artwork",
+    "port_count": 5,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Wool",
+    "slug": "wool",
+    "category": "Fibres",
+    "port_count": 11,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Woollen Fabric",
+    "slug": "woollen-fabric",
+    "category": "Fabrics",
+    "port_count": 5,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Wormwood",
+    "slug": "wormwood",
+    "category": "Medicine",
+    "port_count": 1,
+    "collection_count": 1,
+    "procurement_count": 0
+  },
+  {
+    "name": "Woven Hemp",
+    "slug": "woven-hemp",
+    "category": "Fabrics",
+    "port_count": 2,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Wuxu Porcelain",
+    "slug": "wuxu-porcelain",
+    "category": "Crafts",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Yangju Chestnut",
+    "slug": "yangju-chestnut",
+    "category": "Foodstuffs",
+    "port_count": 1,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Yellow Ore",
+    "slug": "yellow-ore",
+    "category": "Gathered",
+    "port_count": 0,
+    "collection_count": 14,
+    "procurement_count": 0
+  },
+  {
+    "name": "Yunnan Silver",
+    "slug": "yunnan-silver",
+    "category": "Precious Metals",
+    "port_count": 5,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Yuzu",
+    "slug": "yuzu",
+    "category": "Spices",
+    "port_count": 3,
+    "collection_count": 0,
+    "procurement_count": 0
+  },
+  {
+    "name": "Zinc Ore",
+    "slug": "zinc-ore",
+    "category": "Ores",
+    "port_count": 4,
+    "collection_count": 2,
+    "procurement_count": 0
+  }
+]

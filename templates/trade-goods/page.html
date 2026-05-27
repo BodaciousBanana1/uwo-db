@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} - Trade Goods{% endblock %}
+
+{% block content %}
+<article class="detail-page">
+  <header class="detail-header">
+    <nav class="breadcrumb">
+      <a href="/trade-goods/">Trade Goods</a>
+    </nav>
+    <h1>{{ page.title }}</h1>
+    <div class="detail-meta">
+      <span class="badge">{{ page.extra.category | default(value="Gathered") }}</span>
+      {% if page.extra.item_id %}
+      <a href="https://dhodb.ivyro.net/eg/main.php?id={{ page.extra.item_id }}" target="_blank" class="source-link">Source</a>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="detail-grid">
+    {% if page.extra.ports and page.extra.ports | length > 0 %}
+    <section class="detail-section">
+      <h2>Available at Ports</h2>
+      <table class="detail-table ports-table">
+        <thead>
+          <tr>
+            <th>Port</th>
+            <th class="num">Rating</th>
+            <th class="num">Price</th>
+            <th class="num">Investment</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for port in page.extra.ports %}
+          <tr>
+            <td><a href="/cities/{{ port.slug }}/">{{ port.name }}</a></td>
+            <td class="num rating">{% for i in range(end=port.rating) %}★{% endfor %}</td>
+            <td class="num price">{{ port.price }}</td>
+            <td class="num invest">{% if port.investment %}{{ port.investment }}{% else %}-{% endif %}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </section>
+    {% endif %}
+
+    {% if page.extra.collection_sources and page.extra.collection_sources | length > 0 %}
+    <section class="detail-section">
+      <h2>Collection Sources</h2>
+      <p class="skill-note">Gathered using the <a href="/skills/collection/">Collection</a> skill</p>
+      <ul class="source-grid">
+        {% for src in page.extra.collection_sources %}
+        <li><a href="/landing-points/{{ src.slug }}/">{{ src.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    {% if page.extra.procurement_sources and page.extra.procurement_sources | length > 0 %}
+    <section class="detail-section">
+      <h2>Procurement Sources</h2>
+      <p class="skill-note">Gathered using the <a href="/skills/procurement/">Procurement</a> skill</p>
+      <ul class="source-grid">
+        {% for src in page.extra.procurement_sources %}
+        <li><a href="/landing-points/{{ src.slug }}/">{{ src.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+  </div>
+
+  <footer class="detail-footer">
+    <a href="/trade-goods/" class="back-link">← Back to Trade Goods</a>
+  </footer>
+</article>
+{% endblock %}

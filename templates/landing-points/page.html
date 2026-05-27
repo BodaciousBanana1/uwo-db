@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} - Landing Points{% endblock %}
+
+{% block content %}
+<article class="detail-page">
+  <header class="detail-header">
+    <nav class="breadcrumb">
+      <a href="/landing-points/">Landing Points</a>
+    </nav>
+    <h1>{{ page.title }}</h1>
+    {% if page.extra.zone_id %}
+    <div class="detail-meta">
+      <a href="https://dhodb.ivyro.net/eg/main.php?id={{ page.extra.zone_id }}" target="_blank" class="source-link">Source</a>
+    </div>
+    {% endif %}
+  </header>
+
+  <div class="detail-grid">
+    {% if page.extra.collection_items and page.extra.collection_items | length > 0 %}
+    <section class="detail-section">
+      <h2>Collection Items</h2>
+      <p class="skill-note">Gathered using the <a href="/skills/collection/">Collection</a> skill</p>
+      <ul class="item-grid">
+        {% for item in page.extra.collection_items %}
+        <li class="item-card">
+          <a href="/trade-goods/{{ item.name | lower | replace(from="'", to="") | slugify }}/" class="item-link">{{ item.name }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    {% if page.extra.procurement_items and page.extra.procurement_items | length > 0 %}
+    <section class="detail-section">
+      <h2>Procurement Items</h2>
+      <p class="skill-note">Gathered using the <a href="/skills/procurement/">Procurement</a> skill</p>
+      <ul class="item-grid">
+        {% for item in page.extra.procurement_items %}
+        <li class="item-card">
+          <a href="/trade-goods/{{ item.name | lower | replace(from="'", to="") | slugify }}/" class="item-link">{{ item.name }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    {% if page.extra.quests and page.extra.quests | length > 0 %}
+    <section class="detail-section">
+      <h2>Related Quests</h2>
+      <ul class="link-list">
+        {% for quest in page.extra.quests %}
+        <li><a href="/quests/{{ quest.slug }}/">{{ quest.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    {% if page.extra.discoveries and page.extra.discoveries | length > 0 %}
+    <section class="detail-section">
+      <h2>Discoveries</h2>
+      <ul class="link-list">
+        {% for disc in page.extra.discoveries %}
+        <li>{{ disc.name }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    {% if page.extra.archive_maps and page.extra.archive_maps | length > 0 %}
+    <section class="detail-section">
+      <h2>Archive Maps</h2>
+      <ul class="link-list">
+        {% for map in page.extra.archive_maps %}
+        <li>
+          <a href="/maps/{{ map.slug }}/">{{ map.name }}</a>
+          {% if map.discovery %}<span class="discovery-hint">→ {{ map.discovery }}</span>{% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+  </div>
+
+  <footer class="detail-footer">
+    <a href="/landing-points/" class="back-link">← Back to Landing Points</a>
+  </footer>
+</article>
+{% endblock %}

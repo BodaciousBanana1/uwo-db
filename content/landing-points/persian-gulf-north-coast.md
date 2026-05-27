@@ -1,0 +1,13 @@
++++
+title = "Persian Gulf North Coast"
+template = "landing-points/page.html"
+
+[extra]
+slug = "persian-gulf-north-coast"
+zone_id = "90001023"
+collection_items = [{ name = "Sand", id = "01600565" }, { name = "Logs", id = "01600925" }, { name = "Vegetable Oil", id = "01600924" }, { name = "Black-mud", id = "01600563" }, { name = "Green Ore", id = "01600560" }, { name = "Iron Ore", id = "01600552" }, { name = "Frankincense", id = "01600415" }]
+procurement_items = [{ name = "Sand", id = "01600565" }, { name = "Turnips", id = "01600006" }, { name = "Mushrooms", id = "01600046" }]
+quests = [{ name = "In pursut of the colour yellow", slug = "in-pursut-of-the-colour-yellow", id = "99994183" }, { name = "King of all", slug = "king-of-all", id = "99999950" }, { name = "Records of a good king", slug = "records-of-a-good-king", id = "99994671" }, { name = "Proof of glory", slug = "proof-of-glory", id = "99994674" }, { name = "Semi-transparent white statue", slug = "semi-transparent-white-statue", id = "99994673" }, { name = "Battle for succession", slug = "battle-for-succession", id = "99994689" }, { name = "Stone statues of Mesopotamia", slug = "stone-statues-of-mesopotamia", id = "99994670" }, { name = "Search for Mesopotamian culture", slug = "search-for-mesopotamian-culture", id = "99994669" }, { name = "The man who built Baghdad", slug = "the-man-who-built-baghdad", id = "99994706" }, { name = "The Dream of the Large Bird", slug = "the-dream-of-the-large-bird", id = "99990359" }, { name = "Folklore Regarding the Beautiful Robe", slug = "folklore-regarding-the-beautiful-robe", id = "99991403" }, { name = "Legacy TH11. Monarch Favored by the Gods", slug = "legacy-th11-monarch-favored-by-the-gods", id = "99991418" }]
+discoveries = [{ name = "Ancient Farming Tool", id = "70000143" }, { name = "Allahverdi Khan Bridge", id = "70003390" }, { name = "Persian Yellow", id = "70000819" }, { name = "Stele of Naram-sin", id = "70002283" }, { name = "The Inscriptions of Bisutoun", id = "70000151" }, { name = "The Inscription of Ganjiname", id = "70000051" }, { name = "The Statue of Ebih-Il", id = "70000050" }, { name = "Demetrius I's Armour", id = "70000131" }, { name = "The Statue of Lamassu", id = "70000195" }, { name = "Hammurabi's Code of Laws", id = "70000150" }, { name = "Abbas' Sword", id = "70000029" }, { name = "Goliath Heron", id = "70002552" }, { name = "Peri's Robe", id = "70003438" }, { name = "Relief of Ardashir I", id = "70003634" }]
+archive_maps = [{ name = "Ancient Tools Map", slug = "ancient-tools-map-land-at-the-persian-gulf-north", discovery = "Ancient Farming Tool" }, { name = "Caravan Record", slug = "caravan-record-record-of-missing-caravan" }]
++++
