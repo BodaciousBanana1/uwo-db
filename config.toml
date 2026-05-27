@@ -4,6 +4,9 @@ description = "Every clue, every recipe, every plate. An open reference for Unch
 compile_sass = true
 build_search_index = false
 
+# Use relative URLs so links work with GitHub Pages subpath
+relative_urls = true
+
 [extra]
 author = "Community"
 entry_count = 1217
