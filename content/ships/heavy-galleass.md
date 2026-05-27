@@ -26,4 +26,7 @@ masts = 0
 material = "Iron"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "Tunis", city_slug = "tunis", skill_rank = 1, material = "Iron-plated", hull = "Large 2-decked Row Boat" },
+]
 +++

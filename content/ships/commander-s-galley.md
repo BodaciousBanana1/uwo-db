@@ -26,5 +26,13 @@ masts = 3
 material = "Beech"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "Seville", city_slug = "seville", skill_rank = 1, material = "Beech", hull = "Commander's Medium Row Boat" },
+  { city = "Lisbon", city_slug = "lisbon", skill_rank = 1, material = "Beech", hull = "Commander's Medium Row Boat" },
+  { city = "Venice", city_slug = "venice", skill_rank = 1, material = "Beech", hull = "Commander's Medium Row Boat" },
+  { city = "Marseille", city_slug = "marseille", skill_rank = 1, material = "Beech", hull = "Commander's Medium Row Boat" },
+  { city = "Amsterdam", city_slug = "amsterdam", skill_rank = 1, material = "Beech", hull = "Commander's Medium Row Boat" },
+  { city = "London", city_slug = "london", skill_rank = 1, material = "Beech", hull = "Commander's Medium Row Boat" },
+]
 +++
 

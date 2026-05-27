@@ -26,4 +26,12 @@ masts = 0
 material = "Teak"
 is_cash_ship = true
 is_steam = false
+shipbuilding = [
+  { city = "Seville", city_slug = "seville", skill_rank = 1, material = "Iron-plated", hull = "Commander's Medium 2-decked Hull" },
+  { city = "Lisbon", city_slug = "lisbon", skill_rank = 1, material = "Iron-plated", hull = "Commander's Medium 2-decked Hull" },
+  { city = "Venice", city_slug = "venice", skill_rank = 1, material = "Iron-plated", hull = "Commander's Medium 2-decked Hull" },
+  { city = "Marseille", city_slug = "marseille", skill_rank = 1, material = "Iron-plated", hull = "Commander's Medium 2-decked Hull" },
+  { city = "Amsterdam", city_slug = "amsterdam", skill_rank = 1, material = "Iron-plated", hull = "Commander's Medium 2-decked Hull" },
+  { city = "London", city_slug = "london", skill_rank = 1, material = "Iron-plated", hull = "Commander's Medium 2-decked Hull" },
+]
 +++

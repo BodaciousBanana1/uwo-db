@@ -26,5 +26,8 @@ masts = 5
 material = "Nocturnal Wood"
 is_cash_ship = true
 is_steam = false
+shipbuilding = [
+  { city = "San Francisco", city_slug = "san-francisco", skill_rank = 1, material = "Unknown", hull = "Large Flush Deck Style Hull" },
+]
 +++
 

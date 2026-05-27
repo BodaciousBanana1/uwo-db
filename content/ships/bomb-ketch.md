@@ -26,4 +26,7 @@ masts = 0
 material = "Iron"
 is_cash_ship = true
 is_steam = false
+shipbuilding = [
+  { city = "Bergen", city_slug = "bergen", skill_rank = 1, material = "Iron-plated", hull = "Small Flush Deck Style Hull" },
+]
 +++

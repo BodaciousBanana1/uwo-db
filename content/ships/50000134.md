@@ -26,4 +26,9 @@ masts = 0
 material = "Unknown"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "Genoa", city_slug = "genoa", skill_rank = 1, material = "Copper-coated", hull = "Large 2-decked Row Boat" },
+  { city = "Marseille", city_slug = "marseille", skill_rank = 1, material = "Copper-coated", hull = "Large 2-decked Row Boat" },
+  { city = "Marseille", city_slug = "marseille", skill_rank = 1, material = "For French military use", hull = "Official Large 2-decked Row Boat" },
+]
 +++

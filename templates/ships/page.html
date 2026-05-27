@@ -74,18 +74,49 @@
         </table>
       </section>
 
+      {% if page.extra.ports and page.extra.ports | length > 0 %}
       <section class="stats-panel">
         <div class="panel-header-row">
           <span class="panel-title">AVAILABLE AT</span>
-          <span class="panel-meta">4 PORTS</span>
+          <span class="panel-meta">{{ page.extra.ports | length }} PORTS</span>
         </div>
         <table class="stats-table ports-table">
-          <tr><td><span class="port-dot"></span> Lisbon</td><td>98 400 đ</td></tr>
-          <tr><td><span class="port-dot"></span> Sevilla</td><td>112 200 đ</td></tr>
-          <tr><td><span class="port-dot"></span> Marseille</td><td>105 800 đ</td></tr>
-          <tr><td><span class="port-dot"></span> Genoa</td><td>108 000 đ</td></tr>
+          {% for port in page.extra.ports %}
+          <tr>
+            <td><span class="port-dot"></span> <a href="{{ config.base_url }}/cities/{{ port.slug }}/">{{ port.name }}</a></td>
+            <td>{{ port.price }} đ</td>
+          </tr>
+          {% endfor %}
         </table>
       </section>
+      {% endif %}
+
+      {% if page.extra.shipbuilding and page.extra.shipbuilding | length > 0 %}
+      <section class="stats-panel">
+        <div class="panel-header-row">
+          <span class="panel-title">SHIPBUILDING</span>
+          <span class="panel-meta">{{ page.extra.shipbuilding | length }} LOCATIONS</span>
+        </div>
+        <table class="stats-table shipbuilding-table">
+          <thead>
+            <tr>
+              <th>City</th>
+              <th>Skill</th>
+              <th>Material</th>
+            </tr>
+          </thead>
+          <tbody>
+          {% for loc in page.extra.shipbuilding %}
+          <tr>
+            <td><a href="{{ config.base_url }}/cities/{{ loc.city_slug }}/">{{ loc.city }}</a></td>
+            <td>Rank {{ loc.skill_rank }}</td>
+            <td>{{ loc.material }}</td>
+          </tr>
+          {% endfor %}
+          </tbody>
+        </table>
+      </section>
+      {% endif %}
 
 {#
       <section class="stats-panel comments-section">

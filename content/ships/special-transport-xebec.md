@@ -26,4 +26,7 @@ masts = 0
 material = "Unknown"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "Muscat", city_slug = "muscat", skill_rank = 1, material = "Mahogany", hull = "Large Flush Deck Style Hull" },
+]
 +++

@@ -26,4 +26,12 @@ masts = 0
 material = "Unknown"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "Seville", city_slug = "seville", skill_rank = 1, material = "Copper-coated", hull = "Medium 2-decked Hull" },
+  { city = "Venice", city_slug = "venice", skill_rank = 1, material = "Copper-coated", hull = "Medium 2-decked Hull" },
+  { city = "Marseille", city_slug = "marseille", skill_rank = 1, material = "Copper-coated", hull = "Medium 2-decked Hull" },
+  { city = "London", city_slug = "london", skill_rank = 1, material = "Copper-coated", hull = "Medium 2-decked Hull" },
+  { city = "Lisbon", city_slug = "lisbon", skill_rank = 1, material = "Copper-coated", hull = "Medium 2-decked Hull" },
+  { city = "Bergen", city_slug = "bergen", skill_rank = 1, material = "Rosewood", hull = "Medium 2-decked Hull" },
+]
 +++

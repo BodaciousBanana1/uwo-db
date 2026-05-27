@@ -26,4 +26,12 @@ masts = 0
 material = "Iron"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "Ragusa", city_slug = "ragusa", skill_rank = 1, material = "Copper-coated", hull = "Small Flush Deck Style Hull" },
+  { city = "Porto", city_slug = "porto", skill_rank = 1, material = "Copper-coated", hull = "Small Flush Deck Style Hull" },
+  { city = "Barcelona", city_slug = "barcelona", skill_rank = 1, material = "Copper-coated", hull = "Small Flush Deck Style Hull" },
+  { city = "Bordeaux", city_slug = "bordeaux", skill_rank = 1, material = "Copper-coated", hull = "Small Flush Deck Style Hull" },
+  { city = "Ceuta", city_slug = "ceuta", skill_rank = 1, material = "Iron-plated", hull = "Small Flush Deck Style Hull" },
+  { city = "Valencia", city_slug = "valencia", skill_rank = 1, material = "Iron-plated", hull = "Small Flush Deck Style Hull" },
+]
 +++

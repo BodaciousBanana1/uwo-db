@@ -26,4 +26,8 @@ masts = 0
 material = "Red Pine"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "London", city_slug = "london", skill_rank = 1, material = "Unknown", hull = "Large 2-decked Hull" },
+  { city = "Plymouth", city_slug = "plymouth", skill_rank = 1, material = "Unknown", hull = "Large 2-decked Hull" },
+]
 +++

@@ -26,5 +26,8 @@ masts = 3
 material = "Oak"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "Habana", city_slug = "habana", skill_rank = 1, material = "Cedar", hull = "Large Flush Deck Style Hull" },
+]
 +++
 

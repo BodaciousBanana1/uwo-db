@@ -1,0 +1,5733 @@
+{
+  "50000005": {
+    "id": "50000005",
+    "name": "Small Caravel",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      }
+    ]
+  },
+  "50000006": {
+    "id": "50000006",
+    "name": "Caravel",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      }
+    ]
+  },
+  "50000007": {
+    "id": "50000007",
+    "name": "Large Caravel",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      }
+    ]
+  },
+  "50000009": {
+    "id": "50000009",
+    "name": "Carrack",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      }
+    ]
+  },
+  "50000010": {
+    "id": "50000010",
+    "name": "Large Carrack",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Hull"
+      }
+    ]
+  },
+  "50000011": {
+    "id": "50000011",
+    "name": "Heavy Carrack",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Hull"
+      }
+    ]
+  },
+  "50000014": {
+    "id": "50000014",
+    "name": "Light Galleon",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      }
+    ]
+  },
+  "50000015": {
+    "id": "50000015",
+    "name": "Galleon",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Hull"
+      }
+    ]
+  },
+  "50000018": {
+    "id": "50000018",
+    "name": "Commander's Galley",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Beech",
+        "hull": "Commander's Medium Row Boat"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Beech",
+        "hull": "Commander's Medium Row Boat"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Beech",
+        "hull": "Commander's Medium Row Boat"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Beech",
+        "hull": "Commander's Medium Row Boat"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Beech",
+        "hull": "Commander's Medium Row Boat"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Beech",
+        "hull": "Commander's Medium Row Boat"
+      }
+    ]
+  },
+  "50000019": {
+    "id": "50000019",
+    "name": "Vaisseau",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "For Spanish military use",
+        "hull": "Official Large 3-decked Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "For Portuguese military use",
+        "hull": "Official Large 3-decked Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "For Venetian military use",
+        "hull": "Official Large 3-decked Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "For French military use",
+        "hull": "Official Large 3-decked Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "For Dutch military use",
+        "hull": "Official Large 3-decked Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "For English military use",
+        "hull": "Official Large 3-decked Hull"
+      }
+    ]
+  },
+  "50000020": {
+    "id": "50000020",
+    "name": "Commander's Corvette",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Commander's Medium 2-decked Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Commander's Medium 2-decked Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Commander's Medium 2-decked Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Commander's Medium 2-decked Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Commander's Medium 2-decked Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Commander's Medium 2-decked Hull"
+      }
+    ]
+  },
+  "50000021": {
+    "id": "50000021",
+    "name": "Commander's Heavy Caravel",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Elm",
+        "hull": "Commander's Medium Flush Deck Style Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Elm",
+        "hull": "Commander's Medium Flush Deck Style Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Elm",
+        "hull": "Commander's Medium Flush Deck Style Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Elm",
+        "hull": "Commander's Medium Flush Deck Style Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Elm",
+        "hull": "Commander's Medium Flush Deck Style Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Elm",
+        "hull": "Commander's Medium Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000022": {
+    "id": "50000022",
+    "name": "Commander's Sambuk",
+    "shipbuilding": [
+      {
+        "city": "Istanbul",
+        "city_slug": "istanbul",
+        "skill_rank": 1,
+        "material": "Mahogany",
+        "hull": "Commander's Medium Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000024": {
+    "id": "50000024",
+    "name": "Large Clipper",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Calicut",
+        "city_slug": "calicut",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000028": {
+    "id": "50000028",
+    "name": "Light Galley",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Row Boat"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Row Boat"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Row Boat"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Row Boat"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Row Boat"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Row Boat"
+      }
+    ]
+  },
+  "50000029": {
+    "id": "50000029",
+    "name": "Galley",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Row Boat"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Row Boat"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Row Boat"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Row Boat"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Row Boat"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Row Boat"
+      }
+    ]
+  },
+  "50000030": {
+    "id": "50000030",
+    "name": "Large Galley",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Row Boat"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Row Boat"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Row Boat"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Row Boat"
+      }
+    ]
+  },
+  "50000031": {
+    "id": "50000031",
+    "name": "Galleass",
+    "shipbuilding": [
+      {
+        "city": "Istanbul",
+        "city_slug": "istanbul",
+        "skill_rank": 1,
+        "material": "For Ottoman military use",
+        "hull": "Official Large 2-decked Row Boat"
+      }
+    ]
+  },
+  "50000032": {
+    "id": "50000032",
+    "name": "Trading Caravel",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      }
+    ]
+  },
+  "50000033": {
+    "id": "50000033",
+    "name": "Battle Caravel",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      }
+    ]
+  },
+  "50000034": {
+    "id": "50000034",
+    "name": "Heavy Caravel",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      }
+    ]
+  },
+  "50000035": {
+    "id": "50000035",
+    "name": "Trading Carrack",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      }
+    ]
+  },
+  "50000036": {
+    "id": "50000036",
+    "name": "Battle Carrack",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      }
+    ]
+  },
+  "50000037": {
+    "id": "50000037",
+    "name": "Big Trading Carrack",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Hull"
+      }
+    ]
+  },
+  "50000039": {
+    "id": "50000039",
+    "name": "Small Galleon",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      }
+    ]
+  },
+  "50000040": {
+    "id": "50000040",
+    "name": "Trading Galleon",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Hull"
+      },
+      {
+        "city": "Ceuta",
+        "city_slug": "ceuta",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Hull"
+      }
+    ]
+  },
+  "50000041": {
+    "id": "50000041",
+    "name": "Battle Galleon",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Hull"
+      }
+    ]
+  },
+  "50000042": {
+    "id": "50000042",
+    "name": "Heavy Galley",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Row Boat"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Row Boat"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Row Boat"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Row Boat"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Row Boat"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Row Boat"
+      }
+    ]
+  },
+  "50000044": {
+    "id": "50000044",
+    "name": "Big Trading Clipper",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Red Pine",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Red Pine",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Red Pine",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Red Pine",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Red Pine",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Red Pine",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Calicut",
+        "city_slug": "calicut",
+        "skill_rank": 1,
+        "material": "Red Pine",
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000045": {
+    "id": "50000045",
+    "name": "Trading Barca",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      }
+    ]
+  },
+  "50000047": {
+    "id": "50000047",
+    "name": "Battle Barca",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      }
+    ]
+  },
+  "50000048": {
+    "id": "50000048",
+    "name": "Explorer Barca",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      }
+    ]
+  },
+  "50000050": {
+    "id": "50000050",
+    "name": "Light Caravel",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      }
+    ]
+  },
+  "50000051": {
+    "id": "50000051",
+    "name": "Galliot",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Row Boat"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Row Boat"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Row Boat"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Row Boat"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Row Boat"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Row Boat"
+      }
+    ]
+  },
+  "50000052": {
+    "id": "50000052",
+    "name": "Transport Galley",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Row Boat"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Row Boat"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Row Boat"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Row Boat"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Row Boat"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Row Boat"
+      }
+    ]
+  },
+  "50000059": {
+    "id": "50000059",
+    "name": "Transport Carrack",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      }
+    ]
+  },
+  "50000060": {
+    "id": "50000060",
+    "name": "Light Carrack",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Small Hull"
+      }
+    ]
+  },
+  "50000061": {
+    "id": "50000061",
+    "name": "Trading Galley",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Row Boat"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Row Boat"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Row Boat"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Row Boat"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Row Boat"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Row Boat"
+      }
+    ]
+  },
+  "50000062": {
+    "id": "50000062",
+    "name": "Battle Galley",
+    "shipbuilding": [
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Row Boat"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Row Boat"
+      }
+    ]
+  },
+  "50000063": {
+    "id": "50000063",
+    "name": "Transport Galleon",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      }
+    ]
+  },
+  "50000067": {
+    "id": "50000067",
+    "name": "Transport Large Galley",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Row Boat"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Large Row Boat"
+      }
+    ]
+  },
+  "50000080": {
+    "id": "50000080",
+    "name": "Venetian Galleass",
+    "shipbuilding": [
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "For Venetian military use",
+        "hull": "Official Large 3-decked Row Boat"
+      }
+    ]
+  },
+  "50000083": {
+    "id": "50000083",
+    "name": "Heavy Trading Caravel",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "General Medium Hull"
+      }
+    ]
+  },
+  "50000100": {
+    "id": "50000100",
+    "name": "Sloop",
+    "shipbuilding": [
+      {
+        "city": "Athens",
+        "city_slug": "athens",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Mahogany",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Mahogany",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Mahogany",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Mahogany",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Mahogany",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Mahogany",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Athens",
+        "city_slug": "athens",
+        "skill_rank": 1,
+        "material": "Teak",
+        "hull": "Small Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000101": {
+    "id": "50000101",
+    "name": "Naval Sloop",
+    "shipbuilding": [
+      {
+        "city": "Salonica",
+        "city_slug": "salonica",
+        "skill_rank": 1,
+        "material": "Mahogany",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Famagusta",
+        "city_slug": "famagusta",
+        "skill_rank": 1,
+        "material": "Mahogany",
+        "hull": "Small Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000102": {
+    "id": "50000102",
+    "name": "Ketch",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Oak",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Oak",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Oak",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Oak",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Oak",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Oak",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Bremen",
+        "city_slug": "bremen",
+        "skill_rank": 1,
+        "material": "Rosewood",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Antwerp",
+        "city_slug": "antwerp",
+        "skill_rank": 1,
+        "material": "Rosewood",
+        "hull": "Small Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000103": {
+    "id": "50000103",
+    "name": "Felucca",
+    "shipbuilding": [
+      {
+        "city": "Tunis",
+        "city_slug": "tunis",
+        "skill_rank": 1,
+        "material": "Mahogany",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Ragusa",
+        "city_slug": "ragusa",
+        "skill_rank": 1,
+        "material": "Mahogany",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Tripoli",
+        "city_slug": "tripoli",
+        "skill_rank": 1,
+        "material": "Mahogany",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Tunis",
+        "city_slug": "tunis",
+        "skill_rank": 1,
+        "material": "Rosewood",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Ragusa",
+        "city_slug": "ragusa",
+        "skill_rank": 1,
+        "material": "Rosewood",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Tripoli",
+        "city_slug": "tripoli",
+        "skill_rank": 1,
+        "material": "Rosewood",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Tunis",
+        "city_slug": "tunis",
+        "skill_rank": 1,
+        "material": "Mahogany",
+        "hull": "Small Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000104": {
+    "id": "50000104",
+    "name": "Assault Felucca",
+    "shipbuilding": [
+      {
+        "city": "Tripoli",
+        "city_slug": "tripoli",
+        "skill_rank": 1,
+        "material": "Mahogany",
+        "hull": "Small Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000105": {
+    "id": "50000105",
+    "name": "Bomb Ketch",
+    "shipbuilding": [
+      {
+        "city": "Bergen",
+        "city_slug": "bergen",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Small Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000106": {
+    "id": "50000106",
+    "name": "Bombarda",
+    "shipbuilding": [
+      {
+        "city": "Ragusa",
+        "city_slug": "ragusa",
+        "skill_rank": 1,
+        "material": "Copper-coated",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Porto",
+        "city_slug": "porto",
+        "skill_rank": 1,
+        "material": "Copper-coated",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Barcelona",
+        "city_slug": "barcelona",
+        "skill_rank": 1,
+        "material": "Copper-coated",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Bordeaux",
+        "city_slug": "bordeaux",
+        "skill_rank": 1,
+        "material": "Copper-coated",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Ceuta",
+        "city_slug": "ceuta",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Valencia",
+        "city_slug": "valencia",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Small Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000107": {
+    "id": "50000107",
+    "name": "Gunboat",
+    "shipbuilding": [
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Plymouth",
+        "city_slug": "plymouth",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Small Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000108": {
+    "id": "50000108",
+    "name": "Schooner",
+    "shipbuilding": [
+      {
+        "city": "Trujillo",
+        "city_slug": "trujillo",
+        "skill_rank": 1,
+        "material": "Mahogany",
+        "hull": "Medium Flush Deck Style Hull"
+      },
+      {
+        "city": "Pernambuco",
+        "city_slug": "pernambuco",
+        "skill_rank": 1,
+        "material": "Mahogany",
+        "hull": "Medium Flush Deck Style Hull"
+      },
+      {
+        "city": "Caracas",
+        "city_slug": "caracas",
+        "skill_rank": 1,
+        "material": "Mahogany",
+        "hull": "Medium Flush Deck Style Hull"
+      },
+      {
+        "city": "Cayenne",
+        "city_slug": "cayenne",
+        "skill_rank": 1,
+        "material": "Mahogany",
+        "hull": "Medium Flush Deck Style Hull"
+      },
+      {
+        "city": "Willemstad",
+        "city_slug": "willemstad",
+        "skill_rank": 1,
+        "material": "Mahogany",
+        "hull": "Medium Flush Deck Style Hull"
+      },
+      {
+        "city": "Grand Cayman",
+        "city_slug": "grand-cayman",
+        "skill_rank": 1,
+        "material": "Mahogany",
+        "hull": "Medium Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000109": {
+    "id": "50000109",
+    "name": "Trading Schooner",
+    "shipbuilding": [
+      {
+        "city": "Trujillo",
+        "city_slug": "trujillo",
+        "skill_rank": 1,
+        "material": "Oak",
+        "hull": "Medium Flush Deck Style Hull"
+      },
+      {
+        "city": "Pernambuco",
+        "city_slug": "pernambuco",
+        "skill_rank": 1,
+        "material": "Oak",
+        "hull": "Medium Flush Deck Style Hull"
+      },
+      {
+        "city": "Caracas",
+        "city_slug": "caracas",
+        "skill_rank": 1,
+        "material": "Oak",
+        "hull": "Medium Flush Deck Style Hull"
+      },
+      {
+        "city": "Cayenne",
+        "city_slug": "cayenne",
+        "skill_rank": 1,
+        "material": "Oak",
+        "hull": "Medium Flush Deck Style Hull"
+      },
+      {
+        "city": "Willemstad",
+        "city_slug": "willemstad",
+        "skill_rank": 1,
+        "material": "Oak",
+        "hull": "Medium Flush Deck Style Hull"
+      },
+      {
+        "city": "Grand Cayman",
+        "city_slug": "grand-cayman",
+        "skill_rank": 1,
+        "material": "Oak",
+        "hull": "Medium Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000110": {
+    "id": "50000110",
+    "name": "Corvette",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Copper-coated",
+        "hull": "Medium 2-decked Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Copper-coated",
+        "hull": "Medium 2-decked Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Copper-coated",
+        "hull": "Medium 2-decked Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Copper-coated",
+        "hull": "Medium 2-decked Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Copper-coated",
+        "hull": "Medium 2-decked Hull"
+      },
+      {
+        "city": "Bergen",
+        "city_slug": "bergen",
+        "skill_rank": 1,
+        "material": "Rosewood",
+        "hull": "Medium 2-decked Hull"
+      }
+    ]
+  },
+  "50000111": {
+    "id": "50000111",
+    "name": "Escort Corvette",
+    "shipbuilding": [
+      {
+        "city": "Copenhagen",
+        "city_slug": "copenhagen",
+        "skill_rank": 1,
+        "material": "Copper-coated",
+        "hull": "Medium 2-decked Hull"
+      }
+    ]
+  },
+  "50000112": {
+    "id": "50000112",
+    "name": "Light Clipper",
+    "shipbuilding": [
+      {
+        "city": "Calicut",
+        "city_slug": "calicut",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Medium Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000113": {
+    "id": "50000113",
+    "name": "Boot Ship",
+    "shipbuilding": [
+      {
+        "city": "Hamburg",
+        "city_slug": "hamburg",
+        "skill_rank": 1,
+        "material": "Rosewood",
+        "hull": "Medium 2-decked Hull"
+      },
+      {
+        "city": "Groningen",
+        "city_slug": "groningen",
+        "skill_rank": 1,
+        "material": "Mahogany",
+        "hull": "Medium 2-decked Hull"
+      }
+    ]
+  },
+  "50000114": {
+    "id": "50000114",
+    "name": "Polacca",
+    "shipbuilding": [
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Mahogany",
+        "hull": "Medium 2-decked Hull"
+      },
+      {
+        "city": "Genoa",
+        "city_slug": "genoa",
+        "skill_rank": 1,
+        "material": "Copper-coated",
+        "hull": "Medium 2-decked Hull"
+      }
+    ]
+  },
+  "50000115": {
+    "id": "50000115",
+    "name": "Large Frigate",
+    "shipbuilding": [
+      {
+        "city": "Pisa",
+        "city_slug": "pisa",
+        "skill_rank": 1,
+        "material": "Copper-coated",
+        "hull": "Medium 3-decked Hull"
+      }
+    ]
+  },
+  "50000116": {
+    "id": "50000116",
+    "name": "Heavy Frigate",
+    "shipbuilding": [
+      {
+        "city": "Naples",
+        "city_slug": "naples",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Medium 3-decked Hull"
+      }
+    ]
+  },
+  "50000117": {
+    "id": "50000117",
+    "name": "Large Schooner",
+    "shipbuilding": [
+      {
+        "city": "Habana",
+        "city_slug": "habana",
+        "skill_rank": 1,
+        "material": "Mahogany",
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000119": {
+    "id": "50000119",
+    "name": "Big Trading Schooner",
+    "shipbuilding": [
+      {
+        "city": "Habana",
+        "city_slug": "habana",
+        "skill_rank": 1,
+        "material": "Mahogany",
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000120": {
+    "id": "50000120",
+    "name": "Iberian Galleon",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Oak",
+        "hull": "Large 2-decked Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Oak",
+        "hull": "Large 2-decked Hull"
+      }
+    ]
+  },
+  "50000121": {
+    "id": "50000121",
+    "name": "Spanish Galleon",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Copper-coated",
+        "hull": "Large 2-decked Hull"
+      },
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "For Spanish military use",
+        "hull": "Official Large 2-decked Hull"
+      }
+    ]
+  },
+  "50000122": {
+    "id": "50000122",
+    "name": "Tri-Deck Galleon",
+    "shipbuilding": [
+      {
+        "city": "Manila",
+        "city_slug": "manila",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 3-decked Hull"
+      }
+    ]
+  },
+  "50000123": {
+    "id": "50000123",
+    "name": "Iberian Xebec",
+    "shipbuilding": [
+      {
+        "city": "Valencia",
+        "city_slug": "valencia",
+        "skill_rank": 1,
+        "material": "Mahogany",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Ceuta",
+        "city_slug": "ceuta",
+        "skill_rank": 1,
+        "material": "Mahogany",
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000124": {
+    "id": "50000124",
+    "name": "Xebec Tug",
+    "shipbuilding": [
+      {
+        "city": "Aden",
+        "city_slug": "aden",
+        "skill_rank": 1,
+        "material": "Mahogany",
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000125": {
+    "id": "50000125",
+    "name": "Quebec",
+    "shipbuilding": [
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Oak",
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000126": {
+    "id": "50000126",
+    "name": "Transport Quebec",
+    "shipbuilding": [
+      {
+        "city": "Nantes",
+        "city_slug": "nantes",
+        "skill_rank": 1,
+        "material": "Mahogany",
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000128": {
+    "id": "50000128",
+    "name": "Polacca-Xebec",
+    "shipbuilding": [
+      {
+        "city": "Syracuse",
+        "city_slug": "syracuse",
+        "skill_rank": 1,
+        "material": "Mahogany",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Candia",
+        "city_slug": "candia",
+        "skill_rank": 1,
+        "material": "Mahogany",
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000129": {
+    "id": "50000129",
+    "name": "Special Transport Xebec",
+    "shipbuilding": [
+      {
+        "city": "Muscat",
+        "city_slug": "muscat",
+        "skill_rank": 1,
+        "material": "Mahogany",
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000130": {
+    "id": "50000130",
+    "name": "Scandinavian Heavy Galley",
+    "shipbuilding": [
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Copper-coated",
+        "hull": "Large 3-decked Row Boat"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Copper-coated",
+        "hull": "Large 3-decked Row Boat"
+      },
+      {
+        "city": "Stockholm",
+        "city_slug": "stockholm",
+        "skill_rank": 1,
+        "material": "Copper-coated",
+        "hull": "Large 3-decked Row Boat"
+      }
+    ]
+  },
+  "50000131": {
+    "id": "50000131",
+    "name": "Baltic Galley",
+    "shipbuilding": [
+      {
+        "city": "Danzig",
+        "city_slug": "danzig",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 3-decked Row Boat"
+      }
+    ]
+  },
+  "50000132": {
+    "id": "50000132",
+    "name": "Baltic Galleon",
+    "shipbuilding": [
+      {
+        "city": "Stockholm",
+        "city_slug": "stockholm",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 2-decked Hull"
+      }
+    ]
+  },
+  "50000134": {
+    "id": "50000134",
+    "name": "La Royale",
+    "shipbuilding": [
+      {
+        "city": "Genoa",
+        "city_slug": "genoa",
+        "skill_rank": 1,
+        "material": "Copper-coated",
+        "hull": "Large 2-decked Row Boat"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Copper-coated",
+        "hull": "Large 2-decked Row Boat"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "For French military use",
+        "hull": "Official Large 2-decked Row Boat"
+      }
+    ]
+  },
+  "50000135": {
+    "id": "50000135",
+    "name": "Heavy Galleass",
+    "shipbuilding": [
+      {
+        "city": "Tunis",
+        "city_slug": "tunis",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 2-decked Row Boat"
+      }
+    ]
+  },
+  "50000136": {
+    "id": "50000136",
+    "name": "Armoured Vaisseau",
+    "shipbuilding": [
+      {
+        "city": "Plymouth",
+        "city_slug": "plymouth",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 3-decked Hull"
+      },
+      {
+        "city": "Groningen",
+        "city_slug": "groningen",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 3-decked Hull"
+      },
+      {
+        "city": "Bordeaux",
+        "city_slug": "bordeaux",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 3-decked Hull"
+      },
+      {
+        "city": "Ceuta",
+        "city_slug": "ceuta",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 3-decked Hull"
+      },
+      {
+        "city": "Valencia",
+        "city_slug": "valencia",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 3-decked Hull"
+      },
+      {
+        "city": "Ragusa",
+        "city_slug": "ragusa",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 3-decked Hull"
+      },
+      {
+        "city": "Trujillo",
+        "city_slug": "trujillo",
+        "skill_rank": 1,
+        "material": "For Spanish military use",
+        "hull": "Official Large 3-decked Hull"
+      },
+      {
+        "city": "Pernambuco",
+        "city_slug": "pernambuco",
+        "skill_rank": 1,
+        "material": "For Portuguese military use",
+        "hull": "Official Large 3-decked Hull"
+      },
+      {
+        "city": "Caracas",
+        "city_slug": "caracas",
+        "skill_rank": 1,
+        "material": "For Venetian military use",
+        "hull": "Official Large 3-decked Hull"
+      },
+      {
+        "city": "Cayenne",
+        "city_slug": "cayenne",
+        "skill_rank": 1,
+        "material": "For French military use",
+        "hull": "Official Large 3-decked Hull"
+      },
+      {
+        "city": "Willemstad",
+        "city_slug": "willemstad",
+        "skill_rank": 1,
+        "material": "For Dutch military use",
+        "hull": "Official Large 3-decked Hull"
+      },
+      {
+        "city": "Grand Cayman",
+        "city_slug": "grand-cayman",
+        "skill_rank": 1,
+        "material": "For English military use",
+        "hull": "Official Large 3-decked Hull"
+      }
+    ]
+  },
+  "50000137": {
+    "id": "50000137",
+    "name": "Transport Sloop",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Small Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000138": {
+    "id": "50000138",
+    "name": "Rearguard Sloop",
+    "shipbuilding": [
+      {
+        "city": "Athens",
+        "city_slug": "athens",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Small Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000139": {
+    "id": "50000139",
+    "name": "Swift Ketch",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Small Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000140": {
+    "id": "50000140",
+    "name": "Rearguard Felucca",
+    "shipbuilding": [
+      {
+        "city": "Tunis",
+        "city_slug": "tunis",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Ragusa",
+        "city_slug": "ragusa",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Small Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000141": {
+    "id": "50000141",
+    "name": "Transport Felucca",
+    "shipbuilding": [
+      {
+        "city": "Tripoli",
+        "city_slug": "tripoli",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Small Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000142": {
+    "id": "50000142",
+    "name": "Agile Gunboat",
+    "shipbuilding": [
+      {
+        "city": "Plymouth",
+        "city_slug": "plymouth",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Small Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000143": {
+    "id": "50000143",
+    "name": "Agile Schooner",
+    "shipbuilding": [
+      {
+        "city": "Trujillo",
+        "city_slug": "trujillo",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Medium Flush Deck Style Hull"
+      },
+      {
+        "city": "Pernambuco",
+        "city_slug": "pernambuco",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Medium Flush Deck Style Hull"
+      },
+      {
+        "city": "Caracas",
+        "city_slug": "caracas",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Medium Flush Deck Style Hull"
+      },
+      {
+        "city": "Cayenne",
+        "city_slug": "cayenne",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Medium Flush Deck Style Hull"
+      },
+      {
+        "city": "Willemstad",
+        "city_slug": "willemstad",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Medium Flush Deck Style Hull"
+      },
+      {
+        "city": "Grand Cayman",
+        "city_slug": "grand-cayman",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Medium Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000144": {
+    "id": "50000144",
+    "name": "Armed Schooner",
+    "shipbuilding": [
+      {
+        "city": "Trujillo",
+        "city_slug": "trujillo",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Medium Flush Deck Style Hull"
+      },
+      {
+        "city": "Pernambuco",
+        "city_slug": "pernambuco",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Medium Flush Deck Style Hull"
+      },
+      {
+        "city": "Caracas",
+        "city_slug": "caracas",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Medium Flush Deck Style Hull"
+      },
+      {
+        "city": "Cayenne",
+        "city_slug": "cayenne",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Medium Flush Deck Style Hull"
+      },
+      {
+        "city": "Willemstad",
+        "city_slug": "willemstad",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Medium Flush Deck Style Hull"
+      },
+      {
+        "city": "Grand Cayman",
+        "city_slug": "grand-cayman",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Medium Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000145": {
+    "id": "50000145",
+    "name": "Tactical Corvette",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Medium 2-decked Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Medium 2-decked Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Medium 2-decked Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Medium 2-decked Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Medium 2-decked Hull"
+      }
+    ]
+  },
+  "50000146": {
+    "id": "50000146",
+    "name": "Cruise Light Clipper",
+    "shipbuilding": [
+      {
+        "city": "Calicut",
+        "city_slug": "calicut",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Medium Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000147": {
+    "id": "50000147",
+    "name": "Survey Boot Ship",
+    "shipbuilding": [
+      {
+        "city": "Groningen",
+        "city_slug": "groningen",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Medium 2-decked Hull"
+      }
+    ]
+  },
+  "50000148": {
+    "id": "50000148",
+    "name": "Armed Large Schooner",
+    "shipbuilding": [
+      {
+        "city": "Habana",
+        "city_slug": "habana",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000149": {
+    "id": "50000149",
+    "name": "Survey Large Schooner",
+    "shipbuilding": [
+      {
+        "city": "Habana",
+        "city_slug": "habana",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000150": {
+    "id": "50000150",
+    "name": "Bombardment Special Galleon",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Large 2-decked Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Large 2-decked Hull"
+      }
+    ]
+  },
+  "50000152": {
+    "id": "50000152",
+    "name": "Tactical Quebec",
+    "shipbuilding": [
+      {
+        "city": "Nantes",
+        "city_slug": "nantes",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Nantes",
+        "city_slug": "nantes",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000153": {
+    "id": "50000153",
+    "name": "Cruise Quebec",
+    "shipbuilding": [
+      {
+        "city": "Trujillo",
+        "city_slug": "trujillo",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Pernambuco",
+        "city_slug": "pernambuco",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Caracas",
+        "city_slug": "caracas",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Cayenne",
+        "city_slug": "cayenne",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Willemstad",
+        "city_slug": "willemstad",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Grand Cayman",
+        "city_slug": "grand-cayman",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000154": {
+    "id": "50000154",
+    "name": "Agile Xebec",
+    "shipbuilding": [
+      {
+        "city": "Syracuse",
+        "city_slug": "syracuse",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Candia",
+        "city_slug": "candia",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000155": {
+    "id": "50000155",
+    "name": "Tactical Polacca",
+    "shipbuilding": [
+      {
+        "city": "Genoa",
+        "city_slug": "genoa",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Medium 2-decked Hull"
+      }
+    ]
+  },
+  "50000156": {
+    "id": "50000156",
+    "name": "Cruise Sloop",
+    "shipbuilding": [
+      {
+        "city": "Athens",
+        "city_slug": "athens",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Small Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000157": {
+    "id": "50000157",
+    "name": "Special Corvette",
+    "shipbuilding": [
+      {
+        "city": "Bergen",
+        "city_slug": "bergen",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Medium 2-decked Hull"
+      }
+    ]
+  },
+  "50000158": {
+    "id": "50000158",
+    "name": "Agile Bomb Ketch",
+    "shipbuilding": [
+      {
+        "city": "Ternate",
+        "city_slug": "ternate",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Small Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000159": {
+    "id": "50000159",
+    "name": "Rearguard Bombarda",
+    "shipbuilding": [
+      {
+        "city": "Ambon",
+        "city_slug": "ambon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Small Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000160": {
+    "id": "50000160",
+    "name": "Tactical Heavy Galley",
+    "shipbuilding": [
+      {
+        "city": "Ambon",
+        "city_slug": "ambon",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Large Row Boat"
+      }
+    ]
+  },
+  "50000161": {
+    "id": "50000161",
+    "name": "Survey Large Galley",
+    "shipbuilding": [
+      {
+        "city": "Ternate",
+        "city_slug": "ternate",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Large Row Boat"
+      }
+    ]
+  },
+  "50000162": {
+    "id": "50000162",
+    "name": "Transport Swift Schooner",
+    "shipbuilding": [
+      {
+        "city": "Habana",
+        "city_slug": "habana",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000163": {
+    "id": "50000163",
+    "name": "Cruise Refitted Xebec",
+    "shipbuilding": [
+      {
+        "city": "Valencia",
+        "city_slug": "valencia",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Ceuta",
+        "city_slug": "ceuta",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000164": {
+    "id": "50000164",
+    "name": "Agile Battle Galley",
+    "shipbuilding": [
+      {
+        "city": "Odessa",
+        "city_slug": "odessa",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Medium Row Boat"
+      },
+      {
+        "city": "Naples",
+        "city_slug": "naples",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Medium Row Boat"
+      }
+    ]
+  },
+  "50000165": {
+    "id": "50000165",
+    "name": "Agile Sambuk",
+    "shipbuilding": [
+      {
+        "city": "Jakarta",
+        "city_slug": "jakarta",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Medium Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000166": {
+    "id": "50000166",
+    "name": "Survey Trading Sambuk",
+    "shipbuilding": [
+      {
+        "city": "Jakarta",
+        "city_slug": "jakarta",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Medium Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000167": {
+    "id": "50000167",
+    "name": "Tactical Armed Sambuk",
+    "shipbuilding": [
+      {
+        "city": "Jakarta",
+        "city_slug": "jakarta",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Medium Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000168": {
+    "id": "50000168",
+    "name": "Super Frigate",
+    "shipbuilding": [
+      {
+        "city": "Trujillo",
+        "city_slug": "trujillo",
+        "skill_rank": 1,
+        "material": "Copper-coated",
+        "hull": "Large 2-decked Hull"
+      },
+      {
+        "city": "Pernambuco",
+        "city_slug": "pernambuco",
+        "skill_rank": 1,
+        "material": "Copper-coated",
+        "hull": "Large 2-decked Hull"
+      },
+      {
+        "city": "Caracas",
+        "city_slug": "caracas",
+        "skill_rank": 1,
+        "material": "Copper-coated",
+        "hull": "Large 2-decked Hull"
+      },
+      {
+        "city": "Cayenne",
+        "city_slug": "cayenne",
+        "skill_rank": 1,
+        "material": "Copper-coated",
+        "hull": "Large 2-decked Hull"
+      },
+      {
+        "city": "Willemstad",
+        "city_slug": "willemstad",
+        "skill_rank": 1,
+        "material": "Copper-coated",
+        "hull": "Large 2-decked Hull"
+      },
+      {
+        "city": "Grand Cayman",
+        "city_slug": "grand-cayman",
+        "skill_rank": 1,
+        "material": "Copper-coated",
+        "hull": "Large 2-decked Hull"
+      },
+      {
+        "city": "Trujillo",
+        "city_slug": "trujillo",
+        "skill_rank": 1,
+        "material": "For Spanish military use",
+        "hull": "Official Large 2-decked Hull"
+      },
+      {
+        "city": "Pernambuco",
+        "city_slug": "pernambuco",
+        "skill_rank": 1,
+        "material": "For Portuguese military use",
+        "hull": "Official Large 2-decked Hull"
+      },
+      {
+        "city": "Caracas",
+        "city_slug": "caracas",
+        "skill_rank": 1,
+        "material": "For Venetian military use",
+        "hull": "Official Large 2-decked Hull"
+      },
+      {
+        "city": "Cayenne",
+        "city_slug": "cayenne",
+        "skill_rank": 1,
+        "material": "For French military use",
+        "hull": "Official Large 2-decked Hull"
+      },
+      {
+        "city": "Willemstad",
+        "city_slug": "willemstad",
+        "skill_rank": 1,
+        "material": "For Dutch military use",
+        "hull": "Official Large 2-decked Hull"
+      },
+      {
+        "city": "Grand Cayman",
+        "city_slug": "grand-cayman",
+        "skill_rank": 1,
+        "material": "For English military use",
+        "hull": "Official Large 2-decked Hull"
+      }
+    ]
+  },
+  "50000169": {
+    "id": "50000169",
+    "name": "Royal Frigate",
+    "shipbuilding": [
+      {
+        "city": "Trujillo",
+        "city_slug": "trujillo",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 2-decked Hull"
+      },
+      {
+        "city": "Pernambuco",
+        "city_slug": "pernambuco",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 2-decked Hull"
+      },
+      {
+        "city": "Caracas",
+        "city_slug": "caracas",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 2-decked Hull"
+      },
+      {
+        "city": "Cayenne",
+        "city_slug": "cayenne",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 2-decked Hull"
+      },
+      {
+        "city": "Willemstad",
+        "city_slug": "willemstad",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 2-decked Hull"
+      },
+      {
+        "city": "Grand Cayman",
+        "city_slug": "grand-cayman",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 2-decked Hull"
+      },
+      {
+        "city": "Trujillo",
+        "city_slug": "trujillo",
+        "skill_rank": 1,
+        "material": "For Spanish military use",
+        "hull": "Official Large 2-decked Hull"
+      },
+      {
+        "city": "Pernambuco",
+        "city_slug": "pernambuco",
+        "skill_rank": 1,
+        "material": "For Portuguese military use",
+        "hull": "Official Large 2-decked Hull"
+      },
+      {
+        "city": "Caracas",
+        "city_slug": "caracas",
+        "skill_rank": 1,
+        "material": "For Venetian military use",
+        "hull": "Official Large 2-decked Hull"
+      },
+      {
+        "city": "Cayenne",
+        "city_slug": "cayenne",
+        "skill_rank": 1,
+        "material": "For French military use",
+        "hull": "Official Large 2-decked Hull"
+      },
+      {
+        "city": "Willemstad",
+        "city_slug": "willemstad",
+        "skill_rank": 1,
+        "material": "For Dutch military use",
+        "hull": "Official Large 2-decked Hull"
+      },
+      {
+        "city": "Grand Cayman",
+        "city_slug": "grand-cayman",
+        "skill_rank": 1,
+        "material": "For English military use",
+        "hull": "Official Large 2-decked Hull"
+      }
+    ]
+  },
+  "50000170": {
+    "id": "50000170",
+    "name": "Turkish Galley",
+    "shipbuilding": [
+      {
+        "city": "Istanbul",
+        "city_slug": "istanbul",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large Row Boat"
+      },
+      {
+        "city": "Alexandria",
+        "city_slug": "alexandria",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large Row Boat"
+      },
+      {
+        "city": "Algiers",
+        "city_slug": "algiers",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large Row Boat"
+      },
+      {
+        "city": "Istanbul",
+        "city_slug": "istanbul",
+        "skill_rank": 1,
+        "material": "For Ottoman military use",
+        "hull": "Official Large Row Boat"
+      }
+    ]
+  },
+  "50000184": {
+    "id": "50000184",
+    "name": "Deep-sea Ottoman Galley",
+    "shipbuilding": [
+      {
+        "city": "Istanbul",
+        "city_slug": "istanbul",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large Row Boat"
+      },
+      {
+        "city": "Alexandria",
+        "city_slug": "alexandria",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large Row Boat"
+      },
+      {
+        "city": "Algiers",
+        "city_slug": "algiers",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large Row Boat"
+      },
+      {
+        "city": "Istanbul",
+        "city_slug": "istanbul",
+        "skill_rank": 1,
+        "material": "For Ottoman military use",
+        "hull": "Official Large Row Boat"
+      }
+    ]
+  },
+  "50000185": {
+    "id": "50000185",
+    "name": "Deep-sea Ottoman Galley",
+    "shipbuilding": [
+      {
+        "city": "Istanbul",
+        "city_slug": "istanbul",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large Row Boat"
+      },
+      {
+        "city": "Alexandria",
+        "city_slug": "alexandria",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large Row Boat"
+      },
+      {
+        "city": "Algiers",
+        "city_slug": "algiers",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large Row Boat"
+      },
+      {
+        "city": "Istanbul",
+        "city_slug": "istanbul",
+        "skill_rank": 1,
+        "material": "For Ottoman military use",
+        "hull": "Official Large Row Boat"
+      }
+    ]
+  },
+  "50000187": {
+    "id": "50000187",
+    "name": "Wide Ship",
+    "shipbuilding": [
+      {
+        "city": "Anping",
+        "city_slug": "anping",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "E. Asian Heavy Hull"
+      }
+    ]
+  },
+  "50000188": {
+    "id": "50000188",
+    "name": "Turtle Ship",
+    "shipbuilding": [
+      {
+        "city": "Busan",
+        "city_slug": "busan",
+        "skill_rank": 1,
+        "material": "Oak",
+        "hull": "E. Asian Large Row Boat"
+      }
+    ]
+  },
+  "50000189": {
+    "id": "50000189",
+    "name": "Atakebune",
+    "shipbuilding": [
+      {
+        "city": "Sakai",
+        "city_slug": "sakai",
+        "skill_rank": 1,
+        "material": "Oak",
+        "hull": "E. Asian Large Row Boat"
+      }
+    ]
+  },
+  "50000191": {
+    "id": "50000191",
+    "name": "Higaki-Kaisen",
+    "shipbuilding": [
+      {
+        "city": "Sakai",
+        "city_slug": "sakai",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "E. Asian Heavy Hull"
+      }
+    ]
+  },
+  "50000192": {
+    "id": "50000192",
+    "name": "First Class Vaisseau",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 3-decked Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 3-decked Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 3-decked Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 3-decked Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 3-decked Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 3-decked Hull"
+      },
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "For Spanish military use",
+        "hull": "Official Large 3-decked Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "For Portuguese military use",
+        "hull": "Official Large 3-decked Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "For Venetian military use",
+        "hull": "Official Large 3-decked Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "For French military use",
+        "hull": "Official Large 3-decked Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "For Dutch military use",
+        "hull": "Official Large 3-decked Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "For English military use",
+        "hull": "Official Large 3-decked Hull"
+      }
+    ]
+  },
+  "50000193": {
+    "id": "50000193",
+    "name": "Tea Clipper",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Red Pine",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Red Pine",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Red Pine",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Red Pine",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Red Pine",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Red Pine",
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000194": {
+    "id": "50000194",
+    "name": "Sagyeonseon",
+    "shipbuilding": [
+      {
+        "city": "Hanyang",
+        "city_slug": "hanyang",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "E. Asian Heavy Hull"
+      }
+    ]
+  },
+  "50000195": {
+    "id": "50000195",
+    "name": "Ambush Wide Ship",
+    "shipbuilding": [
+      {
+        "city": "Anping",
+        "city_slug": "anping",
+        "skill_rank": 1,
+        "material": "Oak",
+        "hull": "E. Asian Heavy Hull"
+      }
+    ]
+  },
+  "50000196": {
+    "id": "50000196",
+    "name": "Siam",
+    "shipbuilding": [
+      {
+        "city": "Jakarta",
+        "city_slug": "jakarta",
+        "skill_rank": 1,
+        "material": "Teak",
+        "hull": "Large 2-decked Hull"
+      }
+    ]
+  },
+  "50000197": {
+    "id": "50000197",
+    "name": "Transport Sha-chuan",
+    "shipbuilding": [
+      {
+        "city": "Chongqing",
+        "city_slug": "chongqing",
+        "skill_rank": 1,
+        "material": "Red Pine",
+        "hull": "E. Asian Standard Hull"
+      }
+    ]
+  },
+  "50000198": {
+    "id": "50000198",
+    "name": "Tarukaisen",
+    "shipbuilding": [
+      {
+        "city": "Nagasaki",
+        "city_slug": "nagasaki",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "E. Asian Heavy Hull"
+      }
+    ]
+  },
+  "50000199": {
+    "id": "50000199",
+    "name": "Nippon-Mae",
+    "shipbuilding": [
+      {
+        "city": "Edo",
+        "city_slug": "edo",
+        "skill_rank": 1,
+        "material": "Red Pine",
+        "hull": "E. Asian Heavy Hull"
+      }
+    ]
+  },
+  "50000200": {
+    "id": "50000200",
+    "name": "Ambush Atakebune",
+    "shipbuilding": [
+      {
+        "city": "Sakai",
+        "city_slug": "sakai",
+        "skill_rank": 1,
+        "material": "Oak",
+        "hull": "E. Asian Large Row Boat"
+      }
+    ]
+  },
+  "50000201": {
+    "id": "50000201",
+    "name": "Escort Cutter",
+    "shipbuilding": [
+      {
+        "city": "Plymouth",
+        "city_slug": "plymouth",
+        "skill_rank": 1,
+        "material": "Elm",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Groningen",
+        "city_slug": "groningen",
+        "skill_rank": 1,
+        "material": "Elm",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Bordeaux",
+        "city_slug": "bordeaux",
+        "skill_rank": 1,
+        "material": "Elm",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Porto",
+        "city_slug": "porto",
+        "skill_rank": 1,
+        "material": "Elm",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Barcelona",
+        "city_slug": "barcelona",
+        "skill_rank": 1,
+        "material": "Elm",
+        "hull": "Small Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000202": {
+    "id": "50000202",
+    "name": "Tow Cutter",
+    "shipbuilding": [
+      {
+        "city": "Plymouth",
+        "city_slug": "plymouth",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Groningen",
+        "city_slug": "groningen",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Bordeaux",
+        "city_slug": "bordeaux",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Porto",
+        "city_slug": "porto",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Small Flush Deck Style Hull"
+      },
+      {
+        "city": "Barcelona",
+        "city_slug": "barcelona",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Small Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000203": {
+    "id": "50000203",
+    "name": "Cruising Higaki-Kaisen",
+    "shipbuilding": [
+      {
+        "city": "Nagasaki",
+        "city_slug": "nagasaki",
+        "skill_rank": 1,
+        "material": "Red Pine",
+        "hull": "E. Asian Heavy Hull"
+      }
+    ]
+  },
+  "50000204": {
+    "id": "50000204",
+    "name": "Merchant Sagyeonseon",
+    "shipbuilding": [
+      {
+        "city": "Hanyang",
+        "city_slug": "hanyang",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "E. Asian Heavy Hull"
+      }
+    ]
+  },
+  "50000205": {
+    "id": "50000205",
+    "name": "Reconnaissance Sagyeonseon",
+    "shipbuilding": [
+      {
+        "city": "Hanyang",
+        "city_slug": "hanyang",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "E. Asian Heavy Hull"
+      }
+    ]
+  },
+  "50000206": {
+    "id": "50000206",
+    "name": "Survey Siam",
+    "shipbuilding": [
+      {
+        "city": "Ternate",
+        "city_slug": "ternate",
+        "skill_rank": 1,
+        "material": "Teak",
+        "hull": "Large 2-decked Hull"
+      },
+      {
+        "city": "Ambon",
+        "city_slug": "ambon",
+        "skill_rank": 1,
+        "material": "Teak",
+        "hull": "Large 2-decked Hull"
+      }
+    ]
+  },
+  "50000207": {
+    "id": "50000207",
+    "name": "Cruising Nippon-Mae",
+    "shipbuilding": [
+      {
+        "city": "Edo",
+        "city_slug": "edo",
+        "skill_rank": 1,
+        "material": "Red Pine",
+        "hull": "E. Asian Heavy Hull"
+      }
+    ]
+  },
+  "50000208": {
+    "id": "50000208",
+    "name": "Cruising Tea Clipper",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Red Pine",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Red Pine",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Red Pine",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Red Pine",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Red Pine",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Red Pine",
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000226": {
+    "id": "50000226",
+    "name": "Large Atakebune",
+    "shipbuilding": [
+      {
+        "city": "Sakai",
+        "city_slug": "sakai",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Modified E. Asian Large Row Boat"
+      }
+    ]
+  },
+  "50000228": {
+    "id": "50000228",
+    "name": "Large Fu Ship",
+    "shipbuilding": [
+      {
+        "city": "Hangzhou",
+        "city_slug": "hangzhou",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Modified E. Asian Heavy Hull"
+      }
+    ]
+  },
+  "50000229": {
+    "id": "50000229",
+    "name": "Taiwanese Ship",
+    "shipbuilding": [
+      {
+        "city": "Anping",
+        "city_slug": "anping",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Improved E. Asian Heavy Hull"
+      }
+    ]
+  },
+  "50000243": {
+    "id": "50000243",
+    "name": "Ironsides",
+    "shipbuilding": [
+      {
+        "city": "CompanyColony:3000",
+        "city_slug": "companycolony-3000",
+        "skill_rank": 1,
+        "material": "Oak",
+        "hull": "Improved Double-Shelled Heavy Hull"
+      }
+    ]
+  },
+  "50000244": {
+    "id": "50000244",
+    "name": "Large Survey Clipper",
+    "shipbuilding": [
+      {
+        "city": "CompanyColony:2600",
+        "city_slug": "companycolony-2600",
+        "skill_rank": 1,
+        "material": "Red Pine",
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000245": {
+    "id": "50000245",
+    "name": "Indiaman",
+    "shipbuilding": [
+      {
+        "city": "Calicut",
+        "city_slug": "calicut",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Improved Double-Shelled Heavy Hull"
+      }
+    ]
+  },
+  "50000246": {
+    "id": "50000246",
+    "name": "Cruise Galleon",
+    "shipbuilding": [
+      {
+        "city": "CompanyColony:2250",
+        "city_slug": "companycolony-2250",
+        "skill_rank": 1,
+        "material": "Beech",
+        "hull": "Large 2-decked Hull"
+      }
+    ]
+  },
+  "50000247": {
+    "id": "50000247",
+    "name": "Super Corvette",
+    "shipbuilding": [
+      {
+        "city": "CompanyColony:2000",
+        "city_slug": "companycolony-2000",
+        "skill_rank": 1,
+        "material": "Copper-coated",
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000248": {
+    "id": "50000248",
+    "name": "Large Transport Clipper",
+    "shipbuilding": [
+      {
+        "city": "CompanyColony:2600",
+        "city_slug": "companycolony-2600",
+        "skill_rank": 1,
+        "material": "Red Pine",
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000256": {
+    "id": "50000256",
+    "name": "Tactical Galley",
+    "shipbuilding": [
+      {
+        "city": "Alexandria",
+        "city_slug": "alexandria",
+        "skill_rank": 1,
+        "material": "Beech",
+        "hull": "Medium Row Boat"
+      }
+    ]
+  },
+  "50000257": {
+    "id": "50000257",
+    "name": "Research Galley",
+    "shipbuilding": [
+      {
+        "city": "Alexandria",
+        "city_slug": "alexandria",
+        "skill_rank": 1,
+        "material": "Beech",
+        "hull": "Medium Row Boat"
+      }
+    ]
+  },
+  "50000259": {
+    "id": "50000259",
+    "name": "Nordic Galleon",
+    "shipbuilding": [
+      {
+        "city": "Copenhagen",
+        "city_slug": "copenhagen",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 2-decked Hull"
+      }
+    ]
+  },
+  "50000260": {
+    "id": "50000260",
+    "name": "Long Schooner",
+    "shipbuilding": [
+      {
+        "city": "CompanyColony:3000",
+        "city_slug": "companycolony-3000",
+        "skill_rank": 1,
+        "material": "Teak",
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000261": {
+    "id": "50000261",
+    "name": "Long Merchant Schooner",
+    "shipbuilding": [
+      {
+        "city": "CompanyColony:3000",
+        "city_slug": "companycolony-3000",
+        "skill_rank": 1,
+        "material": "Teak",
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000282": {
+    "id": "50000282",
+    "name": "Xebec Frigate",
+    "shipbuilding": [
+      {
+        "city": "Ceuta",
+        "city_slug": "ceuta",
+        "skill_rank": 1,
+        "material": "Oak",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Valencia",
+        "city_slug": "valencia",
+        "skill_rank": 1,
+        "material": "Oak",
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000283": {
+    "id": "50000283",
+    "name": "Roman Galley",
+    "shipbuilding": [
+      {
+        "city": "Naples",
+        "city_slug": "naples",
+        "skill_rank": 1,
+        "material": "Cedar",
+        "hull": "Small Row Boat"
+      }
+    ]
+  },
+  "50000284": {
+    "id": "50000284",
+    "name": "Xebec Cruiser",
+    "shipbuilding": [
+      {
+        "city": "Ceuta",
+        "city_slug": "ceuta",
+        "skill_rank": 1,
+        "material": "Oak",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Valencia",
+        "city_slug": "valencia",
+        "skill_rank": 1,
+        "material": "Oak",
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000285": {
+    "id": "50000285",
+    "name": "Manila Galleon",
+    "shipbuilding": [
+      {
+        "city": "Manila",
+        "city_slug": "manila",
+        "skill_rank": 1,
+        "material": "Teak",
+        "hull": "Large 3-decked Hull"
+      }
+    ]
+  },
+  "50000311": {
+    "id": "50000311",
+    "name": "Patrol Corvette",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000312": {
+    "id": "50000312",
+    "name": "Armed Indiaman",
+    "shipbuilding": [
+      {
+        "city": "Calicut",
+        "city_slug": "calicut",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Improved Double-Shelled Heavy Hull"
+      }
+    ]
+  },
+  "50000313": {
+    "id": "50000313",
+    "name": "La Mort",
+    "shipbuilding": [
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 2-decked Row Boat"
+      },
+      {
+        "city": "Genoa",
+        "city_slug": "genoa",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 2-decked Row Boat"
+      },
+      {
+        "city": "Naples",
+        "city_slug": "naples",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 2-decked Row Boat"
+      }
+    ]
+  },
+  "50000314": {
+    "id": "50000314",
+    "name": "Survey Frigate",
+    "shipbuilding": [
+      {
+        "city": "Trujillo",
+        "city_slug": "trujillo",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 2-decked Hull"
+      },
+      {
+        "city": "Pernambuco",
+        "city_slug": "pernambuco",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 2-decked Hull"
+      },
+      {
+        "city": "Caracas",
+        "city_slug": "caracas",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 2-decked Hull"
+      },
+      {
+        "city": "Cayenne",
+        "city_slug": "cayenne",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 2-decked Hull"
+      },
+      {
+        "city": "Willemstad",
+        "city_slug": "willemstad",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 2-decked Hull"
+      },
+      {
+        "city": "Grand Cayman",
+        "city_slug": "grand-cayman",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 2-decked Hull"
+      },
+      {
+        "city": "Trujillo",
+        "city_slug": "trujillo",
+        "skill_rank": 1,
+        "material": "For Spanish military use",
+        "hull": "Official Large 2-decked Hull"
+      },
+      {
+        "city": "Pernambuco",
+        "city_slug": "pernambuco",
+        "skill_rank": 1,
+        "material": "For Portuguese military use",
+        "hull": "Official Large 2-decked Hull"
+      },
+      {
+        "city": "Caracas",
+        "city_slug": "caracas",
+        "skill_rank": 1,
+        "material": "For Venetian military use",
+        "hull": "Official Large 2-decked Hull"
+      },
+      {
+        "city": "Cayenne",
+        "city_slug": "cayenne",
+        "skill_rank": 1,
+        "material": "For French military use",
+        "hull": "Official Large 2-decked Hull"
+      },
+      {
+        "city": "Willemstad",
+        "city_slug": "willemstad",
+        "skill_rank": 1,
+        "material": "For Dutch military use",
+        "hull": "Official Large 2-decked Hull"
+      },
+      {
+        "city": "Grand Cayman",
+        "city_slug": "grand-cayman",
+        "skill_rank": 1,
+        "material": "For English military use",
+        "hull": "Official Large 2-decked Hull"
+      }
+    ]
+  },
+  "50000315": {
+    "id": "50000315",
+    "name": "Cargo Clipper",
+    "shipbuilding": [
+      {
+        "city": "CompanyColony:3500",
+        "city_slug": "companycolony-3500",
+        "skill_rank": 1,
+        "material": "Red Pine",
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000316": {
+    "id": "50000316",
+    "name": "Norske Love",
+    "shipbuilding": [
+      {
+        "city": "Copenhagen",
+        "city_slug": "copenhagen",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 2-decked Hull"
+      }
+    ]
+  },
+  "50000318": {
+    "id": "50000318",
+    "name": "Sovereign of the Seas",
+    "shipbuilding": [
+      {
+        "city": "Plymouth",
+        "city_slug": "plymouth",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 3-decked Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 3-decked Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "For English military use",
+        "hull": "Official Large 3-decked Hull"
+      }
+    ]
+  },
+  "50000319": {
+    "id": "50000319",
+    "name": "Golden Hind",
+    "shipbuilding": [
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Special Large 2-decked Hull"
+      },
+      {
+        "city": "Plymouth",
+        "city_slug": "plymouth",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Special Large 2-decked Hull"
+      }
+    ]
+  },
+  "50000320": {
+    "id": "50000320",
+    "name": "Neapolitan Galleass",
+    "shipbuilding": [
+      {
+        "city": "Naples",
+        "city_slug": "naples",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 2-decked Row Boat"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 2-decked Row Boat"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "For Venetian military use",
+        "hull": "Official Large 2-decked Row Boat"
+      }
+    ]
+  },
+  "50000321": {
+    "id": "50000321",
+    "name": "Seeadler",
+    "shipbuilding": [
+      {
+        "city": "Lubeck",
+        "city_slug": "lubeck",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 3-decked Hull"
+      }
+    ]
+  },
+  "50000322": {
+    "id": "50000322",
+    "name": "Applet",
+    "shipbuilding": [
+      {
+        "city": "Stockholm",
+        "city_slug": "stockholm",
+        "skill_rank": 1,
+        "material": "",
+        "hull": "Special Large 2-decked Hull"
+      }
+    ]
+  },
+  "50000323": {
+    "id": "50000323",
+    "name": "La Couronne",
+    "shipbuilding": [
+      {
+        "city": "Nantes",
+        "city_slug": "nantes",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 3-decked Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 3-decked Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "For French military use",
+        "hull": "Official Large 3-decked Hull"
+      }
+    ]
+  },
+  "50000325": {
+    "id": "50000325",
+    "name": "San Gabriel",
+    "shipbuilding": [
+      {
+        "city": "Porto",
+        "city_slug": "porto",
+        "skill_rank": 1,
+        "material": "Red Pine",
+        "hull": "Large 2-decked Hull"
+      }
+    ]
+  },
+  "50000326": {
+    "id": "50000326",
+    "name": "High Clipper",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Teak",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Teak",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Teak",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Teak",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Teak",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Teak",
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000328": {
+    "id": "50000328",
+    "name": "Cruise High Clipper",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "Teak",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "Teak",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "Teak",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "Teak",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "Teak",
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "Teak",
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000329": {
+    "id": "50000329",
+    "name": "Ottoman Galleass",
+    "shipbuilding": [
+      {
+        "city": "Tunis",
+        "city_slug": "tunis",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Custom Large 2 decked Row Boat"
+      },
+      {
+        "city": "Istanbul",
+        "city_slug": "istanbul",
+        "skill_rank": 1,
+        "material": "For Ottoman military use",
+        "hull": "Custom Large 2 decked Row Boat"
+      }
+    ]
+  },
+  "50000331": {
+    "id": "50000331",
+    "name": "San Felipe",
+    "shipbuilding": [
+      {
+        "city": "Valencia",
+        "city_slug": "valencia",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 3-decked Hull"
+      },
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "For Spanish military use",
+        "hull": "Official Large 3-decked Hull"
+      }
+    ]
+  },
+  "50000332": {
+    "id": "50000332",
+    "name": "Santa Catalina",
+    "shipbuilding": [
+      {
+        "city": "Porto",
+        "city_slug": "porto",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 3-decked Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "For Portuguese military use",
+        "hull": "Official Large 3-decked Hull"
+      }
+    ]
+  },
+  "50000333": {
+    "id": "50000333",
+    "name": "De Zeven",
+    "shipbuilding": [
+      {
+        "city": "Antwerp",
+        "city_slug": "antwerp",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Large 3-decked Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "For Dutch military use",
+        "hull": "Official Large 3-decked Hull"
+      }
+    ]
+  },
+  "50000334": {
+    "id": "50000334",
+    "name": "The Dutch Indiaman",
+    "shipbuilding": [
+      {
+        "city": "Groningen",
+        "city_slug": "groningen",
+        "skill_rank": 1,
+        "material": "Beech",
+        "hull": "Large 2-decked Hull"
+      }
+    ]
+  },
+  "50000336": {
+    "id": "50000336",
+    "name": "Dragonhead ship",
+    "shipbuilding": [
+      {
+        "city": "Hangzhou",
+        "city_slug": "hangzhou",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Improved E. Asian Heavy Hull"
+      }
+    ]
+  },
+  "50000337": {
+    "id": "50000337",
+    "name": "Ingermanland",
+    "shipbuilding": [
+      {
+        "city": "St. Petersburg",
+        "city_slug": "st-petersburg",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Special Large 2-decked Hull"
+      }
+    ]
+  },
+  "50000338": {
+    "id": "50000338",
+    "name": "Razee Frigate",
+    "shipbuilding": [
+      {
+        "city": "Plymouth",
+        "city_slug": "plymouth",
+        "skill_rank": 1,
+        "material": "Iron-plated",
+        "hull": "Special Large 2-decked Hull"
+      }
+    ]
+  },
+  "50000339": {
+    "id": "50000339",
+    "name": "Gran Fluyt",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": "For Spanish military use",
+        "hull": "Special Large 2-decked Hull"
+      },
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": "For Portuguese military use",
+        "hull": "Special Large 2-decked Hull"
+      },
+      {
+        "city": "Venice",
+        "city_slug": "venice",
+        "skill_rank": 1,
+        "material": "For Venetian military use",
+        "hull": "Special Large 2-decked Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": "For French military use",
+        "hull": "Special Large 2-decked Hull"
+      },
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": "For Dutch military use",
+        "hull": "Special Large 2-decked Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": "For English military use",
+        "hull": "Special Large 2-decked Hull"
+      }
+    ]
+  },
+  "50000341": {
+    "id": "50000341",
+    "name": "Halve Maen",
+    "shipbuilding": [
+      {
+        "city": "Antwerp",
+        "city_slug": "antwerp",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 2-decked Hull"
+      }
+    ]
+  },
+  "50000342": {
+    "id": "50000342",
+    "name": "Flying Cloud",
+    "shipbuilding": [
+      {
+        "city": "San Francisco",
+        "city_slug": "san-francisco",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000343": {
+    "id": "50000343",
+    "name": "Bermuda Sloop",
+    "shipbuilding": [
+      {
+        "city": "Santo Domingo",
+        "city_slug": "santo-domingo",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000344": {
+    "id": "50000344",
+    "name": "Ghanjah Dhow",
+    "shipbuilding": [
+      {
+        "city": "Calicut",
+        "city_slug": "calicut",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Hormuz",
+        "city_slug": "hormuz",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000345": {
+    "id": "50000345",
+    "name": "Victory",
+    "shipbuilding": [
+      {
+        "city": "Plymouth",
+        "city_slug": "plymouth",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 3-decked Hull"
+      }
+    ]
+  },
+  "50000346": {
+    "id": "50000346",
+    "name": "Endeavour",
+    "shipbuilding": [
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 2-decked Hull"
+      },
+      {
+        "city": "Plymouth",
+        "city_slug": "plymouth",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 2-decked Hull"
+      }
+    ]
+  },
+  "50000347": {
+    "id": "50000347",
+    "name": "Prins Willem",
+    "shipbuilding": [
+      {
+        "city": "Antwerp",
+        "city_slug": "antwerp",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 3-decked Hull"
+      }
+    ]
+  },
+  "50000348": {
+    "id": "50000348",
+    "name": "Soleil Royal",
+    "shipbuilding": [
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 3-decked Hull"
+      },
+      {
+        "city": "Nantes",
+        "city_slug": "nantes",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 3-decked Hull"
+      }
+    ]
+  },
+  "50000352": {
+    "id": "50000352",
+    "name": "Real",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 2-decked Row Boat"
+      },
+      {
+        "city": "Ceuta",
+        "city_slug": "ceuta",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 2-decked Row Boat"
+      }
+    ]
+  },
+  "50000353": {
+    "id": "50000353",
+    "name": "Windjammer",
+    "shipbuilding": [
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large Flush Deck Style Hull"
+      },
+      {
+        "city": "Plymouth",
+        "city_slug": "plymouth",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000357": {
+    "id": "50000357",
+    "name": "Dauphin Royal",
+    "shipbuilding": [
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 3-decked Hull"
+      },
+      {
+        "city": "Pisa",
+        "city_slug": "pisa",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 3-decked Hull"
+      }
+    ]
+  },
+  "50000358": {
+    "id": "50000358",
+    "name": "Polar Expedition Ketch",
+    "shipbuilding": [
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000359": {
+    "id": "50000359",
+    "name": "Felipe",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 2-decked Hull"
+      },
+      {
+        "city": "Antwerp",
+        "city_slug": "antwerp",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 2-decked Hull"
+      }
+    ]
+  },
+  "50000361": {
+    "id": "50000361",
+    "name": "Clermont  \n\t\t The first steam ship that wasput into practical use",
+    "shipbuilding": [
+      {
+        "city": "Rotterdam",
+        "city_slug": "rotterdam",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large Steam Ship Hull"
+      },
+      {
+        "city": "Bilbao",
+        "city_slug": "bilbao",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large Steam Ship Hull"
+      },
+      {
+        "city": "Viana do Castelo",
+        "city_slug": "viana-do-castelo",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large Steam Ship Hull"
+      },
+      {
+        "city": "Cattaro",
+        "city_slug": "cattaro",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large Steam Ship Hull"
+      },
+      {
+        "city": "Le Havre",
+        "city_slug": "le-havre",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large Steam Ship Hull"
+      },
+      {
+        "city": "Rotterdam",
+        "city_slug": "rotterdam",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large Steam Ship Hull"
+      },
+      {
+        "city": "Portsmouth",
+        "city_slug": "portsmouth",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large Steam Ship Hull"
+      }
+    ]
+  },
+  "50000363": {
+    "id": "50000363",
+    "name": "Surprise",
+    "shipbuilding": [
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 3-decked Hull"
+      },
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 3-decked Hull"
+      }
+    ]
+  },
+  "50000364": {
+    "id": "50000364",
+    "name": "Assault Frigate",
+    "shipbuilding": [
+      {
+        "city": "Boston",
+        "city_slug": "boston",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000365": {
+    "id": "50000365",
+    "name": "Can be built at Boston Shipyard",
+    "shipbuilding": [
+      {
+        "city": "Boston",
+        "city_slug": "boston",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 2-decked Hull"
+      }
+    ]
+  },
+  "50000366": {
+    "id": "50000366",
+    "name": "Beagle",
+    "shipbuilding": [
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 2-decked Hull"
+      }
+    ]
+  },
+  "50000367": {
+    "id": "50000367",
+    "name": "St",
+    "shipbuilding": [
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 3-decked Hull"
+      },
+      {
+        "city": "Boston",
+        "city_slug": "boston",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 3-decked Hull"
+      }
+    ]
+  },
+  "50000373": {
+    "id": "50000373",
+    "name": "San Juan",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 3-decked Hull"
+      }
+    ]
+  },
+  "50000374": {
+    "id": "50000374",
+    "name": "Maltese Galley",
+    "shipbuilding": [
+      {
+        "city": "Naples",
+        "city_slug": "naples",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 2-decked Row Boat"
+      },
+      {
+        "city": "Syracuse",
+        "city_slug": "syracuse",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 2-decked Row Boat"
+      }
+    ]
+  },
+  "50000375": {
+    "id": "50000375",
+    "name": "Susan Constant",
+    "shipbuilding": [
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 2-decked Hull"
+      },
+      {
+        "city": "Boston",
+        "city_slug": "boston",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 2-decked Hull"
+      }
+    ]
+  },
+  "50000376": {
+    "id": "50000376",
+    "name": "Victoria",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 2-decked Hull"
+      }
+    ]
+  },
+  "50000377": {
+    "id": "50000377",
+    "name": "Santisima Trinidad",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 3-decked Hull"
+      }
+    ]
+  },
+  "50000378": {
+    "id": "50000378",
+    "name": "Atlantica",
+    "shipbuilding": [
+      {
+        "city": "Lisbon",
+        "city_slug": "lisbon",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 2-decked Hull"
+      }
+    ]
+  },
+  "50000379": {
+    "id": "50000379",
+    "name": "Adventure Galley",
+    "shipbuilding": [
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 2-decked Hull"
+      },
+      {
+        "city": "Boston",
+        "city_slug": "boston",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 2-decked Hull"
+      }
+    ]
+  },
+  "50000380": {
+    "id": "50000380",
+    "name": "Satisfaction",
+    "shipbuilding": [
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 2-decked Hull"
+      }
+    ]
+  },
+  "50000381": {
+    "id": "50000381",
+    "name": "Bounty",
+    "shipbuilding": [
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 2-decked Hull"
+      }
+    ]
+  },
+  "50000382": {
+    "id": "50000382",
+    "name": "Kronan",
+    "shipbuilding": [
+      {
+        "city": "Stockholm",
+        "city_slug": "stockholm",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 2-decked Hull"
+      }
+    ]
+  },
+  "50000383": {
+    "id": "50000383",
+    "name": "San Jose",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 2-decked Hull"
+      }
+    ]
+  },
+  "50000384": {
+    "id": "50000384",
+    "name": "Merchant Royal",
+    "shipbuilding": [
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 2-decked Hull"
+      }
+    ]
+  },
+  "50000385": {
+    "id": "50000385",
+    "name": "Raid Victoria",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 2-decked Hull"
+      }
+    ]
+  },
+  "50000387": {
+    "id": "50000387",
+    "name": "Swoop Surprise",
+    "shipbuilding": [
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 3-decked Hull"
+      }
+    ]
+  },
+  "50000389": {
+    "id": "50000389",
+    "name": "Ark Royal",
+    "shipbuilding": [
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 3-decked Hull"
+      }
+    ]
+  },
+  "50000390": {
+    "id": "50000390",
+    "name": "Cacafuego",
+    "shipbuilding": [
+      {
+        "city": "Seville",
+        "city_slug": "seville",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000391": {
+    "id": "50000391",
+    "name": "Snow Squall",
+    "shipbuilding": [
+      {
+        "city": "San Francisco",
+        "city_slug": "san-francisco",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000393": {
+    "id": "50000393",
+    "name": "Vanguard",
+    "shipbuilding": [
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 3-decked Hull"
+      }
+    ]
+  },
+  "50000394": {
+    "id": "50000394",
+    "name": "Zeehaen",
+    "shipbuilding": [
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000395": {
+    "id": "50000395",
+    "name": "Build cost",
+    "shipbuilding": [
+      {
+        "city": "Hamburg",
+        "city_slug": "hamburg",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000397": {
+    "id": "50000397",
+    "name": "Heavy Assault Frigate",
+    "shipbuilding": [
+      {
+        "city": "Boston",
+        "city_slug": "boston",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 2-decked Hull"
+      }
+    ]
+  },
+  "50000399": {
+    "id": "50000399",
+    "name": "Premium High Clipper",
+    "shipbuilding": [
+      {
+        "city": "Boston",
+        "city_slug": "boston",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000401": {
+    "id": "50000401",
+    "name": "Renown",
+    "shipbuilding": [
+      {
+        "city": "London",
+        "city_slug": "london",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 3-decked Hull"
+      },
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 3-decked Hull"
+      }
+    ]
+  },
+  "50000402": {
+    "id": "50000402",
+    "name": "La Belle",
+    "shipbuilding": [
+      {
+        "city": "Marseille",
+        "city_slug": "marseille",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large Flush Deck Style Hull"
+      }
+    ]
+  },
+  "50000403": {
+    "id": "50000403",
+    "name": "De Amsterdam",
+    "shipbuilding": [
+      {
+        "city": "Amsterdam",
+        "city_slug": "amsterdam",
+        "skill_rank": 1,
+        "material": null,
+        "hull": "Large 2-decked Hull"
+      }
+    ]
+  }
+}

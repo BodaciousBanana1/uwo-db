@@ -26,4 +26,11 @@ masts = 0
 material = "Cedar"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "Plymouth", city_slug = "plymouth", skill_rank = 1, material = "Cedar", hull = "Small Flush Deck Style Hull" },
+  { city = "Groningen", city_slug = "groningen", skill_rank = 1, material = "Cedar", hull = "Small Flush Deck Style Hull" },
+  { city = "Bordeaux", city_slug = "bordeaux", skill_rank = 1, material = "Cedar", hull = "Small Flush Deck Style Hull" },
+  { city = "Porto", city_slug = "porto", skill_rank = 1, material = "Cedar", hull = "Small Flush Deck Style Hull" },
+  { city = "Barcelona", city_slug = "barcelona", skill_rank = 1, material = "Cedar", hull = "Small Flush Deck Style Hull" },
+]
 +++

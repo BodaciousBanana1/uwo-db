@@ -26,4 +26,7 @@ masts = 0
 material = "Iron"
 is_cash_ship = true
 is_steam = false
+shipbuilding = [
+  { city = "Manila", city_slug = "manila", skill_rank = 1, material = "Iron-plated", hull = "Large 3-decked Hull" },
+]
 +++

@@ -26,4 +26,7 @@ masts = 0
 material = "Unknown"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "Marseille", city_slug = "marseille", skill_rank = 1, material = "Unknown", hull = "Large Flush Deck Style Hull" },
+]
 +++

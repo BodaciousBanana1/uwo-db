@@ -26,5 +26,8 @@ masts = 4
 material = "Mahogany"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "Naples", city_slug = "naples", skill_rank = 1, material = "Iron-plated", hull = "Medium 3-decked Hull" },
+]
 +++
 

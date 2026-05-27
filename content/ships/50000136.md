@@ -26,4 +26,18 @@ masts = 0
 material = "Iron"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "Plymouth", city_slug = "plymouth", skill_rank = 1, material = "Iron-plated", hull = "Large 3-decked Hull" },
+  { city = "Groningen", city_slug = "groningen", skill_rank = 1, material = "Iron-plated", hull = "Large 3-decked Hull" },
+  { city = "Bordeaux", city_slug = "bordeaux", skill_rank = 1, material = "Iron-plated", hull = "Large 3-decked Hull" },
+  { city = "Ceuta", city_slug = "ceuta", skill_rank = 1, material = "Iron-plated", hull = "Large 3-decked Hull" },
+  { city = "Valencia", city_slug = "valencia", skill_rank = 1, material = "Iron-plated", hull = "Large 3-decked Hull" },
+  { city = "Ragusa", city_slug = "ragusa", skill_rank = 1, material = "Iron-plated", hull = "Large 3-decked Hull" },
+  { city = "Trujillo", city_slug = "trujillo", skill_rank = 1, material = "For Spanish military use", hull = "Official Large 3-decked Hull" },
+  { city = "Pernambuco", city_slug = "pernambuco", skill_rank = 1, material = "For Portuguese military use", hull = "Official Large 3-decked Hull" },
+  { city = "Caracas", city_slug = "caracas", skill_rank = 1, material = "For Venetian military use", hull = "Official Large 3-decked Hull" },
+  { city = "Cayenne", city_slug = "cayenne", skill_rank = 1, material = "For French military use", hull = "Official Large 3-decked Hull" },
+  { city = "Willemstad", city_slug = "willemstad", skill_rank = 1, material = "For Dutch military use", hull = "Official Large 3-decked Hull" },
+  { city = "Grand Cayman", city_slug = "grand-cayman", skill_rank = 1, material = "For English military use", hull = "Official Large 3-decked Hull" },
+]
 +++

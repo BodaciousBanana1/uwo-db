@@ -26,4 +26,8 @@ masts = 0
 material = "Iron"
 is_cash_ship = true
 is_steam = false
+shipbuilding = [
+  { city = "Tunis", city_slug = "tunis", skill_rank = 1, material = "Iron-plated", hull = "Custom Large 2 decked Row Boat" },
+  { city = "Istanbul", city_slug = "istanbul", skill_rank = 1, material = "For Ottoman military use", hull = "Custom Large 2 decked Row Boat" },
+]
 +++

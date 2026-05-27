@@ -26,4 +26,8 @@ masts = 0
 material = "Cedar"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "Odessa", city_slug = "odessa", skill_rank = 1, material = "Cedar", hull = "Medium Row Boat" },
+  { city = "Naples", city_slug = "naples", skill_rank = 1, material = "Cedar", hull = "Medium Row Boat" },
+]
 +++

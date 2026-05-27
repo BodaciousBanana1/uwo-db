@@ -26,4 +26,7 @@ masts = 0
 material = "Red Pine"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "CompanyColony:3500", city_slug = "companycolony-3500", skill_rank = 1, material = "Red Pine", hull = "Large Flush Deck Style Hull" },
+]
 +++

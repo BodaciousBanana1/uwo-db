@@ -26,4 +26,8 @@ masts = 0
 material = "Unknown"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "Salonica", city_slug = "salonica", skill_rank = 1, material = "Mahogany", hull = "Small Flush Deck Style Hull" },
+  { city = "Famagusta", city_slug = "famagusta", skill_rank = 1, material = "Mahogany", hull = "Small Flush Deck Style Hull" },
+]
 +++

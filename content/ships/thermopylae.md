@@ -26,5 +26,8 @@ masts = 3
 material = "Mahogany"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "Porto", city_slug = "porto", skill_rank = 1, material = "Red Pine", hull = "Large 2-decked Hull" },
+]
 +++
 

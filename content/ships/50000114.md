@@ -26,4 +26,8 @@ masts = 0
 material = "Unknown"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "Venice", city_slug = "venice", skill_rank = 1, material = "Mahogany", hull = "Medium 2-decked Hull" },
+  { city = "Genoa", city_slug = "genoa", skill_rank = 1, material = "Copper-coated", hull = "Medium 2-decked Hull" },
+]
 +++

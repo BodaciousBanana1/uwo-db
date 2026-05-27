@@ -26,4 +26,7 @@ masts = 0
 material = "Teak"
 is_cash_ship = true
 is_steam = false
+shipbuilding = [
+  { city = "Manila", city_slug = "manila", skill_rank = 1, material = "Teak", hull = "Large 3-decked Hull" },
+]
 +++

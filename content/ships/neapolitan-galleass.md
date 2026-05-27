@@ -26,4 +26,9 @@ masts = 0
 material = "Iron"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "Naples", city_slug = "naples", skill_rank = 1, material = "Iron-plated", hull = "Large 2-decked Row Boat" },
+  { city = "Venice", city_slug = "venice", skill_rank = 1, material = "Iron-plated", hull = "Large 2-decked Row Boat" },
+  { city = "Venice", city_slug = "venice", skill_rank = 1, material = "For Venetian military use", hull = "Official Large 2-decked Row Boat" },
+]
 +++

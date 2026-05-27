@@ -26,4 +26,13 @@ masts = 0
 material = "Unknown"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "Tunis", city_slug = "tunis", skill_rank = 1, material = "Mahogany", hull = "Small Flush Deck Style Hull" },
+  { city = "Ragusa", city_slug = "ragusa", skill_rank = 1, material = "Mahogany", hull = "Small Flush Deck Style Hull" },
+  { city = "Tripoli", city_slug = "tripoli", skill_rank = 1, material = "Mahogany", hull = "Small Flush Deck Style Hull" },
+  { city = "Tunis", city_slug = "tunis", skill_rank = 1, material = "Rosewood", hull = "Small Flush Deck Style Hull" },
+  { city = "Ragusa", city_slug = "ragusa", skill_rank = 1, material = "Rosewood", hull = "Small Flush Deck Style Hull" },
+  { city = "Tripoli", city_slug = "tripoli", skill_rank = 1, material = "Rosewood", hull = "Small Flush Deck Style Hull" },
+  { city = "Tunis", city_slug = "tunis", skill_rank = 1, material = "Mahogany", hull = "Small Flush Deck Style Hull" },
+]
 +++

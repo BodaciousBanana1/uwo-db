@@ -26,4 +26,7 @@ masts = 0
 material = "Red Pine"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "Edo", city_slug = "edo", skill_rank = 1, material = "Red Pine", hull = "E. Asian Heavy Hull" },
+]
 +++

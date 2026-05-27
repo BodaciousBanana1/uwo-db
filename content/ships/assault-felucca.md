@@ -26,4 +26,7 @@ masts = 0
 material = "Unknown"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "Tripoli", city_slug = "tripoli", skill_rank = 1, material = "Mahogany", hull = "Small Flush Deck Style Hull" },
+]
 +++

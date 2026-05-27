@@ -26,4 +26,9 @@ masts = 0
 material = "Teak"
 is_cash_ship = true
 is_steam = false
+shipbuilding = [
+  { city = "Marseille", city_slug = "marseille", skill_rank = 1, material = "Iron-plated", hull = "Large 2-decked Row Boat" },
+  { city = "Genoa", city_slug = "genoa", skill_rank = 1, material = "Iron-plated", hull = "Large 2-decked Row Boat" },
+  { city = "Naples", city_slug = "naples", skill_rank = 1, material = "Iron-plated", hull = "Large 2-decked Row Boat" },
+]
 +++

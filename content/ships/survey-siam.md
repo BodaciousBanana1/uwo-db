@@ -26,4 +26,8 @@ masts = 0
 material = "Teak"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "Ternate", city_slug = "ternate", skill_rank = 1, material = "Teak", hull = "Large 2-decked Hull" },
+  { city = "Ambon", city_slug = "ambon", skill_rank = 1, material = "Teak", hull = "Large 2-decked Hull" },
+]
 +++

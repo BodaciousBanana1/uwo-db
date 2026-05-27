@@ -26,4 +26,9 @@ masts = 0
 material = "Iron"
 is_cash_ship = true
 is_steam = false
+shipbuilding = [
+  { city = "Plymouth", city_slug = "plymouth", skill_rank = 1, material = "Iron-plated", hull = "Large 3-decked Hull" },
+  { city = "London", city_slug = "london", skill_rank = 1, material = "Iron-plated", hull = "Large 3-decked Hull" },
+  { city = "London", city_slug = "london", skill_rank = 1, material = "For English military use", hull = "Official Large 3-decked Hull" },
+]
 +++

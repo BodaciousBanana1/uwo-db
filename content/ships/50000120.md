@@ -26,4 +26,8 @@ masts = 0
 material = "Oak"
 is_cash_ship = true
 is_steam = false
+shipbuilding = [
+  { city = "Seville", city_slug = "seville", skill_rank = 1, material = "Oak", hull = "Large 2-decked Hull" },
+  { city = "Lisbon", city_slug = "lisbon", skill_rank = 1, material = "Oak", hull = "Large 2-decked Hull" },
+]
 +++

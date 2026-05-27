@@ -26,4 +26,8 @@ masts = 0
 material = "Cedar"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "Syracuse", city_slug = "syracuse", skill_rank = 1, material = "Cedar", hull = "Large Flush Deck Style Hull" },
+  { city = "Candia", city_slug = "candia", skill_rank = 1, material = "Cedar", hull = "Large Flush Deck Style Hull" },
+]
 +++

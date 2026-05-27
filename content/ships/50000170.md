@@ -26,4 +26,10 @@ masts = 0
 material = "Teak"
 is_cash_ship = true
 is_steam = false
+shipbuilding = [
+  { city = "Istanbul", city_slug = "istanbul", skill_rank = 1, material = "Iron-plated", hull = "Large Row Boat" },
+  { city = "Alexandria", city_slug = "alexandria", skill_rank = 1, material = "Iron-plated", hull = "Large Row Boat" },
+  { city = "Algiers", city_slug = "algiers", skill_rank = 1, material = "Iron-plated", hull = "Large Row Boat" },
+  { city = "Istanbul", city_slug = "istanbul", skill_rank = 1, material = "For Ottoman military use", hull = "Official Large Row Boat" },
+]
 +++

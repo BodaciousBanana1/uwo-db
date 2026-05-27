@@ -26,5 +26,9 @@ masts = 3
 material = "English Admiral Metal"
 is_cash_ship = true
 is_steam = false
+shipbuilding = [
+  { city = "London", city_slug = "london", skill_rank = 1, material = "Unknown", hull = "Large 3-decked Hull" },
+  { city = "Marseille", city_slug = "marseille", skill_rank = 1, material = "Unknown", hull = "Large 3-decked Hull" },
+]
 +++
 

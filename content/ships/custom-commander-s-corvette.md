@@ -26,5 +26,8 @@ masts = 3
 material = "Iron-plated"
 is_cash_ship = true
 is_steam = false
+shipbuilding = [
+  { city = "CompanyColony:2250", city_slug = "companycolony-2250", skill_rank = 1, material = "Beech", hull = "Large 2-decked Hull" },
+]
 +++
 

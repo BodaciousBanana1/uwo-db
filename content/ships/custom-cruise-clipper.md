@@ -26,5 +26,8 @@ masts = 3
 material = "Red Pine"
 is_cash_ship = true
 is_steam = false
+shipbuilding = [
+  { city = "Calicut", city_slug = "calicut", skill_rank = 1, material = "Iron-plated", hull = "Improved Double-Shelled Heavy Hull" },
+]
 +++
 

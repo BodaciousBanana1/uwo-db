@@ -26,4 +26,7 @@ masts = 0
 material = "Cedar"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "Jakarta", city_slug = "jakarta", skill_rank = 1, material = "Cedar", hull = "Medium Flush Deck Style Hull" },
+]
 +++

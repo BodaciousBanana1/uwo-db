@@ -26,4 +26,7 @@ masts = 0
 material = "Unknown"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "Antwerp", city_slug = "antwerp", skill_rank = 1, material = "Unknown", hull = "Large 3-decked Hull" },
+]
 +++

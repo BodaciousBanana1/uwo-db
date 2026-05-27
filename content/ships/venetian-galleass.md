@@ -26,4 +26,7 @@ masts = 0
 material = "Unknown"
 is_cash_ship = true
 is_steam = false
+shipbuilding = [
+  { city = "Venice", city_slug = "venice", skill_rank = 1, material = "For Venetian military use", hull = "Official Large 3-decked Row Boat" },
+]
 +++

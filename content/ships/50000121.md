@@ -26,4 +26,8 @@ masts = 0
 material = "Unknown"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "Seville", city_slug = "seville", skill_rank = 1, material = "Copper-coated", hull = "Large 2-decked Hull" },
+  { city = "Seville", city_slug = "seville", skill_rank = 1, material = "For Spanish military use", hull = "Official Large 2-decked Hull" },
+]
 +++

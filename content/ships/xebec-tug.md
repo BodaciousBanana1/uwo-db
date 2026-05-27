@@ -26,4 +26,7 @@ masts = 0
 material = "Iron"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "Aden", city_slug = "aden", skill_rank = 1, material = "Mahogany", hull = "Large Flush Deck Style Hull" },
+]
 +++

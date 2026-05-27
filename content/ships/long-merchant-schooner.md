@@ -26,4 +26,7 @@ masts = 0
 material = "Teak"
 is_cash_ship = true
 is_steam = false
+shipbuilding = [
+  { city = "CompanyColony:3000", city_slug = "companycolony-3000", skill_rank = 1, material = "Teak", hull = "Large Flush Deck Style Hull" },
+]
 +++

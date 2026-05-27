@@ -26,4 +26,8 @@ masts = 0
 material = "Iron"
 is_cash_ship = true
 is_steam = false
+shipbuilding = [
+  { city = "Antwerp", city_slug = "antwerp", skill_rank = 1, material = "Iron-plated", hull = "Large 3-decked Hull" },
+  { city = "Amsterdam", city_slug = "amsterdam", skill_rank = 1, material = "For Dutch military use", hull = "Official Large 3-decked Hull" },
+]
 +++

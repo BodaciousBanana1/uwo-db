@@ -26,5 +26,9 @@ masts = 3
 material = "Mahogany"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "London", city_slug = "london", skill_rank = 1, material = "Unknown", hull = "Large 2-decked Hull" },
+  { city = "Boston", city_slug = "boston", skill_rank = 1, material = "Unknown", hull = "Large 2-decked Hull" },
+]
 +++
 

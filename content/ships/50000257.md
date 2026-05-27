@@ -26,4 +26,7 @@ masts = 0
 material = "Unknown"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "Alexandria", city_slug = "alexandria", skill_rank = 1, material = "Beech", hull = "Medium Row Boat" },
+]
 +++

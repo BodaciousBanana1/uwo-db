@@ -26,4 +26,12 @@ masts = 0
 material = "Unknown"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "Trujillo", city_slug = "trujillo", skill_rank = 1, material = "Mahogany", hull = "Medium Flush Deck Style Hull" },
+  { city = "Pernambuco", city_slug = "pernambuco", skill_rank = 1, material = "Mahogany", hull = "Medium Flush Deck Style Hull" },
+  { city = "Caracas", city_slug = "caracas", skill_rank = 1, material = "Mahogany", hull = "Medium Flush Deck Style Hull" },
+  { city = "Cayenne", city_slug = "cayenne", skill_rank = 1, material = "Mahogany", hull = "Medium Flush Deck Style Hull" },
+  { city = "Willemstad", city_slug = "willemstad", skill_rank = 1, material = "Mahogany", hull = "Medium Flush Deck Style Hull" },
+  { city = "Grand Cayman", city_slug = "grand-cayman", skill_rank = 1, material = "Mahogany", hull = "Medium Flush Deck Style Hull" },
+]
 +++

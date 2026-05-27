@@ -26,4 +26,13 @@ masts = 0
 material = "Unknown"
 is_cash_ship = false
 is_steam = true
+shipbuilding = [
+  { city = "Rotterdam", city_slug = "rotterdam", skill_rank = 1, material = "Unknown", hull = "Large Steam Ship Hull" },
+  { city = "Bilbao", city_slug = "bilbao", skill_rank = 1, material = "Unknown", hull = "Large Steam Ship Hull" },
+  { city = "Viana do Castelo", city_slug = "viana-do-castelo", skill_rank = 1, material = "Unknown", hull = "Large Steam Ship Hull" },
+  { city = "Cattaro", city_slug = "cattaro", skill_rank = 1, material = "Unknown", hull = "Large Steam Ship Hull" },
+  { city = "Le Havre", city_slug = "le-havre", skill_rank = 1, material = "Unknown", hull = "Large Steam Ship Hull" },
+  { city = "Rotterdam", city_slug = "rotterdam", skill_rank = 1, material = "Unknown", hull = "Large Steam Ship Hull" },
+  { city = "Portsmouth", city_slug = "portsmouth", skill_rank = 1, material = "Unknown", hull = "Large Steam Ship Hull" },
+]
 +++

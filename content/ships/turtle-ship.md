@@ -26,4 +26,7 @@ masts = 0
 material = "Oak"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "Busan", city_slug = "busan", skill_rank = 1, material = "Oak", hull = "E. Asian Large Row Boat" },
+]
 +++

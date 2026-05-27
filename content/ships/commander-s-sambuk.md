@@ -26,5 +26,8 @@ masts = 3
 material = "Mahogany"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "Istanbul", city_slug = "istanbul", skill_rank = 1, material = "Mahogany", hull = "Commander's Medium Flush Deck Style Hull" },
+]
 +++
 

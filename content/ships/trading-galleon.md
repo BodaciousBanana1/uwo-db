@@ -26,4 +26,10 @@ masts = 0
 material = "Cedar"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "Seville", city_slug = "seville", skill_rank = 1, material = "Cedar", hull = "General Large Hull" },
+  { city = "London", city_slug = "london", skill_rank = 1, material = "Cedar", hull = "General Large Hull" },
+  { city = "Lisbon", city_slug = "lisbon", skill_rank = 1, material = "Cedar", hull = "General Large Hull" },
+  { city = "Ceuta", city_slug = "ceuta", skill_rank = 1, material = "Cedar", hull = "General Large Hull" },
+]
 +++

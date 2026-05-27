@@ -26,4 +26,7 @@ masts = 0
 material = "Cedar"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "Groningen", city_slug = "groningen", skill_rank = 1, material = "Cedar", hull = "Medium 2-decked Hull" },
+]
 +++

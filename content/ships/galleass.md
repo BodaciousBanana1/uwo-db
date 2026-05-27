@@ -26,4 +26,7 @@ masts = 0
 material = "Unknown"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "Istanbul", city_slug = "istanbul", skill_rank = 1, material = "For Ottoman military use", hull = "Official Large 2-decked Row Boat" },
+]
 +++

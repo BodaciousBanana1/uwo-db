@@ -26,4 +26,7 @@ masts = 0
 material = "Cedar"
 is_cash_ship = true
 is_steam = false
+shipbuilding = [
+  { city = "Hangzhou", city_slug = "hangzhou", skill_rank = 1, material = "Cedar", hull = "Modified E. Asian Heavy Hull" },
+]
 +++

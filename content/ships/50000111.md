@@ -26,4 +26,7 @@ masts = 0
 material = "Iron"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "Copenhagen", city_slug = "copenhagen", skill_rank = 1, material = "Copper-coated", hull = "Medium 2-decked Hull" },
+]
 +++

@@ -26,4 +26,8 @@ masts = 0
 material = "Unknown"
 is_cash_ship = false
 is_steam = false
+shipbuilding = [
+  { city = "Naples", city_slug = "naples", skill_rank = 1, material = "Unknown", hull = "Large 2-decked Row Boat" },
+  { city = "Syracuse", city_slug = "syracuse", skill_rank = 1, material = "Unknown", hull = "Large 2-decked Row Boat" },
+]
 +++

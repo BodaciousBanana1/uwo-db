@@ -26,4 +26,9 @@ masts = 0
 material = "Unknown"
 is_cash_ship = true
 is_steam = false
+shipbuilding = [
+  { city = "London", city_slug = "london", skill_rank = 1, material = "Copper-coated", hull = "Large 3-decked Row Boat" },
+  { city = "Amsterdam", city_slug = "amsterdam", skill_rank = 1, material = "Copper-coated", hull = "Large 3-decked Row Boat" },
+  { city = "Stockholm", city_slug = "stockholm", skill_rank = 1, material = "Copper-coated", hull = "Large 3-decked Row Boat" },
+]
 +++
