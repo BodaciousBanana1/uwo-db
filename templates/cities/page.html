@@ -10,7 +10,7 @@
 {% set maps = all_maps[city_slug] | default(value=[]) %}
 
 <div class="breadcrumb">
-  <a href="/cities">Cities</a> /
+  <a href="{{ config.base_url }}/cities/">Cities</a> /
   <span>{{ page.extra.region }}</span> /
   <span>{{ page.extra.culture_area }}</span> /
   <strong>{{ page.title | upper }}</strong>

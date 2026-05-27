@@ -62,6 +62,7 @@
 </div>
 
 <script>
+const BASE_URL = '{{ config.base_url }}';
 const allEquipment = {{ all_equipment | json_encode() | safe }};
 
 const searchInput = document.getElementById('equip-search');
@@ -94,7 +95,7 @@ function filterEquipment() {
 
   tbody.innerHTML = filtered.slice(0, 500).map(equip => {
     return `<tr>
-      <td class="item-name"><a href="/equipment/${equip.slug}/">${equip.name}</a></td>
+      <td class="item-name"><a href="${BASE_URL}/equipment/${equip.slug}/">${equip.name}</a></td>
       <td><span class="badge badge-${equip.category.toLowerCase()}">${equip.category}</span></td>
       <td class="num">${equip.formality || '-'}</td>
       <td class="num">${equip.attack || '-'}</td>

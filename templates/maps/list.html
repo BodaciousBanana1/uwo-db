@@ -77,6 +77,7 @@
 </div>
 
 <script>
+const BASE_URL = '{{ config.base_url }}';
 const allMaps = {{ all_maps | json_encode() | safe }};
 
 const CITIES = Object.keys(allMaps).sort();
@@ -182,7 +183,7 @@ function filterMaps() {
 
     return `<tr>
       <td class="item-name">${m.name || 'Map'}</td>
-      <td><a href="/cities/${m.city}/">${formatCity(m.city)}</a></td>
+      <td><a href="${BASE_URL}/cities/${m.city}/">${formatCity(m.city)}</a></td>
       <td class="skills-cell">${skillsHtml}</td>
       <td>${m.category || '-'}</td>
       <td>${m.location || '-'}</td>

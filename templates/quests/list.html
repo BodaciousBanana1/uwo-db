@@ -78,6 +78,7 @@
 </div>
 
 <script>
+const BASE_URL = '{{ config.base_url }}';
 const allQuests = {{ all_quests | json_encode() | safe }};
 
 const CITIES = Object.keys(allQuests).sort();
@@ -184,8 +185,8 @@ function filterQuests() {
     ).join('');
 
     return `<tr>
-      <td class="item-name"><a href="/quests/${q.slug}/">${q.name}</a></td>
-      <td><a href="/cities/${q.city}/">${formatCity(q.city)}</a></td>
+      <td class="item-name"><a href="${BASE_URL}/quests/${q.slug}/">${q.name}</a></td>
+      <td><a href="${BASE_URL}/cities/${q.city}/">${formatCity(q.city)}</a></td>
       <td><span class="badge badge-${q.type.toLowerCase()}">${q.type}</span></td>
       <td class="skills-cell">${skillsHtml || '-'}</td>
       <td class="discovery-cell">${q.discovery || '-'}</td>

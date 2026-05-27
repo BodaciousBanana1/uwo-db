@@ -6,7 +6,7 @@
 <article class="detail-page">
   <header class="detail-header">
     <nav class="breadcrumb">
-      <a href="/equipment/">Equipment</a> / {{ page.extra.category }}
+      <a href="{{ config.base_url }}/equipment/">Equipment</a> / {{ page.extra.category }}
     </nav>
     <h1>{{ page.title }}</h1>
     <div class="detail-meta">
@@ -63,7 +63,7 @@
         <tbody>
           {% for skill in page.extra.skills %}
           <tr>
-            <td><a href="/skills/{{ skill.name | lower | replace(from=' ', to='-') }}/">{{ skill.name }}</a></td>
+            <td><a href="{{ config.base_url }}/skills/{{ skill.name | lower | replace(from=' ', to='-') }}/">{{ skill.name }}</a></td>
             <td class="num">+{{ skill.bonus }}</td>
           </tr>
           {% endfor %}
@@ -78,7 +78,7 @@
       <p class="source-label">Quest Rewards:</p>
       <ul class="source-list">
         {% for quest in page.extra.quest_sources %}
-        <li><a href="/quests/{{ quest.slug }}/">{{ quest.name }}</a></li>
+        <li><a href="{{ config.base_url }}/quests/{{ quest.slug }}/">{{ quest.name }}</a></li>
         {% endfor %}
       </ul>
     </section>
@@ -86,7 +86,7 @@
   </div>
 
   <footer class="detail-footer">
-    <a href="/equipment/" class="back-link">&larr; Back to Equipment</a>
+    <a href="{{ config.base_url }}/equipment/" class="back-link">&larr; Back to Equipment</a>
   </footer>
 </article>
 {% endblock %}

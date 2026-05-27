@@ -6,7 +6,7 @@
 <article class="detail-page">
   <header class="detail-header">
     <nav class="breadcrumb">
-      <a href="/trade-goods/">Trade Goods</a>
+      <a href="{{ config.base_url }}/trade-goods/">Trade Goods</a>
     </nav>
     <h1>{{ page.title }}</h1>
     <div class="detail-meta">
@@ -33,7 +33,7 @@
         <tbody>
           {% for port in page.extra.ports %}
           <tr>
-            <td><a href="/cities/{{ port.slug }}/">{{ port.name }}</a></td>
+            <td><a href="{{ config.base_url }}/cities/{{ port.slug }}/">{{ port.name }}</a></td>
             <td class="num rating">{% for i in range(end=port.rating) %}★{% endfor %}</td>
             <td class="num price">{{ port.price }}</td>
             <td class="num invest">{% if port.investment %}{{ port.investment }}{% else %}-{% endif %}</td>
@@ -47,10 +47,10 @@
     {% if page.extra.collection_sources and page.extra.collection_sources | length > 0 %}
     <section class="detail-section">
       <h2>Collection Sources</h2>
-      <p class="skill-note">Gathered using the <a href="/skills/collection/">Collection</a> skill</p>
+      <p class="skill-note">Gathered using the <a href="{{ config.base_url }}/skills/collection/">Collection</a> skill</p>
       <ul class="source-grid">
         {% for src in page.extra.collection_sources %}
-        <li><a href="/landing-points/{{ src.slug }}/">{{ src.name }}</a></li>
+        <li><a href="{{ config.base_url }}/landing-points/{{ src.slug }}/">{{ src.name }}</a></li>
         {% endfor %}
       </ul>
     </section>
@@ -59,10 +59,10 @@
     {% if page.extra.procurement_sources and page.extra.procurement_sources | length > 0 %}
     <section class="detail-section">
       <h2>Procurement Sources</h2>
-      <p class="skill-note">Gathered using the <a href="/skills/procurement/">Procurement</a> skill</p>
+      <p class="skill-note">Gathered using the <a href="{{ config.base_url }}/skills/procurement/">Procurement</a> skill</p>
       <ul class="source-grid">
         {% for src in page.extra.procurement_sources %}
-        <li><a href="/landing-points/{{ src.slug }}/">{{ src.name }}</a></li>
+        <li><a href="{{ config.base_url }}/landing-points/{{ src.slug }}/">{{ src.name }}</a></li>
         {% endfor %}
       </ul>
     </section>
@@ -70,7 +70,7 @@
   </div>
 
   <footer class="detail-footer">
-    <a href="/trade-goods/" class="back-link">← Back to Trade Goods</a>
+    <a href="{{ config.base_url }}/trade-goods/" class="back-link">← Back to Trade Goods</a>
   </footer>
 </article>
 {% endblock %}

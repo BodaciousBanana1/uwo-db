@@ -6,7 +6,7 @@
 <article class="detail-page">
   <header class="detail-header">
     <nav class="breadcrumb">
-      <a href="/quests/">Quests</a> / {{ page.extra.type | default(value="Quest") }}
+      <a href="{{ config.base_url }}/quests/">Quests</a> / {{ page.extra.type | default(value="Quest") }}
     </nav>
     <h1>{{ page.title }}</h1>
     <div class="detail-meta">
@@ -52,7 +52,7 @@
         <tbody>
           {% for skill in page.extra.skills %}
           <tr>
-            <td><a href="/skills/{{ skill.name | lower | replace(from=' ', to='-') }}/">{{ skill.name }}</a></td>
+            <td><a href="{{ config.base_url }}/skills/{{ skill.name | lower | replace(from=' ', to='-') }}/">{{ skill.name }}</a></td>
             <td class="num">{{ skill.level }}</td>
           </tr>
           {% endfor %}
@@ -84,7 +84,7 @@
       <h2>Equipment Rewards</h2>
       <ul class="equipment-rewards-list">
         {% for equip in page.extra.equipment_rewards %}
-        <li><a href="/equipment/{{ equip.slug }}/">{{ equip.name }}</a></li>
+        <li><a href="{{ config.base_url }}/equipment/{{ equip.slug }}/">{{ equip.name }}</a></li>
         {% endfor %}
       </ul>
     </section>
@@ -97,7 +97,7 @@
         <h3>Prerequisites</h3>
         <ol class="chain-list prerequisites">
           {% for prereq in page.extra.prerequisites %}
-          <li><a href="/quests/{{ prereq.slug }}/">{{ prereq.name }}</a></li>
+          <li><a href="{{ config.base_url }}/quests/{{ prereq.slug }}/">{{ prereq.name }}</a></li>
           {% endfor %}
         </ol>
       </div>
@@ -111,7 +111,7 @@
         <h3>Next in Chain</h3>
         <ol class="chain-list followups">
           {% for followup in page.extra.followups %}
-          <li><a href="/quests/{{ followup.slug }}/">{{ followup.name }}</a></li>
+          <li><a href="{{ config.base_url }}/quests/{{ followup.slug }}/">{{ followup.name }}</a></li>
           {% endfor %}
         </ol>
       </div>
@@ -129,7 +129,7 @@
         <h3>Next in Chain</h3>
         <ol class="chain-list followups">
           {% for followup in page.extra.followups %}
-          <li><a href="/quests/{{ followup.slug }}/">{{ followup.name }}</a></li>
+          <li><a href="{{ config.base_url }}/quests/{{ followup.slug }}/">{{ followup.name }}</a></li>
           {% endfor %}
         </ol>
       </div>
@@ -149,7 +149,7 @@
         <tbody>
           {% for variant in page.extra.variants %}
           <tr class="variant-row{% if variant.slug == page.extra.slug %} current{% endif %}">
-            <td><a href="/quests/{{ variant.slug }}/">{{ variant.city }}</a></td>
+            <td><a href="{{ config.base_url }}/quests/{{ variant.slug }}/">{{ variant.city }}</a></td>
             <td>{{ variant.guild_type }}</td>
           </tr>
           {% endfor %}
@@ -160,7 +160,7 @@
     <section class="detail-section">
       <h2>Available At</h2>
       <ul class="learn-list">
-        <li><a href="/cities/{{ page.extra.city | lower | replace(from=' ', to='-') }}/">{{ page.extra.city }}</a></li>
+        <li><a href="{{ config.base_url }}/cities/{{ page.extra.city | lower | replace(from=' ', to='-') }}/">{{ page.extra.city }}</a></li>
       </ul>
     </section>
     {% endif %}
@@ -190,7 +190,7 @@
   </div>
 
   <footer class="detail-footer">
-    <a href="/quests/" class="back-link">← Back to Quests</a>
+    <a href="{{ config.base_url }}/quests/" class="back-link">← Back to Quests</a>
   </footer>
 </article>
 {% endblock %}

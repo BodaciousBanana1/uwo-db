@@ -7,7 +7,7 @@
 <article class="detail-page">
   <header class="detail-header">
     <nav class="breadcrumb">
-      <a href="/skills/">Skills</a> / {{ page.extra.category | default(value="Common") }}
+      <a href="{{ config.base_url }}/skills/">Skills</a> / {{ page.extra.category | default(value="Common") }}
     </nav>
     <h1>{{ page.title }}</h1>
     <div class="detail-meta">
@@ -79,7 +79,7 @@
         <tbody>
           {% for job in page.extra.jobs %}
           <tr>
-            <td><a href="/jobs/{{ job.name | lower | replace(from=' ', to='-') }}/">{{ job.name }}</a></td>
+            <td><a href="{{ config.base_url }}/jobs/{{ job.name | lower | replace(from=' ', to='-') }}/">{{ job.name }}</a></td>
             <td class="num">{{ job.level }}</td>
           </tr>
           {% endfor %}
@@ -111,7 +111,7 @@
         <tbody>
           {% for equip in matching_equipment | slice(end=50) %}
           <tr>
-            <td><a href="/equipment/{{ equip.slug }}/">{{ equip.name }}</a></td>
+            <td><a href="{{ config.base_url }}/equipment/{{ equip.slug }}/">{{ equip.name }}</a></td>
             <td><span class="badge badge-{{ equip.category | lower }}">{{ equip.category }}</span></td>
             <td class="num">{% for skill in equip.skills %}{% if skill.name == skill_name %}+{{ skill.bonus }}{% endif %}{% endfor %}</td>
           </tr>
@@ -126,7 +126,7 @@
   </div>
 
   <footer class="detail-footer">
-    <a href="/skills/" class="back-link">← Back to Skills</a>
+    <a href="{{ config.base_url }}/skills/" class="back-link">← Back to Skills</a>
   </footer>
 </article>
 {% endblock %}

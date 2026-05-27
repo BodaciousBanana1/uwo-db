@@ -6,9 +6,9 @@
 <article class="ship-detail">
   <header class="detail-nav">
     <div class="breadcrumb">
-      <a href="/ships">SHIPS</a>
+      <a href="{{ config.base_url }}/ships/">SHIPS</a>
       <span>/</span>
-      <a href="/ships?type={{ page.extra.ship_type }}">{{ page.extra.ship_type | upper }}</a>
+      <a href="{{ config.base_url }}/ships/?type={{ page.extra.ship_type }}">{{ page.extra.ship_type | upper }}</a>
       <span>/</span>
       <span>{% if page.extra.size == "Lgt" %}LIGHT CLASS{% elif page.extra.size == "Std" %}STANDARD CLASS{% else %}HEAVY CLASS{% endif %}</span>
       <span>/</span>

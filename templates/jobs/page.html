@@ -6,7 +6,7 @@
 <article class="detail-page">
   <header class="detail-header">
     <nav class="breadcrumb">
-      <a href="/jobs/">Jobs</a> / {{ page.extra.type }}
+      <a href="{{ config.base_url }}/jobs/">Jobs</a> / {{ page.extra.type }}
     </nav>
     <h1>{{ page.title }}</h1>
     <div class="detail-meta">
@@ -74,7 +74,7 @@
           {% for skill in page.extra.skills %}
           <tr class="skill-row {{ skill.type }}">
             <td>
-              <a href="/skills/{{ skill.name | lower | replace(from=' ', to='-') }}/">{{ skill.name }}</a>
+              <a href="{{ config.base_url }}/skills/{{ skill.name | lower | replace(from=' ', to='-') }}/">{{ skill.name }}</a>
             </td>
             <td>
               {% if skill.type == "expert" %}
@@ -97,7 +97,7 @@
         {% for quest in page.extra.quests %}
         <li>
           {% if quest.slug %}
-          <a href="/quests/{{ quest.slug }}/">{{ quest.name }}</a>
+          <a href="{{ config.base_url }}/quests/{{ quest.slug }}/">{{ quest.name }}</a>
           {% else %}
           {{ quest.name }}
           {% endif %}
@@ -109,7 +109,7 @@
   </div>
 
   <footer class="detail-footer">
-    <a href="/jobs/" class="back-link">← Back to Jobs</a>
+    <a href="{{ config.base_url }}/jobs/" class="back-link">← Back to Jobs</a>
   </footer>
 </article>
 {% endblock %}

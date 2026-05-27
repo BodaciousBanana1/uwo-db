@@ -48,6 +48,7 @@
 </div>
 
 <script>
+const BASE_URL = '{{ config.base_url }}';
 const allQuests = {{ all_quests | json_encode() | safe }};
 const allMaps = {{ all_maps | json_encode() | safe }};
 
@@ -179,7 +180,7 @@ function doSearch() {
       html += `
         <div class="city-result-block">
           <div class="city-result-header">
-            <h3><a href="/cities/${city}/">${formatCity(city)}</a></h3>
+            <h3><a href="${BASE_URL}/cities/${city}/">${formatCity(city)}</a></h3>
             <span class="city-result-counts">${data.quests.length} quests, ${data.maps.length} maps</span>
           </div>`;
 

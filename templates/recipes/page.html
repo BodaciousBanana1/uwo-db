@@ -6,12 +6,12 @@
 <article class="detail-page">
   <header class="detail-header">
     <nav class="breadcrumb">
-      <a href="/recipes/">Recipe Books</a>
+      <a href="{{ config.base_url }}/recipes/">Recipe Books</a>
     </nav>
     <h1>{{ page.title }}</h1>
     <div class="detail-meta">
       {% if page.extra.skill %}
-      <a href="/skills/{{ page.extra.skill_slug }}/" class="skill-badge-link">{{ page.extra.skill }}</a>
+      <a href="{{ config.base_url }}/skills/{{ page.extra.skill_slug }}/" class="skill-badge-link">{{ page.extra.skill }}</a>
       {% endif %}
       {% if page.extra.skill_rank > 0 %}
       <span class="rank-badge">Rank {{ page.extra.skill_rank }}+</span>
@@ -50,13 +50,13 @@
           <div class="recipe-formula">
             <span class="recipe-ingredients">
               {% for ing in recipe.ingredients %}
-              <a href="/trade-goods/{{ ing.slug }}/" class="ingredient-link">{{ ing.name }}</a> x{{ ing.quantity }}{% if not loop.last %} + {% endif %}
+              <a href="{{ config.base_url }}/trade-goods/{{ ing.slug }}/" class="ingredient-link">{{ ing.name }}</a> x{{ ing.quantity }}{% if not loop.last %} + {% endif %}
               {% endfor %}
             </span>
             <span class="recipe-arrow">→</span>
             <span class="recipe-output">
               {% if recipe.output.name %}
-              <a href="/trade-goods/{{ recipe.output.slug }}/" class="output-link">{{ recipe.output.name }}</a> x{{ recipe.output.quantity }}
+              <a href="{{ config.base_url }}/trade-goods/{{ recipe.output.slug }}/" class="output-link">{{ recipe.output.name }}</a> x{{ recipe.output.quantity }}
               {% endif %}
             </span>
           </div>
@@ -68,7 +68,7 @@
   </div>
 
   <footer class="detail-footer">
-    <a href="/recipes/" class="back-link">← Back to Recipe Books</a>
+    <a href="{{ config.base_url }}/recipes/" class="back-link">← Back to Recipe Books</a>
   </footer>
 </article>
 {% endblock %}

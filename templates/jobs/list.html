@@ -56,6 +56,7 @@
 </div>
 
 <script>
+const BASE_URL = '{{ config.base_url }}';
 const allJobs = {{ all_jobs | json_encode() | safe }};
 
 const searchInput = document.getElementById('job-search');
@@ -97,7 +98,7 @@ function filterJobs() {
 
   tbody.innerHTML = filtered.map(job => {
     return `<tr>
-      <td class="item-name"><a href="/jobs/${job.slug}/">${job.name}</a></td>
+      <td class="item-name"><a href="${BASE_URL}/jobs/${job.slug}/">${job.name}</a></td>
       <td><span class="badge badge-${job.type.toLowerCase()}">${job.type}</span></td>
       <td class="skills-cell">${formatSkills(job.expert_skills, 'expert')}</td>
       <td class="skills-cell">${formatSkills(job.favoured_skills, 'favoured')}</td>

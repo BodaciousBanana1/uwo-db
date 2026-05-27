@@ -98,6 +98,7 @@
 </div>
 
 <script>
+const BASE_URL = '{{ config.base_url }}';
 const allSkills = {{ all_skills | json_encode() | safe }};
 
 const searchInput = document.getElementById('skill-search');
@@ -180,7 +181,7 @@ function filterSkills() {
     const slug = slugify(s.name || '');
 
     return `<tr>
-      <td class="item-name"><a href="/skills/${slug}/">${s.name || '-'}</a></td>
+      <td class="item-name"><a href="${BASE_URL}/skills/${slug}/">${s.name || '-'}</a></td>
       <td>${s.type || '-'}</td>
       <td><span class="category-tag category-${(s.category || 'common').toLowerCase()}">${s.category || '-'}</span></td>
       <td class="num">${s.level_adventure || '-'}</td>
