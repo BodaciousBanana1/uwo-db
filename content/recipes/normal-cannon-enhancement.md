@@ -1,0 +1,14 @@
++++
+title = "Normal Cannon Enhancement"
+template = "recipes/page.html"
+
+[extra]
+id = "01800155"
+slug = "normal-cannon-enhancement"
+skill = "Casting"
+skill_slug = "casting"
+skill_rank = 6
+description = "Book outlining the techniques of casting a cannon with increased gun ports."
+obtained = "Seville, Lisbon, Venice, Marseille, Amsterdam, London - Craft shop"
+recipes = [{ name = "Demi-culverin (16) 6", skill = "Casting", rank = 6, ingredients = "Cannon Shot x50; Bronze x40", output = "Iron x30" }, { name = "Pedrero (14) 7", skill = "Casting", rank = 7, ingredients = "Cannon Shot x55; Bronze x50", output = "Iron x40" }, { name = "Pedrero (16) 8", skill = "Casting", rank = 8, ingredients = "Cannon Shot x65; Bronze x60", output = "Iron x50" }, { name = "Culverin (14) 9", skill = "Casting", rank = 9, ingredients = "Cannon x20; Cannon Shot x36", output = "Steel x30" }, { name = "Culverin (16) 10", skill = "Casting", rank = 10, ingredients = "Cannon Shot x50; Bronze x50", output = "Iron x35" }, { name = "Culverin (14) 10", skill = "Casting", rank = 10, ingredients = "Cannon x22; Cannon Shot x35", output = "Steel x20" }, { name = "Demi-culverin (16) 12", skill = "Casting", rank = 12, ingredients = "Cannon x30; Cannon Shot x45", output = "Steel x28" }, { name = "Demi-cannon (14) 9", skill = "Casting", rank = 9, ingredients = "Cannon x20; Cannon Shot x42", output = "Steel x30" }, { name = "Howitzer (14) 10", skill = "Casting", rank = 10, ingredients = "Cannon Shot x55; Bronze x55", output = "Iron x45" }, { name = "Howitzer (16) 11", skill = "Casting", rank = 11, ingredients = "Cannon Shot x60; Bronze x65", output = "Iron x50" }, { name = "Rapid-fire (12) 10", skill = "Casting", rank = 10, ingredients = "Cannon Shot x26; Bronze x38", output = "Iron x26" }, { name = "Rapid-fire (14) 11", skill = "Casting", rank = 11, ingredients = "Cannon Shot x40; Bronze x45", output = "Iron x30" }, { name = "Rapid-fire (16) 12", skill = "Casting", rank = 12, ingredients = "Cannon Shot x50; Bronze x55", output = "Iron x35" }, { name = "Mortar (10) 12", skill = "Casting", rank = 12, ingredients = "Cannon Shot x50; Bronze x50", output = "Iron x35" }, { name = "Mortar (12) 13", skill = "Casting", rank = 13, ingredients = "Cannon Shot x60; Bronze x60", output = "Iron x40" }, { name = "Mortar (14) 14", skill = "Casting", rank = 14, ingredients = "Cannon Shot x65; Bronze x65", output = "Iron x40" }, { name = "Mortar (16) 15", skill = "Casting", rank = 15, ingredients = "Cannon Shot x70; Bronze x70", output = "Iron x45" }, { name = "Perrier cannon (14) 12", skill = "Casting", rank = 12, ingredients = "Cannon x28; Cannon Shot x35", output = "Steel x22" }, { name = "Cannon (14) 13", skill = "Casting", rank = 13, ingredients = "Cannon x36; Cannon Shot x40", output = "Steel x36" }, { name = "Carronade (14) 14", skill = "Casting", rank = 14, ingredients = "Cannon x42; Cannon Shot x44", output = "Steel x42" }]
++++

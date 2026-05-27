@@ -1,0 +1,14 @@
++++
+title = "Fisherman Arts - Preservation Methods"
+template = "recipes/page.html"
+
+[extra]
+id = "01800054"
+slug = "fisherman-arts-preservation-methods"
+skill = "Storage"
+skill_slug = "storage"
+skill_rank = 1
+description = "Technique of slicing fresh fish and preserving with salt."
+obtained = "Seville, Lisbon, Venice, Marseille, Amsterdam, London - Item shop"
+recipes = [{ name = "Process blue mackerel 1", skill = "Storage", rank = 1, ingredients = "Blue Mackerel x1", output = "Fish x1-3" }, { name = "Process herring 1", skill = "Storage", rank = 1, ingredients = "Herring x1", output = "Fish x1-3" }, { name = "Process sardines 1", skill = "Storage", rank = 1, ingredients = "Sardine x1", output = "Fish x1-2" }, { name = "Process saury 1", skill = "Storage", rank = 1, ingredients = "Saury x1", output = "Fish x1-3" }, { name = "Process horse mackerel 2", skill = "Storage", rank = 2, ingredients = "Horse Mackerel x1", output = "Fish x1-3" }, { name = "Process red sea breem 2", skill = "Storage", rank = 2, ingredients = "Red Snapper x1", output = "Fish x2-4" }, { name = "Process codfish 3", skill = "Storage", rank = 3, ingredients = "Cod x1", output = "Fish x2-5" }, { name = "Process salmon 4", skill = "Storage", rank = 4, ingredients = "Salmon x1", output = "Fish x3-5" }, { name = "Processed bonito 5", skill = "Storage", rank = 5, ingredients = "Bonito x1", output = "Fish x3-5" }, { name = "Process tuna 8", skill = "Storage", rank = 8, ingredients = "Tuna x1", output = "Fish 6～7～ x9" }, { name = "Caviar recipe 13", skill = "Storage", rank = 13, ingredients = "Sturgeon x1; Salt x1", output = "Caviar x0-2" }, { name = "Salted sardines recipe 7", skill = "Storage", rank = 7, ingredients = "Salt x5; Anchovy x5", output = "Anchovies x3-5" }, { name = "Process striped mullet 1", skill = "Storage", rank = 1, ingredients = "Mullet x1", output = "Fish x1-2" }, { name = "Process Mackerel tuna 2", skill = "Storage", rank = 2, ingredients = "Mackerel Tuna x1", output = "Fish x1-3" }, { name = "Process Great Barracuda 2", skill = "Storage", rank = 2, ingredients = "Great Barracuda x1", output = "Fish x3-5" }, { name = "Process Indian Mackerel 2", skill = "Storage", rank = 2, ingredients = "Indian Mackerel x1", output = "Fish x1-2" }, { name = "Process striped bonito 2", skill = "Storage", rank = 2, ingredients = "Striped Bonito x1", output = "Fish x3-5" }, { name = "Process Peto 4", skill = "Storage", rank = 4, ingredients = "Peto x1", output = "Fish x6-8" }, { name = "Process Spanish mackerel 5", skill = "Storage", rank = 5, ingredients = "Spanish Mackerel x1", output = "Fish x6-8" }, { name = "Process marlin 14", skill = "Storage", rank = 14, ingredients = "Swordfish x1", output = "Fish 8∼10∼ x12" }, { name = "Process mako shark 14", skill = "Storage", rank = 14, ingredients = "Mako Shark x1", output = "Fish 6∼7∼ x9" }]
++++

@@ -1,0 +1,14 @@
++++
+title = "Traveller's Food Procuring Skill"
+template = "recipes/page.html"
+
+[extra]
+id = "01800008"
+slug = "travellers-food-procuring-skill"
+skill = "Storage"
+skill_slug = "storage"
+skill_rank = 1
+description = "Book compiling methods of collecting preserved foods and wild nuts."
+obtained = "Salonica, Benghazi - 200,000 - Investment"
+recipes = [{ name = "Process strawberries 1", skill = "Storage", rank = 1, ingredients = "Berries x3", output = "Dried Strawberries x1-2" }, { name = "Process prunes 2", skill = "Storage", rank = 2, ingredients = "Berries x3", output = "Prunes x1-2" }, { name = "Process pickles 3", skill = "Storage", rank = 3, ingredients = "Onions x1; White Vinegar x1", output = "Pickles x1-2" }, { name = "Process dried figs 3", skill = "Storage", rank = 3, ingredients = "Berries x3", output = "Dried Figs x1-2" }, { name = "Make dried apples 4", skill = "Storage", rank = 4, ingredients = "Berries x3", output = "Dried Apples x1-2" }, { name = "Process apricots 4", skill = "Storage", rank = 4, ingredients = "Berries x3", output = "Dried Apricots x1-2" }, { name = "Egg incubation 2", skill = "Storage", rank = 2, ingredients = "Eggs x2", output = "Chicken x1-2" }, { name = "Egg incubation 2", skill = "Storage", rank = 2, ingredients = "Eggs x2", output = "Ducks x1-2" }, { name = "Process dried mango 5", skill = "Storage", rank = 5, ingredients = "Berries x5", output = "Dried Mango x1-2" }, { name = "Lime juice recipe 7", skill = "Storage", rank = 7, ingredients = "", output = "Berries x1" }, { name = "Pick red chilli peppers 8", skill = "Storage", rank = 8, ingredients = "Exotic Fruit x5", output = "Chillies x1-2" }, { name = "Pick chilli peppers 9", skill = "Storage", rank = 9, ingredients = "Exotic Fruit x6", output = "Green Chillies x2-3" }, { name = "Distinguishing nuts 10", skill = "Storage", rank = 10, ingredients = "Exotic Fruit x5", output = "Cashew Nuts x1-2" }, { name = "Selecting spices 11", skill = "Storage", rank = 11, ingredients = "Exotic Fruit x5", output = "Allspice x1-2" }, { name = "Collecting jesuit's bark 12", skill = "Storage", rank = 12, ingredients = "Bark x5", output = "Cinchona Bark x1-2" }, { name = "Boiling down a prune 3", skill = "Storage", rank = 3, ingredients = "Prunes x1; Sugar x1", output = "Jam x1-3" }, { name = "Boiling down fruit 3", skill = "Storage", rank = 3, ingredients = "Berries x1; Sugar x1", output = "Jam x1-3" }, { name = "Boiling down a mango 5", skill = "Storage", rank = 5, ingredients = "Mangoes x1; Sugar x2", output = "Jam x2-4" }, { name = "Boiling a pineapple 6", skill = "Storage", rank = 6, ingredients = "Pineapples x1; Sugar x2", output = "Jam x3-5" }, { name = "Boiling down Cranberries 6", skill = "Storage", rank = 6, ingredients = "Sugar x2; Cranberries x5", output = "Jam x3-5" }]
++++

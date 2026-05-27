@@ -1,0 +1,14 @@
++++
+title = "Prairie Clothes Sewing Book"
+template = "recipes/page.html"
+
+[extra]
+id = "01800476"
+slug = "prairie-clothes-sewing-book"
+skill = "Sewing"
+skill_slug = "sewing"
+skill_rank = 0
+description = "A book compiling methods of sewing clothes worn by the people of Kazakhs."
+obtained = "(Town's mans Recipe) Kaffa - Item shop"
+recipes = [{ name = "Making Prairie Hat 17", skill = "Sewing", rank = 17, ingredients = "Cotton Fabric x20; Felt x20", output = "Embroidery Thread x10" }, { name = "Making Prairie Clothing 17", skill = "Sewing", rank = 17, ingredients = "Cotton Fabric x40; Felt x40", output = "Embroidery Thread x20" }]
++++

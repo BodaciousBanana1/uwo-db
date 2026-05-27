@@ -2887,3 +2887,125 @@ button { font-family: inherit; }
   margin-bottom: 1.5rem;
   flex-wrap: wrap;
 }
+
+/* === Recipe Books === */
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.recipe-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 8px;
+  padding: 1.25rem;
+  transition: all 0.15s;
+  display: block;
+}
+
+.recipe-card:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border);
+  transform: translateY(-2px);
+}
+
+.recipe-card-header {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.skill-badge, .skill-badge-link {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  background: rgba(201, 162, 39, 0.15);
+  border: 1px solid rgba(201, 162, 39, 0.3);
+  color: var(--accent-light);
+}
+
+.skill-badge-link:hover {
+  background: rgba(201, 162, 39, 0.25);
+}
+
+.rank-badge {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  background: var(--bg-input);
+  color: var(--text-dim);
+}
+
+.recipe-card h3 {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+
+.recipe-desc {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+
+.book-description, .obtained-info {
+  color: var(--text-dim);
+  line-height: 1.6;
+}
+
+.recipes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.recipe-item {
+  background: var(--bg-input);
+  border: 1px solid var(--border-subtle);
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+.recipe-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.recipe-name {
+  font-weight: 500;
+  color: var(--text);
+}
+
+.recipe-skill {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--accent);
+}
+
+.recipe-formula {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.9rem;
+  color: var(--text-dim);
+}
+
+.recipe-arrow {
+  color: var(--accent);
+  font-weight: bold;
+}
+
+.recipe-output {
+  color: var(--text);
+  font-weight: 500;
+}

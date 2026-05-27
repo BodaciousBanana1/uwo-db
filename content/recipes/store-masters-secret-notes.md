@@ -1,0 +1,14 @@
++++
+title = "Store Master's Secret Notes"
+template = "recipes/page.html"
+
+[extra]
+id = "01800278"
+slug = "store-masters-secret-notes"
+skill = "Storage"
+skill_slug = "storage"
+skill_rank = 1
+description = "Secret notes of store master outlining the techniques of mass production and special techniques."
+obtained = "Private Farm - Record Keeper(Town's mans Recipe)"
+recipes = [{ name = "Dye refinement - red", skill = "Storage", rank = 0, ingredients = "Safflower x10", output = "Large Leaves x30" }, { name = "Dye refinement - blue", skill = "Storage", rank = 0, ingredients = "Indian Indigo Dye x10", output = "Large Leaves x30" }, { name = "Dye refinement - gray", skill = "Storage", rank = 0, ingredients = "Logwood x10", output = "Large Leaves x30" }, { name = "Dye refinement Vol 2", skill = "Storage", rank = 2, ingredients = "", output = "" }, { name = "Dye refinement Vol 3", skill = "Storage", rank = 3, ingredients = "", output = "" }, { name = "Dye refinement Vol 4", skill = "Storage", rank = 4, ingredients = "", output = "" }, { name = "Dye refinement Vol 5", skill = "Storage", rank = 5, ingredients = "", output = "" }, { name = "Dye refinement Vol 6", skill = "Storage", rank = 6, ingredients = "", output = "" }, { name = "Dye refinement Vol 7", skill = "Storage", rank = 7, ingredients = "", output = "" }, { name = "Dye refinement Vol 8", skill = "Storage", rank = 8, ingredients = "", output = "" }, { name = "Dye refinement Vol 9", skill = "Storage", rank = 9, ingredients = "", output = "" }, { name = "Make fine dye", skill = "Storage", rank = 0, ingredients = "", output = "Large Leaves x30" }, { name = "Make finest dye", skill = "Storage", rank = 0, ingredients = "", output = "Large Leaves x50" }, { name = "Mass produce fish meat", skill = "Storage", rank = 0, ingredients = "Sardine x50", output = "Fish - x50" }, { name = "Mass produce raisins", skill = "Storage", rank = 0, ingredients = "Berries x100", output = "Raisins - x50" }, { name = "Make tanned leather", skill = "Storage", rank = 0, ingredients = "", output = "Leather x20" }, { name = "Mass production of suede", skill = "Storage", rank = 0, ingredients = "", output = "Leather x200" }, { name = "Mass production of exquisite dye", skill = "Storage", rank = 0, ingredients = "", output = "Large Leaves x250" }, { name = "Mass production of fine dye", skill = "Storage", rank = 0, ingredients = "", output = "Large Leaves x150" }]
++++

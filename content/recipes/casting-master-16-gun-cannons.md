@@ -1,0 +1,14 @@
++++
+title = "Casting Master 16-gun Cannons"
+template = "recipes/page.html"
+
+[extra]
+id = "01800359"
+slug = "casting-master-16-gun-cannons"
+skill = "Casting"
+skill_slug = "casting"
+skill_rank = 6
+description = "Book outlining ingenious techniques for casting various large multi-gun cannons."
+obtained = "UNOBTAINABLE"
+recipes = [{ name = "Demi-culverin (16) 6", skill = "Casting", rank = 6, ingredients = "Cannon Shot x40; Bronze x32", output = "Iron x24" }, { name = "Pedrero (16) 8", skill = "Casting", rank = 8, ingredients = "Cannon Shot x40; Bronze x40", output = "Iron x28" }, { name = "Culverin (16) 10", skill = "Casting", rank = 10, ingredients = "Cannon Shot x52; Bronze x48", output = "Iron x40" }, { name = "Howitzer (16) 11", skill = "Casting", rank = 11, ingredients = "Cannon Shot x48; Bronze x52", output = "Iron x40" }, { name = "Angel cannon (16) 11", skill = "Casting", rank = 11, ingredients = "Cannon Shot x56; Bronze x56", output = "Iron x40" }, { name = "Rapid-fire (16) 12", skill = "Casting", rank = 12, ingredients = "Cannon Shot x40; Bronze x44", output = "Iron x28" }, { name = "Exploder (16) 12", skill = "Casting", rank = 12, ingredients = "Cannon Shot x56; Bronze x56", output = "Steel x36" }, { name = "Demi-cannon (16) 12", skill = "Casting", rank = 12, ingredients = "Cannon Shot x40; Bronze x44", output = "Steel x28" }, { name = "Mortar (16) 15", skill = "Casting", rank = 15, ingredients = "Cannon Shot x40; Bronze x44", output = "Steel x28" }, { name = "Draconis (16) 16", skill = "Casting", rank = 16, ingredients = "Cannon Shot x40; Bronze x27", output = "Steel x28" }, { name = "Caprice (16) 17", skill = "Casting", rank = 17, ingredients = "Cannon Shot x36; Bronze x24", output = "Steel x22" }, { name = "Enfer cannon (16) 17", skill = "Casting", rank = 17, ingredients = "Cannon Shot x44; Bronze x64", output = "Steel x64" }, { name = "Meteora cannon (16) 17", skill = "Casting", rank = 17, ingredients = "Cannon Shot x49; Bronze x60", output = "Steel x64" }, { name = "Grand Seraphim (16) 15", skill = "Casting", rank = 15, ingredients = "Bronze x99", output = "Steel x99" }, { name = "Grand Exploder Cannon (16) 15", skill = "Casting", rank = 15, ingredients = "Cannon x65", output = "Steel x55" }, { name = "Grand High Perrier cannon (16) 15", skill = "Casting", rank = 15, ingredients = "Bronze x99", output = "Steel x99" }, { name = "Grand Cannon (16) 15", skill = "Casting", rank = 15, ingredients = "Cannon x75", output = "Steel x75" }, { name = "Grand Carronade (16) 15", skill = "Casting", rank = 15, ingredients = "Cannon x70", output = "Steel x70" }, { name = "Grand Volkan (16) 15", skill = "Casting", rank = 15, ingredients = "Bronze x99", output = "Steel x99" }, { name = "Grand Cheminee (16) 15", skill = "Casting", rank = 15, ingredients = "Bronze x99", output = "Steel x99" }]
++++
