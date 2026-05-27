@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+
+{% block title %}Recipe Books{% endblock %}
+
+{% block content %}
+<article class="list-page">
+  <header class="list-header">
+    <h1>Recipe Books</h1>
+    <p class="list-description">Crafting guides for Cooking, Sewing, Casting, Crafting, Alchemy, and more.</p>
+  </header>
+
+  <div class="filter-bar">
+    <input type="text" class="filter-input" id="book-search" placeholder="Search books...">
+    <select class="filter-select" id="skill-filter">
+      <option value="">All Skills</option>
+      <option value="cooking">Cooking</option>
+      <option value="sewing">Sewing</option>
+      <option value="casting">Casting</option>
+      <option value="crafting">Crafting</option>
+      <option value="alchemy">Alchemy</option>
+      <option value="storage">Storage</option>
+      <option value="handicrafts">Handicrafts</option>
+    </select>
+  </div>
+
+  <div class="recipe-grid" id="recipe-grid">
+    {% for page in section.pages %}
+    <a href="{{ page.permalink }}" class="recipe-card"
+       data-name="{{ page.title | lower }}"
+       data-skill="{{ page.extra.skill_slug | default(value='') }}">
+      <div class="recipe-card-header">
+        {% if page.extra.skill %}
+        <span class="skill-badge">{{ page.extra.skill }}</span>
+        {% endif %}
+        {% if page.extra.skill_rank > 0 %}
+        <span class="rank-badge">Rank {{ page.extra.skill_rank }}+</span>
+        {% endif %}
+      </div>
+      <h3>{{ page.title }}</h3>
+      <p class="recipe-desc">{{ page.extra.description | truncate(length=80) }}</p>
+      <div class="card-meta">
+        <span class="badge">{{ page.extra.recipes | length }} Recipes</span>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</article>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const searchInput = document.getElementById('book-search');
+  const skillFilter = document.getElementById('skill-filter');
+  const grid = document.getElementById('recipe-grid');
+  const cards = grid.querySelectorAll('.recipe-card');
+
+  function filterCards() {
+    const search = searchInput.value.toLowerCase();
+    const skill = skillFilter.value.toLowerCase();
+
+    cards.forEach(card => {
+      const name = card.dataset.name;
+      const cardSkill = card.dataset.skill;
+
+      let show = true;
+      if (search && !name.includes(search)) show = false;
+      if (skill && cardSkill !== skill) show = false;
+
+      card.style.display = show ? '' : 'none';
+    });
+  }
+
+  searchInput.addEventListener('input', filterCards);
+  skillFilter.addEventListener('change', filterCards);
+});
+</script>
+{% endblock %}

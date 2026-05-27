@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} - Recipe Books{% endblock %}
+
+{% block content %}
+<article class="detail-page">
+  <header class="detail-header">
+    <nav class="breadcrumb">
+      <a href="/recipes/">Recipe Books</a>
+    </nav>
+    <h1>{{ page.title }}</h1>
+    <div class="detail-meta">
+      {% if page.extra.skill %}
+      <a href="/skills/{{ page.extra.skill_slug }}/" class="skill-badge-link">{{ page.extra.skill }}</a>
+      {% endif %}
+      {% if page.extra.skill_rank > 0 %}
+      <span class="rank-badge">Rank {{ page.extra.skill_rank }}+</span>
+      {% endif %}
+      <a href="https://dhodb.ivyro.net/eg/main.php?id={{ page.extra.id }}" target="_blank" class="source-link">Source</a>
+    </div>
+  </header>
+
+  <div class="detail-grid">
+    {% if page.extra.description %}
+    <section class="detail-section">
+      <h2>Description</h2>
+      <p class="book-description">{{ page.extra.description }}</p>
+    </section>
+    {% endif %}
+
+    {% if page.extra.obtained %}
+    <section class="detail-section">
+      <h2>How to Obtain</h2>
+      <p class="obtained-info">{{ page.extra.obtained }}</p>
+    </section>
+    {% endif %}
+
+    {% if page.extra.recipes and page.extra.recipes | length > 0 %}
+    <section class="detail-section">
+      <h2>Recipes ({{ page.extra.recipes | length }})</h2>
+      <div class="recipes-list">
+        {% for recipe in page.extra.recipes %}
+        <div class="recipe-item">
+          <div class="recipe-header">
+            <span class="recipe-name">{{ recipe.name }}</span>
+            {% if recipe.skill %}
+            <span class="recipe-skill">{{ recipe.skill }} Rank {{ recipe.rank }}</span>
+            {% endif %}
+          </div>
+          <div class="recipe-formula">
+            <span class="recipe-ingredients">{{ recipe.ingredients }}</span>
+            <span class="recipe-arrow">→</span>
+            <span class="recipe-output">{{ recipe.output }}</span>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+  </div>
+
+  <footer class="detail-footer">
+    <a href="/recipes/" class="back-link">← Back to Recipe Books</a>
+  </footer>
+</article>
+{% endblock %}
