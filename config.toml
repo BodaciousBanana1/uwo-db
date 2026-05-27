@@ -1,5 +1,5 @@
-base_url = "https://uwo-wiki.example.com"
-title = "Ivyro - UWO Database"
+base_url = "https://bodaciousbanana1.github.io/uwo-db"
+title = "UWO Database"
 description = "Every clue, every recipe, every plate. An open reference for Uncharted Waters Online."
 compile_sass = true
 build_search_index = false
