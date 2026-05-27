@@ -10,5 +10,5 @@ skill_slug = "sewing"
 skill_rank = 0
 description = "A book compiling the methods of sewing the clothes worn in ancient Crete."
 obtained = "(Town's mans Recipe) Candia - Craft shop(신화 시대)"
-recipes = [{ name = "Sewing Ancient Cretan Civilian Clothes 7", skill = "Sewing", rank = 7, ingredients = "Cotton Fabric x10; Goldwork x3", output = "Embroidery Thread x5" }, { name = "Sewing Ancient Cretan Dress 8", skill = "Sewing", rank = 8, ingredients = "Woad x3; Cotton Fabric x10", output = "Gold Thread x5" }]
+recipes = [{ name = "Sewing Ancient Cretan Civilian Clothes 7", skill = "Sewing", rank = 7, ingredients = [{ name = "Cotton Fabric", slug = "cotton-fabric", quantity = "10" }, { name = "Goldwork", slug = "goldwork", quantity = "3" }], output = { name = "Embroidery Thread", slug = "embroidery-thread", quantity = "5" } }, { name = "Sewing Ancient Cretan Dress 8", skill = "Sewing", rank = 8, ingredients = [{ name = "Woad", slug = "woad", quantity = "3" }, { name = "Cotton Fabric", slug = "cotton-fabric", quantity = "10" }], output = { name = "Gold Thread", slug = "gold-thread", quantity = "5" } }]
 +++

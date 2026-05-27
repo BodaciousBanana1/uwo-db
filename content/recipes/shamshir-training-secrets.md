@@ -10,5 +10,5 @@ skill_slug = "casting"
 skill_rank = 8
 description = "Book outlining the secrets of tempering the Shamshir to increase Attack Power."
 obtained = "Islamic Merchant Fleet - NPC Drop"
-recipes = [{ name = "Strengthen sabres-Secrets 8", skill = "Casting", rank = 8, ingredients = "Coal x5", output = "Steel x5" }, { name = "Strengthen shamshirs-Secrets 8", skill = "Casting", rank = 8, ingredients = "Coal x4", output = "Steel x3" }]
+recipes = [{ name = "Strengthen sabres-Secrets 8", skill = "Casting", rank = 8, ingredients = [{ name = "Coal", slug = "coal", quantity = "5" }], output = { name = "Steel", slug = "steel", quantity = "5" } }, { name = "Strengthen shamshirs-Secrets 8", skill = "Casting", rank = 8, ingredients = [{ name = "Coal", slug = "coal", quantity = "4" }], output = { name = "Steel", slug = "steel", quantity = "3" } }]
 +++

@@ -10,5 +10,5 @@ skill_slug = "handicrafts"
 skill_rank = 0
 description = "Production technique taught by those who immigrated to the Company Colony."
 obtained = "(Town's mans Recipe) Company Colony - 수령"
-recipes = [{ name = "Make Han Chinese Female's Floral Decoration 12", skill = "Handicrafts", rank = 12, ingredients = "Red Flowers x2; Embroidery Thread x2", output = "Brass x10" }, { name = "Make a Han Chinese Dignitary Male's Cap 12", skill = "Sewing", rank = 12, ingredients = "Silk Cloth x10; Pearl x2", output = "Brass x2" }]
+recipes = [{ name = "Make Han Chinese Female's Floral Decoration 12", skill = "Handicrafts", rank = 12, ingredients = [{ name = "Red Flowers", slug = "red-flowers", quantity = "2" }, { name = "Embroidery Thread", slug = "embroidery-thread", quantity = "2" }], output = { name = "Brass", slug = "brass", quantity = "10" } }, { name = "Make a Han Chinese Dignitary Male's Cap 12", skill = "Sewing", rank = 12, ingredients = [{ name = "Silk Cloth", slug = "silk-cloth", quantity = "10" }, { name = "Pearl", slug = "pearl", quantity = "2" }], output = { name = "Brass", slug = "brass", quantity = "2" } }]
 +++

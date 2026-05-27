@@ -10,5 +10,5 @@ skill_slug = "handicrafts"
 skill_rank = 0
 description = "The method of making a saint statue."
 obtained = "Pernambuco - Sculptor(Town's mans Recipe)"
-recipes = [{ name = "Sculpt St. of Gunners 17 3", skill = "Handicrafts", rank = 3, ingredients = "Gold x12; Ruby x12", output = "Lumber x30" }]
+recipes = [{ name = "Sculpt St. of Gunners 17 3", skill = "Handicrafts", rank = 3, ingredients = [{ name = "Gold", slug = "gold", quantity = "12" }, { name = "Ruby", slug = "ruby", quantity = "12" }], output = { name = "Lumber", slug = "lumber", quantity = "30" } }]
 +++

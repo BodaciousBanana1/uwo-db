@@ -10,5 +10,5 @@ skill_slug = "alchemy"
 skill_rank = 0
 description = "A peculiar alchemy recipe born out of folklore."
 obtained = "Salonica - Old Local Doctor(Town's mans Recipe)"
-recipes = [{ name = "Brew Dionysus' liquor 3 2", skill = "Alchemy", rank = 2, ingredients = "Raisins x8; Wormwood x5", output = "Black Alchemy Ointment x1" }, { name = "Make large spider oil 4 4", skill = "Alchemy", rank = 4, ingredients = "", output = "Black Alchemy Ointment x1" }]
+recipes = [{ name = "Brew Dionysus' liquor 3 2", skill = "Alchemy", rank = 2, ingredients = [{ name = "Raisins", slug = "raisins", quantity = "8" }, { name = "Wormwood", slug = "wormwood", quantity = "5" }], output = { name = "Black Alchemy Ointment", slug = "black-alchemy-ointment", quantity = "1" } }, { name = "Make large spider oil 4 4", skill = "Alchemy", rank = 4, ingredients = [], output = { name = "Black Alchemy Ointment", slug = "black-alchemy-ointment", quantity = "1" } }]
 +++

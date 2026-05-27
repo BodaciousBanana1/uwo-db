@@ -10,5 +10,5 @@ skill_slug = "casting"
 skill_rank = 0
 description = "Production technique taught by those who immigrated to the Company Colony."
 obtained = "(Town's mans Recipe) Company Colony - 홍성"
-recipes = [{ name = "Making a Hong-style Jangdo 8", skill = "Casting", rank = 8, ingredients = "Steel x25", output = "Lumber x10" }, { name = "Making a Hong-style Gakgung 13", skill = "Casting", rank = 13, ingredients = "Steel x10", output = "Lumber x30" }]
+recipes = [{ name = "Making a Hong-style Jangdo 8", skill = "Casting", rank = 8, ingredients = [{ name = "Steel", slug = "steel", quantity = "25" }], output = { name = "Lumber", slug = "lumber", quantity = "10" } }, { name = "Making a Hong-style Gakgung 13", skill = "Casting", rank = 13, ingredients = [{ name = "Steel", slug = "steel", quantity = "10" }], output = { name = "Lumber", slug = "lumber", quantity = "30" } }]
 +++

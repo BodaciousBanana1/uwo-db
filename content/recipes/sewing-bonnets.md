@@ -10,5 +10,5 @@ skill_slug = "sewing"
 skill_rank = 12
 description = "Book detailing the making of hats for enhancing the lines of women's faces."
 obtained = "Marseille - Local Maiden(Town's mans Recipe)"
-recipes = [{ name = "Sewing Bonnet style Hats 12", skill = "Sewing", rank = 12, ingredients = "Satin x10; Georgette Fabric x10", output = "Pearl x10" }]
+recipes = [{ name = "Sewing Bonnet style Hats 12", skill = "Sewing", rank = 12, ingredients = [{ name = "Satin", slug = "satin", quantity = "10" }, { name = "Georgette Fabric", slug = "georgette-fabric", quantity = "10" }], output = { name = "Pearl", slug = "pearl", quantity = "10" } }]
 +++

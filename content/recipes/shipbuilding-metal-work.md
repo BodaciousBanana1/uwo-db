@@ -10,5 +10,5 @@ skill_slug = "casting"
 skill_rank = 0
 description = "The method of making a material for Shipbuilding."
 obtained = "Plymouth, Edinburgh, Antwerp, Oslo, Ceuta, Ragusa, Trieste, Odessa, Kefe - Shipwright(Town's mans Recipe)"
-recipes = [{ name = "Process iron 6", skill = "Casting", rank = 6, ingredients = "", output = "Iron x30" }]
+recipes = [{ name = "Process iron 6", skill = "Casting", rank = 6, ingredients = [], output = { name = "Iron", slug = "iron", quantity = "30" } }]
 +++

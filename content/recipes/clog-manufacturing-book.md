@@ -10,5 +10,5 @@ skill_slug = "handicrafts"
 skill_rank = 7
 description = "A book detailing methods for manufacturing clogs popular in Northern Europe."
 obtained = "(Town's mans Recipe) Bergen - 청년 (17th 2,3,4)"
-recipes = [{ name = "Northern European shoe manufacturing method 7", skill = "Handicrafts", rank = 7, ingredients = "", output = "Logs x10" }]
+recipes = [{ name = "Northern European shoe manufacturing method 7", skill = "Handicrafts", rank = 7, ingredients = [], output = { name = "Logs", slug = "logs", quantity = "10" } }]
 +++

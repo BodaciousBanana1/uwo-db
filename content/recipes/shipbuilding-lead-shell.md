@@ -10,5 +10,5 @@ skill_slug = "casting"
 skill_rank = 0
 description = "The method of making a material for Shipbuilding."
 obtained = "Calais - Shipwright(Town's mans Recipe)"
-recipes = [{ name = "Make Lead cannonballs 14", skill = "Casting", rank = 14, ingredients = "Black Ore x10; Cannon Shot x10", output = "Lead x10" }]
+recipes = [{ name = "Make Lead cannonballs 14", skill = "Casting", rank = 14, ingredients = [{ name = "Black Ore", slug = "black-ore", quantity = "10" }, { name = "Cannon Shot", slug = "cannon-shot", quantity = "10" }], output = { name = "Lead", slug = "lead", quantity = "10" } }]
 +++

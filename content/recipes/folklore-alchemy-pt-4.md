@@ -10,5 +10,5 @@ skill_slug = "alchemy"
 skill_rank = 0
 description = "A peculiar alchemy recipe born out of folklore."
 obtained = "Valencia - History Scholar(Town's mans Recipe)"
-recipes = [{ name = "Make Borgia's poison 4 3", skill = "Alchemy", rank = 3, ingredients = "Pigs x3", output = "Red Alchemy Ointment x1" }, { name = "Make guiding gloves 9 8", skill = "Alchemy", rank = 8, ingredients = "", output = "Red Alchemy Ointment x4" }]
+recipes = [{ name = "Make Borgia's poison 4 3", skill = "Alchemy", rank = 3, ingredients = [{ name = "Pigs", slug = "pigs", quantity = "3" }], output = { name = "Red Alchemy Ointment", slug = "red-alchemy-ointment", quantity = "1" } }, { name = "Make guiding gloves 9 8", skill = "Alchemy", rank = 8, ingredients = [], output = { name = "Red Alchemy Ointment", slug = "red-alchemy-ointment", quantity = "4" } }]
 +++

@@ -10,5 +10,5 @@ skill_slug = "handicrafts"
 skill_rank = 0
 description = "Construction method for a special ship hull with side wheels."
 obtained = "(Town's mans Recipe) Bilbao,Viana do Castelo,Cattaro,Le Havre,Rotterdam,Portsmouth - Steam Engineer"
-recipes = [{ name = "Making Special Side-wheel Hull 10 10", skill = "Handicrafts", rank = 10, ingredients = "", output = "" }]
+recipes = [{ name = "Making Special Side-wheel Hull 10 10", skill = "Handicrafts", rank = 10, ingredients = [], output = {} }]
 +++

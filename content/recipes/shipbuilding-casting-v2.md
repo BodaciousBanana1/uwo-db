@@ -10,5 +10,5 @@ skill_slug = "casting"
 skill_rank = 0
 description = "The method of making a material for Shipbuilding."
 obtained = "Plymouth, Antwerp, Hamburg, Stockholm, Bordeaux, Alexandria - Arms Dealer(Town's mans Recipe)"
-recipes = [{ name = "Make Modified Standard Gun Port 9", skill = "Casting", rank = 9, ingredients = "", output = "Lumber x30" }]
+recipes = [{ name = "Make Modified Standard Gun Port 9", skill = "Casting", rank = 9, ingredients = [], output = { name = "Lumber", slug = "lumber", quantity = "30" } }]
 +++

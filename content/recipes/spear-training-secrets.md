@@ -10,5 +10,5 @@ skill_slug = "casting"
 skill_rank = 9
 description = "Book outlining the secrets of tempering the spear and axe to increase Attack Power."
 obtained = "North Sea Armed Merchant fleet - NPC Drop"
-recipes = [{ name = "Strengthen spears-Secrets 9", skill = "Casting", rank = 9, ingredients = "Coal x5", output = "Steel x5" }, { name = "Strengthen halberds-Secrets 9", skill = "Casting", rank = 9, ingredients = "Coal x5", output = "Steel x5" }]
+recipes = [{ name = "Strengthen spears-Secrets 9", skill = "Casting", rank = 9, ingredients = [{ name = "Coal", slug = "coal", quantity = "5" }], output = { name = "Steel", slug = "steel", quantity = "5" } }, { name = "Strengthen halberds-Secrets 9", skill = "Casting", rank = 9, ingredients = [{ name = "Coal", slug = "coal", quantity = "5" }], output = { name = "Steel", slug = "steel", quantity = "5" } }]
 +++

@@ -10,5 +10,5 @@ skill_slug = "sewing"
 skill_rank = 15
 description = "Book detailing techniques for sewing clothing for Admiral Colon admirers."
 obtained = "Genoa - Duchess of Traetto(Town's mans Recipe)"
-recipes = [{ name = "Admiral Colon Outfit 15", skill = "Sewing", rank = 15, ingredients = "Damask Fabric x30", output = "Jewellery x20" }]
+recipes = [{ name = "Admiral Colon Outfit 15", skill = "Sewing", rank = 15, ingredients = [{ name = "Damask Fabric", slug = "damask-fabric", quantity = "30" }], output = { name = "Jewellery", slug = "jewellery", quantity = "20" } }]
 +++

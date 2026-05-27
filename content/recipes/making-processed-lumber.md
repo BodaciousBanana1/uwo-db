@@ -10,5 +10,5 @@ skill_slug = "handicrafts"
 skill_rank = 6
 description = "Technical manual outlining the manufacturing technique of processed lumber for shipbuilding."
 obtained = "Maroona Fleet (Nassau) - NPC Drop"
-recipes = [{ name = "Making processed lumber 6", skill = "Handicrafts", rank = 6, ingredients = "", output = "Lumber x45" }]
+recipes = [{ name = "Making processed lumber 6", skill = "Handicrafts", rank = 6, ingredients = [], output = { name = "Lumber", slug = "lumber", quantity = "45" } }]
 +++

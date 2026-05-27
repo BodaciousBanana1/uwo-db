@@ -10,5 +10,5 @@ skill_slug = "storage"
 skill_rank = 0
 description = "The method of making a material for Shipbuilding."
 obtained = "Riga - Shipwright(Town's mans Recipe)"
-recipes = [{ name = "Make a safe 12", skill = "Storage", rank = 12, ingredients = "Iron x20", output = "Steel x10" }]
+recipes = [{ name = "Make a safe 12", skill = "Storage", rank = 12, ingredients = [{ name = "Iron", slug = "iron", quantity = "20" }], output = { name = "Steel", slug = "steel", quantity = "10" } }]
 +++

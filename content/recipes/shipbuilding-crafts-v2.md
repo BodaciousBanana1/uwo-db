@@ -10,5 +10,5 @@ skill_slug = "handicrafts"
 skill_rank = 0
 description = "The method of making a material for Shipbuilding."
 obtained = "Nantes, Hamburg, Porto, Ragusa - Carpenter(Town's mans Recipe)"
-recipes = [{ name = "Make a medium mast 8", skill = "Handicrafts", rank = 8, ingredients = "", output = "Iron x20" }]
+recipes = [{ name = "Make a medium mast 8", skill = "Handicrafts", rank = 8, ingredients = [], output = { name = "Iron", slug = "iron", quantity = "20" } }]
 +++

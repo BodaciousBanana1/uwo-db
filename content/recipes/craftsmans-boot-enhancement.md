@@ -10,5 +10,5 @@ skill_slug = "handicrafts"
 skill_rank = 10
 description = "Technique of reinforcing boots and increasing their Defence Power."
 obtained = "Ragusa, Kolkata - 1,200,000 - Investment"
-recipes = [{ name = "Strengthen leather boot 10", skill = "Handicrafts", rank = 10, ingredients = "Leather x10", output = "Vegetable Oil x10" }, { name = "Strengthen fur boots 11", skill = "Handicrafts", rank = 11, ingredients = "Fur x10", output = "Vegetable Oil x10" }, { name = "Strengthen riding boots 11", skill = "Handicrafts", rank = 11, ingredients = "Leather x5", output = "Vegetable Oil x10" }]
+recipes = [{ name = "Strengthen leather boot 10", skill = "Handicrafts", rank = 10, ingredients = [{ name = "Leather", slug = "leather", quantity = "10" }], output = { name = "Vegetable Oil", slug = "vegetable-oil", quantity = "10" } }, { name = "Strengthen fur boots 11", skill = "Handicrafts", rank = 11, ingredients = [{ name = "Fur", slug = "fur", quantity = "10" }], output = { name = "Vegetable Oil", slug = "vegetable-oil", quantity = "10" } }, { name = "Strengthen riding boots 11", skill = "Handicrafts", rank = 11, ingredients = [{ name = "Leather", slug = "leather", quantity = "5" }], output = { name = "Vegetable Oil", slug = "vegetable-oil", quantity = "10" } }]
 +++

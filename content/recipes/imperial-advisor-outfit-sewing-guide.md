@@ -10,5 +10,5 @@ skill_slug = "sewing"
 skill_rank = 17
 description = "Book recording how to make clothing for the Advisor to the Imperial Court."
 obtained = "Frankfurt - Young servant(Town's mans Recipe)"
-recipes = [{ name = "Sewing Imperial Advisor Robes 17", skill = "Sewing", rank = 17, ingredients = "Rabbit Fur x50", output = "Garnet x20" }]
+recipes = [{ name = "Sewing Imperial Advisor Robes 17", skill = "Sewing", rank = 17, ingredients = [{ name = "Rabbit Fur", slug = "rabbit-fur", quantity = "50" }], output = { name = "Garnet", slug = "garnet", quantity = "20" } }]
 +++

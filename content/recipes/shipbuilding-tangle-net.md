@@ -10,5 +10,5 @@ skill_slug = "sewing"
 skill_rank = 0
 description = "The method of making a material for Shipbuilding."
 obtained = "Alexandria - Shipwright(Town's mans Recipe)"
-recipes = [{ name = "Make a tangle net 12", skill = "Sewing", rank = 12, ingredients = "", output = "" }]
+recipes = [{ name = "Make a tangle net 12", skill = "Sewing", rank = 12, ingredients = [], output = {} }]
 +++

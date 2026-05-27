@@ -10,5 +10,5 @@ skill_slug = "casting"
 skill_rank = 14
 description = "Book describing how to create swords that make deep wounds."
 obtained = "Hamburg - Young Knight(Town's mans Recipe)"
-recipes = [{ name = "Smithing Long Undulating Swords 14", skill = "Casting", rank = 14, ingredients = "", output = "Steel x30" }]
+recipes = [{ name = "Smithing Long Undulating Swords 14", skill = "Casting", rank = 14, ingredients = [], output = { name = "Steel", slug = "steel", quantity = "30" } }]
 +++

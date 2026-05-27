@@ -10,5 +10,5 @@ skill_slug = "casting"
 skill_rank = 0
 description = "The method of making a material for Shipbuilding."
 obtained = "Portobelo - Shipwright(Town's mans Recipe)"
-recipes = [{ name = "Make Special sea mines 13", skill = "Casting", rank = 13, ingredients = "Black-mud x10; Gunpowder x10", output = "Lead x10" }]
+recipes = [{ name = "Make Special sea mines 13", skill = "Casting", rank = 13, ingredients = [{ name = "Black-mud", slug = "black-mud", quantity = "10" }, { name = "Gunpowder", slug = "gunpowder", quantity = "10" }], output = { name = "Lead", slug = "lead", quantity = "10" } }]
 +++

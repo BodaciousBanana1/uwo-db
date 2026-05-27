@@ -10,5 +10,5 @@ skill_slug = "sewing"
 skill_rank = 15
 description = "A book detailing methods to make Senators' luxurious clothing."
 obtained = "Venice - Senator(Town's mans Recipe)"
-recipes = [{ name = "Senator Robe Patterns 15", skill = "Sewing", rank = 15, ingredients = "Silk Cloth x20", output = "Gold Thread x20" }]
+recipes = [{ name = "Senator Robe Patterns 15", skill = "Sewing", rank = 15, ingredients = [{ name = "Silk Cloth", slug = "silk-cloth", quantity = "20" }], output = { name = "Gold Thread", slug = "gold-thread", quantity = "20" } }]
 +++

@@ -10,5 +10,5 @@ skill_slug = "handicrafts"
 skill_rank = 6
 description = "Book containing the methods of making accessories used in ancient Babylon."
 obtained = "(Town's mans Recipe) Basra - Craft shop(기원전)"
-recipes = [{ name = "Making Babylonian Sandals 6", skill = "Handicrafts", rank = 6, ingredients = "Leather x25; Leather Cord x15", output = "Embroidery Thread x5" }, { name = "Making Babylonian Headdress 7", skill = "Handicrafts", rank = 7, ingredients = "Goldwork x5", output = "Copper x25" }]
+recipes = [{ name = "Making Babylonian Sandals 6", skill = "Handicrafts", rank = 6, ingredients = [{ name = "Leather", slug = "leather", quantity = "25" }, { name = "Leather Cord", slug = "leather-cord", quantity = "15" }], output = { name = "Embroidery Thread", slug = "embroidery-thread", quantity = "5" } }, { name = "Making Babylonian Headdress 7", skill = "Handicrafts", rank = 7, ingredients = [{ name = "Goldwork", slug = "goldwork", quantity = "5" }], output = { name = "Copper", slug = "copper", quantity = "25" } }]
 +++

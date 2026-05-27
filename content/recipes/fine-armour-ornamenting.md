@@ -10,5 +10,5 @@ skill_slug = "casting"
 skill_rank = 15
 description = "Decorating of fine armour."
 obtained = "Portuguese Merchant Fleet - NPC Drop"
-recipes = [{ name = "Decorate Plate Armour 15", skill = "Casting", rank = 15, ingredients = "Gold x32", output = "Iron x30" }]
+recipes = [{ name = "Decorate Plate Armour 15", skill = "Casting", rank = 15, ingredients = [{ name = "Gold", slug = "gold", quantity = "32" }], output = { name = "Iron", slug = "iron", quantity = "30" } }]
 +++

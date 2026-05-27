@@ -10,5 +10,5 @@ skill_slug = "handicrafts"
 skill_rank = 7
 description = "A book detailing special methods to manufacture garments."
 obtained = "Venice - Eleonora(Town's mans Recipe)"
-recipes = [{ name = "Making Layering tools 7", skill = "Handicrafts", rank = 7, ingredients = "", output = "" }]
+recipes = [{ name = "Making Layering tools 7", skill = "Handicrafts", rank = 7, ingredients = [], output = {} }]
 +++

@@ -48,9 +48,17 @@
             {% endif %}
           </div>
           <div class="recipe-formula">
-            <span class="recipe-ingredients">{{ recipe.ingredients }}</span>
+            <span class="recipe-ingredients">
+              {% for ing in recipe.ingredients %}
+              <a href="/trade-goods/{{ ing.slug }}/" class="ingredient-link">{{ ing.name }}</a> x{{ ing.quantity }}{% if not loop.last %} + {% endif %}
+              {% endfor %}
+            </span>
             <span class="recipe-arrow">→</span>
-            <span class="recipe-output">{{ recipe.output }}</span>
+            <span class="recipe-output">
+              {% if recipe.output.name %}
+              <a href="/trade-goods/{{ recipe.output.slug }}/" class="output-link">{{ recipe.output.name }}</a> x{{ recipe.output.quantity }}
+              {% endif %}
+            </span>
           </div>
         </div>
         {% endfor %}

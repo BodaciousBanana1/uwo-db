@@ -10,5 +10,5 @@ skill_slug = "sewing"
 skill_rank = 0
 description = "The production method of high class clothing, taught by a sewing master."
 obtained = "(Town's mans Recipe) Company Colony - 봉제 명인(남)"
-recipes = [{ name = "Nobles' Formal Hat Sewing Technique 13", skill = "Sewing", rank = 13, ingredients = "Silk Cloth x50", output = "Satin x20" }, { name = "Nobles' Formal Clothing Sewing Technique 13", skill = "Sewing", rank = 13, ingredients = "Woollen Fabric x50", output = "Gold x10" }, { name = "Luxurious Hat Production Technique 2 13", skill = "Sewing", rank = 13, ingredients = "", output = "Velvet x40" }]
+recipes = [{ name = "Nobles' Formal Hat Sewing Technique 13", skill = "Sewing", rank = 13, ingredients = [{ name = "Silk Cloth", slug = "silk-cloth", quantity = "50" }], output = { name = "Satin", slug = "satin", quantity = "20" } }, { name = "Nobles' Formal Clothing Sewing Technique 13", skill = "Sewing", rank = 13, ingredients = [{ name = "Woollen Fabric", slug = "woollen-fabric", quantity = "50" }], output = { name = "Gold", slug = "gold", quantity = "10" } }, { name = "Luxurious Hat Production Technique 2 13", skill = "Sewing", rank = 13, ingredients = [], output = { name = "Velvet", slug = "velvet", quantity = "40" } }]
 +++

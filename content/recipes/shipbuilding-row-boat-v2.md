@@ -10,5 +10,5 @@ skill_slug = "handicrafts"
 skill_rank = 0
 description = "The method of making a material for Shipbuilding."
 obtained = "Alexandria, Odessa - Shipyard Master(Town's mans Recipe)"
-recipes = [{ name = "Make Medium Row Boat 4 9", skill = "Handicrafts", rank = 9, ingredients = "", output = "" }]
+recipes = [{ name = "Make Medium Row Boat 4 9", skill = "Handicrafts", rank = 9, ingredients = [], output = {} }]
 +++

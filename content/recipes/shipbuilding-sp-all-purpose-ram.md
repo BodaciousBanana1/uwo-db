@@ -10,5 +10,5 @@ skill_slug = "casting"
 skill_rank = 0
 description = "The method of making a material for Shipbuilding."
 obtained = "Zanzibar - Shipwright(Town's mans Recipe)"
-recipes = [{ name = "Make Custom all purpose ram 15", skill = "Casting", rank = 15, ingredients = "", output = "Iron x10" }]
+recipes = [{ name = "Make Custom all purpose ram 15", skill = "Casting", rank = 15, ingredients = [], output = { name = "Iron", slug = "iron", quantity = "10" } }]
 +++

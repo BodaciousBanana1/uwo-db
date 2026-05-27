@@ -10,5 +10,5 @@ skill_slug = "sewing"
 skill_rank = 0
 description = "Book compiling the techniques of dyeing pirates' clothes. Sewing"
 obtained = "Nassau, Jolo - Craft shop(Town's mans Recipe)"
-recipes = [{ name = "Dying bicorne hats 11", skill = "Sewing", rank = 11, ingredients = "", output = "Logwood x25" }, { name = "Dye wide brimmed hats 11", skill = "Sewing", rank = 11, ingredients = "", output = "Logwood x25" }]
+recipes = [{ name = "Dying bicorne hats 11", skill = "Sewing", rank = 11, ingredients = [], output = { name = "Logwood", slug = "logwood", quantity = "25" } }, { name = "Dye wide brimmed hats 11", skill = "Sewing", rank = 11, ingredients = [], output = { name = "Logwood", slug = "logwood", quantity = "25" } }]
 +++

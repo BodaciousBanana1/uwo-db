@@ -10,5 +10,5 @@ skill_slug = "handicrafts"
 skill_rank = 8
 description = "Manufacturing technique of extra armouring made from special materials."
 obtained = "Company Colony – 73. Arsenal(Town's mans Recipe)"
-recipes = [{ name = "Lightening Live Oak 8", skill = "Handicrafts", rank = 8, ingredients = "", output = "Lumber x0" }, { name = "Hardening Live Oak 10", skill = "Handicrafts", rank = 10, ingredients = "", output = "Coal x0" }]
+recipes = [{ name = "Lightening Live Oak 8", skill = "Handicrafts", rank = 8, ingredients = [], output = { name = "Lumber", slug = "lumber", quantity = "0" } }, { name = "Hardening Live Oak 10", skill = "Handicrafts", rank = 10, ingredients = [], output = { name = "Coal", slug = "coal", quantity = "0" } }]
 +++

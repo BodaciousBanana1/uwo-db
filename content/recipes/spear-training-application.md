@@ -10,5 +10,5 @@ skill_slug = "casting"
 skill_rank = 8
 description = "Book outlining the applied method of tempering the spear and axe to increase Attack Power."
 obtained = "Lubeck, Oslo, Istanbul, Edinburgh, Riga - Item shop"
-recipes = [{ name = "Strengthen spears-Applied 8", skill = "Casting", rank = 8, ingredients = "Coal x5", output = "Steel x3" }, { name = "Strengthen halberds-Applied 8", skill = "Casting", rank = 8, ingredients = "Coal x5", output = "Steel x3" }]
+recipes = [{ name = "Strengthen spears-Applied 8", skill = "Casting", rank = 8, ingredients = [{ name = "Coal", slug = "coal", quantity = "5" }], output = { name = "Steel", slug = "steel", quantity = "3" } }, { name = "Strengthen halberds-Applied 8", skill = "Casting", rank = 8, ingredients = [{ name = "Coal", slug = "coal", quantity = "5" }], output = { name = "Steel", slug = "steel", quantity = "3" } }]
 +++

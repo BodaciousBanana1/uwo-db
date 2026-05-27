@@ -10,5 +10,5 @@ skill_slug = "cooking"
 skill_rank = 0
 description = "The method of making a material for Shipbuilding."
 obtained = "Luanda - Shipwright(Town's mans Recipe)"
-recipes = [{ name = "Galley construction 12", skill = "Cooking", rank = 12, ingredients = "Fish x30", output = "Flour x30" }]
+recipes = [{ name = "Galley construction 12", skill = "Cooking", rank = 12, ingredients = [{ name = "Fish", slug = "fish", quantity = "30" }], output = { name = "Flour", slug = "flour", quantity = "30" } }]
 +++

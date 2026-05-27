@@ -10,5 +10,5 @@ skill_slug = "handicrafts"
 skill_rank = 0
 description = "The method of making a material for Shipbuilding."
 obtained = "Genoa - Shipwright(Town's mans Recipe)"
-recipes = [{ name = "Make mast top 8", skill = "Handicrafts", rank = 8, ingredients = "", output = "" }]
+recipes = [{ name = "Make mast top 8", skill = "Handicrafts", rank = 8, ingredients = [], output = {} }]
 +++

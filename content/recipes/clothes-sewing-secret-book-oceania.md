@@ -10,5 +10,5 @@ skill_slug = "handicrafts"
 skill_rank = 0
 description = "A book received in reward for regional contributions that compiles the methods of making clothes."
 obtained = "Company Secretary(Town's mans Recipe)"
-recipes = [{ name = "Making an Oceanian Special Ring 10", skill = "Handicrafts", rank = 10, ingredients = "Coral x1; Goldwork x5", output = "Embroidery Thread x10" }, { name = "Making Male Oceanian Clothes 8", skill = "Sewing", rank = 8, ingredients = "Leather x10", output = "Bark x10" }, { name = "Making Female Oceanian Clothes 8", skill = "Sewing", rank = 8, ingredients = "Hemp Fabric x10", output = "Bark x10" }]
+recipes = [{ name = "Making an Oceanian Special Ring 10", skill = "Handicrafts", rank = 10, ingredients = [{ name = "Coral", slug = "coral", quantity = "1" }, { name = "Goldwork", slug = "goldwork", quantity = "5" }], output = { name = "Embroidery Thread", slug = "embroidery-thread", quantity = "10" } }, { name = "Making Male Oceanian Clothes 8", skill = "Sewing", rank = 8, ingredients = [{ name = "Leather", slug = "leather", quantity = "10" }], output = { name = "Bark", slug = "bark", quantity = "10" } }, { name = "Making Female Oceanian Clothes 8", skill = "Sewing", rank = 8, ingredients = [{ name = "Hemp Fabric", slug = "hemp-fabric", quantity = "10" }], output = { name = "Bark", slug = "bark", quantity = "10" } }]
 +++

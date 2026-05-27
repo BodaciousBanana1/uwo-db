@@ -10,5 +10,5 @@ skill_slug = "sewing"
 skill_rank = 0
 description = "Production technique of shipbuilding materials."
 obtained = "Seville, Lisbon, Venice, Marseille, Amsterdam, London - Sailmaker(Town's mans Recipe)"
-recipes = [{ name = "Make fine rigging 6", skill = "Sewing", rank = 6, ingredients = "Lumber x20", output = "Iron x10" }]
+recipes = [{ name = "Make fine rigging 6", skill = "Sewing", rank = 6, ingredients = [{ name = "Lumber", slug = "lumber", quantity = "20" }], output = { name = "Iron", slug = "iron", quantity = "10" } }]
 +++

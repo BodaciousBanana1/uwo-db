@@ -10,5 +10,5 @@ skill_slug = "handicrafts"
 skill_rank = 0
 description = "The method of making a material for Shipbuilding."
 obtained = "Jaffa - Painter(Town's mans Recipe)"
-recipes = [{ name = "Antifouling paint 12", skill = "Handicrafts", rank = 12, ingredients = "Black-mud x10", output = "Sulphur x10" }]
+recipes = [{ name = "Antifouling paint 12", skill = "Handicrafts", rank = 12, ingredients = [{ name = "Black-mud", slug = "black-mud", quantity = "10" }], output = { name = "Sulphur", slug = "sulphur", quantity = "10" } }]
 +++

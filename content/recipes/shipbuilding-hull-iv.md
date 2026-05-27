@@ -10,5 +10,5 @@ skill_slug = "handicrafts"
 skill_rank = 0
 description = "The method of making a material for Shipbuilding."
 obtained = "Company Colony - Shipyard Master(Town's mans Recipe)"
-recipes = [{ name = "Improved Double-Shelled Heavy Hull 17 16", skill = "Handicrafts", rank = 16, ingredients = "", output = "" }]
+recipes = [{ name = "Improved Double-Shelled Heavy Hull 17 16", skill = "Handicrafts", rank = 16, ingredients = [], output = {} }]
 +++

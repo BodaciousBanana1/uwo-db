@@ -10,5 +10,5 @@ skill_slug = "handicrafts"
 skill_rank = 0
 description = "The method of making a saint statue."
 obtained = "Ambon - Sculptor(Town's mans Recipe)"
-recipes = [{ name = "Sculpt St. of Sailors 17 3", skill = "Handicrafts", rank = 3, ingredients = "Jade x15; Marble x20", output = "Lumber x35" }]
+recipes = [{ name = "Sculpt St. of Sailors 17 3", skill = "Handicrafts", rank = 3, ingredients = [{ name = "Jade", slug = "jade", quantity = "15" }, { name = "Marble", slug = "marble", quantity = "20" }], output = { name = "Lumber", slug = "lumber", quantity = "35" } }]
 +++

@@ -10,5 +10,5 @@ skill_slug = "sewing"
 skill_rank = 17
 description = "Book recording how to make clothing preferred by Privateer Pirates."
 obtained = "Nassau - Pirate Ship Crew(Town's mans Recipe)"
-recipes = [{ name = "Sewing Drake's Outfit 17", skill = "Sewing", rank = 17, ingredients = "Cotton Fabric x30", output = "Lace x20" }]
+recipes = [{ name = "Sewing Drake's Outfit 17", skill = "Sewing", rank = 17, ingredients = [{ name = "Cotton Fabric", slug = "cotton-fabric", quantity = "30" }], output = { name = "Lace", slug = "lace", quantity = "20" } }]
 +++

@@ -3009,3 +3009,17 @@ button { font-family: inherit; }
   color: var(--text);
   font-weight: 500;
 }
+
+.ingredient-link, .output-link {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.ingredient-link:hover, .output-link:hover {
+  color: var(--accent-light);
+  text-decoration: underline;
+}
+
+.output-link {
+  font-weight: 500;
+}

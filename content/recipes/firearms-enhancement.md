@@ -10,5 +10,5 @@ skill_slug = "casting"
 skill_rank = 14
 description = "Book outlining the techniques of strengthening a weapon by making a groove inside it."
 obtained = "Bounty Lv54 (North Hobart / Island of New Guinea South Coast ) - NPC Drop"
-recipes = [{ name = "Carve groove in gun barrel 14", skill = "Casting", rank = 14, ingredients = "Brass x5", output = "Steel x5" }, { name = "Carve spiral groove in gun barrel 14", skill = "Casting", rank = 14, ingredients = "Brass x7", output = "Steel x7" }]
+recipes = [{ name = "Carve groove in gun barrel 14", skill = "Casting", rank = 14, ingredients = [{ name = "Brass", slug = "brass", quantity = "5" }], output = { name = "Steel", slug = "steel", quantity = "5" } }, { name = "Carve spiral groove in gun barrel 14", skill = "Casting", rank = 14, ingredients = [{ name = "Brass", slug = "brass", quantity = "7" }], output = { name = "Steel", slug = "steel", quantity = "7" } }]
 +++

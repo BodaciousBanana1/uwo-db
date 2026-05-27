@@ -10,5 +10,5 @@ skill_slug = "casting"
 skill_rank = 0
 description = "The method of making a material for Shipbuilding."
 obtained = "Massawa - Shipwright(Town's mans Recipe)"
-recipes = [{ name = "Make Explosive shells 14", skill = "Casting", rank = 14, ingredients = "Gunpowder x10", output = "Cannon Shot x10" }]
+recipes = [{ name = "Make Explosive shells 14", skill = "Casting", rank = 14, ingredients = [{ name = "Gunpowder", slug = "gunpowder", quantity = "10" }], output = { name = "Cannon Shot", slug = "cannon-shot", quantity = "10" } }]
 +++

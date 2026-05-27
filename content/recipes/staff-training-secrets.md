@@ -10,5 +10,5 @@ skill_slug = "casting"
 skill_rank = 0
 description = "Book outlining the secrets of decorating wands, staffs. Casting"
 obtained = "Arabian Armed Merchant Fleet - NPC Drop"
-recipes = [{ name = "Strengthen staffs-Secrets 8", skill = "Casting", rank = 8, ingredients = "", output = "Marble x5" }, { name = "Strengthen wooden staffs-Secrets 8", skill = "Casting", rank = 8, ingredients = "", output = "Lumber x10" }]
+recipes = [{ name = "Strengthen staffs-Secrets 8", skill = "Casting", rank = 8, ingredients = [], output = { name = "Marble", slug = "marble", quantity = "5" } }, { name = "Strengthen wooden staffs-Secrets 8", skill = "Casting", rank = 8, ingredients = [], output = { name = "Lumber", slug = "lumber", quantity = "10" } }]
 +++

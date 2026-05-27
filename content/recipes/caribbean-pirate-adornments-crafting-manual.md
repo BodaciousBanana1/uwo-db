@@ -10,5 +10,5 @@ skill_slug = "handicrafts"
 skill_rank = 11
 description = "A crafting manual for the garish adornments of the Caribbean pirates."
 obtained = "(Town's mans Recipe) Port Royal - 해적선 선원(17th 4기)"
-recipes = [{ name = "Ornate pirate's boots recipe 11", skill = "Handicrafts", rank = 11, ingredients = "", output = "Gold Thread x15" }]
+recipes = [{ name = "Ornate pirate's boots recipe 11", skill = "Handicrafts", rank = 11, ingredients = [], output = { name = "Gold Thread", slug = "gold-thread", quantity = "15" } }]
 +++

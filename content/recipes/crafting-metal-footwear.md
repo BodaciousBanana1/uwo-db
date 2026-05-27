@@ -10,5 +10,5 @@ skill_slug = "casting"
 skill_rank = 13
 description = "Book describing ways to make metal footwear."
 obtained = "Amsterdam - Transporter(Town's mans Recipe)"
-recipes = [{ name = "Making Tapered Iron Boots 13", skill = "Casting", rank = 13, ingredients = "", output = "Leather Cord x30" }]
+recipes = [{ name = "Making Tapered Iron Boots 13", skill = "Casting", rank = 13, ingredients = [], output = { name = "Leather Cord", slug = "leather-cord", quantity = "30" } }]
 +++

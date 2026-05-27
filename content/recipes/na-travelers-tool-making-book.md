@@ -10,5 +10,5 @@ skill_slug = "handicrafts"
 skill_rank = 0
 description = "A book recording information on how to make a tool for travelers originally produced in North America."
 obtained = "(Town's mans Recipe) Sacramento - 여행자"
-recipes = [{ name = "NA Traveler's Tool Making Book 10", skill = "Handicrafts", rank = 10, ingredients = "Gold Thread x5; Lumber x5", output = "Japanese Lacquer x10" }]
+recipes = [{ name = "NA Traveler's Tool Making Book 10", skill = "Handicrafts", rank = 10, ingredients = [{ name = "Gold Thread", slug = "gold-thread", quantity = "5" }, { name = "Lumber", slug = "lumber", quantity = "5" }], output = { name = "Japanese Lacquer", slug = "japanese-lacquer", quantity = "10" } }]
 +++

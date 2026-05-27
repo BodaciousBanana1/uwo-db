@@ -10,5 +10,5 @@ skill_slug = "sewing"
 skill_rank = 0
 description = "The method of making a material for Shipbuilding."
 obtained = "Nantes, Porto, Las Palmas, Algiers, Goa, Kolkata - Shipwright(Town's mans Recipe)"
-recipes = [{ name = "Make rope 6", skill = "Sewing", rank = 6, ingredients = "", output = "Jute x30" }]
+recipes = [{ name = "Make rope 6", skill = "Sewing", rank = 6, ingredients = [], output = { name = "Jute", slug = "jute", quantity = "30" } }]
 +++

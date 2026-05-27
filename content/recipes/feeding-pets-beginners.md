@@ -10,5 +10,5 @@ skill_slug = "storage"
 skill_rank = 4
 description = "Beginner's guide book on baiting technique by experienced trainer."
 obtained = "London - Trainer(Town's mans Recipe)"
-recipes = [{ name = "Process hay 4", skill = "Storage", rank = 4, ingredients = "", output = "Common Grass x20" }, { name = "Raising seafood 5", skill = "Storage", rank = 5, ingredients = "Horse Mackerel x3", output = "Spear Squid x3" }]
+recipes = [{ name = "Process hay 4", skill = "Storage", rank = 4, ingredients = [], output = { name = "Common Grass", slug = "common-grass", quantity = "20" } }, { name = "Raising seafood 5", skill = "Storage", rank = 5, ingredients = [{ name = "Horse Mackerel", slug = "horse-mackerel", quantity = "3" }], output = { name = "Spear Squid", slug = "spear-squid", quantity = "3" } }]
 +++
