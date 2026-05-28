@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99994092"
 quest_number = "16586"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 4
 exp_reward = 81000
 fame_reward = 3000
-variants = [{ city = "Marseille Adventurer's Guild", guild_type = "Adventurer", id = "99994092", slug = "dragon-of-africa" }]
+variants = [{ city = "Marseille Adventurer's Guild", guild_type = "Adventure", id = "99994092", slug = "dragon-of-africa" }]
 skills = [{ name = "Search", level = 1 }, { name = "Biology", level = 2 }, { name = "Portuguese", level = 1 }]
 discovery = "Bones of Hornless Dragon"
 discovery_id = "70000388"

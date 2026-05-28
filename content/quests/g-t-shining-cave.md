@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990757"
 quest_number = "14332"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 10
 exp_reward = 470000
 fame_reward = 40000
-variants = [{ city = "San Francisco Adventurer's Guild", guild_type = "Adventurer", id = "99990757", slug = "g-t-shining-cave" }]
+variants = [{ city = "San Francisco Adventurer's Guild", guild_type = "Adventure", id = "99990757", slug = "g-t-shining-cave" }]
 skills = [{ name = "Ecological Research", level = 15 }, { name = "Biology", level = 17 }, { name = "Oceanic Languages", level = 1 }]
 discovery = "Arachnocampa"
 discovery_id = "70003133"

@@ -8,13 +8,13 @@ slug = "buddhism-in-nepal"
 id = "99990761"
 type = "Adventure"
 city = "Alexandria"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Puskarini Pond"
 reward = 0
 advance = 0
 difficulty = 10
 skills = [{ name = "Recognition", level = 15 }, { name = "Theology", level = 17 }, { name = "Malay/Tagalog", level = 1 }]
-variants = [{ city = "Alexandria", guild_type = "Adventurer", id = "99990761", slug = "buddhism-in-nepal" }]
+variants = [{ city = "Alexandria", guild_type = "Adventure", id = "99990761", slug = "buddhism-in-nepal" }]
 steps = [{ step = 1, location = "Calicut", action = "Talk to Temple Staff x3 between Temple and Archive" }, { step = 4, location = "Banda Aceh", action = "Talk to Seafarer" }, { step = 5, location = "Bay of Bengal North Coast", action = "Use" }]
 discovery_description = "An important Buddhism temple in Nepal. A pagoda stands at the center of the temple. On all four walls of the pagoda, is a painting of 'Buddha's eyes' which is said to see through everything."
 +++

@@ -8,12 +8,12 @@ slug = "develop-sea-route-to-marseilles-santo-domingo"
 id = "99997131"
 type = "Adventure"
 city = "Santo Domingo"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 5
 skills = [{ name = "French", level = 1 }]
-variants = [{ city = "Portobelo", guild_type = "Adventurer", id = "99997089", slug = "develop-sea-route-to-marseilles-portobelo" }, { city = "Santo Domingo", guild_type = "Adventurer", id = "99997131", slug = "develop-sea-route-to-marseilles-santo-domingo" }]
+variants = [{ city = "Portobelo", guild_type = "Adventure", id = "99997089", slug = "develop-sea-route-to-marseilles-portobelo" }, { city = "Santo Domingo", guild_type = "Adventure", id = "99997131", slug = "develop-sea-route-to-marseilles-santo-domingo" }]
 steps = [{ step = 1, location = "Marseilles", action = "Talk to Port Official" }]
 +++

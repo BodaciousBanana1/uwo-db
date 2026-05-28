@@ -8,12 +8,12 @@ slug = "new-items-recommended-by-the-item-shop"
 id = "99997511"
 type = "Adventure"
 city = "Lisbon"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 1
 skills = [{ name = "Portuguese", level = 1 }]
-variants = [{ city = "Lisbon", guild_type = "Adventurer", id = "99997511", slug = "new-items-recommended-by-the-item-shop" }]
+variants = [{ city = "Lisbon", guild_type = "Adventure", id = "99997511", slug = "new-items-recommended-by-the-item-shop" }]
 steps = []
 +++

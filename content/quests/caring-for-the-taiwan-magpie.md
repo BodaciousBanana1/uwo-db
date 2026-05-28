@@ -8,12 +8,12 @@ slug = "caring-for-the-taiwan-magpie"
 id = "99996810"
 type = "Adventure"
 city = "Hangzhou"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Taiwan Magpie"
 reward = 0
 advance = 0
 difficulty = 5
 skills = [{ name = "Chinese", level = 1 }]
-variants = [{ city = "Hangzhou", guild_type = "Adventurer", id = "99996810", slug = "caring-for-the-taiwan-magpie" }]
+variants = [{ city = "Hangzhou", guild_type = "Adventure", id = "99996810", slug = "caring-for-the-taiwan-magpie" }]
 steps = [{ step = 1, location = "Tamsui", action = "Talk to Chien-Hung" }, { step = 1, location = "Tamsui", action = "Chien Hung" }, { step = 2, location = "Tamsui Southeast", action = "Click the Diagonal Boulder in the south (2x)" }, { step = 2, location = "Tamsui Southeast", action = "Diagonal boulder (2x)" }, { step = 3, location = "Tamsui", action = "Talk to Chien-Hung (3x)" }, { step = 3, location = "Tamsui", action = "Chien Hung (3x)" }]
 +++

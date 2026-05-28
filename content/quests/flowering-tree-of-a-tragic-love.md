@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99991291"
 quest_number = "15763"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 3
 exp_reward = 215000
 fame_reward = 0
-variants = [{ city = "Further Research", guild_type = "Adventurer", id = "99991291", slug = "flowering-tree-of-a-tragic-love" }]
+variants = [{ city = "Further Research", guild_type = "Adventure", id = "99991291", slug = "flowering-tree-of-a-tragic-love" }]
 skills = [{ name = "Ecological Research", level = 8 }, { name = "Biology", level = 10 }]
 discovery = "Intimidating Blue-ringed Octopus"
 discovery_id = "70003506"

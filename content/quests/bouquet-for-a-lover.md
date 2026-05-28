@@ -8,13 +8,13 @@ slug = "bouquet-for-a-lover"
 id = "99996899"
 type = "Adventure"
 city = "Jakarta"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Leshan Giant Buddha"
 reward = 0
 advance = 0
 difficulty = 5
 skills = [{ name = "Ecological Research", level = 4 }, { name = "Biology", level = 6 }, { name = "Chinese", level = 1 }]
-variants = [{ city = "Jakarta", guild_type = "Adventurer", id = "99996899", slug = "bouquet-for-a-lover" }]
+variants = [{ city = "Jakarta", guild_type = "Adventure", id = "99996899", slug = "bouquet-for-a-lover" }]
 steps = [{ step = 1, location = "Chongqing", action = "Talk to Xiao Fei (2x)" }, { step = 2, location = "Eastern Mount Emei", action = "Use" }]
 discovery_description = "Light purple flower that blooms in fall, and inhabits China and Korea. The root is used as a medicine."
 exp_reward = 460

@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99997369"
 quest_number = "6495"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 5
 exp_reward = 79000
 fame_reward = 0
-variants = [{ city = "Tunis Adventurer's Guild", guild_type = "Adventurer", id = "99997369", slug = "girl-who-sought-johns-head" }]
+variants = [{ city = "Tunis Adventurer's Guild", guild_type = "Adventure", id = "99997369", slug = "girl-who-sought-johns-head" }]
 skills = [{ name = "Search", level = 4 }, { name = "Appraisal", level = 6 }, { name = "Unlock", level = 4 }]
 discovery = "Salome's Veil"
 discovery_id = "70001550"

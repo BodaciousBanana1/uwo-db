@@ -8,12 +8,12 @@ slug = "the-young-girl-and-the-cat"
 id = "99998204"
 type = "Adventure"
 city = "Aden"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 5
 skills = [{ name = "Persian", level = 1 }]
-variants = [{ city = "Aden", guild_type = "Adventurer", id = "99998204", slug = "the-young-girl-and-the-cat" }]
+variants = [{ city = "Aden", guild_type = "Adventure", id = "99998204", slug = "the-young-girl-and-the-cat" }]
 steps = []
 +++

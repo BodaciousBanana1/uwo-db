@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99996758"
 quest_number = "7646"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 3
 exp_reward = 66000
 fame_reward = 0
-variants = [{ city = "Hangzhou Adventurer's Guild", guild_type = "Adventurer", id = "99996758", slug = "popular-souveneir" }]
+variants = [{ city = "Hangzhou Adventurer's Guild", guild_type = "Adventure", id = "99996758", slug = "popular-souveneir" }]
 skills = [{ name = "Search", level = 2 }, { name = "Appraisal", level = 4 }]
 discovery = "Kyoto Doll"
 discovery_id = "70001745"

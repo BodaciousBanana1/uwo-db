@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990828"
 quest_number = "15377"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 7
 exp_reward = 167000
 fame_reward = 0
-variants = [{ city = "Aden Adventurer's Guild", guild_type = "Adventurer", id = "99990828", slug = "g-t-the-law-of-ancient-india" }]
+variants = [{ city = "Aden Adventurer's Guild", guild_type = "Adventure", id = "99990828", slug = "g-t-the-law-of-ancient-india" }]
 skills = [{ name = "Search", level = 6 }, { name = "Theology", level = 8 }, { name = "Indian Languages", level = 1 }]
 discovery = "The Pillars of Dharma"
 discovery_id = "70000236"

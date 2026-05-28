@@ -8,12 +8,12 @@ slug = "gtrequesting-rescue-of-immigrant-fleet-immigrants"
 id = "99990985"
 type = "Adventure"
 city = "Immigrants"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 2
 skills = []
-variants = [{ city = "Lisbon", guild_type = "Maritime", id = "99991006", slug = "gtrequesting-rescue-of-immigrant-fleet-lisbon" }, { city = "Venice", guild_type = "Maritime", id = "99990997", slug = "gtrequesting-rescue-of-immigrant-fleet-venice" }, { city = "London", guild_type = "Maritime", id = "99991019", slug = "gtrequesting-rescue-of-immigrant-fleet-london" }, { city = "Immigrants", guild_type = "Adventurer", id = "99990985", slug = "gtrequesting-rescue-of-immigrant-fleet-immigrants" }]
+variants = [{ city = "Lisbon", guild_type = "Maritime", id = "99991006", slug = "gtrequesting-rescue-of-immigrant-fleet-lisbon" }, { city = "Venice", guild_type = "Maritime", id = "99990997", slug = "gtrequesting-rescue-of-immigrant-fleet-venice" }, { city = "London", guild_type = "Maritime", id = "99991019", slug = "gtrequesting-rescue-of-immigrant-fleet-london" }, { city = "Immigrants", guild_type = "Adventure", id = "99990985", slug = "gtrequesting-rescue-of-immigrant-fleet-immigrants" }]
 steps = []
 +++

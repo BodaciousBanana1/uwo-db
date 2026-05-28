@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990769"
 quest_number = "16367"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 10
 exp_reward = 446000
 fame_reward = 40000
-variants = [{ city = "San Francisco Adventurer's Guild", guild_type = "Adventurer", id = "99990769", slug = "famous-books-of-china" }]
+variants = [{ city = "San Francisco Adventurer's Guild", guild_type = "Adventure", id = "99990769", slug = "famous-books-of-china" }]
 skills = [{ name = "Search", level = 15 }, { name = "Appraisal", level = 17 }, { name = "Chinese", level = 1 }]
 discovery = "Jin Ping Mei"
 discovery_id = "70003119"

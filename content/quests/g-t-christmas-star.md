@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990715"
 quest_number = "16069"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 10
 exp_reward = 687000
 fame_reward = 60000
-variants = [{ city = "Venice Adventurer's Guild", guild_type = "Adventurer", id = "99990715", slug = "g-t-christmas-star" }]
+variants = [{ city = "Venice Adventurer's Guild", guild_type = "Adventure", id = "99990715", slug = "g-t-christmas-star" }]
 skills = [{ name = "Recognition", level = 15 }, { name = "Astronomy", level = 17 }]
 discovery = "Star of Bethlehem"
 discovery_id = "70003145"

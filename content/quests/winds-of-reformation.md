@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99991450"
 quest_number = "16763"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 7
 exp_reward = 217000
 fame_reward = 20000
-variants = [{ city = "St. Petersburg Adventurer's Guild", guild_type = "Adventurer", id = "99991450", slug = "winds-of-reformation" }]
+variants = [{ city = "St. Petersburg Adventurer's Guild", guild_type = "Adventure", id = "99991450", slug = "winds-of-reformation" }]
 skills = [{ name = "Search", level = 8 }, { name = "Theology", level = 10 }, { name = "German", level = 1 }]
 discovery = "Ninety-five Theses"
 discovery_id = "70003641"

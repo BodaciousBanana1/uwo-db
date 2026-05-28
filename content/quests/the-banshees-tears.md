@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99993319"
 quest_number = "8775"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 5
 exp_reward = 57000
 fame_reward = 10000
-variants = [{ city = "London Adventurer's Guild", guild_type = "Adventurer", id = "99993319", slug = "the-banshees-tears" }]
+variants = [{ city = "London Adventurer's Guild", guild_type = "Adventure", id = "99993319", slug = "the-banshees-tears" }]
 skills = [{ name = "Search", level = 3 }, { name = "Appraisal", level = 5 }, { name = "Unlock", level = 3 }]
 discovery = "The Banshee's Tears"
 discovery_id = "70000368"

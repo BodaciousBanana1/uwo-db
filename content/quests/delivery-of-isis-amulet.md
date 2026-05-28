@@ -8,12 +8,12 @@ slug = "delivery-of-isis-amulet"
 id = "99997324"
 type = "Adventure"
 city = "Athens"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 8
 skills = [{ name = "Arabic", level = 1 }]
-variants = [{ city = "Athens", guild_type = "Adventurer", id = "99997324", slug = "delivery-of-isis-amulet" }]
+variants = [{ city = "Athens", guild_type = "Adventure", id = "99997324", slug = "delivery-of-isis-amulet" }]
 steps = []
 +++

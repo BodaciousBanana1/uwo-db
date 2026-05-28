@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99995200"
 quest_number = "1305"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 4
 exp_reward = 20000
 fame_reward = 0
-variants = [{ city = "Venice Adventurer's Guild", guild_type = "Adventurer", id = "99995200", slug = "collecting-pearl-oysters" }]
+variants = [{ city = "Venice Adventurer's Guild", guild_type = "Adventure", id = "99995200", slug = "collecting-pearl-oysters" }]
 skills = [{ name = "Collection", level = 5 }]
 +++
 

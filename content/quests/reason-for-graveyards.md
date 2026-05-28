@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990760"
 quest_number = "13307"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 10
 exp_reward = 535000
 fame_reward = 50000
-variants = [{ city = "Calicut Adventurer's Guild", guild_type = "Adventurer", id = "99990760", slug = "reason-for-graveyards" }]
+variants = [{ city = "Calicut Adventurer's Guild", guild_type = "Adventure", id = "99990760", slug = "reason-for-graveyards" }]
 skills = [{ name = "Recognition", level = 15 }, { name = "Theology", level = 17 }, { name = "Portuguese", level = 1 }]
 discovery = "Bone Chapel"
 discovery_id = "70003093"

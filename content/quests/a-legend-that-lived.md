@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99992774"
 quest_number = "12641"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 5
 exp_reward = 65000
 fame_reward = 0
-variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventurer", id = "99992774", slug = "a-legend-that-lived" }]
+variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventure", id = "99992774", slug = "a-legend-that-lived" }]
 skills = [{ name = "Search", level = 4 }, { name = "Archaeology", level = 6 }, { name = "Unlock", level = 4 }]
 discovery = "The Statue of King Naresuan"
 discovery_id = "70001064"

@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990221"
 quest_number = "16637"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 9
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Stockholm Adventurer's Guild", guild_type = "Adventurer", id = "99990221", slug = "search-for-the-vanished-star" }]
+variants = [{ city = "Stockholm Adventurer's Guild", guild_type = "Adventure", id = "99990221", slug = "search-for-the-vanished-star" }]
 skills = [{ name = "Recognition", level = 11 }, { name = "Astronomy", level = 13 }, { name = "German", level = 1 }]
 discovery = "Uranus"
 discovery_id = "70002667"

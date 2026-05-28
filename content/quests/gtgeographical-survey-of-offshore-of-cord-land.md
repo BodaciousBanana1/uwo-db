@@ -8,12 +8,12 @@ slug = "gtgeographical-survey-of-offshore-of-cord-land"
 id = "99991056"
 type = "Adventure"
 city = "Immigrants"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 2
 skills = [{ name = "Recognition", level = 1 }]
-variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99991056", slug = "gtgeographical-survey-of-offshore-of-cord-land" }]
+variants = [{ city = "Immigrants", guild_type = "Adventure", id = "99991056", slug = "gtgeographical-survey-of-offshore-of-cord-land" }]
 steps = []
 +++

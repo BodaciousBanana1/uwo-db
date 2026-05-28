@@ -8,12 +8,12 @@ slug = "gt-procurement-of-stone"
 id = "99991193"
 type = "Adventure"
 city = "London"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 3
 skills = [{ name = "Collection", level = 1 }, { name = "French", level = 1 }]
-variants = [{ city = "London", guild_type = "Adventurer", id = "99991193", slug = "gt-procurement-of-stone" }]
+variants = [{ city = "London", guild_type = "Adventure", id = "99991193", slug = "gt-procurement-of-stone" }]
 steps = []
 +++

@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99994420"
 quest_number = "16572"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 7
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Venice Adventurer's Guild", guild_type = "Adventurer", id = "99994420", slug = "legend-of-the-labyrinthos" }]
+variants = [{ city = "Venice Adventurer's Guild", guild_type = "Adventure", id = "99994420", slug = "legend-of-the-labyrinthos" }]
 skills = [{ name = "Recognition", level = 6 }, { name = "Archaeology", level = 8 }, { name = "Theology", level = 4 }]
 discovery = "Knossos Palace"
 discovery_id = "70000008"

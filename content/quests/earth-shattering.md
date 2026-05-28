@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99997630"
 quest_number = "12410"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 9
 exp_reward = 369000
 fame_reward = 30000
-variants = [{ city = "London Adventurer's Guild", guild_type = "Adventurer", id = "99997630", slug = "earth-shattering" }]
+variants = [{ city = "London Adventurer's Guild", guild_type = "Adventure", id = "99997630", slug = "earth-shattering" }]
 skills = [{ name = "Ecological Research", level = 12 }, { name = "Biology", level = 14 }, { name = "Malay/Tagalog", level = 1 }]
 discovery = "Platypus"
 discovery_id = "70001315"

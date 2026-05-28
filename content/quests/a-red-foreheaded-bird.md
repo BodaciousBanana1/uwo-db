@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990943"
 quest_number = "15070"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 3
 exp_reward = 74000
 fame_reward = 0
-variants = [{ city = "Amsterdam Adventurer's Guild", guild_type = "Adventurer", id = "99990943", slug = "a-red-foreheaded-bird" }]
+variants = [{ city = "Amsterdam Adventurer's Guild", guild_type = "Adventure", id = "99990943", slug = "a-red-foreheaded-bird" }]
 skills = [{ name = "Ecological Research", level = 3 }, { name = "Biology", level = 5 }]
 discovery = "Common Redpoll"
 discovery_id = "70002367"

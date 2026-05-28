@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990669"
 quest_number = "0"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 3
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Sagres Adventurer's Guild", guild_type = "Adventurer", id = "99990669", slug = "advanced-adventurer-course-final-exam" }]
+variants = [{ city = "Sagres Adventurer's Guild", guild_type = "Adventure", id = "99990669", slug = "advanced-adventurer-course-final-exam" }]
 skills = [{ name = "Search", level = 2 }, { name = "Archaeology", level = 4 }, { name = "Unlock", level = 2 }]
 discovery = "Ramses II's Headdress"
 discovery_id = "70000179"

@@ -8,13 +8,13 @@ slug = "distinct-african-instrument"
 id = "99990775"
 type = "Adventure"
 city = "Stockholm"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Balafon"
 reward = 0
 advance = 0
 difficulty = 10
 skills = [{ name = "Search", level = 15 }, { name = "Appraisal", level = 17 }, { name = "West African Languages", level = 1 }]
-variants = [{ city = "Stockholm", guild_type = "Adventurer", id = "99990775", slug = "distinct-african-instrument" }]
+variants = [{ city = "Stockholm", guild_type = "Adventure", id = "99990775", slug = "distinct-african-instrument" }]
 steps = []
 discovery_description = "An instrument played in West Africa. Below this wooden xylophone are uniquely shaped gourds. Inside the gourds are spiderwebs and bats wings, which amplify the vibration effects of the instrument."
 +++

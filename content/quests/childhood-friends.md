@@ -8,12 +8,12 @@ slug = "childhood-friends"
 id = "99990696"
 type = "Adventure"
 city = "Lisbon"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Threatening Letter Addressed to Jose's Father"
 reward = 0
 advance = 0
 difficulty = 5
 skills = [{ name = "Portuguese", level = 1 }]
-variants = [{ city = "Lisbon", guild_type = "Adventurer", id = "99990696", slug = "childhood-friends" }]
+variants = [{ city = "Lisbon", guild_type = "Adventure", id = "99990696", slug = "childhood-friends" }]
 steps = [{ step = 14, location = "Mist", action = "Shatterig Light" }]
 +++

@@ -8,13 +8,13 @@ slug = "leader-of-the-uprising"
 id = "99999201"
 type = "Adventure"
 city = "Treasure Hunt"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 4
 skills = [{ name = "Search", level = 6 }, { name = "Archaeology", level = 8 }, { name = "Latin", level = 1 }]
-variants = [{ city = "Treasure Hunt", guild_type = "Adventurer", id = "99999201", slug = "leader-of-the-uprising" }]
+variants = [{ city = "Treasure Hunt", guild_type = "Adventure", id = "99999201", slug = "leader-of-the-uprising" }]
 steps = []
 equipment_rewards = [{ id = "00145103", name = "Helmet of Spartacus", slug = "helmet-of-spartacus" }]
 +++

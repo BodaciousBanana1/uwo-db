@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990286"
 quest_number = "14242"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 2
 exp_reward = 87000
 fame_reward = 0
-variants = [{ city = "Seville Adventurer's Guild", guild_type = "Adventurer", id = "99990286", slug = "aphrodites-tragic-flower" }]
+variants = [{ city = "Seville Adventurer's Guild", guild_type = "Adventure", id = "99990286", slug = "aphrodites-tragic-flower" }]
 skills = [{ name = "Ecological Research", level = 1 }, { name = "Biology", level = 3 }]
 discovery = "Anemone"
 discovery_id = "70002588"

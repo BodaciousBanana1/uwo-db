@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99995245"
 quest_number = "1330"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 0
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "", guild_type = "Adventurer", id = "99995245", slug = "patriot-award" }]
+variants = [{ city = "", guild_type = "Adventure", id = "99995245", slug = "patriot-award" }]
 skills = []
 +++
 

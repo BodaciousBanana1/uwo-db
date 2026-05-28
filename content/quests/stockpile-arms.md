@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99991070"
 quest_number = "15568"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 6
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99991070", slug = "stockpile-arms" }]
+variants = [{ city = "Immigrants", guild_type = "Adventure", id = "99991070", slug = "stockpile-arms" }]
 skills = [{ name = "Portuguese", level = 1 }]
 +++
 

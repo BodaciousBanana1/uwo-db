@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99994955"
 quest_number = "7884"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 5
 exp_reward = 26000
 fame_reward = 0
-variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventurer", id = "99994955", slug = "trans-archipelago-shipping-route" }]
+variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventure", id = "99994955", slug = "trans-archipelago-shipping-route" }]
 skills = [{ name = "Recognition", level = 4 }, { name = "Geography", level = 6 }, { name = "Malay/Tagalog", level = 1 }]
 discovery = "The Greater Sunda Islands"
 discovery_id = "70001165"

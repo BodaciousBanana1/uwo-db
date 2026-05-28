@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99991152"
 quest_number = "0"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 6
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventurer", id = "99991152", slug = "g-t-white-sail-on-land" }]
+variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventure", id = "99991152", slug = "g-t-white-sail-on-land" }]
 skills = [{ name = "Search", level = 4 }, { name = "Theology", level = 6 }, { name = "Oceanic Languages", level = 1 }]
 discovery = "Lono-makua"
 discovery_id = "70002296"

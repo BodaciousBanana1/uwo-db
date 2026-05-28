@@ -8,12 +8,12 @@ slug = "gtcraft-store"
 id = "99991000"
 type = "Adventure"
 city = "Immigrants"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 1
 skills = [{ name = "Arabic", level = 1 }]
-variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99991000", slug = "gtcraft-store" }]
+variants = [{ city = "Immigrants", guild_type = "Adventure", id = "99991000", slug = "gtcraft-store" }]
 steps = []
 +++

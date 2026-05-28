@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990771"
 quest_number = "16352"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 10
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Cape Town Adventurer's Guild", guild_type = "Adventurer", id = "99990771", slug = "solomons-glory" }]
+variants = [{ city = "Cape Town Adventurer's Guild", guild_type = "Adventure", id = "99990771", slug = "solomons-glory" }]
 skills = [{ name = "Search", level = 15 }, { name = "Appraisal", level = 17 }, { name = "Portuguese", level = 1 }]
 discovery = "Solomon's Shields"
 discovery_id = "70003115"

@@ -8,12 +8,12 @@ slug = "fisheries-survey-of-balearic-islands"
 id = "99997517"
 type = "Adventure"
 city = "Lisbon"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 11000
 advance = 0
 difficulty = 2
 skills = [{ name = "Spanish", level = 1 }, { name = "French", level = 1 }]
-variants = [{ city = "Lisbon", guild_type = "Adventurer", id = "99997517", slug = "fisheries-survey-of-balearic-islands" }]
+variants = [{ city = "Lisbon", guild_type = "Adventure", id = "99997517", slug = "fisheries-survey-of-balearic-islands" }]
 steps = []
 +++

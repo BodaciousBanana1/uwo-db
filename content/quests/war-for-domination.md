@@ -8,13 +8,13 @@ slug = "war-for-domination"
 id = "99994372"
 type = "Adventure"
 city = "Tunis"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Karnak &amp; Luxor Temples"
 reward = 211000
 advance = 0
 difficulty = 8
 skills = [{ name = "Search", level = 8 }, { name = "Archaeology", level = 10 }, { name = "Arabic", level = 1 }]
-variants = [{ city = "Tunis", guild_type = "Adventurer", id = "99994372", slug = "war-for-domination" }]
+variants = [{ city = "Tunis", guild_type = "Adventure", id = "99994372", slug = "war-for-domination" }]
 steps = [{ step = 1, location = "Tunis Archives", action = "Talk to Scholar x2" }, { step = 3, location = "Naples Archives", action = "Read" }, { step = 5, location = "Naples Archives", action = "Talk to Scholar" }, { step = 6, location = "Tunis Archives", action = "Talk to Scholar x2" }, { step = 8, location = "Luxor", action = "Use" }]
 prerequisites = [{ id = "99994357", name = "Abu Simbel's wall paintings", slug = "abu-simbels-wall-paintings" }]
 followups = [{ id = "99994460", name = "Behind history", slug = "behind-history" }]

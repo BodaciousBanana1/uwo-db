@@ -8,12 +8,12 @@ slug = "gtsubjugation-of-port-royal-fleet"
 id = "99990092"
 type = "Adventure"
 city = "SecretEdict"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 7
 skills = []
-variants = [{ city = "SecretEdict", guild_type = "Adventurer", id = "99990092", slug = "gtsubjugation-of-port-royal-fleet" }]
+variants = [{ city = "SecretEdict", guild_type = "Adventure", id = "99990092", slug = "gtsubjugation-of-port-royal-fleet" }]
 steps = []
 +++

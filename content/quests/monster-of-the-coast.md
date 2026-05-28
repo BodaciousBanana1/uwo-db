@@ -8,12 +8,12 @@ slug = "monster-of-the-coast"
 id = "99990458"
 type = "Adventure"
 city = "Jakarta"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Whale Bones"
 reward = 0
 advance = 0
 difficulty = 3
 skills = [{ name = "Search", level = 2 }, { name = "Biology", level = 4 }, { name = "Oceanic Languages", level = 1 }]
-variants = [{ city = "Jakarta", guild_type = "Adventurer", id = "99990458", slug = "monster-of-the-coast" }]
+variants = [{ city = "Jakarta", guild_type = "Adventure", id = "99990458", slug = "monster-of-the-coast" }]
 steps = [{ step = 1, location = "K'gari", action = "talk with Young Man x2" }]
 +++

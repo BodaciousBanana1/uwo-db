@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990777"
 quest_number = "14417"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 10
 exp_reward = 786000
 fame_reward = 70000
-variants = [{ city = "Hangzhou Adventurer's Guild", guild_type = "Adventurer", id = "99990777", slug = "onion-pattern" }]
+variants = [{ city = "Hangzhou Adventurer's Guild", guild_type = "Adventure", id = "99990777", slug = "onion-pattern" }]
 skills = [{ name = "Search", level = 15 }, { name = "Art", level = 17 }]
 discovery = "Pomegranate Earthenware"
 discovery_id = "70003099"

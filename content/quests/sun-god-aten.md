@@ -8,13 +8,13 @@ slug = "sun-god-aten"
 id = "99999306"
 type = "Adventure"
 city = "Treasure Hunt"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 8
 skills = [{ name = "Search", level = 5 }, { name = "Theology", level = 7 }, { name = "Ancient Egyptian", level = 1 }]
-variants = [{ city = "Treasure Hunt", guild_type = "Adventurer", id = "99999306", slug = "sun-god-aten" }]
+variants = [{ city = "Treasure Hunt", guild_type = "Adventure", id = "99999306", slug = "sun-god-aten" }]
 steps = []
 equipment_rewards = [{ id = "00532000", name = "The Great Aten's Necklace", slug = "the-great-atens-necklace" }]
 +++

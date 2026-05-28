@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990082"
 quest_number = "15672"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 5
 exp_reward = 20000
 fame_reward = 0
-variants = [{ city = "SecretEdict", guild_type = "Adventurer", id = "99990082", slug = "summary-of-the-aegean-sea-theory" }]
+variants = [{ city = "SecretEdict", guild_type = "Adventure", id = "99990082", slug = "summary-of-the-aegean-sea-theory" }]
 skills = [{ name = "Archaeology", level = 1 }]
 +++
 

@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99994576"
 quest_number = "15571"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 6
 exp_reward = 99000
 fame_reward = 5000
-variants = [{ city = "Calicut Adventurer's Guild", guild_type = "Adventurer", id = "99994576", slug = "cat-that-makes-spices" }]
+variants = [{ city = "Calicut Adventurer's Guild", guild_type = "Adventure", id = "99994576", slug = "cat-that-makes-spices" }]
 skills = [{ name = "Ecological Research", level = 3 }, { name = "Biology", level = 5 }]
 discovery = "Civet"
 discovery_id = "70000479"

@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99993578"
 quest_number = "5692"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 1
 exp_reward = 4000
 fame_reward = 0
-variants = [{ city = "Amsterdam Adventurer's Guild", guild_type = "Adventurer", id = "99993578", slug = "adventurers-bible" }]
+variants = [{ city = "Amsterdam Adventurer's Guild", guild_type = "Adventure", id = "99993578", slug = "adventurers-bible" }]
 skills = [{ name = "Search", level = 1 }]
 discovery = "The Travels of Marco Polo"
 discovery_id = "70000091"

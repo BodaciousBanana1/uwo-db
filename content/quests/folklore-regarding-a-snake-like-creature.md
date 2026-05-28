@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99991178"
 quest_number = "16892"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 7
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Folklores", guild_type = "Adventurer", id = "99991178", slug = "folklore-regarding-a-snake-like-creature" }]
+variants = [{ city = "Folklores", guild_type = "Adventure", id = "99991178", slug = "folklore-regarding-a-snake-like-creature" }]
 skills = [{ name = "Theology", level = 7 }]
 discovery = "Ryujin"
 discovery_id = "70003360"

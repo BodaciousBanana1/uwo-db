@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990554"
 quest_number = "15428"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 6
 exp_reward = 137000
 fame_reward = 10000
-variants = [{ city = "Seville Adventurer's Guild", guild_type = "Adventurer", id = "99990554", slug = "suspicion" }]
+variants = [{ city = "Seville Adventurer's Guild", guild_type = "Adventure", id = "99990554", slug = "suspicion" }]
 skills = [{ name = "Search", level = 5 }, { name = "Art", level = 7 }]
 discovery = "Bust of Nefertiti"
 discovery_id = "70003216"

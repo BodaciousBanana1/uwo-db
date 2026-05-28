@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99991489"
 quest_number = "17047"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 8
 exp_reward = 240000
 fame_reward = 0
-variants = [{ city = "Further Research", guild_type = "Adventurer", id = "99991489", slug = "further-research-on-norwegian-forest-cat" }]
+variants = [{ city = "Further Research", guild_type = "Adventure", id = "99991489", slug = "further-research-on-norwegian-forest-cat" }]
 skills = [{ name = "Ecological Research", level = 10 }, { name = "Biology", level = 12 }, { name = "Nordic", level = 1 }]
 discovery = "Maine Coon"
 discovery_id = "70003687"

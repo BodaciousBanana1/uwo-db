@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990105"
 quest_number = "15152"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 5
 exp_reward = 92000
 fame_reward = 0
-variants = [{ city = "Amsterdam Adventurer's Guild", guild_type = "Adventurer", id = "99990105", slug = "the-rise-of-the-roman-republic" }]
+variants = [{ city = "Amsterdam Adventurer's Guild", guild_type = "Adventure", id = "99990105", slug = "the-rise-of-the-roman-republic" }]
 skills = [{ name = "Recognition", level = 4 }, { name = "Theology", level = 6 }]
 discovery = "Temple of Castor and Pollux"
 discovery_id = "70002745"

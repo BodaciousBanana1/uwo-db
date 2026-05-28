@@ -8,12 +8,12 @@ slug = "memories-of-the-opposite-bank"
 id = "99997578"
 type = "Adventure"
 city = "London"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 2
 skills = [{ name = "French", level = 1 }]
-variants = [{ city = "London", guild_type = "Adventurer", id = "99997578", slug = "memories-of-the-opposite-bank" }]
+variants = [{ city = "London", guild_type = "Adventure", id = "99997578", slug = "memories-of-the-opposite-bank" }]
 steps = []
 +++

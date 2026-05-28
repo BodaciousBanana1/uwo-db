@@ -8,13 +8,13 @@ slug = "to-my-beloved-wife"
 id = "99994948"
 type = "Adventure"
 city = "Jakarta"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Beautiful Shell Stone"
 reward = 90000
 advance = 0
 difficulty = 6
 skills = [{ name = "Ecological Research", level = 6 }, { name = "Biology", level = 8 }, { name = "Malay/Tagalog", level = 1 }]
-variants = [{ city = "Jakarta", guild_type = "Adventurer", id = "99994948", slug = "to-my-beloved-wife" }]
+variants = [{ city = "Jakarta", guild_type = "Adventure", id = "99994948", slug = "to-my-beloved-wife" }]
 steps = [{ step = 1, location = "Jakarta", action = "Talk to Seafarer (x4)" }, { step = 2, location = "Surabaya", action = "Talk to Resident (female) - eastern edge of town (x5)" }, { step = 3, location = "Australia Northwest Coast", action = "East near white flowers, use" }]
 followups = [{ id = "99993388", name = "Shell's treasure", slug = "shells-treasure" }]
 discovery_description = "A large, blue-ish purple flower. It loves the sun and will bloom even in the desert."

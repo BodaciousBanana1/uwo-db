@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990171"
 quest_number = "13308"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 3
 exp_reward = 314000
 fame_reward = 30000
-variants = [{ city = "Venice Adventurer's Guild", guild_type = "Adventurer", id = "99990171", slug = "the-pots-identity" }]
+variants = [{ city = "Venice Adventurer's Guild", guild_type = "Adventure", id = "99990171", slug = "the-pots-identity" }]
 skills = [{ name = "Search", level = 6 }, { name = "Art", level = 8 }, { name = "Unlock", level = 6 }]
 discovery = "Copper Pail"
 discovery_id = "70000749"

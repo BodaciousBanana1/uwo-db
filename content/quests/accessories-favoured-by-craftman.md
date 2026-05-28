@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99997676"
 quest_number = "5353"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 5
 exp_reward = 149000
 fame_reward = 10000
-variants = [{ city = "Stockholm Adventurer's Guild", guild_type = "Adventurer", id = "99997676", slug = "accessories-favoured-by-craftman" }]
+variants = [{ city = "Stockholm Adventurer's Guild", guild_type = "Adventure", id = "99997676", slug = "accessories-favoured-by-craftman" }]
 skills = [{ name = "Search", level = 6 }, { name = "Art", level = 8 }, { name = "English", level = 1 }]
 discovery = "Tara's Brooch"
 discovery_id = "70001508"

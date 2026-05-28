@@ -8,12 +8,12 @@ slug = "gtletter-to-arden"
 id = "99991051"
 type = "Adventure"
 city = "Immigrants"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 1
 skills = []
-variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99991051", slug = "gtletter-to-arden" }]
+variants = [{ city = "Immigrants", guild_type = "Adventure", id = "99991051", slug = "gtletter-to-arden" }]
 steps = []
 +++

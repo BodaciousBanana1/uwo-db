@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990711"
 quest_number = "15214"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 10
 exp_reward = 902000
 fame_reward = 90000
-variants = [{ city = "Athens Adventurer's Guild", guild_type = "Adventurer", id = "99990711", slug = "g-t-last-guardian" }]
+variants = [{ city = "Athens Adventurer's Guild", guild_type = "Adventure", id = "99990711", slug = "g-t-last-guardian" }]
 skills = [{ name = "Recognition", level = 15 }, { name = "Astronomy", level = 17 }, { name = "Chinese", level = 1 }]
 discovery = "Vermillion Bird of the South"
 discovery_id = "70003155"

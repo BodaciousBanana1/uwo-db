@@ -8,13 +8,13 @@ slug = "rumours-of-a-mask-from-ceuta"
 id = "99993886"
 type = "Adventure"
 city = "Lisbon"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Festival Mask"
 reward = 0
 advance = 0
 difficulty = 4
 skills = [{ name = "Search", level = 1 }, { name = "Theology", level = 1 }, { name = "Portuguese", level = 1 }]
-variants = [{ city = "Lisbon", guild_type = "Adventurer", id = "99993886", slug = "rumours-of-a-mask-from-ceuta" }]
+variants = [{ city = "Lisbon", guild_type = "Adventure", id = "99993886", slug = "rumours-of-a-mask-from-ceuta" }]
 steps = []
 equipment_rewards = [{ id = "00108000", name = "Festival Mask", slug = "festival-mask" }]
 discovery_description = "A mask used for religious festivals. It's probably for the sake of dignity, but it has a strange expression. It is beautifully decorated with birds' feathers and coloured stones."

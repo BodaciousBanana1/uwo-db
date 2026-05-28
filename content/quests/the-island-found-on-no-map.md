@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99994369"
 quest_number = "13751"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 9
 exp_reward = 300000
 fame_reward = 60000
-variants = [{ city = "Tunis Adventurer's Guild", guild_type = "Adventurer", id = "99994369", slug = "the-island-found-on-no-map" }]
+variants = [{ city = "Tunis Adventurer's Guild", guild_type = "Adventure", id = "99994369", slug = "the-island-found-on-no-map" }]
 skills = [{ name = "Recognition", level = 8 }, { name = "Geography", level = 10 }]
 discovery = "The Sebald Islands"
 discovery_id = "70001045"

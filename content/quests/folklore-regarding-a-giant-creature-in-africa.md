@@ -8,12 +8,12 @@ slug = "folklore-regarding-a-giant-creature-in-africa"
 id = "99991255"
 type = "Adventure"
 city = "Folklores"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Mokele-mbembe"
 reward = 0
 advance = 0
 difficulty = 9
 skills = [{ name = "Biology", level = 13 }]
-variants = [{ city = "Folklores", guild_type = "Adventurer", id = "99991255", slug = "folklore-regarding-a-giant-creature-in-africa" }]
+variants = [{ city = "Folklores", guild_type = "Adventure", id = "99991255", slug = "folklore-regarding-a-giant-creature-in-africa" }]
 steps = []
 +++

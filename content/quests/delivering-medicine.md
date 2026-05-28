@@ -8,12 +8,12 @@ slug = "delivering-medicine"
 id = "99997183"
 type = "Adventure"
 city = "Calicut"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Cobra"
 reward = 0
 advance = 0
 difficulty = 5
 skills = [{ name = "Indian Languages", level = 1 }]
-variants = [{ city = "Calicut", guild_type = "Adventurer", id = "99997183", slug = "delivering-medicine" }]
+variants = [{ city = "Calicut", guild_type = "Adventure", id = "99997183", slug = "delivering-medicine" }]
 steps = []
 +++

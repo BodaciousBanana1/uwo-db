@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99997094"
 quest_number = "11640"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 5
 exp_reward = 19200
 fame_reward = 0
-variants = [{ city = "Portobelo Adventurer's Guild", guild_type = "Adventurer", id = "99997094", slug = "jaguar-conservation-plan" }]
+variants = [{ city = "Portobelo Adventurer's Guild", guild_type = "Adventure", id = "99997094", slug = "jaguar-conservation-plan" }]
 skills = [{ name = "Biology", level = 12 }, { name = "Biology", level = 5 }]
 +++
 

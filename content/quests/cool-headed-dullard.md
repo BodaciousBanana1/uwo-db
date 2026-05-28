@@ -8,13 +8,13 @@ slug = "cool-headed-dullard"
 id = "99999204"
 type = "Adventure"
 city = "Treasure Hunt"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 6
 skills = [{ name = "Search", level = 9 }, { name = "Archaeology", level = 11 }, { name = "Latin", level = 1 }]
-variants = [{ city = "Treasure Hunt", guild_type = "Adventurer", id = "99999204", slug = "cool-headed-dullard" }]
+variants = [{ city = "Treasure Hunt", guild_type = "Adventure", id = "99999204", slug = "cool-headed-dullard" }]
 steps = []
 equipment_rewards = [{ id = "00415100", name = "Spear of the First Consul", slug = "spear-of-the-first-consul" }]
 +++

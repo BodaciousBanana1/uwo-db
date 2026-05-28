@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99997059"
 quest_number = "12404"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 6
 exp_reward = 169000
 fame_reward = 10000
-variants = [{ city = "Rio de Janeiro Adventurer's Guild", guild_type = "Adventurer", id = "99997059", slug = "flowers-for-a-friend" }]
+variants = [{ city = "Rio de Janeiro Adventurer's Guild", guild_type = "Adventure", id = "99997059", slug = "flowers-for-a-friend" }]
 skills = [{ name = "Ecological Research", level = 5 }, { name = "Biology", level = 7 }]
 discovery = "Lily of the Incas"
 discovery_id = "70001231"

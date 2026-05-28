@@ -8,12 +8,12 @@ slug = "gtpolicing-in-the-western-caribbean"
 id = "99990563"
 type = "Adventure"
 city = "Immigrants"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 5
 skills = []
-variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99990563", slug = "gtpolicing-in-the-western-caribbean" }]
+variants = [{ city = "Immigrants", guild_type = "Adventure", id = "99990563", slug = "gtpolicing-in-the-western-caribbean" }]
 steps = []
 +++

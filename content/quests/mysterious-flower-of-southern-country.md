@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99993626"
 quest_number = "11540"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 7
 exp_reward = 137000
 fame_reward = 50000
-variants = [{ city = "Marseille Adventurer's Guild", guild_type = "Adventurer", id = "99993626", slug = "mysterious-flower-of-southern-country" }]
+variants = [{ city = "Marseille Adventurer's Guild", guild_type = "Adventure", id = "99993626", slug = "mysterious-flower-of-southern-country" }]
 skills = [{ name = "Ecological Research", level = 6 }, { name = "Biology", level = 8 }]
 discovery = "Ananas"
 discovery_id = "70000398"

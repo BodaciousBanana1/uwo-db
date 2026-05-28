@@ -8,13 +8,13 @@ slug = "legends-from-crete"
 id = "99994108"
 type = "Adventure"
 city = "Seville"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Knossos Palace"
 reward = 0
 advance = 0
 difficulty = 7
 skills = [{ name = "Search", level = 6 }, { name = "Archaeology", level = 8 }, { name = "Unlock", level = 6 }]
-variants = [{ city = "Seville", guild_type = "Adventurer", id = "99994108", slug = "legends-from-crete" }]
+variants = [{ city = "Seville", guild_type = "Adventure", id = "99994108", slug = "legends-from-crete" }]
 steps = [{ step = 1, location = "Candia", action = "Maiden(south of town official)" }, { step = 2, location = "Ruins Interior: Crete", action = "use Search on the right side of the clickable Altar thing" }]
 followups = [{ id = "99994420", name = "Legend of the Labyrinthos", slug = "legend-of-the-labyrinthos" }, { id = "99994108", name = "Legends from Crete", slug = "legends-from-crete" }, { id = "99990283", name = "The Story of a Bull Monster", slug = "the-story-of-a-bull-monster" }]
 equipment_rewards = [{ id = "00404800", name = "Labrys", slug = "labrys" }]

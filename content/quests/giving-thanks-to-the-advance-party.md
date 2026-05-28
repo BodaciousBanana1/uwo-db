@@ -8,12 +8,12 @@ slug = "giving-thanks-to-the-advance-party"
 id = "99995556"
 type = "Adventure"
 city = "Rio de Janeiro Imperial Contract"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 1
 skills = []
-variants = [{ city = "Rio de Janeiro Imperial Contract", guild_type = "Adventurer", id = "99995556", slug = "giving-thanks-to-the-advance-party" }]
+variants = [{ city = "Rio de Janeiro Imperial Contract", guild_type = "Adventure", id = "99995556", slug = "giving-thanks-to-the-advance-party" }]
 steps = []
 +++

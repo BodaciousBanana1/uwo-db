@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99997528"
 quest_number = "7243"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 2
 exp_reward = 14000
 fame_reward = 0
-variants = [{ city = "Lisbon Adventurer's Guild", guild_type = "Adventurer", id = "99997528", slug = "colons-past" }]
+variants = [{ city = "Lisbon Adventurer's Guild", guild_type = "Adventure", id = "99997528", slug = "colons-past" }]
 skills = [{ name = "Portuguese", level = 1 }]
 +++
 

@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99996962"
 quest_number = "8175"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 8
 exp_reward = 94000
 fame_reward = 0
-variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventurer", id = "99996962", slug = "sound-of-stone-in-the-ruins" }]
+variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventure", id = "99996962", slug = "sound-of-stone-in-the-ruins" }]
 skills = [{ name = "Search", level = 5 }, { name = "Archaeology", level = 7 }, { name = "Oceanic Languages", level = 1 }]
 discovery = "The Sakau Stone"
 discovery_id = "70001677"

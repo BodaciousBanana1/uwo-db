@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99991365"
 quest_number = "16469"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 3
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Further Research", guild_type = "Adventurer", id = "99991365", slug = "further-research-into-city-to-the-underworld" }]
+variants = [{ city = "Further Research", guild_type = "Adventure", id = "99991365", slug = "further-research-into-city-to-the-underworld" }]
 skills = [{ name = "Recognition", level = 8 }, { name = "Archaeology", level = 10 }]
 discovery = "The Door to the Underworld"
 discovery_id = "70003456"

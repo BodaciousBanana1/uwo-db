@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990800"
 quest_number = "15090"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 10
 exp_reward = 287000
 fame_reward = 20000
-variants = [{ city = "Venice Adventurer's Guild", guild_type = "Adventurer", id = "99990800", slug = "bohemian-glass" }]
+variants = [{ city = "Venice Adventurer's Guild", guild_type = "Adventure", id = "99990800", slug = "bohemian-glass" }]
 skills = [{ name = "Search", level = 15 }, { name = "Art", level = 17 }]
 discovery = "Lehmann Glass Carving"
 discovery_id = "70003098"

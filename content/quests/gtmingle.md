@@ -8,12 +8,12 @@ slug = "gtmingle"
 id = "99990964"
 type = "Adventure"
 city = "Immigrants"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 5
 skills = [{ name = "Portuguese", level = 1 }]
-variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99990964", slug = "gtmingle" }]
+variants = [{ city = "Immigrants", guild_type = "Adventure", id = "99990964", slug = "gtmingle" }]
 steps = []
 +++

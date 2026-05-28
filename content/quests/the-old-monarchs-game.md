@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99991240"
 quest_number = "16838"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 7
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "St. Petersburg Adventurer's Guild", guild_type = "Adventurer", id = "99991240", slug = "the-old-monarchs-game" }]
+variants = [{ city = "St. Petersburg Adventurer's Guild", guild_type = "Adventure", id = "99991240", slug = "the-old-monarchs-game" }]
 skills = [{ name = "Search", level = 6 }, { name = "Archaeology", level = 8 }]
 discovery = "Royal Game of Ur"
 discovery_id = "70003492"

@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99997805"
 quest_number = "1942"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 4
 exp_reward = 70000
 fame_reward = 0
-variants = [{ city = "Santiago Imperial Contract", guild_type = "Adventurer", id = "99997805", slug = "investigation-of-intended-canal" }]
+variants = [{ city = "Santiago Imperial Contract", guild_type = "Adventure", id = "99997805", slug = "investigation-of-intended-canal" }]
 skills = [{ name = "Recognition", level = 3 }, { name = "Geography", level = 5 }]
 discovery = "The Chagres River"
 discovery_id = "70001615"

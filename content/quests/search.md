@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99993989"
 quest_number = "566"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 0
 exp_reward = 279000
 fame_reward = 0
-variants = [{ city = "", guild_type = "Adventurer", id = "99993989", slug = "search" }]
+variants = [{ city = "", guild_type = "Adventure", id = "99993989", slug = "search" }]
 skills = []
 steps = [{ step = 1, location = "Naples Church", action = "사제와 대화" }, { step = 2, location = "Massawa", action = "은행원 옆 주민과 대화" }, { step = 3, location = "Northern Ethiopia", action = "유적 입구에서" }]
 +++

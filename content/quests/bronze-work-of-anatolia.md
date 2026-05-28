@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99994483"
 quest_number = "11731"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 5
 exp_reward = 67000
 fame_reward = 0
-variants = [{ city = "Istanbul Adventurer's Guild", guild_type = "Adventurer", id = "99994483", slug = "bronze-work-of-anatolia" }]
+variants = [{ city = "Istanbul Adventurer's Guild", guild_type = "Adventure", id = "99994483", slug = "bronze-work-of-anatolia" }]
 skills = [{ name = "Search", level = 4 }, { name = "Archaeology", level = 6 }, { name = "Unlock", level = 4 }]
 discovery = "Bronze Decoration"
 discovery_id = "70000810"

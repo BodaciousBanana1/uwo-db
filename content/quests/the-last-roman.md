@@ -8,13 +8,13 @@ slug = "the-last-roman"
 id = "99999305"
 type = "Adventure"
 city = "Treasure Hunt"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 9
 skills = [{ name = "Search", level = 14 }, { name = "Archaeology", level = 16 }, { name = "Latin", level = 1 }]
-variants = [{ city = "Treasure Hunt", guild_type = "Adventurer", id = "99999305", slug = "the-last-roman" }]
+variants = [{ city = "Treasure Hunt", guild_type = "Adventure", id = "99999305", slug = "the-last-roman" }]
 steps = []
 equipment_rewards = [{ id = "00241806", name = "Stilicho's Caligae", slug = "stilichos-caligae" }]
 +++

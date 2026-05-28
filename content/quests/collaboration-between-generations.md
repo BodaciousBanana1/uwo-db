@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990797"
 quest_number = "15089"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 10
 exp_reward = 346000
 fame_reward = 30000
-variants = [{ city = "Portobelo Adventurer's Guild", guild_type = "Adventurer", id = "99990797", slug = "collaboration-between-generations" }]
+variants = [{ city = "Portobelo Adventurer's Guild", guild_type = "Adventure", id = "99990797", slug = "collaboration-between-generations" }]
 skills = [{ name = "Search", level = 15 }, { name = "Art", level = 17 }]
 discovery = "Crystal Pot of the Sasanian Empire"
 discovery_id = "70003103"

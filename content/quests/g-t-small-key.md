@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99999197"
 quest_number = "12911"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 6
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Treasure Hunt", guild_type = "Adventurer", id = "99999197", slug = "g-t-small-key" }]
+variants = [{ city = "Treasure Hunt", guild_type = "Adventure", id = "99999197", slug = "g-t-small-key" }]
 skills = [{ name = "Search", level = 11 }, { name = "Theology", level = 13 }]
 equipment_rewards = [{ id = "00530000", name = "Lemegeton", slug = "lemegeton" }]
 steps = [{ step = 1, location = "Northwest Genoa", action = "click Giant Dead Tree" }]

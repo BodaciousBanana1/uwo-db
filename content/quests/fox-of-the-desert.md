@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99994066"
 quest_number = "15447"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 4
 exp_reward = 28000
 fame_reward = 0
-variants = [{ city = "Athens Adventurer's Guild", guild_type = "Adventurer", id = "99994066", slug = "fox-of-the-desert" }]
+variants = [{ city = "Athens Adventurer's Guild", guild_type = "Adventure", id = "99994066", slug = "fox-of-the-desert" }]
 skills = [{ name = "Ecological Research", level = 1 }, { name = "Biology", level = 2 }]
 discovery = "Fennec Fox"
 discovery_id = "70000488"

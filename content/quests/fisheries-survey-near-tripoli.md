@@ -8,12 +8,12 @@ slug = "fisheries-survey-near-tripoli"
 id = "99997358"
 type = "Adventure"
 city = "Naples"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 2
 skills = [{ name = "Arabic", level = 1 }]
-variants = [{ city = "Naples", guild_type = "Adventurer", id = "99997358", slug = "fisheries-survey-near-tripoli" }]
+variants = [{ city = "Naples", guild_type = "Adventure", id = "99997358", slug = "fisheries-survey-near-tripoli" }]
 steps = []
 +++

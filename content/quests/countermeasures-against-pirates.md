@@ -8,12 +8,12 @@ slug = "countermeasures-against-pirates"
 id = "99995600"
 type = "Adventure"
 city = "Calicut Imperial Contract"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 5
 skills = []
-variants = [{ city = "Calicut Imperial Contract", guild_type = "Adventurer", id = "99995600", slug = "countermeasures-against-pirates" }]
+variants = [{ city = "Calicut Imperial Contract", guild_type = "Adventure", id = "99995600", slug = "countermeasures-against-pirates" }]
 steps = []
 +++

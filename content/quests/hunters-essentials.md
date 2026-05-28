@@ -8,12 +8,12 @@ slug = "hunters-essentials"
 id = "99991516"
 type = "Adventure"
 city = "London"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Pungsan Dog"
 reward = 380000
 advance = 40000
 difficulty = 7
 skills = [{ name = "Ecological Research", level = 8 }, { name = "Biology", level = 10 }, { name = "Korean", level = 1 }]
-variants = [{ city = "London", guild_type = "Adventurer", id = "99991516", slug = "hunters-essentials" }]
+variants = [{ city = "London", guild_type = "Adventure", id = "99991516", slug = "hunters-essentials" }]
 steps = [{ step = 7, location = "Korean Peninsula North Coast", action = "Use" }]
 +++

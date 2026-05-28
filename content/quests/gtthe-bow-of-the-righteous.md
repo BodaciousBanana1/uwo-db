@@ -8,12 +8,12 @@ slug = "gtthe-bow-of-the-righteous"
 id = "99990010"
 type = "Adventure"
 city = "Treasure Hunt"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 9
 skills = [{ name = "Search", level = 13 }, { name = "Appraisal", level = 15 }, { name = "English", level = 1 }]
-variants = [{ city = "Treasure Hunt", guild_type = "Adventurer", id = "99990010", slug = "gtthe-bow-of-the-righteous" }]
+variants = [{ city = "Treasure Hunt", guild_type = "Adventure", id = "99990010", slug = "gtthe-bow-of-the-righteous" }]
 steps = []
 +++

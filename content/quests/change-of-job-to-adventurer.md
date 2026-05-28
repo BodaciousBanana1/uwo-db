@@ -8,12 +8,12 @@ slug = "change-of-job-to-adventurer"
 id = "99999847"
 type = "Adventure"
 city = "Intermediate school"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 1
 skills = [{ name = "English", level = 1 }]
-variants = [{ city = "Intermediate school", guild_type = "Adventurer", id = "99999847", slug = "change-of-job-to-adventurer" }]
+variants = [{ city = "Intermediate school", guild_type = "Adventure", id = "99999847", slug = "change-of-job-to-adventurer" }]
 steps = []
 +++

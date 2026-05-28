@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99996090"
 quest_number = "1629"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 7
 exp_reward = 148000
 fame_reward = 0
-variants = [{ city = "Amsterdam Imperial Contract", guild_type = "Adventurer", id = "99996090", slug = "new-sea-development-aid" }]
+variants = [{ city = "Amsterdam Imperial Contract", guild_type = "Adventure", id = "99996090", slug = "new-sea-development-aid" }]
 skills = []
 +++
 

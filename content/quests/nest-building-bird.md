@@ -8,12 +8,12 @@ slug = "nest-building-bird"
 id = "99991454"
 type = "Adventure"
 city = "Istanbul"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "African Penduline Tit"
 reward = 129000
 advance = 10000
 difficulty = 6
 skills = [{ name = "Ecological Research", level = 6 }, { name = "Biology", level = 8 }, { name = "West African Languages", level = 1 }]
-variants = [{ city = "Istanbul", guild_type = "Adventurer", id = "99991454", slug = "nest-building-bird" }]
+variants = [{ city = "Istanbul", guild_type = "Adventure", id = "99991454", slug = "nest-building-bird" }]
 steps = []
 +++

@@ -8,12 +8,12 @@ slug = "gtdelivery-of-tea"
 id = "99991049"
 type = "Adventure"
 city = "Immigrants"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 3
 skills = [{ name = "Arabic", level = 1 }]
-variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99991049", slug = "gtdelivery-of-tea" }]
+variants = [{ city = "Immigrants", guild_type = "Adventure", id = "99991049", slug = "gtdelivery-of-tea" }]
 steps = []
 +++

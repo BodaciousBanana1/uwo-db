@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990878"
 quest_number = "14319"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 4
 exp_reward = 61000
 fame_reward = 0
-variants = [{ city = "Marseille Adventurer's Guild", guild_type = "Adventurer", id = "99990878", slug = "land-of-extreme-cold" }]
+variants = [{ city = "Marseille Adventurer's Guild", guild_type = "Adventure", id = "99990878", slug = "land-of-extreme-cold" }]
 skills = [{ name = "Recognition", level = 7 }, { name = "Geography", level = 9 }]
 discovery = "Arctic Tundra Region"
 discovery_id = "70002989"

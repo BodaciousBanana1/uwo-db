@@ -6,10 +6,10 @@ template = "quests/page.html"
 [extra]
 id = "99990268"
 quest_number = "0"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 7
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Treasure Hunt", guild_type = "Adventurer", id = "99990268", slug = "g-t-seal-of-letter-unit" }]
+variants = [{ city = "Treasure Hunt", guild_type = "Adventure", id = "99990268", slug = "g-t-seal-of-letter-unit" }]
 skills = [{ name = "Search", level = 11 }, { name = "Archaeology", level = 13 }]
 +++

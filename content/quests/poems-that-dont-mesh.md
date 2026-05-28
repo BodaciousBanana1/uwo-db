@@ -8,13 +8,13 @@ slug = "poems-that-dont-mesh"
 id = "99997145"
 type = "Adventure"
 city = "Santo Domingo"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Rollo's Helmet"
 reward = 0
 advance = 0
 difficulty = 6
 skills = [{ name = "Search", level = 10 }, { name = "Archaeology", level = 12 }, { name = "Unlock", level = 10 }]
-variants = [{ city = "Santo Domingo", guild_type = "Adventurer", id = "99997145", slug = "poems-that-dont-mesh" }]
+variants = [{ city = "Santo Domingo", guild_type = "Adventure", id = "99997145", slug = "poems-that-dont-mesh" }]
 steps = [{ step = 1, location = "Cape of Vinland", action = "talk to Snorri 4x" }, { step = 2, location = "Scandinavia West Coast", action = "talk to Olga 5x" }, { step = 3, location = "Scandinavia West Coast", action = "use" }]
 equipment_rewards = [{ id = "00002410", name = "Silver Armour", slug = "silver-armour" }]
 discovery_description = "Viking mail found on the Scandinavian Peninsula. Like the helmet, it has been decorated with silver. Believed to belong to Thorfinn. It has been passed down for generations in Snorri and Olga's clan."

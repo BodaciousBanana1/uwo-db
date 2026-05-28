@@ -8,12 +8,12 @@ slug = "gttradition-for-the-treasury"
 id = "99990487"
 type = "Adventure"
 city = "Folklores"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 7
 skills = [{ name = "Theology", level = 9 }]
-variants = [{ city = "Folklores", guild_type = "Adventurer", id = "99990487", slug = "gttradition-for-the-treasury" }]
+variants = [{ city = "Folklores", guild_type = "Adventure", id = "99990487", slug = "gttradition-for-the-treasury" }]
 steps = []
 +++

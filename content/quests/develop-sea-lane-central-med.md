@@ -8,12 +8,12 @@ slug = "develop-sea-lane-central-med"
 id = "99997538"
 type = "Adventure"
 city = "Lisbon"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 3
 skills = [{ name = "Portuguese", level = 1 }, { name = "Italian", level = 1 }]
-variants = [{ city = "Lisbon", guild_type = "Adventurer", id = "99997538", slug = "develop-sea-lane-central-med" }]
+variants = [{ city = "Lisbon", guild_type = "Adventure", id = "99997538", slug = "develop-sea-lane-central-med" }]
 steps = []
 +++

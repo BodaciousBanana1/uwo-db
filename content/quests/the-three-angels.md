@@ -8,12 +8,12 @@ slug = "the-three-angels"
 id = "99990533"
 type = "Adventure"
 city = "Marseille"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "St. Petersburg"
 reward = 0
 advance = 0
 difficulty = 8
 skills = [{ name = "Search", level = 10 }, { name = "Art", level = 12 }, { name = "Theology", level = 12 }]
-variants = [{ city = "Marseille", guild_type = "Adventurer", id = "99990533", slug = "the-three-angels" }]
+variants = [{ city = "Marseille", guild_type = "Adventure", id = "99990533", slug = "the-three-angels" }]
 steps = [{ step = 3, location = "St. Petersburg Cathedral", action = "Talk to Monk" }, { step = 4, location = "St. Petersburg Cathedral", action = "Use" }]
 +++

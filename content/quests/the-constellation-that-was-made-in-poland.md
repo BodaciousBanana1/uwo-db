@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990401"
 quest_number = "17337"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 7
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Stockholm Adventurer's Guild", guild_type = "Adventurer", id = "99990401", slug = "the-constellation-that-was-made-in-poland" }]
+variants = [{ city = "Stockholm Adventurer's Guild", guild_type = "Adventure", id = "99990401", slug = "the-constellation-that-was-made-in-poland" }]
 skills = [{ name = "Recognition", level = 7 }, { name = "Astronomy", level = 9 }, { name = "German", level = 1 }]
 discovery = "Vulpecula"
 discovery_id = "70002472"

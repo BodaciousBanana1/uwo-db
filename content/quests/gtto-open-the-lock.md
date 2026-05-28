@@ -8,12 +8,12 @@ slug = "gtto-open-the-lock"
 id = "99999869"
 type = "Adventure"
 city = "Advanced school"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 1
 skills = []
-variants = [{ city = "Advanced school", guild_type = "Adventurer", id = "99999869", slug = "gtto-open-the-lock" }]
+variants = [{ city = "Advanced school", guild_type = "Adventure", id = "99999869", slug = "gtto-open-the-lock" }]
 steps = []
 +++

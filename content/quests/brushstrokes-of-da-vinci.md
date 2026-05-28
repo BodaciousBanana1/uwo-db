@@ -8,13 +8,13 @@ slug = "brushstrokes-of-da-vinci"
 id = "99994402"
 type = "Adventure"
 city = "Venice"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "The Pieta"
 reward = 148000
 advance = 20000
 difficulty = 9
 skills = [{ name = "Search", level = 10 }, { name = "Art", level = 12 }, { name = "Italian", level = 1 }]
-variants = [{ city = "Venice", guild_type = "Adventurer", id = "99994402", slug = "brushstrokes-of-da-vinci" }]
+variants = [{ city = "Venice", guild_type = "Adventure", id = "99994402", slug = "brushstrokes-of-da-vinci" }]
 steps = [{ step = 2, location = "Venice", action = "Talk to Craftsman" }, { step = 3, location = "Genoa", action = "Talk to Craftsman" }, { step = 4, location = "Genoa", action = "Talk to Aristocrat in front of Genoa Church" }]
 prerequisites = [{ id = "99993462", name = "The youth of a genius", slug = "the-youth-of-a-genius" }, { id = "99994450", name = "Unique depiction of Madonna &amp; child", slug = "unique-depiction-of-madonna-amp-child" }, { id = "99993832", name = "Da Vinci's altarpiece", slug = "da-vincis-altarpiece" }]
 followups = [{ id = "99994464", name = "Consummate beauty or devil's grin?", slug = "consummate-beauty-or-devils-grin" }, { id = "99994448", name = "The Da Vinci Code", slug = "the-da-vinci-code" }]

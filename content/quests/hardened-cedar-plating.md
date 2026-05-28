@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99995073"
 quest_number = "1239"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 0
 exp_reward = 1000
 fame_reward = 0
-variants = [{ city = "", guild_type = "Adventurer", id = "99995073", slug = "hardened-cedar-plating" }]
+variants = [{ city = "", guild_type = "Adventure", id = "99995073", slug = "hardened-cedar-plating" }]
 skills = []
 +++
 

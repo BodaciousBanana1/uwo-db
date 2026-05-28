@@ -8,12 +8,12 @@ slug = "entreating-the-towns-know-it-all"
 id = "99995194"
 type = "Adventure"
 city = "London"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 500
 advance = 0
 difficulty = 1
 skills = [{ name = "English", level = 1 }, { name = "Portuguese", level = 1 }, { name = "Spanish", level = 1 }]
-variants = [{ city = "London", guild_type = "Adventurer", id = "99995194", slug = "entreating-the-towns-know-it-all" }]
+variants = [{ city = "London", guild_type = "Adventure", id = "99995194", slug = "entreating-the-towns-know-it-all" }]
 steps = []
 +++

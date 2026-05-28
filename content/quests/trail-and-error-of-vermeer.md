@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99997678"
 quest_number = "5376"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 6
 exp_reward = 96000
 fame_reward = 0
-variants = [{ city = "Stockholm Adventurer's Guild", guild_type = "Adventurer", id = "99997678", slug = "trail-and-error-of-vermeer" }]
+variants = [{ city = "Stockholm Adventurer's Guild", guild_type = "Adventure", id = "99997678", slug = "trail-and-error-of-vermeer" }]
 skills = [{ name = "Search", level = 5 }, { name = "Art", level = 7 }]
 discovery = "The Music Lesson"
 discovery_id = "70001620"

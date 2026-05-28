@@ -8,12 +8,12 @@ slug = "further-research-into-salamander"
 id = "99991434"
 type = "Adventure"
 city = "Further Research"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 3
 skills = [{ name = "Ecological Research", level = 8 }, { name = "Biology", level = 10 }, { name = "French", level = 1 }]
-variants = [{ city = "Further Research", guild_type = "Adventurer", id = "99991434", slug = "further-research-into-salamander" }]
+variants = [{ city = "Further Research", guild_type = "Adventure", id = "99991434", slug = "further-research-into-salamander" }]
 steps = []
 +++

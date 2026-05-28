@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99997077"
 quest_number = "7498"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 2
 exp_reward = 75000
 fame_reward = 0
-variants = [{ city = "Portobelo Adventurer's Guild", guild_type = "Adventurer", id = "99997077", slug = "soaring-crimson" }]
+variants = [{ city = "Portobelo Adventurer's Guild", guild_type = "Adventure", id = "99997077", slug = "soaring-crimson" }]
 skills = [{ name = "Ecological Research", level = 4 }, { name = "Biology", level = 6 }]
 discovery = "Northern Cardinal"
 discovery_id = "70002139"

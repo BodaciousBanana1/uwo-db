@@ -8,12 +8,12 @@ slug = "gt-man-beyond-the-wall"
 id = "99991175"
 type = "Adventure"
 city = "Stockholm"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 3
 skills = [{ name = "Archaeology", level = 2 }, { name = "Nordic", level = 1 }]
-variants = [{ city = "Stockholm", guild_type = "Adventurer", id = "99991175", slug = "gt-man-beyond-the-wall" }]
+variants = [{ city = "Stockholm", guild_type = "Adventure", id = "99991175", slug = "gt-man-beyond-the-wall" }]
 steps = []
 +++

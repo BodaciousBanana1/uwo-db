@@ -8,13 +8,13 @@ slug = "tristan-and-iseult"
 id = "99993620"
 type = "Adventure"
 city = "London"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Tristan's Sword"
 reward = 15000
 advance = 0
 difficulty = 3
 skills = [{ name = "English", level = 1 }]
-variants = [{ city = "London", guild_type = "Adventurer", id = "99993620", slug = "tristan-and-iseult" }]
+variants = [{ city = "London", guild_type = "Adventure", id = "99993620", slug = "tristan-and-iseult" }]
 steps = [{ step = 2, location = "London", action = "Spectator's Daughter - near fountain" }, { step = 2, location = "Spectator's Daughter", action = "near the fountain south of bank" }, { step = 3, location = "London", action = "Young Painter - near Palace" }, { step = 3, location = "Young painter", action = "near Palace" }, { step = 4, location = "London", action = "Painter's Customer - next to Young Painter" }, { step = 4, location = "Painter's customer", action = "next to Young painter" }, { step = 5, location = "London", action = "City Girl - North of Shakespeare's Mansion" }]
 followups = [{ id = "99993232", name = "Only life remains after desiring death", slug = "only-life-remains-after-desiring-death" }, { id = "99993235", name = "Die for love", slug = "die-for-love" }, { id = "99993621", name = "Tristan's sword", slug = "tristans-sword" }]
 +++

@@ -8,12 +8,12 @@ slug = "koala-advice"
 id = "99997477"
 type = "Adventure"
 city = "Seville"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Koala"
 reward = 0
 advance = 0
 difficulty = 3
 skills = [{ name = "Spanish", level = 1 }, { name = "Portuguese", level = 1 }]
-variants = [{ city = "Seville", guild_type = "Adventurer", id = "99997477", slug = "koala-advice" }]
+variants = [{ city = "Seville", guild_type = "Adventure", id = "99997477", slug = "koala-advice" }]
 steps = [{ step = 2, location = "Saint", action = "Georges" }]
 +++

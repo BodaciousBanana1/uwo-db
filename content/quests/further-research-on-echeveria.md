@@ -8,13 +8,13 @@ slug = "further-research-on-echeveria"
 id = "99991531"
 type = "Adventure"
 city = "Further Research"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Echeveria"
 reward = 0
 advance = 0
 difficulty = 7
 skills = [{ name = "Ecological Research", level = 8 }, { name = "Biology", level = 10 }, { name = "Spanish", level = 1 }]
-variants = [{ city = "Further Research", guild_type = "Adventurer", id = "99991531", slug = "further-research-on-echeveria" }]
+variants = [{ city = "Further Research", guild_type = "Adventure", id = "99991531", slug = "further-research-on-echeveria" }]
 steps = []
 prerequisites = [{ id = "99991521", name = "Lotus That Won't Need Water", slug = "lotus-that-won-t-need-water" }]
 +++

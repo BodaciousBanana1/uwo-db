@@ -8,12 +8,12 @@ slug = "medicine-or-poison"
 id = "99990498"
 type = "Adventure"
 city = "St. Petersburg"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "The Travels of Marco Polo"
 reward = 0
 advance = 0
 difficulty = 10
 skills = [{ name = "Ecological Research", level = 13 }, { name = "Biology", level = 15 }, { name = "Chinese", level = 1 }]
-variants = [{ city = "St. Petersburg", guild_type = "Adventurer", id = "99990498", slug = "medicine-or-poison" }]
+variants = [{ city = "St. Petersburg", guild_type = "Adventure", id = "99990498", slug = "medicine-or-poison" }]
 steps = [{ step = 1, location = "Xanadu", action = "Talk to Rest House Master x2" }]
 +++

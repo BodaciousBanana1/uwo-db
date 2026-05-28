@@ -8,12 +8,12 @@ slug = "deliver-a-flugbahn"
 id = "99990053"
 type = "Adventure"
 city = "SecretEdict"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 8
 skills = []
-variants = [{ city = "SecretEdict", guild_type = "Adventurer", id = "99990053", slug = "deliver-a-flugbahn" }]
+variants = [{ city = "SecretEdict", guild_type = "Adventure", id = "99990053", slug = "deliver-a-flugbahn" }]
 steps = []
 +++

@@ -8,12 +8,12 @@ slug = "gtsecurity-of-the-ligurian-sea"
 id = "99991038"
 type = "Adventure"
 city = "Immigrants"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 1
 skills = []
-variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99991038", slug = "gtsecurity-of-the-ligurian-sea" }]
+variants = [{ city = "Immigrants", guild_type = "Adventure", id = "99991038", slug = "gtsecurity-of-the-ligurian-sea" }]
 steps = []
 +++

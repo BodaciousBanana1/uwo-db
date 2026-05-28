@@ -8,12 +8,12 @@ slug = "fisheries-survey-near-algiers"
 id = "99997265"
 type = "Adventure"
 city = "Tunis"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 2
 skills = [{ name = "Arabic", level = 1 }, { name = "Spanish", level = 1 }]
-variants = [{ city = "Tunis", guild_type = "Adventurer", id = "99997265", slug = "fisheries-survey-near-algiers" }]
+variants = [{ city = "Tunis", guild_type = "Adventure", id = "99997265", slug = "fisheries-survey-near-algiers" }]
 steps = []
 +++

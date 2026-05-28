@@ -8,12 +8,12 @@ slug = "gtsoldiers-complete-beginner-major-test"
 id = "99999829"
 type = "Adventure"
 city = "Beginners school"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 1
 skills = []
-variants = [{ city = "Beginners school", guild_type = "Adventurer", id = "99999829", slug = "gtsoldiers-complete-beginner-major-test" }]
+variants = [{ city = "Beginners school", guild_type = "Adventure", id = "99999829", slug = "gtsoldiers-complete-beginner-major-test" }]
 steps = []
 +++

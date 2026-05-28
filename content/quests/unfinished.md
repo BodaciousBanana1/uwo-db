@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99991413"
 quest_number = "0"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 5
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Santo Domingo Adventurer's Guild", guild_type = "Adventurer", id = "99991413", slug = "unfinished" }]
+variants = [{ city = "Santo Domingo Adventurer's Guild", guild_type = "Adventure", id = "99991413", slug = "unfinished" }]
 skills = [{ name = "Search", level = 4 }, { name = "Theology", level = 6 }]
 discovery = "Talmud"
 discovery_id = "70003252"

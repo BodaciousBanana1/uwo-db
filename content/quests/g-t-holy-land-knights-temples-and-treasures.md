@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990610"
 quest_number = "17333"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 7
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Treasure Hunt", guild_type = "Adventurer", id = "99990610", slug = "g-t-holy-land-knights-temples-and-treasures" }]
+variants = [{ city = "Treasure Hunt", guild_type = "Adventure", id = "99990610", slug = "g-t-holy-land-knights-temples-and-treasures" }]
 skills = [{ name = "Search", level = 10 }, { name = "Theology", level = 12 }, { name = "Appraisal", level = 8 }]
 +++
 

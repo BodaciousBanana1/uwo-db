@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99993883"
 quest_number = "12343"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 3
 exp_reward = 6000
 fame_reward = 0
-variants = [{ city = "Seville Adventurer's Guild", guild_type = "Adventurer", id = "99993883", slug = "investigation-of-the-habitant-of-sharks" }]
+variants = [{ city = "Seville Adventurer's Guild", guild_type = "Adventure", id = "99993883", slug = "investigation-of-the-habitant-of-sharks" }]
 skills = [{ name = "Ecological Research", level = 1 }, { name = "Biology", level = 1 }, { name = "Portuguese", level = 1 }]
 discovery = "Hammerhead Sharks"
 discovery_id = "70000533"

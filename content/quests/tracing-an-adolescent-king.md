@@ -8,13 +8,13 @@ slug = "tracing-an-adolescent-king"
 id = "99992798"
 type = "Adventure"
 city = "Santo Domingo"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "The Arm of Kak Siyaj"
 reward = 90000
 advance = 0
 difficulty = 4
 skills = [{ name = "Search", level = 2 }, { name = "Archaeology", level = 4 }, { name = "Mayan Languages", level = 1 }]
-variants = [{ city = "Santo Domingo", guild_type = "Adventurer", id = "99992798", slug = "tracing-an-adolescent-king" }]
+variants = [{ city = "Santo Domingo", guild_type = "Adventure", id = "99992798", slug = "tracing-an-adolescent-king" }]
 steps = []
 discovery_description = "A royal relief said to have been brought here when Tikal came under the control of Teotihuacan. It is extremely large and completely covered with pictures."
 exp_reward = 210

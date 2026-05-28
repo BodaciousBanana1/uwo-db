@@ -8,12 +8,12 @@ slug = "gtstatue-of-liberty-olympus-investigation"
 id = "99999890"
 type = "Adventure"
 city = "Advanced school"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 2
 skills = [{ name = "Search", level = 1 }, { name = "Theology", level = 2 }, { name = "Greek", level = 1 }]
-variants = [{ city = "Advanced school", guild_type = "Adventurer", id = "99999890", slug = "gtstatue-of-liberty-olympus-investigation" }]
+variants = [{ city = "Advanced school", guild_type = "Adventure", id = "99999890", slug = "gtstatue-of-liberty-olympus-investigation" }]
 steps = []
 +++

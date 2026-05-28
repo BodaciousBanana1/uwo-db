@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99991265"
 quest_number = "16085"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 1
 exp_reward = 100000
 fame_reward = 10000
-variants = [{ city = "Further Research", guild_type = "Adventurer", id = "99991265", slug = "head-of-the-family-gt" }]
+variants = [{ city = "Further Research", guild_type = "Adventure", id = "99991265", slug = "head-of-the-family-gt" }]
 skills = [{ name = "Ecological Research", level = 8 }, { name = "Biology", level = 10 }]
 discovery = "Sugar Maple in Autumn Colors"
 discovery_id = "70003461"

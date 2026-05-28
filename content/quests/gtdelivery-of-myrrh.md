@@ -8,12 +8,12 @@ slug = "gtdelivery-of-myrrh"
 id = "99999894"
 type = "Adventure"
 city = "Advanced school"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 2
 skills = []
-variants = [{ city = "Advanced school", guild_type = "Adventurer", id = "99999894", slug = "gtdelivery-of-myrrh" }]
+variants = [{ city = "Advanced school", guild_type = "Adventure", id = "99999894", slug = "gtdelivery-of-myrrh" }]
 steps = []
 +++

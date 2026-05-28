@@ -8,13 +8,13 @@ slug = "investigate-new-world-east-of-malacca"
 id = "99994702"
 type = "Adventure"
 city = "Calicut"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "The Straits of Malacca"
 reward = 0
 advance = 0
 difficulty = 4
 skills = [{ name = "Recognition", level = 3 }, { name = "Geography", level = 5 }, { name = "Malay/Tagalog", level = 1 }]
-variants = [{ city = "Calicut", guild_type = "Adventurer", id = "99994702", slug = "investigate-new-world-east-of-malacca" }]
+variants = [{ city = "Calicut", guild_type = "Adventure", id = "99994702", slug = "investigate-new-world-east-of-malacca" }]
 steps = [{ step = 1, location = "Banjarmasin", action = "Talk to Rest House Master" }, { step = 2, location = "Banjarmasin", action = "Talk to Resident" }, { step = 3, location = "Banjarmasin", action = "Talk Market keeper" }, { step = 4, location = "Banjarmasin", action = "Talk to Shopkeeper x2" }, { step = 5, location = "The Java Sea", action = "West from" }]
 prerequisites = [{ id = "99994696", name = "Narrow Path to the Eastern Islands", slug = "narrow-path-to-the-eastern-islands" }]
 followups = [{ id = "99994961", name = "On each of the promontories...", slug = "on-each-of-the-promontories" }, { id = "99994973", name = "Blank region in spice islands", slug = "blank-region-in-spice-islands" }]

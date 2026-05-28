@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990871"
 quest_number = "16824"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 4
 exp_reward = 197000
 fame_reward = 10000
-variants = [{ city = "St. Petersburg Adventurer's Guild", guild_type = "Adventurer", id = "99990871", slug = "ancestors-land" }]
+variants = [{ city = "St. Petersburg Adventurer's Guild", guild_type = "Adventure", id = "99990871", slug = "ancestors-land" }]
 skills = [{ name = "Search", level = 4 }, { name = "Appraisal", level = 6 }, { name = "Unlock", level = 4 }]
 discovery = "Large Plate of Kazan"
 discovery_id = "70002970"

@@ -8,12 +8,12 @@ slug = "northern-most-tip-of-eurasia"
 id = "99990021"
 type = "Adventure"
 city = "Amsterdam"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Cape Chelyuskin"
 reward = 0
 advance = 0
 difficulty = 4
 skills = [{ name = "Recognition", level = 4 }, { name = "Geography", level = 6 }, { name = "Dutch", level = 1 }]
-variants = [{ city = "Amsterdam", guild_type = "Adventurer", id = "99990021", slug = "northern-most-tip-of-eurasia" }]
+variants = [{ city = "Amsterdam", guild_type = "Adventure", id = "99990021", slug = "northern-most-tip-of-eurasia" }]
 steps = []
 +++

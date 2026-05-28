@@ -8,12 +8,12 @@ slug = "gtgeographic-survey-of-the-western-caribbean"
 id = "99990988"
 type = "Adventure"
 city = "Immigrants"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 8
 skills = [{ name = "Recognition", level = 1 }]
-variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99990988", slug = "gtgeographic-survey-of-the-western-caribbean" }]
+variants = [{ city = "Immigrants", guild_type = "Adventure", id = "99990988", slug = "gtgeographic-survey-of-the-western-caribbean" }]
 steps = []
 +++

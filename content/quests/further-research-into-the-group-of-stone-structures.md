@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99991298"
 quest_number = "0"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 3
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Further Research", guild_type = "Adventurer", id = "99991298", slug = "further-research-into-the-group-of-stone-structures" }]
+variants = [{ city = "Further Research", guild_type = "Adventure", id = "99991298", slug = "further-research-into-the-group-of-stone-structures" }]
 skills = [{ name = "Ecological Research", level = 8 }, { name = "Biology", level = 10 }, { name = "English", level = 1 }]
 discovery = "Arctic Fox in Summer"
 discovery_id = "70003452"

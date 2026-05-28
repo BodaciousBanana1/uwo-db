@@ -8,12 +8,12 @@ slug = "further-research-on-the-ramayana"
 id = "99991409"
 type = "Adventure"
 city = "Further Research"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Relief of Ravana the Demon King"
 reward = 0
 advance = 0
 difficulty = 3
 skills = [{ name = "Search", level = 8 }, { name = "Theology", level = 10 }, { name = "Mon-Khmer lang.", level = 1 }]
-variants = [{ city = "Further Research", guild_type = "Adventurer", id = "99991409", slug = "further-research-on-the-ramayana" }]
+variants = [{ city = "Further Research", guild_type = "Adventure", id = "99991409", slug = "further-research-on-the-ramayana" }]
 steps = []
 +++

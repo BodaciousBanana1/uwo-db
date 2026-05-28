@@ -8,12 +8,12 @@ slug = "gtjewelry-storage"
 id = "99991044"
 type = "Adventure"
 city = "Immigrants"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 9
 skills = [{ name = "Spanish", level = 1 }]
-variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99991044", slug = "gtjewelry-storage" }]
+variants = [{ city = "Immigrants", guild_type = "Adventure", id = "99991044", slug = "gtjewelry-storage" }]
 steps = []
 +++

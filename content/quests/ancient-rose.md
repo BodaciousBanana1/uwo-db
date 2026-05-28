@@ -8,12 +8,12 @@ slug = "ancient-rose"
 id = "99995177"
 type = "Adventure"
 city = "Marseille"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 20000
 advance = 0
 difficulty = 3
 skills = [{ name = "Greek", level = 1 }, { name = "Art", level = 4 }]
-variants = [{ city = "Marseille", guild_type = "Adventurer", id = "99995177", slug = "ancient-rose" }]
+variants = [{ city = "Marseille", guild_type = "Adventure", id = "99995177", slug = "ancient-rose" }]
 steps = []
 +++

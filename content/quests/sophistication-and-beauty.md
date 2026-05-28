@@ -8,13 +8,13 @@ slug = "sophistication-and-beauty"
 id = "99993479"
 type = "Adventure"
 city = "London"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Cleopatra's Brooch"
 reward = 0
 advance = 0
 difficulty = 8
 skills = [{ name = "Search", level = 7 }, { name = "Archaeology", level = 9 }, { name = "Unlock", level = 7 }]
-variants = [{ city = "London", guild_type = "Adventurer", id = "99993479", slug = "sophistication-and-beauty" }]
+variants = [{ city = "London", guild_type = "Adventure", id = "99993479", slug = "sophistication-and-beauty" }]
 steps = [{ step = 1, location = "Alexandria Archives", action = "Talk to Scholar" }, { step = 2, location = "Alexandria Archives", action = "Read" }, { step = 3, location = "Shore Opposite Cairo", action = "Use" }]
 equipment_rewards = [{ id = "00006600", name = "Cleopatra's Brooch", slug = "cleopatras-brooch" }]
 discovery_description = "Gorgeous brooch used by Cleopatra VII. She particularly liked emeralds, and this brooch contains several large ones."

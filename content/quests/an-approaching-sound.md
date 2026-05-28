@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99997373"
 quest_number = "4573"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 7
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Naples Adventurer's Guild", guild_type = "Adventurer", id = "99997373", slug = "an-approaching-sound" }]
+variants = [{ city = "Naples Adventurer's Guild", guild_type = "Adventure", id = "99997373", slug = "an-approaching-sound" }]
 skills = [{ name = "Search", level = 7 }, { name = "Appraisal", level = 9 }, { name = "Unlock", level = 7 }]
 discovery = "Zurna"
 discovery_id = "70001637"

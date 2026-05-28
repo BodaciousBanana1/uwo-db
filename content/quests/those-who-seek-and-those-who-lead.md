@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99991199"
 quest_number = "17030"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 3
 exp_reward = 2000
 fame_reward = 0
-variants = [{ city = "London Adventurer's Guild", guild_type = "Adventurer", id = "99991199", slug = "those-who-seek-and-those-who-lead" }]
+variants = [{ city = "London Adventurer's Guild", guild_type = "Adventure", id = "99991199", slug = "those-who-seek-and-those-who-lead" }]
 skills = [{ name = "Search", level = 1 }, { name = "Appraisal", level = 1 }, { name = "English", level = 1 }]
 discovery = "Mystery of Atlantis"
 discovery_id = "70002804"

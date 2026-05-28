@@ -8,12 +8,12 @@ slug = "bell-that-tolls-at-night"
 id = "99991315"
 type = "Adventure"
 city = "Amsterdam"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Cylinder Music Box"
 reward = 0
 advance = 0
 difficulty = 4
 skills = [{ name = "Search", level = 3 }, { name = "Appraisal", level = 5 }, { name = "French", level = 1 }]
-variants = [{ city = "Amsterdam", guild_type = "Adventurer", id = "99991315", slug = "bell-that-tolls-at-night" }]
+variants = [{ city = "Amsterdam", guild_type = "Adventure", id = "99991315", slug = "bell-that-tolls-at-night" }]
 steps = []
 +++

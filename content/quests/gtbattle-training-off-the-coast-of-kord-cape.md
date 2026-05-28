@@ -8,12 +8,12 @@ slug = "gtbattle-training-off-the-coast-of-kord-cape"
 id = "99991063"
 type = "Adventure"
 city = "Immigrants"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 3
 skills = []
-variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99991063", slug = "gtbattle-training-off-the-coast-of-kord-cape" }]
+variants = [{ city = "Immigrants", guild_type = "Adventure", id = "99991063", slug = "gtbattle-training-off-the-coast-of-kord-cape" }]
 steps = []
 +++

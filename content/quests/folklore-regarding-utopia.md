@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99991276"
 quest_number = "0"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 8
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Folklores", guild_type = "Adventurer", id = "99991276", slug = "folklore-regarding-utopia" }]
+variants = [{ city = "Folklores", guild_type = "Adventure", id = "99991276", slug = "folklore-regarding-utopia" }]
 skills = [{ name = "Archaeology", level = 11 }]
 discovery = "Invisible City"
 discovery_id = "70003310"

@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99994152"
 quest_number = "642"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 1
 exp_reward = 4000
 fame_reward = 0
-variants = [{ city = "Marseille Adventurer's Guild", guild_type = "Adventurer", id = "99994152", slug = "sea-beast-with-black-eyes" }]
+variants = [{ city = "Marseille Adventurer's Guild", guild_type = "Adventure", id = "99994152", slug = "sea-beast-with-black-eyes" }]
 skills = [{ name = "Ecological Research", level = 1 }]
 discovery = "Seal"
 discovery_id = "70000464"

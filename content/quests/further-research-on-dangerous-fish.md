@@ -8,12 +8,12 @@ slug = "further-research-on-dangerous-fish"
 id = "99991351"
 type = "Adventure"
 city = "Further Research"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Electric Catfish"
 reward = 0
 advance = 0
 difficulty = 4
 skills = [{ name = "Ecological Research", level = 12 }, { name = "Biology", level = 14 }, { name = "English", level = 1 }]
-variants = [{ city = "Further Research", guild_type = "Adventurer", id = "99991351", slug = "further-research-on-dangerous-fish" }]
+variants = [{ city = "Further Research", guild_type = "Adventure", id = "99991351", slug = "further-research-on-dangerous-fish" }]
 steps = []
 +++

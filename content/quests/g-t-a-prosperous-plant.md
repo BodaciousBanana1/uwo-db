@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99991177"
 quest_number = "0"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 7
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventurer", id = "99991177", slug = "g-t-a-prosperous-plant" }]
+variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventure", id = "99991177", slug = "g-t-a-prosperous-plant" }]
 skills = [{ name = "Ecological Research", level = 5 }, { name = "Biology", level = 7 }, { name = "Oceanic Languages", level = 1 }]
 discovery = "Kanawao"
 discovery_id = "70002294"

@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99994913"
 quest_number = "6978"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 8
 exp_reward = 19200
 fame_reward = 0
-variants = [{ city = "Naples Adventurer's Guild", guild_type = "Adventurer", id = "99994913", slug = "the-two-chosen-kings" }]
+variants = [{ city = "Naples Adventurer's Guild", guild_type = "Adventure", id = "99994913", slug = "the-two-chosen-kings" }]
 skills = []
 steps = [{ step = 1, location = "Naples Archives", action = "Scholar x2" }, { step = 3, location = "Naples Church", action = "Priest" }, { step = 4, location = "Athens Archives", action = "Scholar x6" }]
 +++

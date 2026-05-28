@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990241"
 quest_number = "15165"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 3
 exp_reward = 76000
 fame_reward = 0
-variants = [{ city = "Athens Adventurer's Guild", guild_type = "Adventurer", id = "99990241", slug = "the-emperors-villa" }]
+variants = [{ city = "Athens Adventurer's Guild", guild_type = "Adventure", id = "99990241", slug = "the-emperors-villa" }]
 skills = [{ name = "Recognition", level = 4 }, { name = "Archaeology", level = 6 }]
 discovery = "Villa Adriana"
 discovery_id = "70002657"

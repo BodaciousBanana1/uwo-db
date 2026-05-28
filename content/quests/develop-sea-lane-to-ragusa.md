@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99994419"
 quest_number = "1614"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 2
 exp_reward = 3300
 fame_reward = 0
-variants = [{ city = "Venice Adventurer's Guild", guild_type = "Adventurer", id = "99994419", slug = "develop-sea-lane-to-ragusa" }]
+variants = [{ city = "Venice Adventurer's Guild", guild_type = "Adventure", id = "99994419", slug = "develop-sea-lane-to-ragusa" }]
 skills = []
 steps = [{ step = 1, location = "Ragusa", action = "Port Official: Talk to" }]
 +++

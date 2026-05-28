@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99995095"
 quest_number = "12405"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 8
 exp_reward = 221000
 fame_reward = 20000
-variants = [{ city = "Rio de Janeiro Adventurer's Guild", guild_type = "Adventurer", id = "99995095", slug = "huge-mountains" }]
+variants = [{ city = "Rio de Janeiro Adventurer's Guild", guild_type = "Adventure", id = "99995095", slug = "huge-mountains" }]
 skills = [{ name = "Recognition", level = 6 }, { name = "Geography", level = 8 }]
 discovery = "The Andes"
 discovery_id = "70001255"

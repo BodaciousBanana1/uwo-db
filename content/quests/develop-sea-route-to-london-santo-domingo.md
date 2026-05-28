@@ -8,12 +8,12 @@ slug = "develop-sea-route-to-london-santo-domingo"
 id = "99997130"
 type = "Adventure"
 city = "Santo Domingo"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 5
 skills = [{ name = "English", level = 1 }]
-variants = [{ city = "Rio de Janeiro", guild_type = "Adventurer", id = "99997041", slug = "develop-sea-route-to-london-rio-de-janeiro" }, { city = "Portobelo", guild_type = "Adventurer", id = "99997087", slug = "develop-sea-route-to-london-portobelo" }, { city = "Santo Domingo", guild_type = "Adventurer", id = "99997130", slug = "develop-sea-route-to-london-santo-domingo" }]
+variants = [{ city = "Rio de Janeiro", guild_type = "Adventure", id = "99997041", slug = "develop-sea-route-to-london-rio-de-janeiro" }, { city = "Portobelo", guild_type = "Adventure", id = "99997087", slug = "develop-sea-route-to-london-portobelo" }, { city = "Santo Domingo", guild_type = "Adventure", id = "99997130", slug = "develop-sea-route-to-london-santo-domingo" }]
 steps = []
 +++

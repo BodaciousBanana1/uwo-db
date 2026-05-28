@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99996777"
 quest_number = "13107"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 4
 exp_reward = 68000
 fame_reward = 0
-variants = [{ city = "Hangzhou Adventurer's Guild", guild_type = "Adventurer", id = "99996777", slug = "top-painting-of-the-day" }]
+variants = [{ city = "Hangzhou Adventurer's Guild", guild_type = "Adventure", id = "99996777", slug = "top-painting-of-the-day" }]
 skills = [{ name = "Search", level = 4 }, { name = "Art", level = 6 }]
 discovery = "Kano Motonobu Landscape Painting"
 discovery_id = "70001722"

@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990076"
 quest_number = "16590"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 8
 exp_reward = 200000
 fame_reward = 0
-variants = [{ city = "SecretEdict", guild_type = "Adventurer", id = "99990076", slug = "subdue-the-looters" }]
+variants = [{ city = "SecretEdict", guild_type = "Adventure", id = "99990076", slug = "subdue-the-looters" }]
 skills = []
 +++
 

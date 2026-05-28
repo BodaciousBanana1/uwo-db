@@ -8,13 +8,13 @@ slug = "essence-of-ointment"
 id = "99996819"
 type = "Adventure"
 city = "Hangzhou"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Narwhal"
 reward = 60000
 advance = 0
 difficulty = 5
 skills = [{ name = "Ecological Research", level = 4 }, { name = "Biology", level = 6 }, { name = "Japanese", level = 1 }]
-variants = [{ city = "Hangzhou", guild_type = "Adventurer", id = "99996819", slug = "essence-of-ointment" }]
+variants = [{ city = "Hangzhou", guild_type = "Adventure", id = "99996819", slug = "essence-of-ointment" }]
 steps = [{ step = 1, location = "Sakai", action = "Talk to Item Shopkeeper (2x)" }, { step = 2, location = "Sakai", action = "Talk to Scholar (3x)" }, { step = 3, location = "Japanese Archipelago Southeast Coast", action = "use" }]
 discovery_description = "Plant that bears a yellow flower in the summer and grows in the grass and the hills in East Asia. Eating the plant will produce skin irritation when under direct sunlight. Generally used as an herbal medicine or ointment."
 exp_reward = 460

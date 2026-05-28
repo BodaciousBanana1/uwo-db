@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99993921"
 quest_number = "15766"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 6
 exp_reward = 89000
 fame_reward = 0
-variants = [{ city = "Venice Adventurer's Guild", guild_type = "Adventurer", id = "99993921", slug = "final-dynasty-of-egypt" }]
+variants = [{ city = "Venice Adventurer's Guild", guild_type = "Adventure", id = "99993921", slug = "final-dynasty-of-egypt" }]
 skills = [{ name = "Search", level = 3 }, { name = "Archaeology", level = 5 }, { name = "Unlock", level = 3 }]
 discovery = "The Sceptre of Ptolemy I"
 discovery_id = "70000157"

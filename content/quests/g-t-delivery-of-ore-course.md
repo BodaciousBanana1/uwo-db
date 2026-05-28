@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990090"
 quest_number = "15669"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 5
 exp_reward = 300000
 fame_reward = 0
-variants = [{ city = "SecretEdict", guild_type = "Adventurer", id = "99990090", slug = "g-t-delivery-of-ore-course" }]
+variants = [{ city = "SecretEdict", guild_type = "Adventure", id = "99990090", slug = "g-t-delivery-of-ore-course" }]
 skills = [{ name = "Nordic", level = 1 }]
 +++
 

@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990080"
 quest_number = "16607"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 3
 exp_reward = 200000
 fame_reward = 0
-variants = [{ city = "SecretEdict", guild_type = "Adventurer", id = "99990080", slug = "subdue-the-old-hafus-fleet" }]
+variants = [{ city = "SecretEdict", guild_type = "Adventure", id = "99990080", slug = "subdue-the-old-hafus-fleet" }]
 skills = []
 steps = [{ step = 1, location = "Ionian Sea", action = "-" }]
 +++

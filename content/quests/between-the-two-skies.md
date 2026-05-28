@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99991294"
 quest_number = "15833"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 0
 exp_reward = 190000
 fame_reward = 0
-variants = [{ city = "", guild_type = "Adventurer", id = "99991294", slug = "between-the-two-skies" }]
+variants = [{ city = "", guild_type = "Adventure", id = "99991294", slug = "between-the-two-skies" }]
 skills = []
 steps = [{ step = 1, location = "Sofala", action = "Resident - talk 2x" }, { step = 2, location = "Cape", action = "Talk to Adventure Mediator" }, { step = 3, location = "Alexandria", action = "Talk to Scholar" }]
 +++

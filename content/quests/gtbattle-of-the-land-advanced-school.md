@@ -8,12 +8,12 @@ slug = "gtbattle-of-the-land-advanced-school"
 id = "99999868"
 type = "Adventure"
 city = "Advanced school"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 1
 skills = []
-variants = [{ city = "Advanced school", guild_type = "Adventurer", id = "99999882", slug = "gtbattle-of-the-land-advanced-school" }, { city = "Advanced school", guild_type = "Adventurer", id = "99999875", slug = "gtbattle-of-the-land-advanced-school" }, { city = "Advanced school", guild_type = "Adventurer", id = "99999868", slug = "gtbattle-of-the-land-advanced-school" }]
+variants = [{ city = "Advanced school", guild_type = "Adventure", id = "99999882", slug = "gtbattle-of-the-land-advanced-school" }, { city = "Advanced school", guild_type = "Adventure", id = "99999875", slug = "gtbattle-of-the-land-advanced-school" }, { city = "Advanced school", guild_type = "Adventure", id = "99999868", slug = "gtbattle-of-the-land-advanced-school" }]
 steps = []
 +++

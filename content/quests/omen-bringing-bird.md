@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99991347"
 quest_number = "36"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 9
 exp_reward = 160000
 fame_reward = 32000
-variants = [{ city = "Folklores", guild_type = "Adventurer", id = "99991347", slug = "omen-bringing-bird" }]
+variants = [{ city = "Folklores", guild_type = "Adventure", id = "99991347", slug = "omen-bringing-bird" }]
 skills = [{ name = "Biology", level = 13 }]
 discovery = "The Golden Princess"
 discovery_id = "70003439"

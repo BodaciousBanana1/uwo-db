@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99993144"
 quest_number = "16251"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 3
 exp_reward = 9000
 fame_reward = 0
-variants = [{ city = "Lisbon Adventurer's Guild", guild_type = "Adventurer", id = "99993144", slug = "crusade-of-the-people" }]
+variants = [{ city = "Lisbon Adventurer's Guild", guild_type = "Adventure", id = "99993144", slug = "crusade-of-the-people" }]
 skills = [{ name = "Search", level = 1 }, { name = "Archaeology", level = 1 }]
 discovery = "The Staff of Peter the Hermit"
 discovery_id = "70000041"

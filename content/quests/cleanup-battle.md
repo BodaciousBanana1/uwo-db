@@ -8,12 +8,12 @@ slug = "cleanup-battle"
 id = "99996268"
 type = "Adventure"
 city = "Calicut Imperial Contract"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 9
 skills = []
-variants = [{ city = "Calicut Imperial Contract", guild_type = "Adventurer", id = "99996268", slug = "cleanup-battle" }]
+variants = [{ city = "Calicut Imperial Contract", guild_type = "Adventure", id = "99996268", slug = "cleanup-battle" }]
 steps = []
 +++

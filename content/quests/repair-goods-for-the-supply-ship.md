@@ -8,12 +8,12 @@ slug = "repair-goods-for-the-supply-ship"
 id = "99997912"
 type = "Adventure"
 city = "Manila Imperial Contract"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 4
 skills = []
-variants = [{ city = "Manila Imperial Contract", guild_type = "Adventurer", id = "99997912", slug = "repair-goods-for-the-supply-ship" }]
+variants = [{ city = "Manila Imperial Contract", guild_type = "Adventure", id = "99997912", slug = "repair-goods-for-the-supply-ship" }]
 steps = []
 +++

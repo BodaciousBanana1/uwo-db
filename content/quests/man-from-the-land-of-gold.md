@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99994442"
 quest_number = "7748"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 7
 exp_reward = 232000
 fame_reward = 20000
-variants = [{ city = "Venice Adventurer's Guild", guild_type = "Adventurer", id = "99994442", slug = "man-from-the-land-of-gold" }]
+variants = [{ city = "Venice Adventurer's Guild", guild_type = "Adventure", id = "99994442", slug = "man-from-the-land-of-gold" }]
 skills = [{ name = "Search", level = 6 }, { name = "Theology", level = 8 }, { name = "Unlock", level = 6 }]
 discovery = "Yajio's Bowl"
 discovery_id = "70001075"

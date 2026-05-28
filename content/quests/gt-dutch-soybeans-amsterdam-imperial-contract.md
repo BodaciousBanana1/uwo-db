@@ -8,12 +8,12 @@ slug = "gt-dutch-soybeans-amsterdam-imperial-contract"
 id = "99991197"
 type = "Adventure"
 city = "Amsterdam Imperial Contract"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 5
 skills = []
-variants = [{ city = "Amsterdam Imperial Contract", guild_type = "Adventurer", id = "99991198", slug = "gt-dutch-soybeans-amsterdam-imperial-contract" }, { city = "Amsterdam Imperial Contract", guild_type = "Adventurer", id = "99991197", slug = "gt-dutch-soybeans-amsterdam-imperial-contract" }]
+variants = [{ city = "Amsterdam Imperial Contract", guild_type = "Adventure", id = "99991198", slug = "gt-dutch-soybeans-amsterdam-imperial-contract" }, { city = "Amsterdam Imperial Contract", guild_type = "Adventure", id = "99991197", slug = "gt-dutch-soybeans-amsterdam-imperial-contract" }]
 steps = []
 +++

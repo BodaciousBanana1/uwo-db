@@ -8,12 +8,12 @@ slug = "gtcape-town-route-development"
 id = "99997241"
 type = "Adventure"
 city = "Zanzibar"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 3
 skills = [{ name = "Swahili", level = 1 }, { name = "West African Languages", level = 1 }]
-variants = [{ city = "Zanzibar", guild_type = "Adventurer", id = "99997241", slug = "gtcape-town-route-development" }]
+variants = [{ city = "Zanzibar", guild_type = "Adventure", id = "99997241", slug = "gtcape-town-route-development" }]
 steps = []
 +++

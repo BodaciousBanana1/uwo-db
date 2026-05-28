@@ -8,12 +8,12 @@ slug = "the-dragon-and-the-anaconda"
 id = "99997616"
 type = "Adventure"
 city = "London"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Anaconda"
 reward = 0
 advance = 0
 difficulty = 7
 skills = [{ name = "Portuguese", level = 1 }, { name = "Spanish", level = 1 }, { name = "English", level = 1 }]
-variants = [{ city = "London", guild_type = "Adventurer", id = "99997616", slug = "the-dragon-and-the-anaconda" }]
+variants = [{ city = "London", guild_type = "Adventure", id = "99997616", slug = "the-dragon-and-the-anaconda" }]
 steps = []
 +++

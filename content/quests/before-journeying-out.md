@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990593"
 quest_number = "14942"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 2
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Marseille Adventurer's Guild", guild_type = "Adventurer", id = "99990593", slug = "before-journeying-out" }]
+variants = [{ city = "Marseille Adventurer's Guild", guild_type = "Adventure", id = "99990593", slug = "before-journeying-out" }]
 skills = [{ name = "Search", level = 1 }, { name = "Art", level = 3 }, { name = "Portuguese", level = 1 }]
 discovery = "Painting of Saint Christopher"
 discovery_id = "70003217"

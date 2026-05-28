@@ -8,12 +8,12 @@ slug = "mysterious-wool-boom"
 id = "99997637"
 type = "Adventure"
 city = "Amsterdam"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 2400
 advance = 0
 difficulty = 2
 skills = [{ name = "English", level = 1 }, { name = "Dutch", level = 1 }]
-variants = [{ city = "Amsterdam", guild_type = "Adventurer", id = "99997637", slug = "mysterious-wool-boom" }]
+variants = [{ city = "Amsterdam", guild_type = "Adventure", id = "99997637", slug = "mysterious-wool-boom" }]
 steps = []
 +++

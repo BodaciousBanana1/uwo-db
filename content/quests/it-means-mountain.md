@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99997080"
 quest_number = "4333"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 3
 exp_reward = 108000
 fame_reward = 10000
-variants = [{ city = "Portobelo Adventurer's Guild", guild_type = "Adventurer", id = "99997080", slug = "it-means-mountain" }]
+variants = [{ city = "Portobelo Adventurer's Guild", guild_type = "Adventure", id = "99997080", slug = "it-means-mountain" }]
 skills = [{ name = "Recognition", level = 6 }, { name = "Geography", level = 8 }, { name = "Mayan Languages", level = 1 }]
 discovery = "Monadnock"
 discovery_id = "70002216"

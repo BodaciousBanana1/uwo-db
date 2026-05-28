@@ -8,12 +8,12 @@ slug = "gtdelivery-of-sewing-equipment"
 id = "99991002"
 type = "Adventure"
 city = "Immigrants"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 1
 skills = [{ name = "Arabic", level = 1 }]
-variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99991002", slug = "gtdelivery-of-sewing-equipment" }]
+variants = [{ city = "Immigrants", guild_type = "Adventure", id = "99991002", slug = "gtdelivery-of-sewing-equipment" }]
 steps = []
 +++

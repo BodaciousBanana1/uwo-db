@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990766"
 quest_number = "13576"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 10
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "London Adventurer's Guild", guild_type = "Adventurer", id = "99990766", slug = "coffin-worth-dying-for" }]
+variants = [{ city = "London Adventurer's Guild", guild_type = "Adventure", id = "99990766", slug = "coffin-worth-dying-for" }]
 skills = [{ name = "Search", level = 15 }, { name = "Theology", level = 17 }]
 discovery = "Coffin of Osiris"
 discovery_id = "70003079"

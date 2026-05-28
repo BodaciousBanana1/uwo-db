@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990368"
 quest_number = "0"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 8
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventurer", id = "99990368", slug = "g-t-hawaiian-traditional-instruments" }]
+variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventure", id = "99990368", slug = "g-t-hawaiian-traditional-instruments" }]
 skills = [{ name = "Search", level = 4 }, { name = "Appraisal", level = 6 }, { name = "Unlock", level = 4 }]
 discovery = "Uli Uli"
 discovery_id = "70002297"

@@ -8,12 +8,12 @@ slug = "secure-rights-to-seas-of-the-new-world"
 id = "99996736"
 type = "Adventure"
 city = "London Imperial Contract"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 9
 skills = []
-variants = [{ city = "London Imperial Contract", guild_type = "Adventurer", id = "99996736", slug = "secure-rights-to-seas-of-the-new-world" }]
+variants = [{ city = "London Imperial Contract", guild_type = "Adventure", id = "99996736", slug = "secure-rights-to-seas-of-the-new-world" }]
 steps = []
 +++

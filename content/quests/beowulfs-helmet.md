@@ -8,13 +8,13 @@ slug = "beowulfs-helmet"
 id = "99999403"
 type = "Adventure"
 city = "Treasure Hunt"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 6
 skills = [{ name = "Search", level = 9 }, { name = "Archaeology", level = 11 }, { name = "Nordic", level = 1 }]
-variants = [{ city = "Treasure Hunt", guild_type = "Adventurer", id = "99999403", slug = "beowulfs-helmet" }]
+variants = [{ city = "Treasure Hunt", guild_type = "Adventure", id = "99999403", slug = "beowulfs-helmet" }]
 steps = []
 equipment_rewards = [{ id = "00146103", name = "Beowulf's Helmet", slug = "beowulfs-helmet" }]
 +++

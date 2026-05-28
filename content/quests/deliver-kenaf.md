@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99995869"
 quest_number = "1724"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 3
 exp_reward = 16000
 fame_reward = 2160
-variants = [{ city = "SecretEdict", guild_type = "Adventurer", id = "99995869", slug = "deliver-kenaf" }]
+variants = [{ city = "SecretEdict", guild_type = "Adventure", id = "99995869", slug = "deliver-kenaf" }]
 skills = []
 +++
 

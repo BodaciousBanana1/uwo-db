@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99997570"
 quest_number = "8603"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 8
 exp_reward = 256000
 fame_reward = 0
-variants = [{ city = "Lisbon Adventurer's Guild", guild_type = "Adventurer", id = "99997570", slug = "develop-sea-route-to-jakarta" }]
+variants = [{ city = "Lisbon Adventurer's Guild", guild_type = "Adventure", id = "99997570", slug = "develop-sea-route-to-jakarta" }]
 skills = [{ name = "Malay/Tagalog", level = 1 }]
 +++
 

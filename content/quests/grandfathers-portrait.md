@@ -8,13 +8,13 @@ slug = "grandfathers-portrait"
 id = "99997410"
 type = "Adventure"
 city = "Genoa"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Silverware"
 reward = 0
 advance = 0
 difficulty = 8
 skills = [{ name = "Search", level = 9 }, { name = "Appraisal", level = 11 }, { name = "Italian", level = 1 }]
-variants = [{ city = "Genoa", guild_type = "Adventurer", id = "99997410", slug = "grandfathers-portrait" }]
+variants = [{ city = "Genoa", guild_type = "Adventure", id = "99997410", slug = "grandfathers-portrait" }]
 steps = [{ step = 1, location = "Florence", action = "Talk to Noble Girl (Outside tavern)" }]
 discovery_description = "A golden medal engraven with the profile of Lorenzo's grandfather, Cosimo. Cosimo contributed much to the development of both the Medici family and Florence, being a patron of the arts and of literature."
 exp_reward = 1030

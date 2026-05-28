@@ -8,13 +8,13 @@ slug = "gawains-axe"
 id = "99999208"
 type = "Adventure"
 city = "Treasure Hunt"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 6
 skills = [{ name = "Search", level = 9 }, { name = "Theology", level = 11 }, { name = "Celtic", level = 1 }]
-variants = [{ city = "Treasure Hunt", guild_type = "Adventurer", id = "99999208", slug = "gawains-axe" }]
+variants = [{ city = "Treasure Hunt", guild_type = "Adventure", id = "99999208", slug = "gawains-axe" }]
 steps = []
 equipment_rewards = [{ id = "00415300", name = "Axe of the Green Knight", slug = "axe-of-the-green-knight" }]
 +++

@@ -8,13 +8,13 @@ slug = "coral-sea"
 id = "99993414"
 type = "Adventure"
 city = "London"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "The Cayman Islands"
 reward = 0
 advance = 0
 difficulty = 6
 skills = [{ name = "Recognition", level = 4 }, { name = "Geography", level = 6 }]
-variants = [{ city = "London", guild_type = "Adventurer", id = "99993414", slug = "coral-sea" }]
+variants = [{ city = "London", guild_type = "Adventure", id = "99993414", slug = "coral-sea" }]
 steps = [{ step = 1, location = "West Caribbean Sea", action = "Sail to Grand Cayman, then use" }]
 followups = [{ id = "99994754", name = "Investigation of Mercator", slug = "investigation-of-mercator" }]
 equipment_rewards = [{ id = "00514800", name = "Introduction to Navigation", slug = "introduction-to-navigation" }]

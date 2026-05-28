@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990693"
 quest_number = "13628"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 5
 exp_reward = 92000
 fame_reward = 0
-variants = [{ city = "Tunis Adventurer's Guild", guild_type = "Adventurer", id = "99990693", slug = "souvenir-from-the-moors" }]
+variants = [{ city = "Tunis Adventurer's Guild", guild_type = "Adventure", id = "99990693", slug = "souvenir-from-the-moors" }]
 skills = [{ name = "Search", level = 5 }, { name = "Art", level = 7 }, { name = "Portuguese", level = 1 }]
 discovery = "Azulejo"
 discovery_id = "70003162"

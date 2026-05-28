@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99997451"
 quest_number = "13074"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 9
 exp_reward = 84000
 fame_reward = 0
-variants = [{ city = "Genoa Adventurer's Guild", guild_type = "Adventurer", id = "99997451", slug = "stolen-goldwork-statue" }]
+variants = [{ city = "Genoa Adventurer's Guild", guild_type = "Adventure", id = "99997451", slug = "stolen-goldwork-statue" }]
 skills = [{ name = "Search", level = 11 }, { name = "Art", level = 13 }, { name = "Unlock", level = 11 }]
 discovery = "Saliera"
 discovery_id = "70001542"

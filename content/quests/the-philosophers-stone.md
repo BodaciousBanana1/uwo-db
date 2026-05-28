@@ -8,13 +8,13 @@ slug = "the-philosophers-stone"
 id = "99994381"
 type = "Adventure"
 city = "Naples"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Azoth"
 reward = 0
 advance = 0
 difficulty = 6
 skills = [{ name = "Search", level = 11 }, { name = "Appraisal", level = 13 }, { name = "Italian", level = 1 }]
-variants = [{ city = "Naples", guild_type = "Adventurer", id = "99994381", slug = "the-philosophers-stone" }]
+variants = [{ city = "Naples", guild_type = "Adventure", id = "99994381", slug = "the-philosophers-stone" }]
 steps = []
 discovery_description = "An unidentifiable material that Paracelsus refined by using azoth. The creation method is a closely guarded secret. If an alchemist is ever successful in creating this material, they must abandon the results and leave no trace as to how it was created."
 exp_reward = 1170

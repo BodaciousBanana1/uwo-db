@@ -8,12 +8,12 @@ slug = "develop-sea-route-to-calicut-jakarta"
 id = "99994964"
 type = "Adventure"
 city = "Jakarta"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 54000
 advance = 0
 difficulty = 3
 skills = [{ name = "Indian Languages", level = 1 }]
-variants = [{ city = "Jakarta", guild_type = "Adventurer", id = "99994964", slug = "develop-sea-route-to-calicut-jakarta" }, { city = "Aden", guild_type = "Adventurer", id = "99997226", slug = "develop-sea-route-to-calicut-aden" }, { city = "Zanzibar", guild_type = "Adventurer", id = "99997245", slug = "develop-sea-route-to-calicut-zanzibar" }]
+variants = [{ city = "Jakarta", guild_type = "Adventure", id = "99994964", slug = "develop-sea-route-to-calicut-jakarta" }, { city = "Aden", guild_type = "Adventure", id = "99997226", slug = "develop-sea-route-to-calicut-aden" }, { city = "Zanzibar", guild_type = "Adventure", id = "99997245", slug = "develop-sea-route-to-calicut-zanzibar" }]
 steps = []
 +++

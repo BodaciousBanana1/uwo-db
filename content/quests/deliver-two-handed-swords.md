@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99999899"
 quest_number = "11451"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 2
 exp_reward = 6000
 fame_reward = 0
-variants = [{ city = "Advanced school", guild_type = "Adventurer", id = "99999899", slug = "deliver-two-handed-swords" }]
+variants = [{ city = "Advanced school", guild_type = "Adventure", id = "99999899", slug = "deliver-two-handed-swords" }]
 skills = []
 +++
 

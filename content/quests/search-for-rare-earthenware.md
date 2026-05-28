@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990802"
 quest_number = "14537"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 10
 exp_reward = 297000
 fame_reward = 20000
-variants = [{ city = "Stockholm Adventurer's Guild", guild_type = "Adventurer", id = "99990802", slug = "search-for-rare-earthenware" }]
+variants = [{ city = "Stockholm Adventurer's Guild", guild_type = "Adventure", id = "99990802", slug = "search-for-rare-earthenware" }]
 skills = [{ name = "Search", level = 15 }, { name = "Art", level = 17 }]
 discovery = "Countryside Earthenware"
 discovery_id = "70003100"

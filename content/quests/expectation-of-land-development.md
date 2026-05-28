@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99994837"
 quest_number = "4240"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 6
 exp_reward = 99000
 fame_reward = 0
-variants = [{ city = "Santo Domingo Adventurer's Guild", guild_type = "Adventurer", id = "99994837", slug = "expectation-of-land-development" }]
+variants = [{ city = "Santo Domingo Adventurer's Guild", guild_type = "Adventure", id = "99994837", slug = "expectation-of-land-development" }]
 skills = [{ name = "Recognition", level = 4 }, { name = "Geography", level = 6 }]
 discovery = "The Hudson River"
 discovery_id = "70000707"

@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99994626"
 quest_number = "7902"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 6
 exp_reward = 92000
 fame_reward = 0
-variants = [{ city = "Aden Adventurer's Guild", guild_type = "Adventurer", id = "99994626", slug = "paradise-on-earth" }]
+variants = [{ city = "Aden Adventurer's Guild", guild_type = "Adventure", id = "99994626", slug = "paradise-on-earth" }]
 skills = [{ name = "Recognition", level = 4 }, { name = "Geography", level = 6 }, { name = "Indian Languages", level = 1 }]
 discovery = "The Maldives Islands"
 discovery_id = "70000681"

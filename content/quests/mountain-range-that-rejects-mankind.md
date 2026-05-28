@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990863"
 quest_number = "16451"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 6
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Venice Adventurer's Guild", guild_type = "Adventurer", id = "99990863", slug = "mountain-range-that-rejects-mankind" }]
+variants = [{ city = "Venice Adventurer's Guild", guild_type = "Adventure", id = "99990863", slug = "mountain-range-that-rejects-mankind" }]
 skills = [{ name = "Search", level = 6 }, { name = "Theology", level = 8 }, { name = "Indian Languages", level = 1 }]
 discovery = "Statue of Himavat"
 discovery_id = "70002967"

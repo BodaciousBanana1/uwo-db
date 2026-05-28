@@ -8,12 +8,12 @@ slug = "a-man-in-his-shell"
 id = "99999418"
 type = "Adventure"
 city = "Stockholm"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 3
 skills = [{ name = "Archaeology", level = 2 }, { name = "Nordic", level = 1 }]
-variants = [{ city = "Stockholm", guild_type = "Adventurer", id = "99999418", slug = "a-man-in-his-shell" }]
+variants = [{ city = "Stockholm", guild_type = "Adventure", id = "99999418", slug = "a-man-in-his-shell" }]
 steps = [{ step = 4, location = "Stockholm", action = "Talk to Boy (near shipyard) x6" }]
 +++

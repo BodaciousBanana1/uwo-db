@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990099"
 quest_number = "16340"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 5
 exp_reward = 20000
 fame_reward = 0
-variants = [{ city = "SecretEdict", guild_type = "Adventurer", id = "99990099", slug = "summary-of-the-atlantic-theory" }]
+variants = [{ city = "SecretEdict", guild_type = "Adventure", id = "99990099", slug = "summary-of-the-atlantic-theory" }]
 skills = [{ name = "English", level = 1 }, { name = "Portuguese", level = 1 }, { name = "Archaeology", level = 1 }]
 +++
 

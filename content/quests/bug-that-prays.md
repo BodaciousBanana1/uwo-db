@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99991254"
 quest_number = "16820"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 6
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Hangzhou Adventurer's Guild", guild_type = "Adventurer", id = "99991254", slug = "bug-that-prays" }]
+variants = [{ city = "Hangzhou Adventurer's Guild", guild_type = "Adventure", id = "99991254", slug = "bug-that-prays" }]
 skills = [{ name = "Ecological Research", level = 5 }, { name = "Biology", level = 7 }]
 discovery = "Chinese Mantis"
 discovery_id = "70003431"

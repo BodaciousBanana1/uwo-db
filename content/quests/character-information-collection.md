@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990005"
 quest_number = "13863"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 7
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Naples Adventurer's Guild", guild_type = "Adventurer", id = "99990005", slug = "character-information-collection" }]
+variants = [{ city = "Naples Adventurer's Guild", guild_type = "Adventure", id = "99990005", slug = "character-information-collection" }]
 skills = [{ name = "Search", level = 8 }, { name = "Archaeology", level = 10 }, { name = "Chinese", level = 1 }]
 discovery = "Historic Mongolian Texts"
 discovery_id = "70002322"

@@ -8,12 +8,12 @@ slug = "big-jaw"
 id = "99991277"
 type = "Adventure"
 city = "Portobelo"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Darwin's Beetle"
 reward = 0
 advance = 0
 difficulty = 4
 skills = [{ name = "Ecological Research", level = 3 }, { name = "Biology", level = 5 }, { name = "Portuguese", level = 1 }]
-variants = [{ city = "Portobelo", guild_type = "Adventurer", id = "99991277", slug = "big-jaw" }]
+variants = [{ city = "Portobelo", guild_type = "Adventure", id = "99991277", slug = "big-jaw" }]
 steps = []
 +++

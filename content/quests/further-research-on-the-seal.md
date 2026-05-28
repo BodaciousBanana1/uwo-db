@@ -8,12 +8,12 @@ slug = "further-research-on-the-seal"
 id = "99991337"
 type = "Adventure"
 city = "Further Research"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Grizzly"
 reward = 0
 advance = 0
 difficulty = 3
 skills = [{ name = "Ecological Research", level = 8 }, { name = "Biology", level = 10 }, { name = "North American Languages", level = 1 }]
-variants = [{ city = "Further Research", guild_type = "Adventurer", id = "99991337", slug = "further-research-on-the-seal" }]
+variants = [{ city = "Further Research", guild_type = "Adventure", id = "99991337", slug = "further-research-on-the-seal" }]
 steps = []
 +++

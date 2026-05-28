@@ -8,13 +8,13 @@ slug = "memories-in-a-bottle"
 id = "99994797"
 type = "Adventure"
 city = "Santo Domingo"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Bullring Ticket"
 reward = 80000
 advance = 10000
 difficulty = 9
 skills = [{ name = "Search", level = 10 }, { name = "Appraisal", level = 12 }, { name = "Unlock", level = 10 }]
-variants = [{ city = "Santo Domingo", guild_type = "Adventurer", id = "99994797", slug = "memories-in-a-bottle" }]
+variants = [{ city = "Santo Domingo", guild_type = "Adventure", id = "99994797", slug = "memories-in-a-bottle" }]
 steps = [{ step = 1, location = "Santiago", action = "Talk to Maiden near the Consuls" }, { step = 2, location = "Santiago", action = "Talk to Seafarer near the Barkeep" }, { step = 3, location = "Santiago", action = "Talk to Maiden again near the Consuls" }, { step = 4, location = "Santiago", action = "Talk to Resident (Red Shirt) near the Shopkeeper" }, { step = 5, location = "South America North Coast Plateau", action = "Use" }]
 prerequisites = [{ id = "99993948", name = "Recollections and longing", slug = "recollections-and-longing" }, { id = "99994827", name = "Searching for Memory", slug = "searching-for-memory" }, { id = "99994792", name = "Purple coloured memories", slug = "purple-coloured-memories" }]
 followups = [{ id = "99994782", name = "Fates Intertwined", slug = "fates-intertwined" }]

@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990784"
 quest_number = "15094"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 10
 exp_reward = 855000
 fame_reward = 80000
-variants = [{ city = "Hangzhou Adventurer's Guild", guild_type = "Adventurer", id = "99990784", slug = "islamic-calligraphy" }]
+variants = [{ city = "Hangzhou Adventurer's Guild", guild_type = "Adventure", id = "99990784", slug = "islamic-calligraphy" }]
 skills = [{ name = "Search", level = 15 }, { name = "Art", level = 17 }]
 discovery = "Bird Calligraphy"
 discovery_id = "70003104"

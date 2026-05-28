@@ -8,12 +8,12 @@ slug = "christina"
 id = "99995064"
 type = "Adventure"
 city = "Lisbon"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 400
 advance = 0
 difficulty = 1
 skills = [{ name = "Portuguese", level = 1 }]
-variants = [{ city = "Lisbon", guild_type = "Adventurer", id = "99995064", slug = "christina" }]
+variants = [{ city = "Lisbon", guild_type = "Adventure", id = "99995064", slug = "christina" }]
 steps = []
 +++

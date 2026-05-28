@@ -8,12 +8,12 @@ slug = "ancient-armament-of-the-siege"
 id = "99991219"
 type = "Adventure"
 city = "Athens"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Candia"
 reward = 0
 advance = 0
 difficulty = 6
 skills = [{ name = "Search", level = 6 }, { name = "Archaeology", level = 8 }, { name = "Greek", level = 1 }]
-variants = [{ city = "Athens", guild_type = "Adventurer", id = "99991219", slug = "ancient-armament-of-the-siege" }]
+variants = [{ city = "Athens", guild_type = "Adventure", id = "99991219", slug = "ancient-armament-of-the-siege" }]
 steps = []
 +++

@@ -8,12 +8,12 @@ slug = "gtwere-going-for-a-walk-inside-the-city-beginners-school"
 id = "99999807"
 type = "Adventure"
 city = "Beginners school"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 1
 skills = []
-variants = [{ city = "Beginners school", guild_type = "Adventurer", id = "99999827", slug = "gtwere-going-for-a-walk-inside-the-city-beginners-school" }, { city = "Beginners school", guild_type = "Adventurer", id = "99999810", slug = "gtwere-going-for-a-walk-inside-the-city-beginners-school" }, { city = "Beginners school", guild_type = "Adventurer", id = "99999807", slug = "gtwere-going-for-a-walk-inside-the-city-beginners-school" }]
+variants = [{ city = "Beginners school", guild_type = "Adventure", id = "99999827", slug = "gtwere-going-for-a-walk-inside-the-city-beginners-school" }, { city = "Beginners school", guild_type = "Adventure", id = "99999810", slug = "gtwere-going-for-a-walk-inside-the-city-beginners-school" }, { city = "Beginners school", guild_type = "Adventure", id = "99999807", slug = "gtwere-going-for-a-walk-inside-the-city-beginners-school" }]
 steps = []
 +++

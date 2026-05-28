@@ -8,12 +8,12 @@ slug = "gtthe-tradition-of-giants-living-in-the-sea"
 id = "99990517"
 type = "Adventure"
 city = "Folklores"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 7
 skills = [{ name = "Biology", level = 9 }]
-variants = [{ city = "Folklores", guild_type = "Adventurer", id = "99990517", slug = "gtthe-tradition-of-giants-living-in-the-sea" }]
+variants = [{ city = "Folklores", guild_type = "Adventure", id = "99990517", slug = "gtthe-tradition-of-giants-living-in-the-sea" }]
 steps = []
 +++

@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990142"
 quest_number = "15133"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 5
 exp_reward = 168000
 fame_reward = 1000
-variants = [{ city = "London Adventurer's Guild", guild_type = "Adventurer", id = "99990142", slug = "the-famous-hunters-of-the-savannah" }]
+variants = [{ city = "London Adventurer's Guild", guild_type = "Adventure", id = "99990142", slug = "the-famous-hunters-of-the-savannah" }]
 skills = [{ name = "Ecological Research", level = 2 }, { name = "Biology", level = 4 }, { name = "Swahili", level = 1 }]
 discovery = "African Hunting Dog"
 discovery_id = "70002692"

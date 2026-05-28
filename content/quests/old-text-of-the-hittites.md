@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99994378"
 quest_number = "3660"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 7
 exp_reward = 142000
 fame_reward = 0
-variants = [{ city = "Tunis Adventurer's Guild", guild_type = "Adventurer", id = "99994378", slug = "old-text-of-the-hittites" }]
+variants = [{ city = "Tunis Adventurer's Guild", guild_type = "Adventure", id = "99994378", slug = "old-text-of-the-hittites" }]
 skills = [{ name = "Search", level = 5 }, { name = "Archaeology", level = 7 }]
 discovery = "The Code of Hittite"
 discovery_id = "70000153"

@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99993639"
 quest_number = "11800"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 8
 exp_reward = 220000
 fame_reward = 10000
-variants = [{ city = "Marseille Adventurer's Guild", guild_type = "Adventurer", id = "99993639", slug = "beauty-who-only-appears-at-night" }]
+variants = [{ city = "Marseille Adventurer's Guild", guild_type = "Adventure", id = "99993639", slug = "beauty-who-only-appears-at-night" }]
 skills = [{ name = "Ecological Research", level = 7 }, { name = "Biology", level = 9 }]
 discovery = "Epiphyllum Oxypetalum"
 discovery_id = "70000405"

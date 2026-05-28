@@ -8,13 +8,13 @@ slug = "a-forest-in-the-tundra"
 id = "99990185"
 type = "Adventure"
 city = "St. Petersburg"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Iceberg"
 reward = 134000
 advance = 10000
 difficulty = 7
 skills = [{ name = "Recognition", level = 4 }, { name = "Geography", level = 6 }]
-variants = [{ city = "St. Petersburg", guild_type = "Adventurer", id = "99990185", slug = "a-forest-in-the-tundra" }]
+variants = [{ city = "St. Petersburg", guild_type = "Adventure", id = "99990185", slug = "a-forest-in-the-tundra" }]
 steps = []
 followups = [{ id = "99990195", name = "The world of frozen seas", slug = "the-world-of-frozen-seas" }]
 +++

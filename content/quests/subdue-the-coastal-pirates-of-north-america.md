@@ -8,12 +8,12 @@ slug = "subdue-the-coastal-pirates-of-north-america"
 id = "99990074"
 type = "Adventure"
 city = "SecretEdict"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 8
 skills = []
-variants = [{ city = "SecretEdict", guild_type = "Adventurer", id = "99990074", slug = "subdue-the-coastal-pirates-of-north-america" }]
+variants = [{ city = "SecretEdict", guild_type = "Adventure", id = "99990074", slug = "subdue-the-coastal-pirates-of-north-america" }]
 steps = []
 +++

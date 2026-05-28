@@ -8,13 +8,13 @@ slug = "helmet-of-the-gauls-hero"
 id = "99999300"
 type = "Adventure"
 city = "Treasure Hunt"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 10
 skills = [{ name = "Search", level = 15 }, { name = "Archaeology", level = 17 }, { name = "Latin", level = 1 }]
-variants = [{ city = "Treasure Hunt", guild_type = "Adventurer", id = "99999300", slug = "helmet-of-the-gauls-hero" }]
+variants = [{ city = "Treasure Hunt", guild_type = "Adventure", id = "99999300", slug = "helmet-of-the-gauls-hero" }]
 steps = []
 equipment_rewards = [{ id = "00145603", name = "Vercingetorix's Helmet", slug = "vercingetorixs-helmet" }]
 +++

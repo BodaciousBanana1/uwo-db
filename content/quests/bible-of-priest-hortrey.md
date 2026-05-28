@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99994578"
 quest_number = "12674"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 6
 exp_reward = 108000
 fame_reward = 0
-variants = [{ city = "Cape Town Adventurer's Guild", guild_type = "Adventurer", id = "99994578", slug = "bible-of-priest-hortrey" }]
+variants = [{ city = "Cape Town Adventurer's Guild", guild_type = "Adventure", id = "99994578", slug = "bible-of-priest-hortrey" }]
 skills = [{ name = "Search", level = 4 }, { name = "Theology", level = 6 }, { name = "Indian Languages", level = 1 }]
 discovery = "The Rigveda"
 discovery_id = "70000260"

@@ -8,12 +8,12 @@ slug = "gtthe-first-step-in-the-navigator-beginners-school"
 id = "99999813"
 type = "Adventure"
 city = "Beginners school"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 1
 skills = []
-variants = [{ city = "Beginners school", guild_type = "Adventurer", id = "99999820", slug = "gtthe-first-step-in-the-navigator-beginners-school" }, { city = "Beginners school", guild_type = "Adventurer", id = "99999800", slug = "gtthe-first-step-in-the-navigator-beginners-school" }, { city = "Beginners school", guild_type = "Adventurer", id = "99999813", slug = "gtthe-first-step-in-the-navigator-beginners-school" }]
+variants = [{ city = "Beginners school", guild_type = "Adventure", id = "99999820", slug = "gtthe-first-step-in-the-navigator-beginners-school" }, { city = "Beginners school", guild_type = "Adventure", id = "99999800", slug = "gtthe-first-step-in-the-navigator-beginners-school" }, { city = "Beginners school", guild_type = "Adventure", id = "99999813", slug = "gtthe-first-step-in-the-navigator-beginners-school" }]
 steps = []
 +++

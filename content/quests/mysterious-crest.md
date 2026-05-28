@@ -8,12 +8,12 @@ slug = "mysterious-crest"
 id = "99997264"
 type = "Adventure"
 city = "Tunis"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "The Statue of Apollo"
 reward = 7100
 advance = 0
 difficulty = 2
 skills = [{ name = "Spanish", level = 1 }, { name = "Arabic", level = 1 }]
-variants = [{ city = "Tunis", guild_type = "Adventurer", id = "99997264", slug = "mysterious-crest" }]
+variants = [{ city = "Tunis", guild_type = "Adventure", id = "99997264", slug = "mysterious-crest" }]
 steps = [{ step = 1, location = "Tunis", action = "Talk to Port Official" }, { step = 2, location = "Palma", action = "Talk to Painter (Craft shop)" }, { step = 3, location = "Valencia Tavern", action = "Talk to Merchant" }]
 +++

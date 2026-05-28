@@ -8,12 +8,12 @@ slug = "undying-interest-in-the-king"
 id = "99997218"
 type = "Adventure"
 city = "Calicut"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Azuchi Castle"
 reward = 0
 advance = 0
 difficulty = 8
 skills = [{ name = "Japanese", level = 1 }]
-variants = [{ city = "Calicut", guild_type = "Adventurer", id = "99997218", slug = "undying-interest-in-the-king" }]
+variants = [{ city = "Calicut", guild_type = "Adventure", id = "99997218", slug = "undying-interest-in-the-king" }]
 steps = []
 +++

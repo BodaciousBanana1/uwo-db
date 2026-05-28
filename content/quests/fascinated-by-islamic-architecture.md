@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990838"
 quest_number = "15107"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 10
 exp_reward = 756000
 fame_reward = 75000
-variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventurer", id = "99990838", slug = "fascinated-by-islamic-architecture" }]
+variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventure", id = "99990838", slug = "fascinated-by-islamic-architecture" }]
 skills = [{ name = "Recognition", level = 15 }, { name = "Theology", level = 17 }, { name = "Malay/Tagalog", level = 1 }]
 discovery = "Divrigi Great Mosque and Hospital"
 discovery_id = "70002993"

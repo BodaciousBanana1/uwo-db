@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99997702"
 quest_number = "1649"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 6
 exp_reward = 140000
 fame_reward = 0
-variants = [{ city = "Amsterdam Imperial Contract", guild_type = "Adventurer", id = "99997702", slug = "perfecting-transportation-measures" }]
+variants = [{ city = "Amsterdam Imperial Contract", guild_type = "Adventure", id = "99997702", slug = "perfecting-transportation-measures" }]
 skills = []
 +++
 

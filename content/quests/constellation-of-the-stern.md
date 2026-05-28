@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99991092"
 quest_number = "16917"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 7
 exp_reward = 203000
 fame_reward = 20000
-variants = [{ city = "San Francisco Adventurer's Guild", guild_type = "Adventurer", id = "99991092", slug = "constellation-of-the-stern" }]
+variants = [{ city = "San Francisco Adventurer's Guild", guild_type = "Adventure", id = "99991092", slug = "constellation-of-the-stern" }]
 skills = [{ name = "Recognition", level = 9 }, { name = "Astronomy", level = 11 }]
 discovery = "Puppis"
 discovery_id = "70002895"

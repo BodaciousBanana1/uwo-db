@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99991474"
 quest_number = "17267"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 6
 exp_reward = 43000
 fame_reward = 0
-variants = [{ city = "Venice Adventurer's Guild", guild_type = "Adventurer", id = "99991474", slug = "little-knight" }]
+variants = [{ city = "Venice Adventurer's Guild", guild_type = "Adventure", id = "99991474", slug = "little-knight" }]
 skills = [{ name = "Ecological Research", level = 6 }, { name = "Biology", level = 8 }]
 discovery = "Gotland Pony"
 discovery_id = "70003695"

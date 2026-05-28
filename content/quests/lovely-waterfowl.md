@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99996843"
 quest_number = "12466"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 7
 exp_reward = 75000
 fame_reward = 0
-variants = [{ city = "Hangzhou Adventurer's Guild", guild_type = "Adventurer", id = "99996843", slug = "lovely-waterfowl" }]
+variants = [{ city = "Hangzhou Adventurer's Guild", guild_type = "Adventure", id = "99996843", slug = "lovely-waterfowl" }]
 skills = [{ name = "Ecological Research", level = 6 }, { name = "Biology", level = 8 }]
 discovery = "Crested Shelduck"
 discovery_id = "70001872"

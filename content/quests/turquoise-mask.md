@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99991394"
 quest_number = "16564"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 10
 exp_reward = 404000
 fame_reward = 40000
-variants = [{ city = "London Adventurer's Guild", guild_type = "Adventurer", id = "99991394", slug = "turquoise-mask" }]
+variants = [{ city = "London Adventurer's Guild", guild_type = "Adventure", id = "99991394", slug = "turquoise-mask" }]
 skills = [{ name = "Search", level = 13 }, { name = "Appraisal", level = 15 }, { name = "Nahuatl", level = 1 }]
 discovery = "Turquoise Mask"
 discovery_id = "70003609"

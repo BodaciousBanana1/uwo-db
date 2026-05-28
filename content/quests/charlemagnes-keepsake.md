@@ -8,12 +8,12 @@ slug = "charlemagnes-keepsake"
 id = "99991270"
 type = "Adventure"
 city = "Jakarta"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Charlemagne's Crown"
 reward = 470000
 advance = 50000
 difficulty = 8
 skills = [{ name = "Search", level = 9 }, { name = "Appraisal", level = 11 }, { name = "Unlock", level = 9 }]
-variants = [{ city = "Jakarta", guild_type = "Adventurer", id = "99991270", slug = "charlemagnes-keepsake" }]
+variants = [{ city = "Jakarta", guild_type = "Adventure", id = "99991270", slug = "charlemagnes-keepsake" }]
 steps = [{ step = 1, location = "Lisbon", action = "Talk to Nanban Trade Merchant near the Company Administration Office" }, { step = 2, location = "Amsterdam", action = "Talk to Vicar inside the Church" }, { step = 3, location = "Amsterdam", action = "Use" }]
 +++

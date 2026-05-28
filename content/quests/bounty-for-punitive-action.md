@@ -8,12 +8,12 @@ slug = "bounty-for-punitive-action"
 id = "99990086"
 type = "Adventure"
 city = "SecretEdict"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 6
 skills = []
-variants = [{ city = "SecretEdict", guild_type = "Adventurer", id = "99990086", slug = "bounty-for-punitive-action" }]
+variants = [{ city = "SecretEdict", guild_type = "Adventure", id = "99990086", slug = "bounty-for-punitive-action" }]
 steps = []
 +++

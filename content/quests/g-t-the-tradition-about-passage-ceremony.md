@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990542"
 quest_number = "14964"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 7
 exp_reward = 257480
 fame_reward = 20000
-variants = [{ city = "Folklores", guild_type = "Adventurer", id = "99990542", slug = "g-t-the-tradition-about-passage-ceremony" }]
+variants = [{ city = "Folklores", guild_type = "Adventure", id = "99990542", slug = "g-t-the-tradition-about-passage-ceremony" }]
 skills = [{ name = "Theology", level = 4 }]
 +++
 

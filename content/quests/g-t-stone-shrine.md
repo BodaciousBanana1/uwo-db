@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99991194"
 quest_number = "0"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 5
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventurer", id = "99991194", slug = "g-t-stone-shrine" }]
+variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventure", id = "99991194", slug = "g-t-stone-shrine" }]
 skills = [{ name = "Recognition", level = 6 }, { name = "Archaeology", level = 8 }, { name = "Oceanic Languages", level = 1 }]
 discovery = "Heiau"
 discovery_id = "70002295"

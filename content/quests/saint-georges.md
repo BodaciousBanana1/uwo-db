@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99995186"
 quest_number = "1296"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 0
 exp_reward = 45000
 fame_reward = 1280
-variants = [{ city = "", guild_type = "Adventurer", id = "99995186", slug = "saint-georges" }]
+variants = [{ city = "", guild_type = "Adventure", id = "99995186", slug = "saint-georges" }]
 skills = []
 +++
 

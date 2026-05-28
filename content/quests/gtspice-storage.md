@@ -8,12 +8,12 @@ slug = "gtspice-storage"
 id = "99991045"
 type = "Adventure"
 city = "Immigrants"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 8
 skills = [{ name = "Spanish", level = 1 }]
-variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99991045", slug = "gtspice-storage" }]
+variants = [{ city = "Immigrants", guild_type = "Adventure", id = "99991045", slug = "gtspice-storage" }]
 steps = []
 +++

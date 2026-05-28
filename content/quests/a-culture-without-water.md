@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99993587"
 quest_number = "14003"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 8
 exp_reward = 320000
 fame_reward = 10000
-variants = [{ city = "Seville Adventurer's Guild", guild_type = "Adventurer", id = "99993587", slug = "a-culture-without-water" }]
+variants = [{ city = "Seville Adventurer's Guild", guild_type = "Adventure", id = "99993587", slug = "a-culture-without-water" }]
 skills = [{ name = "Recognition", level = 5 }, { name = "Archaeology", level = 7 }, { name = "Mayan Languages", level = 1 }]
 discovery = "Chichen Itza"
 discovery_id = "70000882"

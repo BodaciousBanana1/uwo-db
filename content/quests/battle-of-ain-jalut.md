@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99994985"
 quest_number = "11943"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 9
 exp_reward = 144000
 fame_reward = 10000
-variants = [{ city = "Naples Adventurer's Guild", guild_type = "Adventurer", id = "99994985", slug = "battle-of-ain-jalut" }]
+variants = [{ city = "Naples Adventurer's Guild", guild_type = "Adventure", id = "99994985", slug = "battle-of-ain-jalut" }]
 skills = [{ name = "Search", level = 11 }, { name = "Archaeology", level = 13 }]
 discovery = "Warrior's Tomb"
 discovery_id = "70001458"

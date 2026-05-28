@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990237"
 quest_number = "16408"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 4
 exp_reward = 38400
 fame_reward = 0
-variants = [{ city = "Marseille Adventurer's Guild", guild_type = "Adventurer", id = "99990237", slug = "vanished-temple" }]
+variants = [{ city = "Marseille Adventurer's Guild", guild_type = "Adventure", id = "99990237", slug = "vanished-temple" }]
 skills = []
 +++
 

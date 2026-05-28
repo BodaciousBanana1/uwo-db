@@ -8,12 +8,12 @@ slug = "develop-sea-route-to-venice-santo-domingo"
 id = "99997134"
 type = "Adventure"
 city = "Santo Domingo"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 5
 skills = [{ name = "Italian", level = 1 }]
-variants = [{ city = "Rio de Janeiro", guild_type = "Adventurer", id = "99997044", slug = "develop-sea-route-to-venice-rio-de-janeiro" }, { city = "Santo Domingo", guild_type = "Adventurer", id = "99997134", slug = "develop-sea-route-to-venice-santo-domingo" }, { city = "Portobelo", guild_type = "Adventurer", id = "99997090", slug = "develop-sea-route-to-venice-portobelo" }]
+variants = [{ city = "Rio de Janeiro", guild_type = "Adventure", id = "99997044", slug = "develop-sea-route-to-venice-rio-de-janeiro" }, { city = "Santo Domingo", guild_type = "Adventure", id = "99997134", slug = "develop-sea-route-to-venice-santo-domingo" }, { city = "Portobelo", guild_type = "Adventure", id = "99997090", slug = "develop-sea-route-to-venice-portobelo" }]
 steps = []
 +++

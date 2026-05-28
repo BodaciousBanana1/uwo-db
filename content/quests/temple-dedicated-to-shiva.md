@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99994126"
 quest_number = "16758"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 6
 exp_reward = 362200
 fame_reward = 10000
-variants = [{ city = "Marseille Adventurer's Guild", guild_type = "Adventurer", id = "99994126", slug = "temple-dedicated-to-shiva" }]
+variants = [{ city = "Marseille Adventurer's Guild", guild_type = "Adventure", id = "99994126", slug = "temple-dedicated-to-shiva" }]
 skills = [{ name = "Recognition", level = 2 }, { name = "Theology", level = 4 }, { name = "Indian Languages", level = 1 }]
 discovery = "Brihadisvara Temple"
 discovery_id = "70000022"

@@ -8,12 +8,12 @@ slug = "a-small-boat-going-through-the-marsh"
 id = "99991507"
 type = "Adventure"
 city = "London"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Mokoro"
 reward = 0
 advance = 0
 difficulty = 5
 skills = [{ name = "Search", level = 4 }, { name = "Archaeology", level = 6 }, { name = "West African Languages", level = 1 }]
-variants = [{ city = "London", guild_type = "Adventurer", id = "99991507", slug = "a-small-boat-going-through-the-marsh" }]
+variants = [{ city = "London", guild_type = "Adventure", id = "99991507", slug = "a-small-boat-going-through-the-marsh" }]
 steps = []
 +++

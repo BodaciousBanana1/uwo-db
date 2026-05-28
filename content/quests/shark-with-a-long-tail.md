@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99997176"
 quest_number = "11411"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 5
 exp_reward = 96000
 fame_reward = 0
-variants = [{ city = "Calicut Adventurer's Guild", guild_type = "Adventurer", id = "99997176", slug = "shark-with-a-long-tail" }]
+variants = [{ city = "Calicut Adventurer's Guild", guild_type = "Adventure", id = "99997176", slug = "shark-with-a-long-tail" }]
 skills = [{ name = "Ecological Research", level = 4 }, { name = "Biology", level = 6 }, { name = "Indian Languages", level = 1 }]
 discovery = "Pelagic Thresher"
 discovery_id = "70001655"

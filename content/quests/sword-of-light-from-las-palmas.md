@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99994000"
 quest_number = "6425"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 7
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Seville Adventurer's Guild", guild_type = "Adventurer", id = "99994000", slug = "sword-of-light-from-las-palmas" }]
+variants = [{ city = "Seville Adventurer's Guild", guild_type = "Adventure", id = "99994000", slug = "sword-of-light-from-las-palmas" }]
 skills = [{ name = "Archaeology", level = 13 }]
 steps = [{ step = 1, location = "Seville Archives", action = "Browse" }, { step = 2, location = "Seville Archives", action = "Talk to Scholar" }]
 +++

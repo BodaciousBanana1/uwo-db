@@ -8,12 +8,12 @@ slug = "deliver-asclepius-elixir"
 id = "99990060"
 type = "Adventure"
 city = "SecretEdict"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 2
 skills = [{ name = "Nordic", level = 1 }]
-variants = [{ city = "SecretEdict", guild_type = "Adventurer", id = "99990060", slug = "deliver-asclepius-elixir" }]
+variants = [{ city = "SecretEdict", guild_type = "Adventure", id = "99990060", slug = "deliver-asclepius-elixir" }]
 steps = [{ step = 1, location = "Stockholm", action = "- Deliver" }]
 +++

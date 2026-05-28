@@ -8,13 +8,13 @@ slug = "caution-towards-deadly-poison"
 id = "99990814"
 type = "Adventure"
 city = "Naples"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Stinging Brush"
 reward = 0
 advance = 0
 difficulty = 10
 skills = [{ name = "Ecological Research", level = 15 }, { name = "Biology", level = 17 }, { name = "Spanish", level = 1 }]
-variants = [{ city = "Naples", guild_type = "Adventurer", id = "99990814", slug = "caution-towards-deadly-poison" }]
+variants = [{ city = "Naples", guild_type = "Adventure", id = "99990814", slug = "caution-towards-deadly-poison" }]
 steps = [{ step = 1, location = "Seville Archives", action = "Scholar" }, { step = 2, location = "Istanbul", action = "Military Man" }]
 discovery_description = "A poisonous shrub found all over Europe. Its flowers, seed, and grass parts are all highly toxic; touching the sap alone can cause rashes. If ingested, it can cause damage to nerves and internal organs."
 +++

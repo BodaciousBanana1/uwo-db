@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99997423"
 quest_number = "12604"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 4
 exp_reward = 75000
 fame_reward = 0
-variants = [{ city = "Athens Adventurer's Guild", guild_type = "Adventurer", id = "99997423", slug = "a-dangerous-animal-near-the-water" }]
+variants = [{ city = "Athens Adventurer's Guild", guild_type = "Adventure", id = "99997423", slug = "a-dangerous-animal-near-the-water" }]
 skills = [{ name = "Ecological Research", level = 3 }, { name = "Biology", level = 5 }]
 discovery = "Nile Monitor"
 discovery_id = "70001665"

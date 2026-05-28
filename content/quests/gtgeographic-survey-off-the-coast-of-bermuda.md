@@ -8,12 +8,12 @@ slug = "gtgeographic-survey-off-the-coast-of-bermuda"
 id = "99991054"
 type = "Adventure"
 city = "Immigrants"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 2
 skills = [{ name = "Recognition", level = 1 }]
-variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99991054", slug = "gtgeographic-survey-off-the-coast-of-bermuda" }]
+variants = [{ city = "Immigrants", guild_type = "Adventure", id = "99991054", slug = "gtgeographic-survey-off-the-coast-of-bermuda" }]
 steps = []
 +++

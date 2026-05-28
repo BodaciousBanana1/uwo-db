@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99994245"
 quest_number = "13087"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 1
 exp_reward = 3000
 fame_reward = 0
-variants = [{ city = "Marseille Adventurer's Guild", guild_type = "Adventurer", id = "99994245", slug = "g-t-the-first-thing-that-the-union" }]
+variants = [{ city = "Marseille Adventurer's Guild", guild_type = "Adventure", id = "99994245", slug = "g-t-the-first-thing-that-the-union" }]
 skills = [{ name = "Search", level = 1 }]
 discovery = "Stained Glass of the Madonna"
 discovery_id = "70000764"

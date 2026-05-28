@@ -8,12 +8,12 @@ slug = "searching-for-a-white-spider"
 id = "99991245"
 type = "Adventure"
 city = "Calicut"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Azuchi Gumo"
 reward = 0
 advance = 0
 difficulty = 6
 skills = [{ name = "Ecological Research", level = 5 }, { name = "Biology", level = 7 }, { name = "Malay/Tagalog", level = 1 }]
-variants = [{ city = "Calicut", guild_type = "Adventurer", id = "99991245", slug = "searching-for-a-white-spider" }]
+variants = [{ city = "Calicut", guild_type = "Adventure", id = "99991245", slug = "searching-for-a-white-spider" }]
 steps = []
 +++

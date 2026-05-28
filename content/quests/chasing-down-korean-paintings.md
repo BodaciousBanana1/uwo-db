@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99996746"
 quest_number = "7537"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 2
 exp_reward = 69000
 fame_reward = 0
-variants = [{ city = "Hangzhou Adventurer's Guild", guild_type = "Adventurer", id = "99996746", slug = "chasing-down-korean-paintings" }]
+variants = [{ city = "Hangzhou Adventurer's Guild", guild_type = "Adventure", id = "99996746", slug = "chasing-down-korean-paintings" }]
 skills = [{ name = "Search", level = 3 }, { name = "Art", level = 5 }]
 discovery = "Ahn Gyeon Ink Painting"
 discovery_id = "70001836"

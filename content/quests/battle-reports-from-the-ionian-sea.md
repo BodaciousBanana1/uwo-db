@@ -8,12 +8,12 @@ slug = "battle-reports-from-the-ionian-sea"
 id = "99990995"
 type = "Adventure"
 city = "Immigrants"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 1
 skills = []
-variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99990995", slug = "battle-reports-from-the-ionian-sea" }]
+variants = [{ city = "Immigrants", guild_type = "Adventure", id = "99990995", slug = "battle-reports-from-the-ionian-sea" }]
 steps = []
 +++

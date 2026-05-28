@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990191"
 quest_number = "0"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 9
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "London Adventurer's Guild", guild_type = "Adventurer", id = "99990191", slug = "the-promised-future" }]
+variants = [{ city = "London Adventurer's Guild", guild_type = "Adventure", id = "99990191", slug = "the-promised-future" }]
 skills = [{ name = "Recognition", level = 13 }, { name = "Archaeology", level = 15 }, { name = "Chinese", level = 1 }]
 discovery = "Xanadu"
 discovery_id = "70000548"

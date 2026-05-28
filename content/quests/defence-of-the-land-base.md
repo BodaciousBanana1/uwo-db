@@ -8,12 +8,12 @@ slug = "defence-of-the-land-base"
 id = "99997812"
 type = "Adventure"
 city = "Santiago Imperial Contract"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 9
 skills = []
-variants = [{ city = "Santiago Imperial Contract", guild_type = "Adventurer", id = "99997812", slug = "defence-of-the-land-base" }]
+variants = [{ city = "Santiago Imperial Contract", guild_type = "Adventure", id = "99997812", slug = "defence-of-the-land-base" }]
 steps = []
 +++

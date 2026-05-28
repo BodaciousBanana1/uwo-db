@@ -8,12 +8,12 @@ slug = "further-research-on-nature-god"
 id = "99991410"
 type = "Adventure"
 city = "Further Research"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Statue of Ganga"
 reward = 0
 advance = 0
 difficulty = 3
 skills = [{ name = "Search", level = 10 }, { name = "Theology", level = 12 }, { name = "Italian", level = 1 }]
-variants = [{ city = "Further Research", guild_type = "Adventurer", id = "99991410", slug = "further-research-on-nature-god" }]
+variants = [{ city = "Further Research", guild_type = "Adventure", id = "99991410", slug = "further-research-on-nature-god" }]
 steps = []
 +++

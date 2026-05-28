@@ -6,10 +6,10 @@ template = "quests/page.html"
 [extra]
 id = "99990662"
 quest_number = "0"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 10
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "East Asia", guild_type = "Adventurer", id = "99990662", slug = "g-t-acquire-white-hair" }]
+variants = [{ city = "East Asia", guild_type = "Adventure", id = "99990662", slug = "g-t-acquire-white-hair" }]
 skills = [{ name = "Sniping", level = 12 }]
 +++

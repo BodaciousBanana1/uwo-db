@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99991238"
 quest_number = "15557"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 6
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99991238", slug = "delivering-tyrian-purple" }]
+variants = [{ city = "Immigrants", guild_type = "Adventure", id = "99991238", slug = "delivering-tyrian-purple" }]
 skills = []
 +++
 

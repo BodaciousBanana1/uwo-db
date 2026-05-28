@@ -8,13 +8,13 @@ slug = "the-maiden-of-habsburgs"
 id = "99993946"
 type = "Adventure"
 city = "Lisbon"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Main Engel"
 reward = 5000
 advance = 0
 difficulty = 5
 skills = [{ name = "Spanish", level = 1 }]
-variants = [{ city = "Lisbon", guild_type = "Adventurer", id = "99993946", slug = "the-maiden-of-habsburgs" }]
+variants = [{ city = "Lisbon", guild_type = "Adventure", id = "99993946", slug = "the-maiden-of-habsburgs" }]
 steps = [{ step = 1, location = "Gijon", action = "Talk to City Manor Owner x6" }]
 followups = [{ id = "99993687", name = "Angel's zapateado", slug = "angels-zapateado" }, { id = "99994008", name = "A distant promise", slug = "a-distant-promise" }, { id = "99994786", name = "The kind lie", slug = "the-kind-lie" }, { id = "99994784", name = "A Gift For You", slug = "a-gift-for-you" }, { id = "99994803", name = "To The King's Road...", slug = "to-the-kings-road" }, { id = "99994290", name = "The Jester's Song", slug = "the-jesters-song" }]
 +++

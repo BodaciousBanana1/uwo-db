@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99994687"
 quest_number = "7390"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 5
 exp_reward = 75000
 fame_reward = 0
-variants = [{ city = "Aden Adventurer's Guild", guild_type = "Adventurer", id = "99994687", slug = "burned-ruins" }]
+variants = [{ city = "Aden Adventurer's Guild", guild_type = "Adventure", id = "99994687", slug = "burned-ruins" }]
 skills = [{ name = "Search", level = 2 }, { name = "Archaeology", level = 4 }]
 discovery = "The Apadana Reliefs"
 discovery_id = "70000030"

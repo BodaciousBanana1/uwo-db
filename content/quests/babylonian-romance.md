@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990363"
 quest_number = "14742"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 8
 exp_reward = 371000
 fame_reward = 30000
-variants = [{ city = "Calicut Adventurer's Guild", guild_type = "Adventurer", id = "99990363", slug = "babylonian-romance" }]
+variants = [{ city = "Calicut Adventurer's Guild", guild_type = "Adventure", id = "99990363", slug = "babylonian-romance" }]
 skills = [{ name = "Search", level = 6 }, { name = "Appraisal", level = 8 }]
 discovery = "Babylonian Harp"
 discovery_id = "70002551"

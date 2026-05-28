@@ -8,12 +8,12 @@ slug = "develop-sea-route-to-cape"
 id = "99997051"
 type = "Adventure"
 city = "Rio de Janeiro"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 5
 skills = [{ name = "West African Languages", level = 1 }]
-variants = [{ city = "Rio de Janeiro", guild_type = "Adventurer", id = "99997051", slug = "develop-sea-route-to-cape" }]
+variants = [{ city = "Rio de Janeiro", guild_type = "Adventure", id = "99997051", slug = "develop-sea-route-to-cape" }]
 steps = []
 +++

@@ -8,12 +8,12 @@ slug = "organized-chaos"
 id = "99996089"
 type = "Adventure"
 city = "London Imperial Contract"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 6
 skills = []
-variants = [{ city = "London Imperial Contract", guild_type = "Adventurer", id = "99996089", slug = "organized-chaos" }]
+variants = [{ city = "London Imperial Contract", guild_type = "Adventure", id = "99996089", slug = "organized-chaos" }]
 steps = []
 +++

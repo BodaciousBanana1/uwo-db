@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99991271"
 quest_number = "15745"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 8
 exp_reward = 157000
 fame_reward = 20000
-variants = [{ city = "Seville Adventurer's Guild", guild_type = "Adventurer", id = "99991271", slug = "treasure-known-as-information" }]
+variants = [{ city = "Seville Adventurer's Guild", guild_type = "Adventure", id = "99991271", slug = "treasure-known-as-information" }]
 skills = [{ name = "Search", level = 10 }, { name = "Appraisal", level = 12 }, { name = "Unlock", level = 10 }]
 discovery = "Map of Piri Reis"
 discovery_id = "70003427"

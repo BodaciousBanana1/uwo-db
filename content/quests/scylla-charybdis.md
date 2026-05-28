@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99997321"
 quest_number = "8872"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 7
 exp_reward = 129000
 fame_reward = 10000
-variants = [{ city = "Athens Adventurer's Guild", guild_type = "Adventurer", id = "99997321", slug = "scylla-charybdis" }]
+variants = [{ city = "Athens Adventurer's Guild", guild_type = "Adventure", id = "99997321", slug = "scylla-charybdis" }]
 skills = [{ name = "Recognition", level = 5 }, { name = "Geography", level = 7 }]
 discovery = "Strait of Messina"
 discovery_id = "70002200"

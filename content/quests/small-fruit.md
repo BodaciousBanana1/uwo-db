@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99997247"
 quest_number = "11560"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 4
 exp_reward = 216000
 fame_reward = 20000
-variants = [{ city = "Cape Town Adventurer's Guild", guild_type = "Adventurer", id = "99997247", slug = "small-fruit" }]
+variants = [{ city = "Cape Town Adventurer's Guild", guild_type = "Adventure", id = "99997247", slug = "small-fruit" }]
 skills = [{ name = "Ecological Research", level = 4 }, { name = "Biology", level = 6 }]
 discovery = "Plum"
 discovery_id = "70001862"

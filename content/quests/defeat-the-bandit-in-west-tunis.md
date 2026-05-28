@@ -8,12 +8,12 @@ slug = "defeat-the-bandit-in-west-tunis"
 id = "99999903"
 type = "Adventure"
 city = "Advanced school"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 2
 skills = []
-variants = [{ city = "Advanced school", guild_type = "Adventurer", id = "99999903", slug = "defeat-the-bandit-in-west-tunis" }]
+variants = [{ city = "Advanced school", guild_type = "Adventure", id = "99999903", slug = "defeat-the-bandit-in-west-tunis" }]
 steps = []
 +++

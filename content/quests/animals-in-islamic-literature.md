@@ -8,12 +8,12 @@ slug = "animals-in-islamic-literature"
 id = "99997334"
 type = "Adventure"
 city = "Venice"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 3
 skills = [{ name = "Turkish", level = 1 }, { name = "Biology", level = 5 }]
-variants = [{ city = "Venice", guild_type = "Adventurer", id = "99997334", slug = "animals-in-islamic-literature" }]
+variants = [{ city = "Venice", guild_type = "Adventure", id = "99997334", slug = "animals-in-islamic-literature" }]
 steps = []
 +++

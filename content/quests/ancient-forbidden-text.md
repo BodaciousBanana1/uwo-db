@@ -8,13 +8,13 @@ slug = "ancient-forbidden-text"
 id = "99993779"
 type = "Adventure"
 city = "Stockholm"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Hypatia's Writings"
 reward = 222000
 advance = 0
 difficulty = 7
 skills = [{ name = "Search", level = 6 }, { name = "Archaeology", level = 8 }, { name = "Unlock", level = 6 }]
-variants = [{ city = "Stockholm", guild_type = "Adventurer", id = "99993779", slug = "ancient-forbidden-text" }]
+variants = [{ city = "Stockholm", guild_type = "Adventure", id = "99993779", slug = "ancient-forbidden-text" }]
 steps = [{ step = 1, location = "Athens Archives", action = "Scholar:Talk to" }]
 equipment_rewards = [{ id = "00519100", name = "Poetry Anthology", slug = "poetry-anthology" }]
 discovery_description = "Anthology of poetry by Sappho, an ancient Greek female poet. There were originally nine volumes, but in the middle ages, they were thought immoral due to the eulogies to beautiful virgins and many disappeared."

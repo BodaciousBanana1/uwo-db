@@ -8,13 +8,13 @@ slug = "faith-nestled-in-the-mountains"
 id = "99996818"
 type = "Adventure"
 city = "Hangzhou"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Kii Mountains"
 reward = 0
 advance = 0
 difficulty = 5
 skills = [{ name = "Search", level = 3 }, { name = "Theology", level = 5 }, { name = "Japanese", level = 1 }]
-variants = [{ city = "Hangzhou", guild_type = "Adventurer", id = "99996818", slug = "faith-nestled-in-the-mountains" }]
+variants = [{ city = "Hangzhou", guild_type = "Adventure", id = "99996818", slug = "faith-nestled-in-the-mountains" }]
 steps = [{ step = 1, location = "Sakai", action = "Talk to Tavern Keeper" }, { step = 2, location = "Edo", action = "Talk to Shipwright" }]
 discovery_description = "Set of tools used in training by the practitioners of mountaineering asceticism. Mountaineering asceticism is a Japanese religion that combines mountain worship, Buddhism, and Shinto. The practitioners wear these tools on their body, and performed ascetic practices in the mountains."
 exp_reward = 300

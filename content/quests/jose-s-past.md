@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990698"
 quest_number = "14651"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 4
 exp_reward = 35000
 fame_reward = 0
-variants = [{ city = "Lisbon Adventurer's Guild", guild_type = "Adventurer", id = "99990698", slug = "jose-s-past" }]
+variants = [{ city = "Lisbon Adventurer's Guild", guild_type = "Adventure", id = "99990698", slug = "jose-s-past" }]
 skills = [{ name = "Portuguese", level = 1 }]
 steps = [{ step = 14, location = "Mist", action = "Shatterig Light" }]
 +++

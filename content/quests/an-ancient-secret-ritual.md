@@ -8,13 +8,13 @@ slug = "an-ancient-secret-ritual"
 id = "99990112"
 type = "Adventure"
 city = "Lisbon"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Villa Adriana"
 reward = 106000
 advance = 10000
 difficulty = 5
 skills = [{ name = "Recognition", level = 4 }, { name = "Theology", level = 6 }, { name = "Greek", level = 1 }]
-variants = [{ city = "Lisbon", guild_type = "Adventurer", id = "99990112", slug = "an-ancient-secret-ritual" }]
+variants = [{ city = "Lisbon", guild_type = "Adventure", id = "99990112", slug = "an-ancient-secret-ritual" }]
 steps = [{ step = 1, location = "Naples", action = "Talk to Scholar" }, { step = 2, location = "Athens", action = "Talk to Scholar (3x)" }, { step = 3, location = "Olympia", action = "Go inland through" }]
 discovery_description = "Ruins of a temple to goddess Demeter, located in Eleusis, northwest from the center of Athens. Secret rituals held here were so well known that Hadrian participated before his accession."
 +++

@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99994949"
 quest_number = "12712"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 5
 exp_reward = 69000
 fame_reward = 0
-variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventurer", id = "99994949", slug = "a-stone-in-relief" }]
+variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventure", id = "99994949", slug = "a-stone-in-relief" }]
 skills = [{ name = "Search", level = 3 }, { name = "Archaeology", level = 5 }, { name = "Unlock", level = 3 }]
 discovery = "Earthenware Stamps"
 discovery_id = "70001067"

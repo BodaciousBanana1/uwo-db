@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99997167"
 quest_number = "4143"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 4
 exp_reward = 136000
 fame_reward = 10000
-variants = [{ city = "Calicut Adventurer's Guild", guild_type = "Adventurer", id = "99997167", slug = "renowned-taoist-mountain" }]
+variants = [{ city = "Calicut Adventurer's Guild", guild_type = "Adventure", id = "99997167", slug = "renowned-taoist-mountain" }]
 skills = [{ name = "Recognition", level = 3 }, { name = "Geography", level = 5 }, { name = "Chinese", level = 1 }]
 discovery = "Mount Sanqing"
 discovery_id = "70002080"

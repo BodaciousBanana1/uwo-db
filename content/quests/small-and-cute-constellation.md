@@ -8,13 +8,13 @@ slug = "small-and-cute-constellation"
 id = "99990719"
 type = "Adventure"
 city = "Stockholm"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Lepus"
 reward = 0
 advance = 0
 difficulty = 10
 skills = [{ name = "Recognition", level = 15 }, { name = "Astronomy", level = 17 }, { name = "Greek", level = 1 }]
-variants = [{ city = "Stockholm", guild_type = "Adventurer", id = "99990719", slug = "small-and-cute-constellation" }]
+variants = [{ city = "Stockholm", guild_type = "Adventure", id = "99990719", slug = "small-and-cute-constellation" }]
 steps = [{ step = 1, location = "Athens", action = "Speak to Adventurer up north near Gatekeeper" }, { step = 2, location = "Alexandria", action = "Speak to Shaman west of Tavern north of Archives" }, { step = 3, location = "East Mediterranean Sea", action = "Use" }]
 discovery_description = "A constellation located south of Orion. One of the 48 Ptolemaic constellations. According to its lore, due to the selfishness of humans, as a warning, a rabbit was made into a constellation."
 +++

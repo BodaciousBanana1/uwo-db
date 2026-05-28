@@ -8,12 +8,12 @@ slug = "gta-chef-who-handles-spices-well"
 id = "99990957"
 type = "Adventure"
 city = "Immigrants"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 3
 skills = [{ name = "Malay/Tagalog", level = 1 }]
-variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99990957", slug = "gta-chef-who-handles-spices-well" }]
+variants = [{ city = "Immigrants", guild_type = "Adventure", id = "99990957", slug = "gta-chef-who-handles-spices-well" }]
 steps = []
 +++

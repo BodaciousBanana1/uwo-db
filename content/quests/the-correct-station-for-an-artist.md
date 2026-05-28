@@ -8,13 +8,13 @@ slug = "the-correct-station-for-an-artist"
 id = "99997679"
 type = "Adventure"
 city = "Stockholm"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Madonna in Garland Flowers"
 reward = 111000
 advance = 10000
 difficulty = 6
 skills = [{ name = "Search", level = 6 }, { name = "Art", level = 8 }, { name = "Nordic", level = 1 }]
-variants = [{ city = "Stockholm", guild_type = "Adventurer", id = "99997679", slug = "the-correct-station-for-an-artist" }]
+variants = [{ city = "Stockholm", guild_type = "Adventure", id = "99997679", slug = "the-correct-station-for-an-artist" }]
 steps = [{ step = 1, location = "Stockholm", action = "speak with Craftsman." }, { step = 2, location = "Amsterdam", action = "speak with Art Dealer near square fountain." }, { step = 4, location = "Hamburg Church", action = "use" }, { step = 4, location = "The product of friendship", action = "not for sale" }]
 discovery_description = "A collaborative work by Rubens and Jan Brueghel. Brueghel painted the wreath and Rubens the figures. It is classified as a still life by Brueghel, or Flower Breughel, and is a work that brings out the best of their respective talents."
 exp_reward = 650

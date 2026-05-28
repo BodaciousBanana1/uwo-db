@@ -14,6 +14,6 @@ reward = 0
 advance = 0
 difficulty = 3
 skills = [{ name = "Arabic", level = 1 }, { name = "Sewing", level = 2 }]
-variants = [{ city = "Marseille", guild_type = "Merchant", id = "99995863", slug = "gtdelivery-of-the-strap-marseille" }, { city = "SecretEdict", guild_type = "Adventurer", id = "99995687", slug = "gtdelivery-of-the-strap-secretedict" }, { city = "Istanbul", guild_type = "Merchant", id = "99995719", slug = "gtdelivery-of-the-strap-istanbul" }]
+variants = [{ city = "Marseille", guild_type = "Merchant", id = "99995863", slug = "gtdelivery-of-the-strap-marseille" }, { city = "SecretEdict", guild_type = "Adventure", id = "99995687", slug = "gtdelivery-of-the-strap-secretedict" }, { city = "Istanbul", guild_type = "Merchant", id = "99995719", slug = "gtdelivery-of-the-strap-istanbul" }]
 steps = []
 +++

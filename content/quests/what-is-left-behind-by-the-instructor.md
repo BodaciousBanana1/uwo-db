@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990009"
 quest_number = "16146"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 6
 exp_reward = 435000
 fame_reward = 40000
-variants = [{ city = "Naples Adventurer's Guild", guild_type = "Adventurer", id = "99990009", slug = "what-is-left-behind-by-the-instructor" }]
+variants = [{ city = "Naples Adventurer's Guild", guild_type = "Adventure", id = "99990009", slug = "what-is-left-behind-by-the-instructor" }]
 skills = [{ name = "Search", level = 8 }, { name = "Appraisal", level = 10 }, { name = "Unlock", level = 8 }]
 discovery = "Skomorokh's Mask"
 discovery_id = "70000747"

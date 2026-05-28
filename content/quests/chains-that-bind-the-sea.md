@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99997415"
 quest_number = "8116"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 2
 exp_reward = 78000
 fame_reward = 0
-variants = [{ city = "Venice Adventurer's Guild", guild_type = "Adventurer", id = "99997415", slug = "chains-that-bind-the-sea" }]
+variants = [{ city = "Venice Adventurer's Guild", guild_type = "Adventure", id = "99997415", slug = "chains-that-bind-the-sea" }]
 skills = [{ name = "Search", level = 1 }, { name = "Archaeology", level = 3 }]
 discovery = "Golden Horn Chain"
 discovery_id = "70001525"

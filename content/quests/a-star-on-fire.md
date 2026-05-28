@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990722"
 quest_number = "16653"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 10
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Athens Adventurer's Guild", guild_type = "Adventurer", id = "99990722", slug = "a-star-on-fire" }]
+variants = [{ city = "Athens Adventurer's Guild", guild_type = "Adventure", id = "99990722", slug = "a-star-on-fire" }]
 skills = [{ name = "Recognition", level = 15 }, { name = "Astronomy", level = 17 }, { name = "German", level = 1 }]
 discovery = "Taurus Nebula"
 discovery_id = "70003141"

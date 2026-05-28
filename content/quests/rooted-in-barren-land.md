@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990692"
 quest_number = "14134"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 5
 exp_reward = 161000
 fame_reward = 10000
-variants = [{ city = "Rio de Janeiro Adventurer's Guild", guild_type = "Adventurer", id = "99990692", slug = "rooted-in-barren-land" }]
+variants = [{ city = "Rio de Janeiro Adventurer's Guild", guild_type = "Adventure", id = "99990692", slug = "rooted-in-barren-land" }]
 skills = [{ name = "Recognition", level = 4 }, { name = "Geography", level = 6 }, { name = "Portuguese", level = 1 }]
 discovery = "Pico Island Vineyard"
 discovery_id = "70003168"

@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99993796"
 quest_number = "16545"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 4
 exp_reward = 30000
 fame_reward = 0
-variants = [{ city = "Seville Adventurer's Guild", guild_type = "Adventurer", id = "99993796", slug = "anxious-father" }]
+variants = [{ city = "Seville Adventurer's Guild", guild_type = "Adventure", id = "99993796", slug = "anxious-father" }]
 skills = []
 steps = [{ step = 1, location = "Gijon", action = "Talk to City Manor Owner" }, { step = 2, location = "Gijon", action = "Talk to Elegant Girl" }, { step = 3, location = "Gijon Tavern", action = "Talk to Barkeep" }, { step = 4, location = "Gijon Tavern", action = "Talk to Merchant" }, { step = 5, location = "Gijon", action = "Talk to City Manor Owner (Need" }]
 +++

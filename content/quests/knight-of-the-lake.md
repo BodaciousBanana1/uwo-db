@@ -8,13 +8,13 @@ slug = "knight-of-the-lake"
 id = "99999207"
 type = "Adventure"
 city = "Treasure Hunt"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 6
 skills = [{ name = "Search", level = 9 }, { name = "Theology", level = 11 }, { name = "French", level = 1 }]
-variants = [{ city = "Treasure Hunt", guild_type = "Adventurer", id = "99999207", slug = "knight-of-the-lake" }]
+variants = [{ city = "Treasure Hunt", guild_type = "Adventure", id = "99999207", slug = "knight-of-the-lake" }]
 steps = []
 equipment_rewards = [{ id = "00415200", name = "Sword of du Lac", slug = "sword-of-du-lac" }]
 +++

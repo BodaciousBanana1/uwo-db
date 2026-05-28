@@ -8,13 +8,13 @@ slug = "what-different-versions-signifies"
 id = "99990480"
 type = "Adventure"
 city = "London"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Another Version of Ulster Stories"
 reward = 76000
 advance = 0
 difficulty = 5
 skills = [{ name = "Search", level = 4 }, { name = "Appraisal", level = 6 }, { name = "Theology", level = 6 }]
-variants = [{ city = "London", guild_type = "Adventurer", id = "99990480", slug = "what-different-versions-signifies" }]
+variants = [{ city = "London", guild_type = "Adventure", id = "99990480", slug = "what-different-versions-signifies" }]
 steps = []
 followups = [{ id = "99990483", name = "Cu Chulainn's Manuscript", slug = "cu-chulainns-manuscript" }]
 +++

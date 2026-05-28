@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990873"
 quest_number = "16439"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 5
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Amsterdam Adventurer's Guild", guild_type = "Adventurer", id = "99990873", slug = "message-from-ancient-times" }]
+variants = [{ city = "Amsterdam Adventurer's Guild", guild_type = "Adventure", id = "99990873", slug = "message-from-ancient-times" }]
 skills = [{ name = "Search", level = 4 }, { name = "Archaeology", level = 6 }]
 discovery = "Shigir Idol"
 discovery_id = "70002965"

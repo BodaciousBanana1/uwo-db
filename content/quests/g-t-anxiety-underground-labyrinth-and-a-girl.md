@@ -6,10 +6,10 @@ template = "quests/page.html"
 [extra]
 id = "99999981"
 quest_number = "0"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 3
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Portobelo Adventurer's Guild", guild_type = "Adventurer", id = "99999981", slug = "g-t-anxiety-underground-labyrinth-and-a-girl" }]
+variants = [{ city = "Portobelo Adventurer's Guild", guild_type = "Adventure", id = "99999981", slug = "g-t-anxiety-underground-labyrinth-and-a-girl" }]
 skills = []
 +++

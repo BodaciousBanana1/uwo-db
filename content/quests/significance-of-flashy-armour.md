@@ -8,12 +8,12 @@ slug = "significance-of-flashy-armour"
 id = "99991279"
 type = "Adventure"
 city = "Jakarta"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Japanese Red Armour"
 reward = 144000
 advance = 10000
 difficulty = 6
 skills = [{ name = "Search", level = 6 }, { name = "Appraisal", level = 8 }, { name = "Japanese", level = 1 }]
-variants = [{ city = "Jakarta", guild_type = "Adventurer", id = "99991279", slug = "significance-of-flashy-armour" }]
+variants = [{ city = "Jakarta", guild_type = "Adventure", id = "99991279", slug = "significance-of-flashy-armour" }]
 steps = [{ step = 1, location = "Sakai", action = "Talk to Merchant" }, { step = 2, location = "Edo", action = "Talk to Merchant on the way to Gatekeeper" }, { step = 3, location = "Edo", action = "Use" }]
 +++

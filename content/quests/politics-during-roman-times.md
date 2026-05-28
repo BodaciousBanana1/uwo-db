@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99995173"
 quest_number = "11710"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 2
 exp_reward = 13000
 fame_reward = 0
-variants = [{ city = "Seville Adventurer's Guild", guild_type = "Adventurer", id = "99995173", slug = "politics-during-roman-times" }]
+variants = [{ city = "Seville Adventurer's Guild", guild_type = "Adventure", id = "99995173", slug = "politics-during-roman-times" }]
 skills = [{ name = "Archaeology", level = 1 }]
 steps = [{ step = 1, location = "Genoa Archives", action = "speak with Scholar" }, { step = 2, location = "Genoa Archives", action = "read Archaeology book 3x (need both latin and italian, romance language notes will work for both)" }]
 +++

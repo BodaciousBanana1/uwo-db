@@ -8,13 +8,13 @@ slug = "sea-of-evil"
 id = "99994788"
 type = "Adventure"
 city = "Santo Domingo"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "The Bermuda Waters"
 reward = 0
 advance = 0
 difficulty = 6
 skills = [{ name = "Recognition", level = 4 }, { name = "Geography", level = 6 }, { name = "Spanish", level = 1 }]
-variants = [{ city = "Santo Domingo", guild_type = "Adventurer", id = "99994788", slug = "sea-of-evil" }]
+variants = [{ city = "Santo Domingo", guild_type = "Adventure", id = "99994788", slug = "sea-of-evil" }]
 steps = [{ step = 1, location = "Santo Domingo", action = "Talk to the Port Official" }, { step = 2, location = "Havana", action = "Talk to the City Official" }, { step = 3, location = "Havana", action = "Talk to the Barkeep" }, { step = 4, location = "Havana", action = "Talk to the Seafarer 2 times" }, { step = 6, location = "Havana", action = "Talk to the Port Official" }, { step = 7, location = "Bermuda, Open Sea", action = "Directly north of Nassau, at 13180,3426" }]
 discovery_description = "An area of sea to the west of the North Atlantic. This area is home to around 150 small islands. This area has seen many shipwrecks... people call it the Devil's Sea."
 exp_reward = 380

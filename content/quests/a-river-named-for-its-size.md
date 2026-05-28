@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99994836"
 quest_number = "8452"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 6
 exp_reward = 99000
 fame_reward = 0
-variants = [{ city = "Santo Domingo Adventurer's Guild", guild_type = "Adventurer", id = "99994836", slug = "a-river-named-for-its-size" }]
+variants = [{ city = "Santo Domingo Adventurer's Guild", guild_type = "Adventure", id = "99994836", slug = "a-river-named-for-its-size" }]
 skills = [{ name = "Recognition", level = 5 }, { name = "Geography", level = 7 }]
 discovery = "The Mississippi River"
 discovery_id = "70000803"

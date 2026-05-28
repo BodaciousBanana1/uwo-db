@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99994395"
 quest_number = "12337"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 4
 exp_reward = 29000
 fame_reward = 0
-variants = [{ city = "Athens Adventurer's Guild", guild_type = "Adventurer", id = "99994395", slug = "the-sultans" }]
+variants = [{ city = "Athens Adventurer's Guild", guild_type = "Adventure", id = "99994395", slug = "the-sultans" }]
 skills = [{ name = "Search", level = 1 }, { name = "Appraisal", level = 3 }, { name = "Unlock", level = 1 }]
 discovery = "Sultan's Costume"
 discovery_id = "70000351"

@@ -8,12 +8,12 @@ slug = "preparing-for-battle-on-indian-ocean"
 id = "99996241"
 type = "Adventure"
 city = "Calicut Imperial Contract"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 5
 skills = []
-variants = [{ city = "Calicut Imperial Contract", guild_type = "Adventurer", id = "99996241", slug = "preparing-for-battle-on-indian-ocean" }]
+variants = [{ city = "Calicut Imperial Contract", guild_type = "Adventure", id = "99996241", slug = "preparing-for-battle-on-indian-ocean" }]
 steps = []
 +++

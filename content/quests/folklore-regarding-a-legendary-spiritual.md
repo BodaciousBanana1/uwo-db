@@ -8,12 +8,12 @@ slug = "folklore-regarding-a-legendary-spiritual"
 id = "99991215"
 type = "Adventure"
 city = "Folklores"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Luan"
 reward = 0
 advance = 0
 difficulty = 9
 skills = [{ name = "Biology", level = 13 }]
-variants = [{ city = "Folklores", guild_type = "Adventurer", id = "99991215", slug = "folklore-regarding-a-legendary-spiritual" }]
+variants = [{ city = "Folklores", guild_type = "Adventure", id = "99991215", slug = "folklore-regarding-a-legendary-spiritual" }]
 steps = []
 +++

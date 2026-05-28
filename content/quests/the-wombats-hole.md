@@ -8,12 +8,12 @@ slug = "the-wombats-hole"
 id = "99996901"
 type = "Adventure"
 city = "Jakarta"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Wombat"
 reward = 0
 advance = 0
 difficulty = 5
 skills = [{ name = "Oceanic Languages", level = 1 }]
-variants = [{ city = "Jakarta", guild_type = "Adventurer", id = "99996901", slug = "the-wombats-hole" }]
+variants = [{ city = "Jakarta", guild_type = "Adventure", id = "99996901", slug = "the-wombats-hole" }]
 steps = [{ step = 1, location = "Jakarta", action = "Talk to Port Official" }, { step = 2, location = "Hobart", action = "Talk to Market Keeper" }, { step = 3, location = "North Hobart", action = "Click on the Stacked Boulders" }, { step = 4, location = "Hobart", action = "Talk to Market Keeper" }]
 +++

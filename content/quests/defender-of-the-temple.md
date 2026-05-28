@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99994709"
 quest_number = "7569"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 6
 exp_reward = 66000
 fame_reward = 0
-variants = [{ city = "Calicut Adventurer's Guild", guild_type = "Adventurer", id = "99994709", slug = "defender-of-the-temple" }]
+variants = [{ city = "Calicut Adventurer's Guild", guild_type = "Adventure", id = "99994709", slug = "defender-of-the-temple" }]
 skills = [{ name = "Search", level = 5 }, { name = "Theology", level = 7 }, { name = "Indian Languages", level = 1 }]
 discovery = "The Statue of Dwarapala"
 discovery_id = "70000136"

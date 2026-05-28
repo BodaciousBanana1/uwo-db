@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99994982"
 quest_number = "16079"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 8
 exp_reward = 235000
 fame_reward = 20000
-variants = [{ city = "Naples Adventurer's Guild", guild_type = "Adventurer", id = "99994982", slug = "babylonian-captivity" }]
+variants = [{ city = "Naples Adventurer's Guild", guild_type = "Adventure", id = "99994982", slug = "babylonian-captivity" }]
 skills = [{ name = "Search", level = 8 }, { name = "Archaeology", level = 10 }, { name = "Unlock", level = 8 }]
 discovery = "The Clay Tablet of Zerubbabel"
 discovery_id = "70001457"

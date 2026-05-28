@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99996944"
 quest_number = "11430"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 7
 exp_reward = 147000
 fame_reward = 10000
-variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventurer", id = "99996944", slug = "traces-of-the-king-of-paekche" }]
+variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventure", id = "99996944", slug = "traces-of-the-king-of-paekche" }]
 skills = [{ name = "Search", level = 8 }, { name = "Appraisal", level = 10 }, { name = "Unlock", level = 8 }]
 discovery = "Paekche King's Sword"
 discovery_id = "70001844"

@@ -8,12 +8,12 @@ slug = "gtunprecedented-gold"
 id = "99990253"
 type = "Adventure"
 city = "Treasure Hunt"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 10
 skills = [{ name = "Search", level = 15 }, { name = "Appraisal", level = 17 }, { name = "Theology", level = 13 }]
-variants = [{ city = "Treasure Hunt", guild_type = "Adventurer", id = "99990253", slug = "gtunprecedented-gold" }]
+variants = [{ city = "Treasure Hunt", guild_type = "Adventure", id = "99990253", slug = "gtunprecedented-gold" }]
 steps = []
 +++

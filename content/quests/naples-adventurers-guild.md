@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99992949"
 quest_number = "151"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 0
 exp_reward = 30000
 fame_reward = 0
-variants = [{ city = "", guild_type = "Adventurer", id = "99992949", slug = "naples-adventurers-guild" }]
+variants = [{ city = "", guild_type = "Adventure", id = "99992949", slug = "naples-adventurers-guild" }]
 skills = []
 steps = [{ step = 1, location = "Alexandria Adventurers' Guild", action = "모험가조합 마스터와 대화" }, { step = 2, location = "Naples Adventurers' Guild", action = "모험가조합 마스터와 대화" }]
 +++

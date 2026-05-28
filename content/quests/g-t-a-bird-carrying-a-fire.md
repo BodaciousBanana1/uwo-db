@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99991173"
 quest_number = "16514"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 8
 exp_reward = 429000
 fame_reward = 40000
-variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventurer", id = "99991173", slug = "g-t-a-bird-carrying-a-fire" }]
+variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventure", id = "99991173", slug = "g-t-a-bird-carrying-a-fire" }]
 skills = [{ name = "Ecological Research", level = 4 }, { name = "Biology", level = 6 }, { name = "Oceanic Languages", level = 1 }]
 discovery = "Alae Ula"
 discovery_id = "70002299"

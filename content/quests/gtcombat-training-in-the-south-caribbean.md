@@ -8,12 +8,12 @@ slug = "gtcombat-training-in-the-south-caribbean"
 id = "99990982"
 type = "Adventure"
 city = "Immigrants"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 7
 skills = []
-variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99990982", slug = "gtcombat-training-in-the-south-caribbean" }]
+variants = [{ city = "Immigrants", guild_type = "Adventure", id = "99990982", slug = "gtcombat-training-in-the-south-caribbean" }]
 steps = []
 +++

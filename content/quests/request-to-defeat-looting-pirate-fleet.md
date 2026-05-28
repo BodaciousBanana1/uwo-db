@@ -8,12 +8,12 @@ slug = "request-to-defeat-looting-pirate-fleet"
 id = "99996740"
 type = "Adventure"
 city = "London Imperial Contract"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 10
 skills = []
-variants = [{ city = "London Imperial Contract", guild_type = "Adventurer", id = "99996740", slug = "request-to-defeat-looting-pirate-fleet" }]
+variants = [{ city = "London Imperial Contract", guild_type = "Adventure", id = "99996740", slug = "request-to-defeat-looting-pirate-fleet" }]
 steps = []
 +++

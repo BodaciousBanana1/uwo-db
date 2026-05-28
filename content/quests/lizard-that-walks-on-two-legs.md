@@ -8,13 +8,13 @@ slug = "lizard-that-walks-on-two-legs"
 id = "99993025"
 type = "Adventure"
 city = "Jakarta"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Dragon Bones with Holes"
 reward = 77000
 advance = 0
 difficulty = 5
 skills = [{ name = "Ecological Research", level = 4 }, { name = "Biology", level = 6 }, { name = "Oceanic Languages", level = 1 }]
-variants = [{ city = "Jakarta", guild_type = "Adventurer", id = "99993025", slug = "lizard-that-walks-on-two-legs" }]
+variants = [{ city = "Jakarta", guild_type = "Adventure", id = "99993025", slug = "lizard-that-walks-on-two-legs" }]
 steps = [{ step = 1, location = "Jakarta", action = "speak with Merchant (he will ask you to buy him some Banaba Tea)" }, { step = 2, location = "Jakarta", action = "buy merchant a drink (click drinks all around, close and click on him again to activate)" }, { step = 3, location = "Dili", action = "speak with Seafarer 2x" }, { step = 5, location = "Australia Northwest Coast", action = "walk to and click on Ruins to progress quest" }, { step = 6, location = "Australia Northwest Coast", action = "Use" }]
 discovery_description = "A lizard that lives in Australia. Its body can reach 1 meter, including its long tail. It has a distinguishing frill around its neck. This fans out when it encounters an enemy and it attempts to intimidate by opening its mouth widely. Then, when its enemy backs off, it runs away on two legs."
 exp_reward = 330

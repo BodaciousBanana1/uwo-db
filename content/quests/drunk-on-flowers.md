@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99992820"
 quest_number = "11612"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 9
 exp_reward = 268000
 fame_reward = 10000
-variants = [{ city = "Portobelo Adventurer's Guild", guild_type = "Adventurer", id = "99992820", slug = "drunk-on-flowers" }]
+variants = [{ city = "Portobelo Adventurer's Guild", guild_type = "Adventure", id = "99992820", slug = "drunk-on-flowers" }]
 skills = [{ name = "Search", level = 10 }, { name = "Appraisal", level = 12 }, { name = "Unlock", level = 10 }]
 discovery = "Intoxicating Flower Stone"
 discovery_id = "70000955"

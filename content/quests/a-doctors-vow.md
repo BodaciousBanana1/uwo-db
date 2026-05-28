@@ -8,13 +8,13 @@ slug = "a-doctors-vow"
 id = "99994098"
 type = "Adventure"
 city = "Seville"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Ophiuchus"
 reward = 36000
 advance = 0
 difficulty = 4
 skills = [{ name = "Search", level = 1 }, { name = "Archaeology", level = 3 }, { name = "French", level = 1 }]
-variants = [{ city = "Seville", guild_type = "Adventurer", id = "99994098", slug = "a-doctors-vow" }]
+variants = [{ city = "Seville", guild_type = "Adventure", id = "99994098", slug = "a-doctors-vow" }]
 steps = []
 equipment_rewards = [{ id = "00521200", name = "Medical Books", slug = "medical-books" }]
 discovery_description = "A slate bearing an engraving of an oath by the sacred doctor Hippocrates from Greece. It is a noble oath in which one devotes one's life to medicine. It was also owned by the noted doctor Pare who also had a large influence on doctors of that age."

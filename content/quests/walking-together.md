@@ -8,12 +8,12 @@ slug = "walking-together"
 id = "99990880"
 type = "Adventure"
 city = "Marseille"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 5
 skills = [{ name = "Biology", level = 5 }, { name = "Pet Training", level = 5 }]
-variants = [{ city = "Marseille", guild_type = "Adventurer", id = "99990880", slug = "walking-together" }]
+variants = [{ city = "Marseille", guild_type = "Adventure", id = "99990880", slug = "walking-together" }]
 steps = []
 +++

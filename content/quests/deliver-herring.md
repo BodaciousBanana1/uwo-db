@@ -8,12 +8,12 @@ slug = "deliver-herring"
 id = "99997645"
 type = "Adventure"
 city = "London"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 3
 skills = [{ name = "Portuguese", level = 1 }, { name = "Fishing", level = 1 }]
-variants = [{ city = "London", guild_type = "Adventurer", id = "99997645", slug = "deliver-herring" }]
+variants = [{ city = "London", guild_type = "Adventure", id = "99997645", slug = "deliver-herring" }]
 steps = []
 +++

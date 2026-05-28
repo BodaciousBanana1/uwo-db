@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99994151"
 quest_number = "4558"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 4
 exp_reward = 21000
 fame_reward = 0
-variants = [{ city = "Marseille Adventurer's Guild", guild_type = "Adventurer", id = "99994151", slug = "divine-statue-holding-a-child" }]
+variants = [{ city = "Marseille Adventurer's Guild", guild_type = "Adventure", id = "99994151", slug = "divine-statue-holding-a-child" }]
 skills = [{ name = "Search", level = 1 }, { name = "Theology", level = 2 }]
 discovery = "Hermes of Olympia"
 discovery_id = "70000218"

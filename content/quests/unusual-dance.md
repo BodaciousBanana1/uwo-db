@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99996769"
 quest_number = "16129"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 3
 exp_reward = 66000
 fame_reward = 0
-variants = [{ city = "Hangzhou Adventurer's Guild", guild_type = "Adventurer", id = "99996769", slug = "unusual-dance" }]
+variants = [{ city = "Hangzhou Adventurer's Guild", guild_type = "Adventure", id = "99996769", slug = "unusual-dance" }]
 skills = [{ name = "Search", level = 2 }, { name = "Appraisal", level = 4 }]
 discovery = "Dancer's Folding Fan"
 discovery_id = "70001858"

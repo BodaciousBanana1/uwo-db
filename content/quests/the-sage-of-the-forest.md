@@ -8,12 +8,12 @@ slug = "the-sage-of-the-forest"
 id = "99995132"
 type = "Adventure"
 city = "Santo Domingo"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Spectacled Owl"
 reward = 0
 advance = 0
 difficulty = 6
 skills = [{ name = "Spanish", level = 1 }]
-variants = [{ city = "Santo Domingo", guild_type = "Adventurer", id = "99995132", slug = "the-sage-of-the-forest" }]
+variants = [{ city = "Santo Domingo", guild_type = "Adventure", id = "99995132", slug = "the-sage-of-the-forest" }]
 steps = []
 +++

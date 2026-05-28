@@ -8,12 +8,12 @@ slug = "defend-the-advance-bases"
 id = "99996206"
 type = "Adventure"
 city = "Rio de Janeiro Imperial Contract"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 9
 skills = []
-variants = [{ city = "Rio de Janeiro Imperial Contract", guild_type = "Adventurer", id = "99996206", slug = "defend-the-advance-bases" }]
+variants = [{ city = "Rio de Janeiro Imperial Contract", guild_type = "Adventure", id = "99996206", slug = "defend-the-advance-bases" }]
 steps = []
 +++

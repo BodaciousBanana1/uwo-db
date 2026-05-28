@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99996753"
 quest_number = "15750"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 3
 exp_reward = 68000
 fame_reward = 0
-variants = [{ city = "Hangzhou Adventurer's Guild", guild_type = "Adventurer", id = "99996753", slug = "unknown-stone-figure" }]
+variants = [{ city = "Hangzhou Adventurer's Guild", guild_type = "Adventure", id = "99996753", slug = "unknown-stone-figure" }]
 skills = [{ name = "Search", level = 2 }, { name = "Theology", level = 4 }]
 discovery = "Dol Hareubang"
 discovery_id = "70001832"

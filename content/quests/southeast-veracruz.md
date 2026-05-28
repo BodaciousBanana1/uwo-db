@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99994907"
 quest_number = "1146"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 0
 exp_reward = 43000
 fame_reward = 10000
-variants = [{ city = "", guild_type = "Adventurer", id = "99994907", slug = "southeast-veracruz" }]
+variants = [{ city = "", guild_type = "Adventure", id = "99994907", slug = "southeast-veracruz" }]
 skills = []
 steps = [{ step = 1, location = "Rio de Janeiro", action = "지셀과 대화" }, { step = 2, location = "Veracruz", action = "도시관리 앞 주민과 대화" }, { step = 3, location = "Southeast Veracruz", action = "관찰, 탐색" }]
 +++

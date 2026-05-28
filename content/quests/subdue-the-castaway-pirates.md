@@ -8,12 +8,12 @@ slug = "subdue-the-castaway-pirates"
 id = "99990071"
 type = "Adventure"
 city = "SecretEdict"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 7
 skills = []
-variants = [{ city = "SecretEdict", guild_type = "Adventurer", id = "99990071", slug = "subdue-the-castaway-pirates" }]
+variants = [{ city = "SecretEdict", guild_type = "Adventure", id = "99990071", slug = "subdue-the-castaway-pirates" }]
 steps = []
 +++

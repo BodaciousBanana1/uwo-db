@@ -8,13 +8,13 @@ slug = "lunar-surface"
 id = "99990936"
 type = "Adventure"
 city = "Istanbul"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Lunar Surface"
 reward = 0
 advance = 0
 difficulty = 1
 skills = [{ name = "Recognition", level = 1 }, { name = "Astronomy", level = 1 }, { name = "Italian", level = 1 }]
-variants = [{ city = "Istanbul", guild_type = "Adventurer", id = "99990936", slug = "lunar-surface" }]
+variants = [{ city = "Istanbul", guild_type = "Adventure", id = "99990936", slug = "lunar-surface" }]
 steps = [{ step = 1, location = "Alexandria Archives", action = "Talk to Scholar" }, { step = 2, location = "Alexandria Archives", action = "Talk to Scholar" }, { step = 3, location = "Galileo Galilei Estate", action = "Speak with Galileo Galilei in" }, { step = 4, location = "Galileo Galilei Estate", action = "Speak with Galileo Galilei in" }]
 discovery_description = "Aristotle believed the moon is a sphere. Galileo proved the moon surface is not smooth through observations using telescopes. In reality, the lunar landscape is characterized by impact craters, their ejecta, a few volcanoes, hills, lava flows and depressions filled by magma."
 +++

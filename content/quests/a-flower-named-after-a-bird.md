@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99997374"
 quest_number = "6864"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 7
 exp_reward = 257000
 fame_reward = 20000
-variants = [{ city = "Naples Adventurer's Guild", guild_type = "Adventurer", id = "99997374", slug = "a-flower-named-after-a-bird" }]
+variants = [{ city = "Naples Adventurer's Guild", guild_type = "Adventure", id = "99997374", slug = "a-flower-named-after-a-bird" }]
 skills = [{ name = "Ecological Research", level = 7 }, { name = "Biology", level = 9 }, { name = "Mayan Languages", level = 1 }]
 discovery = "Firebirds"
 discovery_id = "70001229"

@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99994937"
 quest_number = "12771"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 4
 exp_reward = 75000
 fame_reward = 0
-variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventurer", id = "99994937", slug = "small-island-that-makes-great-wealth" }]
+variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventure", id = "99994937", slug = "small-island-that-makes-great-wealth" }]
 skills = [{ name = "Recognition", level = 4 }, { name = "Geography", level = 6 }, { name = "Malay/Tagalog", level = 1 }]
 discovery = "Ternate Island"
 discovery_id = "70001431"

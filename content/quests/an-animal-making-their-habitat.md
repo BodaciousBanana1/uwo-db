@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990403"
 quest_number = "15619"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 7
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Marseille Adventurer's Guild", guild_type = "Adventurer", id = "99990403", slug = "an-animal-making-their-habitat" }]
+variants = [{ city = "Marseille Adventurer's Guild", guild_type = "Adventure", id = "99990403", slug = "an-animal-making-their-habitat" }]
 skills = [{ name = "Ecological Research", level = 6 }, { name = "Biology", level = 8 }]
 discovery = "Beaver"
 discovery_id = "70001579"

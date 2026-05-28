@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990409"
 quest_number = "16934"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 3
 exp_reward = 125000
 fame_reward = 10000
-variants = [{ city = "Athens Adventurer's Guild", guild_type = "Adventurer", id = "99990409", slug = "shapeshifting-of-a-young-maiden" }]
+variants = [{ city = "Athens Adventurer's Guild", guild_type = "Adventure", id = "99990409", slug = "shapeshifting-of-a-young-maiden" }]
 skills = [{ name = "Recognition", level = 2 }, { name = "Astronomy", level = 4 }, { name = "Theology", level = 3 }]
 discovery = "Ursa Major"
 discovery_id = "70002477"

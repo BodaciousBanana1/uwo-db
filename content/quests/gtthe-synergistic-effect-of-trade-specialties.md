@@ -8,12 +8,12 @@ slug = "gtthe-synergistic-effect-of-trade-specialties"
 id = "99999876"
 type = "Adventure"
 city = "Advanced school"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 1
 skills = []
-variants = [{ city = "Advanced school", guild_type = "Adventurer", id = "99999876", slug = "gtthe-synergistic-effect-of-trade-specialties" }]
+variants = [{ city = "Advanced school", guild_type = "Adventure", id = "99999876", slug = "gtthe-synergistic-effect-of-trade-specialties" }]
 steps = []
 +++

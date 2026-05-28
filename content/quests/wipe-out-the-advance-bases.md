@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99996207"
 quest_number = "1567"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 9
 exp_reward = 160000
 fame_reward = 0
-variants = [{ city = "Rio de Janeiro Imperial Contract", guild_type = "Adventurer", id = "99996207", slug = "wipe-out-the-advance-bases" }]
+variants = [{ city = "Rio de Janeiro Imperial Contract", guild_type = "Adventure", id = "99996207", slug = "wipe-out-the-advance-bases" }]
 skills = []
 +++
 

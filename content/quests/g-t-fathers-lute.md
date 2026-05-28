@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990611"
 quest_number = "0"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 6
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Athens Adventurer's Guild", guild_type = "Adventurer", id = "99990611", slug = "g-t-fathers-lute" }]
+variants = [{ city = "Athens Adventurer's Guild", guild_type = "Adventure", id = "99990611", slug = "g-t-fathers-lute" }]
 skills = [{ name = "Search", level = 5 }, { name = "Appraisal", level = 7 }]
 discovery = "Galilei's Lute"
 discovery_id = "70002290"

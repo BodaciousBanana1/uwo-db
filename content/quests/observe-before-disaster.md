@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99997904"
 quest_number = "8152"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 4
 exp_reward = 70000
 fame_reward = 0
-variants = [{ city = "Manila Imperial Contract", guild_type = "Adventurer", id = "99997904", slug = "observe-before-disaster" }]
+variants = [{ city = "Manila Imperial Contract", guild_type = "Adventure", id = "99997904", slug = "observe-before-disaster" }]
 skills = [{ name = "Recognition", level = 4 }, { name = "Geography", level = 6 }]
 discovery = "Hallasan"
 discovery_id = "70001892"

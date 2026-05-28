@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99993926"
 quest_number = "12312"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 4
 exp_reward = 38000
 fame_reward = 0
-variants = [{ city = "Lisbon Adventurer's Guild", guild_type = "Adventurer", id = "99993926", slug = "maesta" }]
+variants = [{ city = "Lisbon Adventurer's Guild", guild_type = "Adventure", id = "99993926", slug = "maesta" }]
 skills = [{ name = "Search", level = 2 }, { name = "Art", level = 4 }, { name = "Portuguese", level = 1 }]
 discovery = "Maesta"
 discovery_id = "70001427"

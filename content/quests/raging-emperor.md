@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990553"
 quest_number = "15969"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 6
 exp_reward = 109000
 fame_reward = 10000
-variants = [{ city = "Lisbon Adventurer's Guild", guild_type = "Adventurer", id = "99990553", slug = "raging-emperor" }]
+variants = [{ city = "Lisbon Adventurer's Guild", guild_type = "Adventure", id = "99990553", slug = "raging-emperor" }]
 skills = [{ name = "Search", level = 6 }, { name = "Archaeology", level = 8 }]
 discovery = "Sword of Frederick II"
 discovery_id = "70003213"

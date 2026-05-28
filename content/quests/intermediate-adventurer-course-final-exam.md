@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990670"
 quest_number = "0"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 2
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Sagres Adventurer's Guild", guild_type = "Adventurer", id = "99990670", slug = "intermediate-adventurer-course-final-exam" }]
+variants = [{ city = "Sagres Adventurer's Guild", guild_type = "Adventure", id = "99990670", slug = "intermediate-adventurer-course-final-exam" }]
 skills = [{ name = "Search", level = 1 }, { name = "Archaeology", level = 1 }]
 discovery = "Marble Statue of Hadrian"
 discovery_id = "70000147"

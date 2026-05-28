@@ -8,13 +8,13 @@ slug = "looking-for-worlds-end"
 id = "99997681"
 type = "Adventure"
 city = "Stockholm"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Rollo's Helmet"
 reward = 0
 advance = 0
 difficulty = 8
 skills = [{ name = "Recognition", level = 10 }, { name = "Geography", level = 12 }, { name = "Nordic", level = 1 }]
-variants = [{ city = "Stockholm", guild_type = "Adventurer", id = "99997681", slug = "looking-for-worlds-end" }]
+variants = [{ city = "Stockholm", guild_type = "Adventure", id = "99997681", slug = "looking-for-worlds-end" }]
 steps = [{ step = 1, location = "Bergen Tavern", action = "Talk to Barkeep (x2)" }, { step = 2, location = "Scandinavia West Coast", action = "Talk to Olga, just south of entrance (x4)" }, { step = 3, location = "Icelandic Ocean Basin", action = "Use" }]
 discovery_description = "An island northwest of Iceland. Covered in sheets of ice and perpetual snow, much of the island remains unexplored. Only a portion of the coastline is free of ice and inhabitable. However, the Vikings called this land the Land of Green and encouraged people to immigrate there."
 exp_reward = 1100

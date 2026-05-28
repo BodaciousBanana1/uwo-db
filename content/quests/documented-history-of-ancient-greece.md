@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99993819"
 quest_number = "17232"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 4
 exp_reward = 16000
 fame_reward = 0
-variants = [{ city = "Lisbon Adventurer's Guild", guild_type = "Adventurer", id = "99993819", slug = "documented-history-of-ancient-greece" }]
+variants = [{ city = "Lisbon Adventurer's Guild", guild_type = "Adventure", id = "99993819", slug = "documented-history-of-ancient-greece" }]
 skills = [{ name = "Search", level = 1 }, { name = "Appraisal", level = 2 }]
 discovery = "Historiai"
 discovery_id = "70000152"

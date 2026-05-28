@@ -8,12 +8,12 @@ slug = "fisheries-survey-of-sicilian-coast"
 id = "99994429"
 type = "Adventure"
 city = "Marseille"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 2
 skills = [{ name = "Italian", level = 1 }]
-variants = [{ city = "Marseille", guild_type = "Adventurer", id = "99994429", slug = "fisheries-survey-of-sicilian-coast" }]
+variants = [{ city = "Marseille", guild_type = "Adventure", id = "99994429", slug = "fisheries-survey-of-sicilian-coast" }]
 steps = []
 +++

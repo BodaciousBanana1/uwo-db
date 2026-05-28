@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99991432"
 quest_number = "0"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 7
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Portobelo Adventurer's Guild", guild_type = "Adventurer", id = "99991432", slug = "mysterious-aztec-goddess" }]
+variants = [{ city = "Portobelo Adventurer's Guild", guild_type = "Adventure", id = "99991432", slug = "mysterious-aztec-goddess" }]
 skills = [{ name = "Search", level = 7 }, { name = "Theology", level = 9 }, { name = "Nahuatl", level = 1 }]
 discovery = "Coyolxauhqui's Disk"
 discovery_id = "70003551"

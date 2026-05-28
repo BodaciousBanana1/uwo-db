@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990861"
 quest_number = "14871"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 10
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Stockholm Adventurer's Guild", guild_type = "Adventurer", id = "99990861", slug = "g-t-dead-sea" }]
+variants = [{ city = "Stockholm Adventurer's Guild", guild_type = "Adventure", id = "99990861", slug = "g-t-dead-sea" }]
 skills = [{ name = "Recognition", level = 15 }, { name = "Geography", level = 17 }, { name = "English", level = 1 }]
 discovery = "Dead Sea"
 discovery_id = "70003024"

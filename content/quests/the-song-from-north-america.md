@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990439"
 quest_number = "14576"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 3
 exp_reward = 186000
 fame_reward = 10000
-variants = [{ city = "Portobelo Adventurer's Guild", guild_type = "Adventurer", id = "99990439", slug = "the-song-from-north-america" }]
+variants = [{ city = "Portobelo Adventurer's Guild", guild_type = "Adventure", id = "99990439", slug = "the-song-from-north-america" }]
 skills = [{ name = "Search", level = 1 }, { name = "Appraisal", level = 3 }]
 discovery = "Lyrics of Yankee-Doodle"
 discovery_id = "70002490"

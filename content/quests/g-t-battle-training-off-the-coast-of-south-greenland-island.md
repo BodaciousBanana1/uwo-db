@@ -6,10 +6,10 @@ template = "quests/page.html"
 [extra]
 id = "99991021"
 quest_number = "0"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 7
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99991021", slug = "g-t-battle-training-off-the-coast-of-south-greenland-island" }]
+variants = [{ city = "Immigrants", guild_type = "Adventure", id = "99991021", slug = "g-t-battle-training-off-the-coast-of-south-greenland-island" }]
 skills = []
 +++

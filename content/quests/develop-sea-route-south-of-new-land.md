@@ -8,12 +8,12 @@ slug = "develop-sea-route-south-of-new-land"
 id = "99997037"
 type = "Adventure"
 city = "Rio de Janeiro"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 4
 skills = [{ name = "Spanish", level = 1 }]
-variants = [{ city = "Rio de Janeiro", guild_type = "Adventurer", id = "99997037", slug = "develop-sea-route-south-of-new-land" }]
+variants = [{ city = "Rio de Janeiro", guild_type = "Adventure", id = "99997037", slug = "develop-sea-route-south-of-new-land" }]
 steps = []
 +++

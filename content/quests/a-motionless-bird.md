@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990135"
 quest_number = "15892"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 6
 exp_reward = 245000
 fame_reward = 30000
-variants = [{ city = "Amsterdam Adventurer's Guild", guild_type = "Adventurer", id = "99990135", slug = "a-motionless-bird" }]
+variants = [{ city = "Amsterdam Adventurer's Guild", guild_type = "Adventure", id = "99990135", slug = "a-motionless-bird" }]
 skills = [{ name = "Ecological Research", level = 6 }, { name = "Biology", level = 8 }, { name = "West African Languages", level = 1 }]
 discovery = "Shoebill"
 discovery_id = "70002679"

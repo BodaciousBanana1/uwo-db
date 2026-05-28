@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990957"
 quest_number = "15535"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 3
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99990957", slug = "g-t-a-chef-who-handles-spices-well" }]
+variants = [{ city = "Immigrants", guild_type = "Adventure", id = "99990957", slug = "g-t-a-chef-who-handles-spices-well" }]
 skills = [{ name = "Malay/Tagalog", level = 1 }]
 +++
 

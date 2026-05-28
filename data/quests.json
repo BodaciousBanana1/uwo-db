@@ -159640,7 +159640,7 @@
   "naples-adventurers-guild": [
     {
       "name": "Character information collection",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -159661,7 +159661,7 @@
     },
     {
       "name": "What is left behind by the instructor",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -159682,7 +159682,7 @@
     },
     {
       "name": "Traditional Russian instrument",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -159699,7 +159699,7 @@
     },
     {
       "name": "The Lovers' Cape",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -159716,7 +159716,7 @@
     },
     {
       "name": "Reason for desire for blood & hearts",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -159737,7 +159737,7 @@
     },
     {
       "name": "The two chosen kings",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "naples-adventurers-guild",
@@ -159745,7 +159745,7 @@
     },
     {
       "name": "Babylonian Captivity",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -159766,7 +159766,7 @@
     },
     {
       "name": "Battle of Ain Jalut",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -159783,7 +159783,7 @@
     },
     {
       "name": "An approaching sound",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -159804,7 +159804,7 @@
     },
     {
       "name": "A flower named after a bird",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -159827,7 +159827,7 @@
   "secretedict": [
     {
       "name": "(g.t.)Tortuga Pirates Subjugation",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "secretedict",
@@ -159835,7 +159835,7 @@
     },
     {
       "name": "(g.t.)Pivoting Pirate Forces",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "secretedict",
@@ -159843,7 +159843,7 @@
     },
     {
       "name": "Deliver an Amulet of a Greek Goddess",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "secretedict",
@@ -159851,7 +159851,7 @@
     },
     {
       "name": "Subdue the Looters",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "secretedict",
@@ -159859,7 +159859,7 @@
     },
     {
       "name": "Rumors of the Labyrinth",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "secretedict",
@@ -159867,7 +159867,7 @@
     },
     {
       "name": "Subdue the Old Hafus Fleet",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "secretedict",
@@ -159875,7 +159875,7 @@
     },
     {
       "name": "Summary of the 'Aegean Sea Theory'",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Archaeology",
@@ -159888,7 +159888,7 @@
     },
     {
       "name": "(g.t.)Delivery of Ore course",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Nordic",
@@ -159901,7 +159901,7 @@
     },
     {
       "name": "(g.t.)Subjugation of Port Royal Fleet",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "secretedict",
@@ -159909,7 +159909,7 @@
     },
     {
       "name": "Summary of the 'Atlantic Theory'",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "English",
@@ -159930,7 +159930,7 @@
     },
     {
       "name": "Deliver Kenaf",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "secretedict",
@@ -159938,7 +159938,7 @@
     },
     {
       "name": "(G.T.)Delivery of the strap",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Sewing",
@@ -160196,7 +160196,7 @@
   "treasure-hunt": [
     {
       "name": "(g.t.)The bow of the righteous",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -160217,7 +160217,7 @@
     },
     {
       "name": "(g.t.)Sword of Bretagne",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -160234,7 +160234,7 @@
     },
     {
       "name": "(g.t.)Barracuda of Hercules",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -160255,7 +160255,7 @@
     },
     {
       "name": "(g.t.)Unprecedented gold",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -160276,7 +160276,7 @@
     },
     {
       "name": "(g.t.)Memory of silver",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -160297,7 +160297,7 @@
     },
     {
       "name": "(g.t.)Story of a Destroyed Country",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -160314,7 +160314,7 @@
     },
     {
       "name": "(g.t.)The Atlantis lag",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -160331,7 +160331,7 @@
     },
     {
       "name": "(g.t.)Seal of letter unit",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -160348,7 +160348,7 @@
     },
     {
       "name": "(g.t.)The Book of Count Saint-Germain",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -160365,7 +160365,7 @@
     },
     {
       "name": "(g.t.)Bastard's adventure",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -160386,7 +160386,7 @@
     },
     {
       "name": "(g.t.)Helm of the Gaul Hero",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -160403,7 +160403,7 @@
     },
     {
       "name": "(g.t.)Holy Land，Knights Temples and Treasures",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -160424,7 +160424,7 @@
     },
     {
       "name": "(g.t. )Sun God Atten",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -160441,7 +160441,7 @@
     },
     {
       "name": "(g.t. )Kungkator's Recipe",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -160458,7 +160458,7 @@
     },
     {
       "name": "(g.t. )Karl Martell's Battle Hammer",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -160475,7 +160475,7 @@
     },
     {
       "name": "(g.t. )Zan's successor",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -160492,7 +160492,7 @@
     },
     {
       "name": "(g.t. )Albida's Helm",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -160513,7 +160513,7 @@
     },
     {
       "name": "(g.t. )Alibaba turban",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -160530,7 +160530,7 @@
     },
     {
       "name": "(g.t. )Aladdin's Lamp",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -160547,7 +160547,7 @@
     },
     {
       "name": "(g.t. )Byzantine Empire",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -160564,7 +160564,7 @@
     },
     {
       "name": "(g.t. )Beowulf's Helm",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -160585,7 +160585,7 @@
     },
     {
       "name": "(g.t. )Cecum sign",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -160602,7 +160602,7 @@
     },
     {
       "name": "(g.t. )Last roman",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -160619,7 +160619,7 @@
     },
     {
       "name": "(g.t. )Another cup",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -160636,7 +160636,7 @@
     },
     {
       "name": "(g.t. )Where is Taoyuan",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -160657,7 +160657,7 @@
     },
     {
       "name": "Trade Route Expansion Project",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -160678,7 +160678,7 @@
     },
     {
       "name": "Legacy TH9. The Long-gone Lighthouse",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -160695,7 +160695,7 @@
     },
     {
       "name": "(G.T.)Small key",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -160712,7 +160712,7 @@
     },
     {
       "name": "Trismegistus",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -160735,7 +160735,7 @@
   "acropolis": [
     {
       "name": "Research Mysterious Food",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "acropolis",
@@ -160743,7 +160743,7 @@
     },
     {
       "name": "Research Mysterious Ore",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "acropolis",
@@ -160751,7 +160751,7 @@
     },
     {
       "name": "Research Mysterious Medicine",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "acropolis",
@@ -160759,7 +160759,7 @@
     },
     {
       "name": "Research Mysterious Weapon",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "acropolis",
@@ -160767,7 +160767,7 @@
     },
     {
       "name": "Research Mysterious Fabric",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "acropolis",
@@ -160777,7 +160777,7 @@
   "london-adventurers-guild": [
     {
       "name": "Those Who Seek and Those Who Lead",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "london-adventurers-guild",
@@ -160785,7 +160785,7 @@
     },
     {
       "name": "The Famous Hunters of the Savannah",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -160806,7 +160806,7 @@
     },
     {
       "name": "The promised future",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -160827,7 +160827,7 @@
     },
     {
       "name": "Land of the Legendary King",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -160848,7 +160848,7 @@
     },
     {
       "name": "Coffin Worth Dying For",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -160865,7 +160865,7 @@
     },
     {
       "name": "Beginning of the Steam Engine Research",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -160882,7 +160882,7 @@
     },
     {
       "name": "Turquoise Mask",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -160903,7 +160903,7 @@
     },
     {
       "name": "Treasure of Baekje",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -160920,7 +160920,7 @@
     },
     {
       "name": "The Banshee's Tears",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -160941,7 +160941,7 @@
     },
     {
       "name": "Adventurer guild's plight",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "English",
@@ -160962,7 +160962,7 @@
     },
     {
       "name": "Sea beast with black eyes",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -160979,7 +160979,7 @@
     },
     {
       "name": "Adventurer's bible",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -160992,7 +160992,7 @@
     },
     {
       "name": "(G.T.)Wild grass",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "English",
@@ -161009,7 +161009,7 @@
     },
     {
       "name": "The melancholy of Durer",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -161030,7 +161030,7 @@
     },
     {
       "name": "Earth shattering",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -161053,7 +161053,7 @@
   "istanbul-adventurers-guild": [
     {
       "name": "Investigation of the Mysterious Pyramid",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -161070,7 +161070,7 @@
     },
     {
       "name": "Adventurer guild's plight",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Sail Handling",
@@ -161083,7 +161083,7 @@
     },
     {
       "name": "Bronze work of Anatolia",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -161104,7 +161104,7 @@
     },
     {
       "name": "(G.T.)Key to open the hearts of the king",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "istanbul-adventurers-guild",
@@ -161114,7 +161114,7 @@
   "amsterdam-adventurers-guild": [
     {
       "name": "The Rise of the Roman Republic",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -161131,7 +161131,7 @@
     },
     {
       "name": "Temple of the God of Agriculture",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -161148,7 +161148,7 @@
     },
     {
       "name": "A Motionless Bird",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -161169,7 +161169,7 @@
     },
     {
       "name": "Land of the Legendary King",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -161190,7 +161190,7 @@
     },
     {
       "name": "Message from Ancient Times",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -161207,7 +161207,7 @@
     },
     {
       "name": "A Red Foreheaded Bird",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -161224,7 +161224,7 @@
     },
     {
       "name": "(g.t.)Letter to the Guild Pioneer City",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "amsterdam-adventurers-guild",
@@ -161232,7 +161232,7 @@
     },
     {
       "name": "A Travelling Monk",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -161249,7 +161249,7 @@
     },
     {
       "name": "Further Research on Valuable Teaware",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -161266,7 +161266,7 @@
     },
     {
       "name": "The Meister's song",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "German",
@@ -161283,7 +161283,7 @@
     },
     {
       "name": "Sea beast with black eyes",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -161296,7 +161296,7 @@
     },
     {
       "name": "Adventurer's bible",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -161309,7 +161309,7 @@
     },
     {
       "name": "First job for the Guild",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -161326,7 +161326,7 @@
     },
     {
       "name": "The Spear of Longinus",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -161347,7 +161347,7 @@
     },
     {
       "name": "Adventurer guild's plight",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Sail Handling",
@@ -161364,7 +161364,7 @@
     },
     {
       "name": "Biblical prophecy",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Theology",
@@ -161377,7 +161377,7 @@
     },
     {
       "name": "Angel's zapateado",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "amsterdam-adventurers-guild",
@@ -161385,7 +161385,7 @@
     },
     {
       "name": "Wild grass",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Collection",
@@ -161522,7 +161522,7 @@
   "venice-adventurers-guild": [
     {
       "name": "The Constellation of a Bird of India",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -161543,7 +161543,7 @@
     },
     {
       "name": "The pot's identity",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -161564,7 +161564,7 @@
     },
     {
       "name": "(g.t.)Christmas star",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -161581,7 +161581,7 @@
     },
     {
       "name": "Bohemian Glass",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -161598,7 +161598,7 @@
     },
     {
       "name": "Legend of the Labyrinthos",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -161619,7 +161619,7 @@
     },
     {
       "name": "Mountain Range That Rejects Mankind",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -161640,7 +161640,7 @@
     },
     {
       "name": "(g.t. )About intentional group",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Theology",
@@ -161653,7 +161653,7 @@
     },
     {
       "name": "Unexpected source",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -161674,7 +161674,7 @@
     },
     {
       "name": "Little Knight",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -161691,7 +161691,7 @@
     },
     {
       "name": "Adventurer guild's plight",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Sail Handling",
@@ -161704,7 +161704,7 @@
     },
     {
       "name": "Sea beast with black eyes",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -161717,7 +161717,7 @@
     },
     {
       "name": "South tip of Africa",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -161738,7 +161738,7 @@
     },
     {
       "name": "Adventurer's bible",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -161751,7 +161751,7 @@
     },
     {
       "name": "History of stained glass",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "venice-adventurers-guild",
@@ -161759,7 +161759,7 @@
     },
     {
       "name": "(G.T.)The first thing that the union",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -161772,7 +161772,7 @@
     },
     {
       "name": "Final dynasty of Egypt",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -161793,7 +161793,7 @@
     },
     {
       "name": "Develop sea lane to Ragusa",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "venice-adventurers-guild",
@@ -161801,7 +161801,7 @@
     },
     {
       "name": "Man from the land of gold",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -161822,7 +161822,7 @@
     },
     {
       "name": "Collecting pearl oysters",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Collection",
@@ -161835,7 +161835,7 @@
     },
     {
       "name": "Chains that bind the sea",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -162324,7 +162324,7 @@
   "stockholm-adventurers-guild": [
     {
       "name": "(g.t.)Rock paintings of the Holy Land",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -162345,7 +162345,7 @@
     },
     {
       "name": "Search for the Vanished Star",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -162366,7 +162366,7 @@
     },
     {
       "name": "Land of the Legendary King",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -162387,7 +162387,7 @@
     },
     {
       "name": "The Constellation That Was Made in Poland",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -162408,7 +162408,7 @@
     },
     {
       "name": "(g.t.)Origin of an adult war",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -162425,7 +162425,7 @@
     },
     {
       "name": "Search for Rare Earthenware",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -162442,7 +162442,7 @@
     },
     {
       "name": "(g.t.)Dead sea",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -162463,7 +162463,7 @@
     },
     {
       "name": "(g.t. )Man beyond the wall",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Archaeology",
@@ -162480,7 +162480,7 @@
     },
     {
       "name": "Accessories favoured by craftman",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -162501,7 +162501,7 @@
     },
     {
       "name": "Trail and error of Vermeer",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -162518,7 +162518,7 @@
     },
     {
       "name": "The bounty of the frozen sea",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -162541,7 +162541,7 @@
   "athens-adventurers-guild": [
     {
       "name": "The Fastest Monkey",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -162562,7 +162562,7 @@
     },
     {
       "name": "The Emperor's Villa",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -162579,7 +162579,7 @@
     },
     {
       "name": "Shapeshifting of a Young Maiden",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -162600,7 +162600,7 @@
     },
     {
       "name": "Unexpected source",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -162617,7 +162617,7 @@
     },
     {
       "name": "(g.t.)Father's Lute",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -162634,7 +162634,7 @@
     },
     {
       "name": "(g.t.)Last guardian",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -162655,7 +162655,7 @@
     },
     {
       "name": "A Star on Fire",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -162676,7 +162676,7 @@
     },
     {
       "name": "(g.t.)Chinese Astronomy",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -162697,7 +162697,7 @@
     },
     {
       "name": "Da Vinci's altarpiece",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -162714,7 +162714,7 @@
     },
     {
       "name": "Fox of the desert",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -162731,7 +162731,7 @@
     },
     {
       "name": "The Sultans",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -162752,7 +162752,7 @@
     },
     {
       "name": "Unique depiction of Madonna & child",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -162769,7 +162769,7 @@
     },
     {
       "name": "Scylla & Charybdis",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -162786,7 +162786,7 @@
     },
     {
       "name": "A dangerous animal near the water",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -163062,7 +163062,7 @@
   "marseille-adventurers-guild": [
     {
       "name": "Vanished Temple",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "marseille-adventurers-guild",
@@ -163070,7 +163070,7 @@
     },
     {
       "name": "An Animal Making Their Habitat",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -163087,7 +163087,7 @@
     },
     {
       "name": "Omen-bringing Bird",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -163108,7 +163108,7 @@
     },
     {
       "name": "That's not Right",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -163125,7 +163125,7 @@
     },
     {
       "name": "Before Journeying Out",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -163146,7 +163146,7 @@
     },
     {
       "name": "Land of Extreme Cold",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -163163,7 +163163,7 @@
     },
     {
       "name": "Figurine Engraved with Mysterious Words",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -163184,7 +163184,7 @@
     },
     {
       "name": "Letters engraved on the sword",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Archaeology",
@@ -163197,7 +163197,7 @@
     },
     {
       "name": "Adventurer's bible",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -163210,7 +163210,7 @@
     },
     {
       "name": "Mysterious flower of southern country",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -163227,7 +163227,7 @@
     },
     {
       "name": "Beauty who only appears at night",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -163244,7 +163244,7 @@
     },
     {
       "name": "Dragon of Africa",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -163265,7 +163265,7 @@
     },
     {
       "name": "Temple dedicated to Shiva",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -163286,7 +163286,7 @@
     },
     {
       "name": "Divine statue holding a child",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -163303,7 +163303,7 @@
     },
     {
       "name": "Sea beast with black eyes",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -163316,7 +163316,7 @@
     },
     {
       "name": "Adventurer guild's plight",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Sail Handling",
@@ -163329,7 +163329,7 @@
     },
     {
       "name": "(G.T.)The first thing that the union",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -163342,7 +163342,7 @@
     },
     {
       "name": "Defender of a maiden's room",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -163359,7 +163359,7 @@
     },
     {
       "name": "History of stained glass",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "marseille-adventurers-guild",
@@ -163367,7 +163367,7 @@
     },
     {
       "name": "Lucrative foods",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Archaeology",
@@ -163380,7 +163380,7 @@
     },
     {
       "name": "To be an Artist",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "marseille-adventurers-guild",
@@ -163388,7 +163388,7 @@
     },
     {
       "name": "The Patchwork Gate",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -163407,7 +163407,7 @@
   "seville-adventurers-guild": [
     {
       "name": "Aphrodite's Tragic Flower",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -163424,7 +163424,7 @@
     },
     {
       "name": "Suspicion",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -163441,7 +163441,7 @@
     },
     {
       "name": "The Greatest Place",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -163458,7 +163458,7 @@
     },
     {
       "name": "Treasure Known As Information",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -163479,7 +163479,7 @@
     },
     {
       "name": "A Bird That Meows",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -163500,7 +163500,7 @@
     },
     {
       "name": "Paradise on Earth",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -163521,7 +163521,7 @@
     },
     {
       "name": "Adventurer's bible",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -163538,7 +163538,7 @@
     },
     {
       "name": "A culture without water",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -163559,7 +163559,7 @@
     },
     {
       "name": "(G.T.)The first thing that the union",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -163576,7 +163576,7 @@
     },
     {
       "name": "Sea beast with black eyes",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -163593,7 +163593,7 @@
     },
     {
       "name": "Anxious father",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "seville-adventurers-guild",
@@ -163601,7 +163601,7 @@
     },
     {
       "name": "Investigation of the habitant of sharks",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -163622,7 +163622,7 @@
     },
     {
       "name": "Painting that covers a ceiling",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -163639,7 +163639,7 @@
     },
     {
       "name": "Sword of light from Las Palmas",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Archaeology",
@@ -163652,7 +163652,7 @@
     },
     {
       "name": "Adventurer guild's plight",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Sail Handling",
@@ -163665,7 +163665,7 @@
     },
     {
       "name": "Politics during Roman times",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Archaeology",
@@ -163678,7 +163678,7 @@
     },
     {
       "name": "Develop sea lane to Madeira",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Portuguese",
@@ -163691,7 +163691,7 @@
     },
     {
       "name": "Develop sea lane to Palma",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "seville-adventurers-guild",
@@ -163699,7 +163699,7 @@
     },
     {
       "name": "Develop sea lane to Las Palmas",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "seville-adventurers-guild",
@@ -163707,7 +163707,7 @@
     },
     {
       "name": "Restless Thinker",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "German",
@@ -163720,7 +163720,7 @@
     },
     {
       "name": "(G.T.)Wild grass",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Portuguese",
@@ -163737,7 +163737,7 @@
     },
     {
       "name": "Develop sea lane to Casablanca",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Portuguese",
@@ -163750,7 +163750,7 @@
     },
     {
       "name": "(G.T.)Procurement of deer",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Procurement",
@@ -163763,7 +163763,7 @@
     },
     {
       "name": "Procuring wild rabbit",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Procurement",
@@ -164528,7 +164528,7 @@
   "calicut-adventurers-guild": [
     {
       "name": "Babylonian Romance",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -164545,7 +164545,7 @@
     },
     {
       "name": "(g.t.)Exception composition",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Biology",
@@ -164566,7 +164566,7 @@
     },
     {
       "name": "Reason for Graveyards",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -164587,7 +164587,7 @@
     },
     {
       "name": "(g.t.)Letter to the Guild Pioneer City",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "calicut-adventurers-guild",
@@ -164595,7 +164595,7 @@
     },
     {
       "name": "Cat that makes spices",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -164612,7 +164612,7 @@
     },
     {
       "name": "Important trade points between East & West",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -164633,7 +164633,7 @@
     },
     {
       "name": "Defender of the temple",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -164654,7 +164654,7 @@
     },
     {
       "name": "Develop sea route to Jakarta",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Malay/Tagalog",
@@ -164667,7 +164667,7 @@
     },
     {
       "name": "Renowned Taoist Mountain",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -164688,7 +164688,7 @@
     },
     {
       "name": "Shark with a long tail",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -164709,7 +164709,7 @@
     },
     {
       "name": "Placed Bell",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -164728,7 +164728,7 @@
   "jakarta-adventurers-guild": [
     {
       "name": "(g.t.)Hawaiian traditional instruments",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -164749,7 +164749,7 @@
     },
     {
       "name": "The Authenticity of Poetry",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -164766,7 +164766,7 @@
     },
     {
       "name": "The Meaning of Mother's Words",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -164787,7 +164787,7 @@
     },
     {
       "name": "Fascinated By Islamic Architecture",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -164808,7 +164808,7 @@
     },
     {
       "name": "(g.t. )Geographic survey around Hawaii",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -164829,7 +164829,7 @@
     },
     {
       "name": "(g.t. )The middle of the pacific",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -164850,7 +164850,7 @@
     },
     {
       "name": "(g.t. )White sail on land",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -164871,7 +164871,7 @@
     },
     {
       "name": "(g.t. )Shrubs Cared For By Goddess",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -164892,7 +164892,7 @@
     },
     {
       "name": "(g.t. )A bird carrying a fire",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -164913,7 +164913,7 @@
     },
     {
       "name": "(g.t. )A prosperous plant",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -164934,7 +164934,7 @@
     },
     {
       "name": "(g.t. )Stone shrine",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -164955,7 +164955,7 @@
     },
     {
       "name": "A legend that lived",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -164976,7 +164976,7 @@
     },
     {
       "name": "Small island that makes great wealth",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -164997,7 +164997,7 @@
     },
     {
       "name": "A stone in relief",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -165018,7 +165018,7 @@
     },
     {
       "name": "Trans-archipelago shipping route",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -165039,7 +165039,7 @@
     },
     {
       "name": "Develop sea route to Calicut",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Indian Languages",
@@ -165052,7 +165052,7 @@
     },
     {
       "name": "Clump That Lies in the Earth",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -165069,7 +165069,7 @@
     },
     {
       "name": "Diagram of Pure Land",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -165086,7 +165086,7 @@
     },
     {
       "name": "Duckbill Poison",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Malay/Tagalog",
@@ -165103,7 +165103,7 @@
     },
     {
       "name": "Strange Ship of Orchid Island",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -165124,7 +165124,7 @@
     },
     {
       "name": "Island of Culture",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -165141,7 +165141,7 @@
     },
     {
       "name": "Traces of The King of Paekche",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -165162,7 +165162,7 @@
     },
     {
       "name": "Sound of stone in the ruins",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -165183,7 +165183,7 @@
     },
     {
       "name": "(G.T.)Great event of the background check",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Oceanic Languages",
@@ -165213,7 +165213,7 @@
   "portobelo-adventurers-guild": [
     {
       "name": "The Song From North America",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -165230,7 +165230,7 @@
     },
     {
       "name": "Collaboration Between Generations",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -165247,7 +165247,7 @@
     },
     {
       "name": "Mysterious Aztec Goddess",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -165268,7 +165268,7 @@
     },
     {
       "name": "After a Sea Monster",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -165289,7 +165289,7 @@
     },
     {
       "name": "Drunk on flowers",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -165310,7 +165310,7 @@
     },
     {
       "name": "Who was the real captive?",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "portobelo-adventurers-guild",
@@ -165318,7 +165318,7 @@
     },
     {
       "name": "Soaring Crimson",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -165335,7 +165335,7 @@
     },
     {
       "name": "It Means Mountain",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -165356,7 +165356,7 @@
     },
     {
       "name": "Develop sea route to the Caribbean sea",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "portobelo-adventurers-guild",
@@ -165364,7 +165364,7 @@
     },
     {
       "name": "Develop sea route to London",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "English",
@@ -165377,7 +165377,7 @@
     },
     {
       "name": "Develop sea route to Lisbon",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Portuguese",
@@ -165390,7 +165390,7 @@
     },
     {
       "name": "Develop sea route to Marseilles",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "portobelo-adventurers-guild",
@@ -165398,7 +165398,7 @@
     },
     {
       "name": "Develop sea route to Venice",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "portobelo-adventurers-guild",
@@ -165406,7 +165406,7 @@
     },
     {
       "name": "Develop sea route to Amsterdam",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "portobelo-adventurers-guild",
@@ -165414,7 +165414,7 @@
     },
     {
       "name": "Jaguar conservation plan",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Biology",
@@ -165431,7 +165431,7 @@
     },
     {
       "name": "(G.T.)Anxiety underground labyrinth and a girl",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "portobelo-adventurers-guild",
@@ -165441,7 +165441,7 @@
   "folklores": [
     {
       "name": "(g.t.)Tradition for the Treasury",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Theology",
@@ -165454,7 +165454,7 @@
     },
     {
       "name": "(g.t.)Tradition of utopia",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Archaeology",
@@ -165467,7 +165467,7 @@
     },
     {
       "name": "(g.t.)The tradition of giants living in the sea",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Biology",
@@ -165480,7 +165480,7 @@
     },
     {
       "name": "(g.t.)A rainbow-bound tradition",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Geography",
@@ -165493,7 +165493,7 @@
     },
     {
       "name": "(g.t.)The tradition about passage ceremony",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Theology",
@@ -165506,7 +165506,7 @@
     },
     {
       "name": "(g.t. )Alexandria Lighthouse",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "Lighthouse of Alexandria",
       "city": "folklores",
@@ -165514,7 +165514,7 @@
     },
     {
       "name": "Folklore Regarding a Snake-like Creature",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Theology",
@@ -165527,7 +165527,7 @@
     },
     {
       "name": "(g.t. )Colossus of Rhodes Island",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "The Colossus of Rhodes",
       "city": "folklores",
@@ -165535,7 +165535,7 @@
     },
     {
       "name": "Folklore Regarding Utopia",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Archaeology",
@@ -165548,7 +165548,7 @@
     },
     {
       "name": "Omen-bringing Bird",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Biology",
@@ -165563,7 +165563,7 @@
   "east-asia": [
     {
       "name": "(g.t.)Learn to pitch",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Swordplay",
@@ -165580,7 +165580,7 @@
     },
     {
       "name": "(g.t.)Beast attack exercise",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Swordplay",
@@ -165597,7 +165597,7 @@
     },
     {
       "name": "(g.t.)Learning",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Swordplay",
@@ -165614,7 +165614,7 @@
     },
     {
       "name": "(g.t.)Acquire penetration",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Swordplay",
@@ -165631,7 +165631,7 @@
     },
     {
       "name": "(g.t.)Acquiring a prank",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Gunfire",
@@ -165648,7 +165648,7 @@
     },
     {
       "name": "(g.t.)Shadow binding",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Throwing",
@@ -165661,7 +165661,7 @@
     },
     {
       "name": "(g.t.)Acquire white hair",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Sniping",
@@ -166097,7 +166097,7 @@
   "santo-domingo-adventurers-guild": [
     {
       "name": "Unfinished",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -166114,7 +166114,7 @@
     },
     {
       "name": "The Sextant of the Night Sky",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -166135,7 +166135,7 @@
     },
     {
       "name": "A river named for its size",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -166152,7 +166152,7 @@
     },
     {
       "name": "Expectation of land development",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -166169,7 +166169,7 @@
     },
     {
       "name": "Investigation of flat creature",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -166186,7 +166186,7 @@
     },
     {
       "name": "Develop sea route to the Caribbean sea",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "santo-domingo-adventurers-guild",
@@ -166194,7 +166194,7 @@
     },
     {
       "name": "Develop sea route to Lisbon",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Portuguese",
@@ -166207,7 +166207,7 @@
     },
     {
       "name": "Develop sea route to London",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "English",
@@ -166220,7 +166220,7 @@
     },
     {
       "name": "Develop sea route to Marseilles",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "santo-domingo-adventurers-guild",
@@ -166228,7 +166228,7 @@
     },
     {
       "name": "Develop sea route to Venice",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "santo-domingo-adventurers-guild",
@@ -166236,7 +166236,7 @@
     },
     {
       "name": "Develop sea route to Amsterdam",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "santo-domingo-adventurers-guild",
@@ -166246,7 +166246,7 @@
   "lisbon-adventurers-guild": [
     {
       "name": "Suspicion",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Portuguese",
@@ -166259,7 +166259,7 @@
     },
     {
       "name": "Raging Emperor",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -166276,7 +166276,7 @@
     },
     {
       "name": "Jose`s Past",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Portuguese",
@@ -166289,7 +166289,7 @@
     },
     {
       "name": "Rumoured School",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Portuguese",
@@ -166302,7 +166302,7 @@
     },
     {
       "name": "The Lovers' Cape",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -166323,7 +166323,7 @@
     },
     {
       "name": "Crusade of the people",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -166340,7 +166340,7 @@
     },
     {
       "name": "Sea beast with black eyes",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -166357,7 +166357,7 @@
     },
     {
       "name": "Adventurer's bible",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -166370,7 +166370,7 @@
     },
     {
       "name": "First job for the Guild",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -166383,7 +166383,7 @@
     },
     {
       "name": "Documented history of ancient Greece",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -166400,7 +166400,7 @@
     },
     {
       "name": "Adventurer guild's plight",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Portuguese",
@@ -166417,7 +166417,7 @@
     },
     {
       "name": "Maesta",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -166438,7 +166438,7 @@
     },
     {
       "name": "Develop sea lane to Madeira",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Portuguese",
@@ -166451,7 +166451,7 @@
     },
     {
       "name": "Develop sea lane to W. Mediterranean",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Portuguese",
@@ -166464,7 +166464,7 @@
     },
     {
       "name": "Develop sea lane to West Africa",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Portuguese",
@@ -166477,7 +166477,7 @@
     },
     {
       "name": "Colon's Past",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Portuguese",
@@ -166490,7 +166490,7 @@
     },
     {
       "name": "(G.T.)Janitorial of the liquor store asking Porto",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Portuguese",
@@ -166503,7 +166503,7 @@
     },
     {
       "name": "Develop sea lane to Las Palmas",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "lisbon-adventurers-guild",
@@ -166511,7 +166511,7 @@
     },
     {
       "name": "Develop sea route to Jakarta",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Malay/Tagalog",
@@ -166526,7 +166526,7 @@
   "sagres-adventurers-guild": [
     {
       "name": "null",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Biology",
@@ -166539,7 +166539,7 @@
     },
     {
       "name": "Intermediate Adventurer Course Final Exam",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -166556,7 +166556,7 @@
     },
     {
       "name": "Advanced Adventurer Course Final Exam",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -166589,7 +166589,7 @@
   "immigrants": [
     {
       "name": "(g.t.)Policing in the western Caribbean",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -166597,7 +166597,7 @@
     },
     {
       "name": "(g.t.)Delivery of wine",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -166605,7 +166605,7 @@
     },
     {
       "name": "(g.t.)Delivery of wheat",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -166613,7 +166613,7 @@
     },
     {
       "name": "(g.t.)Delivery of ginger",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -166621,7 +166621,7 @@
     },
     {
       "name": "(g.t.)Delivery of sapphire",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -166629,7 +166629,7 @@
     },
     {
       "name": "(g.t.)Delivery of Gangdal Sora",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -166637,7 +166637,7 @@
     },
     {
       "name": "(g.t.)Ask for assistance from immigrant fleet",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -166645,7 +166645,7 @@
     },
     {
       "name": "(g.t.)FRUIT DELIVERY",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -166653,7 +166653,7 @@
     },
     {
       "name": "(g.t.)Delivery of iron ore",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -166661,7 +166661,7 @@
     },
     {
       "name": "(g.t.)Nomad's handwriting",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "English",
@@ -166674,7 +166674,7 @@
     },
     {
       "name": "(g.t.)I have too much hobbies",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Chinese",
@@ -166687,7 +166687,7 @@
     },
     {
       "name": "(g.t.)A silent pharmacist",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -166695,7 +166695,7 @@
     },
     {
       "name": "(g.t.)Worthy Weapon Master",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -166703,7 +166703,7 @@
     },
     {
       "name": "(g.t.)Jeweler",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Indian Languages",
@@ -166716,7 +166716,7 @@
     },
     {
       "name": "(g.t.)A chef who handles spices well",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Malay/Tagalog",
@@ -166729,7 +166729,7 @@
     },
     {
       "name": "(g.t.)Delivery of antidote",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -166737,7 +166737,7 @@
     },
     {
       "name": "(g.t.)A repentant former bachelor",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Portuguese",
@@ -166750,7 +166750,7 @@
     },
     {
       "name": "(g.t.)Dennis's recent report",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Portuguese",
@@ -166763,7 +166763,7 @@
     },
     {
       "name": "(g.t.)Mingle",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Portuguese",
@@ -166776,7 +166776,7 @@
     },
     {
       "name": "(g.t.)Delivery of brandy",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -166784,7 +166784,7 @@
     },
     {
       "name": "(g.t.)A large amount of investors",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Nordic",
@@ -166797,7 +166797,7 @@
     },
     {
       "name": "(g.t.)Letter to Venezia",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -166805,7 +166805,7 @@
     },
     {
       "name": "(g.t.)Police off the coast of Antillean",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -166813,7 +166813,7 @@
     },
     {
       "name": "(g.t.)Combat training in the South Caribbean",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -166821,7 +166821,7 @@
     },
     {
       "name": "(g.t.)Geographical Survey of off Antilis Island",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -166834,7 +166834,7 @@
     },
     {
       "name": "(g.t.)Combat training in the Arabian Sea",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -166842,7 +166842,7 @@
     },
     {
       "name": "(g.t.)Requesting rescue of immigrant fleet",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -166850,7 +166850,7 @@
     },
     {
       "name": "(g.t.)Security of the Arabian Sea",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -166858,7 +166858,7 @@
     },
     {
       "name": "(g.t.)Save fragrance",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Indian Languages",
@@ -166871,7 +166871,7 @@
     },
     {
       "name": "(g.t.)Geographic survey of the western Caribbean",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -166884,7 +166884,7 @@
     },
     {
       "name": "(g.t.)Letter to the Guild Pioneer City",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -166892,7 +166892,7 @@
     },
     {
       "name": "(g.t.)Geographic survey of the Arabian Sea",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -166905,7 +166905,7 @@
     },
     {
       "name": "(g.t.)Storing Goods",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -166913,7 +166913,7 @@
     },
     {
       "name": "(g.t.)Livestock storage",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Portuguese",
@@ -166926,7 +166926,7 @@
     },
     {
       "name": "(g.t.)Combat training in the Gulf of Mexico",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -166934,7 +166934,7 @@
     },
     {
       "name": "(g.t.)Policing in the North Atlantic",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -166942,7 +166942,7 @@
     },
     {
       "name": "(g.t.)Drug storage",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -166950,7 +166950,7 @@
     },
     {
       "name": "(g.t.)Craft store",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -166958,7 +166958,7 @@
     },
     {
       "name": "(g.t.)Delivery of Yongyian",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -166966,7 +166966,7 @@
     },
     {
       "name": "(g.t.)Delivery of sewing equipment",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -166974,7 +166974,7 @@
     },
     {
       "name": "(g.t.)Geographic survey of the Ionian Sea",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -166987,7 +166987,7 @@
     },
     {
       "name": "(g.t.)Policing in the Northeast Atlantic",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -166995,7 +166995,7 @@
     },
     {
       "name": "(g.t.)Policing in off Bermuda",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167003,7 +167003,7 @@
     },
     {
       "name": "(g.t.)Fighting training off the coast of Bermuda",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167011,7 +167011,7 @@
     },
     {
       "name": "(g.t.)Delivery of bergamot",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167019,7 +167019,7 @@
     },
     {
       "name": "(g.t.)Dye storage",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167027,7 +167027,7 @@
     },
     {
       "name": "(g.t.)Grocery store",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167035,7 +167035,7 @@
     },
     {
       "name": "(g.t.)Art store",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167043,7 +167043,7 @@
     },
     {
       "name": "(g.t.)Delivery of coral",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167051,7 +167051,7 @@
     },
     {
       "name": "(g.t.)Log supply",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167059,7 +167059,7 @@
     },
     {
       "name": "(g.t.)Delivery of chicken",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167067,7 +167067,7 @@
     },
     {
       "name": "(g.t.)Delivery of potatoes",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167075,7 +167075,7 @@
     },
     {
       "name": "(g.t.)Delivery of caricature bell",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167083,7 +167083,7 @@
     },
     {
       "name": "(g.t.)Security of Baffin Bay",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167091,7 +167091,7 @@
     },
     {
       "name": "(g.t.)Police in northern Britain",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167099,7 +167099,7 @@
     },
     {
       "name": "(g.t.)Battle training off the coast of South Greenland Island",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167107,7 +167107,7 @@
     },
     {
       "name": "(g.t.)Combat training in the Northeast Atlantic",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167115,7 +167115,7 @@
     },
     {
       "name": "(g.t.)Fire extinguisher storage",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167123,7 +167123,7 @@
     },
     {
       "name": "(g.t.)Ore storage",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167131,7 +167131,7 @@
     },
     {
       "name": "(g.t.)Small delivery",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167139,7 +167139,7 @@
     },
     {
       "name": "(g.t.)Supply of monocle",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167147,7 +167147,7 @@
     },
     {
       "name": "(g.t.)Geography survey of northern Britain",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -167160,7 +167160,7 @@
     },
     {
       "name": "(g.t.)Geographic survey of the North Atlantic",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -167173,7 +167173,7 @@
     },
     {
       "name": "(g.t.)Delivery of tonic",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167181,7 +167181,7 @@
     },
     {
       "name": "(g.t.)Delivery of a simple telescope",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167189,7 +167189,7 @@
     },
     {
       "name": "(g.t.)Leticia's request",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167197,7 +167197,7 @@
     },
     {
       "name": "(g.t.)Save your favorite items",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167205,7 +167205,7 @@
     },
     {
       "name": "(g.t.)Combat training off the coast of Madeira",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167213,7 +167213,7 @@
     },
     {
       "name": "(g.t.)Security of the Ligurian Sea",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167221,7 +167221,7 @@
     },
     {
       "name": "(g.t.)Geography survey of the Tyrrhenian Sea",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -167234,7 +167234,7 @@
     },
     {
       "name": "(g.t.)Delivery of jumping baskets",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167242,7 +167242,7 @@
     },
     {
       "name": "(g.t.)Delivery of pepper",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167250,7 +167250,7 @@
     },
     {
       "name": "(g.t.)Jute Delivery",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167258,7 +167258,7 @@
     },
     {
       "name": "(g.t.)Jewelry storage",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167266,7 +167266,7 @@
     },
     {
       "name": "(g.t.)Spice storage",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167274,7 +167274,7 @@
     },
     {
       "name": "(g.t.)Hand delivery of travelers",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Portuguese",
@@ -167287,7 +167287,7 @@
     },
     {
       "name": "(g.t.)Delivery of rubies",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Swahili",
@@ -167300,7 +167300,7 @@
     },
     {
       "name": "(g.t.)Delivery of tea",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167308,7 +167308,7 @@
     },
     {
       "name": "(g.t.)Delivery of strong adhesive oil",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Swahili",
@@ -167321,7 +167321,7 @@
     },
     {
       "name": "(g.t.)Letter to Arden",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167329,7 +167329,7 @@
     },
     {
       "name": "(g.t.)Letter to Madeira",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Portuguese",
@@ -167342,7 +167342,7 @@
     },
     {
       "name": "(g.t.)Delivery of lime juice",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167350,7 +167350,7 @@
     },
     {
       "name": "(g.t.)Geographic survey off the coast of Bermuda",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -167363,7 +167363,7 @@
     },
     {
       "name": "(g.t.)Geographical survey of offshore of cord land",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -167376,7 +167376,7 @@
     },
     {
       "name": "(g.t.)Sergio's commission",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167384,7 +167384,7 @@
     },
     {
       "name": "(g.t.)Letter to Marseilles",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167392,7 +167392,7 @@
     },
     {
       "name": "(g.t.)Letter to Santo Domingo",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167400,7 +167400,7 @@
     },
     {
       "name": "(g.t.)Forwarding",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167408,7 +167408,7 @@
     },
     {
       "name": "(g.t.)Battle training off San Francisco",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167416,7 +167416,7 @@
     },
     {
       "name": "(g.t.)Battle training off the coast of Kord Cape",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167424,7 +167424,7 @@
     },
     {
       "name": "(g.t.)Delivered by Dina forward",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167432,7 +167432,7 @@
     },
     {
       "name": "Stockpile Arms",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Portuguese",
@@ -167445,7 +167445,7 @@
     },
     {
       "name": "(g.t.)Commitment to Deborah",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167453,7 +167453,7 @@
     },
     {
       "name": "(g.t.)Forwarding in Seville",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167461,7 +167461,7 @@
     },
     {
       "name": "(g.t.)Norman's commission",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167469,7 +167469,7 @@
     },
     {
       "name": "(g.t.)Save articles",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167477,7 +167477,7 @@
     },
     {
       "name": "(g.t.)An empty merchant",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167485,7 +167485,7 @@
     },
     {
       "name": "(g.t.)Former naval officer",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167493,7 +167493,7 @@
     },
     {
       "name": "(g.t.)Geographical survey of off Teranova",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -167506,7 +167506,7 @@
     },
     {
       "name": "(g.t.)Many pastors",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167514,7 +167514,7 @@
     },
     {
       "name": "(g.t.)A gentle female artisan",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "German",
@@ -167527,7 +167527,7 @@
     },
     {
       "name": "(g.t.)Do not let yourself down",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167535,7 +167535,7 @@
     },
     {
       "name": "(g.t.)Letter to Amsterdam",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167543,7 +167543,7 @@
     },
     {
       "name": "(g.t.)A casual presenter",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167551,7 +167551,7 @@
     },
     {
       "name": "(g.t.)Letters coming from Lambert",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167559,7 +167559,7 @@
     },
     {
       "name": "(g.t.)Save precious metal",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "English",
@@ -167572,7 +167572,7 @@
     },
     {
       "name": "(g.t.)Letter to Bordeaux",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167580,7 +167580,7 @@
     },
     {
       "name": "(g.t.)Geographical Survey of the Northeast Atlantic",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -167593,7 +167593,7 @@
     },
     {
       "name": "Delivering Tyrian Purple",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167601,7 +167601,7 @@
     },
     {
       "name": "Deliver raisins",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "immigrants",
@@ -167611,7 +167611,7 @@
   "rio-de-janeiro-adventurers-guild": [
     {
       "name": "Rooted in Barren Land",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -167632,7 +167632,7 @@
     },
     {
       "name": "Huge mountains",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -167649,7 +167649,7 @@
     },
     {
       "name": "Develop sea route to London",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "English",
@@ -167662,7 +167662,7 @@
     },
     {
       "name": "Develop sea route to Lisbon",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Portuguese",
@@ -167675,7 +167675,7 @@
     },
     {
       "name": "Develop sea route to Venice",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "rio-de-janeiro-adventurers-guild",
@@ -167683,7 +167683,7 @@
     },
     {
       "name": "Develop sea route to Amsterdam",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "rio-de-janeiro-adventurers-guild",
@@ -167691,7 +167691,7 @@
     },
     {
       "name": "Flowers for a Friend",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -167708,7 +167708,7 @@
     },
     {
       "name": "Searching for the navel",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -167731,7 +167731,7 @@
   "tunis-adventurers-guild": [
     {
       "name": "Souvenir from the Moors",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -167752,7 +167752,7 @@
     },
     {
       "name": "The harp that allures",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -167773,7 +167773,7 @@
     },
     {
       "name": "Defender of the temple",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -167790,7 +167790,7 @@
     },
     {
       "name": "The island found on no map",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -167807,7 +167807,7 @@
     },
     {
       "name": "Old text of the Hittites",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -167824,7 +167824,7 @@
     },
     {
       "name": "Girl who sought John's head",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -167847,7 +167847,7 @@
   "genoa-adventurers-guild": [
     {
       "name": "Procure stone",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Collection",
@@ -167860,7 +167860,7 @@
     },
     {
       "name": "(g.t. )Procurement of stone",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Collection",
@@ -167873,7 +167873,7 @@
     },
     {
       "name": "Flowering Tree of a Tragic Love",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -167894,7 +167894,7 @@
     },
     {
       "name": "Fisheries survey of Sardinia",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "genoa-adventurers-guild",
@@ -167902,7 +167902,7 @@
     },
     {
       "name": "What is Love?",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "genoa-adventurers-guild",
@@ -167910,7 +167910,7 @@
     },
     {
       "name": "Wild grass",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Collection",
@@ -167923,7 +167923,7 @@
     },
     {
       "name": "(G.T.)Procurement of marlin",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Fishing",
@@ -167936,7 +167936,7 @@
     },
     {
       "name": "Stolen goldwork statue",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -168309,7 +168309,7 @@
   "san-francisco-adventurers-guild": [
     {
       "name": "(g.t.)Shining cave",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -168330,7 +168330,7 @@
     },
     {
       "name": "Famous Books of China",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -168351,7 +168351,7 @@
     },
     {
       "name": "Constellation of the Stern",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -168370,7 +168370,7 @@
   "cape-town-adventurers-guild": [
     {
       "name": "Solomon's Glory",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -168391,7 +168391,7 @@
     },
     {
       "name": "Results of Religious Syncretism",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -168408,7 +168408,7 @@
     },
     {
       "name": "Bible of Priest Hortrey",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -168429,7 +168429,7 @@
     },
     {
       "name": "Small Fruit",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -168446,7 +168446,7 @@
     },
     {
       "name": "Develop sea route to Jakarta",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Malay/Tagalog",
@@ -168461,7 +168461,7 @@
   "hangzhou-adventurers-guild": [
     {
       "name": "Onion Pattern",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -168478,7 +168478,7 @@
     },
     {
       "name": "Islamic Calligraphy",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -168495,7 +168495,7 @@
     },
     {
       "name": "(g.t. )Long-tailed Swallowtail Butterfly",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -168516,7 +168516,7 @@
     },
     {
       "name": "Bug That Prays",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -168533,7 +168533,7 @@
     },
     {
       "name": "Chasing Down Korean Paintings",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -168550,7 +168550,7 @@
     },
     {
       "name": "Unknown Stone Figure",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -168567,7 +168567,7 @@
     },
     {
       "name": "Popular Souveneir",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -168584,7 +168584,7 @@
     },
     {
       "name": "Unusual dance",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -168601,7 +168601,7 @@
     },
     {
       "name": "Top Painting of The Day",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -168618,7 +168618,7 @@
     },
     {
       "name": "Man with a Book",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -168639,7 +168639,7 @@
     },
     {
       "name": "Unidentified Sea Creature",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -168656,7 +168656,7 @@
     },
     {
       "name": "Lovely Waterfowl",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -168675,7 +168675,7 @@
   "aden-adventurers-guild": [
     {
       "name": "(g.t.)The law of ancient India",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -168696,7 +168696,7 @@
     },
     {
       "name": "Further Research into the Automatic Music Player",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -168717,7 +168717,7 @@
     },
     {
       "name": "Paradise on Earth",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -168738,7 +168738,7 @@
     },
     {
       "name": "Burned ruins",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -168755,7 +168755,7 @@
     },
     {
       "name": "Develop sea route to Zanzibar",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Swahili",
@@ -168768,7 +168768,7 @@
     },
     {
       "name": "Develop sea route to Calicut",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Indian Languages",
@@ -168781,7 +168781,7 @@
     },
     {
       "name": "Develop sea route to Jakarta",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Malay/Tagalog",
@@ -168796,7 +168796,7 @@
   "st-petersburg-adventurers-guild": [
     {
       "name": "Ancestors' Land",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -168817,7 +168817,7 @@
     },
     {
       "name": "The Old Monarch's Game",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -168834,7 +168834,7 @@
     },
     {
       "name": "A Tree that Grows in the Sea",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -168851,7 +168851,7 @@
     },
     {
       "name": "Winds of Reformation",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -169053,7 +169053,7 @@
   "advanced-school": [
     {
       "name": "(g.t. )XXX shipping",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "advanced-school",
@@ -169061,7 +169061,7 @@
     },
     {
       "name": "(G.T.)About risk waters",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "advanced-school",
@@ -169069,7 +169069,7 @@
     },
     {
       "name": "(G.T.)Deputies on",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "advanced-school",
@@ -169077,7 +169077,7 @@
     },
     {
       "name": "(G.T.)About special shipbuilding",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "advanced-school",
@@ -169085,7 +169085,7 @@
     },
     {
       "name": "(G.T.)Battle of the land",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "advanced-school",
@@ -169093,7 +169093,7 @@
     },
     {
       "name": "(G.T.)To open the lock",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "advanced-school",
@@ -169101,7 +169101,7 @@
     },
     {
       "name": "(G.T.)Nature and live",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "advanced-school",
@@ -169109,7 +169109,7 @@
     },
     {
       "name": "(G.T.)Findings showdown",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "advanced-school",
@@ -169117,7 +169117,7 @@
     },
     {
       "name": "(G.T.)The synergistic effect of trade specialties",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "advanced-school",
@@ -169125,7 +169125,7 @@
     },
     {
       "name": "(G.T.)Recipe with city people",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "advanced-school",
@@ -169133,7 +169133,7 @@
     },
     {
       "name": "(G.T.)City investment",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "advanced-school",
@@ -169141,7 +169141,7 @@
     },
     {
       "name": "(G.T.)And the effect of the type of shell",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "advanced-school",
@@ -169149,7 +169149,7 @@
     },
     {
       "name": "(G.T.)Skill in the hand-to-hand combat",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "advanced-school",
@@ -169157,7 +169157,7 @@
     },
     {
       "name": "(G.T.)All about us",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "advanced-school",
@@ -169165,7 +169165,7 @@
     },
     {
       "name": "(G.T.)Biological Survey of spiny",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -169186,7 +169186,7 @@
     },
     {
       "name": "Investigation of Cleopatra's son",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -169203,7 +169203,7 @@
     },
     {
       "name": "(G.T.)Scenes of soldiers called research",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -169220,7 +169220,7 @@
     },
     {
       "name": "(G.T.)Statue of Liberty Olympus investigation",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -169237,7 +169237,7 @@
     },
     {
       "name": "(G.T.)Research on Bronze",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -169254,7 +169254,7 @@
     },
     {
       "name": "(G.T.)Investigation of the candlestick",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -169271,7 +169271,7 @@
     },
     {
       "name": "(G.T.)Delivery of Myrrh",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "advanced-school",
@@ -169279,7 +169279,7 @@
     },
     {
       "name": "(G.T.)Pig Delivery",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "advanced-school",
@@ -169287,7 +169287,7 @@
     },
     {
       "name": "(G.T.)Delivery of dried strawberries",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "advanced-school",
@@ -169295,7 +169295,7 @@
     },
     {
       "name": "(G.T.)Delivery damask fabric",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "advanced-school",
@@ -169303,7 +169303,7 @@
     },
     {
       "name": "Deliver two-handed swords",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "advanced-school",
@@ -169311,7 +169311,7 @@
     },
     {
       "name": "(G.T.)Pumpkin Delivery",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "advanced-school",
@@ -169319,7 +169319,7 @@
     },
     {
       "name": "(G.T.)Mustard 's Ship",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "advanced-school",
@@ -169327,7 +169327,7 @@
     },
     {
       "name": "(G.T.)Pirates of Sassari west Subjugation",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "advanced-school",
@@ -169335,7 +169335,7 @@
     },
     {
       "name": "(G.T.)East of Tripoli Bandit Subjugation",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "advanced-school",
@@ -169343,7 +169343,7 @@
     },
     {
       "name": "(G.T.)The north shore of the Mediterranean South Africa Bandit Subjugation",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "advanced-school",
@@ -169351,7 +169351,7 @@
     },
     {
       "name": "(G.T.)Adventure Maritime Academy graduation test",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -169372,7 +169372,7 @@
     },
     {
       "name": "(G.T.)Merchant Maritime Academy graduation test",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "advanced-school",
@@ -169380,7 +169380,7 @@
     },
     {
       "name": "(G.T.)Naval Maritime Academy graduation test",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "advanced-school",
@@ -169390,7 +169390,7 @@
   "amsterdam-imperial-contract": [
     {
       "name": "(g.t. )Dutch soybeans",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "amsterdam-imperial-contract",
@@ -169398,7 +169398,7 @@
     },
     {
       "name": "New sea development aid",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "amsterdam-imperial-contract",
@@ -169406,7 +169406,7 @@
     },
     {
       "name": "Instructions for supply delivery",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "amsterdam-imperial-contract",
@@ -169414,7 +169414,7 @@
     },
     {
       "name": "Perfecting transportation measures",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "amsterdam-imperial-contract",
@@ -169424,7 +169424,7 @@
   "": [
     {
       "name": "Quest Name",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169432,7 +169432,7 @@
     },
     {
       "name": "null",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169440,7 +169440,7 @@
     },
     {
       "name": "※",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169448,7 +169448,7 @@
     },
     {
       "name": "Deliver Kenaf",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169456,7 +169456,7 @@
     },
     {
       "name": "...",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169464,7 +169464,7 @@
     },
     {
       "name": "The Lovers' Cape",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169472,7 +169472,7 @@
     },
     {
       "name": "Flower that Comes Once in a Hundred Years",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169480,7 +169480,7 @@
     },
     {
       "name": "Flowering Tree of a Tragic Love",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169488,7 +169488,7 @@
     },
     {
       "name": "Mutu's homecoming",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169496,7 +169496,7 @@
     },
     {
       "name": "Ruler with Many Titles",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169504,7 +169504,7 @@
     },
     {
       "name": "Between the Two Skies",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169512,7 +169512,7 @@
     },
     {
       "name": "Further Research into the Group of Stone Structures",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169520,7 +169520,7 @@
     },
     {
       "name": "Further Research into the Arctic Fox",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169528,7 +169528,7 @@
     },
     {
       "name": "Hercules' Offering",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169536,7 +169536,7 @@
     },
     {
       "name": "A Box with a Music",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169544,7 +169544,7 @@
     },
     {
       "name": "Gems that Grow on Trees",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169552,7 +169552,7 @@
     },
     {
       "name": "Further Research into the Odd Frog",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169560,7 +169560,7 @@
     },
     {
       "name": "Rare Japanese Musical Instrument",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169568,7 +169568,7 @@
     },
     {
       "name": "Further Research into City to the Underworld",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169576,7 +169576,7 @@
     },
     {
       "name": "Further Research into Traditional Instrument",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169584,7 +169584,7 @@
     },
     {
       "name": "Mysterious Aztec Goddess",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169592,7 +169592,7 @@
     },
     {
       "name": "Further Research on Amur Leopard",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169600,7 +169600,7 @@
     },
     {
       "name": "Southeast Veracruz",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169608,7 +169608,7 @@
     },
     {
       "name": "Sunbeam Snake",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169616,7 +169616,7 @@
     },
     {
       "name": "Tapir",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169624,7 +169624,7 @@
     },
     {
       "name": "Quest Mediation Permit",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169632,7 +169632,7 @@
     },
     {
       "name": "Repair",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169640,7 +169640,7 @@
     },
     {
       "name": "Esperanzo",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169648,7 +169648,7 @@
     },
     {
       "name": "Naples Adventurers' Guild",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169656,7 +169656,7 @@
     },
     {
       "name": "Dutch",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169664,7 +169664,7 @@
     },
     {
       "name": "The Jewel of Astaroth",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169672,7 +169672,7 @@
     },
     {
       "name": "Purchase Order (Category 2)",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169680,7 +169680,7 @@
     },
     {
       "name": "Egyptian Vulture",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169688,7 +169688,7 @@
     },
     {
       "name": "Search",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169696,7 +169696,7 @@
     },
     {
       "name": "Beer",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169704,7 +169704,7 @@
     },
     {
       "name": "Hardened Cedar Plating",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169712,7 +169712,7 @@
     },
     {
       "name": "Zanzibar",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169720,7 +169720,7 @@
     },
     {
       "name": "Bell of Withdrawal",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169728,7 +169728,7 @@
     },
     {
       "name": "Lisbon",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169736,7 +169736,7 @@
     },
     {
       "name": "Purchase Order (Category 1)",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169744,7 +169744,7 @@
     },
     {
       "name": "Saint-Georges",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169752,7 +169752,7 @@
     },
     {
       "name": "Island of Sumatra Southwest Coast",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169760,7 +169760,7 @@
     },
     {
       "name": "Navy Dispatch Request",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169768,7 +169768,7 @@
     },
     {
       "name": "Patriot Award",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169776,7 +169776,7 @@
     },
     {
       "name": "Purchase Order (Category 4)",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169784,7 +169784,7 @@
     },
     {
       "name": "Blessing of Andes",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169792,7 +169792,7 @@
     },
     {
       "name": "French",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169800,7 +169800,7 @@
     },
     {
       "name": "Body Language",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169808,7 +169808,7 @@
     },
     {
       "name": "Basra",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169816,7 +169816,7 @@
     },
     {
       "name": "Southern Britain Island",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "",
@@ -169826,7 +169826,7 @@
   "further-research": [
     {
       "name": "head of the family(gt)",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -169843,7 +169843,7 @@
     },
     {
       "name": "Flowering Tree of a Tragic Love",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -169860,7 +169860,7 @@
     },
     {
       "name": "Further Research into the Group of Stone Structures",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -169881,7 +169881,7 @@
     },
     {
       "name": "Further Research into the Automatic Music Player",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -169898,7 +169898,7 @@
     },
     {
       "name": "Mysterious Aztec Goddess",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -169919,7 +169919,7 @@
     },
     {
       "name": "Further Research into City to the Underworld",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -169936,7 +169936,7 @@
     },
     {
       "name": "Further Research into Excalibur",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -169957,7 +169957,7 @@
     },
     {
       "name": "Further Research on Gods of India",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -169978,7 +169978,7 @@
     },
     {
       "name": "Further Research into Plato",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -169999,7 +169999,7 @@
     },
     {
       "name": "Further Research into Traditional Instrument",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -170016,7 +170016,7 @@
     },
     {
       "name": "Further Research on Deep-Sea Fish",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -170033,7 +170033,7 @@
     },
     {
       "name": "Further Research on Amur Leopard",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -170050,7 +170050,7 @@
     },
     {
       "name": "Further Research on Norwegian Forest Cat",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -170071,7 +170071,7 @@
     },
     {
       "name": "Further Research on the Palau Islands",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -170094,7 +170094,7 @@
   "lima-adventurers-guild": [
     {
       "name": "An Aficionado of Cute Things",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -170111,7 +170111,7 @@
     },
     {
       "name": "T'ika and the land iguana",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "lima-adventurers-guild",
@@ -170183,7 +170183,7 @@
   "alexandria-adventurers-guild": [
     {
       "name": "Adventurer guild's plight",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Sail Handling",
@@ -170425,7 +170425,7 @@
   "zanzibar-adventurers-guild": [
     {
       "name": "Road to the empire",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -170446,7 +170446,7 @@
     },
     {
       "name": "(G.T.)Cape Town route development",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Swahili",
@@ -170463,7 +170463,7 @@
     },
     {
       "name": "Develop sea route to Calicut",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Swahili",
@@ -170589,7 +170589,7 @@
   "calicut-imperial-contract": [
     {
       "name": "Instructions for supply delivery",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "calicut-imperial-contract",
@@ -170599,7 +170599,7 @@
   "venice-imperial-contract": [
     {
       "name": "New sea development aid",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "venice-imperial-contract",
@@ -170607,7 +170607,7 @@
     },
     {
       "name": "Instructions for supply delivery",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "venice-imperial-contract",
@@ -170615,7 +170615,7 @@
     },
     {
       "name": "Perfecting transportation measures",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "venice-imperial-contract",
@@ -170727,7 +170727,7 @@
   "marseille-imperial-contract": [
     {
       "name": "Perfecting transportation measures",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "marseille-imperial-contract",
@@ -170735,7 +170735,7 @@
     },
     {
       "name": "Instructions for supply delivery",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "marseille-imperial-contract",
@@ -170743,7 +170743,7 @@
     },
     {
       "name": "New sea development aid",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "marseille-imperial-contract",
@@ -170753,7 +170753,7 @@
   "seville-imperial-contract": [
     {
       "name": "Perfecting transportation measures",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "seville-imperial-contract",
@@ -170761,7 +170761,7 @@
     },
     {
       "name": "Instructions for supply delivery",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "seville-imperial-contract",
@@ -170769,7 +170769,7 @@
     },
     {
       "name": "New sea development aid",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "seville-imperial-contract",
@@ -170779,7 +170779,7 @@
   "lisbon-imperial-contract": [
     {
       "name": "Perfecting transportation measures",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "lisbon-imperial-contract",
@@ -170787,7 +170787,7 @@
     },
     {
       "name": "Instructions for supply delivery",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "lisbon-imperial-contract",
@@ -170795,7 +170795,7 @@
     },
     {
       "name": "New sea development aid",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "lisbon-imperial-contract",
@@ -170805,7 +170805,7 @@
   "london-imperial-contract": [
     {
       "name": "Perfecting transportation measures",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "london-imperial-contract",
@@ -170813,7 +170813,7 @@
     },
     {
       "name": "Instructions for supply delivery",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "london-imperial-contract",
@@ -170821,7 +170821,7 @@
     },
     {
       "name": "New sea development aid",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "london-imperial-contract",
@@ -170829,7 +170829,7 @@
     },
     {
       "name": "Urgent message from the research team",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "london-imperial-contract",
@@ -170960,7 +170960,7 @@
   "rio-de-janeiro-imperial-contract": [
     {
       "name": "Wipe out the advance bases",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "rio-de-janeiro-imperial-contract",
@@ -170970,7 +170970,7 @@
   "saint-georges-adventurers-guild": [
     {
       "name": "Plateau of Reddish Brown",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -170987,7 +170987,7 @@
     },
     {
       "name": "The Bay of Monsters",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -171006,7 +171006,7 @@
   "santiago-imperial-contract": [
     {
       "name": "Investigation of intended canal",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -171025,7 +171025,7 @@
   "manila-imperial-contract": [
     {
       "name": "Observe Before Disaster",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Recognition",
@@ -171044,7 +171044,7 @@
   "beginners-school": [
     {
       "name": "(G.T.)The first step in the navigator",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "beginners-school",
@@ -171052,7 +171052,7 @@
     },
     {
       "name": "(G.T.)It is the adventurer",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "beginners-school",
@@ -171060,7 +171060,7 @@
     },
     {
       "name": "(G.T.)Cooking with acting and fatigue",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "beginners-school",
@@ -171068,7 +171068,7 @@
     },
     {
       "name": "(G.T.)About accessories",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "beginners-school",
@@ -171076,7 +171076,7 @@
     },
     {
       "name": "(G.T.)About Spare Parts",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "beginners-school",
@@ -171084,7 +171084,7 @@
     },
     {
       "name": "(G.T.)In trading on",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "beginners-school",
@@ -171092,7 +171092,7 @@
     },
     {
       "name": "(G.T.)About the naval battle",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "beginners-school",
@@ -171100,7 +171100,7 @@
     },
     {
       "name": "(G.T.)We're going for a walk inside the city",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "beginners-school",
@@ -171108,7 +171108,7 @@
     },
     {
       "name": "(G.T.)Major Introductory Certificate exam Adventures",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -171121,7 +171121,7 @@
     },
     {
       "name": "(G.T.)Discoveries and skills",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Search",
@@ -171134,7 +171134,7 @@
     },
     {
       "name": "(G.T.)Delivery in trading",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "beginners-school",
@@ -171142,7 +171142,7 @@
     },
     {
       "name": "(G.T.)Complete beginner trader major test",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "beginners-school",
@@ -171150,7 +171150,7 @@
     },
     {
       "name": "(G.T.)It is called merchant",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "beginners-school",
@@ -171158,7 +171158,7 @@
     },
     {
       "name": "(G.T.)It is called a soldier",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "beginners-school",
@@ -171166,7 +171166,7 @@
     },
     {
       "name": "(G.T.)Ever seen an invisible enemy",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "beginners-school",
@@ -171174,7 +171174,7 @@
     },
     {
       "name": "(G.T.)Soldiers complete beginner major test",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "beginners-school",
@@ -171184,7 +171184,7 @@
   "intermediate-school": [
     {
       "name": "(G.T.)Structure quest",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "intermediate-school",
@@ -171192,7 +171192,7 @@
     },
     {
       "name": "(G.T.)Sailing disaster occurs during",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "intermediate-school",
@@ -171200,7 +171200,7 @@
     },
     {
       "name": "(G.T.)Breakthrough in the way",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "intermediate-school",
@@ -171208,7 +171208,7 @@
     },
     {
       "name": "(G.T.)Times",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "intermediate-school",
@@ -171216,7 +171216,7 @@
     },
     {
       "name": "(G.T.)Relationships with other navigators",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "intermediate-school",
@@ -171224,7 +171224,7 @@
     },
     {
       "name": "(G.T.)Career and Skills",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "intermediate-school",
@@ -171232,7 +171232,7 @@
     },
     {
       "name": "Changing job to Trader",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "intermediate-school",
@@ -171240,7 +171240,7 @@
     },
     {
       "name": "Changing Job to Maritimer",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "intermediate-school",
@@ -171248,7 +171248,7 @@
     },
     {
       "name": "(G.T.)Map and report findings about the",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "English",
@@ -171261,7 +171261,7 @@
     },
     {
       "name": "(G.T.)Transactions with respect to skills",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "intermediate-school",
@@ -171269,7 +171269,7 @@
     },
     {
       "name": "(G.T.)On production",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "intermediate-school",
@@ -171277,7 +171277,7 @@
     },
     {
       "name": "(G.T.)Former soldier",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "intermediate-school",
@@ -171285,7 +171285,7 @@
     },
     {
       "name": "(G.T.)Skill -based artillery in the Battle of",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "intermediate-school",
@@ -171293,7 +171293,7 @@
     },
     {
       "name": "(G.T.)Hand-to-hand combat and ram",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "intermediate-school",
@@ -171301,7 +171301,7 @@
     },
     {
       "name": "(G.T.)The former merchant",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "intermediate-school",
@@ -171309,7 +171309,7 @@
     },
     {
       "name": "(G.T.)Turnover of adventurers",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "English",
@@ -171322,7 +171322,7 @@
     },
     {
       "name": "(G.T.)Intermediate Certificate examination major risk",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [
         {
           "name": "Ecological Research",
@@ -171343,7 +171343,7 @@
     },
     {
       "name": "(G.T.)Intermediate Certificate examination major traders",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "intermediate-school",
@@ -171351,7 +171351,7 @@
     },
     {
       "name": "(G.T.)Major military Intermediate Certificate examination",
-      "type": "Adventurer",
+      "type": "Adventure",
       "skills": [],
       "discovery": "",
       "city": "intermediate-school",

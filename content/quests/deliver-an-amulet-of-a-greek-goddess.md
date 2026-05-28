@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990073"
 quest_number = "15677"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 4
 exp_reward = 70000
 fame_reward = 0
-variants = [{ city = "SecretEdict", guild_type = "Adventurer", id = "99990073", slug = "deliver-an-amulet-of-a-greek-goddess" }]
+variants = [{ city = "SecretEdict", guild_type = "Adventure", id = "99990073", slug = "deliver-an-amulet-of-a-greek-goddess" }]
 skills = []
 +++
 

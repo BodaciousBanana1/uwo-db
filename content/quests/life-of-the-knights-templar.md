@@ -8,12 +8,12 @@ slug = "life-of-the-knights-templar"
 id = "99990507"
 type = "Adventure"
 city = "London"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Incomplete Chapel"
 reward = 0
 advance = 0
 difficulty = 7
 skills = [{ name = "Recognition", level = 1 }, { name = "Theology", level = 3 }, { name = "Portuguese", level = 1 }]
-variants = [{ city = "London", guild_type = "Adventurer", id = "99990507", slug = "life-of-the-knights-templar" }]
+variants = [{ city = "London", guild_type = "Adventure", id = "99990507", slug = "life-of-the-knights-templar" }]
 steps = []
 +++

@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99997140"
 quest_number = "3567"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 6
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Rio de Janeiro Adventurer's Guild", guild_type = "Adventurer", id = "99997140", slug = "searching-for-the-navel" }]
+variants = [{ city = "Rio de Janeiro Adventurer's Guild", guild_type = "Adventure", id = "99997140", slug = "searching-for-the-navel" }]
 skills = [{ name = "Search", level = 6 }, { name = "Theology", level = 8 }, { name = "Unlock", level = 6 }]
 discovery = "Tapac Yauri"
 discovery_id = "70001531"

@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99994695"
 quest_number = "15488"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 4
 exp_reward = 76000
 fame_reward = 0
-variants = [{ city = "Calicut Adventurer's Guild", guild_type = "Adventurer", id = "99994695", slug = "important-trade-points-between-east-west" }]
+variants = [{ city = "Calicut Adventurer's Guild", guild_type = "Adventure", id = "99994695", slug = "important-trade-points-between-east-west" }]
 skills = [{ name = "Recognition", level = 3 }, { name = "Geography", level = 5 }, { name = "Malay/Tagalog", level = 1 }]
 discovery = "The Malay Peninsula"
 discovery_id = "70001145"

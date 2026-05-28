@@ -8,13 +8,13 @@ slug = "when-sending-a-gift"
 id = "99992254"
 type = "Adventure"
 city = "Portobelo"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Axolotl"
 reward = 82000
 advance = 0
 difficulty = 5
 skills = [{ name = "Ecological Research", level = 4 }, { name = "Biology", level = 6 }, { name = "Mayan Languages", level = 1 }]
-variants = [{ city = "Portobelo", guild_type = "Adventurer", id = "99992254", slug = "when-sending-a-gift" }]
+variants = [{ city = "Portobelo", guild_type = "Adventure", id = "99992254", slug = "when-sending-a-gift" }]
 steps = []
 discovery_description = "This animal remains in its larval state without metamorphasing, meaning the adults remain aquatic and gilled in its adult stage. It has a flat tail and large, red gills."
 exp_reward = 365

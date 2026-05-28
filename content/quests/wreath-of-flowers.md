@@ -8,13 +8,13 @@ slug = "wreath-of-flowers"
 id = "99997668"
 type = "Adventure"
 city = "Amsterdam"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Welwitschia"
 reward = 0
 advance = 0
 difficulty = 9
 skills = [{ name = "Ecological Research", level = 11 }, { name = "Biology", level = 13 }, { name = "Malay/Tagalog", level = 1 }]
-variants = [{ city = "Amsterdam", guild_type = "Adventurer", id = "99997668", slug = "wreath-of-flowers" }]
+variants = [{ city = "Amsterdam", guild_type = "Adventure", id = "99997668", slug = "wreath-of-flowers" }]
 steps = [{ step = 2, location = "Amsterdam", action = "Talk to Flower Woman, in the square (x2)" }, { step = 3, location = "Calicut", action = "Talk to Seafarer" }, { step = 4, location = "Calicut", action = "Talk to Parvati" }, { step = 5, location = "Palembang", action = "Talk to Resident, across the bridge in the far north (x2)" }, { step = 6, location = "Island of Sumatra Southwest Coast", action = "Click on the Large Boulder in the northwest corner." }, { step = 7, location = "Island of Sumatra Southwest Coast", action = "Use" }]
 discovery_description = "A large flower that easily stands taller than a person, at 3 metres, with a diameter of up to 1.5 metres. It grows in the rain forests of Indonesia on the island of Sumatra. It blossoms for only a few days every few years. The stench of this flower has earned it the name corpse flower."
 exp_reward = 1170

@@ -8,12 +8,12 @@ slug = "the-coins-of-the-sun-god"
 id = "99991218"
 type = "Adventure"
 city = "Athens"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "The Coins of the Sun God"
 reward = 0
 advance = 0
 difficulty = 6
 skills = [{ name = "Search", level = 6 }, { name = "Archaeology", level = 6 }, { name = "Greek", level = 1 }]
-variants = [{ city = "Athens", guild_type = "Adventurer", id = "99991218", slug = "the-coins-of-the-sun-god" }]
+variants = [{ city = "Athens", guild_type = "Adventure", id = "99991218", slug = "the-coins-of-the-sun-god" }]
 steps = []
 +++

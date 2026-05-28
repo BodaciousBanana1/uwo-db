@@ -8,13 +8,13 @@ slug = "carried-by-birds-wings"
 id = "99994610"
 type = "Adventure"
 city = "Zanzibar"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Black Crowned Crane"
 reward = 176000
 advance = 20000
 difficulty = 9
 skills = [{ name = "Ecological Research", level = 11 }, { name = "Biology", level = 13 }, { name = "Indian Languages", level = 1 }]
-variants = [{ city = "Zanzibar", guild_type = "Adventurer", id = "99994610", slug = "carried-by-birds-wings" }]
+variants = [{ city = "Zanzibar", guild_type = "Adventure", id = "99994610", slug = "carried-by-birds-wings" }]
 steps = [{ step = 1, location = "Zanzibar", action = "Talk to Ghada (x3)" }, { step = 4, location = "Ceylon", action = "Talk to Girl at end of the jetty (x5)" }, { step = 9, location = "Southeast Brunei", action = "Click on Table boulder in southwest" }, { step = 10, location = "Southeast Brunei", action = "Use" }]
 discovery_description = "This word means man of the forest in the language of the natives of the area. The male's cheek pouches enlarge as they grow, and they also grow beards. Most of their lives are spent in the tree tops. They eat, sleep, and breed in the trees."
 exp_reward = 1228

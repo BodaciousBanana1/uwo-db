@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99997414"
 quest_number = "11099"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 2
 exp_reward = 2600
 fame_reward = 0
-variants = [{ city = "Marseille Adventurer's Guild", guild_type = "Adventurer", id = "99997414", slug = "lucrative-foods" }]
+variants = [{ city = "Marseille Adventurer's Guild", guild_type = "Adventure", id = "99997414", slug = "lucrative-foods" }]
 skills = [{ name = "Archaeology", level = 1 }]
 +++
 

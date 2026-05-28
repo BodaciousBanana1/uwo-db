@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990139"
 quest_number = "15452"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 6
 exp_reward = 156000
 fame_reward = 10000
-variants = [{ city = "Athens Adventurer's Guild", guild_type = "Adventurer", id = "99990139", slug = "the-fastest-monkey" }]
+variants = [{ city = "Athens Adventurer's Guild", guild_type = "Adventure", id = "99990139", slug = "the-fastest-monkey" }]
 skills = [{ name = "Ecological Research", level = 5 }, { name = "Biology", level = 7 }, { name = "West African Languages", level = 1 }]
 discovery = "Patas Monkey"
 discovery_id = "70002693"

@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99994261"
 quest_number = "11709"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 9
 exp_reward = 255000
 fame_reward = 20000
-variants = [{ city = "Marseille Adventurer's Guild", guild_type = "Adventurer", id = "99994261", slug = "defender-of-a-maidens-room" }]
+variants = [{ city = "Marseille Adventurer's Guild", guild_type = "Adventure", id = "99994261", slug = "defender-of-a-maidens-room" }]
 skills = [{ name = "Search", level = 10 }, { name = "Theology", level = 12 }]
 discovery = "Athena in Parthenon"
 discovery_id = "70000241"

@@ -8,12 +8,12 @@ slug = "gtpolice-in-northern-britain"
 id = "99991018"
 type = "Adventure"
 city = "Immigrants"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 1
 skills = []
-variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99991018", slug = "gtpolice-in-northern-britain" }]
+variants = [{ city = "Immigrants", guild_type = "Adventure", id = "99991018", slug = "gtpolice-in-northern-britain" }]
 steps = []
 +++

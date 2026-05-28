@@ -8,12 +8,12 @@ slug = "special-provisions-to-the-fleet"
 id = "99997906"
 type = "Adventure"
 city = "Manila Imperial Contract"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 4
 skills = []
-variants = [{ city = "Manila Imperial Contract", guild_type = "Adventurer", id = "99997906", slug = "special-provisions-to-the-fleet" }]
+variants = [{ city = "Manila Imperial Contract", guild_type = "Adventure", id = "99997906", slug = "special-provisions-to-the-fleet" }]
 steps = []
 +++

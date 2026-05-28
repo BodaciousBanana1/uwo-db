@@ -8,13 +8,13 @@ slug = "white-bird-and-black-bird"
 id = "99997060"
 type = "Adventure"
 city = "Rio de Janeiro"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Lake Darwin"
 reward = 0
 advance = 0
 difficulty = 6
 skills = [{ name = "Ecological Research", level = 6 }, { name = "Biology", level = 8 }, { name = "Quechuan", level = 1 }]
-variants = [{ city = "Rio de Janeiro", guild_type = "Adventurer", id = "99997060", slug = "white-bird-and-black-bird" }]
+variants = [{ city = "Rio de Janeiro", guild_type = "Adventure", id = "99997060", slug = "white-bird-and-black-bird" }]
 steps = [{ step = 1, location = "Rio de Janeiro", action = "Talk to City Official" }, { step = 2, location = "San Antonio", action = "Talk to Seafarer" }, { step = 3, location = "San Antonio", action = "Talk to Barkeep" }, { step = 4, location = "Copiapo", action = "Talk to Resident" }, { step = 5, location = "Galapagos Island Interior", action = "Use" }]
 discovery_description = "A type of finch. It pecks at the base of the wings of a specific bird and sucks the blood that flows out. It inhabits part of the Galapagos archipelago."
 exp_reward = 620

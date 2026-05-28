@@ -8,13 +8,13 @@ slug = "feeling-of-life-and-death"
 id = "99994555"
 type = "Adventure"
 city = "Cape Town"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Ur"
 reward = 0
 advance = 0
 difficulty = 6
 skills = [{ name = "Search", level = 3 }, { name = "Archaeology", level = 5 }, { name = "Arabic", level = 1 }]
-variants = [{ city = "Cape Town", guild_type = "Adventurer", id = "99994555", slug = "feeling-of-life-and-death" }]
+variants = [{ city = "Cape Town", guild_type = "Adventure", id = "99994555", slug = "feeling-of-life-and-death" }]
 steps = [{ step = 1, location = "Cape", action = "City Official" }, { step = 2, location = "Hormuz", action = "Port Official" }, { step = 3, location = "Hormuz", action = "City Official" }, { step = 4, location = "Basra", action = "Travelling Archaeologist ×3" }, { step = 7, location = "Ur", action = "Near entrance of Ruins interior" }]
 discovery_description = "Royal burial items made in ancient Mesopotamia. Gold, lapis lazuli, and shells were attached to a wooden statue. This shows the richness of the time."
 exp_reward = 320

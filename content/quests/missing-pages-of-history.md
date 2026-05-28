@@ -8,12 +8,12 @@ slug = "missing-pages-of-history"
 id = "99990199"
 type = "Adventure"
 city = "St. Petersburg"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Primary Chronicle"
 reward = 0
 advance = 0
 difficulty = 5
 skills = [{ name = "Search", level = 3 }, { name = "Archaeology", level = 5 }, { name = "Unlock", level = 3 }]
-variants = [{ city = "St. Petersburg", guild_type = "Adventurer", id = "99990199", slug = "missing-pages-of-history" }]
+variants = [{ city = "St. Petersburg", guild_type = "Adventure", id = "99990199", slug = "missing-pages-of-history" }]
 steps = [{ step = 1, location = "St. Petersburg", action = "Talk to Travelling Merchant x2 near Cathedral" }, { step = 3, location = "Riga Church", action = "Use" }]
 +++

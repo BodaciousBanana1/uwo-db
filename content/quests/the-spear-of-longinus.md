@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99993633"
 quest_number = "16492"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 9
 exp_reward = 207000
 fame_reward = 20000
-variants = [{ city = "Amsterdam Adventurer's Guild", guild_type = "Adventurer", id = "99993633", slug = "the-spear-of-longinus" }]
+variants = [{ city = "Amsterdam Adventurer's Guild", guild_type = "Adventure", id = "99993633", slug = "the-spear-of-longinus" }]
 skills = [{ name = "Search", level = 9 }, { name = "Theology", level = 11 }, { name = "Unlock", level = 9 }]
 discovery = "The Spear of Longinus"
 discovery_id = "70000261"

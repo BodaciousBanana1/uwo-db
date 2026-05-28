@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99996824"
 quest_number = "16188"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 5
 exp_reward = 68000
 fame_reward = 0
-variants = [{ city = "Hangzhou Adventurer's Guild", guild_type = "Adventurer", id = "99996824", slug = "man-with-a-book" }]
+variants = [{ city = "Hangzhou Adventurer's Guild", guild_type = "Adventure", id = "99996824", slug = "man-with-a-book" }]
 skills = [{ name = "Search", level = 5 }, { name = "Appraisal", level = 7 }, { name = "Chinese", level = 1 }]
 discovery = "Eternal Lament"
 discovery_id = "70002026"

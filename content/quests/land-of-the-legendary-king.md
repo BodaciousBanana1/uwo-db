@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990287"
 quest_number = "17104"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 3
 exp_reward = 73000
 fame_reward = 0
-variants = [{ city = "London Adventurer's Guild", guild_type = "Adventurer", id = "99990287", slug = "land-of-the-legendary-king" }]
+variants = [{ city = "London Adventurer's Guild", guild_type = "Adventure", id = "99990287", slug = "land-of-the-legendary-king" }]
 skills = [{ name = "Search", level = 1 }, { name = "Archaeology", level = 1 }, { name = "English", level = 1 }]
 discovery = "Cretan Pottery"
 discovery_id = "70002656"

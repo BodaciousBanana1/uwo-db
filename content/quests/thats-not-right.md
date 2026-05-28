@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990589"
 quest_number = "15812"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 3
 exp_reward = 123000
 fame_reward = 10000
-variants = [{ city = "Marseille Adventurer's Guild", guild_type = "Adventurer", id = "99990589", slug = "thats-not-right" }]
+variants = [{ city = "Marseille Adventurer's Guild", guild_type = "Adventure", id = "99990589", slug = "thats-not-right" }]
 skills = [{ name = "Search", level = 2 }, { name = "Art", level = 4 }]
 discovery = "Icon of the Dormition of the Mother of God"
 discovery_id = "70003219"

@@ -8,12 +8,12 @@ slug = "the-heartless-ocelot"
 id = "99997336"
 type = "Adventure"
 city = "Venice"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Ocelot"
 reward = 0
 advance = 0
 difficulty = 4
 skills = [{ name = "Cooking", level = 5 }, { name = "Greek", level = 1 }]
-variants = [{ city = "Venice", guild_type = "Adventurer", id = "99997336", slug = "the-heartless-ocelot" }]
+variants = [{ city = "Venice", guild_type = "Adventure", id = "99997336", slug = "the-heartless-ocelot" }]
 steps = [{ step = 1, location = "Salonika", action = "Talk to Travelling Scholar X2 (Northwest of the Harbour Port)" }, { step = 2, location = "Salonika", action = "Give Travelling Scholar X1" }]
 +++

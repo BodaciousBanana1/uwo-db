@@ -8,12 +8,12 @@ slug = "further-research-on-the-cool-snake"
 id = "99991438"
 type = "Adventure"
 city = "Further Research"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Malagasy Leaf-Nosed Snake"
 reward = 0
 advance = 0
 difficulty = 4
 skills = [{ name = "Ecological Research", level = 12 }, { name = "Biology", level = 14 }, { name = "Spanish", level = 1 }]
-variants = [{ city = "Further Research", guild_type = "Adventurer", id = "99991438", slug = "further-research-on-the-cool-snake" }]
+variants = [{ city = "Further Research", guild_type = "Adventure", id = "99991438", slug = "further-research-on-the-cool-snake" }]
 steps = []
 +++

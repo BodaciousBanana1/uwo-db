@@ -8,13 +8,13 @@ slug = "giant-in-the-high-mountain-area"
 id = "99990856"
 type = "Adventure"
 city = "London"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Chomolungma"
 reward = 0
 advance = 0
 difficulty = 7
 skills = [{ name = "Search", level = 7 }, { name = "Appraisal", level = 9 }, { name = "Unlock", level = 7 }]
-variants = [{ city = "London", guild_type = "Adventurer", id = "99990856", slug = "giant-in-the-high-mountain-area" }]
+variants = [{ city = "London", guild_type = "Adventure", id = "99990856", slug = "giant-in-the-high-mountain-area" }]
 steps = [{ step = 5, location = "Himalayan, north of the NW stacked boulders", action = "search" }]
 discovery_description = "The scalp of the mysterious humanoid being known as Yeti, locally enshrined. It is believed to be a servant of god according to the local lore. However, whether or not it really exists is unknown."
 +++

@@ -8,12 +8,12 @@ slug = "gt-xxx-shipping"
 id = "99991141"
 type = "Adventure"
 city = "Advanced school"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 2
 skills = []
-variants = [{ city = "Advanced school", guild_type = "Adventurer", id = "99991141", slug = "gt-xxx-shipping" }]
+variants = [{ city = "Advanced school", guild_type = "Adventure", id = "99991141", slug = "gt-xxx-shipping" }]
 steps = []
 +++

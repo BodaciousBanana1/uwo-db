@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99993929"
 quest_number = "15958"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 9
 exp_reward = 148000
 fame_reward = 20000
-variants = [{ city = "Seville Adventurer's Guild", guild_type = "Adventurer", id = "99993929", slug = "painting-that-covers-a-ceiling" }]
+variants = [{ city = "Seville Adventurer's Guild", guild_type = "Adventure", id = "99993929", slug = "painting-that-covers-a-ceiling" }]
 skills = [{ name = "Search", level = 9 }, { name = "Art", level = 11 }]
 discovery = "The Book of Genesis"
 discovery_id = "70000308"

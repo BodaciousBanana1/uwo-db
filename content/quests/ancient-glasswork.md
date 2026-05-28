@@ -8,12 +8,12 @@ slug = "ancient-glasswork"
 id = "99991422"
 type = "Adventure"
 city = "Stockholm"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Portland Vase"
 reward = 396400
 advance = 40000
 difficulty = 9
 skills = [{ name = "Search", level = 11 }, { name = "Art", level = 13 }, { name = "Unlock", level = 11 }]
-variants = [{ city = "Stockholm", guild_type = "Adventurer", id = "99991422", slug = "ancient-glasswork" }]
+variants = [{ city = "Stockholm", guild_type = "Adventure", id = "99991422", slug = "ancient-glasswork" }]
 steps = []
 +++

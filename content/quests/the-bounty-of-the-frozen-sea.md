@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99997686"
 quest_number = "16330"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 9
 exp_reward = 330000
 fame_reward = 30000
-variants = [{ city = "Stockholm Adventurer's Guild", guild_type = "Adventurer", id = "99997686", slug = "the-bounty-of-the-frozen-sea" }]
+variants = [{ city = "Stockholm Adventurer's Guild", guild_type = "Adventure", id = "99997686", slug = "the-bounty-of-the-frozen-sea" }]
 skills = [{ name = "Recognition", level = 11 }, { name = "Geography", level = 13 }, { name = "Nordic", level = 1 }]
 discovery = "Labrador Peninsula"
 discovery_id = "70002171"

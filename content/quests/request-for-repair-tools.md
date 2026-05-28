@@ -8,12 +8,12 @@ slug = "request-for-repair-tools"
 id = "99995558"
 type = "Adventure"
 city = "Rio de Janeiro Imperial Contract"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 4
 skills = []
-variants = [{ city = "Rio de Janeiro Imperial Contract", guild_type = "Adventurer", id = "99995558", slug = "request-for-repair-tools" }]
+variants = [{ city = "Rio de Janeiro Imperial Contract", guild_type = "Adventure", id = "99995558", slug = "request-for-repair-tools" }]
 steps = []
 +++

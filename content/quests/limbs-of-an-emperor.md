@@ -8,13 +8,13 @@ slug = "limbs-of-an-emperor"
 id = "99996993"
 type = "Adventure"
 city = "Lima"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Priest's Necklace"
 reward = 0
 advance = 0
 difficulty = 4
 skills = [{ name = "Search", level = 3 }, { name = "Theology", level = 5 }, { name = "Quechuan", level = 1 }]
-variants = [{ city = "Lima", guild_type = "Adventurer", id = "99996993", slug = "limbs-of-an-emperor" }]
+variants = [{ city = "Lima", guild_type = "Adventure", id = "99996993", slug = "limbs-of-an-emperor" }]
 steps = [{ step = 1, location = "Lima", action = "Talk to Famous Explorer x2" }, { step = 2, location = "South America Southwest Coast", action = "Close to the giant dead tree on the east" }]
 discovery_description = "A necklace to be worn only by priests. It is finely crafted and has high value as a work of art, as well as important spiritual significance."
 exp_reward = 310

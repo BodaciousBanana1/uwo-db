@@ -8,12 +8,12 @@ slug = "gtpolice-off-the-coast-of-antillean"
 id = "99990981"
 type = "Adventure"
 city = "Immigrants"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 8
 skills = []
-variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99990981", slug = "gtpolice-off-the-coast-of-antillean" }]
+variants = [{ city = "Immigrants", guild_type = "Adventure", id = "99990981", slug = "gtpolice-off-the-coast-of-antillean" }]
 steps = []
 +++

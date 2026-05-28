@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99996943"
 quest_number = "11476"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 7
 exp_reward = 148000
 fame_reward = 10000
-variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventurer", id = "99996943", slug = "island-of-culture" }]
+variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventure", id = "99996943", slug = "island-of-culture" }]
 skills = [{ name = "Recognition", level = 6 }, { name = "Geography", level = 8 }]
 discovery = "Ryukyu"
 discovery_id = "70001803"

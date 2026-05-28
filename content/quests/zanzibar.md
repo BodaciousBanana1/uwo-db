@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99995085"
 quest_number = "1245"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 0
 exp_reward = 9100
 fame_reward = 0
-variants = [{ city = "", guild_type = "Adventurer", id = "99995085", slug = "zanzibar" }]
+variants = [{ city = "", guild_type = "Adventure", id = "99995085", slug = "zanzibar" }]
 skills = []
 steps = [{ step = 1, location = "Mozambique", action = "교역소주인과 대화" }, { step = 2, location = "Zanzibar", action = "교역소주인과 대화" }]
 +++

@@ -8,12 +8,12 @@ slug = "monastery-that-floats-on-sea"
 id = "99991234"
 type = "Adventure"
 city = "Venice"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Mont-Saint-Michel"
 reward = 0
 advance = 0
 difficulty = 2
 skills = [{ name = "Recognition", level = 1 }, { name = "Theology", level = 3 }, { name = "French", level = 1 }]
-variants = [{ city = "Venice", guild_type = "Adventurer", id = "99991234", slug = "monastery-that-floats-on-sea" }]
+variants = [{ city = "Venice", guild_type = "Adventure", id = "99991234", slug = "monastery-that-floats-on-sea" }]
 steps = []
 +++

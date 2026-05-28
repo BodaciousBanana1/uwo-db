@@ -8,13 +8,13 @@ slug = "flute-of-light"
 id = "99994475"
 type = "Adventure"
 city = "Alexandria"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Flute of Light"
 reward = 0
 advance = 0
 difficulty = 3
 skills = [{ name = "Search", level = 2 }, { name = "Appraisal", level = 4 }, { name = "Arabic", level = 1 }]
-variants = [{ city = "Alexandria", guild_type = "Adventurer", id = "99994475", slug = "flute-of-light" }]
+variants = [{ city = "Alexandria", guild_type = "Adventure", id = "99994475", slug = "flute-of-light" }]
 steps = [{ step = 1, location = "Cairo", action = "Speak to Barkeep" }, { step = 2, location = "Cairo", action = "Speak to Customer wearing blue Burnoose" }, { step = 3, location = "Cairo", action = "Speak to Customer x2 wearing black Burundjuk" }, { step = 4, location = "Temple Interior: South Aswan", action = "use" }]
 followups = [{ id = "99994480", name = "Queen of Egypt", slug = "queen-of-egypt" }, { id = "99994472", name = "Moving magic flute", slug = "moving-magic-flute" }, { id = "99994475", name = "Flute of Light", slug = "flute-of-light" }]
 equipment_rewards = [{ id = "00404900", name = "Flute of Light", slug = "flute-of-light" }]

@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99996892"
 quest_number = "5685"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 5
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventurer", id = "99996892", slug = "diagram-of-pure-land" }]
+variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventure", id = "99996892", slug = "diagram-of-pure-land" }]
 skills = [{ name = "Search", level = 5 }, { name = "Theology", level = 7 }]
 discovery = "Mandala Painting"
 discovery_id = "70001704"

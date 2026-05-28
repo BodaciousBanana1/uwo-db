@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99996086"
 quest_number = "1635"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 6
 exp_reward = 140000
 fame_reward = 0
-variants = [{ city = "London Imperial Contract", guild_type = "Adventurer", id = "99996086", slug = "urgent-message-from-the-research-team" }]
+variants = [{ city = "London Imperial Contract", guild_type = "Adventure", id = "99996086", slug = "urgent-message-from-the-research-team" }]
 skills = []
 +++
 

@@ -8,12 +8,12 @@ slug = "after-the-world-history"
 id = "99991275"
 type = "Adventure"
 city = "Naples"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Nuremberg Chronicle"
 reward = 0
 advance = 0
 difficulty = 8
 skills = [{ name = "Search", level = 9 }, { name = "Appraisal", level = 11 }, { name = "Portuguese", level = 1 }]
-variants = [{ city = "Naples", guild_type = "Adventurer", id = "99991275", slug = "after-the-world-history" }]
+variants = [{ city = "Naples", guild_type = "Adventure", id = "99991275", slug = "after-the-world-history" }]
 steps = []
 +++

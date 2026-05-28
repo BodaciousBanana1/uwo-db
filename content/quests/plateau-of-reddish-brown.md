@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99997261"
 quest_number = "15633"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 7
 exp_reward = 158000
 fame_reward = 10000
-variants = [{ city = "Saint-Georges Adventurer's Guild", guild_type = "Adventurer", id = "99997261", slug = "plateau-of-reddish-brown" }]
+variants = [{ city = "Saint-Georges Adventurer's Guild", guild_type = "Adventure", id = "99997261", slug = "plateau-of-reddish-brown" }]
 skills = [{ name = "Recognition", level = 4 }, { name = "Geography", level = 6 }]
 discovery = "Gros Morne"
 discovery_id = "70002188"

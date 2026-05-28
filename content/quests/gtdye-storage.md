@@ -8,12 +8,12 @@ slug = "gtdye-storage"
 id = "99991009"
 type = "Adventure"
 city = "Immigrants"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 6
 skills = [{ name = "Italian", level = 1 }]
-variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99991009", slug = "gtdye-storage" }]
+variants = [{ city = "Immigrants", guild_type = "Adventure", id = "99991009", slug = "gtdye-storage" }]
 steps = []
 +++

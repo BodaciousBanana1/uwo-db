@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99994399"
 quest_number = "8909"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 8
 exp_reward = 260000
 fame_reward = 10000
-variants = [{ city = "Naples Adventurer's Guild", guild_type = "Adventurer", id = "99994399", slug = "reason-for-desire-for-blood-hearts" }]
+variants = [{ city = "Naples Adventurer's Guild", guild_type = "Adventure", id = "99994399", slug = "reason-for-desire-for-blood-hearts" }]
 skills = [{ name = "Recognition", level = 9 }, { name = "Theology", level = 11 }, { name = "Mayan Languages", level = 1 }]
 discovery = "The Stone of the Sun"
 discovery_id = "70000929"

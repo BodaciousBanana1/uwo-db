@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99993833"
 quest_number = "17064"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 5
 exp_reward = 29000
 fame_reward = 0
-variants = [{ city = "Zanzibar Adventurer's Guild", guild_type = "Adventurer", id = "99993833", slug = "road-to-the-empire" }]
+variants = [{ city = "Zanzibar Adventurer's Guild", guild_type = "Adventure", id = "99993833", slug = "road-to-the-empire" }]
 skills = [{ name = "Recognition", level = 1 }, { name = "Geography", level = 3 }, { name = "Portuguese", level = 1 }]
 discovery = "The River Niger"
 discovery_id = "70000706"

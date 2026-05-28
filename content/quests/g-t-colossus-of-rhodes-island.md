@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99991188"
 quest_number = "0"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 10
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Folklores", guild_type = "Adventurer", id = "99991188", slug = "g-t-colossus-of-rhodes-island" }]
+variants = [{ city = "Folklores", guild_type = "Adventure", id = "99991188", slug = "g-t-colossus-of-rhodes-island" }]
 skills = []
 discovery = "The Colossus of Rhodes"
 discovery_id = "70003361"

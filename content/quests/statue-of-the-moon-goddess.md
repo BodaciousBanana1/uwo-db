@@ -8,13 +8,13 @@ slug = "statue-of-the-moon-goddess"
 id = "99993301"
 type = "Adventure"
 city = "Lisbon"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "The Ruins at Olympia"
 reward = 26000
 advance = 0
 difficulty = 4
 skills = [{ name = "Search", level = 1 }, { name = "Theology", level = 2 }, { name = "Greek", level = 1 }]
-variants = [{ city = "Lisbon", guild_type = "Adventurer", id = "99993301", slug = "statue-of-the-moon-goddess" }]
+variants = [{ city = "Lisbon", guild_type = "Adventure", id = "99993301", slug = "statue-of-the-moon-goddess" }]
 steps = [{ step = 1, location = "Athens", action = "Talk to Scholar" }, { step = 2, location = "Athens", action = "Browse" }, { step = 3, location = "Olympia", action = "use" }]
 followups = [{ id = "99994366", name = "Festival for Zeus", slug = "festival-for-zeus" }, { id = "99990237", name = "Vanished Temple", slug = "vanished-temple" }, { id = "99990234", name = "The Truth of the Temple", slug = "the-truth-of-the-temple" }, { id = "99991253", name = "Legacy TH6. Praise Our Great Goddess", slug = "legacy-th6-praise-our-great-goddess" }]
 equipment_rewards = [{ id = "00519600", name = "Greek Goddess Amulet", slug = "greek-goddess-amulet" }]

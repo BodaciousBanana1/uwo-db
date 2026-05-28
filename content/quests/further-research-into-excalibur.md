@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99991373"
 quest_number = "16483"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 3
 exp_reward = 180000
 fame_reward = 0
-variants = [{ city = "Further Research", guild_type = "Adventurer", id = "99991373", slug = "further-research-into-excalibur" }]
+variants = [{ city = "Further Research", guild_type = "Adventure", id = "99991373", slug = "further-research-into-excalibur" }]
 skills = [{ name = "Search", level = 8 }, { name = "Archaeology", level = 10 }, { name = "Unlock", level = 8 }]
 discovery = "Holy Sword's Scabbard"
 discovery_id = "70003455"

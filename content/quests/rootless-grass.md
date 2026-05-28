@@ -8,13 +8,13 @@ slug = "rootless-grass"
 id = "99997666"
 type = "Adventure"
 city = "Amsterdam"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Goldenglow"
 reward = 0
 advance = 0
 difficulty = 7
 skills = [{ name = "Ecological Research", level = 6 }, { name = "Biology", level = 8 }, { name = "Spanish", level = 1 }]
-variants = [{ city = "Amsterdam", guild_type = "Adventurer", id = "99997666", slug = "rootless-grass" }]
+variants = [{ city = "Amsterdam", guild_type = "Adventure", id = "99997666", slug = "rootless-grass" }]
 steps = [{ step = 1, location = "Amsterdam Archives", action = "Talk to Scholar" }, { step = 2, location = "Portobelo", action = "Talk to Merchant" }, { step = 3, location = "North America Southeast Coast", action = "Use" }]
 discovery_description = "A plant that is found from southern North America to central South America. It survives arid climates by absorbing moisture with its leaves and has no roots. There are many varieties possessing a wide range of appearances."
 exp_reward = 530

@@ -8,12 +8,12 @@ slug = "defeat-the-pirates-to-the-south-of-palma"
 id = "99999902"
 type = "Adventure"
 city = "Advanced school"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 2
 skills = []
-variants = [{ city = "Advanced school", guild_type = "Adventurer", id = "99999902", slug = "defeat-the-pirates-to-the-south-of-palma" }]
+variants = [{ city = "Advanced school", guild_type = "Adventure", id = "99999902", slug = "defeat-the-pirates-to-the-south-of-palma" }]
 steps = []
 +++

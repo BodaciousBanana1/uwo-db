@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990137"
 quest_number = "16120"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 6
 exp_reward = 200000
 fame_reward = 20000
-variants = [{ city = "Stockholm Adventurer's Guild", guild_type = "Adventurer", id = "99990137", slug = "g-t-rock-paintings-of-the-holy-land" }]
+variants = [{ city = "Stockholm Adventurer's Guild", guild_type = "Adventure", id = "99990137", slug = "g-t-rock-paintings-of-the-holy-land" }]
 skills = [{ name = "Recognition", level = 4 }, { name = "Archaeology", level = 6 }, { name = "West African Languages", level = 1 }]
 discovery = "The Rock Paintings of Tsodilo Hills"
 discovery_id = "70002703"

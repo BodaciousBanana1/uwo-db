@@ -8,12 +8,12 @@ slug = "the-tribes-of-ancient-europe"
 id = "99995155"
 type = "Adventure"
 city = "Lisbon"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 7100
 advance = 0
 difficulty = 2
 skills = [{ name = "French", level = 1 }, { name = "Latin", level = 1 }, { name = "Appraisal", level = 2 }]
-variants = [{ city = "Lisbon", guild_type = "Adventurer", id = "99995155", slug = "the-tribes-of-ancient-europe" }]
+variants = [{ city = "Lisbon", guild_type = "Adventure", id = "99995155", slug = "the-tribes-of-ancient-europe" }]
 steps = []
 +++

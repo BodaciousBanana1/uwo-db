@@ -8,12 +8,12 @@ slug = "old-tales-of-malaga"
 id = "99997457"
 type = "Adventure"
 city = "Seville"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 2
 skills = [{ name = "Spanish", level = 1 }]
-variants = [{ city = "Seville", guild_type = "Adventurer", id = "99997457", slug = "old-tales-of-malaga" }]
+variants = [{ city = "Seville", guild_type = "Adventure", id = "99997457", slug = "old-tales-of-malaga" }]
 steps = [{ step = 1, location = "Malaga", action = "Talk to Engineer (Near Craft Shop)" }, { step = 2, location = "Malaga", action = "Talk to Farmer (Outside Bank)" }, { step = 3, location = "Malaga", action = "Talk to Young Boy (Outside Tavern)" }]
 +++

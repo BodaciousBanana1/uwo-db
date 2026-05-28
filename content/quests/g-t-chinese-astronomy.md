@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990723"
 quest_number = "16654"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 10
 exp_reward = 877000
 fame_reward = 80000
-variants = [{ city = "Athens Adventurer's Guild", guild_type = "Adventurer", id = "99990723", slug = "g-t-chinese-astronomy" }]
+variants = [{ city = "Athens Adventurer's Guild", guild_type = "Adventure", id = "99990723", slug = "g-t-chinese-astronomy" }]
 skills = [{ name = "Recognition", level = 15 }, { name = "Astronomy", level = 17 }, { name = "Chinese", level = 1 }]
 discovery = "Azure Dragon of the East"
 discovery_id = "70003152"

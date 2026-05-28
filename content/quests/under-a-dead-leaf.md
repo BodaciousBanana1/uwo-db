@@ -8,12 +8,12 @@ slug = "under-a-dead-leaf"
 id = "99991491"
 type = "Adventure"
 city = "Seville"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Cauliflower Fungus"
 reward = 0
 advance = 0
 difficulty = 4
 skills = [{ name = "Ecological Research", level = 3 }, { name = "Biology", level = 5 }, { name = "Japanese", level = 1 }]
-variants = [{ city = "Seville", guild_type = "Adventurer", id = "99991491", slug = "under-a-dead-leaf" }]
+variants = [{ city = "Seville", guild_type = "Adventure", id = "99991491", slug = "under-a-dead-leaf" }]
 steps = []
 +++

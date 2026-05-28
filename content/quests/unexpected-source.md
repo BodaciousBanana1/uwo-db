@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99991310"
 quest_number = "16412"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 1
 exp_reward = 140000
 fame_reward = 10000
-variants = [{ city = "Venice Adventurer's Guild", guild_type = "Adventurer", id = "99991310", slug = "unexpected-source" }]
+variants = [{ city = "Venice Adventurer's Guild", guild_type = "Adventure", id = "99991310", slug = "unexpected-source" }]
 skills = [{ name = "Search", level = 1 }, { name = "Archaeology", level = 3 }, { name = "German", level = 1 }]
 discovery = "Eagle Statue on Zeus's Staff"
 discovery_id = "70003533"

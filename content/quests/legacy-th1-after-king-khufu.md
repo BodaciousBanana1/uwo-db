@@ -8,12 +8,12 @@ slug = "legacy-th1-after-king-khufu"
 id = "99991206"
 type = "Adventure"
 city = "Marseille"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Pyramids of Giza"
 reward = 0
 advance = 0
 difficulty = 2
 skills = [{ name = "Search", level = 1 }, { name = "Archaeology", level = 3 }, { name = "Arabic", level = 1 }]
-variants = [{ city = "Marseille", guild_type = "Adventurer", id = "99991206", slug = "legacy-th1-after-king-khufu" }]
+variants = [{ city = "Marseille", guild_type = "Adventure", id = "99991206", slug = "legacy-th1-after-king-khufu" }]
 steps = []
 +++

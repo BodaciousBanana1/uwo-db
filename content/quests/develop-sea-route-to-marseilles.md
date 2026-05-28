@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99997131"
 quest_number = "5731"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 5
 exp_reward = 112000
 fame_reward = 0
-variants = [{ city = "Santo Domingo Adventurer's Guild", guild_type = "Adventurer", id = "99997131", slug = "develop-sea-route-to-marseilles" }]
+variants = [{ city = "Santo Domingo Adventurer's Guild", guild_type = "Adventure", id = "99997131", slug = "develop-sea-route-to-marseilles" }]
 skills = []
 steps = [{ step = 1, location = "Marseilles", action = "Talk to Port Official" }]
 +++

@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99991138"
 quest_number = "13341"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 6
 exp_reward = 236000
 fame_reward = 20000
-variants = [{ city = "London Adventurer's Guild", guild_type = "Adventurer", id = "99991138", slug = "beginning-of-the-steam-engine-research" }]
+variants = [{ city = "London Adventurer's Guild", guild_type = "Adventure", id = "99991138", slug = "beginning-of-the-steam-engine-research" }]
 skills = [{ name = "Search", level = 9 }, { name = "Archaeology", level = 11 }]
 discovery = "Pneumatica"
 discovery_id = "70002831"

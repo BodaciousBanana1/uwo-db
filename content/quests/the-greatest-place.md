@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990821"
 quest_number = "16361"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 5
 exp_reward = 112000
 fame_reward = 10000
-variants = [{ city = "Seville Adventurer's Guild", guild_type = "Adventurer", id = "99990821", slug = "the-greatest-place" }]
+variants = [{ city = "Seville Adventurer's Guild", guild_type = "Adventure", id = "99990821", slug = "the-greatest-place" }]
 skills = [{ name = "Recognition", level = 4 }, { name = "Geography", level = 6 }]
 discovery = "Ellesmere Island"
 discovery_id = "70003139"

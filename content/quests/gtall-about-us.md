@@ -8,12 +8,12 @@ slug = "gtall-about-us"
 id = "99999885"
 type = "Adventure"
 city = "Advanced school"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 1
 skills = []
-variants = [{ city = "Advanced school", guild_type = "Adventurer", id = "99999885", slug = "gtall-about-us" }]
+variants = [{ city = "Advanced school", guild_type = "Adventure", id = "99999885", slug = "gtall-about-us" }]
 steps = []
 +++

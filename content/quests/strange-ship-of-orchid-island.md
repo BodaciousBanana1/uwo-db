@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99996940"
 quest_number = "5479"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 7
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventurer", id = "99996940", slug = "strange-ship-of-orchid-island" }]
+variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventure", id = "99996940", slug = "strange-ship-of-orchid-island" }]
 skills = [{ name = "Search", level = 6 }, { name = "Appraisal", level = 8 }, { name = "Chinese", level = 1 }]
 discovery = "Tatara"
 discovery_id = "70001918"

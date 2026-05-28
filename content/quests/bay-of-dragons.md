@@ -8,13 +8,13 @@ slug = "bay-of-dragons"
 id = "99990853"
 type = "Adventure"
 city = "San Francisco"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Ha Long Bay"
 reward = 0
 advance = 0
 difficulty = 10
 skills = [{ name = "Recognition", level = 15 }, { name = "Geography", level = 17 }, { name = "Malay/Tagalog", level = 1 }]
-variants = [{ city = "San Francisco", guild_type = "Adventurer", id = "99990853", slug = "bay-of-dragons" }]
+variants = [{ city = "San Francisco", guild_type = "Adventure", id = "99990853", slug = "bay-of-dragons" }]
 steps = [{ step = 1, location = "Ambon", action = "Talk to City Official" }, { step = 2, location = "Western East Asia", action = "Use" }]
 discovery_description = "A large bay with numerous small islands, and a beautiful landscape. Its name is derived from the meaning of descending dragon."
 +++

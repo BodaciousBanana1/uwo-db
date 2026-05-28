@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99997585"
 quest_number = "8515"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 3
 exp_reward = 8000
 fame_reward = 0
-variants = [{ city = "Genoa Adventurer's Guild", guild_type = "Adventurer", id = "99997585", slug = "procure-stone" }]
+variants = [{ city = "Genoa Adventurer's Guild", guild_type = "Adventure", id = "99997585", slug = "procure-stone" }]
 skills = [{ name = "Collection", level = 1 }]
 +++
 

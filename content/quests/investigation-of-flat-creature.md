@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99994841"
 quest_number = "14781"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 6
 exp_reward = 148000
 fame_reward = 10000
-variants = [{ city = "Santo Domingo Adventurer's Guild", guild_type = "Adventurer", id = "99994841", slug = "investigation-of-flat-creature" }]
+variants = [{ city = "Santo Domingo Adventurer's Guild", guild_type = "Adventure", id = "99994841", slug = "investigation-of-flat-creature" }]
 skills = [{ name = "Ecological Research", level = 4 }, { name = "Biology", level = 6 }]
 discovery = "Surinam Toads"
 discovery_id = "70000875"

@@ -8,12 +8,12 @@ slug = "gtmemory-of-silver"
 id = "99990254"
 type = "Adventure"
 city = "Treasure Hunt"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 5
 skills = [{ name = "Recognition", level = 7 }, { name = "Geography", level = 9 }, { name = "Appraisal", level = 5 }]
-variants = [{ city = "Treasure Hunt", guild_type = "Adventurer", id = "99990254", slug = "gtmemory-of-silver" }]
+variants = [{ city = "Treasure Hunt", guild_type = "Adventure", id = "99990254", slug = "gtmemory-of-silver" }]
 steps = []
 +++

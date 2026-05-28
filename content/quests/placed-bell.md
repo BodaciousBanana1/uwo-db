@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99997180"
 quest_number = "13176"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 5
 exp_reward = 167000
 fame_reward = 10000
-variants = [{ city = "Calicut Adventurer's Guild", guild_type = "Adventurer", id = "99997180", slug = "placed-bell" }]
+variants = [{ city = "Calicut Adventurer's Guild", guild_type = "Adventure", id = "99997180", slug = "placed-bell" }]
 skills = [{ name = "Search", level = 5 }, { name = "Theology", level = 7 }]
 discovery = "Bell of Dojoji"
 discovery_id = "70001711"

@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990115"
 quest_number = "16981"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 4
 exp_reward = 456000
 fame_reward = 40000
-variants = [{ city = "Venice Adventurer's Guild", guild_type = "Adventurer", id = "99990115", slug = "the-constellation-of-a-bird-of-india" }]
+variants = [{ city = "Venice Adventurer's Guild", guild_type = "Adventure", id = "99990115", slug = "the-constellation-of-a-bird-of-india" }]
 skills = [{ name = "Recognition", level = 7 }, { name = "Astronomy", level = 9 }, { name = "Indian Languages", level = 1 }]
 discovery = "Pavo"
 discovery_id = "70002722"

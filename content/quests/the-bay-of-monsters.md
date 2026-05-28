@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99997263"
 quest_number = "7428"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 9
 exp_reward = 195000
 fame_reward = 10000
-variants = [{ city = "Saint-Georges Adventurer's Guild", guild_type = "Adventurer", id = "99997263", slug = "the-bay-of-monsters" }]
+variants = [{ city = "Saint-Georges Adventurer's Guild", guild_type = "Adventure", id = "99997263", slug = "the-bay-of-monsters" }]
 skills = [{ name = "Recognition", level = 7 }, { name = "Geography", level = 9 }]
 discovery = "Bay of Fundy"
 discovery_id = "70002199"

@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99993988"
 quest_number = "565"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 0
 exp_reward = 250500
 fame_reward = 5000
-variants = [{ city = "", guild_type = "Adventurer", id = "99993988", slug = "egyptian-vulture" }]
+variants = [{ city = "", guild_type = "Adventure", id = "99993988", slug = "egyptian-vulture" }]
 skills = []
 steps = [{ step = 1, location = "Naples Church", action = "사제와 대화" }, { step = 2, location = "Naples Archives", action = "" }, { step = 3, location = "Naples Church", action = "사제와 대화" }, { step = 4, location = "Massawa", action = "도시관리와 대화" }, { step = 5, location = "Northern Ethiopia", action = "유적 근처에서" }]
 +++

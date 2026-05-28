@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99997656"
 quest_number = "4059"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 5
 exp_reward = 35000
 fame_reward = 0
-variants = [{ city = "Seville Adventurer's Guild", guild_type = "Adventurer", id = "99997656", slug = "procuring-wild-rabbit" }]
+variants = [{ city = "Seville Adventurer's Guild", guild_type = "Adventure", id = "99997656", slug = "procuring-wild-rabbit" }]
 skills = [{ name = "Procurement", level = 1 }]
 +++
 

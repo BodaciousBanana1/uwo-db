@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99991155"
 quest_number = "0"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 5
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventurer", id = "99991155", slug = "g-t-shrubs-cared-for-by-goddess" }]
+variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventure", id = "99991155", slug = "g-t-shrubs-cared-for-by-goddess" }]
 skills = [{ name = "Ecological Research", level = 3 }, { name = "Biology", level = 5 }, { name = "Oceanic Languages", level = 1 }]
 discovery = "Maile"
 discovery_id = "70002298"

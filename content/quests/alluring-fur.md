@@ -8,13 +8,13 @@ slug = "alluring-fur"
 id = "99993448"
 type = "Adventure"
 city = "London"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "American Mink"
 reward = 79000
 advance = 0
 difficulty = 6
 skills = [{ name = "Ecological Research", level = 5 }, { name = "Biology", level = 7 }, { name = "Nordic", level = 1 }]
-variants = [{ city = "London", guild_type = "Adventurer", id = "99993448", slug = "alluring-fur" }]
+variants = [{ city = "London", guild_type = "Adventure", id = "99993448", slug = "alluring-fur" }]
 steps = [{ step = 1, location = "Oslo", action = "Talk to Craftsman" }, { step = 2, location = "Copenhagen", action = "Talk to Worksmith (east of Square Port Guide)" }, { step = 3, location = "Copenhagen", action = "Talk to Woodcutter (near Church)" }, { step = 4, location = "Lubeck Tavern", action = "Talk to Barkeep" }, { step = 5, location = "Lubeck Tavern", action = "Talk to Merchant" }, { step = 6, location = "Baltic Sea South", action = "West" }]
 equipment_rewards = [{ id = "00523300", name = "Mink's Fur", slug = "minks-fur" }]
 discovery_description = "Its hair is dark brown to black, with white stripes on the lips. It is nocturnal, and eats small living things such as birds, mammals, and fish."

@@ -8,12 +8,12 @@ slug = "apocrypha-of-the-german-bible"
 id = "99997642"
 type = "Adventure"
 city = "Amsterdam"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 29000
 advance = 0
 difficulty = 3
 skills = [{ name = "Portuguese", level = 1 }, { name = "Latin", level = 1 }, { name = "Theology", level = 4 }]
-variants = [{ city = "Amsterdam", guild_type = "Adventurer", id = "99997642", slug = "apocrypha-of-the-german-bible" }]
+variants = [{ city = "Amsterdam", guild_type = "Adventure", id = "99997642", slug = "apocrypha-of-the-german-bible" }]
 steps = []
 +++

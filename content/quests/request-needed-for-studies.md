@@ -8,13 +8,13 @@ slug = "request-needed-for-studies"
 id = "99996749"
 type = "Adventure"
 city = "Hangzhou"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Zizhi Tongjian"
 reward = 0
 advance = 0
 difficulty = 3
 skills = [{ name = "Search", level = 2 }, { name = "Archaeology", level = 4 }, { name = "Unlock", level = 2 }]
-variants = [{ city = "Hangzhou", guild_type = "Adventurer", id = "99996749", slug = "request-needed-for-studies" }]
+variants = [{ city = "Hangzhou", guild_type = "Adventure", id = "99996749", slug = "request-needed-for-studies" }]
 steps = []
 prerequisites = [{ id = "99996799", name = "Girl Diligent in Studies", slug = "girl-diligent-in-studies" }]
 discovery_description = "Historical book recounting the Former Han Dynasty. Signified by its focus on each emperor and person."

@@ -8,13 +8,13 @@ slug = "tristans-sword"
 id = "99993621"
 type = "Adventure"
 city = "London"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Tristan's Sword"
 reward = 0
 advance = 0
 difficulty = 5
 skills = [{ name = "Search", level = 3 }, { name = "Archaeology", level = 5 }, { name = "French", level = 1 }]
-variants = [{ city = "London", guild_type = "Adventurer", id = "99993621", slug = "tristans-sword" }]
+variants = [{ city = "London", guild_type = "Adventure", id = "99993621", slug = "tristans-sword" }]
 steps = []
 equipment_rewards = [{ id = "00403400", name = "Tristan's Sword", slug = "tristans-sword" }]
 discovery_description = "A sword thought to belong to the English knight Tristan. It was discovered at the site of his purported grave. Tristan's story is well known because of his tragic love for the Princess Iseult."

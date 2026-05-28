@@ -8,12 +8,12 @@ slug = "gtletter-to-madeira"
 id = "99991052"
 type = "Adventure"
 city = "Immigrants"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 1
 skills = [{ name = "Portuguese", level = 1 }]
-variants = [{ city = "Immigrants", guild_type = "Adventurer", id = "99991052", slug = "gtletter-to-madeira" }]
+variants = [{ city = "Immigrants", guild_type = "Adventure", id = "99991052", slug = "gtletter-to-madeira" }]
 steps = []
 +++

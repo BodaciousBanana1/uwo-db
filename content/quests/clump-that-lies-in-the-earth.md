@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99996871"
 quest_number = "15881"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 4
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventurer", id = "99996871", slug = "clump-that-lies-in-the-earth" }]
+variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventure", id = "99996871", slug = "clump-that-lies-in-the-earth" }]
 skills = [{ name = "Search", level = 3 }, { name = "Archaeology", level = 5 }]
 discovery = "Lacquered Paper Writings"
 discovery_id = "70001701"

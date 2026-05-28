@@ -8,12 +8,12 @@ slug = "frog-with-spines"
 id = "99991213"
 type = "Adventure"
 city = "Cape Town"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Oreophrynella"
 reward = 0
 advance = 0
 difficulty = 6
 skills = [{ name = "Ecological Research", level = 6 }, { name = "Biology", level = 8 }, { name = "Malay/Tagalog", level = 1 }]
-variants = [{ city = "Cape Town", guild_type = "Adventurer", id = "99991213", slug = "frog-with-spines" }]
+variants = [{ city = "Cape Town", guild_type = "Adventure", id = "99991213", slug = "frog-with-spines" }]
 steps = []
 +++

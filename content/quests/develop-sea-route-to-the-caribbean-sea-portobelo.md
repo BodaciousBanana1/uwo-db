@@ -8,12 +8,12 @@ slug = "develop-sea-route-to-the-caribbean-sea-portobelo"
 id = "99997081"
 type = "Adventure"
 city = "Portobelo"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 3
 skills = [{ name = "Spanish", level = 1 }]
-variants = [{ city = "Portobelo", guild_type = "Adventurer", id = "99997081", slug = "develop-sea-route-to-the-caribbean-sea-portobelo" }, { city = "Santo Domingo", guild_type = "Adventurer", id = "99997118", slug = "develop-sea-route-to-the-caribbean-sea-santo-domingo" }]
+variants = [{ city = "Portobelo", guild_type = "Adventure", id = "99997081", slug = "develop-sea-route-to-the-caribbean-sea-portobelo" }, { city = "Santo Domingo", guild_type = "Adventure", id = "99997118", slug = "develop-sea-route-to-the-caribbean-sea-santo-domingo" }]
 steps = []
 +++

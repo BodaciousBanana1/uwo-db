@@ -8,12 +8,12 @@ slug = "taking-measures-against-disasters"
 id = "99997807"
 type = "Adventure"
 city = "Santiago Imperial Contract"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 4
 skills = []
-variants = [{ city = "Santiago Imperial Contract", guild_type = "Adventurer", id = "99997807", slug = "taking-measures-against-disasters" }]
+variants = [{ city = "Santiago Imperial Contract", guild_type = "Adventure", id = "99997807", slug = "taking-measures-against-disasters" }]
 steps = []
 +++

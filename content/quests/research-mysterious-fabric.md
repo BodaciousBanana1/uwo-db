@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990069"
 quest_number = "15667"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 4
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Acropolis", guild_type = "Adventurer", id = "99990069", slug = "research-mysterious-fabric" }]
+variants = [{ city = "Acropolis", guild_type = "Adventure", id = "99990069", slug = "research-mysterious-fabric" }]
 skills = []
 +++
 

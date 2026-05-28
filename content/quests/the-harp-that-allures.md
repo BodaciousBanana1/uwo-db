@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99994235"
 quest_number = "14117"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 8
 exp_reward = 140000
 fame_reward = 20000
-variants = [{ city = "Tunis Adventurer's Guild", guild_type = "Adventurer", id = "99994235", slug = "the-harp-that-allures" }]
+variants = [{ city = "Tunis Adventurer's Guild", guild_type = "Adventure", id = "99994235", slug = "the-harp-that-allures" }]
 skills = [{ name = "Search", level = 7 }, { name = "Appraisal", level = 9 }, { name = "Unlock", level = 7 }]
 discovery = "The Siren's Harp"
 discovery_id = "70000354"

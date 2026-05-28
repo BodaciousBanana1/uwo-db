@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99991290"
 quest_number = "15758"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 6
 exp_reward = 378000
 fame_reward = 30000
-variants = [{ city = "Naples Adventurer's Guild", guild_type = "Adventurer", id = "99991290", slug = "the-lovers-cape" }]
+variants = [{ city = "Naples Adventurer's Guild", guild_type = "Adventure", id = "99991290", slug = "the-lovers-cape" }]
 skills = [{ name = "Ecological Research", level = 5 }, { name = "Biology", level = 7 }]
 discovery = "Crape Myrtle"
 discovery_id = "70003365"

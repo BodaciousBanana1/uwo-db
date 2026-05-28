@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99993832"
 quest_number = "16422"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 7
 exp_reward = 68000
 fame_reward = 0
-variants = [{ city = "Athens Adventurer's Guild", guild_type = "Adventurer", id = "99993832", slug = "da-vincis-altarpiece" }]
+variants = [{ city = "Athens Adventurer's Guild", guild_type = "Adventure", id = "99993832", slug = "da-vincis-altarpiece" }]
 skills = [{ name = "Search", level = 4 }, { name = "Art", level = 6 }]
 discovery = "The Virgin of the Rocks"
 discovery_id = "70000273"

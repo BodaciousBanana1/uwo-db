@@ -6,10 +6,10 @@ template = "quests/page.html"
 [extra]
 id = "99999863"
 quest_number = "0"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 2
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Intermediate school", guild_type = "Adventurer", id = "99999863", slug = "g-t-intermediate-certificate-examination-major-traders" }]
+variants = [{ city = "Intermediate school", guild_type = "Adventure", id = "99999863", slug = "g-t-intermediate-certificate-examination-major-traders" }]
 skills = []
 +++

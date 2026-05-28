@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99996841"
 quest_number = "12823"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 7
 exp_reward = 70000
 fame_reward = 0
-variants = [{ city = "Hangzhou Adventurer's Guild", guild_type = "Adventurer", id = "99996841", slug = "unidentified-sea-creature" }]
+variants = [{ city = "Hangzhou Adventurer's Guild", guild_type = "Adventure", id = "99996841", slug = "unidentified-sea-creature" }]
 skills = [{ name = "Ecological Research", level = 5 }, { name = "Biology", level = 7 }]
 discovery = "King Crab"
 discovery_id = "70001786"

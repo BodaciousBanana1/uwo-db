@@ -8,12 +8,12 @@ slug = "procure-codfish"
 id = "99997533"
 type = "Adventure"
 city = "Lisbon"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 3
 skills = [{ name = "Portuguese", level = 1 }, { name = "Fishing", level = 3 }, { name = "Spanish", level = 1 }]
-variants = [{ city = "Lisbon", guild_type = "Adventurer", id = "99997533", slug = "procure-codfish" }]
+variants = [{ city = "Lisbon", guild_type = "Adventure", id = "99997533", slug = "procure-codfish" }]
 steps = []
 +++

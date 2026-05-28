@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99993563"
 quest_number = "12265"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 5
 exp_reward = 62000
 fame_reward = 0
-variants = [{ city = "Venice Adventurer's Guild", guild_type = "Adventurer", id = "99993563", slug = "south-tip-of-africa" }]
+variants = [{ city = "Venice Adventurer's Guild", guild_type = "Adventure", id = "99993563", slug = "south-tip-of-africa" }]
 skills = [{ name = "Recognition", level = 2 }, { name = "Geography", level = 4 }, { name = "Portuguese", level = 1 }]
 discovery = "The Cape of Good Hope"
 discovery_id = "70000648"

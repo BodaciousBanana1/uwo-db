@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99993430"
 quest_number = "239"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 0
 exp_reward = 336000
 fame_reward = 30000
-variants = [{ city = "", guild_type = "Adventurer", id = "99993430", slug = "dutch" }]
+variants = [{ city = "", guild_type = "Adventure", id = "99993430", slug = "dutch" }]
 skills = []
 steps = [{ step = 1, location = "Pegu", action = "교역소주인과 대화 ×4회" }, { step = 6, location = "Venice Archives", action = "학자와 대화" }, { step = 10, location = "London Square Church", action = "목사 앞에서" }]
 +++

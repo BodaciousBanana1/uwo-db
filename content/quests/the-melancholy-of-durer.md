@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99997609"
 quest_number = "11645"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 6
 exp_reward = 89000
 fame_reward = 0
-variants = [{ city = "London Adventurer's Guild", guild_type = "Adventurer", id = "99997609", slug = "the-melancholy-of-durer" }]
+variants = [{ city = "London Adventurer's Guild", guild_type = "Adventure", id = "99997609", slug = "the-melancholy-of-durer" }]
 skills = [{ name = "Search", level = 5 }, { name = "Art", level = 7 }, { name = "German", level = 1 }]
 discovery = "Melancholia"
 discovery_id = "70001548"

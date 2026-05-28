@@ -8,13 +8,13 @@ slug = "once-more-for-taiwanese-bird-investigation"
 id = "99997565"
 type = "Adventure"
 city = "Lisbon"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = "Tamsui"
 reward = 0
 advance = 0
 difficulty = 7
 skills = [{ name = "Ecological Research", level = 8 }, { name = "Biology", level = 10 }, { name = "Chinese", level = 1 }]
-variants = [{ city = "Lisbon", guild_type = "Adventurer", id = "99997565", slug = "once-more-for-taiwanese-bird-investigation" }]
+variants = [{ city = "Lisbon", guild_type = "Adventure", id = "99997565", slug = "once-more-for-taiwanese-bird-investigation" }]
 steps = []
 prerequisites = [{ id = "99997560", name = "Taiwan Bird Investigation", slug = "taiwan-bird-investigation" }]
 followups = [{ id = "99997568", name = "One More Time For Taiwanese Investigation", slug = "one-more-time-for-taiwanese-investigation" }]

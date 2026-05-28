@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99991308"
 quest_number = "15857"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 7
 exp_reward = 0
 fame_reward = 0
-variants = [{ city = "Treasure Hunt", guild_type = "Adventurer", id = "99991308", slug = "trade-route-expansion-project" }]
+variants = [{ city = "Treasure Hunt", guild_type = "Adventure", id = "99991308", slug = "trade-route-expansion-project" }]
 skills = [{ name = "Search", level = 11 }, { name = "Theology", level = 13 }, { name = "Archaeology", level = 9 }]
 +++
 

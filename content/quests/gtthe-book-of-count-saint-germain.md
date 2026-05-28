@@ -8,12 +8,12 @@ slug = "gtthe-book-of-count-saint-germain"
 id = "99990405"
 type = "Adventure"
 city = "Treasure Hunt"
-guild_type = "Adventurer"
+guild_type = "Adventure"
 discovery = ""
 reward = 0
 advance = 0
 difficulty = 5
 skills = [{ name = "Search", level = 7 }, { name = "Archaeology", level = 9 }, { name = "French", level = 1 }]
-variants = [{ city = "Treasure Hunt", guild_type = "Adventurer", id = "99990405", slug = "gtthe-book-of-count-saint-germain" }]
+variants = [{ city = "Treasure Hunt", guild_type = "Adventure", id = "99990405", slug = "gtthe-book-of-count-saint-germain" }]
 steps = []
 +++

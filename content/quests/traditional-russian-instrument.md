@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990026"
 quest_number = "15189"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 6
 exp_reward = 331000
 fame_reward = 30000
-variants = [{ city = "Naples Adventurer's Guild", guild_type = "Adventurer", id = "99990026", slug = "traditional-russian-instrument" }]
+variants = [{ city = "Naples Adventurer's Guild", guild_type = "Adventure", id = "99990026", slug = "traditional-russian-instrument" }]
 skills = [{ name = "Search", level = 5 }, { name = "Appraisal", level = 7 }]
 discovery = "Gusli"
 discovery_id = "70000746"

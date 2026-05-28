@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99993488"
 quest_number = "277"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 0
 exp_reward = 58000
 fame_reward = 20000
-variants = [{ city = "", guild_type = "Adventurer", id = "99993488", slug = "the-jewel-of-astaroth" }]
+variants = [{ city = "", guild_type = "Adventure", id = "99993488", slug = "the-jewel-of-astaroth" }]
 skills = []
 steps = [{ step = 1, location = "West Caribbean Sea", action = "하바나 북쪽에서 케른의 비술 사단 격퇴" }]
 +++

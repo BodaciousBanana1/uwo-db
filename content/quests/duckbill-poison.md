@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99996924"
 quest_number = "12901"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 6
 exp_reward = 115200
 fame_reward = 0
-variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventurer", id = "99996924", slug = "duckbill-poison" }]
+variants = [{ city = "Jakarta Adventurer's Guild", guild_type = "Adventure", id = "99996924", slug = "duckbill-poison" }]
 skills = [{ name = "Malay/Tagalog", level = 1 }, { name = "Oceanic Languages", level = 1 }]
 +++
 

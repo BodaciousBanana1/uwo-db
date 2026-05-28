@@ -6,11 +6,11 @@ template = "quests/page.html"
 [extra]
 id = "99990104"
 quest_number = "13744"
-type = "Adventurer"
+type = "Adventure"
 difficulty = 8
 exp_reward = 168000
 fame_reward = 10000
-variants = [{ city = "Istanbul Adventurer's Guild", guild_type = "Adventurer", id = "99990104", slug = "investigation-of-the-mysterious-pyramid" }]
+variants = [{ city = "Istanbul Adventurer's Guild", guild_type = "Adventure", id = "99990104", slug = "investigation-of-the-mysterious-pyramid" }]
 skills = [{ name = "Recognition", level = 9 }, { name = "Archaeology", level = 11 }]
 discovery = "Pyramids of Guimar"
 discovery_id = "70002739"
