@@ -84,7 +84,7 @@
 </div>
 
 {% set link_secs = "cities,zones,skills" %}{% include "partials/link_index.html" %}
-<script src="{{ get_url(path='js/tracker.js') }}"></script>
+<script src="{{ get_url(path='js/tracker.js', cachebust=true) }}"></script>
 <script>
 (async () => {
   const $ = id => document.getElementById(id);

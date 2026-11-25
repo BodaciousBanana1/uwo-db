@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% block title %}{% if page and page.title %}{{ page.title }} - {{ config.title }}{% elif section and section.title %}{{ section.title }} - {{ config.title }}{% else %}{{ config.title }}{% endif %}{% endblock %}</title>
-  <link rel="stylesheet" href="{{ get_url(path='css/style.css') }}">
+  <link rel="stylesheet" href="{{ get_url(path='css/style.css', cachebust=true) }}">
   <link rel="stylesheet" href="{{ get_url(path='pagefind/pagefind-ui.css') }}">
   {% block extra_head %}{% endblock %}
 </head>
@@ -126,9 +126,9 @@
 
   <div class="nav-backdrop" id="nav-backdrop" hidden></div>
 
-  <script src="{{ get_url(path='js/mobile.js') }}"></script>
-  <script src="{{ get_url(path='js/app.js') }}"></script>
-  <script src="{{ get_url(path='js/a11y.js') }}"></script>
+  <script src="{{ get_url(path='js/mobile.js', cachebust=true) }}"></script>
+  <script src="{{ get_url(path='js/app.js', cachebust=true) }}"></script>
+  <script src="{{ get_url(path='js/a11y.js', cachebust=true) }}"></script>
   <script src="{{ get_url(path='pagefind/pagefind-ui.js') }}"></script>
   <script>
     window.addEventListener('DOMContentLoaded', () => {

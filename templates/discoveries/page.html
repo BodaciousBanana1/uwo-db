@@ -98,7 +98,7 @@
     <a href="{{ get_url(path='discoveries') }}/" class="back-link">← Back to Discoveries</a>
   </footer>
 </article>
-<script src="{{ get_url(path='js/tracker.js') }}"></script>
+<script src="{{ get_url(path='js/tracker.js', cachebust=true) }}"></script>
 <script>
 (() => {
   // found/not found, saved in this browser (static/js/tracker.js)

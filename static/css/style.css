@@ -911,6 +911,19 @@ td a { padding-inline: 4px; margin-inline: -4px; }
   cursor: grab;
 }
 .range-slider .range-lower { margin-bottom: 0; }
+/* min/max pairs share one track: the upper input sits on top of the lower one and only
+   the thumbs take the pointer, so either thumb can be dragged; each stays its own
+   keyboard control */
+.range-slider .range-upper { margin-top: -24px; position: relative; }
+.range-slider:has(.range-upper) .range-input { pointer-events: none; }
+.range-slider:has(.range-upper) .range-input::-webkit-slider-thumb { pointer-events: auto; }
+.range-slider:has(.range-upper) .range-input::-moz-range-thumb { pointer-events: auto; }
+.range-slider .range-upper::-webkit-slider-runnable-track { background: transparent; }
+.range-slider .range-upper::-moz-range-track { background: transparent; }
+/* focus ring on the thumb being moved, not round the whole (shared) track */
+.range-input:focus-visible { outline: none; }
+.range-input:focus-visible::-webkit-slider-thumb { box-shadow: 0 0 0 3px var(--bg-dark), 0 0 0 5px var(--text); }
+.range-input:focus-visible::-moz-range-thumb { box-shadow: 0 0 0 3px var(--bg-dark), 0 0 0 5px var(--text); }
 
 /* Ships grid */
 .ships-grid {
