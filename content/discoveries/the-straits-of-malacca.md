@@ -1,0 +1,12 @@
++++
+title = "The Straits of Malacca"
+template = "discoveries/page.html"
+
+[extra]
+archive_import = true
+archive_id = "70001146"
+category = "Geography"
+unnamed = false
+disc = { description = "The strait passing between the Malay Peninsula and the island of Sumatra. This strait is an important passage for east and west trade but it's very narrow, and the water is extremely shallow. Also, because there are many hidden reefs and shoals, sailors must be particularly attentive and careful when passing through.", stars = 2, category = "Geography", exp = 320, fame = 160, ducats = 64000, maps = [], quests = [{ id = "99994696", name = "Narrow Path to the Eastern Islands", difficulty = 2, skills = [{ name = "Recognition", rank = 4 }, { name = "Geography", rank = 6 }, { name = "Malay/Tagalog", rank = 1 }], location = "The Andaman Sea", location_id = "90000047", rewards = [{ id = "01500232", name = "Quest Mediation Permit 1" }] }, { id = "99991535", name = "Further Research on Manta Ray", skills = [{ name = "Recognition", rank = 4 }, { name = "Geography", rank = 6 }], location = "The Andaman Sea", location_id = "90000047", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99991535", name = "Further Research on Manta Ray", skills = [{ name = "Recognition", rank = 4 }, { name = "Geography", rank = 6 }], location = "The Andaman Sea", location_id = "90000047", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99991535", name = "Further Research on Manta Ray", skills = [{ name = "Recognition", rank = 4 }, { name = "Geography", rank = 6 }], location = "The Andaman Sea", location_id = "90000047", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99991535", name = "Further Research on Manta Ray", skills = [{ name = "Recognition", rank = 4 }, { name = "Geography", rank = 6 }], location = "The Andaman Sea", location_id = "90000047", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99991535", name = "Further Research on Manta Ray", skills = [{ name = "Recognition", rank = 4 }, { name = "Geography", rank = 6 }], location = "The Andaman Sea", location_id = "90000047", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99991535", name = "Further Research on Manta Ray", skills = [{ name = "Recognition", rank = 4 }, { name = "Geography", rank = 6 }], location = "The Andaman Sea", location_id = "90000047", rewards = [{ id = "01500263", name = "Patriot Award" }] }], ornaments = [] }
++++
+

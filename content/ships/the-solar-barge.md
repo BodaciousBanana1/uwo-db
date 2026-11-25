@@ -4,7 +4,7 @@ date = 2026-05-22
 template = "ships/page.html"
 
 [extra]
-id = "ship_0323"
+id = "ship_0360"
 slug = "the-solar-barge"
 size = "Lgt"
 ship_type = "adventure"
@@ -26,10 +26,5 @@ masts = 1
 material = "Cedar"
 is_cash_ship = false
 is_steam = false
-shipbuilding = [
-  { city = "Nantes", city_slug = "nantes", skill_rank = 1, material = "Iron-plated", hull = "Large 3-decked Hull" },
-  { city = "Marseille", city_slug = "marseille", skill_rank = 1, material = "Iron-plated", hull = "Large 3-decked Hull" },
-  { city = "Marseille", city_slug = "marseille", skill_rank = 1, material = "For French military use", hull = "Official Large 3-decked Hull" },
-]
 +++
 

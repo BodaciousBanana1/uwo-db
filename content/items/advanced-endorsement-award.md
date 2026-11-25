@@ -1,0 +1,12 @@
++++
+title = "Advanced Endorsement Award"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "01500545"
+category = "Consumable"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-wiki"><br> <br> Possible Drop - Job<br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/book-of-laws/">Book of Laws</a> - <a href="https://bodaciousbanana1.github.io/uwo-db/?q=Thief">Thief</a><br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/hunting-permit/">Hunting Permit</a> - <a href="https://bodaciousbanana1.github.io/uwo-db/?q=Hunter">Hunter</a><br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/unexplored-land-survey-mandate/">Unexplored Land Survey Mandate</a> - <a href="https://bodaciousbanana1.github.io/uwo-db/jobs/ranger/">Ranger</a><br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/guerillas-endorsement/">Guerillas Endorsement</a> - <a href="https://bodaciousbanana1.github.io/uwo-db/jobs/guerilla/">Guerilla</a><br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/first-grade-forging-licence/">First Grade Forging Licence</a> - <a href="https://bodaciousbanana1.github.io/uwo-db/jobs/blacksmith/">Blacksmith</a><br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/punitive-permit/">Punitive Permit</a> - <a href="https://bodaciousbanana1.github.io/uwo-db/jobs/bounty-hunter/">Bounty Hunter</a><br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/grandmaster-endorsement/">Grandmaster Endorsement</a> - <a href="https://bodaciousbanana1.github.io/uwo-db/jobs/swordfighter/">Swordfighter</a><br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/swordsfighter-endorsement/">Swordsfighter Endorsement</a> - <a href="https://bodaciousbanana1.github.io/uwo-db/jobs/sword-master/">Sword Master</a> / <a href="https://bodaciousbanana1.github.io/uwo-db/jobs/light-soldier/">Light Soldier</a></div><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Advanced Endorsement Award <br> A treasure chest swappable for roman coins.<br>Contains Endorsements for switching to advanced jobs. </li> <li class="x-item1" style="flex:0 1 300px"><br> </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <ul class="x-unli1"><br><div class="x-INFO_TAB">Ingredients</div> </ul> <ul class="x-underline"></ul> </div> <br></div></div>

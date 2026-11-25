@@ -1,0 +1,12 @@
++++
+title = "Beinan River"
+template = "discoveries/page.html"
+
+[extra]
+archive_import = true
+archive_id = "70001959"
+category = "Geography"
+unnamed = false
+disc = { description = "A river that runs along the eastern part of Taiwan. Named after the native Beinan people. It's complex landscape has been compared to China's Mount Huang.", stars = 2, category = "Geography", exp = 340, fame = 170, ducats = 68000, maps = [], quests = [{ id = "99996881", name = "Geographical Study of Anping", skills = [{ name = "Recognition", rank = 3 }, { name = "Geography", rank = 5 }, { name = "Chinese", rank = 1 }], location = "Eastern East Asia", location_id = "90000091", rewards = [{ id = "01500232", name = "Quest Mediation Permit" }] }, { id = "99997905", name = "The Securing of a Water Source", skills = [{ name = "Recognition", rank = 3 }, { name = "Geography", rank = 5 }], location = "Eastern East Asia", location_id = "90000091", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99997905", name = "The Securing of a Water Source", skills = [{ name = "Recognition", rank = 3 }, { name = "Geography", rank = 5 }], location = "Eastern East Asia", location_id = "90000091", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99997905", name = "The Securing of a Water Source", skills = [{ name = "Recognition", rank = 3 }, { name = "Geography", rank = 5 }], location = "Eastern East Asia", location_id = "90000091", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99997905", name = "The Securing of a Water Source", skills = [{ name = "Recognition", rank = 3 }, { name = "Geography", rank = 5 }], location = "Eastern East Asia", location_id = "90000091", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99997905", name = "The Securing of a Water Source", skills = [{ name = "Recognition", rank = 3 }, { name = "Geography", rank = 5 }], location = "Eastern East Asia", location_id = "90000091", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99997905", name = "The Securing of a Water Source", skills = [{ name = "Recognition", rank = 3 }, { name = "Geography", rank = 5 }], location = "Eastern East Asia", location_id = "90000091", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99997905", name = "The Securing of a Water Source", skills = [{ name = "Recognition", rank = 3 }, { name = "Geography", rank = 5 }], location = "Eastern East Asia", location_id = "90000091", rewards = [{ id = "01500263", name = "Patriot Award" }] }], ornaments = [] }
++++
+

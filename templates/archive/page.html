@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% import "macros/link.html" as link %}
+{#- Generic page for content imported from the original database
+    (scripts/import_archive_pages.py). The body is pre-sanitised archive HTML. -#}
+
+{% block title %}{% set sec = get_section(path=page.ancestors | last, metadata_only=true) %}{{ page.title }} - {{ sec.title }}{% endblock %}
+
+{% block content %}
+{% set sec = get_section(path=page.ancestors | last, metadata_only=true) %}
+<article class="detail-page archive-import">
+  <header class="detail-header">
+    <nav class="breadcrumb">
+      <a href="{{ sec.permalink }}">{{ sec.title }}</a>
+    </nav>
+    <h1>{{ page.title }}</h1>
+    <div class="detail-meta">
+      <span class="skill-badge">{{ page.extra.category }}</span>
+      <a href="https://dhodb.ivyro.net/eg/main.php?id={{ page.extra.archive_id }}" target="_blank" rel="noopener" class="source-link" data-pagefind-ignore>Source #{{ page.extra.archive_id }}</a>
+    </div>
+  </header>
+
+  <section class="detail-section">
+    <p class="notes-source" data-pagefind-ignore>Imported from the original UWO Database. Layout is approximate and some details may be out of date.</p>
+    {{ page.content | safe }}
+  </section>
+
+  {% include "partials/item_sources.html" %}
+
+  {% set archive_id = page.extra.archive_id %}
+  {% set skip_wiki = true %}
+  {% include "partials/archived_notes.html" %}
+
+  <footer class="detail-footer">
+    <a href="{{ sec.permalink }}" class="back-link">← Back to {{ sec.title }}</a>
+  </footer>
+</article>
+{% endblock %}

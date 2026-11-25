@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% import "macros/link.html" as link %}
 
 {% block title %}{{ page.title }} - Trade Goods{% endblock %}
 
@@ -33,7 +34,7 @@
         <tbody>
           {% for port in page.extra.ports %}
           <tr>
-            <td><a href="{{ config.base_url }}/cities/{{ port.slug }}/">{{ port.name }}</a></td>
+            <td>{{ link::to(secs="cities,zones", name=port.name, slug=port.slug | default(value="")) }}</td>
             <td class="num rating">{% for i in range(end=port.rating) %}★{% endfor %}</td>
             <td class="num price">{{ port.price }}</td>
             <td class="num invest">{% if port.investment %}{{ port.investment }}{% else %}-{% endif %}</td>
@@ -50,7 +51,7 @@
       <p class="skill-note">Gathered using the <a href="{{ config.base_url }}/skills/collection/">Collection</a> skill</p>
       <ul class="source-grid">
         {% for src in page.extra.collection_sources %}
-        <li><a href="{{ config.base_url }}/landing-points/{{ src.slug }}/">{{ src.name }}</a></li>
+        <li>{{ link::to(secs="landing-points,zones", name=src.name, slug=src.slug | default(value="")) }}</li>
         {% endfor %}
       </ul>
     </section>
@@ -62,12 +63,22 @@
       <p class="skill-note">Gathered using the <a href="{{ config.base_url }}/skills/procurement/">Procurement</a> skill</p>
       <ul class="source-grid">
         {% for src in page.extra.procurement_sources %}
-        <li><a href="{{ config.base_url }}/landing-points/{{ src.slug }}/">{{ src.name }}</a></li>
+        <li>{{ link::to(secs="landing-points,zones", name=src.name, slug=src.slug | default(value="")) }}</li>
         {% endfor %}
       </ul>
     </section>
     {% endif %}
   </div>
+
+  {% include "partials/item_sources.html" %}
+
+  {% set archive_id = page.extra.item_id | default(value="") %}
+  {% if not archive_id %}
+    {#- most trade goods lack item_id; matched by name in scripts/extract_archive_comments.py -#}
+    {% set trade_ids = load_data(path="data/trade_good_archive_ids.json", required=false) %}
+    {% if trade_ids %}{% set archive_id = trade_ids[page.slug] | default(value="") %}{% endif %}
+  {% endif %}
+  {% include "partials/archived_notes.html" %}
 
   <footer class="detail-footer">
     <a href="{{ config.base_url }}/trade-goods/" class="back-link">← Back to Trade Goods</a>

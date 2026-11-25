@@ -4,7 +4,7 @@ date = 2026-05-22
 template = "ships/page.html"
 
 [extra]
-id = "ship_0390"
+id = "ship_0445"
 slug = "shadow-flying-cloud"
 size = "Hvy"
 ship_type = "trade"
@@ -26,8 +26,5 @@ masts = 3
 material = "Nocturnal Wood"
 is_cash_ship = false
 is_steam = false
-shipbuilding = [
-  { city = "Seville", city_slug = "seville", skill_rank = 1, material = "Unknown", hull = "Large Flush Deck Style Hull" },
-]
 +++
 

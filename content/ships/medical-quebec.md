@@ -4,7 +4,7 @@ date = 2026-05-22
 template = "ships/page.html"
 
 [extra]
-id = "ship_0125"
+id = "ship_0127"
 slug = "medical-quebec"
 size = "Hvy"
 ship_type = "battle"
@@ -26,8 +26,5 @@ masts = 3
 material = "Rosewood"
 is_cash_ship = false
 is_steam = false
-shipbuilding = [
-  { city = "Marseille", city_slug = "marseille", skill_rank = 1, material = "Oak", hull = "Large Flush Deck Style Hull" },
-]
 +++
 

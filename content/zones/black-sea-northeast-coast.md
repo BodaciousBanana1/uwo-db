@@ -1,0 +1,12 @@
++++
+title = "Black Sea Northeast Coast"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "90001119"
+category = "Zone"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Black Sea Northeast Coast <br> Black Sea Northeast Coast<br>105F0000<br>LAND_BLACKSEANE_L_000<br>LAND043_BLACKSEAE<br>LAND043_BLACKSEAE<br>Black Sea Northeast Coast<br>Black Sea Northeast Coast </li> <li class="x-item1" style="flex:0 1 300px"><a href="https://bodaciousbanana1.github.io/uwo-db/zones/black-sea-northeast-coast/">Black Sea Northeast Coast</a> <span class="x-hl">2</span><br> </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/a-man-named-yasawi/">A Man Named Yasawi</a> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/recognition/">Recognition</a> 15 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/theology/">Theology</a> 17 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/turkish/">Turkish</a> 1 <a href="https://bodaciousbanana1.github.io/uwo-db/discoveries/mausoleum-of-khoja-ahmed-yasawi/">Mausoleum of Khoja Ahmed Yasawi</a> <span class="x-hl">2</span><br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/panama-odor-incident/">Panama Odor Incident</a> <span class="x-hl">1</span> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/theology/">Theology</a> 8 <a href="https://bodaciousbanana1.github.io/uwo-db/discoveries/gnome/">Gnome</a> <span class="x-hl">1</span></div> <br></div></div>

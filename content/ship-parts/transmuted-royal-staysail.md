@@ -1,0 +1,12 @@
++++
+title = "Transmuted Royal Staysail"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "00601160"
+category = "Sail"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Transmuted Royal Staysail <br> Royal Staysails transmuted<br>using Orichalcum. Three<br>fore-and-aft sails attached to the mast. </li> <li class="x-item1" style="flex:0 1 300px"><br> <div class="x-INFO_TAB">Base Performance</div> <div class="x-state0">+26</div> <div class="x-state1">+16</div> <div class="x-state3">-0</div> <div class="x-state10">100</div> </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <div class="x-INFO_TAB">Recipe</div> <div> Transformation<br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/transformation/">Transformation</a></div> <div>Transformation<br> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/alchemy/">Alchemy</a> 8 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/sewing/">Sewing</a> 8</div> <div class="x-RECIPESMALLFONT">Transforms the Base Item into a special studding sail<br>by using the mysterious metal.</div> <div class="x-INFO_TAB">Obtained Info</div> <div class="x-RECIPESMALLFONT"> Transmutation Alchemy Equipment(Quarters)</div> <div class="x-RECIPEFONT"> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/items/weathered-sail/"><br>Weathered Sail</a><div></div></div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/items/seal-of-sylph/"><br>Seal of Sylph</a><div></div></div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/trade-goods/orange-oil/"><br>Orange Oil</a><div></div></div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/items/orichalcum/"><br>Orichalcum</a><div></div></div> <div><br></div> <div><a href="https://bodaciousbanana1.github.io/uwo-db/ship-parts/transmuted-royal-staysail/"><br>Transmuted Royal Staysail</a> </div> </div> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> </div> <br></div></div>

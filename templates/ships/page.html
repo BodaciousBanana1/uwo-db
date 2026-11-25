@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% import "macros/link.html" as link %}
 
 {% block title %}{{ page.title }} - Ship{% endblock %}
 
@@ -83,7 +84,7 @@
         <table class="stats-table ports-table">
           {% for port in page.extra.ports %}
           <tr>
-            <td><span class="port-dot"></span> <a href="{{ config.base_url }}/cities/{{ port.slug }}/">{{ port.name }}</a></td>
+            <td><span class="port-dot"></span> {{ link::to(secs="cities,zones", name=port.name, slug=port.slug | default(value="")) }}</td>
             <td>{{ port.price }} đ</td>
           </tr>
           {% endfor %}
@@ -108,9 +109,9 @@
           <tbody>
           {% for loc in page.extra.shipbuilding %}
           <tr>
-            <td><a href="{{ config.base_url }}/cities/{{ loc.city_slug }}/">{{ loc.city }}</a></td>
+            <td>{{ link::to(secs="cities,zones", name=loc.city, slug=loc.city_slug | default(value="")) }}</td>
             <td>Rank {{ loc.skill_rank }}</td>
-            <td>{{ loc.material }}</td>
+            <td>{% if loc.material and loc.material != "Unknown" %}{{ link::to(secs="trade-goods,items,guides", name=loc.material) }}{% else %}{{ loc.material }}{% endif %}</td>
           </tr>
           {% endfor %}
           </tbody>
@@ -196,7 +197,7 @@
           <tr><td>Hold</td><td>{{ page.extra.hold }}</td></tr>
           <tr><td>Cabin</td><td>{{ page.extra.cabin_min }} — {{ page.extra.cabin_max }}</td></tr>
           <tr><td>Masts</td><td>{{ page.extra.masts }}</td></tr>
-          <tr><td>Material</td><td>{{ page.extra.material }}</td></tr>
+          <tr><td>Material</td><td>{% if page.extra.material and page.extra.material != "Unknown" %}{{ link::to(secs="trade-goods,items,guides", name=page.extra.material) }}{% else %}{{ page.extra.material }}{% endif %}</td></tr>
         </table>
       </section>
 
@@ -226,5 +227,7 @@
 #}
     </div>
   </div>
+  {% set archive_id = "5000" ~ page.extra.id | default(value="") | replace(from="ship_", to="") %}
+  {% include "partials/archived_notes.html" %}
 </article>
 {% endblock %}

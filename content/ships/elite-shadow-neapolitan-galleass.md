@@ -4,7 +4,7 @@ date = 2026-05-22
 template = "ships/page.html"
 
 [extra]
-id = "ship_0835"
+id = "ship_0932"
 slug = "elite-shadow-neapolitan-galleass"
 size = "Hvy"
 ship_type = "battle"

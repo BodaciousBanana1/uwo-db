@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% import "macros/link.html" as link %}
 
 {% block title %}{{ page.title }} - Recipe Books{% endblock %}
 
@@ -11,7 +12,7 @@
     <h1>{{ page.title }}</h1>
     <div class="detail-meta">
       {% if page.extra.skill %}
-      <a href="{{ config.base_url }}/skills/{{ page.extra.skill_slug }}/" class="skill-badge-link">{{ page.extra.skill }}</a>
+      {{ link::to(secs="skills", name=page.extra.skill, slug=page.extra.skill_slug | default(value=""), cls="skill-badge-link") }}
       {% endif %}
       {% if page.extra.skill_rank > 0 %}
       <span class="rank-badge">Rank {{ page.extra.skill_rank }}+</span>
@@ -44,19 +45,19 @@
           <div class="recipe-header">
             <span class="recipe-name">{{ recipe.name }}</span>
             {% if recipe.skill %}
-            <span class="recipe-skill">{{ recipe.skill }} Rank {{ recipe.rank }}</span>
+            <span class="recipe-skill">{{ link::to(secs="skills", name=recipe.skill) }} Rank {{ recipe.rank }}</span>
             {% endif %}
           </div>
           <div class="recipe-formula">
             <span class="recipe-ingredients">
               {% for ing in recipe.ingredients %}
-              <a href="{{ config.base_url }}/trade-goods/{{ ing.slug }}/" class="ingredient-link">{{ ing.name }}</a> x{{ ing.quantity }}{% if not loop.last %} + {% endif %}
+              {{ link::to(secs="trade-goods,items,equipment,ship-parts,furnishings,pets,recipes", name=ing.name, slug=ing.slug | default(value=""), cls="ingredient-link") }} x{{ ing.quantity }}{% if not loop.last %} + {% endif %}
               {% endfor %}
             </span>
             <span class="recipe-arrow">→</span>
             <span class="recipe-output">
               {% if recipe.output.name %}
-              <a href="{{ config.base_url }}/trade-goods/{{ recipe.output.slug }}/" class="output-link">{{ recipe.output.name }}</a> x{{ recipe.output.quantity }}
+              {{ link::to(secs="trade-goods,items,equipment,ship-parts,furnishings,pets,recipes", name=recipe.output.name, slug=recipe.output.slug | default(value=""), cls="output-link") }} x{{ recipe.output.quantity }}
               {% endif %}
             </span>
           </div>
@@ -66,6 +67,11 @@
     </section>
     {% endif %}
   </div>
+
+  {% include "partials/item_sources.html" %}
+
+  {% set archive_id = page.extra.id | default(value="") %}
+  {% include "partials/archived_notes.html" %}
 
   <footer class="detail-footer">
     <a href="{{ config.base_url }}/recipes/" class="back-link">← Back to Recipe Books</a>

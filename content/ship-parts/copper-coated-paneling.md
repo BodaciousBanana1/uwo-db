@@ -1,0 +1,12 @@
++++
+title = "Copper-coated Paneling"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "02200085"
+category = "Hull / paneling"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Copper-coated Paneling <br> Paneling to change Ship Material to Copper-coating.<br>Durability: 135% / Speed: 96% </li> <li class="x-item1" style="flex:0 1 300px"><br><div class="x-st0"> </div><div></div><div class="x-st0"> </div><div></div><div class="x-st0"> </div><div></div> <br> <br>Light Standard Heavy <br> <br>change ship material / Development 68,000 Invest 680,000 </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <div class="x-INFO_TAB">Recipe</div> <div> Making Iron Paneling<br> <a href="https://bodaciousbanana1.github.io/uwo-db/recipes/making-iron-paneling/">Making Iron Paneling</a></div> <div>Make Copper-coated Paneling<br> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/casting/">Casting</a> 15 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/shipbuilding/">Shipbuilding</a> 10</div> <div class="x-RECIPESMALLFONT">How to make Paneling to re-cover<br>ship material with Copper-coating.</div> <div class="x-INFO_TAB">Obtained Info</div> <div class="x-RECIPESMALLFONT"> Naples, Famagusta, Dublin - Shipwright(Town&#x27;s mans Recipe)</div> <div class="x-RECIPEFONT"> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/ship-parts/rolled-copper-plating/"><br>Rolled Copper Plating</a><div></div></div> <div><br>+</div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/trade-goods/copper/"><br>Copper</a><div></div></div> <div><br>+</div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/items/master-s-smithy-tools/"><br>Master&#x27;s Smithy Tools</a><div></div></div> <div><br></div> <div><a href="https://bodaciousbanana1.github.io/uwo-db/ship-parts/copper-coated-paneling/"><br>Copper-coated Paneling</a> </div> </div> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <ul class="x-unli1"><br><div class="x-INFO_TAB">Ingredients</div> </ul> <ul class="x-underline"></ul> </div> <br></div></div>

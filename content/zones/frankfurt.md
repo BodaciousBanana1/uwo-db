@@ -1,0 +1,12 @@
++++
+title = "Frankfurt"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "90006000"
+category = "Zone"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Frankfurt <br> Frankfurt<br>8BD0000<br>TOWN_FRANKFURT_T_000<br>TOWN189<br>TOWN189<br>Frankfurt<br>Frankfurt </li> <li class="x-item1" style="flex:0 1 300px"><br> </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/a-fruitless-flower-swaying-in-the-white-night/">A fruitless flower swaying in the white night</a> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/german/">German</a> 1 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/slavic/">Slavic</a> 1 <br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/beloved-wind-instrument/">Beloved Wind Instrument</a> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/search/">Search</a> 3 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/appraisal/">Appraisal</a> 5 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/german/">German</a> 1 <a href="https://bodaciousbanana1.github.io/uwo-db/discoveries/zink/">Zink</a> <span class="x-hl">1</span><br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/bell-that-tolls-at-night/">Bell that Tolls at Night</a> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/search/">Search</a> 3 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/appraisal/">Appraisal</a> 5 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/french/">French</a> 1 <a href="https://bodaciousbanana1.github.io/uwo-db/discoveries/cylinder-music-box/">Cylinder Music Box</a><br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/further-research-on-ancient-roman-emperors-relic/">Further Research on ancient Roman Emperor&#x27;s Relic</a> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/search/">Search</a> 12 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/archaeology/">Archaeology</a> 14 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/italian/">Italian</a> 1 <a href="https://bodaciousbanana1.github.io/uwo-db/discoveries/meditations/">Meditations</a> <span class="x-hl">4</span></div> <br></div></div>

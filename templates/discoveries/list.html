@@ -1,0 +1,170 @@
+{% extends "base.html" %}
+{#- All discoveries, filterable. Data per page in extra.disc (scripts/extract_discoveries.py). -#}
+
+{% block title %}{{ section.title }}{% endblock %}
+
+{% block content %}
+{% set categories = section.pages | map(attribute="extra.category") | unique | sort %}
+<section class="page-header">
+  <h1>{{ section.title }}</h1>
+  <p class="page-subtitle"><span id="visible-count">{{ section.pages | length }}</span> of {{ section.pages | length }} discoveries</p>
+</section>
+
+<div class="filter-layout">
+  <aside class="filter-panel">
+    <div class="filter-header">
+      <span class="filter-title">FILTERS</span>
+      <button class="filter-reset" id="reset-filters">Reset</button>
+    </div>
+    <div class="filter-section">
+      <div class="filter-section-header">SEARCH</div>
+      <input type="text" id="disc-search" class="filter-search" placeholder="Name or description...">
+    </div>
+    <div class="filter-section">
+      <div class="filter-section-header">TYPE</div>
+      <select id="disc-category" class="filter-select" style="width:100%">
+        <option value="">All types</option>
+        {% for c in categories %}<option value="{{ c }}">{{ c }}</option>{% endfor %}
+      </select>
+    </div>
+    <div class="filter-section">
+      <div class="filter-section-header">FOUND BY</div>
+      <select id="disc-via" class="filter-select" style="width:100%">
+        <option value="">Anything</option>
+        <option value="map">Archive map</option>
+        <option value="quest">Quest</option>
+        <option value="none">Neither listed</option>
+      </select>
+    </div>
+    <div class="filter-section">
+      <div class="filter-section-header">MY DISCOVERIES <span class="filter-hint" id="found-progress"></span></div>
+      <select id="disc-found" class="filter-select" style="width:100%">
+        <option value="">Found and not found</option>
+        <option value="no">Not found yet</option>
+        <option value="yes">Found</option>
+      </select>
+      <div class="tracker-io">
+        <button type="button" class="filter-reset" id="found-export" title="Download your found list">Export</button>
+        <button type="button" class="filter-reset" id="found-import" title="Load a found list (merges)">Import</button>
+        <input type="file" id="found-file" accept=".json,application/json" hidden>
+      </div>
+      <p class="planner-hint">Tick discoveries as you find them. Saved in this browser only, so export a backup.</p>
+    </div>
+    <div class="filter-section">
+      <div class="filter-section-header">MIN RARITY</div>
+      <select id="disc-stars" class="filter-select" style="width:100%">
+        <option value="0">Any</option>
+        {% for i in range(start=1, end=8) %}<option value="{{ i }}">{% for j in range(end=i) %}★{% endfor %}+</option>{% endfor %}
+      </select>
+    </div>
+    <div class="filter-section">
+      <div class="filter-section-header">MIN EXP</div>
+      <div class="range-slider">
+        <div class="range-values"><span class="range-min">0</span><span class="range-max" id="exp-value">0</span></div>
+        <input type="range" class="range-input" id="disc-exp" min="0" max="2000" value="0" step="10">
+      </div>
+    </div>
+  </aside>
+
+  <section class="maps-results">
+    <table class="data-table" id="disc-table">
+      <thead>
+        <tr>
+          <th class="found-col" title="Found">✓</th><th>Discovery</th><th>Type</th><th>Rarity</th><th>Found By</th>
+          <th class="num">Exp</th><th class="num">Fame</th><th class="num">Ducats</th>
+        </tr>
+      </thead>
+      <tbody id="disc-body">
+        {% for p in section.pages %}
+        {% set d = p.extra.disc | default(value=false) %}
+        {% set via = "" %}
+        {% if d and d.maps | length > 0 %}{% set via = "map" %}{% endif %}
+        {% if d and d.quests | length > 0 %}{% set via = via ~ " quest" %}{% endif %}
+        <tr data-id="{{ p.extra.archive_id }}" data-name="{{ p.title | lower }}" data-desc="{% if d %}{{ d.description | default(value='') | lower }}{% endif %}"
+            data-category="{{ p.extra.category }}" data-via="{{ via | trim }}"
+            data-stars="{% if d %}{{ d.stars | default(value=0) }}{% else %}0{% endif %}"
+            data-exp="{% if d %}{{ d.exp | default(value=0) }}{% else %}0{% endif %}">
+          <td class="found-col"><input type="checkbox" class="found-box" aria-label="Found {{ p.title }}"></td>
+          <td class="item-name"><a href="{{ p.permalink }}" class="xref">{{ p.title }}</a></td>
+          <td>{{ p.extra.category }}</td>
+          <td class="disc-stars">{% if d and d.stars %}{% for i in range(end=d.stars) %}★{% endfor %}{% else %}-{% endif %}</td>
+          <td>{% if d %}{% if d.maps | length > 0 %}<span class="skill-tag">Map ×{{ d.maps | length }}</span> {% endif %}{% if d.quests | length > 0 %}<span class="skill-tag">Quest ×{{ d.quests | length }}</span>{% endif %}{% if d.maps | length == 0 and d.quests | length == 0 %}-{% endif %}{% else %}-{% endif %}</td>
+          <td class="num">{% if d and d.exp %}{{ d.exp }}{% else %}-{% endif %}</td>
+          <td class="num">{% if d and d.fame %}{{ d.fame }}{% else %}-{% endif %}</td>
+          <td class="num">{% if d and d.ducats %}{{ d.ducats }}{% else %}-{% endif %}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </section>
+</div>
+
+<script src="{{ get_url(path='js/tracker.js') }}"></script>
+<script>
+(() => {
+  const $ = id => document.getElementById(id);
+  const rows = [...document.querySelectorAll('#disc-body tr')];
+  const controls = ['disc-search', 'disc-category', 'disc-via', 'disc-stars', 'disc-exp', 'disc-found'].map($);
+  function filter() {
+    const q = $('disc-search').value.toLowerCase().trim();
+    const cat = $('disc-category').value, via = $('disc-via').value;
+    const stars = +$('disc-stars').value, exp = +$('disc-exp').value, fnd = $('disc-found').value;
+    $('exp-value').textContent = exp;
+    let n = 0;
+    for (const r of rows) {
+      const d = r.dataset;
+      const show = (!q || d.name.includes(q) || d.desc.includes(q))
+        && (!cat || d.category === cat)
+        && (!via || (via === 'none' ? !d.via : d.via.split(' ').includes(via)))
+        && +d.stars >= stars && +d.exp >= exp
+        && (!fnd || (fnd === 'yes') === UWOTracker.has(d.id));
+      r.hidden = !show;
+      if (show) n++;
+    }
+    $('visible-count').textContent = n;
+  }
+  // found ticks (static/js/tracker.js)
+  function syncFound() {
+    let f = 0;
+    for (const r of rows) {
+      const on = UWOTracker.has(r.dataset.id);
+      r.querySelector('.found-box').checked = on;
+      r.classList.toggle('is-found', on);
+      if (on) f++;
+    }
+    $('found-progress').textContent = `${f} / ${rows.length}`;
+  }
+  $('disc-body').addEventListener('change', e => {
+    if (e.target.classList.contains('found-box')) UWOTracker.toggle(e.target.closest('tr').dataset.id, e.target.checked);
+  });
+  UWOTracker.onChange(() => { syncFound(); if ($('disc-found').value) filter(); });
+  $('found-export').addEventListener('click', () => {
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(new Blob([UWOTracker.exportText()], { type: 'application/json' }));
+    a.download = 'uwo-discoveries-found.json';
+    a.click();
+    URL.revokeObjectURL(a.href);
+  });
+  $('found-import').addEventListener('click', () => $('found-file').click());
+  $('found-file').addEventListener('change', async e => {
+    const file = e.target.files[0];
+    if (!file) return;
+    try { alert(`Added ${UWOTracker.importText(await file.text())} discoveries.`); }
+    catch (err) { alert('That file is not a discovery list: ' + err.message); }
+    e.target.value = '';
+  });
+  syncFound();
+  controls.forEach(c => c.addEventListener(c.tagName === 'SELECT' ? 'change' : 'input', filter));
+  $('reset-filters').addEventListener('click', () => {
+    $('disc-search').value = ''; $('disc-category').value = ''; $('disc-via').value = '';
+    $('disc-stars').value = '0'; $('disc-exp').value = '0'; $('disc-found').value = ''; filter();
+  });
+  // ?q=, ?type=, ?via= pre-fill the filters (shareable links)
+  const p = new URLSearchParams(location.search);
+  if (p.get('q')) $('disc-search').value = p.get('q');
+  if (p.get('type')) $('disc-category').value = p.get('type');
+  if (p.get('via')) $('disc-via').value = p.get('via');
+  filter();
+})();
+</script>
+{% endblock %}

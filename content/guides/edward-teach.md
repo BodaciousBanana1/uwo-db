@@ -1,0 +1,12 @@
++++
+title = "Edward Teach"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "88883013"
+category = "Memorial Album / Research"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-wiki"><br> <br> Requirements:<br> <br> World Clock Availability: 18th Century, 3rd Period<br> ** The World Clock cannot go to this period; equipping <a href="https://bodaciousbanana1.github.io/uwo-db/guides/adept-of-ages-18th-century-p-3/">Adept of Ages (18th Century-P.3)</a> title or <a href="https://bodaciousbanana1.github.io/uwo-db/skills/age-effect-18th-century/">Age effect (18th century)</a> EX item is the only way to access this Ganador!<br> <br> Additionally, must have previously defeated <a href="https://bodaciousbanana1.github.io/uwo-db/?q=Woods%20Rogers">Woods Rogers</a> to access this Ganador.<br> <br> Ganador location (red dot):<br> <br> <br> Victory unlocks access to: <a href="https://bodaciousbanana1.github.io/uwo-db/guides/edward-teach-88883086/">Edward Teach</a><br> <br> Drop List: <br> <br> <a href="https://bodaciousbanana1.github.io/uwo-db/ship-parts/special-large-2-decked-hull/">Special Large 2-decked Hull</a><br> <a href="https://bodaciousbanana1.github.io/uwo-db/equipment/pirate-s-sword/">Pirate&#x27;s Sword</a><br> <a href="https://bodaciousbanana1.github.io/uwo-db/equipment/tortuga-pirates-3/">Tortuga Pirates</a><br> <a href="https://bodaciousbanana1.github.io/uwo-db/ship-parts/great-pirate/">Great Pirate</a><br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/legendary-craftsman-s-carpentry-tools/">Legendary Craftsman&#x27;s Carpentry Tools</a></div><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Edward Teach <br> Known as Blackbeard, this great pirate who ruled the Atlantic Ocean and Caribbean Sea was feared by many sailors for his brutal acts. It was rumored that he was based on the Nassau Island and controlled his fellow pirates there. </li> <li class="x-item1" style="flex:0 1 300px"><br> </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> </div> <br></div></div>

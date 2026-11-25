@@ -4,7 +4,7 @@ date = 2026-05-22
 template = "ships/page.html"
 
 [extra]
-id = "ship_0397"
+id = "ship_0452"
 slug = "great-michael"
 size = "Hvy"
 ship_type = "battle"
@@ -26,8 +26,5 @@ masts = 4
 material = "Iron-plated"
 is_cash_ship = false
 is_steam = false
-shipbuilding = [
-  { city = "Boston", city_slug = "boston", skill_rank = 1, material = "Unknown", hull = "Large 2-decked Hull" },
-]
 +++
 

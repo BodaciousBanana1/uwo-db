@@ -1,0 +1,12 @@
++++
+title = "Great Plains"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "90002115"
+category = "Zone"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Great Plains <br> Great Plains<br>8BC0000<br>TOWN_NATOWN_T_000<br>RUIN48_NATOWN<br>RUIN48_NATOWN<br>Great Plains<br>Great Plains </li> <li class="x-item1" style="flex:0 1 300px"><a href="https://bodaciousbanana1.github.io/uwo-db/zones/colorado-plateau/">Colorado Plateau</a> <span class="x-hl">7</span><br><br><a href="https://bodaciousbanana1.github.io/uwo-db/zones/great-plains/">Great Plains</a> <span class="x-hl">1</span><br> </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <br><br><br><br><a href="https://bodaciousbanana1.github.io/uwo-db/maps/unfinished-map-the-great-plains-across-the-r/">Unfinished Map</a> <span class="x-hl">1</span> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/recognition/">Recognition</a> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/geography/">Geography</a> 7 <a href="https://bodaciousbanana1.github.io/uwo-db/discoveries/prairie/">Prairie</a><br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/on-to-the-plains-of-freedom/">On to the Plains of Freedom!</a> <span class="x-hl">8</span> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/recognition/">Recognition</a> 6 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/geography/">Geography</a> 8 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/english/">English</a> 1 <a href="https://bodaciousbanana1.github.io/uwo-db/discoveries/great-plains/">Great Plains</a> <span class="x-hl">12</span><br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/the-residents-of-the-plains/">The Residents of the Plains</a> <span class="x-hl">3</span> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/ecological-research/">Ecological Research</a> 7 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/biology/">Biology</a> 9 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/spanish/">Spanish</a> 1 <a href="https://bodaciousbanana1.github.io/uwo-db/discoveries/prairie-dog/">Prairie Dog</a></div> <br></div></div>

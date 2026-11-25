@@ -4,7 +4,7 @@ date = 2026-05-22
 template = "ships/page.html"
 
 [extra]
-id = "ship_0871"
+id = ""
 slug = "admiral-santisima-trinidad"
 size = "Hvy"
 ship_type = "battle"

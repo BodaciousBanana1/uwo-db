@@ -1,0 +1,12 @@
++++
+title = "Hallasan"
+template = "discoveries/page.html"
+
+[extra]
+archive_import = true
+archive_id = "70001892"
+category = "Geography"
+unnamed = false
+disc = { description = "Volcano located in the near-center of Cheju Island. At the peak there is a lake which can be found in numerous legends. According to records, there was an eruption in the time of the Goryeo Dynasty.", stars = 2, category = "Geography", exp = 380, fame = 190, ducats = 76000, maps = [], quests = [{ id = "99996779", name = "Record of Eruption", skills = [{ name = "Recognition", rank = 4 }, { name = "Geography", rank = 6 }, { name = "Korean", rank = 1 }], location = "Eastern East Asia", location_id = "90000091", rewards = [{ id = "01500232", name = "Quest Mediation Permit" }] }, { id = "99997904", name = "Observe Before Disaster", skills = [{ name = "Recognition", rank = 4 }, { name = "Geography", rank = 6 }], location = "Eastern East Asia", location_id = "90000091", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99997904", name = "Observe Before Disaster", skills = [{ name = "Recognition", rank = 4 }, { name = "Geography", rank = 6 }], location = "Eastern East Asia", location_id = "90000091", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99997904", name = "Observe Before Disaster", skills = [{ name = "Recognition", rank = 4 }, { name = "Geography", rank = 6 }], location = "Eastern East Asia", location_id = "90000091", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99997904", name = "Observe Before Disaster", skills = [{ name = "Recognition", rank = 4 }, { name = "Geography", rank = 6 }], location = "Eastern East Asia", location_id = "90000091", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99997904", name = "Observe Before Disaster", skills = [{ name = "Recognition", rank = 4 }, { name = "Geography", rank = 6 }], location = "Eastern East Asia", location_id = "90000091", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99997904", name = "Observe Before Disaster", skills = [{ name = "Recognition", rank = 4 }, { name = "Geography", rank = 6 }], location = "Eastern East Asia", location_id = "90000091", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99997904", name = "Observe Before Disaster", skills = [{ name = "Recognition", rank = 4 }, { name = "Geography", rank = 6 }], location = "Eastern East Asia", location_id = "90000091", rewards = [{ id = "01500263", name = "Patriot Award" }] }], ornaments = [] }
++++
+

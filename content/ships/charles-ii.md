@@ -4,7 +4,7 @@ date = 2026-05-22
 template = "ships/page.html"
 
 [extra]
-id = "ship_0401"
+id = "ship_0456"
 slug = "charles-ii"
 size = "Hvy"
 ship_type = "battle"
@@ -26,9 +26,5 @@ masts = 3
 material = "English Admiral Metal"
 is_cash_ship = true
 is_steam = false
-shipbuilding = [
-  { city = "London", city_slug = "london", skill_rank = 1, material = "Unknown", hull = "Large 3-decked Hull" },
-  { city = "Marseille", city_slug = "marseille", skill_rank = 1, material = "Unknown", hull = "Large 3-decked Hull" },
-]
 +++
 

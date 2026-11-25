@@ -1,0 +1,12 @@
++++
+title = "Small Junk Sail"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "02200210"
+category = "Hull / paneling"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Small Junk Sail <br> Light sail with special dimensions of East Asia. </li> <li class="x-item1" style="flex:0 1 300px"><br><div class="x-st0"> <div class="x-state0">5</div> <div class="x-state">∼</div> <div class="x-state0">15</div> </div><div></div><div class="x-st0"> </div><div></div><div class="x-st0"> </div><div></div> <br> <br>Light <br> <br> </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <div class="x-INFO_TAB">Recipe</div> <div> Making East Asian Sail<br> <a href="https://bodaciousbanana1.github.io/uwo-db/recipes/making-east-asian-sail/">Making East Asian Sail</a></div> <div>Make Light Junk Sail<br> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/sewing/">Sewing</a> 12 </div> <div class="x-RECIPESMALLFONT">How to make a small-sized sail<br>with characteristics of East Asia.</div> <div class="x-INFO_TAB">Obtained Info</div> <div class="x-RECIPESMALLFONT"> Busan, Nagasaki, Tamsui - Shipyard Master(Town&#x27;s mans Recipe)</div> <div class="x-RECIPEFONT"> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/items/east-asia-shipbuilding-techniques/"><br>East Asia Shipbuilding Techniques</a><div></div></div> <div><br>+</div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/ship-parts/processed-lumber/"><br>Processed Lumber</a><div></div></div> <div><br>+</div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/ship-parts/rope/"><br>Rope</a><div></div></div> <div><br></div> <div><a href="https://bodaciousbanana1.github.io/uwo-db/ship-parts/small-junk-sail/"><br>Small Junk Sail</a> </div> </div> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <ul class="x-unli1"><br><div class="x-INFO_TAB">Ingredients</div> </ul> <ul class="x-underline"></ul> </div> <br></div></div>

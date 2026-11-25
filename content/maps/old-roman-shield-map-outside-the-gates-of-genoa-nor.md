@@ -1,0 +1,11 @@
++++
+title = "Old Roman Shield Map"
+template = "maps/page.html"
+
+[extra]
+archive_import = true
+archive_id = "01900050"
+category = "Archive map"
+unnamed = false
++++
+

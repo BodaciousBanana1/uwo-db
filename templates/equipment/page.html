@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% import "macros/link.html" as link %}
 
 {% block title %}{{ page.title }} - Equipment{% endblock %}
 
@@ -63,7 +64,7 @@
         <tbody>
           {% for skill in page.extra.skills %}
           <tr>
-            <td><a href="{{ config.base_url }}/skills/{{ skill.name | lower | replace(from=' ', to='-') }}/">{{ skill.name }}</a></td>
+            <td>{{ link::to(secs="skills", name=skill.name) }}</td>
             <td class="num">+{{ skill.bonus }}</td>
           </tr>
           {% endfor %}
@@ -72,18 +73,24 @@
     </section>
     {% endif %}
 
-    {% if page.extra.quest_sources and page.extra.quest_sources | length > 0 %}
+    {% set eq_sources = load_data(path="data/item_sources/equipment.json", required=false) %}
+    {% if eq_sources and page.slug in eq_sources %}
+    {% include "partials/item_sources.html" %}
+    {% elif page.extra.quest_sources and page.extra.quest_sources | length > 0 %}
     <section class="detail-section">
       <h2>How to Obtain</h2>
       <p class="source-label">Quest Rewards:</p>
       <ul class="source-list">
         {% for quest in page.extra.quest_sources %}
-        <li><a href="{{ config.base_url }}/quests/{{ quest.slug }}/">{{ quest.name }}</a></li>
+        <li>{{ link::to(secs="quests", name=quest.name, slug=quest.slug | default(value="")) }}</li>
         {% endfor %}
       </ul>
     </section>
     {% endif %}
   </div>
+
+  {% set archive_id = page.extra.id | default(value="") %}
+  {% include "partials/archived_notes.html" %}
 
   <footer class="detail-footer">
     <a href="{{ config.base_url }}/equipment/" class="back-link">&larr; Back to Equipment</a>

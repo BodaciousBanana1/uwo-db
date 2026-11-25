@@ -4,7 +4,7 @@ date = 2026-05-22
 template = "ships/page.html"
 
 [extra]
-id = "ship_0247"
+id = "ship_0274"
 slug = "custom-commander-s-caravel"
 size = "Std"
 ship_type = "battle"
@@ -26,8 +26,5 @@ masts = 3
 material = "Elm"
 is_cash_ship = true
 is_steam = false
-shipbuilding = [
-  { city = "CompanyColony:2000", city_slug = "companycolony-2000", skill_rank = 1, material = "Copper-coated", hull = "Large Flush Deck Style Hull" },
-]
 +++
 

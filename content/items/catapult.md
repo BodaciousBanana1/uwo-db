@@ -1,0 +1,12 @@
++++
+title = "Catapult"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "01500054"
+category = "Consumable"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-wiki"><br> <br> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/throwing-attack/">Throwing attack</a></div><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Catapult <br> Rank:3 Needed Gauge:50 Re-cast Time:225 </li> <li class="x-item1" style="flex:0 1 300px"><br> </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <div class="x-INFO_TAB">Recipe</div> <div> Stone Quarry Book<br> <a href="https://bodaciousbanana1.github.io/uwo-db/recipes/stone-quarry-book/">Stone Quarry Book</a></div> <div>Stone cutting<br> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/handicrafts/">Handicrafts</a> 5 </div> <div class="x-RECIPESMALLFONT">How to quarry stone from rock.</div> <div class="x-INFO_TAB">Obtained Info</div> <div class="x-RECIPESMALLFONT"> Sao Tome - 400,000 - Investment</div> <div class="x-RECIPEFONT"> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/trade-goods/rocks/"><br>Rocks</a><div></div></div> <div><br></div> <div><a href="https://bodaciousbanana1.github.io/uwo-db/items/catapult/"><br>Catapult</a> <br>1-3</div> </div> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <ul class="x-unli1"><br><div class="x-INFO_TAB">Ingredients</div> </ul> <ul class="x-underline"></ul> </div> <br></div></div>

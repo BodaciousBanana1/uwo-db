@@ -1,0 +1,12 @@
++++
+title = "Set"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "01003600"
+category = "Figurehead"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Set <br> A golden figurehead of the god of storm, Set. </li> <li class="x-item1" style="flex:0 1 300px"><br> <div class="x-INFO_TAB">Base Performance</div> <div class="x-state13">9</div> <div class="x-state14">2</div> <div class="x-state15">2</div> <div class="x-state16">9</div> <div class="x-state10">100</div> <br><br> <div class="x-INFO_TAB">Effect</div> Leak fixing <br> Stop your vessel leaking. </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <div class="x-INFO_TAB">Recipe</div> <div> Sophia Awakening<br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/sophia-awakening/">Sophia Awakening</a></div> <div>Sophia Awakening<br> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/alchemy/">Alchemy</a> 11 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/handicrafts/">Handicrafts</a> 11</div> <div class="x-RECIPESMALLFONT">Transforms the Base Item into a special item<br>by using the power of Sophia.</div> <div class="x-INFO_TAB">Obtained Info</div> <div class="x-RECIPESMALLFONT"> Transmutation Alchemy Equipment(Quarters)</div> <div class="x-RECIPEFONT"> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/furnishings/the-statue-of-osiris/"><br>The Statue of Osiris</a><div></div></div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/items/ancient-iron-meteorite/"><br>Ancient Iron Meteorite</a><div></div></div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/items/phantom-monster-s-relic/"><br>Phantom Monster&#x27;s Relic</a><div></div></div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/items/aqua-concentrate/"><br>Aqua Concentrate</a><div></div></div> <div><br></div> <div><a href="https://bodaciousbanana1.github.io/uwo-db/ship-parts/set/"><br>Set</a> <br>Sofia -250</div> </div> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> </div> <br></div></div>

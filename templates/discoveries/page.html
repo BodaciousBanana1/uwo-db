@@ -1,0 +1,118 @@
+{% extends "base.html" %}
+{% import "macros/link.html" as link %}
+{#- One discovery. Pages come from scripts/import_archive_pages.py (folder 7000) with the
+    data from scripts/extract_discoveries.py in extra.disc. -#}
+
+{% block title %}{{ page.title }} - Discoveries{% endblock %}
+
+{% block content %}
+{% set d = page.extra.disc %}
+{% set map_extras = load_data(path="data/map_extras.json") %}
+{% set items = "archive_ids,equipment,items,trade-goods,ship-parts,furnishings,pets,recipes" %}
+<article class="detail-page discovery-detail">
+  <header class="detail-header">
+    <nav class="breadcrumb">
+      <a href="{{ get_url(path='discoveries') }}/">Discoveries</a>{% if d.category %} / {{ d.category }}{% endif %}
+    </nav>
+    <h1>{{ page.title }}</h1>
+    <div class="detail-meta">
+      {% if d.category %}<span class="skill-badge">{{ d.category }}</span>{% endif %}
+      {% if d.stars %}<span class="disc-stars" title="Rarity: {{ d.stars }} star{{ d.stars | pluralize }}">{% for i in range(end=d.stars) %}★{% endfor %}</span>{% endif %}
+      <a href="https://dhodb.ivyro.net/eg/main.php?id={{ page.extra.archive_id }}" target="_blank" rel="noopener" class="source-link" data-pagefind-ignore>Source #{{ page.extra.archive_id }}</a>
+      <button type="button" class="found-toggle" id="found-toggle" data-id="{{ page.extra.archive_id }}" data-pagefind-ignore hidden>Mark as found</button>
+    </div>
+  </header>
+
+  {% if d.description %}<p class="map-description">{{ d.description }}</p>{% endif %}
+  {% if d.exp or d.fame or d.ducats %}
+  <div class="discovery-rewards disc-rewards-top">
+    {% if d.exp %}<span class="reward-exp">+{{ d.exp }} Exp</span>{% endif %}
+    {% if d.fame %}<span class="reward-fame">+{{ d.fame }} Fame</span>{% endif %}
+    {% if d.ducats %}<span class="reward-ducats">+{{ d.ducats }} Ducats</span>{% endif %}
+  </div>
+  {% endif %}
+
+  {% if d.maps | length > 0 %}
+  <section class="detail-section">
+    <h2>Found With an Archive Map</h2>
+    <table class="detail-table">
+      <thead><tr><th>Map</th><th>Sold At</th><th>Skills</th><th>Location</th><th>Requires</th></tr></thead>
+      <tbody>
+        {% for m in d.maps %}
+        {% set x = false %}{% if m.id in map_extras %}{% set x = map_extras[m.id] %}{% endif %}
+        <tr>
+          <td>{{ link::to(secs="map_ids", name=m.name, key=m.id) }}</td>
+          <td>{% if x and x.cities | length > 0 %}{% for c in x.cities %}{{ link::to(secs="cities,zones", name=c) }}{% if not loop.last %}, {% endif %}{% endfor %}{% else %}-{% endif %}</td>
+          <td>{% for s in m.skills %}<span class="skill-tag">{{ link::to(secs="skills", name=s) }}</span> {% endfor %}{% if m.rank %}<span class="rank-num">R{{ m.rank }}</span>{% endif %}
+            {% if x and x.pull %}<span class="skill-tag skill-pull" title="Hidden: needed to pull the map from the archive (player-reported)">Pull: {{ link::to(secs="skills", name=x.pull) }}{% if x.rank %} {{ x.rank }}{% endif %}</span>{% endif %}</td>
+          <td>{% if m.location %}{{ link::to(secs="archive_ids,landing-points,zones", name=m.location, key=m.location_id) }}{% else %}-{% endif %}</td>
+          <td>{% if m.prerequisite %}Discovered {{ link::to(secs="archive_ids,discoveries", name=m.prerequisite, key=m.prerequisite_id) }}{% else %}-{% endif %}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </section>
+  {% endif %}
+
+  {% if d.quests | length > 0 %}
+  <section class="detail-section">
+    <h2>Found Through a Quest</h2>
+    <table class="detail-table">
+      <thead><tr><th>Quest</th><th class="num">Difficulty</th><th>Skills</th><th>Location</th><th>Rewards</th></tr></thead>
+      <tbody>
+        {% for q in d.quests %}
+        <tr>
+          <td>{{ link::to(secs="archive_ids,quests", name=q.name, key=q.id) }}</td>
+          <td class="num">{% if q.difficulty %}{{ q.difficulty }}{% else %}-{% endif %}</td>
+          <td>{% for s in q.skills %}<span class="skill-tag">{{ link::to(secs="skills", name=s.name) }} {{ s.rank | default(value="") }}</span> {% endfor %}</td>
+          <td>{% if q.location %}{{ link::to(secs="archive_ids,landing-points,zones,cities", name=q.location, key=q.location_id) }}{% else %}-{% endif %}</td>
+          <td>{% for r in q.rewards %}{{ link::to(secs=items, name=r.name, key=r.id) }}{% if not loop.last %}, {% endif %}{% else %}-{% endfor %}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </section>
+  {% endif %}
+
+  {% if d.maps | length == 0 and d.quests | length == 0 %}
+  <p class="notes-source">The archive lists no map or quest for this discovery. It may be found by exploring, or the data was never filled in; check the player notes.</p>
+  {% endif %}
+
+  {% if d.ornaments | length > 0 %}
+  <section class="detail-section">
+    <h2>Ornament</h2>
+    <ul class="link-list">
+      {% for o in d.ornaments %}
+      <li>{{ link::to(secs="archive_ids,furnishings,items", name=o.name, key=o.id) }}{% if o.level %} <span class="reward-num" title="Level">Lv {{ o.level }}</span>{% endif %}
+        {% for src in o.sources %}<div class="prereq">{% if src.name %}{{ link::to(secs="archive_ids,cities,zones", name=src.name, key=src.id) }} {% endif %}{{ src.detail }}</div>{% endfor %}
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  {% set archive_id = page.extra.archive_id %}
+  {% include "partials/archived_notes.html" %}
+
+  <footer class="detail-footer">
+    <a href="{{ get_url(path='discoveries') }}/" class="back-link">← Back to Discoveries</a>
+  </footer>
+</article>
+<script src="{{ get_url(path='js/tracker.js') }}"></script>
+<script>
+(() => {
+  // found/not found, saved in this browser (static/js/tracker.js)
+  const btn = document.getElementById('found-toggle');
+  const show = () => {
+    const on = UWOTracker.has(btn.dataset.id);
+    btn.textContent = on ? '✓ Found' : 'Mark as found';
+    btn.classList.toggle('is-found', on);
+    btn.title = on ? 'Click to unmark (saved in this browser)' : 'Track your discoveries (saved in this browser)';
+  };
+  btn.hidden = false;
+  btn.addEventListener('click', () => UWOTracker.toggle(btn.dataset.id));
+  UWOTracker.onChange(show);
+  show();
+})();
+</script>
+{% endblock %}

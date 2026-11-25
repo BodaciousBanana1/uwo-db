@@ -4,7 +4,7 @@ date = 2026-05-22
 template = "ships/page.html"
 
 [extra]
-id = "ship_0399"
+id = "ship_0454"
 slug = "great-republic"
 size = "Hvy"
 ship_type = "trade"
@@ -26,8 +26,5 @@ masts = 4
 material = "Oak"
 is_cash_ship = true
 is_steam = false
-shipbuilding = [
-  { city = "Boston", city_slug = "boston", skill_rank = 1, material = "Unknown", hull = "Large Flush Deck Style Hull" },
-]
 +++
 

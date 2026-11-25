@@ -1,0 +1,12 @@
++++
+title = "Tow Permit"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "01500233"
+category = "Consumable"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-wiki"><br> <br> Maximum number of tow permits obtainable: 10<br> <br> The number increases if obtained from port officials in cities with Active/Energetic Mayor bonuses (up to a maximum of 14). Investing in certain railroad companies ( tinyurl.com/RailwayUWO ) can also increase the number of tow permits obtained but only from North American ports.<br> <br> Oxford skills related to tow permits:<br> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/tow-permit-refund/">Tow Permit Refund</a><br> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/tow-permit-bonus/">Tow Permit Bonus</a><br> <br> <br> Finally, this item can also be obtained via Pets with <a href="https://bodaciousbanana1.github.io/uwo-db/skills/area-search-land/">Area Search (Land)</a> or <a href="https://bodaciousbanana1.github.io/uwo-db/skills/area-search-land-amp-sea/">Area Search (Land &amp; Sea)</a> skills in the following zones.<br> <br> Europe:<br> <a href="https://bodaciousbanana1.github.io/uwo-db/landing-points/morocco-west-coast/">Morocco West Coast</a><br> <a href="https://bodaciousbanana1.github.io/uwo-db/landing-points/central-nile/">Central Nile</a> / <a href="https://bodaciousbanana1.github.io/uwo-db/landing-points/luxor/">Luxor</a><br> <br> Red Sea:<br> <a href="https://bodaciousbanana1.github.io/uwo-db/landing-points/red-sea-east-coast/">Red Sea East Coast</a><br> <br> East Asia:<br> <a href="https://bodaciousbanana1.github.io/uwo-db/zones/korean-peninsula-north-coast/">Korean Peninsula North Coast</a><br> <a href="https://bodaciousbanana1.github.io/uwo-db/zones/korean-peninsula-west-coast/">Korean Peninsula West Coast</a> / <a href="https://bodaciousbanana1.github.io/uwo-db/zones/northern-kongju/">Northern Kongju</a></div><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Tow Permit <br> A permit required for various<br>towing and Auto Navigation. </li> <li class="x-item1" style="flex:0 1 300px"><br> </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <ul class="x-unli1"><br><div class="x-INFO_TAB">Ingredients</div> </ul> <ul class="x-underline"></ul> </div> <br></div></div>

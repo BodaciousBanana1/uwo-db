@@ -1,0 +1,12 @@
++++
+title = "Treasure Hidden in the Ancient Castle (No.2)"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "88882108"
+category = "Memorial Album / Research"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-wiki"><br> <br> Obtainable from: <a href="https://bodaciousbanana1.github.io/uwo-db/guides/dungeons/">Dungeon : Azuchi Castle</a><br> <br> <a href="https://bodaciousbanana1.github.io/uwo-db/equipment/straw-sandals-2/">Straw Sandals</a> (Upper Floor - 3F Chest)<br> <a href="https://bodaciousbanana1.github.io/uwo-db/equipment/iron-helmet-of-martial-artist/">Iron Helmet of Martial Artist</a> (Upper Floor - Hidden Passage)<br> <a href="https://bodaciousbanana1.github.io/uwo-db/equipment/short-sleeved-kimono-2/">Short-sleeved Kimono</a> (Middle Floor - 7F Chest)<br> <a href="https://bodaciousbanana1.github.io/uwo-db/equipment/short-sleeved-kimono-8/">Short-sleeved Kimono</a> (Middle Floor - 7F Chest)<br> <a href="https://bodaciousbanana1.github.io/uwo-db/equipment/daikyu/">Daikyu</a> (Middle Floor - Hidden Passage)<br> <a href="https://bodaciousbanana1.github.io/uwo-db/equipment/folded-eboshi-4/">Folded Eboshi</a> (Lower Floor - 13F Chest)<br> <a href="https://bodaciousbanana1.github.io/uwo-db/equipment/kanzashi-4/">Kanzashi</a> (Lower Floor - 13F Chest)<br> <a href="https://bodaciousbanana1.github.io/uwo-db/equipment/montsuki-haori-hakama/">Montsuki Haori &amp; Hakama</a> (Lower Floor - 14F Chest)<br> <a href="https://bodaciousbanana1.github.io/uwo-db/equipment/nanban-goods-catalogue/">Nanban Goods Catalogue</a> (Lower Floor - Hidden Passage)<br> <a href="https://bodaciousbanana1.github.io/uwo-db/equipment/crested-indigo-haori-hakama/">Crested Indigo Haori Hakama</a> (Lower Floor - Hidden Passage)<br> <br> Reward: <a href="https://bodaciousbanana1.github.io/uwo-db/equipment/far-east-voyage-record/">Far East Voyage Record</a><br> William Adams(Nagasaki)</div><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Treasure Hidden in the Ancient Castle (No.2) <br> A record of treasures buried in the dungeon of the Azuchi Castle. </li> <li class="x-item1" style="flex:0 1 300px"><br> </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> </div> <br></div></div>

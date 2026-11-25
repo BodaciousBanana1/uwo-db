@@ -1,0 +1,12 @@
++++
+title = "Simple Bonfire"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "01575052"
+category = "Item"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-wiki"><br> <br> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/pet-intimacy-rate-up/">Pet Intimacy Rate Up</a> (X2)</div><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Simple Bonfire <br> A simple bonfire.<br>It guarantees benefits regarding Pets. </li> <li class="x-item1" style="flex:0 1 300px"><br> </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <div class="x-INFO_TAB">Recipe</div> <div> Record of a Novice Chair Maker<br> <a href="https://bodaciousbanana1.github.io/uwo-db/recipes/record-of-a-novice-chair-maker/">Record of a Novice Chair Maker</a></div> <div>Commitment to Flames<br> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/obtain-sophia/">Obtain Sophia</a> 1 (-75) <a href="https://bodaciousbanana1.github.io/uwo-db/skills/handicrafts/">Handicrafts</a> 1</div> <div class="x-RECIPESMALLFONT">It seems that even changing the way of<br>assembling firewood will change the way it burns.<br>Let&#x27;s focus on how it burns without changing the materials.</div> <div class="x-INFO_TAB">Obtained Info</div> <div class="x-RECIPESMALLFONT"> Further Research Production</div> <div class="x-RECIPEFONT"> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/guides/bonfire-researcher/"><br>Bonfire Researcher</a><div></div></div> <div><br>+</div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/trade-goods/lumber/"><br>Lumber</a><div></div></div> <div><br>+</div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/items/hell-fire-torch/"><br>Hell Fire Torch</a><div></div></div> <div><br></div> <div><a href="https://bodaciousbanana1.github.io/uwo-db/items/simple-bonfire/"><br>Simple Bonfire</a> </div> </div> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <ul class="x-unli1"><br><div class="x-INFO_TAB">Ingredients</div> </ul> <ul class="x-underline"></ul> </div> <br></div></div>

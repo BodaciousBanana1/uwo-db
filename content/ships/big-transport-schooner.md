@@ -4,7 +4,7 @@ date = 2026-05-22
 template = "ships/page.html"
 
 [extra]
-id = "ship_0116"
+id = "ship_0118"
 slug = "big-transport-schooner"
 size = "Hvy"
 ship_type = "trade"
@@ -26,8 +26,5 @@ masts = 4
 material = "Mahogany"
 is_cash_ship = false
 is_steam = false
-shipbuilding = [
-  { city = "Naples", city_slug = "naples", skill_rank = 1, material = "Iron-plated", hull = "Medium 3-decked Hull" },
-]
 +++
 

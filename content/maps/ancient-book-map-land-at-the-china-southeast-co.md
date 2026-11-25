@@ -1,0 +1,11 @@
++++
+title = "Ancient Book Map"
+template = "maps/page.html"
+
+[extra]
+archive_import = true
+archive_id = "01900703"
+category = "Archive map"
+unnamed = false
++++
+

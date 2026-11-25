@@ -61,6 +61,7 @@
   </section>
 </div>
 
+{% set link_secs = "skills,equipment" %}{% include "partials/link_index.html" %}
 <script>
 const BASE_URL = '{{ config.base_url }}';
 const allEquipment = {{ all_equipment | json_encode() | safe }};
@@ -72,7 +73,7 @@ const tbody = document.getElementById('equipment-body');
 function formatSkills(skills) {
   if (!skills || skills.length === 0) return '-';
   return skills.map(s =>
-    `<span class="skill-tag">${s.name} +${s.bonus}</span>`
+    `<span class="skill-tag">${UWO.link('skills', s.name)} +${s.bonus}</span>`
   ).join('');
 }
 
@@ -95,7 +96,7 @@ function filterEquipment() {
 
   tbody.innerHTML = filtered.slice(0, 500).map(equip => {
     return `<tr>
-      <td class="item-name"><a href="${BASE_URL}/equipment/${equip.slug}/">${equip.name}</a></td>
+      <td class="item-name">${UWO.link('equipment', equip.name, {slug: equip.slug})}</td>
       <td><span class="badge badge-${equip.category.toLowerCase()}">${equip.category}</span></td>
       <td class="num">${equip.formality || '-'}</td>
       <td class="num">${equip.attack || '-'}</td>

@@ -1,0 +1,12 @@
++++
+title = "Gold Earrings"
+template = "discoveries/page.html"
+
+[extra]
+archive_import = true
+archive_id = "70001611"
+category = "Treasure"
+unnamed = false
+disc = { description = "Gold earrings that can be taken back home. As they are made by the unique skills of this area, they will be highly valuable in Europe.", stars = 2, category = "Treasure", exp = 310, fame = 155, ducats = 62000, maps = [], quests = [{ id = "99997123", name = "Find the merchant ship's cargo", skills = [{ name = "Search", rank = 3 }, { name = "Appraisal", rank = 5 }, { name = "Mayan Languages", rank = 1 }], location = "Northwest Portobelo", location_id = "90001094", rewards = [{ id = "01500232", name = "Quest Mediation Permit" }] }, { id = "99997803", name = "Pursuit of the missing investigation team", difficulty = 1, skills = [{ name = "Search", rank = 3 }, { name = "Appraisal", rank = 5 }], location = "Northwest Portobelo", location_id = "90001094", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99997803", name = "Pursuit of the missing investigation team", difficulty = 1, skills = [{ name = "Search", rank = 3 }, { name = "Appraisal", rank = 5 }], location = "Northwest Portobelo", location_id = "90001094", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99997803", name = "Pursuit of the missing investigation team", difficulty = 1, skills = [{ name = "Search", rank = 3 }, { name = "Appraisal", rank = 5 }], location = "Northwest Portobelo", location_id = "90001094", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99997803", name = "Pursuit of the missing investigation team", difficulty = 1, skills = [{ name = "Search", rank = 3 }, { name = "Appraisal", rank = 5 }], location = "Northwest Portobelo", location_id = "90001094", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99997803", name = "Pursuit of the missing investigation team", difficulty = 1, skills = [{ name = "Search", rank = 3 }, { name = "Appraisal", rank = 5 }], location = "Northwest Portobelo", location_id = "90001094", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99997803", name = "Pursuit of the missing investigation team", difficulty = 1, skills = [{ name = "Search", rank = 3 }, { name = "Appraisal", rank = 5 }], location = "Northwest Portobelo", location_id = "90001094", rewards = [{ id = "01500263", name = "Patriot Award" }] }], ornaments = [] }
++++
+

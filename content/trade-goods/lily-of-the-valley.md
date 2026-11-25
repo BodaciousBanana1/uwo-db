@@ -1,0 +1,12 @@
++++
+title = "Lily Of the Valley"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "01600413"
+category = "Trade good"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-content"><div class="x-table0"> <br> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Lily Of the Valley <br> A clean and gentle fragrance extracted from a flower. </li> <li class="x-item1" style="flex:0 1 300px"><a href="https://bodaciousbanana1.github.io/uwo-db/trade-goods/">Fragrances</a> <br><br><a href="https://bodaciousbanana1.github.io/uwo-db/trade-goods/">Germany</a> <br>local specialty </li> </ul> <br> <br> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <div class="x-INFO_TAB">Recipe</div> <div> Perfumery Secret<br> <a href="https://bodaciousbanana1.github.io/uwo-db/recipes/perfumery-secret/">Perfumery Secret</a></div> <div>Process lily of valley<br> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/handicrafts/">Handicrafts</a> 10 </div> <div class="x-RECIPESMALLFONT">How to extract the sweet fragrance of lily of the valley<br>perfume.</div> <div class="x-INFO_TAB">Obtained Info</div> <div class="x-RECIPESMALLFONT"> Tamatave, Kilwa, Aden - 500,000 - Investment</div> <div class="x-RECIPEFONT"> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/trade-goods/white-flowers/"><br>White Flowers</a><div></div></div> <div><br>+</div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/trade-goods/vegetable-oil/"><br>Vegetable Oil</a><div></div></div> <div><br></div> <div><a href="https://bodaciousbanana1.github.io/uwo-db/trade-goods/lily-of-the-valley/"><br>Lily Of the Valley</a> <br>1-2</div> </div> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <br><div class="x-INFO_TAB">Obtained Info</div> <br> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"><a href="https://bodaciousbanana1.github.io/uwo-db/cities/hamburg/">Hamburg</a> <span class="x-hl">5</span></li> <li class="x-item1" style="flex:0 1 300px"><br>744D</li> </ul> <ul class="x-unli1"><br><div class="x-INFO_TAB">Use</div> </ul> <ul class="x-underline"></ul> </div> <br></div></div>

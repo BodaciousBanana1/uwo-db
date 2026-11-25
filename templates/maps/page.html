@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+{% import "macros/link.html" as link %}
+{#- One archive map. Pages come from scripts/import_archive_pages.py (folder 0190);
+    the data from scripts/extract_map_details.py (data/map_details.json). -#}
+
+{% block title %}{{ page.title }} - Archive Maps{% endblock %}
+
+{% block content %}
+{% set all_details = load_data(path="data/map_details.json") %}
+{% set aid = page.extra.archive_id %}
+{% if aid in all_details %}{% set m = all_details[aid] %}{% else %}{% set m = false %}{% endif %}
+{% set items = "archive_ids,equipment,items,trade-goods,ship-parts,furnishings,pets,recipes" %}
+<article class="detail-page map-detail">
+  <header class="detail-header">
+    <nav class="breadcrumb">
+      <a href="{{ get_url(path='maps') }}/">Archive Maps</a>{% if m and m.category %} / {{ m.category }}{% endif %}
+    </nav>
+    <h1>{{ page.title }}</h1>
+    <div class="detail-meta">
+      {% if m and m.category %}<span class="skill-badge">{{ m.category }}</span>{% endif %}
+      {% if m and m.pull %}<span class="badge badge-pull" title="Needed to take the map from the archive (player-reported)">Pull: {{ m.pull }}</span>{% endif %}
+      <a href="https://dhodb.ivyro.net/eg/main.php?id={{ aid }}" target="_blank" rel="noopener" class="source-link" data-pagefind-ignore>Source #{{ aid }}</a>
+    </div>
+  </header>
+
+  {% if m %}
+  {% if m.description %}<p class="map-description">{{ m.description }}</p>{% endif %}
+
+  {% set rank = "" %}{% set listed = [] %}
+  {% if m.archives | length > 0 %}{% set rank = m.archives[0].rank | default(value="") %}{% set listed = m.archives[0].skills %}{% endif %}
+  {% if m.pull %}
+  <aside class="map-pull-note">
+    <strong>Hidden skill:</strong> to take this map from the archive you also need
+    {{ link::to(secs="skills", name=m.pull) }}{% if rank %} at rank {{ rank }}{% endif %}{% if listed | length > 0 %}; the game only lists {{ listed | join(sep=" and ") }}{% endif %}.
+    <span class="map-pull-source">Reported by players on the original database; the skill follows the map's discovery type.</span>
+  </aside>
+  {% endif %}
+
+  {% if m.archives | length > 0 %}
+  <section class="detail-section">
+    <h2>Where to Get It</h2>
+    <table class="detail-table map-archives">
+      <thead>
+        <tr><th>Archive</th><th>Skills</th><th>Location</th><th>Discovery</th><th>Reward</th></tr>
+      </thead>
+      <tbody>
+        {% for a in m.archives %}
+        <tr>
+          <td>{{ link::to(secs="cities,zones", name=a.city) }}</td>
+          <td>{% for s in a.skills %}<span class="skill-tag">{{ link::to(secs="skills", name=s) }}</span> {% endfor %}{% if a.rank %}<span class="rank-num">R{{ a.rank }}</span>{% endif %}</td>
+          <td>{% if a.location %}{{ link::to(secs="archive_ids,landing-points,zones", name=a.location, key=a.location_id) }}{% if a.area %} <span class="area-num" title="Area number on the original database">{{ a.area }}</span>{% endif %}{% else %}-{% endif %}</td>
+          <td>{% if a.discovery %}{{ link::to(secs="archive_ids,discoveries", name=a.discovery, key=a.discovery_id) }}{% else %}-{% endif %}{% if a.prerequisite %}<div class="prereq">after {{ link::to(secs="discoveries", name=a.prerequisite) }}</div>{% endif %}</td>
+          <td>{% if a.reward %}{{ link::to(secs=items, name=a.reward) }}{% else %}-{% endif %}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </section>
+  {% elif m.location %}
+  <section class="detail-section">
+    <h2>Location</h2>
+    <p>{{ link::to(secs="landing-points,zones", name=m.location) }}</p>
+    <p class="notes-source">Not sold in an archive; obtained some other way (see player notes below).</p>
+  </section>
+  {% endif %}
+
+  {% if m.discovery.name | default(value="") %}
+  {% set d = m.discovery %}
+  <section class="detail-section">
+    <h2>Discovery</h2>
+    <p class="discovery-name">{{ link::to(secs="archive_ids,discoveries", name=d.name, key=d.id) }}</p>
+    {% if d.description %}<p class="discovery-description">{{ d.description }}</p>{% endif %}
+    {% if d.exp or d.fame or d.ducats %}
+    <div class="discovery-rewards">
+      {% if d.exp %}<span class="reward-exp">+{{ d.exp }} Exp</span>{% endif %}
+      {% if d.fame %}<span class="reward-fame">+{{ d.fame }} Fame</span>{% endif %}
+      {% if d.ducats %}<span class="reward-ducats">+{{ d.ducats }} Ducats</span>{% endif %}
+    </div>
+    {% endif %}
+  </section>
+  {% endif %}
+
+  {% if m.rewards | length > 0 %}
+  <section class="detail-section">
+    <h2>Rewards</h2>
+    <ul class="link-list map-rewards">
+      {% for r in m.rewards %}
+      <li>{{ link::to(secs=items, name=r.name, key=r.id) }}{% if r.number %} <span class="reward-num" title="Number shown next to this reward on the original database">{{ r.number }}</span>{% endif %}</li>
+      {% endfor %}
+    </ul>
+    {% if not m.discovery.name | default(value="") %}<p class="notes-source">Reward-only map: no discovery. Ducat rewards are not listed on the original database; check the player notes.</p>{% endif %}
+  </section>
+  {% endif %}
+
+  {% if m.requirements | length > 0 or m.colony | length > 0 %}
+  <section class="detail-section">
+    <h2>Requirements</h2>
+    <ul class="link-list">
+      {% for r in m.requirements %}
+      <li>{% if r.id %}Discovered {{ link::to(secs="archive_ids,discoveries,landing-points", name=r.name, key=r.id) }}{% else %}{{ r.name }}{% endif %}</li>
+      {% endfor %}
+      {% for c in m.colony %}<li>Colony: {{ c }}</li>{% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+  {% else %}
+  <p class="notes-source">No details for this map in the archive.</p>
+  {% endif %}
+
+  {% set archive_id = aid %}
+  {% include "partials/archived_notes.html" %}
+
+  <footer class="detail-footer">
+    <a href="{{ get_url(path='maps') }}/#map-{{ aid }}" class="back-link">← Back to Archive Maps</a>
+  </footer>
+</article>
+{% endblock %}

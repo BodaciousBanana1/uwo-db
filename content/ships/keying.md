@@ -4,7 +4,7 @@ date = 2026-05-22
 template = "ships/page.html"
 
 [extra]
-id = "ship_0403"
+id = "ship_0458"
 slug = "keying"
 size = "Hvy"
 ship_type = "trade"
@@ -26,8 +26,5 @@ masts = 3
 material = "Beech"
 is_cash_ship = false
 is_steam = false
-shipbuilding = [
-  { city = "Amsterdam", city_slug = "amsterdam", skill_rank = 1, material = "Unknown", hull = "Large 2-decked Hull" },
-]
 +++
 

@@ -23,7 +23,7 @@
   </div>
 
   <div class="goods-grid" id="goods-grid">
-    {% for page in section.pages %}
+    {% for page in section.pages %}{% if page.extra.archive_import %}{% continue %}{% endif %}
     <a href="{{ page.permalink }}" class="goods-card"
        data-name="{{ page.title | lower }}"
        data-category="{{ page.extra.category | default(value='') | lower }}"
@@ -48,6 +48,7 @@
     </a>
     {% endfor %}
   </div>
+{% include "partials/imported_list.html" %}
 </article>
 
 <script>

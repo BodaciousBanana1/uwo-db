@@ -1,0 +1,12 @@
++++
+title = "Naumachia Battle Tunic"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "02602001"
+category = "Keepsake"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Naumachia Battle Tunic <br> Equipment that&#x27;s reminiscent<br>of fighters from staged naval<br>battles in ancient Coliseums.<br>Increases the crew&#x27;s morale. </li> <li class="x-item1" style="flex:0 1 300px"><br> </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> </div> <br></div></div>

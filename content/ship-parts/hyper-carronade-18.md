@@ -1,0 +1,12 @@
++++
+title = "Hyper Carronade (18)"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "00707918"
+category = "Cannon"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Hyper Carronade (18) <br> A very rare lightweight cannon<br>that has great destructive power.<br>18 will be placed on the sides of the ship. </li> <li class="x-item1" style="flex:0 1 300px"><br> <div class="x-INFO_TAB">Base Performance</div> <div class="x-state17">1260</div> <div class="x-state18">380</div> <div class="x-state19">10</div> <div class="x-state20">4</div> <div class="x-state21">4</div> <br> <br>70 × 18 <br>Broadside <br>Normal shot <br><div class="x-state10">70</div> </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <div class="x-INFO_TAB">Recipe</div> <div> Production Techniques of the Great Lighthouse<br> <a href="https://bodaciousbanana1.github.io/uwo-db/recipes/production-techniques-of-the-great-lighthouse/">Production Techniques of the Great Lighthouse</a></div> <div>Hyper Carronade (18)<br> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/casting/">Casting</a> 15 </div> <div class="x-RECIPESMALLFONT">Casting techniques for rare Carronade cannons.</div> <div class="x-INFO_TAB">Obtained Info</div> <div class="x-RECIPESMALLFONT"> (Town&#x27;s mans Recipe) Alexandria - 이븐</div> <div class="x-RECIPEFONT"> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/ship-parts/carronade-6/"><br>Carronade (6)</a><div></div></div> <div><br>+</div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/items/strange-cannon/"><br>Strange Cannon</a><div></div></div> <div><br>+</div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/ship-parts/set-of-repair-tools/"><br>Set of Repair Tools</a><div></div></div> <div><br></div> <div><a href="https://bodaciousbanana1.github.io/uwo-db/ship-parts/hyper-carronade-18/"><br>Hyper Carronade (18)</a> </div> </div> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> </div> <br></div></div>

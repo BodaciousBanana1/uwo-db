@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% import "macros/link.html" as link %}
 
 {% block title %}{{ page.title }} - Quests{% endblock %}
 
@@ -12,7 +13,7 @@
     <div class="detail-meta">
       <span class="badge badge-{{ page.extra.type | default(value='adventure') | lower }}">{{ page.extra.type | default(value="Adventure") }}</span>
       {% if page.extra.city %}
-      <span class="meta-city">{{ page.extra.city }} {{ page.extra.guild_type }} Guild</span>
+      <span class="meta-city">{{ link::to(secs="cities,zones", name=page.extra.city) }} {{ page.extra.guild_type }} Guild</span>
       {% endif %}
       <a href="https://dhodb.ivyro.net/eg/main.php?id={{ page.extra.id }}" target="_blank" class="source-link">Source</a>
     </div>
@@ -52,7 +53,7 @@
         <tbody>
           {% for skill in page.extra.skills %}
           <tr>
-            <td><a href="{{ config.base_url }}/skills/{{ skill.name | lower | replace(from=' ', to='-') }}/">{{ skill.name }}</a></td>
+            <td>{{ link::to(secs="skills", name=skill.name) }}</td>
             <td class="num">{{ skill.level }}</td>
           </tr>
           {% endfor %}
@@ -66,7 +67,7 @@
     {% if page.extra.discovery %}
     <section class="detail-section">
       <h2>Discovery</h2>
-      <p class="discovery-name">{{ page.extra.discovery }}</p>
+      <p class="discovery-name">{{ link::to(secs="discoveries", name=page.extra.discovery) }}</p>
       {% if page.extra.discovery_description %}
       <p class="discovery-description">{{ page.extra.discovery_description }}</p>
       {% endif %}
@@ -84,7 +85,7 @@
       <h2>Equipment Rewards</h2>
       <ul class="equipment-rewards-list">
         {% for equip in page.extra.equipment_rewards %}
-        <li><a href="{{ config.base_url }}/equipment/{{ equip.slug }}/">{{ equip.name }}</a></li>
+        <li>{{ link::to(secs="equipment,items,trade-goods,ship-parts,furnishings,pets", name=equip.name, slug=equip.slug | default(value="")) }}</li>
         {% endfor %}
       </ul>
     </section>
@@ -97,7 +98,7 @@
         <h3>Prerequisites</h3>
         <ol class="chain-list prerequisites">
           {% for prereq in page.extra.prerequisites %}
-          <li><a href="{{ config.base_url }}/quests/{{ prereq.slug }}/">{{ prereq.name }}</a></li>
+          <li>{{ link::to(secs="quests", name=prereq.name, slug=prereq.slug | default(value="")) }}</li>
           {% endfor %}
         </ol>
       </div>
@@ -111,7 +112,7 @@
         <h3>Next in Chain</h3>
         <ol class="chain-list followups">
           {% for followup in page.extra.followups %}
-          <li><a href="{{ config.base_url }}/quests/{{ followup.slug }}/">{{ followup.name }}</a></li>
+          <li>{{ link::to(secs="quests", name=followup.name, slug=followup.slug | default(value="")) }}</li>
           {% endfor %}
         </ol>
       </div>
@@ -129,7 +130,7 @@
         <h3>Next in Chain</h3>
         <ol class="chain-list followups">
           {% for followup in page.extra.followups %}
-          <li><a href="{{ config.base_url }}/quests/{{ followup.slug }}/">{{ followup.name }}</a></li>
+          <li>{{ link::to(secs="quests", name=followup.name, slug=followup.slug | default(value="")) }}</li>
           {% endfor %}
         </ol>
       </div>
@@ -149,7 +150,7 @@
         <tbody>
           {% for variant in page.extra.variants %}
           <tr class="variant-row{% if variant.slug == page.extra.slug %} current{% endif %}">
-            <td><a href="{{ config.base_url }}/quests/{{ variant.slug }}/">{{ variant.city }}</a></td>
+            <td>{{ link::to(secs="quests", name=variant.city, key=variant.slug | default(value="") | slugify) }}</td>
             <td>{{ variant.guild_type }}</td>
           </tr>
           {% endfor %}
@@ -160,7 +161,7 @@
     <section class="detail-section">
       <h2>Available At</h2>
       <ul class="learn-list">
-        <li><a href="{{ config.base_url }}/cities/{{ page.extra.city | lower | replace(from=' ', to='-') }}/">{{ page.extra.city }}</a></li>
+        <li>{{ link::to(secs="cities,zones", name=page.extra.city) }}</li>
       </ul>
     </section>
     {% endif %}
@@ -171,7 +172,7 @@
       <ol class="quest-steps">
         {% for step in page.extra.steps %}
         <li value="{{ step.step }}">
-          <span class="step-location">{{ step.location }}</span>
+          <span class="step-location">{{ link::to(secs="cities,landing-points,zones", name=step.location) }}</span>
           <span class="step-action">{{ step.action }}</span>
         </li>
         {% endfor %}
@@ -188,6 +189,9 @@
     </section>
     {% endif %}
   </div>
+
+  {% set archive_id = page.extra.id | default(value="") %}
+  {% include "partials/archived_notes.html" %}
 
   <footer class="detail-footer">
     <a href="{{ config.base_url }}/quests/" class="back-link">← Back to Quests</a>

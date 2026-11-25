@@ -1,0 +1,46 @@
+{#- "How to Get It": archive maps and quests that reward this page's item.
+    Data: data/item_sources/<section>.json (scripts/build_item_sources.py), keyed by page slug.
+    Needs `link` (macros/link.html) imported by the including template. -#}
+{% set src_section = page.components | first %}
+{% set all_sources = load_data(path="data/item_sources/" ~ src_section ~ ".json", required=false) %}
+{% if all_sources and page.slug in all_sources %}
+{% set srcs = all_sources[page.slug] %}
+{% set maps = srcs | filter(attribute="kind", value="map") %}
+{% set quests = srcs | filter(attribute="kind", value="quest") %}
+<section class="detail-section item-sources" id="how-to-get">
+  <h2>How to Get It</h2>
+  {% if maps | length > 0 %}
+  <h3 class="sources-sub">Archive map reward{{ maps | length | pluralize }}</h3>
+  <table class="detail-table">
+    <thead><tr><th>Map</th><th>Sold At</th><th>Skills</th></tr></thead>
+    <tbody>
+      {% for s in maps %}
+      <tr>
+        <td>{% if s.page %}<a href="{{ get_url(path=s.page) }}/" class="xref">{{ s.name }}</a>{% else %}{{ s.name }}{% endif %}{% if s.number %} <span class="reward-num" title="Number shown next to this reward on the original database">{{ s.number }}</span>{% endif %}</td>
+        <td>{% for c in s.cities %}{{ link::to(secs="cities,zones", name=c) }}{% if not loop.last %}, {% endif %}{% else %}<span class="notes-source">not sold in an archive</span>{% endfor %}</td>
+        <td>{% for k in s.skills %}<span class="skill-tag">{{ link::to(secs="skills", name=k) }}</span> {% endfor %}{% if s.rank %}<span class="rank-num">R{{ s.rank }}</span>{% endif %}
+          {% if s.pull %}<span class="skill-tag skill-pull" title="Hidden: needed to pull the map from the archive (player-reported)">Pull: {{ link::to(secs="skills", name=s.pull) }}{% if s.rank %} {{ s.rank }}{% endif %}</span>{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% endif %}
+  {% if quests | length > 0 %}
+  <h3 class="sources-sub">Quest reward{{ quests | length | pluralize }} <span class="notes-count">{{ quests | length }}</span></h3>
+  <table class="detail-table">
+    <thead><tr><th>Quest</th><th class="num">Difficulty</th><th>Skills</th><th>Discovery</th></tr></thead>
+    <tbody>
+      {% for s in quests | slice(end=60) %}
+      <tr>
+        <td>{% if s.page %}<a href="{{ get_url(path=s.page) }}/" class="xref">{{ s.name }}</a>{% else %}{{ link::to(secs="quests", name=s.name) }}{% endif %}{% if s.city %} <span class="prereq">{{ s.city }}</span>{% endif %}</td>
+        <td class="num">{% if s.difficulty %}{{ s.difficulty }}{% else %}-{% endif %}</td>
+        <td>{% for k in s.skills %}<span class="skill-tag">{{ link::to(secs="skills", name=k.name) }} {{ k.rank | default(value="") }}</span> {% endfor %}</td>
+        <td>{% if s.discovery %}{% if s.discovery_page %}<a href="{{ get_url(path=s.discovery_page) }}/" class="xref">{{ s.discovery }}</a>{% else %}{{ link::to(secs="discoveries", name=s.discovery) }}{% endif %}{% else %}-{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% if quests | length > 60 %}<p class="truncation-notice">Showing 60 of {{ quests | length }} quests.</p>{% endif %}
+  {% endif %}
+</section>
+{% endif %}

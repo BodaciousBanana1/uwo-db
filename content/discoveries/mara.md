@@ -1,0 +1,12 @@
++++
+title = "Mara"
+template = "discoveries/page.html"
+
+[extra]
+archive_import = true
+archive_id = "70001612"
+category = "Small creature"
+unnamed = false
+disc = { description = "A rat that inhabits grassy plains in South America. It hops about. Male and female always move about together and remain so all their lives. The male is subservient to the female.", stars = 2, category = "Small creature", exp = 310, fame = 155, ducats = 62000, maps = [], quests = [{ id = "99996994", name = "A bizarre mouse", skills = [{ name = "Ecological Research", rank = 3 }, { name = "Biology", rank = 5 }, { name = "Quechuan", rank = 1 }], location = "South America Southwest Coast", location_id = "90001086", rewards = [{ id = "01500232", name = "Quest Mediation Permit" }] }, { id = "99997034", name = "Search for animal on west shore of New World", skills = [{ name = "Ecological Research", rank = 3 }, { name = "Biology", rank = 5 }], location = "South America Southwest Coast", location_id = "90001086", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99997034", name = "Search for animal on west shore of New World", skills = [{ name = "Ecological Research", rank = 3 }, { name = "Biology", rank = 5 }], location = "South America Southwest Coast", location_id = "90001086", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99997034", name = "Search for animal on west shore of New World", skills = [{ name = "Ecological Research", rank = 3 }, { name = "Biology", rank = 5 }], location = "South America Southwest Coast", location_id = "90001086", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99997034", name = "Search for animal on west shore of New World", skills = [{ name = "Ecological Research", rank = 3 }, { name = "Biology", rank = 5 }], location = "South America Southwest Coast", location_id = "90001086", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99997034", name = "Search for animal on west shore of New World", skills = [{ name = "Ecological Research", rank = 3 }, { name = "Biology", rank = 5 }], location = "South America Southwest Coast", location_id = "90001086", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99997034", name = "Search for animal on west shore of New World", skills = [{ name = "Ecological Research", rank = 3 }, { name = "Biology", rank = 5 }], location = "South America Southwest Coast", location_id = "90001086", rewards = [{ id = "01500263", name = "Patriot Award" }] }], ornaments = [] }
++++
+

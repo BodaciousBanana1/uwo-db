@@ -4,7 +4,7 @@ date = 2026-05-22
 template = "ships/page.html"
 
 [extra]
-id = "ship_0378"
+id = "ship_0433"
 slug = "neva"
 size = "Hvy"
 ship_type = "adventure"
@@ -26,8 +26,5 @@ masts = 3
 material = "Teak"
 is_cash_ship = false
 is_steam = false
-shipbuilding = [
-  { city = "Lisbon", city_slug = "lisbon", skill_rank = 1, material = "Unknown", hull = "Large 2-decked Hull" },
-]
 +++
 

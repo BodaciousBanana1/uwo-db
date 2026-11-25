@@ -1,0 +1,12 @@
++++
+title = "Northern Europe"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "88880201"
+category = "Memorial Album / Research"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-wiki"><br> <br> Ports in this Region:<br> <br> <a href="https://bodaciousbanana1.github.io/uwo-db/cities/oslo/">Oslo</a><br> <a href="https://bodaciousbanana1.github.io/uwo-db/cities/bergen/">Bergen</a><br> <a href="https://bodaciousbanana1.github.io/uwo-db/cities/riga/">Riga</a><br> <a href="https://bodaciousbanana1.github.io/uwo-db/cities/lubeck/">Lubeck</a><br> <a href="https://bodaciousbanana1.github.io/uwo-db/cities/stockholm/">Stockholm</a><br> <a href="https://bodaciousbanana1.github.io/uwo-db/cities/copenhagen/">Copenhagen</a><br> <a href="https://bodaciousbanana1.github.io/uwo-db/cities/danzig/">Danzig</a><br> <a href="https://bodaciousbanana1.github.io/uwo-db/cities/visby/">Visby</a><br> <a href="https://bodaciousbanana1.github.io/uwo-db/cities/city-10000195/">St. Petersburg</a><br> <a href="https://bodaciousbanana1.github.io/uwo-db/cities/city-10000193/">Kokkola</a></div><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Northern Europe <br> 0 </li> <li class="x-item1" style="flex:0 1 300px"><br> </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> </div> <br></div></div>

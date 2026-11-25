@@ -1,0 +1,12 @@
+{#- Pages in this section imported from the original database that don't have
+    structured data yet (extra.archive_import). Include from a section template. -#}
+{% set imported = section.pages | filter(attribute="extra.archive_import", value=true) %}
+{% if imported | length > 0 %}
+<section class="detail-section archive-imported-list">
+  <h2>More from the original database <span class="notes-count">{{ imported | length }}</span></h2>
+  <p class="notes-source">Imported from the original UWO Database without full structured data yet.</p>
+  <ul class="archive-list">
+    {% for p in imported %}<li><a href="{{ p.permalink }}">{{ p.title }}</a></li>{% endfor %}
+  </ul>
+</section>
+{% endif %}

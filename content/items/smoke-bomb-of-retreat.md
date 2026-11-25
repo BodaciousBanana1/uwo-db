@@ -1,0 +1,12 @@
++++
+title = "Smoke Bomb of Retreat"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "01500757"
+category = "Consumable"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-wiki"><br> <br> Also obtainable through these ways:<br> <br> Maritime Union Shop - 3,000 points<br> <a href="https://bodaciousbanana1.github.io/uwo-db/guides/labyrinth/">Labyrinth</a> Endless Dungeon - Treasure Hunter NPC (rare encounter; not 100% drop)<br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/outlaws-treasure-chest/">Outlaws&#x27; Treasure Chest</a> - random drop</div><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Smoke Bomb of Retreat <br> Item used in melee battle. <br>Withdraw from melee battle by using smokescreen to hinder enemy sight. </li> <li class="x-item1" style="flex:0 1 300px"><br> </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <div class="x-INFO_TAB">Recipe</div> <div> Quarters Production<br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/quarters-production/">Quarters Production</a></div> <div>Production of smoke bomb of retreat<br> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/handicrafts/">Handicrafts</a> 15 </div> <div class="x-RECIPESMALLFONT">Recipe of making smoke bombs used to withdraw from melee battles.</div> <div class="x-INFO_TAB">Obtained Info</div> <div class="x-RECIPESMALLFONT"> Quarters</div> <div class="x-RECIPEFONT"> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/items/smoke-ball/"><br>Smoke Ball</a><div></div></div> <div><br>+</div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/trade-goods/gunpowder/"><br>Gunpowder</a><div></div></div> <div><br>+</div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/trade-goods/steel/"><br>Steel</a><div></div></div> <div><br></div> <div><a href="https://bodaciousbanana1.github.io/uwo-db/items/smoke-bomb-of-retreat/"><br>Smoke Bomb of Retreat</a> </div> </div> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <ul class="x-unli1"><br><div class="x-INFO_TAB">Ingredients</div> </ul> <ul class="x-underline"></ul> </div> <br></div></div>

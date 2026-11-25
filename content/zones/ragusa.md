@@ -1,0 +1,12 @@
++++
+title = "Ragusa"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "90005338"
+category = "Zone"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Ragusa <br> Ragusa<br>81A0000<br>TOWN_RAGUSA_T_000<br>TOWN026<br>TOWN026<br>Ragusa<br>Ragusa </li> <li class="x-item1" style="flex:0 1 300px"><br> </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <br><br><a href="https://bodaciousbanana1.github.io/uwo-db/cities/ragusa/">Ragusa</a> <span class="x-hl">1</span><br><br><br><br><br><br><br>Esperanzo<br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/deliver-celery-marseille/">Deliver celery</a> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/italian/">Italian</a> 1 <br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/develop-sea-lane-to-ragusa/">Develop sea lane to Ragusa</a> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/italian/">Italian</a> 1 <br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/the-officials-henpecked-husband/">The official&#x27;s henpecked husband</a> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/italian/">Italian</a> 1 <br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/secrets-of-the-upper-classes/">Secrets of the upper-classes</a> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/italian/">Italian</a> 1 <br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/sufferings-of-the-reagular-shipment/">Sufferings of the reagular shipment</a> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/italian/">Italian</a> 1 <br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/for-a-drunkard/">For a drunkard</a> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/italian/">Italian</a> 1 <br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/deliver-parsley/">Deliver Parsley</a> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/italian/">Italian</a> 1 <br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/g-t-purchase-of-fish/">(G.T.)Purchase of fish</a> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/italian/">Italian</a> 1 </div> <br></div></div>

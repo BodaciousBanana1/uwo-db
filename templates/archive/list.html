@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{#- List page for sections made of imported archive pages (scripts/import_archive_pages.py). -#}
+
+{% block title %}{{ section.title }}{% endblock %}
+
+{% block content %}
+<article class="list-page">
+  <header class="list-header">
+    <h1>{{ section.title }}</h1>
+    {% if section.extra.intro %}<p class="list-description">{{ section.extra.intro }}</p>{% endif %}
+  </header>
+
+  {% set categories = section.pages | map(attribute="extra.category") | unique | sort %}
+  <div class="filter-bar">
+    <input type="text" class="filter-input" id="archive-search" placeholder="Search {{ section.title | lower }}...">
+    {% if categories | length > 1 %}
+    <select class="filter-select" id="archive-category">
+      <option value="">All types</option>
+      {% for c in categories %}<option value="{{ c }}">{{ c }}</option>{% endfor %}
+    </select>
+    {% endif %}
+    <span class="archive-count"><span id="archive-visible">{{ section.pages | length }}</span> of {{ section.pages | length }}</span>
+  </div>
+
+  <ul class="archive-list" id="archive-list">
+    {% for p in section.pages %}
+    <li data-name="{{ p.title | lower }}" data-category="{{ p.extra.category }}">
+      <a href="{{ p.permalink }}">{{ p.title }}</a>
+      {% if categories | length > 1 %}<span class="archive-cat">{{ p.extra.category }}</span>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</article>
+
+<script>
+(() => {
+  const search = document.getElementById('archive-search');
+  const cat = document.getElementById('archive-category');
+  const items = [...document.querySelectorAll('#archive-list li')];
+  const count = document.getElementById('archive-visible');
+  function filter() {
+    const q = search.value.toLowerCase();
+    const c = cat ? cat.value : '';
+    let n = 0;
+    for (const li of items) {
+      const show = (!q || li.dataset.name.includes(q)) && (!c || li.dataset.category === c);
+      li.hidden = !show;
+      if (show) n++;
+    }
+    count.textContent = n;
+  }
+  search.addEventListener('input', filter);
+  if (cat) cat.addEventListener('change', filter);
+})();
+</script>
+{% endblock %}

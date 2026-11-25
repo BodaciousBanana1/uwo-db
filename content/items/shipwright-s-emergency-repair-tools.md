@@ -1,0 +1,12 @@
++++
+title = "Shipwright's Emergency Repair Tools"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "01500999"
+category = "Consumable"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-wiki"><br> <br> Obtain from:<br> <br> Quest: <a href="https://bodaciousbanana1.github.io/uwo-db/quests/those-who-watch-over/">Those Who Watch Over</a><br> <br> Consumable:<br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/donation-appreciation-exchange-ticket-no-1/">Donation Appreciation Exchange Ticket (No.1)</a><br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/epic-sea-feud-reward/">Epic Sea Feud Reward</a><br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/fourth-rank-merit-reward-no-1/">Fourth Rank Merit Reward (No.1)</a><br> <a href="https://bodaciousbanana1.github.io/uwo-db/?q=Third%20Rank%20Merit%20Reward%20%28No.1%29">Third Rank Merit Reward (No.1)</a><br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/battle-performance-award/">Battle Performance Award</a><br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/epic-pirate-feud-award/">Epic Pirate Feud Award</a><br> <br> -----------------------<br> <span class="x-hl"><br> NOTE)<br> It is known that we can increase Dura. up to 200 WITHOUT Breakage/Destruction.<br> For example) Sail 200/100, Cannon 200/100, DSBP 200/100.<br> <br> ※ Base Dura: 100% Success rate (90/100 → 91/100)<br> Over Dura: Success rate will be decreased, but won&#x27;t be destroyed.(110/100 → 111/100)</span><br> <br> <span class="x-hl">Don&#x27;t have the exact data on our Maris yet.</span><br> -----------------------<br> <br> Similar Item: <a href="https://bodaciousbanana1.github.io/uwo-db/items/master-craftsman-s-special-repair-tools/">Master Craftsman&#x27;s Special Repair Tools</a></div><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Shipwright&#x27;s Emergency Repair Tools <br> Repair tools that enable to<br>recover ship parts&#x27; Durability.<br>May fail when using too much. </li> <li class="x-item1" style="flex:0 1 300px"><br> </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <ul class="x-unli1"><br><div class="x-INFO_TAB">Ingredients</div> </ul> <ul class="x-underline"></ul> </div> <br></div></div>

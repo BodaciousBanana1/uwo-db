@@ -1,0 +1,12 @@
++++
+title = "Fringe-Lipped Bat"
+template = "discoveries/page.html"
+
+[extra]
+archive_import = true
+archive_id = "70001613"
+category = "Small creature"
+unnamed = false
+disc = { description = "A bat that lives in the tropical rain forests of Central America. It takes its name from the wart-like protrusions on its lips and muzzle. It is known to eat frogs and its large ears are able to distinguish which frogs are poisonous just by the frog's call.", stars = 2, category = "Small creature", exp = 310, fame = 155, ducats = 62000, maps = [], quests = [{ id = "99997422", name = "Animal that does not succumb to poison", difficulty = 5, skills = [{ name = "Ecological Research", rank = 3 }, { name = "Biology", rank = 5 }, { name = "Mayan Languages", rank = 1 }], location = "Northwest Portobelo", location_id = "90001094", rewards = [] }, { id = "99997811", name = "Investigation of ecology in the region", skills = [{ name = "Ecological Research", rank = 3 }, { name = "Biology", rank = 5 }], location = "Northwest Portobelo", location_id = "90001094", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99997811", name = "Investigation of ecology in the region", skills = [{ name = "Ecological Research", rank = 3 }, { name = "Biology", rank = 5 }], location = "Northwest Portobelo", location_id = "90001094", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99997811", name = "Investigation of ecology in the region", skills = [{ name = "Ecological Research", rank = 3 }, { name = "Biology", rank = 5 }], location = "Northwest Portobelo", location_id = "90001094", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99997811", name = "Investigation of ecology in the region", skills = [{ name = "Ecological Research", rank = 3 }, { name = "Biology", rank = 5 }], location = "Northwest Portobelo", location_id = "90001094", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99997811", name = "Investigation of ecology in the region", skills = [{ name = "Ecological Research", rank = 3 }, { name = "Biology", rank = 5 }], location = "Northwest Portobelo", location_id = "90001094", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99997811", name = "Investigation of ecology in the region", skills = [{ name = "Ecological Research", rank = 3 }, { name = "Biology", rank = 5 }], location = "Northwest Portobelo", location_id = "90001094", rewards = [{ id = "01500263", name = "Patriot Award" }] }], ornaments = [] }
++++
+

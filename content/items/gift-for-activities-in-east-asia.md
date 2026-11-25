@@ -1,0 +1,12 @@
++++
+title = "Gift for Activities in East Asia"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "01500991"
+category = "Consumable"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-wiki"><br> <br> Contains:<br> <br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/rakugan/">Rakugan</a> x50<br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/wind-king-s-pendant/">Wind King&#x27;s Pendant</a> x3 (no-trade)<br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/veil-of-dominions/">Veil of Dominions</a> x3 (no-trade)</div><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Gift for Activities in East Asia <br> A gift rewarded to those who<br>are highly evaluated for their<br>activities in East Asia.<br>Gives all of the items listed. </li> <li class="x-item1" style="flex:0 1 300px"><br> </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <ul class="x-unli1"><br><div class="x-INFO_TAB">Ingredients</div> </ul> <ul class="x-underline"></ul> </div> <br></div></div>

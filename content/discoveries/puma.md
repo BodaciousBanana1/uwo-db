@@ -1,0 +1,12 @@
++++
+title = "Puma"
+template = "discoveries/page.html"
+
+[extra]
+archive_import = true
+archive_id = "70001019"
+category = "Large creature"
+unnamed = false
+disc = { description = "This animal has a firm body, long tail and gold-coloured eyes. It can adapt to various environments; it has an impressive physical ability to catch and eat mice and rabbits.", stars = 5, category = "Large creature", exp = 910, fame = 350, ducats = 182000, maps = [], quests = [{ id = "99992343", name = "Golden predator", skills = [{ name = "Ecological Research", rank = 8 }, { name = "Biology", rank = 10 }, { name = "Mayan Languages", rank = 1 }], location = "Gulf of Mexico Southwest Coast", location_id = "90001071", rewards = [{ id = "01500232", name = "Quest Mediation Permit 1" }] }, { id = "99992337", name = "An unknown danger", difficulty = 2, skills = [{ name = "Ecological Research", rank = 8 }, { name = "Biology", rank = 10 }], location = "Gulf of Mexico Southwest Coast", location_id = "90001071", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99992337", name = "An unknown danger", difficulty = 2, skills = [{ name = "Ecological Research", rank = 8 }, { name = "Biology", rank = 10 }], location = "Gulf of Mexico Southwest Coast", location_id = "90001071", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99992337", name = "An unknown danger", difficulty = 2, skills = [{ name = "Ecological Research", rank = 8 }, { name = "Biology", rank = 10 }], location = "Gulf of Mexico Southwest Coast", location_id = "90001071", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99992337", name = "An unknown danger", difficulty = 2, skills = [{ name = "Ecological Research", rank = 8 }, { name = "Biology", rank = 10 }], location = "Gulf of Mexico Southwest Coast", location_id = "90001071", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99992337", name = "An unknown danger", difficulty = 2, skills = [{ name = "Ecological Research", rank = 8 }, { name = "Biology", rank = 10 }], location = "Gulf of Mexico Southwest Coast", location_id = "90001071", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99992337", name = "An unknown danger", difficulty = 2, skills = [{ name = "Ecological Research", rank = 8 }, { name = "Biology", rank = 10 }], location = "Gulf of Mexico Southwest Coast", location_id = "90001071", rewards = [{ id = "01500263", name = "Patriot Award" }] }], ornaments = [] }
++++
+

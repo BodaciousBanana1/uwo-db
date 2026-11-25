@@ -4,7 +4,7 @@ date = 2026-05-22
 template = "ships/page.html"
 
 [extra]
-id = "ship_0376"
+id = "ship_0431"
 slug = "ocean"
 size = "Hvy"
 ship_type = "battle"
@@ -26,8 +26,5 @@ masts = 3
 material = "Iron-plated"
 is_cash_ship = true
 is_steam = false
-shipbuilding = [
-  { city = "Seville", city_slug = "seville", skill_rank = 1, material = "Unknown", hull = "Large 2-decked Hull" },
-]
 +++
 

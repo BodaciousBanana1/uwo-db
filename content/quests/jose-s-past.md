@@ -1,12 +1,19 @@
 +++
-title = "Jose`s Past"
+title = "Jose's Past"
+date = 2026-05-22
 slug = "jose-s-past"
 template = "quests/page.html"
 
 [extra]
+slug = "jose-s-past"
 id = "99990698"
 quest_number = "14651"
 type = "Adventure"
+city = "Lisbon"
+guild_type = "Adventure"
+discovery = "Threatening Letter Addressed to Jose's Father"
+reward = 0
+advance = 0
 difficulty = 4
 exp_reward = 35000
 fame_reward = 0

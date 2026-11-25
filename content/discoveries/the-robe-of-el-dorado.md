@@ -1,0 +1,12 @@
++++
+title = "The Robe of El Dorado"
+template = "discoveries/page.html"
+
+[extra]
+archive_import = true
+archive_id = "70001610"
+category = "Treasure"
+unnamed = false
+disc = { description = "Robe that was brought back by a valiant adventurer who infiltrated a land thought to be El Dorado. It has clearly been made with superb skill and high quality material.", stars = 2, category = "Treasure", exp = 310, fame = 155, ducats = 62000, maps = [], quests = [{ id = "99996985", name = "Tracing an adventure", skills = [{ name = "Search", rank = 3 }, { name = "Appraisal", rank = 5 }, { name = "Quechuan", rank = 1 }], location = "South America Southwest Coast", location_id = "90001086", rewards = [{ id = "01500232", name = "Quest Mediation Permit" }] }, { id = "99997039", name = "Search for treasure of the city of gold", skills = [{ name = "Search", rank = 3 }, { name = "Appraisal", rank = 5 }], location = "South America Southwest Coast", location_id = "90001086", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99997039", name = "Search for treasure of the city of gold", skills = [{ name = "Search", rank = 3 }, { name = "Appraisal", rank = 5 }], location = "South America Southwest Coast", location_id = "90001086", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99997039", name = "Search for treasure of the city of gold", skills = [{ name = "Search", rank = 3 }, { name = "Appraisal", rank = 5 }], location = "South America Southwest Coast", location_id = "90001086", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99997039", name = "Search for treasure of the city of gold", skills = [{ name = "Search", rank = 3 }, { name = "Appraisal", rank = 5 }], location = "South America Southwest Coast", location_id = "90001086", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99997039", name = "Search for treasure of the city of gold", skills = [{ name = "Search", rank = 3 }, { name = "Appraisal", rank = 5 }], location = "South America Southwest Coast", location_id = "90001086", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99997039", name = "Search for treasure of the city of gold", skills = [{ name = "Search", rank = 3 }, { name = "Appraisal", rank = 5 }], location = "South America Southwest Coast", location_id = "90001086", rewards = [{ id = "01500263", name = "Patriot Award" }] }], ornaments = [] }
++++
+

@@ -4,7 +4,7 @@ date = 2026-05-22
 template = "ships/page.html"
 
 [extra]
-id = "ship_0395"
+id = "ship_0450"
 slug = "royal-george"
 size = "Hvy"
 ship_type = "battle"
@@ -26,8 +26,5 @@ masts = 3
 material = "Copper-coated"
 is_cash_ship = true
 is_steam = false
-shipbuilding = [
-  { city = "Hamburg", city_slug = "hamburg", skill_rank = 1, material = "Unknown", hull = "Large Flush Deck Style Hull" },
-]
 +++
 

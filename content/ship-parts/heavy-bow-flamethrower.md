@@ -1,0 +1,12 @@
++++
+title = "Heavy Bow Flamethrower"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "00901313"
+category = "Special equipment"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Heavy Bow Flamethrower <br> An improved Flamethrower. Will be placed on the bow. </li> <li class="x-item1" style="flex:0 1 300px"><br> <div class="x-INFO_TAB">Base Performance</div> Special Attack (Flame) <br><div class="x-state10">100</div> <br> <br>Bow (front) <br> <br>Firepower: 160 <br>Firing Range: Normal <br>Range: 300 <br>Firing Speed: 10 <br> <br> <br> <br> </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <div class="x-INFO_TAB">Recipe</div> <div> Art of Production (Advanced Casting)<br> <a href="https://bodaciousbanana1.github.io/uwo-db/recipes/art-of-production-advanced-casting/">Art of Production (Advanced Casting)</a></div> <div>Heavy Bow Flamethrowers<br> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/casting/">Casting</a> 12 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/management-technique/">Management Technique</a> 10</div> <div class="x-RECIPESMALLFONT">The method of making versatile<br>improved flamethrowers, mounted on the bow.</div> <div class="x-INFO_TAB">Obtained Info</div> <div class="x-RECIPESMALLFONT"> (Town&#x27;s mans Recipe) Bilbao,Viana do Castelo,Cattaro,Le Havre,Rotterdam,Portsmouth - 용광로</div> <div class="x-RECIPEFONT"> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/trade-goods/local-specialty-01600934/"><br>Stainless Steel</a><div></div></div> <div><br>+</div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/trade-goods/local-specialty-01600935/"><br>Heavy Oil</a><div></div></div> <div><br>+</div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/items/improved-steel-sheet/"><br>Improved Steel Sheet</a><div></div></div> <div><br></div> <div><a href="https://bodaciousbanana1.github.io/uwo-db/ship-parts/heavy-bow-flamethrower/"><br>Heavy Bow Flamethrower</a> </div> </div> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> </div> <br></div></div>

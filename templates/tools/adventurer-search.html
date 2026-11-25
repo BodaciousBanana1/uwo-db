@@ -47,6 +47,7 @@
   </div>
 </div>
 
+{% set link_secs = "quests,cities,zones,skills,discoveries,map_ids" %}{% include "partials/link_index.html" %}
 <script>
 const BASE_URL = '{{ config.base_url }}';
 const allQuests = {{ all_quests | json_encode() | safe }};
@@ -180,7 +181,7 @@ function doSearch() {
       html += `
         <div class="city-result-block">
           <div class="city-result-header">
-            <h3><a href="${BASE_URL}/cities/${city}/">${formatCity(city)}</a></h3>
+            <h3>${UWO.link('cities,zones', formatCity(city), {slug: city})}</h3>
             <span class="city-result-counts">${data.quests.length} quests, ${data.maps.length} maps</span>
           </div>`;
 
@@ -193,13 +194,13 @@ function doSearch() {
               <tbody>`;
         data.quests.forEach(q => {
           const skillsHtml = (q.skills || []).map(s =>
-            `<span class="skill-tag ${s.name === skill ? 'skill-match' : ''}">${s.name} ${s.level}</span>`
+            `<span class="skill-tag ${s.name === skill ? 'skill-match' : ''}">${UWO.link('skills', s.name)} ${s.level}</span>`
           ).join('');
           html += `<tr>
-            <td class="item-name">${q.name}</td>
+            <td class="item-name">${UWO.link('quests', q.name, {slug: q.slug})}</td>
             <td><span class="badge badge-${q.type.toLowerCase()}">${q.type}</span></td>
             <td class="skills-cell">${skillsHtml}</td>
-            <td class="discovery-cell">${q.discovery || '-'}</td>
+            <td class="discovery-cell">${q.discovery ? UWO.link('discoveries', (s => String(s || '').split('★')[0].trim())(q.discovery), {label: q.discovery}) : '-'}</td>
           </tr>`;
         });
         html += `</tbody></table></div>`;
@@ -214,10 +215,10 @@ function doSearch() {
               <tbody>`;
         data.maps.forEach(m => {
           html += `<tr>
-            <td class="item-name">${m.name}</td>
+            <td class="item-name">${UWO.link('map_ids', m.name, {key: m.id})}</td>
             <td class="skills-cell">${m.skills_required || '-'}</td>
             <td>${m.location || '-'}</td>
-            <td class="discovery-cell">${m.discovery || '-'}</td>
+            <td class="discovery-cell">${m.discovery ? UWO.link('discoveries', (s => String(s || '').split('★')[0].trim())(m.discovery), {label: m.discovery}) : '-'}</td>
           </tr>`;
         });
         html += `</tbody></table></div>`;

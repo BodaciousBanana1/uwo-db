@@ -1,0 +1,12 @@
++++
+title = "Sao Tome"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "90005513"
+category = "Zone"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Sao Tome <br> Sao Tome<br>8340000<br>TOWN_SAOTOME_T_000<br>TOWN052<br>TOWN052<br>Sao Tome<br>Sao Tome </li> <li class="x-item1" style="flex:0 1 300px"><br> </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <br><br><a href="https://bodaciousbanana1.github.io/uwo-db/cities/sao-tome/">Sao Tome</a> <span class="x-hl">1</span><br><br><br><br><br><br><br>Esperanzo<br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/urgent-oil-delivery/">Urgent oil delivery</a> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/portuguese/">Portuguese</a> 1 <br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/purchasing-mutton-cape-town/">Purchasing mutton</a> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/west-african-languages/">West African Languages</a> 1 <br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/urgent-delivery-of-lumber-cape-town/">Urgent delivery of lumber</a> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/portuguese/">Portuguese</a> 1 <br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/disaster-aid/">Disaster aid</a> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/portuguese/">Portuguese</a> 1 <br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/purchasing-mutton-cape-town/">Purchasing mutton</a> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/west-african-languages/">West African Languages</a> 1 <br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/g-t-emergency-delivery-of-oil/">(g.t.)Emergency delivery of oil</a> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/portuguese/">Portuguese</a> 1 <br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/g-t-purchase-of-lamb/">(g.t. )Purchase of lamb</a> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/west-african-languages/">West African Languages</a> 1 <br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/g-t-emergency-shipping-of-oil/">(g.t. )Emergency shipping of oil</a> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/portuguese/">Portuguese</a> 1 </div> <br></div></div>

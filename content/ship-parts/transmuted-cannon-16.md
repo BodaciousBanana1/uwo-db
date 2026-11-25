@@ -1,0 +1,12 @@
++++
+title = "Transmuted Cannon (16)"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "00707416"
+category = "Cannon"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Transmuted Cannon (16) <br> A large cannon transmuted<br>using Orichalcum. 16 will be<br>placed along the sides of the ship. </li> <li class="x-item1" style="flex:0 1 300px"><br> <div class="x-INFO_TAB">Base Performance</div> <div class="x-state17">1440</div> <div class="x-state18">300</div> <div class="x-state19">9</div> <div class="x-state20">2</div> <div class="x-state21">1</div> <br> <br>90 × 16 <br>Broadside <br>Double shot <br><div class="x-state10">80</div> </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <div class="x-INFO_TAB">Recipe</div> <div> Transformation<br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/transformation/">Transformation</a></div> <div>Transformation<br> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/alchemy/">Alchemy</a> 10 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/casting/">Casting</a> 10</div> <div class="x-RECIPESMALLFONT">Transforms the Base Item into a special cannon<br>by using the mysterious metal.</div> <div class="x-INFO_TAB">Obtained Info</div> <div class="x-RECIPESMALLFONT"> Transmutation Alchemy Equipment(Quarters)</div> <div class="x-RECIPEFONT"> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/items/weathered-cannon/"><br>Weathered Cannon</a><div></div></div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/items/seal-of-salamander/"><br>Seal of Salamander</a><div></div></div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/trade-goods/white-ore/"><br>White Ore</a><div></div></div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/items/orichalcum/"><br>Orichalcum</a><div></div></div> <div><br></div> <div><a href="https://bodaciousbanana1.github.io/uwo-db/ship-parts/transmuted-cannon-16/"><br>Transmuted Cannon (16)</a> </div> </div> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> </div> <br></div></div>

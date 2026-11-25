@@ -4,7 +4,7 @@ date = 2026-05-22
 template = "ships/page.html"
 
 [extra]
-id = "ship_0325"
+id = "ship_0362"
 slug = "thermopylae"
 size = "Hvy"
 ship_type = "adventure"
@@ -26,8 +26,5 @@ masts = 3
 material = "Mahogany"
 is_cash_ship = false
 is_steam = false
-shipbuilding = [
-  { city = "Porto", city_slug = "porto", skill_rank = 1, material = "Red Pine", hull = "Large 2-decked Hull" },
-]
 +++
 

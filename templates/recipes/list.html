@@ -24,7 +24,7 @@
   </div>
 
   <div class="recipe-grid" id="recipe-grid">
-    {% for page in section.pages %}
+    {% for page in section.pages %}{% if page.extra.archive_import %}{% continue %}{% endif %}
     <a href="{{ page.permalink }}" class="recipe-card"
        data-name="{{ page.title | lower }}"
        data-skill="{{ page.extra.skill_slug | default(value='') }}">
@@ -44,6 +44,7 @@
     </a>
     {% endfor %}
   </div>
+{% include "partials/imported_list.html" %}
 </article>
 
 <script>

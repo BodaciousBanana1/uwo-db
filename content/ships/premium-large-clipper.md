@@ -4,7 +4,7 @@ date = 2026-05-22
 template = "ships/page.html"
 
 [extra]
-id = "ship_0358"
+id = "ship_0398"
 slug = "premium-large-clipper"
 size = "Hvy"
 ship_type = "trade"
@@ -26,8 +26,5 @@ masts = 5
 material = "Red Pine"
 is_cash_ship = false
 is_steam = false
-shipbuilding = [
-  { city = "London", city_slug = "london", skill_rank = 1, material = "Unknown", hull = "Large Flush Deck Style Hull" },
-]
 +++
 

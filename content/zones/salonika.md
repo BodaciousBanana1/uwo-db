@@ -1,0 +1,12 @@
++++
+title = "Salonika"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "90005405"
+category = "Zone"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Salonika <br> Salonika<br>8250000<br>TOWN_THESSALONIKI_T_000<br>TOWN037<br>TOWN037<br>Salonika<br>Salonika </li> <li class="x-item1" style="flex:0 1 300px"><br> </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <br><br><a href="https://bodaciousbanana1.github.io/uwo-db/cities/salonika/">Salonika</a> <span class="x-hl">3</span><br><br><br><br><br><br><br>Esperanzo<br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/the-heartless-ocelot/">The heartless ocelot</a> <span class="x-hl">7</span> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/cooking/">Cooking</a> 5 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/greek/">Greek</a> 1 <br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/deliver-white-vinegar/">Deliver white vinegar</a> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/greek/">Greek</a> 1 <br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/torso-that-catches-the-wind/">Torso that catches the wind</a> <span class="x-hl">8</span> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/search/">Search</a> 12 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/art/">Art</a> 14 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/greek/">Greek</a> 1 <a href="https://bodaciousbanana1.github.io/uwo-db/discoveries/victory-of-samothrace/">Victory of Samothrace</a><br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/magical-medicine/">Magical medicine</a> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/greek/">Greek</a> 1 <br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/uses-for-tobacco/">Uses for Tobacco</a> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/greek/">Greek</a> 1 <br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/a-delivery-of-silk-cotton/">A Delivery of Silk Cotton</a> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/greek/">Greek</a> 1 <br> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/italian/">Italian</a> 0 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/greek/">Greek</a> 0 </div> <br></div></div>

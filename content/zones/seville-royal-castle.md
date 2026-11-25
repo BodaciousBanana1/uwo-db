@@ -1,0 +1,12 @@
++++
+title = "Seville Royal Castle"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "90005006"
+category = "Zone"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Seville Royal Castle <br> Seville Royal Castle<br>C010300<br>TOWN_SEVILLA_B_003<br>ROOM0001<br>ROOM0001<br>Seville Royal Castle<br>Seville Royal Palace </li> <li class="x-item1" style="flex:0 1 300px"><br> </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <br><br><a href="https://bodaciousbanana1.github.io/uwo-db/cities/seville/">Seville</a> <span class="x-hl">16</span><br><br><br><br><br><br><br>Esperanzo<br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/the-cardinal-and-the-delicious-bird/">The Cardinal and the delicious bird</a> <span class="x-hl">2</span> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/spanish/">Spanish</a> 1 <br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/to-the-kings-road/">To The King&#x27;s Road...</a> <span class="x-hl">3</span> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/search/">Search</a> 12 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/appraisal/">Appraisal</a> 14 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/unlock/">Unlock</a> 12 <a href="https://bodaciousbanana1.github.io/uwo-db/discoveries/el-camino-real/">El Camino Real</a><br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/fate-of-those-with-power/">Fate of Those with Power</a> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/spanish/">Spanish</a> 1 </div> <br></div></div>

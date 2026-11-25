@@ -4,7 +4,7 @@ date = 2026-05-22
 template = "ships/page.html"
 
 [extra]
-id = "ship_0822"
+id = "ship_0919"
 slug = "elite-whydah"
 size = "Hvy"
 ship_type = "battle"

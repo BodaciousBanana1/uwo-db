@@ -1,0 +1,12 @@
++++
+title = "Strange Powder"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "02100036"
+category = "Ticket"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-wiki"><br> <br> 1. You can obtain one of those items below!<br> <br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/miracle-frankincense/">Miracle Frankincense</a> X 3<br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/danu-s-prayer/">Danu&#x27;s Prayer</a> X 3<br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/poison/">Poison</a> X 15<br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/surgeon-s-secret-elixir/">Surgeon&#x27;s Secret Elixir</a> X 8<br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/assorted-secret-elixirs/">Assorted Secret Elixirs</a> X 10<br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/soma/">Soma</a> X 3<br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/ambrosia/">Ambrosia</a> X 2<br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/asclepius-elixir/">Asclepius&#x27; Elixir</a> X 5<br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/effective-plague-cure/">Effective Plague Cure</a> X 12<br> <br> 2. This item is a material for <a href="https://bodaciousbanana1.github.io/uwo-db/equipment/alchemist-robe/">Alchemist Robe</a><br> <br> 3. How to craft [Strange Powder]?<br> <br> <a href="https://bodaciousbanana1.github.io/uwo-db/ship-parts/processed-lumber/">Processed Lumber</a> X 1 + <a href="https://bodaciousbanana1.github.io/uwo-db/?q=Experiment%20Lamp">Experiment Lamp</a> X 1 + <a href="https://bodaciousbanana1.github.io/uwo-db/items/ventus-reduction/">Ventus Reduction</a> X 1<br> <br> OR<br> <br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/stomach-medicine/">Stomach Medicine</a> X 6 + <a href="https://bodaciousbanana1.github.io/uwo-db/items/funnel/">Funnel</a> X 1 + <a href="https://bodaciousbanana1.github.io/uwo-db/items/ventus-reduction/">Ventus Reduction</a> X 1</div><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Strange Powder <br> Strange powder.<br>Looks like some medicine at first glance.<br>Requires open space in inventory for use. </li> <li class="x-item1" style="flex:0 1 300px"><br> </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> </div> <br></div></div>

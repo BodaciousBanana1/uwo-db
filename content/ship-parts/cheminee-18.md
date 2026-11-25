@@ -1,0 +1,12 @@
++++
+title = "Cheminee (18)"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "00710928"
+category = "Cannon (special)"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Cheminee (18) <br> A powerful cannon that fires<br>Smoke Shells. It has great<br>destructive power. 18 will be<br>placed on the sides of the ship. </li> <li class="x-item1" style="flex:0 1 300px"><br> <div class="x-INFO_TAB">Base Performance</div> <div class="x-state17">1008</div> <div class="x-state18">460</div> <div class="x-state19">6</div> <div class="x-state20">7</div> <div class="x-state21">4</div> <br> <br>56 × 18 <br>Broadside <br>Smoke shells <br><div class="x-state10">90</div> </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <div class="x-INFO_TAB">Recipe</div> <div> Art of Production (Basic Casting)<br> <a href="https://bodaciousbanana1.github.io/uwo-db/recipes/art-of-production-basic-casting/">Art of Production (Basic Casting)</a></div> <div>Cheminee Cannon (18)<br> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/casting/">Casting</a> 18 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/management-technique/">Management Technique</a> 13</div> <div class="x-RECIPESMALLFONT">Casting techniques for 18 Cheminee Cannons.</div> <div class="x-INFO_TAB">Obtained Info</div> <div class="x-RECIPESMALLFONT"> (Town&#x27;s mans Recipe) Manchester - 용광로</div> <div class="x-RECIPEFONT"> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/trade-goods/cannon-shot/"><br>Cannon Shot</a><div></div></div> <div><br>+</div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/trade-goods/bronze/"><br>Bronze</a><div></div></div> <div><br>+</div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/trade-goods/steel/"><br>Steel</a><div></div></div> <div><br></div> <div><a href="https://bodaciousbanana1.github.io/uwo-db/ship-parts/cheminee-18/"><br>Cheminee (18)</a> </div> </div> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> </div> <br></div></div>

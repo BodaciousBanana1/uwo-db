@@ -1,0 +1,12 @@
++++
+title = "Swan Feather Pen"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "01504022"
+category = "Consumable"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-wiki"><br> <br> Effect: <a href="https://bodaciousbanana1.github.io/uwo-db/skills/enhance-cartography/">Enhance Cartography</a> <br> <br> How to obtain<br> 1. Required Pet Skill: <a href="https://bodaciousbanana1.github.io/uwo-db/skills/area-search-land/">Area Search (Land)</a>/<a href="https://bodaciousbanana1.github.io/uwo-db/skills/area-search-sea/">Area Search (Sea)</a>/<a href="https://bodaciousbanana1.github.io/uwo-db/skills/area-search-land-amp-sea/">Area Search (Land &amp; Sea)</a><br> 2. Recommended Title: <a href="https://bodaciousbanana1.github.io/uwo-db/guides/master-breeder/">Master Breeder</a><br> 3. use <a href="https://bodaciousbanana1.github.io/uwo-db/skills/collection/">Collection</a> or <a href="https://bodaciousbanana1.github.io/uwo-db/skills/procurement/">Procurement</a> skill in land/on sea and your pet will bring the item. (Collection skill is highly recommended)<br> <br> Where to go<br> Land Area)<br> <a href="https://bodaciousbanana1.github.io/uwo-db/landing-points/west-candia/">West Candia</a> (Cross Grave) <a href="https://bodaciousbanana1.github.io/uwo-db/landing-points/inland-crete/">Inland Crete</a> <br> <a href="https://bodaciousbanana1.github.io/uwo-db/landing-points/sindh/">Sindh</a> <a href="https://bodaciousbanana1.github.io/uwo-db/landing-points/arabian-sea-northeast-coast/">Arabian Sea Northeast Coast</a> (NE Upturned Boulder) <br> <br> Sea Area)<br> <a href="https://bodaciousbanana1.github.io/uwo-db/zones/canary-open-sea/">Canary, Open Sea</a> <a href="https://bodaciousbanana1.github.io/uwo-db/zones/the-red-sea/">The Red Sea</a></div><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Swan Feather Pen <br> Pen used for drawing maps.<br>Increases Map Completion<br>Rate through Map<br>Investigations by 30% for 1 hour. </li> <li class="x-item1" style="flex:0 1 300px"><br> </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <ul class="x-unli1"><br><div class="x-INFO_TAB">Ingredients</div> </ul> <ul class="x-underline"></ul> </div> <br></div></div>

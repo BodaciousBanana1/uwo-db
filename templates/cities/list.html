@@ -89,7 +89,7 @@
   </aside>
 
   <section class="cities-grid" id="cities-grid">
-    {% for page in section.pages %}
+    {% for page in section.pages %}{% if page.extra.archive_import %}{% continue %}{% endif %}
     <a href="{{ page.permalink }}" class="city-card"
        data-region="{{ page.extra.region }}"
        data-culture="{{ page.extra.culture_area }}"
@@ -119,4 +119,5 @@
     {% endfor %}
   </section>
 </div>
+{% include "partials/imported_list.html" %}
 {% endblock %}

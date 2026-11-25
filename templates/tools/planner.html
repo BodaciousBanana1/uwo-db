@@ -1,0 +1,238 @@
+{% extends "base.html" %}
+{#- Skill Planner: everything you can do with your skills. Data: static/data/planner.json
+    (scripts/build_planner_data.py). Skill ranks and options are kept in localStorage. -#}
+
+{% block title %}Skill Planner{% endblock %}
+
+{% block content %}
+<section class="page-header">
+  <h1>Skill Planner</h1>
+  <p class="page-subtitle"><span id="visible-count">…</span> maps and quests you can do</p>
+</section>
+
+<div class="filter-layout">
+  <aside class="filter-panel planner-panel" data-toggle-label="Your skills &amp; filters" data-toggle-open>
+    <div class="filter-header">
+      <span class="filter-title">YOUR SKILLS</span>
+      <span>
+        <button class="filter-reset" id="share-skills" title="Copy a link with these ranks">Share</button>
+        <button class="filter-reset" id="reset-skills" title="Set every skill back to 0">Clear</button>
+      </span>
+    </div>
+    <p class="planner-hint">Ranks you don't enter count as 0. Saved in this browser.</p>
+    <div id="skills-main" class="planner-skills"></div>
+    <details class="planner-more">
+      <summary>Languages</summary>
+      <label class="chip planner-check"><input type="checkbox" id="ignore-lang" checked> Ignore language requirements (aides cover them)</label>
+      <div id="skills-lang" class="planner-skills"></div>
+    </details>
+    <details class="planner-more">
+      <summary>Other skills</summary>
+      <div id="skills-other" class="planner-skills"></div>
+    </details>
+
+    <div class="filter-section">
+      <div class="filter-section-header">OPTIONS</div>
+      <label class="chip planner-check"><input type="checkbox" id="use-pull" checked> Require the hidden pull skill for maps</label>
+      <label class="chip planner-check"><input type="checkbox" id="hide-found"> Hide discoveries I've found <span class="notes-count" id="found-count"></span></label>
+      <label class="planner-row">Within reach
+        <select id="reach" class="filter-select">
+          <option value="0">Only what I can do now</option>
+          <option value="1">…or 1 rank short</option>
+          <option value="2">…or 2 ranks short</option>
+          <option value="3">…or 3 ranks short</option>
+        </select>
+      </label>
+      <label class="planner-row">Show
+        <select id="kind" class="filter-select">
+          <option value="">Maps and quests</option>
+          <option value="map">Archive maps</option>
+          <option value="quest">Quests</option>
+        </select>
+      </label>
+      <label class="planner-row">City
+        <select id="city" class="filter-select"><option value="">All cities</option></select>
+      </label>
+      <label class="planner-row">Sort
+        <select id="sort" class="filter-select">
+          <option value="exp">Discovery exp (high first)</option>
+          <option value="name">Name</option>
+          <option value="city">City</option>
+        </select>
+      </label>
+      <input type="text" id="search" class="filter-search" placeholder="Filter by name, discovery or reward...">
+    </div>
+  </aside>
+  <script>
+    // phones: the panel starts open until you've saved some ranks (or opened a shared ?ranks= link)
+    try {
+      const r = JSON.parse(localStorage.getItem('uwo-planner') || '{}').ranks || {};
+      if (Object.values(r).some(v => +v > 0) || /[?&]ranks=/.test(location.search))
+        document.querySelector('.planner-panel').removeAttribute('data-toggle-open');
+    } catch (e) {}
+  </script>
+
+  <section class="maps-results">
+    <table class="data-table" id="plan-table">
+      <thead>
+        <tr><th>Type</th><th data-card-title>Name</th><th>Where</th><th>Skills</th><th>Discovery</th><th class="num">Exp</th><th>Rewards</th></tr>
+      </thead>
+      <tbody id="plan-body"><tr><td colspan="7">Loading…</td></tr></tbody>
+    </table>
+    <p class="truncation-notice" id="plan-more" hidden></p>
+  </section>
+</div>
+
+{% set link_secs = "cities,zones,skills" %}{% include "partials/link_index.html" %}
+<script src="{{ get_url(path='js/tracker.js') }}"></script>
+<script>
+(async () => {
+  const $ = id => document.getElementById(id);
+  const BASE = window.UWO_BASE_URL;
+  const STORE = 'uwo-planner';
+  const MAIN = ['Search', 'Recognition', 'Unlock', 'Appraisal', 'Archaeology', 'Art', 'Astronomy',
+                'Biology', 'Ecological Research', 'Geography', 'Theology'];
+  const LANG = /Languages|lang\.|^(Spanish|Portuguese|Arabic|Italian|English|French|Greek|Chinese|Dutch|Malay\/Tagalog|Nordic|Swahili|Japanese|Quechuan|German|Korean|Turkish|Latin|Persian|Slavic|Thai\/Burmese|Nahuatl|Ancient Egyptian|Celtic|Hebrew)$/;
+  const LIMIT = 400;
+
+  let data;
+  try {
+    const res = await fetch(`${BASE}/data/planner.json`);
+    data = await res.json();
+  } catch (e) {
+    $('plan-body').innerHTML = '<tr><td colspan="7">Could not load planner data.</td></tr>';
+    return;
+  }
+
+  // ---- state (saved) ----
+  let state = { ranks: {}, ignoreLang: true, usePull: true, hideFound: false, reach: 0, kind: '', city: '', sort: 'exp' };
+  try { Object.assign(state, JSON.parse(localStorage.getItem(STORE) || '{}')); } catch (e) {}
+  const save = () => { try { localStorage.setItem(STORE, JSON.stringify(state)); } catch (e) {} };
+  // shareable: ?ranks=Search:8,Appraisal:8 replaces the saved ranks; ?city=, ?kind=, ?reach=
+  const params = new URLSearchParams(location.search);
+  if (params.get('ranks')) {
+    state.ranks = {};
+    for (const part of params.get('ranks').split(',')) {
+      const [s, n] = part.split(':');
+      if (s && +n > 0) state.ranks[s.trim()] = Math.min(20, +n);
+    }
+  }
+  for (const k of ['city', 'kind']) if (params.has(k)) state[k] = params.get(k);
+  if (params.has('reach')) state.reach = +params.get('reach') || 0;
+  if (params.toString()) save();
+
+  // ---- rows ----
+  const cityKey = s => UWO.slugify(s).replace(/-(adventurers?|merchants?|maritime)-guild$/, '');
+  const cityName = k => k.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+  const rows = [];
+  for (const q of data.quests) {
+    const d = q.d && data.discoveries[q.d];
+    rows.push({ kind: 'quest', name: q.n, page: q.p, cities: [cityKey(q.c)], where: [q.c], reqs: q.s, pull: '',
+                disc: q.d, discName: d ? d[0] : q.dn, discPage: d ? d[2] : '', exp: d ? d[1] : 0, rewards: [] });
+  }
+  for (const m of data.maps) {
+    const d = m.d && data.discoveries[m.d];
+    const rank = m.s.length ? m.s[0][1] : 0;
+    rows.push({ kind: 'map', name: m.n, page: m.p, cities: m.c.map(cityKey), where: m.c, reqs: m.s, pull: m.pull,
+                pullRank: rank, disc: m.d, discName: d ? d[0] : m.dn, discPage: d ? d[2] : '', exp: d ? d[1] : 0,
+                rewards: m.r });
+  }
+  rows.forEach(r => r.text = [r.name, r.discName, ...r.rewards.map(x => x[0])].join(' ').toLowerCase());
+
+  // ---- skill inputs ----
+  const allSkills = new Set();
+  rows.forEach(r => { r.reqs.forEach(([s]) => allSkills.add(s)); if (r.pull) allSkills.add(r.pull); });
+  const groups = { main: MAIN.filter(s => allSkills.has(s)), lang: [], other: [] };
+  [...allSkills].sort().forEach(s => { if (!MAIN.includes(s)) (LANG.test(s) ? groups.lang : groups.other).push(s); });
+  for (const [g, list] of Object.entries(groups)) {
+    $(`skills-${g}`).innerHTML = list.map(s => `
+      <label class="planner-skill"><span>${UWO.link('skills', s)}</span>
+        <input type="number" min="0" max="20" inputmode="numeric" data-skill="${UWO.esc(s)}" value="${state.ranks[s] || ''}" placeholder="0">
+      </label>`).join('');
+  }
+
+  // ---- options ----
+  const cities = [...new Set(rows.flatMap(r => r.cities))].filter(Boolean).sort();
+  $('city').insertAdjacentHTML('beforeend', cities.map(c => `<option value="${UWO.esc(c)}">${UWO.esc(cityName(c))}</option>`).join(''));
+  $('ignore-lang').checked = state.ignoreLang; $('use-pull').checked = state.usePull;
+  $('hide-found').checked = state.hideFound; $('reach').value = state.reach;
+  $('kind').value = state.kind; $('city').value = state.city; $('sort').value = state.sort;
+
+  // ---- matching ----
+  const rankOf = s => +state.ranks[s] || 0;
+  function shortfalls(r) {
+    const out = [];
+    for (const [s, need] of r.reqs) {
+      if (state.ignoreLang && LANG.test(s)) continue;
+      if (rankOf(s) < need) out.push([s, need - rankOf(s)]);
+    }
+    if (r.kind === 'map' && r.pull && state.usePull && rankOf(r.pull) < r.pullRank) out.push([r.pull, r.pullRank - rankOf(r.pull)]);
+    return out;
+  }
+
+  function render() {
+    $('found-count').textContent = UWOTracker.size() ? `${UWOTracker.size()} found` : '';
+    const q = $('search').value.toLowerCase().trim();
+    const reach = +state.reach;
+    const hits = [];
+    for (const r of rows) {
+      if (state.kind && r.kind !== state.kind) continue;
+      if (state.city && !r.cities.includes(state.city)) continue;
+      if (state.hideFound && r.disc && UWOTracker.has(r.disc)) continue;
+      if (q && !r.text.includes(q)) continue;
+      const short = shortfalls(r);
+      if (short.some(([, n]) => n > reach)) continue;
+      hits.push([r, short]);
+    }
+    const by = { exp: (a, b) => b[0].exp - a[0].exp || a[0].name.localeCompare(b[0].name),
+                 name: (a, b) => a[0].name.localeCompare(b[0].name),
+                 city: (a, b) => (a[0].cities[0] || '').localeCompare(b[0].cities[0] || '') || b[0].exp - a[0].exp };
+    hits.sort(by[state.sort] || by.exp);
+    const ready = hits.filter(([, s]) => !s.length).length;
+    $('visible-count').textContent = reach ? `${ready} ready, ${hits.length - ready} within reach:` : hits.length;
+    $('plan-body').innerHTML = hits.slice(0, LIMIT).map(([r, short]) => {
+      const shortOf = Object.fromEntries(short);
+      const skills = r.reqs.map(([s, n]) => {
+        const lang = LANG.test(s);
+        const cls = lang && state.ignoreLang ? ' skill-ignored' : (rankOf(s) < n ? ' skill-short' : '');
+        return `<span class="skill-tag${cls}">${UWO.link('skills', s)} ${n}</span>`;
+      }).join(' ');
+      const pull = r.pull ? ` <span class="skill-tag skill-pull${shortOf[r.pull] && state.usePull ? ' skill-short' : ''}" title="Hidden: needed to pull the map from the archive (player-reported)">Pull: ${UWO.link('skills', r.pull)} ${r.pullRank}</span>` : '';
+      const where = r.where.map(w => UWO.link('cities,zones', r.kind === 'quest' ? cityName(w) : w, { slug: r.kind === 'quest' ? w : '' })).join(', ') || '-';
+      const found = r.disc && UWOTracker.has(r.disc) ? ' <span class="found-tag" title="You marked this discovery as found">✓</span>' : '';
+      const disc = r.discName ? (r.discPage ? `<a href="${BASE}/${r.discPage}/" class="xref">${UWO.esc(r.discName)}</a>` : UWO.esc(r.discName)) + found : '-';
+      const rewards = r.rewards.map(([n, p]) => p ? `<a href="${BASE}/${p}/" class="xref">${UWO.esc(n)}</a>` : UWO.esc(n)).join(', ') || '-';
+      const name = r.page ? `<a href="${BASE}/${r.page}/" class="xref">${UWO.esc(r.name)}</a>` : UWO.esc(r.name);
+      return `<tr${short.length ? ' class="plan-short"' : ''}>
+        <td><span class="badge">${r.kind === 'map' ? 'Map' : 'Quest'}</span></td>
+        <td class="item-name">${name}</td><td>${where}</td><td class="skills-cell">${skills}${pull}</td>
+        <td class="discovery-cell">${disc}</td><td class="num">${r.exp || '-'}</td><td class="rewards-cell">${rewards}</td></tr>`;
+    }).join('') || '<tr><td colspan="7">Nothing matches yet: enter your skill ranks on the left.</td></tr>';
+    $('plan-more').hidden = hits.length <= LIMIT;
+    $('plan-more').textContent = `Showing ${LIMIT} of ${hits.length}. Narrow it down with the city or search filters.`;
+  }
+
+  // ---- events ----
+  document.querySelector('.planner-panel').addEventListener('input', e => {
+    const s = e.target.dataset && e.target.dataset.skill;
+    if (s) { const v = parseInt(e.target.value, 10); if (v > 0) state.ranks[s] = v; else delete state.ranks[s]; }
+    state.ignoreLang = $('ignore-lang').checked; state.usePull = $('use-pull').checked;
+    state.hideFound = $('hide-found').checked; state.reach = +$('reach').value;
+    state.kind = $('kind').value; state.city = $('city').value; state.sort = $('sort').value;
+    save(); render();
+  });
+  $('reset-skills').addEventListener('click', () => {
+    state.ranks = {}; document.querySelectorAll('[data-skill]').forEach(i => i.value = ''); save(); render();
+  });
+  $('share-skills').addEventListener('click', async () => {
+    const ranks = Object.entries(state.ranks).map(([s, n]) => `${s}:${n}`).join(',');
+    const url = `${location.origin}${location.pathname}?ranks=${encodeURIComponent(ranks)}`;
+    try { await navigator.clipboard.writeText(url); $('share-skills').textContent = 'Copied'; }
+    catch (e) { prompt('Copy this link:', url); }
+    setTimeout(() => $('share-skills').textContent = 'Share', 1500);
+  });
+  UWOTracker.onChange(render);
+  render();
+})();
+</script>
+{% endblock %}

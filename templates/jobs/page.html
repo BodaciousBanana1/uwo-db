@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% import "macros/link.html" as link %}
 
 {% block title %}{{ page.title }} - Jobs{% endblock %}
 
@@ -74,7 +75,7 @@
           {% for skill in page.extra.skills %}
           <tr class="skill-row {{ skill.type }}">
             <td>
-              <a href="{{ config.base_url }}/skills/{{ skill.name | lower | replace(from=' ', to='-') }}/">{{ skill.name }}</a>
+              {{ link::to(secs="skills", name=skill.name) }}
             </td>
             <td>
               {% if skill.type == "expert" %}
@@ -97,9 +98,9 @@
         {% for quest in page.extra.quests %}
         <li>
           {% if quest.slug %}
-          <a href="{{ config.base_url }}/quests/{{ quest.slug }}/">{{ quest.name }}</a>
+          {{ link::to(secs="quests", name=quest.name, slug=quest.slug | default(value="")) }}
           {% else %}
-          {{ quest.name }}
+          {{ link::to(secs="quests", name=quest.name) }}
           {% endif %}
         </li>
         {% endfor %}
@@ -107,6 +108,9 @@
     </section>
     {% endif %}
   </div>
+
+  {% set archive_id = page.extra.id | default(value="") %}
+  {% include "partials/archived_notes.html" %}
 
   <footer class="detail-footer">
     <a href="{{ config.base_url }}/jobs/" class="back-link">← Back to Jobs</a>

@@ -1,0 +1,37 @@
+{#- Historical wiki text and player comments imported from the old UWO Database site.
+    Expects `archive_id` (string) to be set by the including template; set
+    `skip_wiki = true` when the page body already contains the wiki text.
+    Data: data/archive_comments/<archive_id>.json (scripts/extract_archive_comments.py) -#}
+{% if archive_id %}
+{% set notes = load_data(path="data/archive_comments/" ~ archive_id ~ ".json", required=false) %}
+{% if notes %}
+{% if notes.wiki and not skip_wiki | default(value=false) %}
+<section class="detail-section archived-wiki" id="archived-wiki">
+  <h2>Archived Wiki Notes</h2>
+  <div class="archive-wiki archive-page">{{ notes.wiki | safe }}</div>
+  <p class="notes-source" data-pagefind-ignore>Written by players on the original UWO Database (dhodb.ivyro.net).</p>
+</section>
+{% endif %}
+{% if notes.count > 0 %}
+<section class="detail-section archived-notes" id="archived-notes">
+  <details{% if notes.count <= 15 %} open{% endif %}>
+    <summary>
+      <h2>Archived Player Notes <span class="notes-count">{{ notes.count }}</span></h2>
+    </summary>
+    <p class="notes-source" data-pagefind-ignore>Comments players left on the original UWO Database (dhodb.ivyro.net), 2011 onwards. Some may be out of date.</p>
+    <ol class="notes-list">
+      {% for c in notes.comments %}
+      <li class="note">
+        <div class="note-meta">
+          <span class="note-author">{{ c.author }}</span>
+          {% if c.date %}<time datetime="{{ c.date }}">{{ c.date }}</time>{% endif %}
+        </div>
+        <div class="note-body">{{ c.body | safe }}</div>
+      </li>
+      {% endfor %}
+    </ol>
+  </details>
+</section>
+{% endif %}
+{% endif %}
+{% endif %}

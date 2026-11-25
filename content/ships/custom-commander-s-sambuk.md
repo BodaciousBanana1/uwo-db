@@ -4,7 +4,7 @@ date = 2026-05-22
 template = "ships/page.html"
 
 [extra]
-id = "ship_0248"
+id = "ship_0275"
 slug = "custom-commander-s-sambuk"
 size = "Std"
 ship_type = "battle"
@@ -26,8 +26,5 @@ masts = 3
 material = "Mahogany"
 is_cash_ship = true
 is_steam = false
-shipbuilding = [
-  { city = "CompanyColony:2600", city_slug = "companycolony-2600", skill_rank = 1, material = "Red Pine", hull = "Large Flush Deck Style Hull" },
-]
 +++
 

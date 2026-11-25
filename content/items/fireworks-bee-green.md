@@ -1,0 +1,12 @@
++++
+title = "Fireworks-Bee (Green)"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "01500391"
+category = "Consumable"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Fireworks-Bee (Green) <br> Display fireworks to light up the sky in green. </li> <li class="x-item1" style="flex:0 1 300px"><br> </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <div class="x-INFO_TAB">Recipe</div> <div> Lab Bench Work<br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/lab-bench-work-01888864/">Lab Bench Work</a></div> <div>Balancing White firework ingredients<br> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/alchemy/">Alchemy</a> 10 </div> <div class="x-RECIPESMALLFONT">Experiment to cause various alterations<br>to white general fireworks.</div> <div class="x-INFO_TAB">Obtained Info</div> <div class="x-RECIPESMALLFONT"> Quarters(Town&#x27;s mans Recipe)</div> <div class="x-RECIPEFONT"> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/items/fireworks-general-white/"><br>Fireworks-General (White)</a><div></div></div> <div><br>+</div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/items/scales/"><br>Scales</a><div></div></div> <div><br>+</div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/items/ventus-reduction/"><br>Ventus Reduction</a><div></div></div> <div><br></div> <div><a href="https://bodaciousbanana1.github.io/uwo-db/items/fireworks-bee-green/"><br>Fireworks-Bee (Green)</a> <br>2 (Very low probability)</div> </div> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <ul class="x-unli1"><br><div class="x-INFO_TAB">Ingredients</div> </ul> <ul class="x-underline"></ul> </div> <br></div></div>

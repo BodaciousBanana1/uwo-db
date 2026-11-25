@@ -4,7 +4,7 @@ date = 2026-05-22
 template = "ships/page.html"
 
 [extra]
-id = "ship_0391"
+id = "ship_0446"
 slug = "shadow-windjammer"
 size = "Hvy"
 ship_type = "trade"
@@ -26,8 +26,5 @@ masts = 5
 material = "Nocturnal Wood"
 is_cash_ship = true
 is_steam = false
-shipbuilding = [
-  { city = "San Francisco", city_slug = "san-francisco", skill_rank = 1, material = "Unknown", hull = "Large Flush Deck Style Hull" },
-]
 +++
 

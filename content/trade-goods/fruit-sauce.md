@@ -1,0 +1,12 @@
++++
+title = "Fruit Sauce"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "01600137"
+category = "Trade good"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-wiki"><br> <br> Available from Anita (Handicrafts maid) in Vecchio Palace of Florence (accessed from Pisa by carriage).<br> <br> Skill: Handicrafts (R10)<br> Ingredients:<br> <a href="https://bodaciousbanana1.github.io/uwo-db/trade-goods/wine/">Wine</a> x1<br> <a href="https://bodaciousbanana1.github.io/uwo-db/trade-goods/honey/">Honey</a> x2<br> <a href="https://bodaciousbanana1.github.io/uwo-db/trade-goods/prunes/">Prunes</a> x2<br> 200 Florentine Handicrafts points<br> <br> Oxford <a href="https://bodaciousbanana1.github.io/uwo-db/skills/expedited-advanced-production/">Expedited Advanced Production</a> skill refunds 30% of Florentine points.</div><div class="archive-content"><div class="x-table0"> <br> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Fruit Sauce <br> Fruit that has been boiled down and sweetened.<br>Not as viscous as jam and can be used in cooking. </li> <li class="x-item1" style="flex:0 1 300px"><a href="https://bodaciousbanana1.github.io/uwo-db/trade-goods/">Seasonings</a> <br><br> </li> </ul> <br> <br> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <br><div class="x-INFO_TAB">Obtained Info</div> <br> <ul class="x-unli1"><br><div class="x-INFO_TAB">Use</div> </ul> <ul class="x-underline"></ul> <ul class="x-unli1"> <li class="x-item20" style="flex:0 1 60px"><a href="https://bodaciousbanana1.github.io/uwo-db/items/florentine-recipe-era/">Florentine Recipe – Era</a></li> <li class="x-item2" style="flex:0 1 180px"> <div><a href="https://bodaciousbanana1.github.io/uwo-db/trade-goods/fruit-sauce/">Fruit Sauce 1</a><div></div></div> <div><a href="https://bodaciousbanana1.github.io/uwo-db/items/cheese-cake/">Cheese Cake 1</a><div></div></div> </li> <li class="x-item3" style="flex:0 1 240px">Fruit Cheese Cake<br> <span class="x-GAMEFONT"> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/cooking/">Cooking</a> </span> </li> <li class="x-item4" style="flex:0 1 60px"><a href="https://bodaciousbanana1.github.io/uwo-db/items/fruit-cheese-cake/">Fruit Cheese Cake</a></li> <li class="x-item5" style="flex:0 1 180px">Fruit Cheese Cake <br>15th 4,5</li> </ul> <ul class="x-underline"></ul> </div> <br></div></div>

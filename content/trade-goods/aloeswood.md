@@ -1,0 +1,12 @@
++++
+title = "Aloeswood"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "01600406"
+category = "Trade good"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-content"><div class="x-table0"> <br> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Aloeswood <br> The high quality resin of a browny black tree also<br>known as Jinko. </li> <li class="x-item1" style="flex:0 1 300px"><a href="https://bodaciousbanana1.github.io/uwo-db/trade-goods/">Fragrances</a> <br><br> </li> </ul> <br> <br> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <div class="x-INFO_TAB">Recipe</div> <div> Perfumery Secret<br> <a href="https://bodaciousbanana1.github.io/uwo-db/recipes/perfumery-secret/">Perfumery Secret</a></div> <div>Process aloes<br> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/handicrafts/">Handicrafts</a> 10 </div> <div class="x-RECIPESMALLFONT">How to select aloe with a graceful fragrance.</div> <div class="x-INFO_TAB">Obtained Info</div> <div class="x-RECIPESMALLFONT"> Tamatave, Kilwa, Aden - 500,000 - Investment</div> <div class="x-RECIPEFONT"> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/trade-goods/fragrant-wood/"><br>Fragrant Wood</a><div></div></div> <div><br>+</div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/trade-goods/vegetable-oil/"><br>Vegetable Oil</a><div></div></div> <div><br></div> <div><a href="https://bodaciousbanana1.github.io/uwo-db/trade-goods/aloeswood/"><br>Aloeswood</a> <br>1-2</div> </div> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <br><div class="x-INFO_TAB">Obtained Info</div> <br> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"><a href="https://bodaciousbanana1.github.io/uwo-db/cities/gia-dinh/">Gia Dinh</a> <span class="x-hl">2</span></li> <li class="x-item1" style="flex:0 1 300px"><br>1712D</li> </ul> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"><a href="https://bodaciousbanana1.github.io/uwo-db/cities/brunei/">Brunei</a> <span class="x-hl">1</span></li> <li class="x-item1" style="flex:0 1 300px"><br>1710D</li> </ul> <ul class="x-unli1"><br><div class="x-INFO_TAB">Use</div> </ul> <ul class="x-underline"></ul> </div> <br></div></div>

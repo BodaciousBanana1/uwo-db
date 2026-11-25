@@ -55,6 +55,7 @@
   </section>
 </div>
 
+{% set link_secs = "skills,jobs" %}{% include "partials/link_index.html" %}
 <script>
 const BASE_URL = '{{ config.base_url }}';
 const allJobs = {{ all_jobs | json_encode() | safe }};
@@ -66,7 +67,7 @@ const tbody = document.getElementById('jobs-body');
 function formatSkills(skills, type) {
   if (!skills || skills.length === 0) return '-';
   return skills.map(s =>
-    `<span class="skill-tag ${type}">${s.name}</span>`
+    `<span class="skill-tag ${type}">${UWO.link('skills', s.name)}</span>`
   ).join('');
 }
 
@@ -98,7 +99,7 @@ function filterJobs() {
 
   tbody.innerHTML = filtered.map(job => {
     return `<tr>
-      <td class="item-name"><a href="${BASE_URL}/jobs/${job.slug}/">${job.name}</a></td>
+      <td class="item-name">${UWO.link('jobs', job.name, {slug: job.slug})}</td>
       <td><span class="badge badge-${job.type.toLowerCase()}">${job.type}</span></td>
       <td class="skills-cell">${formatSkills(job.expert_skills, 'expert')}</td>
       <td class="skills-cell">${formatSkills(job.favoured_skills, 'favoured')}</td>

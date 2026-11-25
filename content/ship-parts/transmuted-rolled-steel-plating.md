@@ -1,0 +1,12 @@
++++
+title = "Transmuted Rolled Steel Plating"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "00801211"
+category = "Armour"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Transmuted Rolled Steel Plating <br> Armouring made of steel<br>transmuted using Orichalcum.<br>Strong but heavy. It will slow down a ship. </li> <li class="x-item1" style="flex:0 1 300px"><br> <div class="x-INFO_TAB">Base Performance</div> <div class="x-state11">+16</div> <div class="x-state12">-17</div> <div class="x-state10">120</div> </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <div class="x-INFO_TAB">Recipe</div> <div> Transformation<br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/transformation/">Transformation</a></div> <div>Transformation<br> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/alchemy/">Alchemy</a> 9 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/casting/">Casting</a> 9</div> <div class="x-RECIPESMALLFONT">Transforms the Base Item into special extra armouring<br>by using the mysterious metal.</div> <div class="x-INFO_TAB">Obtained Info</div> <div class="x-RECIPESMALLFONT"> Transmutation Alchemy Equipment(Quarters)</div> <div class="x-RECIPEFONT"> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/items/weathered-armour/"><br>Weathered Armour</a><div></div></div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/items/seal-of-gnome/"><br>Seal of Gnome</a><div></div></div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/trade-goods/alexandrite/"><br>Alexandrite</a><div></div></div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/items/orichalcum/"><br>Orichalcum</a><div></div></div> <div><br></div> <div><a href="https://bodaciousbanana1.github.io/uwo-db/ship-parts/transmuted-rolled-steel-plating/"><br>Transmuted Rolled Steel Plating</a> </div> </div> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> </div> <br></div></div>

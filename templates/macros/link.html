@@ -1,0 +1,37 @@
+{#- Link a game-data name (item, ship, port, skill, ...) to its page.
+
+    secs: comma-separated sections to search, in order of preference.
+    name: display text, also the lookup key (slugified).
+    slug: optional slug from the data; tried before the name in each section.
+    key:  optional exact key, tried first (lp_maps: "<landing slug>/<map slug>",
+          map_ids: archive map id; archive_ids: any archive id, value is "<section>/<slug>",
+          split by 4-digit prefix into data/links/ids/).
+    cls:  optional class for the <a>.
+
+    Lookups use data/links/<section>.json (scripts/build_link_index.py), which maps
+    filename slugs, extra.slug and slugified titles to the real page slug. Names with
+    no page link to a site search instead (class "unlinked").
+-#}
+{% macro to(secs, name, slug="", key="", cls="") -%}
+{#- some data strings carry HTML entities ("Karnak &amp; Luxor"); decode the common ones -#}
+{%- set name = name | default(value="") | replace(from="&amp;", to="&") | replace(from="&#39;", to="'") | replace(from="&#x27;", to="'") | replace(from="&quot;", to='"') -%}
+{%- set k_s = slug | default(value="") | slugify -%}{%- set k_n = name | default(value="") | slugify -%}{%- set found = "" -%}
+{%- for sec in secs | split(pat=",") -%}{%- if not found -%}
+{%- if sec == "archive_ids" -%}
+{%- set pfx = key | truncate(length=4, end="") -%}
+{%- set idx = load_data(path="data/links/ids/" ~ pfx ~ ".json", required=false) -%}
+{%- else -%}
+{%- set idx = load_data(path="data/links/" ~ sec ~ ".json", required=false) -%}
+{%- endif -%}
+{%- set dir = sec | replace(from="lp_maps", to="maps") | replace(from="map_ids", to="maps") -%}
+{%- if not idx -%}
+{%- elif sec == "archive_ids" -%}{%- if key and key in idx -%}{%- set_global found = idx[key] -%}{%- endif -%}
+{%- elif key and key in idx -%}{%- set_global found = dir ~ "/" ~ idx[key] -%}
+{%- elif k_s and k_s in idx -%}{%- set_global found = dir ~ "/" ~ idx[k_s] -%}
+{%- elif k_n and k_n in idx -%}{%- set_global found = dir ~ "/" ~ idx[k_n] -%}
+{%- endif -%}
+{%- endif -%}{%- endfor -%}
+{%- if found -%}<a href="{{ get_url(path=found) }}/" class="xref{% if cls %} {{ cls }}{% endif %}">{{ name }}</a>
+{%- elif k_n -%}<a href="{{ get_url(path='/') }}?q={{ name | urlencode_strict }}" class="xref unlinked{% if cls %} {{ cls }}{% endif %}" title="No page for this yet: search the site">{{ name }}</a>
+{%- else -%}{{ name }}{%- endif -%}
+{%- endmacro to %}

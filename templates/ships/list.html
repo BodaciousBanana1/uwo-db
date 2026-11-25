@@ -110,7 +110,7 @@
   </aside>
 
   <section class="ships-grid" id="ships-grid">
-    {% for page in section.pages %}
+    {% for page in section.pages %}{% if page.extra.archive_import %}{% continue %}{% endif %}
     <a href="{{ page.permalink }}" class="ship-card"
        data-type="{{ page.extra.ship_type }}"
        data-size="{{ page.extra.size }}"
@@ -150,4 +150,5 @@
     {% endfor %}
   </section>
 </div>
+{% include "partials/imported_list.html" %}
 {% endblock %}

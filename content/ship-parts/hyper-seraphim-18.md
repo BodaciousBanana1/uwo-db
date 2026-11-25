@@ -1,0 +1,12 @@
++++
+title = "Hyper Seraphim (18)"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "00704536"
+category = "Cannon"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Hyper Seraphim (18) <br> A very rare cannon that fires<br>Chain Shots.18 will be placed<br>on the sides of the ship. </li> <li class="x-item1" style="flex:0 1 300px"><br> <div class="x-INFO_TAB">Base Performance</div> <div class="x-state17">1044</div> <div class="x-state18">500</div> <div class="x-state19">7</div> <div class="x-state20">3</div> <div class="x-state21">4</div> <br> <br>58 × 18 <br>Broadside <br>Chain-shot <br><div class="x-state10">80</div> </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <div class="x-INFO_TAB">Recipe</div> <div> Production Techniques of the Great Lighthouse<br> <a href="https://bodaciousbanana1.github.io/uwo-db/recipes/production-techniques-of-the-great-lighthouse/">Production Techniques of the Great Lighthouse</a></div> <div>Hyper Seraphim (18)<br> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/casting/">Casting</a> 15 </div> <div class="x-RECIPESMALLFONT">Casting techniques for rare Seraphim cannons.</div> <div class="x-INFO_TAB">Obtained Info</div> <div class="x-RECIPESMALLFONT"> (Town&#x27;s mans Recipe) Alexandria - 이븐</div> <div class="x-RECIPEFONT"> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/ship-parts/seraphim-12/"><br>Seraphim (12)</a><div></div></div> <div><br>+</div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/items/strange-cannon/"><br>Strange Cannon</a><div></div></div> <div><br>+</div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/ship-parts/set-of-repair-tools/"><br>Set of Repair Tools</a><div></div></div> <div><br></div> <div><a href="https://bodaciousbanana1.github.io/uwo-db/ship-parts/hyper-seraphim-18/"><br>Hyper Seraphim (18)</a> </div> </div> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> </div> <br></div></div>

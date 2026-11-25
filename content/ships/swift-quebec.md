@@ -4,7 +4,7 @@ date = 2026-05-22
 template = "ships/page.html"
 
 [extra]
-id = "ship_0148"
+id = "ship_0151"
 slug = "swift-quebec"
 size = "Hvy"
 ship_type = "adventure"
@@ -26,8 +26,5 @@ masts = 3
 material = "Oak"
 is_cash_ship = false
 is_steam = false
-shipbuilding = [
-  { city = "Habana", city_slug = "habana", skill_rank = 1, material = "Cedar", hull = "Large Flush Deck Style Hull" },
-]
 +++
 

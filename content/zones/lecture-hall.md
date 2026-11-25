@@ -1,0 +1,12 @@
++++
+title = "Lecture Hall"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "90006400"
+category = "Zone"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Lecture Hall <br> Lecture Hall<br>CBA0000<br>TOWN_OXFORD_B_000<br>ROOM2055<br>ROOM2055<br>Lecture Hall<br>Lecture Hall </li> <li class="x-item1" style="flex:0 1 300px"><br> </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/egypt-and-atlantis/">Egypt and Atlantis</a> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/english/">English</a> 1 <br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/regarding-prince-pedro/">Regarding Prince Pedro</a> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/search/">Search</a> 4 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/appraisal/">Appraisal</a> 6 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/german/">German</a> 1 <a href="https://bodaciousbanana1.github.io/uwo-db/discoveries/letters-from-pedro/">Letters from Pedro</a> <span class="x-hl">1</span><br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/stolen-picture-book/">Stolen Picture Book</a> <span class="x-hl">1</span> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/search/">Search</a> 15 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/appraisal/">Appraisal</a> 17 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/spanish/">Spanish</a> 1 <a href="https://bodaciousbanana1.github.io/uwo-db/discoveries/codex-mendoza/">Codex Mendoza</a> <span class="x-hl">1</span><br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/those-who-seek-and-those-who-lead/">Those Who Seek and Those Who Lead</a> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/search/">Search</a> 1 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/appraisal/">Appraisal</a> 1 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/english/">English</a> 1 <a href="https://bodaciousbanana1.github.io/uwo-db/discoveries/mystery-of-atlantis/">Mystery of Atlantis</a> <span class="x-hl">3</span></div> <br></div></div>

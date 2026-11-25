@@ -1,0 +1,12 @@
++++
+title = "Loess Plateau"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "90002111"
+category = "Zone"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Loess Plateau <br> Loess Plateau<br>18570000<br>1111<br>LAND_BANRINOCHOUJYOU_R_000<br>RUIN46_BANRINOCHOUJYOU<br>RUIN46_BANRINOCHOUJYOU<br>Loess Plateau<br>Loess Plateau </li> <li class="x-item1" style="flex:0 1 300px"><a href="https://bodaciousbanana1.github.io/uwo-db/zones/yellow-river-downstream/">Yellow River Downstream</a> <span class="x-hl">5</span><br><br><a href="https://bodaciousbanana1.github.io/uwo-db/zones/loess-plateau/">Loess Plateau</a> <span class="x-hl">5</span><br> </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <br><br><br><br><br><br><br><br><br><br><br><br>FiveStarStory http://blog.naver.com/sjuly717<br><a href="https://bodaciousbanana1.github.io/uwo-db/maps/map-of-stone-buddhist-pagoda-land-at-the-yellow-river-downs/">Map of Stone Buddhist Pagoda</a> <span class="x-hl">1</span> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/search/">Search</a> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/theology/">Theology</a> 9 <a href="https://bodaciousbanana1.github.io/uwo-db/discoveries/stone-pagoda/">Stone Pagoda</a> <span class="x-hl">1</span><br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/north-china-building-investigation/">North China Building Investigation</a> <span class="x-hl">8</span> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/recognition/">Recognition</a> 11 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/archaeology/">Archaeology</a> 13 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/chinese/">Chinese</a> 1 <a href="https://bodaciousbanana1.github.io/uwo-db/discoveries/the-great-wall/">The Great Wall</a> <span class="x-hl">1</span><br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/folklore-of-the-nine-headed-serpent/">Folklore of the Nine-headed Serpent</a> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/biology/">Biology</a> 15 <a href="https://bodaciousbanana1.github.io/uwo-db/discoveries/xiangliu/">Xiangliu</a></div> <br></div></div>

@@ -1,0 +1,12 @@
++++
+title = "Nostalgic Bonfire"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "01575061"
+category = "Item"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-wiki"><br> <br> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/mining-assistance/">Mining Assistance</a></div><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Nostalgic Bonfire <br> A bonfire set on a sturdy table.<br>It guarantees benefits regarding Gold Rush. </li> <li class="x-item1" style="flex:0 1 300px"><br> </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <div class="x-INFO_TAB">Recipe</div> <div> Record of an Advanced Chair Maker<br> <a href="https://bodaciousbanana1.github.io/uwo-db/recipes/record-of-an-advanced-chair-maker/">Record of an Advanced Chair Maker</a></div> <div>Ensuring Flammability<br> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/obtain-sophia/">Obtain Sophia</a> 4 (-180) <a href="https://bodaciousbanana1.github.io/uwo-db/skills/handicrafts/">Handicrafts</a> 7</div> <div class="x-RECIPESMALLFONT">By changing the material,<br>the air flow changed and the way it burned changed as well.<br>Trial and error continues.</div> <div class="x-INFO_TAB">Obtained Info</div> <div class="x-RECIPESMALLFONT"> Further Research Production</div> <div class="x-RECIPEFONT"> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/guides/bonfire-researcher/"><br>Bonfire Researcher</a><div></div></div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/trade-goods/lumber/"><br>Lumber</a><div></div></div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/trade-goods/steel/"><br>Steel</a><div></div></div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/items/hell-fire-torch/"><br>Hell Fire Torch</a><div></div></div> <div><br></div> <div><a href="https://bodaciousbanana1.github.io/uwo-db/items/nostalgic-bonfire/"><br>Nostalgic Bonfire</a> </div> </div> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <ul class="x-unli1"><br><div class="x-INFO_TAB">Ingredients</div> </ul> <ul class="x-underline"></ul> </div> <br></div></div>

@@ -1,0 +1,12 @@
++++
+title = "Epic Sea Feud Reward"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "02110049"
+category = "Ticket / reward"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-wiki"><br> <br> Received for accepting and completing an Epic Sea Feud Quest. The amount received depends on level of participation. Possible drops:<br> <br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/headache-medication/">Headache Medication</a> x10<br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/shipwreck-map-piece/">Shipwreck Map Piece</a> x10<br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/legendary-craftsman-s-carpentry-tools/">Legendary Craftsman&#x27;s Carpentry Tools</a> x5<br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/silver-tarot/">Silver Tarot</a> x3<br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/gold-tarot/">Gold Tarot</a> x3<br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/shipwright-s-emergency-repair-tools/">Shipwright&#x27;s Emergency Repair Tools</a><br> <a href="https://bodaciousbanana1.github.io/uwo-db/equipment/amulet-of-the-sun/">Amulet of the Sun</a><br> <a href="https://bodaciousbanana1.github.io/uwo-db/equipment/vermillion-hat/">Vermillion Hat</a><br> <a href="https://bodaciousbanana1.github.io/uwo-db/equipment/admiral-s-astrolabe/">Admiral&#x27;s Astrolabe</a> (Memorial Album)<br> <a href="https://bodaciousbanana1.github.io/uwo-db/equipment/commander-justaucorps/">Commander Justaucorps</a><br> <a href="https://bodaciousbanana1.github.io/uwo-db/equipment/gold-adorned-earrings/">Gold-adorned Earrings</a><br> <a href="https://bodaciousbanana1.github.io/uwo-db/?q=Master%27s%20Draconis%20%2818%29">Master&#x27;s Draconis (18)</a><br> <a href="https://bodaciousbanana1.github.io/uwo-db/furnishings/lion-head/">Lion Head</a></div><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Epic Sea Feud Reward <br> A reward given to praise<br>achievement in Epic Sea Feud.<br>It changes to some item upon<br>use. Requires open space in inventory. </li> <li class="x-item1" style="flex:0 1 300px"><br> </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> </div> <br></div></div>

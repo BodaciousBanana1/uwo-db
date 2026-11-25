@@ -97,6 +97,8 @@
   </section>
 </div>
 
+{% include "partials/imported_list.html" %}
+{% set link_secs = "skills,cities,zones,landing-points" %}{% include "partials/link_index.html" %}
 <script>
 const BASE_URL = '{{ config.base_url }}';
 const allSkills = {{ all_skills | json_encode() | safe }};
@@ -176,12 +178,12 @@ function filterSkills() {
   visibleCount.textContent = filtered.length + (filtered.length > displayLimit ? ` (showing ${displayLimit})` : '');
 
   tbody.innerHTML = displaySkills.map(s => {
-    const learnAt = (s.learn_at || []).slice(0, 3).join(', ') || '-';
+    const learnAt = (s.learn_at || []).slice(0, 3).map(l => UWO.link('cities,zones,landing-points', l)).join(', ') || '-';
     const hasMore = (s.learn_at || []).length > 3 ? ` +${s.learn_at.length - 3}` : '';
     const slug = slugify(s.name || '');
 
     return `<tr>
-      <td class="item-name"><a href="${BASE_URL}/skills/${slug}/">${s.name || '-'}</a></td>
+      <td class="item-name">${s.name ? UWO.link('skills', s.name) : '-'}</td>
       <td>${s.type || '-'}</td>
       <td><span class="category-tag category-${(s.category || 'common').toLowerCase()}">${s.category || '-'}</span></td>
       <td class="num">${s.level_adventure || '-'}</td>

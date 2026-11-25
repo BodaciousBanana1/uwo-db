@@ -1,0 +1,12 @@
++++
+title = "Archaeology Treatise"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "01700014"
+category = "Card / endorsement"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-wiki"><br> <br> Note: Job Card can also be obtained by using x1 <a href="https://bodaciousbanana1.github.io/uwo-db/items/letter-of-appreciation-from-seafarers/">Letter of Appreciation from Seafarers</a> for <a href="https://bodaciousbanana1.github.io/uwo-db/skills/receive-endorsement/">Receive Endorsement</a> and then receiving it from:<br> <br> Diogo Ortiz (Western Europe - Lisbon, Open Sea)</div><div class="archive-content"><div class="x-table0"> <br> <br> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 350px"> Archaeology Treatise <br> A certificate of recognition<br>issued by the Guild as a qualified Archaeologist. </li> <li class="x-item1" style="flex:0 1 250px"><br><a href="https://bodaciousbanana1.github.io/uwo-db/jobs/archaeologist/">Archaeologist</a> <span class="x-hl">14</span> </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <br> <br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/treasure-of-the-kings-of-troy/">Treasure of the kings of Troy</a> <span class="x-hl">18</span> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/search/">Search</a> 8 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/archaeology/">Archaeology</a> 10 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/greek/">Greek</a> 1<br><br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/treasure-of-the-kings-of-troy/">Treasure of the kings of Troy</a> <span class="x-hl">18</span> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/search/">Search</a> 8 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/archaeology/">Archaeology</a> 10 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/greek/">Greek</a> 1<br><br><a href="https://bodaciousbanana1.github.io/uwo-db/quests/treasure-of-the-kings-of-troy/">Treasure of the kings of Troy</a> <span class="x-hl">18</span> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/search/">Search</a> 8 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/archaeology/">Archaeology</a> 10 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/greek/">Greek</a> 1<br><br> <br> </div><br></div></div>

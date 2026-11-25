@@ -1,0 +1,12 @@
++++
+title = "Zheng He's Logbook"
+template = "discoveries/page.html"
+
+[extra]
+archive_import = true
+archive_id = "70000671"
+category = "Historical legacy"
+unnamed = false
+disc = { description = "The logbook of Admiral Zheng He from the Ming dynasty. Zheng He set sail on seven occasions, and brought the giraffe from Africa. This is only part of a fragmented logbook, we cannot decipher the complete contents.", stars = 2, category = "Historical legacy", exp = 360, fame = 180, ducats = 72000, maps = [], quests = [{ id = "99992794", name = "Zheng He's ship's log", difficulty = 1, skills = [{ name = "Search", rank = 4 }, { name = "Archaeology", rank = 6 }, { name = "Malay/Tagalog", rank = 1 }], location = "Island of Sumatra Southwest Coast", location_id = "90001077", rewards = [{ id = "01500232", name = "Quest Mediation Permit 1" }] }, { id = "99992795", name = "Signpost to the spice islands", skills = [{ name = "Search", rank = 4 }, { name = "Archaeology", rank = 6 }], location = "Island of Sumatra Southwest Coast", location_id = "90001077", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99992795", name = "Signpost to the spice islands", skills = [{ name = "Search", rank = 4 }, { name = "Archaeology", rank = 6 }], location = "Island of Sumatra Southwest Coast", location_id = "90001077", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99992795", name = "Signpost to the spice islands", skills = [{ name = "Search", rank = 4 }, { name = "Archaeology", rank = 6 }], location = "Island of Sumatra Southwest Coast", location_id = "90001077", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99992795", name = "Signpost to the spice islands", skills = [{ name = "Search", rank = 4 }, { name = "Archaeology", rank = 6 }], location = "Island of Sumatra Southwest Coast", location_id = "90001077", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99992795", name = "Signpost to the spice islands", skills = [{ name = "Search", rank = 4 }, { name = "Archaeology", rank = 6 }], location = "Island of Sumatra Southwest Coast", location_id = "90001077", rewards = [{ id = "01500263", name = "Patriot Award" }] }, { id = "99992795", name = "Signpost to the spice islands", skills = [{ name = "Search", rank = 4 }, { name = "Archaeology", rank = 6 }], location = "Island of Sumatra Southwest Coast", location_id = "90001077", rewards = [{ id = "01500263", name = "Patriot Award" }] }], ornaments = [] }
++++
+

@@ -1,0 +1,12 @@
++++
+title = "Horus"
+template = "archive/page.html"
+
+[extra]
+archive_import = true
+archive_id = "01003500"
+category = "Figurehead"
+unnamed = false
++++
+
+<div class="archive-page"><div class="archive-content"><div class="x-table0"> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <ul class="x-unli0"> <li class="x-item0" style="flex:0 1 300px"> Horus <br> A golden figurehead of the god of sky, Horus. </li> <li class="x-item1" style="flex:0 1 300px"><br> <div class="x-INFO_TAB">Base Performance</div> <div class="x-state13">9</div> <div class="x-state14">9</div> <div class="x-state15">2</div> <div class="x-state16">2</div> <div class="x-state10">100</div> <br><br> <div class="x-INFO_TAB">Effect</div> Repel Shark <br> Get rid of the man-eating sharks that are menacing your ship. </li> </ul> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> <div class="x-INFO_BG0"> <div class="x-INFO_BG_T0"></div> <div class="x-INFO_BG_L0"></div> <div class="x-INFO_BG_C0"> <div class="x-INFO_TAB">Recipe</div> <div> Sophia Awakening<br> <a href="https://bodaciousbanana1.github.io/uwo-db/items/sophia-awakening/">Sophia Awakening</a></div> <div>Sophia Awakening<br> <a href="https://bodaciousbanana1.github.io/uwo-db/skills/alchemy/">Alchemy</a> 11 <a href="https://bodaciousbanana1.github.io/uwo-db/skills/handicrafts/">Handicrafts</a> 11</div> <div class="x-RECIPESMALLFONT">Transforms the Base Item into a special item<br>by using the power of Sophia.</div> <div class="x-INFO_TAB">Obtained Info</div> <div class="x-RECIPESMALLFONT"> Transmutation Alchemy Equipment(Quarters)</div> <div class="x-RECIPEFONT"> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/furnishings/the-statue-of-horus/"><br>The Statue of Horus</a><div></div></div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/items/ancient-iron-meteorite/"><br>Ancient Iron Meteorite</a><div></div></div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/items/ra-s-disc/"><br>Ra&#x27;s Disc</a><div></div></div> <div class="x-RECIPEFONT"><a href="https://bodaciousbanana1.github.io/uwo-db/items/ignis-solution/"><br>Ignis Solution</a><div></div></div> <div><br></div> <div><a href="https://bodaciousbanana1.github.io/uwo-db/ship-parts/horus/"><br>Horus</a> <br>Sofia -250</div> </div> </div> <div class="x-INFO_BG_R0"></div> <div class="x-INFO_BG_B0"></div> </div> </div> <br></div></div>
