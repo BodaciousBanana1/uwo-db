@@ -3,85 +3,86 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% block title %}{{ config.title }}{% endblock %}</title>
+  <title>{% block title %}{% if page and page.title %}{{ page.title }} - {{ config.title }}{% elif section and section.title %}{{ section.title }} - {{ config.title }}{% else %}{{ config.title }}{% endif %}{% endblock %}</title>
   <link rel="stylesheet" href="{{ get_url(path='css/style.css') }}">
   <link rel="stylesheet" href="{{ get_url(path='pagefind/pagefind-ui.css') }}">
   {% block extra_head %}{% endblock %}
 </head>
 <body>
-  <aside class="sidebar" id="sidebar">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <aside class="sidebar" id="sidebar" aria-label="Site">
     <div class="logo">
-      <span class="logo-text">UWO Wiki</span>
+      <a href="{{ get_url(path='@/_index.md') }}" class="logo-text">UWO Wiki</a>
     </div>
 
-    <nav class="nav">
-      <div class="nav-section">BROWSE</div>
+    <nav class="nav" aria-label="Main">
+      <h2 class="nav-section">Browse</h2>
       <a href="{{ get_url(path='@/_index.md') }}" class="nav-item">
-        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 12l9-9 9 9"/><path d="M5 10v10h14V10"/></svg> Home
+        <svg class="nav-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 12l9-9 9 9"/><path d="M5 10v10h14V10"/></svg> Home
       </a>
       <a href="{{ get_url(path='@/ships/_index.md') }}" class="nav-item">
-        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3v18"/><path d="M12 5l8 10H4z" fill="currentColor" opacity="0.3"/><path d="M12 5l8 10H4z"/><path d="M3 21h18"/></svg> Ships
+        <svg class="nav-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3v18"/><path d="M12 5l8 10H4z" fill="currentColor" opacity="0.3"/><path d="M12 5l8 10H4z"/><path d="M3 21h18"/></svg> Ships
       </a>
       <a href="{{ get_url(path='@/cities/_index.md') }}" class="nav-item">
-        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 21v-6h6v6"/><path d="M9 9h.01"/><path d="M15 9h.01"/><path d="M9 13h.01"/><path d="M15 13h.01"/></svg> Cities
+        <svg class="nav-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 21v-6h6v6"/><path d="M9 9h.01"/><path d="M15 9h.01"/><path d="M9 13h.01"/><path d="M15 13h.01"/></svg> Cities
       </a>
       <a href="{{ get_url(path='@/trade-goods/_index.md') }}" class="nav-item">
-        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 12V8H6a2 2 0 0 1-2-2c0-1.1.9-2 2-2h12v4"/><path d="M4 6v12c0 1.1.9 2 2 2h14v-4"/><path d="M18 12a2 2 0 0 0 0 4h4v-4z"/></svg> Trade Goods
+        <svg class="nav-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 12V8H6a2 2 0 0 1-2-2c0-1.1.9-2 2-2h12v4"/><path d="M4 6v12c0 1.1.9 2 2 2h14v-4"/><path d="M18 12a2 2 0 0 0 0 4h4v-4z"/></svg> Trade Goods
       </a>
       <a href="{{ get_url(path='@/quests/_index.md') }}" class="nav-item">
-        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/></svg> Quests
+        <svg class="nav-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/></svg> Quests
       </a>
       <a href="{{ get_url(path='@/maps/_index.md') }}" class="nav-item">
-        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 6l6-3 6 3 6-3v15l-6 3-6-3-6 3V6z"/><path d="M9 3v15"/><path d="M15 6v15"/></svg> Archive Maps
+        <svg class="nav-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 6l6-3 6 3 6-3v15l-6 3-6-3-6 3V6z"/><path d="M9 3v15"/><path d="M15 6v15"/></svg> Archive Maps
       </a>
       <a href="{{ get_url(path='@/skills/_index.md') }}" class="nav-item">
-        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> Skills
+        <svg class="nav-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> Skills
       </a>
       <a href="{{ get_url(path='@/recipes/_index.md') }}" class="nav-item">
-        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/><path d="M8 7h8"/><path d="M8 11h8"/><path d="M8 15h4"/></svg> Recipe Books
+        <svg class="nav-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/><path d="M8 7h8"/><path d="M8 11h8"/><path d="M8 15h4"/></svg> Recipe Books
       </a>
       <a href="{{ get_url(path='@/landing-points/_index.md') }}" class="nav-item">
-        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"/><circle cx="12" cy="10" r="3"/></svg> Landing Points
+        <svg class="nav-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"/><circle cx="12" cy="10" r="3"/></svg> Landing Points
       </a>
       <a href="{{ get_url(path='@/jobs/_index.md') }}" class="nav-item">
-        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M5 20c0-4.4 3.6-8 7-8s7 3.6 7 8"/></svg> Jobs
+        <svg class="nav-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M5 20c0-4.4 3.6-8 7-8s7 3.6 7 8"/></svg> Jobs
       </a>
       <a href="{{ get_url(path='@/equipment/_index.md') }}" class="nav-item">
-        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/><path d="M9 12h6"/><path d="M9 16h6"/></svg> Equipment
+        <svg class="nav-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/><path d="M9 12h6"/><path d="M9 16h6"/></svg> Equipment
       </a>
 
-      <div class="nav-section">ARCHIVE</div>
+      <h2 class="nav-section">Archive</h2>
       <a href="{{ get_url(path='@/discoveries/_index.md') }}" class="nav-item">
-        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg> Discoveries
+        <svg class="nav-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg> Discoveries
       </a>
       <a href="{{ get_url(path='@/aides/_index.md') }}" class="nav-item">
-        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M15 14.5c3 0 6 2 6 5.5"/></svg> Aides
+        <svg class="nav-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M15 14.5c3 0 6 2 6 5.5"/></svg> Aides
       </a>
       <a href="{{ get_url(path='@/items/_index.md') }}" class="nav-item">
-        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="4" y="7" width="16" height="13" rx="1"/><path d="M4 11h16"/><path d="M9 7V4h6v3"/></svg> Items
+        <svg class="nav-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="4" y="7" width="16" height="13" rx="1"/><path d="M4 11h16"/><path d="M9 7V4h6v3"/></svg> Items
       </a>
       <a href="{{ get_url(path='@/ship-parts/_index.md') }}" class="nav-item">
-        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4M5 5l3 3M16 16l3 3M5 19l3-3M16 8l3-3"/></svg> Ship Parts
+        <svg class="nav-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4M5 5l3 3M16 16l3 3M5 19l3-3M16 8l3-3"/></svg> Ship Parts
       </a>
       <a href="{{ get_url(path='@/furnishings/_index.md') }}" class="nav-item">
-        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 11V7a7 7 0 0 1 14 0v4"/><path d="M3 11h18v5H3z"/><path d="M5 16v4M19 16v4"/></svg> Furnishings
+        <svg class="nav-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 11V7a7 7 0 0 1 14 0v4"/><path d="M3 11h18v5H3z"/><path d="M5 16v4M19 16v4"/></svg> Furnishings
       </a>
       <a href="{{ get_url(path='@/pets/_index.md') }}" class="nav-item">
-        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="7" cy="9" r="2"/><circle cx="17" cy="9" r="2"/><circle cx="10" cy="5" r="2"/><circle cx="14" cy="5" r="2"/><path d="M8 18c0-3 2-6 4-6s4 3 4 6c0 2-8 2-8 0z"/></svg> Pets
+        <svg class="nav-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="7" cy="9" r="2"/><circle cx="17" cy="9" r="2"/><circle cx="10" cy="5" r="2"/><circle cx="14" cy="5" r="2"/><path d="M8 18c0-3 2-6 4-6s4 3 4 6c0 2-8 2-8 0z"/></svg> Pets
       </a>
       <a href="{{ get_url(path='@/zones/_index.md') }}" class="nav-item">
-        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 6l6-3 6 3 6-3v15l-6 3-6-3-6 3V6z"/></svg> Zones
+        <svg class="nav-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 6l6-3 6 3 6-3v15l-6 3-6-3-6 3V6z"/></svg> Zones
       </a>
       <a href="{{ get_url(path='@/guides/_index.md') }}" class="nav-item">
-        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 4h7a3 3 0 0 1 3 3v13a2 2 0 0 0-2-2H2z"/><path d="M22 4h-7a3 3 0 0 0-3 3v13a2 2 0 0 1 2-2h8z"/></svg> Guides
+        <svg class="nav-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 4h7a3 3 0 0 1 3 3v13a2 2 0 0 0-2-2H2z"/><path d="M22 4h-7a3 3 0 0 0-3 3v13a2 2 0 0 1 2-2h8z"/></svg> Guides
       </a>
 
-      <div class="nav-section">TOOLS</div>
+      <h2 class="nav-section">Tools</h2>
       <a href="{{ get_url(path='@/tools/planner.md') }}" class="nav-item">
-        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 20V10"/><path d="M10 20V4"/><path d="M16 20v-7"/><path d="M22 20H2"/></svg> Skill Planner
+        <svg class="nav-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 20V10"/><path d="M10 20V4"/><path d="M16 20v-7"/><path d="M22 20H2"/></svg> Skill Planner
       </a>
       <a href="{{ get_url(path='@/tools/adventurer-search.md') }}" class="nav-item">
-        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/><path d="M11 8v6"/><path d="M8 11h6"/></svg> Adventurer Search
+        <svg class="nav-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/><path d="M11 8v6"/><path d="M8 11h6"/></svg> Adventurer Search
       </a>
       {#
       <a href="/discoveries" class="nav-item">
@@ -103,30 +104,31 @@
     </nav>
   </aside>
 
-  <main class="main">
+  <div class="main">
     <header class="header">
       <button type="button" class="menu-toggle" id="menu-toggle" aria-label="Open menu" aria-controls="sidebar" aria-expanded="false">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true" focusable="false"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
       </button>
       <a href="{{ get_url(path='@/_index.md') }}" class="mobile-logo">UWO Wiki</a>
-      <div class="beta-notice">
+      <div class="beta-notice" role="note">
         <span class="beta-badge">BETA</span>
         <span class="beta-text">This website is currently in beta</span>
       </div>
       {#- full-text search; the index is built after `zola build` by Pagefind (see .github/workflows/deploy.yml) -#}
-      <div id="site-search" class="site-search"></div>
+      <div id="site-search" class="site-search" role="search" aria-label="Site"></div>
     </header>
 
     {#- only detail pages are indexed; list pages would match every search -#}
-    <div{% if page %} data-pagefind-body data-pagefind-filter="Section:{{ page.components | first | replace(from="-", to=" ") | title }}"{% endif %}>
+    <main id="main-content" tabindex="-1"{% if page %} data-pagefind-body data-pagefind-filter="Section:{{ page.components | first | replace(from="-", to=" ") | title }}"{% endif %}>
       {% block content %}{% endblock %}
-    </div>
-  </main>
+    </main>
+  </div>
 
   <div class="nav-backdrop" id="nav-backdrop" hidden></div>
 
   <script src="{{ get_url(path='js/mobile.js') }}"></script>
   <script src="{{ get_url(path='js/app.js') }}"></script>
+  <script src="{{ get_url(path='js/a11y.js') }}"></script>
   <script src="{{ get_url(path='pagefind/pagefind-ui.js') }}"></script>
   <script>
     window.addEventListener('DOMContentLoaded', () => {

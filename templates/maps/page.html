@@ -12,14 +12,14 @@
 {% set items = "archive_ids,equipment,items,trade-goods,ship-parts,furnishings,pets,recipes" %}
 <article class="detail-page map-detail">
   <header class="detail-header">
-    <nav class="breadcrumb">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
       <a href="{{ get_url(path='maps') }}/">Archive Maps</a>{% if m and m.category %} / {{ m.category }}{% endif %}
     </nav>
     <h1>{{ page.title }}</h1>
     <div class="detail-meta">
       {% if m and m.category %}<span class="skill-badge">{{ m.category }}</span>{% endif %}
       {% if m and m.pull %}<span class="badge badge-pull" title="Needed to take the map from the archive (player-reported)">Pull: {{ m.pull }}</span>{% endif %}
-      <a href="https://dhodb.ivyro.net/eg/main.php?id={{ aid }}" target="_blank" rel="noopener" class="source-link" data-pagefind-ignore>Source #{{ aid }}</a>
+      <a href="https://dhodb.ivyro.net/eg/main.php?id={{ aid }}" target="_blank" rel="noopener" class="source-link" data-pagefind-ignore>Source #{{ aid }}<span class="sr-only"> on the original UWO Database (opens in a new tab)</span></a>
     </div>
   </header>
 

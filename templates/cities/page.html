@@ -12,12 +12,12 @@
 {% set map_extras = load_data(path="data/map_extras.json") %}
 
 <article class="city-page">
-<div class="breadcrumb">
+<nav class="breadcrumb" aria-label="Breadcrumb">
   <a href="{{ config.base_url }}/cities/">Cities</a> /
   <span>{{ page.extra.region }}</span> /
   <span>{{ page.extra.culture_area }}</span> /
-  <strong>{{ page.title | upper }}</strong>
-</div>
+  <strong aria-current="page">{{ page.title }}</strong>
+</nav>
   <header class="city-hero">
     <div class="city-hero-content">
       <div class="city-badges">
@@ -59,9 +59,9 @@
 
   <div class="city-tabs">
     <div class="tab-buttons">
-      <button class="tab-btn active" data-tab="trade">Trade Goods</button>
-      <button class="tab-btn" data-tab="quests">Quests <span class="tab-count">{{ quests | length }}</span></button>
-      <button class="tab-btn" data-tab="maps">Archive Maps <span class="tab-count">{{ maps | length }}</span></button>
+      <button type="button" class="tab-btn active" data-tab="trade">Trade Goods</button>
+      <button type="button" class="tab-btn" data-tab="quests">Quests <span class="tab-count">{{ quests | length }}</span></button>
+      <button type="button" class="tab-btn" data-tab="maps">Archive Maps <span class="tab-count">{{ maps | length }}</span></button>
     </div>
 
     <!-- Trade Goods Tab -->
@@ -100,8 +100,8 @@
           {% endif %}
         </section>
 
-        <aside class="city-info-sidebar">
-          <h3>Port Info</h3>
+        <section class="city-info-sidebar" aria-labelledby="port-info-heading">
+          <h3 id="port-info-heading">Port Info</h3>
           <dl class="port-info-list">
             <div class="port-info-row">
               <dt>Region</dt>
@@ -116,7 +116,7 @@
               <dd>{{ page.extra.language }}</dd>
             </div>
           </dl>
-        </aside>
+        </section>
       </div>
     </div>
 
@@ -124,18 +124,18 @@
     <div class="tab-content" id="quests-tab">
       {% if quests | length > 0 %}
       <div class="filter-bar">
-        <input type="text" id="quest-search" class="filter-input" placeholder="Search quests...">
-        <select id="quest-type-filter" class="filter-select">
+        <input type="text" id="quest-search" class="filter-input" placeholder="Search quests..." aria-label="Search quests">
+        <select id="quest-type-filter" class="filter-select" aria-label="Quest type">
           <option value="">All Types</option>
           <option value="Adventure">Adventure</option>
           <option value="Merchant">Merchant</option>
           <option value="Maritime">Maritime</option>
         </select>
-        <select id="quest-skill-filter" class="filter-select">
+        <select id="quest-skill-filter" class="filter-select" aria-label="Quest skill">
           <option value="">Any Skill</option>
         </select>
         <div class="filter-group">
-          <label class="filter-label">Max Rank</label>
+          <label class="filter-label" for="quest-max-rank">Max Rank</label>
           <input type="number" id="quest-max-rank" class="filter-input filter-number" min="1" max="20" placeholder="∞">
         </div>
       </div>
@@ -179,12 +179,12 @@
     <div class="tab-content" id="maps-tab">
       {% if maps | length > 0 %}
       <div class="filter-bar">
-        <input type="text" id="map-search" class="filter-input" placeholder="Search maps...">
-        <select id="map-skill-filter" class="filter-select">
+        <input type="text" id="map-search" class="filter-input" placeholder="Search maps..." aria-label="Search maps">
+        <select id="map-skill-filter" class="filter-select" aria-label="Map skill">
           <option value="">Any Skill</option>
         </select>
         <div class="filter-group">
-          <label class="filter-label">Max Rank</label>
+          <label class="filter-label" for="map-max-rank">Max Rank</label>
           <input type="number" id="map-max-rank" class="filter-input filter-number" min="1" max="20" placeholder="∞">
         </div>
       </div>

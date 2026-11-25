@@ -10,11 +10,11 @@
   </header>
 
   <div class="filter-bar">
-    <input type="text" class="filter-input" id="goods-search" placeholder="Search goods...">
-    <select class="filter-select" id="category-filter">
+    <input type="text" class="filter-input" id="goods-search" placeholder="Search goods..." aria-label="Search goods">
+    <select class="filter-select" id="category-filter" aria-label="Category">
       <option value="">All Categories</option>
     </select>
-    <select class="filter-select" id="source-filter">
+    <select class="filter-select" id="source-filter" aria-label="Source">
       <option value="">All Sources</option>
       <option value="port">Available at Ports</option>
       <option value="collection">Collection</option>
@@ -33,7 +33,7 @@
       <div class="goods-card-header">
         <span class="goods-category">{{ page.extra.category | default(value="Gathered") }}</span>
       </div>
-      <h3>{{ page.title }}</h3>
+      <h2>{{ page.title }}</h2>
       <div class="card-meta">
         {% if page.extra.ports and page.extra.ports | length > 0 %}
         <span class="badge">{{ page.extra.ports | length }} Ports</span>

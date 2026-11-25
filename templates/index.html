@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 
+{% block title %}{{ config.title }}{% endblock %}
+
 {% block content %}
 <section class="hero">
   <div class="hero-label">COMMUNITY DATABASE · UNCHARTED WATERS ONLINE</div>
@@ -14,56 +16,56 @@
   
   <div class="browse-cards">
     <a href="{{ config.base_url }}/ships/" class="card">
-      <span class="card-icon">⛵</span>
+      <span class="card-icon" aria-hidden="true">⛵</span>
       <h3>Ships</h3>
       <p class="card-sub">Battle · Trade · Adventure</p>
       <div class="card-footer">
-        <span class="card-arrow">→</span>
+        <span class="card-arrow" aria-hidden="true">→</span>
       </div>
     </a>
 
     <a href="{{ config.base_url }}/equipment/" class="card">
-      <span class="card-icon">🛡️</span>
+      <span class="card-icon" aria-hidden="true">🛡️</span>
       <h3>Equipment</h3>
       <p class="card-sub">Sailor gear · Stats · Effects</p>
       <div class="card-footer">
-        <span class="card-arrow">→</span>
+        <span class="card-arrow" aria-hidden="true">→</span>
       </div>
     </a>
 
     <a href="{{ config.base_url }}/skills/" class="card">
-      <span class="card-icon">⭐</span>
+      <span class="card-icon" aria-hidden="true">⭐</span>
       <h3>Skills</h3>
       <p class="card-sub">Adventure · Trade · Maritime</p>
       <div class="card-footer">
-        <span class="card-arrow">→</span>
+        <span class="card-arrow" aria-hidden="true">→</span>
       </div>
     </a>
 
     <a href="{{ config.base_url }}/trade-goods/" class="card">
-      <span class="card-icon">📦</span>
+      <span class="card-icon" aria-hidden="true">📦</span>
       <h3>Trade Goods</h3>
       <p class="card-sub">Ports · Collection · Procurement</p>
       <div class="card-footer">
-        <span class="card-arrow">→</span>
+        <span class="card-arrow" aria-hidden="true">→</span>
       </div>
     </a>
 
     <a href="{{ config.base_url }}/landing-points/" class="card">
-      <span class="card-icon">📍</span>
+      <span class="card-icon" aria-hidden="true">📍</span>
       <h3>Landing Points</h3>
       <p class="card-sub">Gathering locations · Quests</p>
       <div class="card-footer">
-        <span class="card-arrow">→</span>
+        <span class="card-arrow" aria-hidden="true">→</span>
       </div>
     </a>
 
     <a href="{{ config.base_url }}/quests/" class="card">
-      <span class="card-icon">📜</span>
+      <span class="card-icon" aria-hidden="true">📜</span>
       <h3>Quests</h3>
       <p class="card-sub">Adventure · Discovery · Chain</p>
       <div class="card-footer">
-        <span class="card-arrow">→</span>
+        <span class="card-arrow" aria-hidden="true">→</span>
       </div>
     </a>
   </div>

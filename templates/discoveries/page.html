@@ -11,14 +11,14 @@
 {% set items = "archive_ids,equipment,items,trade-goods,ship-parts,furnishings,pets,recipes" %}
 <article class="detail-page discovery-detail">
   <header class="detail-header">
-    <nav class="breadcrumb">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
       <a href="{{ get_url(path='discoveries') }}/">Discoveries</a>{% if d.category %} / {{ d.category }}{% endif %}
     </nav>
     <h1>{{ page.title }}</h1>
     <div class="detail-meta">
       {% if d.category %}<span class="skill-badge">{{ d.category }}</span>{% endif %}
       {% if d.stars %}<span class="disc-stars" title="Rarity: {{ d.stars }} star{{ d.stars | pluralize }}">{% for i in range(end=d.stars) %}★{% endfor %}</span>{% endif %}
-      <a href="https://dhodb.ivyro.net/eg/main.php?id={{ page.extra.archive_id }}" target="_blank" rel="noopener" class="source-link" data-pagefind-ignore>Source #{{ page.extra.archive_id }}</a>
+      <a href="https://dhodb.ivyro.net/eg/main.php?id={{ page.extra.archive_id }}" target="_blank" rel="noopener" class="source-link" data-pagefind-ignore>Source #{{ page.extra.archive_id }}<span class="sr-only"> on the original UWO Database (opens in a new tab)</span></a>
       <button type="button" class="found-toggle" id="found-toggle" data-id="{{ page.extra.archive_id }}" data-pagefind-ignore hidden>Mark as found</button>
     </div>
   </header>
@@ -107,6 +107,7 @@
     const on = UWOTracker.has(btn.dataset.id);
     btn.textContent = on ? '✓ Found' : 'Mark as found';
     btn.classList.toggle('is-found', on);
+    btn.setAttribute('aria-pressed', on);
     btn.title = on ? 'Click to unmark (saved in this browser)' : 'Track your discoveries (saved in this browser)';
   };
   btn.hidden = false;

@@ -9,35 +9,35 @@
   <p class="page-subtitle">Find cities with quests and maps for your skill level</p>
 </section>
 
-<div class="search-bar-full">
+<div class="search-bar-full" role="search" aria-label="Adventurer">
   <div class="search-controls">
     <div class="search-field">
-      <label class="search-label">Skill</label>
+      <label class="search-label" for="skill-select">Skill</label>
       <select id="skill-select" class="filter-select search-select">
         <option value="">Select a skill...</option>
       </select>
     </div>
     <div class="search-field">
-      <label class="search-label">Max Rank</label>
+      <label class="search-label" for="max-rank">Max Rank</label>
       <input type="number" id="max-rank" class="filter-input search-number" min="1" max="20" value="5" placeholder="5">
     </div>
     <div class="search-field">
-      <label class="search-label">Show</label>
+      <label class="search-label" for="content-type">Show</label>
       <select id="content-type" class="filter-select">
         <option value="all">All</option>
         <option value="quests">Quests Only</option>
         <option value="maps">Maps Only</option>
       </select>
     </div>
-    <button class="btn-search" id="search-btn">Search</button>
+    <button type="button" class="btn-search" id="search-btn">Search</button>
   </div>
 </div>
 
 <div class="results-toolbar" id="results-toolbar" style="display:none">
-  <div class="results-summary">
+  <div class="results-summary" role="status">
     <span id="results-count">0 cities</span> with matching content
   </div>
-  <div class="city-filters" id="city-filters"></div>
+  <div class="city-filters" id="city-filters" role="group" aria-label="Show cities"></div>
 </div>
 
 <div id="results-container">
@@ -120,7 +120,7 @@ function doSearch() {
 
   if (!skill) {
     resultsContainer.innerHTML = `
-      <div class="placeholder-content">
+      <div class="placeholder-content" role="alert">
         <p class="placeholder-text">Please select a skill</p>
       </div>`;
     resultsToolbar.style.display = 'none';
@@ -144,7 +144,7 @@ function doSearch() {
 
   if (cities.length === 0) {
     resultsContainer.innerHTML = `
-      <div class="placeholder-content">
+      <div class="placeholder-content" role="status">
         <p class="placeholder-text">No results found</p>
         <p class="placeholder-hint">No cities have ${skill} content at rank ${maxRank} or below</p>
       </div>`;
@@ -228,7 +228,7 @@ function doSearch() {
     });
 
     resultsContainer.innerHTML = html || `
-      <div class="placeholder-content">
+      <div class="placeholder-content" role="status">
         <p class="placeholder-text">All cities hidden</p>
         <p class="placeholder-hint">Enable some cities to see results</p>
       </div>`;

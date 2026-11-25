@@ -12,9 +12,9 @@
 
   {% set categories = section.pages | map(attribute="extra.category") | unique | sort %}
   <div class="filter-bar">
-    <input type="text" class="filter-input" id="archive-search" placeholder="Search {{ section.title | lower }}...">
+    <input type="text" class="filter-input" id="archive-search" placeholder="Search {{ section.title | lower }}..." aria-label="Search {{ section.title | lower }}">
     {% if categories | length > 1 %}
-    <select class="filter-select" id="archive-category">
+    <select class="filter-select" id="archive-category" aria-label="Type">
       <option value="">All types</option>
       {% for c in categories %}<option value="{{ c }}">{{ c }}</option>{% endfor %}
     </select>

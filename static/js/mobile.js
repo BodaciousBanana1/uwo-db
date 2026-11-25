@@ -14,17 +14,29 @@
     const backdrop = document.getElementById('nav-backdrop');
     const sidebar = document.getElementById('sidebar');
     if (!btn || !sidebar) return;
-    const set = open => {
+    const isOpen = () => document.body.classList.contains('nav-open');
+    // off-screen menu links stay out of the tab order and the accessibility tree (WCAG 2.4.3)
+    const syncInert = () => { sidebar.inert = small.matches && !isOpen(); };
+    const set = (open, { restoreFocus = false } = {}) => {
+      const was = isOpen();
       document.body.classList.toggle('nav-open', open);
       btn.setAttribute('aria-expanded', open);
       btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
       if (backdrop) backdrop.hidden = !open;
+      syncInert();
+      if (open && !was) (sidebar.querySelector('.nav-item.active') || sidebar.querySelector('a')).focus();
+      if (!open && was && restoreFocus) btn.focus();
     };
-    btn.addEventListener('click', () => set(!document.body.classList.contains('nav-open')));
-    if (backdrop) backdrop.addEventListener('click', () => set(false));
+    btn.addEventListener('click', () => set(!isOpen(), { restoreFocus: true }));
+    if (backdrop) backdrop.addEventListener('click', () => set(false, { restoreFocus: true }));
     sidebar.addEventListener('click', e => { if (e.target.closest('a')) set(false); });
-    document.addEventListener('keydown', e => { if (e.key === 'Escape') set(false); });
+    document.addEventListener('keydown', e => { if (e.key === 'Escape' && isOpen()) set(false, { restoreFocus: true }); });
+    // keep Tab inside the open drawer and its button
+    document.addEventListener('focusin', e => {
+      if (small.matches && isOpen() && !sidebar.contains(e.target) && e.target !== btn) set(false);
+    });
     small.addEventListener('change', () => set(false));
+    syncInert();
     // highlight the current section in the menu
     const path = location.pathname.replace(/\/+$/, '/');
     let best = null;
@@ -32,7 +44,10 @@
       const p = new URL(a.href, location.href).pathname.replace(/\/+$/, '/');
       if (path.startsWith(p) && (!best || p.length > best.p.length)) best = { a, p };
     }
-    if (best) best.a.classList.add('active');
+    if (best) {
+      best.a.classList.add('active');
+      best.a.setAttribute('aria-current', best.p === path ? 'page' : 'true');
+    }
   }
 
   // --- filter panels ---
@@ -41,6 +56,8 @@
       const btn = document.createElement('button');
       btn.type = 'button';
       btn.className = 'filter-toggle';
+      if (!panel.id) panel.id = 'filter-panel-' + document.querySelectorAll('.filter-toggle').length;
+      btn.setAttribute('aria-controls', panel.id);
       const label = panel.dataset.toggleLabel || 'Filters';
       const count = document.getElementById('visible-count');
       const render = () => {
@@ -49,7 +66,7 @@
         const n = count ? count.textContent.trim() : '';
         btn.innerHTML = `<span>${open ? 'Hide ' + label.toLowerCase() : label}</span>`
           + (n ? `<span class="filter-toggle-count">${/^\d+$/.test(n) ? n + ' shown' : n}</span>` : '')
-          + `<span class="filter-toggle-arrow">${open ? '▴' : '▾'}</span>`;
+          + `<span class="filter-toggle-arrow" aria-hidden="true">${open ? '▴' : '▾'}</span>`;
       };
       btn.addEventListener('click', () => {
         panel.classList.toggle('is-open');

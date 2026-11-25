@@ -6,7 +6,7 @@
 {% block content %}
 <article class="detail-page">
   <header class="detail-header">
-    <nav class="breadcrumb">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
       <a href="{{ config.base_url }}/quests/">Quests</a> / {{ page.extra.type | default(value="Quest") }}
     </nav>
     <h1>{{ page.title }}</h1>
@@ -15,7 +15,7 @@
       {% if page.extra.city %}
       <span class="meta-city">{{ link::to(secs="cities,zones", name=page.extra.city) }} {{ page.extra.guild_type }} Guild</span>
       {% endif %}
-      <a href="https://dhodb.ivyro.net/eg/main.php?id={{ page.extra.id }}" target="_blank" class="source-link">Source</a>
+      <a href="https://dhodb.ivyro.net/eg/main.php?id={{ page.extra.id }}" target="_blank" rel="noopener" class="source-link">Source<span class="sr-only"> on the original UWO Database (opens in a new tab)</span></a>
     </div>
   </header>
 

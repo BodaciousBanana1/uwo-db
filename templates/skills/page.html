@@ -7,7 +7,7 @@
 {% set all_equipment = load_data(path="data/equipment.json") %}
 <article class="detail-page">
   <header class="detail-header">
-    <nav class="breadcrumb">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
       <a href="{{ config.base_url }}/skills/">Skills</a> / {{ page.extra.category | default(value="Common") }}
     </nav>
     <h1>{{ page.title }}</h1>

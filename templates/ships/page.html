@@ -6,18 +6,19 @@
 {% block content %}
 <article class="ship-detail">
   <header class="detail-nav">
-    <div class="breadcrumb">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
       <a href="{{ config.base_url }}/ships/">SHIPS</a>
-      <span>/</span>
+      <span aria-hidden="true">/</span>
       <a href="{{ config.base_url }}/ships/?type={{ page.extra.ship_type }}">{{ page.extra.ship_type | upper }}</a>
-      <span>/</span>
+      <span aria-hidden="true">/</span>
       <span>{% if page.extra.size == "Lgt" %}LIGHT CLASS{% elif page.extra.size == "Std" %}STANDARD CLASS{% else %}HEAVY CLASS{% endif %}</span>
-      <span>/</span>
-      <span class="current">{{ page.title | upper }}</span>
-    </div>
+      <span aria-hidden="true">/</span>
+      <span class="current" aria-current="page">{{ page.title }}</span>
+    </nav>
     <div class="actions">
-      <button class="btn"><span>⊞</span> Compare</button>
-      <button class="btn"><span>↗</span> Share</button>
+      {#- Compare is not built yet; a button that does nothing misleads keyboard and screen-reader users -#}
+      <button type="button" class="btn" id="share-page"><span aria-hidden="true">↗</span> Share</button>
+      <span class="sr-only" role="status" id="share-status"></span>
       {# <a href="https://github.com/BodaciousBanana1/uwo-db/edit/main/content/ships/{{ page.slug }}.md" class="btn btn-primary" target="_blank"><span>✎</span> Suggest edit</a> #}
     </div>
   </header>
@@ -126,8 +127,8 @@
         </div>
 
         <div class="comments-tabs">
-          <button class="comment-tab active" data-tab="giscus">GitHub Login</button>
-          <button class="comment-tab" data-tab="anon">Anonymous</button>
+          <button type="button" class="comment-tab active" data-tab="giscus">GitHub Login</button>
+          <button type="button" class="comment-tab" data-tab="anon">Anonymous</button>
         </div>
 
         <div class="comment-panel active" id="giscus-panel">
@@ -230,4 +231,18 @@
   {% set archive_id = "5000" ~ page.extra.id | default(value="") | replace(from="ship_", to="") %}
   {% include "partials/archived_notes.html" %}
 </article>
+<script>
+document.getElementById('share-page').addEventListener('click', async () => {
+  const status = document.getElementById('share-status');
+  const data = { title: document.title, url: location.href };
+  try {
+    if (navigator.share) { await navigator.share(data); return; }
+    await navigator.clipboard.writeText(location.href);
+    status.textContent = 'Link copied to clipboard';
+  } catch (e) {
+    if (e.name !== 'AbortError') status.textContent = 'Could not share; copy the address bar instead';
+  }
+  setTimeout(() => { status.textContent = ''; }, 4000);
+});
+</script>
 {% endblock %}

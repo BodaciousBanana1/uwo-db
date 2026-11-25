@@ -10,7 +10,7 @@
   <aside class="filter-panel">
     <div class="filter-header">
       <span class="filter-title">FILTERS</span>
-      <button class="filter-reset" id="reset-filters">Reset</button>
+      <button type="button" class="filter-reset" id="reset-filters">Reset</button>
     </div>
 
     <div class="filter-section">
@@ -100,7 +100,7 @@
       <div class="city-card-header">
         <span class="badge badge-region">{{ page.extra.region | replace(from="Ocean", to="") | replace(from="Sea", to="") | truncate(length=18) }}</span>
       </div>
-      <h3 class="city-name">{{ page.title }}</h3>
+      <h2 class="city-name">{{ page.title }}</h2>
       <div class="city-quick-stats">
         <div class="quick-stat-row">
           <span class="qs-label">Culture</span>

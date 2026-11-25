@@ -10,8 +10,8 @@
   </header>
 
   <div class="filter-bar">
-    <input type="text" class="filter-input" id="book-search" placeholder="Search books...">
-    <select class="filter-select" id="skill-filter">
+    <input type="text" class="filter-input" id="book-search" placeholder="Search books..." aria-label="Search books">
+    <select class="filter-select" id="skill-filter" aria-label="Skill">
       <option value="">All Skills</option>
       <option value="cooking">Cooking</option>
       <option value="sewing">Sewing</option>
@@ -36,7 +36,7 @@
         <span class="rank-badge">Rank {{ page.extra.skill_rank }}+</span>
         {% endif %}
       </div>
-      <h3>{{ page.title }}</h3>
+      <h2>{{ page.title }}</h2>
       <p class="recipe-desc">{{ page.extra.description | truncate(length=80) }}</p>
       <div class="card-meta">
         <span class="badge">{{ page.extra.recipes | length }} Recipes</span>

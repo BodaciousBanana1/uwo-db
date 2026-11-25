@@ -15,7 +15,7 @@
   <aside class="filter-panel">
     <div class="filter-header">
       <span class="filter-title">FILTERS</span>
-      <button class="filter-reset" id="reset-filters">Reset</button>
+      <button type="button" class="filter-reset" id="reset-filters">Reset</button>
     </div>
 
     <div class="filter-section">
@@ -214,7 +214,7 @@ function filterMaps() {
       : UWO.link('items', name)).join(', ') || '-';
 
     const n = NOTE_COUNTS[m.id] || 0;
-    const notesBtn = n ? `<button class="notes-toggle" data-id="${m.id}" title="Archived player notes">💬 ${n}</button>` : '';
+    const notesBtn = n ? `<button type="button" class="notes-toggle" data-id="${m.id}" aria-expanded="false" aria-label="${n} archived player note${n === 1 ? '' : 's'} for ${UWO.esc(m.name || 'this map')}" title="Archived player notes"><span aria-hidden="true">💬 ${n}</span></button>` : '';
     return `<tr id="map-${m.id}"${m.id === focusId ? ' class="map-focus"' : ''}>
       <td class="item-name">${MAP_PAGES[m.id] ? `<a href="${BASE_URL}/maps/${MAP_PAGES[m.id]}/">${m.name || 'Map'}</a>` : (m.name || 'Map')}${notesBtn}</td>
       <td>${UWO.link('cities,zones', formatCity(m.city), {slug: m.city})}</td>
@@ -236,10 +236,13 @@ function escapeHtml(s) {
 async function toggleNotes(btn) {
   const row = btn.closest('tr');
   const next = row.nextElementSibling;
-  if (next && next.classList.contains('map-notes-row')) { next.remove(); return; }
+  if (next && next.classList.contains('map-notes-row')) { next.remove(); btn.setAttribute('aria-expanded', 'false'); return; }
   const notesRow = document.createElement('tr');
   notesRow.className = 'map-notes-row';
-  notesRow.innerHTML = `<td colspan="${row.children.length}">Loading notes…</td>`;
+  notesRow.id = `notes-${btn.dataset.id}`;
+  btn.setAttribute('aria-expanded', 'true');
+  btn.setAttribute('aria-controls', notesRow.id);
+  notesRow.innerHTML = `<td colspan="${row.children.length}" aria-live="polite">Loading notes…</td>`;
   row.after(notesRow);
   try {
     const res = await fetch(`${BASE_URL}/map-notes/${btn.dataset.id}.json`);
